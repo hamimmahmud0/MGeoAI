@@ -43,10 +43,22 @@ def score_pair(left: IncidentMention, right: IncidentMention, settings: Settings
         set(left.people + left.organizations), set(right.people + right.organizations)
     )
     vehicle_score = _jaccard(set(left.vehicles), set(right.vehicles))
-    # Exclude generic terms from lexical contribution.
-    generic = {"road", "accident", "road_crash", "crash", "fatal", "incident"}
-    left_lexical = set(left.lexical_features) - generic
-    right_lexical = set(right.lexical_features) - generic
+    left_countries = {
+        item for item in left.lexical_features if item.startswith("country:")
+    }
+    right_countries = {
+        item for item in right.lexical_features if item.startswith("country:")
+    }
+    if left_countries and right_countries and left_countries != right_countries:
+        hard_guard = "source-assigned incident countries conflict"
+    # Exclude generic and country-control terms from lexical contribution.
+    generic = {"road", "accident", "road_crash", "crash", "fatal", "incident", "unknown"}
+    left_lexical = {
+        item for item in left.lexical_features if item not in generic and not item.startswith("country:")
+    }
+    right_lexical = {
+        item for item in right.lexical_features if item not in generic and not item.startswith("country:")
+    }
     lexical_score = _jaccard(left_lexical, right_lexical)
     total = (
         0.30 * time_score

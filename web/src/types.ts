@@ -11,7 +11,7 @@ export type Incident = {
   sentiment: { items: SentimentItem[]; by_aspect: Record<string, Record<string, number>>; sample_size: number; traffic_relevant_count: number; coverage_note: string; notable_minority_views: string[] };
   unresolved_questions: string[]; data_quality_warnings: string[]; human_summary: string; generated_at: string; provider_run_id?: string;
 }
-export type Source = { source_id: string; source_type: string; publisher?: string; platform?: string; title?: string; local_path: string; independence: string; dependency_group?: string; ingest_warnings: string[]; linked_incident_ids: string[] }
+export type Source = { source_id: string; source_type: string; publisher?: string; platform?: string; title?: string; country?: string; country_code?: string; local_path: string; independence: string; dependency_group?: string; ingest_warnings: string[]; linked_incident_ids: string[] }
 export type Provenance = { source_path: string; locator_type: string; locator: string; block_id?: string; original_text?: string }
 export type SourceBlock = { block_id: string; source_id: string; kind: string; text: string; author?: string; url?: string; reactions?: number; locator: Provenance }
 export type SourceDetail = Source & { source_uri?: string; author?: string; published_at?: string; languages: string[]; content: string; blocks: SourceBlock[]; evidence: Evidence[] }
@@ -38,3 +38,10 @@ export type Submission = {
 }
 export type SubmissionInput = { submission_type: SubmissionType; package: File; submitter_name?: string }
 export type ReviewerSession = { username: string; csrf_token: string }
+export type CoverageProperties = {
+  iso2: string; iso3: string; country_name: string; primary_timezone: string;
+  geometry_role: 'collection_country_coverage_centroid'; is_incident_location: false;
+  accepted_sources: number; reviewed_multi_source_incidents: number;
+}
+export type CoverageFeature = Omit<GeoJSON.Feature<GeoJSON.Point>, 'properties'> & { properties: CoverageProperties }
+export type CoverageCollection = Omit<GeoJSON.FeatureCollection<GeoJSON.Point>, 'features'> & { features: CoverageFeature[] }

@@ -56,6 +56,31 @@ def test_api_bbox_geojson_and_unmapped_access(demo_dir: Path) -> None:
     assert any(not item["mapped"] for item in page["items"])
 
 
+def test_api_serves_explicit_non_incident_coverage_geojson(demo_dir: Path) -> None:
+    coverage = {
+        "type": "FeatureCollection",
+        "name": "Publisher coverage, not incident locations",
+        "features": [
+            {
+                "type": "Feature",
+                "geometry": {"type": "Point", "coordinates": [90.3563, 23.685]},
+                "properties": {
+                    "iso3": "BGD",
+                    "country_name": "Bangladesh",
+                    "accepted_sources": 10,
+                    "is_incident_location": False,
+                },
+            }
+        ],
+    }
+    (demo_dir / "coverage.geojson").write_text(json.dumps(coverage), encoding="utf-8")
+    response = TestClient(create_app(demo_dir)).get("/api/coverage.geojson")
+    assert response.status_code == 200
+    feature = response.json()["features"][0]
+    assert feature["properties"]["accepted_sources"] == 10
+    assert feature["properties"]["is_incident_location"] is False
+
+
 def test_health_sources_and_runs(demo_dir: Path) -> None:
     client = TestClient(create_app(demo_dir))
     assert client.get("/openapi.json").json()["info"]["title"] == "MGeoAI API"

@@ -166,6 +166,51 @@ def test_unrecognized_html_incident_remains_reviewable_and_unmapped() -> None:
     assert "Location unresolved" in mention.uncertainty
 
 
+def test_unmapped_international_reports_use_distinctive_title_not_unknown_token() -> None:
+    source = SourceRecord(
+        source_id="src_us",
+        source_type=SourceType.NEWS_HTML,
+        local_path="us.html",
+        content_hash="1" * 64,
+        title="Tour bus overturns near Grand Canyon, five injured",
+        publisher="Example News",
+        country="United States",
+        country_code="USA",
+        source_metadata={"traffic_incident": True, "traffic_keywords": ["traffic crash"]},
+    )
+    mention = split_mentions(
+        source,
+        [make_evidence(source.source_id, source.title or "", "us")],
+    )[0]
+    assert "unknown" not in mention.lexical_features
+    assert "country:USA" in mention.lexical_features
+    assert {"tour", "overturns", "grand", "canyon"}.issubset(mention.lexical_features)
+
+
+def test_unmapped_reports_from_different_countries_trigger_hard_guard() -> None:
+    def international(source_id: str, country: str, code: str) -> IncidentMention:
+        source = SourceRecord(
+            source_id=source_id,
+            source_type=SourceType.NEWS_HTML,
+            local_path=f"{source_id}.html",
+            content_hash=source_id * 64,
+            title="Tour bus overturns near Grand Canyon, five injured",
+            country=country,
+            country_code=code,
+            source_metadata={"traffic_incident": True, "traffic_keywords": ["traffic crash"]},
+        )
+        return split_mentions(
+            source,
+            [make_evidence(source.source_id, source.title or "", source_id)],
+        )[0]
+
+    left = international("a", "United States", "USA")
+    right = international("b", "Canada", "CAN")
+    features = score_pair(left, right, Settings())
+    assert features.hard_guard == "source-assigned incident countries conflict"
+    assert features.total_score == 0
+
+
 def test_different_specific_locations_trigger_hard_guard() -> None:
     source_a = SourceRecord(
         source_id="a", source_type=SourceType.NEWS_HTML, local_path="a", content_hash="a" * 64

@@ -1,11 +1,14 @@
 from __future__ import annotations
 
+import json
 import re
 from collections.abc import Iterable
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
+from typing import Any
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 from bs4 import BeautifulSoup, Tag
 from dateutil import parser as date_parser
@@ -57,10 +60,71 @@ class ParsedHtml:
     blocks: list[ParsedBlock]
 
 
-def _source_info(path: Path | None) -> tuple[str | None, str | None, dict[str, str]]:
+MACHINE_METADATA_FIELDS = {
+    "languages",
+    "timezone",
+    "country",
+    "country_code",
+    "published_at",
+    "published_time",
+    "traffic_incident",
+    "traffic_keywords",
+}
+LANGUAGE_TAG_RE = re.compile(r"^[A-Za-z]{2,8}(?:-[A-Za-z0-9]{1,8})*$")
+
+
+def _metadata_value(value: str) -> Any:
+    value = value.strip()
+    try:
+        return json.loads(value)
+    except json.JSONDecodeError:
+        if value.casefold() in {"true", "false"}:
+            return value.casefold() == "true"
+        return value.strip("'\"")
+
+
+def _machine_metadata(text: str) -> dict[str, Any]:
+    """Read the optional JSON-valued front matter at the start of SOURCE_INFO.md."""
+    stripped = text.lstrip("\ufeff\n\r ")
+    raw: dict[str, Any] = {}
+    if stripped.startswith("{"):
+        try:
+            candidate, _ = json.JSONDecoder().raw_decode(stripped)
+            if isinstance(candidate, dict):
+                raw = candidate.get("mgeoai", candidate)
+        except json.JSONDecodeError:
+            pass
+    elif stripped.startswith("---"):
+        _, separator, remainder = stripped.partition("\n")
+        if separator:
+            front_matter, closing, _ = remainder.partition("\n---")
+            if closing:
+                for line in front_matter.splitlines():
+                    if not line.strip() or line.lstrip().startswith("#") or ":" not in line:
+                        continue
+                    key, value = line.split(":", 1)
+                    raw[key.strip()] = _metadata_value(value)
+    metadata = raw.get("mgeoai", raw) if isinstance(raw, dict) else {}
+    return {
+        str(key): value
+        for key, value in metadata.items()
+        if str(key) in MACHINE_METADATA_FIELDS
+    }
+
+
+def _string_list(value: Any) -> list[str]:
+    values = value if isinstance(value, list) else str(value).split(",") if value else []
+    return [str(item).strip() for item in values if str(item).strip()]
+
+
+def _source_info(
+    path: Path | None,
+) -> tuple[str | None, str | None, dict[str, Any], list[str]]:
     if not path or not path.exists():
-        return None, None, {}
+        return None, None, {}, []
     text = path.read_text(encoding="utf-8", errors="replace")
+    machine = _machine_metadata(text)
+    warnings: list[str] = []
     uri_match = re.search(r"(?:news link:\s*)?(https?://\S+)", text, re.I)
     uri = uri_match.group(1).rstrip(" )") if uri_match else None
     page_match = re.search(r"Page name:\s*`?([^`\n]+)", text, re.I)
@@ -70,7 +134,44 @@ def _source_info(path: Path | None) -> tuple[str | None, str | None, dict[str, s
         publisher = source_match.group(1).strip()
     if not publisher and uri:
         publisher = urlparse(uri).netloc.removeprefix("www.")
-    return uri, publisher, {"source_info_path": str(path), "source_info_hash": stable_hash(text)}
+    metadata: dict[str, Any] = {
+        "source_info_path": str(path),
+        "source_info_hash": stable_hash(text),
+    }
+    languages = _string_list(machine.get("languages"))
+    invalid_languages = [item for item in languages if not LANGUAGE_TAG_RE.fullmatch(item)]
+    if invalid_languages:
+        warnings.append(f"Invalid language tag(s) in SOURCE_INFO metadata: {invalid_languages}")
+    languages = [item for item in languages if LANGUAGE_TAG_RE.fullmatch(item)]
+    if languages:
+        metadata["languages"] = languages
+    timezone = machine.get("timezone")
+    if timezone:
+        try:
+            ZoneInfo(str(timezone))
+            metadata["timezone"] = str(timezone)
+        except (ValueError, ZoneInfoNotFoundError):
+            warnings.append(f"Invalid IANA timezone in SOURCE_INFO metadata: {timezone}")
+    country = machine.get("country")
+    if country:
+        metadata["country"] = str(country).strip()
+    country_code = str(machine.get("country_code", "")).strip().upper()
+    if country_code:
+        if re.fullmatch(r"[A-Z]{2,3}", country_code):
+            metadata["country_code"] = country_code
+        else:
+            warnings.append(
+                f"Invalid ISO 3166-1 alpha-2/alpha-3 country code: {country_code}"
+            )
+    published = machine.get("published_at", machine.get("published_time"))
+    if published:
+        metadata["published_at"] = str(published)
+    if isinstance(machine.get("traffic_incident"), bool):
+        metadata["traffic_incident"] = machine["traffic_incident"]
+    keywords = _string_list(machine.get("traffic_keywords"))
+    if keywords:
+        metadata["traffic_keywords"] = keywords
+    return uri, publisher, metadata, warnings
 
 
 def _clean_candidate(text: str) -> str | None:
@@ -107,7 +208,11 @@ def _selector(tag: Tag) -> str:
     return " > ".join(reversed(parts))
 
 
-def _candidate_tags(soup: BeautifulSoup) -> Iterable[tuple[Tag, str]]:
+def _candidate_tags(
+    soup: BeautifulSoup,
+    traffic_keywords: list[str] | None = None,
+    traffic_incident: bool = False,
+) -> Iterable[tuple[Tag, str]]:
     seen: set[str] = set()
     selectors = "h1,h2,h3,article p,main p,[role='article'] div[dir='auto'],p,figcaption,time"
     for tag in soup.select(selectors):
@@ -127,7 +232,16 @@ def _candidate_tags(soup: BeautifulSoup) -> Iterable[tuple[Tag, str]]:
         if not isinstance(parent, Tag) or parent.name in {"script", "style", "svg", "noscript"}:
             continue
         text = _clean_candidate(str(string))
-        if not text or len(text) < 45 or not TRAFFIC_TEXT_RE.search(text) or text in seen:
+        if not text:
+            continue
+        configured_match = any(
+            keyword.casefold() in text.casefold() for keyword in (traffic_keywords or [])
+        )
+        if (
+            len(text) < 45
+            or (not traffic_incident and not TRAFFIC_TEXT_RE.search(text) and not configured_match)
+            or text in seen
+        ):
             continue
         seen.add(text)
         yield parent, text
@@ -157,6 +271,36 @@ def _parse_date(blocks: list[ParsedBlock]) -> datetime | None:
     return None
 
 
+def _metadata_date(metadata: dict[str, Any], warnings: list[str]) -> datetime | None:
+    value = metadata.get("published_at")
+    if not value:
+        return None
+    try:
+        parsed = date_parser.isoparse(str(value))
+    except (ValueError, OverflowError):
+        warnings.append(f"Invalid published_at in SOURCE_INFO metadata: {value}")
+        return None
+    timezone = metadata.get("timezone")
+    if parsed.tzinfo is None and timezone:
+        parsed = parsed.replace(tzinfo=ZoneInfo(str(timezone)))
+    return parsed
+
+
+def _html_languages(soup: BeautifulSoup) -> list[str]:
+    candidates: list[str] = []
+    html = soup.find("html")
+    if isinstance(html, Tag) and html.get("lang"):
+        candidates.append(str(html.get("lang")))
+    for meta in soup.select("meta[name='language'],meta[http-equiv='content-language']"):
+        if meta.get("content"):
+            candidates.extend(str(meta.get("content")).split(","))
+    return [
+        value.strip()
+        for value in candidates
+        if value.strip() and LANGUAGE_TAG_RE.fullmatch(value.strip())
+    ]
+
+
 def parse_html(path: Path, relative_path: str, source_info_path: Path | None = None) -> ParsedHtml:
     raw = path.read_bytes()
     content_hash = stable_hash(raw, 64)
@@ -165,7 +309,11 @@ def parse_html(path: Path, relative_path: str, source_info_path: Path | None = N
     soup = BeautifulSoup(text, "html.parser")
     for node in soup(["script", "style", "svg", "noscript", "template"]):
         node.decompose()
-    uri, publisher, metadata = _source_info(source_info_path)
+    uri, publisher, metadata, warnings = _source_info(source_info_path)
+    if source_info_path and source_info_path.exists():
+        metadata["source_info_path"] = (
+            Path(relative_path).parent / source_info_path.name
+        ).as_posix()
     title_tag = soup.find("h1") or soup.find("title")
     title = _clean_candidate(title_tag.get_text(" ", strip=True)) if title_tag else None
     is_facebook = (
@@ -173,8 +321,11 @@ def parse_html(path: Path, relative_path: str, source_info_path: Path | None = N
         or "Facebook" in text[:5000]
     )
     blocks: list[ParsedBlock] = []
-    warnings: list[str] = []
-    for index, (tag, candidate) in enumerate(_candidate_tags(soup), start=1):
+    traffic_keywords = _string_list(metadata.get("traffic_keywords"))
+    traffic_incident = metadata.get("traffic_incident") is True
+    for index, (tag, candidate) in enumerate(
+        _candidate_tags(soup, traffic_keywords, traffic_incident), start=1
+    ):
         kind = _guess_kind(tag, candidate, index)
         block_id = stable_id("blk", source_id, kind, candidate)
         blocks.append(
@@ -196,6 +347,7 @@ def parse_html(path: Path, relative_path: str, source_info_path: Path | None = N
         warnings.append("No model-readable content blocks extracted")
     if title is None and blocks:
         title = blocks[0].text[:240]
+    published_at = _metadata_date(metadata, warnings) or _parse_date(blocks)
     source = SourceRecord(
         source_id=source_id,
         source_type=SourceType.FACEBOOK_HTML if is_facebook else SourceType.NEWS_HTML,
@@ -204,9 +356,11 @@ def parse_html(path: Path, relative_path: str, source_info_path: Path | None = N
         source_uri=uri,
         local_path=relative_path,
         content_hash=content_hash,
-        published_at=_parse_date(blocks),
-        timezone="Asia/Dhaka" if _parse_date(blocks) else None,
-        languages=["bn", "en"],
+        published_at=published_at,
+        timezone=str(metadata["timezone"]) if metadata.get("timezone") else None,
+        languages=_string_list(metadata.get("languages")) or _html_languages(soup),
+        country=str(metadata["country"]) if metadata.get("country") else None,
+        country_code=str(metadata["country_code"]) if metadata.get("country_code") else None,
         title=title,
         source_metadata=metadata,
         ingest_warnings=warnings,

@@ -9,6 +9,12 @@ import typer
 from traffic_fusion import __version__
 from traffic_fusion.api.moderation import hash_reviewer_password
 from traffic_fusion.config import Settings
+from traffic_fusion.corpus.build import build_corpus, load_candidates
+from traffic_fusion.corpus.discovery import load_country_profiles
+from traffic_fusion.corpus.materialize import materialize_corpus
+from traffic_fusion.corpus.reporting import render_validation_report
+from traffic_fusion.corpus.store import CorpusStore
+from traffic_fusion.corpus.validation import validate_corpus
 from traffic_fusion.evaluation import extraction_coverage, matching_metrics
 from traffic_fusion.ingest.discovery import write_manifest
 from traffic_fusion.models import FusedIncident, MatchDecision
@@ -52,6 +58,40 @@ def ingest(input_dir: Path, output: Path = typer.Option(..., help="Manifest JSON
     """Discover supported local artifacts and write an idempotent manifest."""
     rows = write_manifest(input_dir, output)
     typer.echo(f"Discovered {len(rows)} supported artifacts -> {output}")
+
+
+@app.command("corpus-build")
+def corpus_build_command(
+    candidates: list[Path] = typer.Option(..., "--candidates", help="Collected JSONL file."),
+    country_config: Path = typer.Option(Path("configs/global_countries.toml")),
+    output_dir: Path = typer.Option(Path("corpus/global-v1")),
+) -> None:
+    """Build and validate the international metadata/excerpt corpus."""
+    result = build_corpus(
+        load_candidates(candidates),
+        load_country_profiles(country_config),
+        output_dir,
+    )
+    typer.echo(result.model_dump_json(indent=2))
+
+
+@app.command("corpus-validate")
+def corpus_validate_command(corpus_dir: Path = typer.Option(Path("corpus/global-v1"))) -> None:
+    """Validate country/source quotas, hashes, reviews, and multi-source incidents."""
+    report = validate_corpus(CorpusStore(corpus_dir))
+    typer.echo(render_validation_report(report))
+    if not report.valid:
+        raise typer.Exit(1)
+
+
+@app.command("corpus-materialize")
+def corpus_materialize_command(
+    corpus_dir: Path = typer.Option(Path("corpus/global-v1")),
+    output_dir: Path = typer.Option(Path("build/global-scraps")),
+) -> None:
+    """Create pipeline-compatible scraps without leaking curation labels."""
+    result = materialize_corpus(CorpusStore(corpus_dir), output_dir)
+    typer.echo(result.model_dump_json(indent=2))
 
 
 @app.command("export-schemas")

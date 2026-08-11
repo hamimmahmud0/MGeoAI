@@ -240,9 +240,10 @@ def run_pipeline(
                         "Inherited from the single paired HTML incident; image alone does not "
                         "establish crash location"
                     )
-            child.lexical_features = sorted(
-                set(child.lexical_features) | set(parent.lexical_features)
-            )
+            # The file pairing is the bounded linkage signal. Image-description
+            # vocabulary (crowd, wreckage, phones, etc.) must not dilute the
+            # parent incident identity during lexical matching.
+            child.lexical_features = list(parent.lexical_features)
             inherited_warning = "Incident linkage inherited from paired HTML source"
             if inherited_warning not in child.uncertainty:
                 child.uncertainty.append(inherited_warning)

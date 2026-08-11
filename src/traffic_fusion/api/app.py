@@ -508,6 +508,21 @@ def create_app(
             "features": [feature for item in filtered if (feature := incident_to_geojson(item))],
         }
 
+    @app.get("/api/coverage.geojson")
+    def coverage_geojson() -> dict[str, Any]:
+        """Return collection-country coverage markers, never incident coordinates."""
+        value = _read_json(
+            root / "coverage.geojson",
+            {
+                "type": "FeatureCollection",
+                "name": "MGeoAI collection-country source coverage; not incident locations",
+                "features": [],
+            },
+        )
+        if not isinstance(value, dict) or value.get("type") != "FeatureCollection":
+            raise HTTPException(status_code=500, detail="Coverage GeoJSON is invalid")
+        return value
+
     @app.get("/api/incidents/{incident_id}")
     def incident_detail(incident_id: str) -> dict[str, Any]:
         item = next((item for item in incidents() if item.incident_id == incident_id), None)
@@ -519,7 +534,7 @@ def create_app(
 
     @app.get("/api/sources")
     def sources(
-        page: int = Query(1, ge=1), page_size: int = Query(50, ge=1, le=200)
+        page: int = Query(1, ge=1), page_size: int = Query(50, ge=1, le=1_000)
     ) -> dict[str, Any]:
         rows = [item.model_dump(mode="json") for item in source_records()]
         links = incident_links()

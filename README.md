@@ -22,6 +22,11 @@ New to the project? Follow the complete [beginner setup tutorial](TUTORIAL.md)
 for environment configuration, offline and live runs, reviewer accounts, source
 submission, testing, and troubleshooting.
 
+For the cross-disciplinary study design, curation rules, uncertainty model,
+evaluation plan, and ethical/legal boundaries, read the
+[research methodology](METHODOLOGY.md). The canonical international-corpus
+contract is documented in [docs/CORPUS.md](docs/CORPUS.md).
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -161,6 +166,8 @@ mgeoai evaluate --data-dir outputs/demo --output outputs/demo/evaluation.json
 mgeoai run --input assets/scraps --provider deepseek --output-dir outputs/live-demo
 mgeoai smoke-live --data-dir outputs/demo --output-dir outputs/live-smoke
 mgeoai serve --data-dir outputs/demo
+mgeoai corpus-validate --corpus-dir corpus/global-v1
+mgeoai corpus-materialize --corpus-dir corpus/global-v1 --output-dir build/global-scraps
 ```
 
 `run` is the end-to-end command: discovery, HTML conversion, modality adapters,
@@ -172,7 +179,38 @@ sentiment, and reporting.
 
 Supported inputs are local saved HTML, `SOURCE_INFO.md` metadata next to HTML,
 the supplied video/general analysis JSON, and the supplied image-analysis JSON.
-Raw media inference, scraping, and platform access are not implemented.
+The international-corpus layer adds bounded GDELT discovery and robots-aware
+HTML capture helpers. Discovery is metadata-only until a source passes the
+corpus review contract; blocked, authenticated, paywalled, or unsupported pages
+are skipped and recorded. Raw media inference and unauthorized social-platform
+scraping are not implemented.
+
+## International corpus and visualization
+
+`corpus/global-v1` is the canonical reviewed metadata/excerpt corpus. It keeps
+the publisher URL for every source, SHA-256 hashes each committed payload,
+records access/review decisions, and separates curation-only multi-source labels
+from model input. To check quotas and reproduce the pipeline input:
+
+```bash
+mgeoai corpus-validate --corpus-dir corpus/global-v1
+mgeoai corpus-materialize \
+  --corpus-dir corpus/global-v1 \
+  --output-dir build/global-scraps
+mgeoai run \
+  --input build/global-scraps \
+  --provider recorded \
+  --output-dir outputs/global-v1
+cp corpus/global-v1/reports/coverage.geojson outputs/global-v1/coverage.geojson
+mgeoai serve --data-dir outputs/global-v1 --host 127.0.0.1 --port 8000
+```
+
+The dashboard's **Global coverage** view displays source counts at conservative
+country centroids. Those markers are collection-country coverage symbols and are
+explicitly not incident coordinates. The **Overview** map continues to use only
+source-grounded incident geolocation. Direct links for manual checking are in
+`corpus/global-v1/reports/source_links.csv`, and the country/quota table is in
+`corpus/global-v1/reports/countries.md`.
 
 Generated data is ignored under `outputs/<run>/`:
 
@@ -222,6 +260,7 @@ The FastAPI service provides:
 - `GET /api/incidents/{incident_id}`;
 - `GET /api/incidents/{incident_id}/evidence` with full cited claims and provenance;
 - `GET /api/incidents.geojson` with server-side spatial/filter handling;
+- `GET /api/coverage.geojson` with explicitly non-incident country coverage markers;
 - `GET /api/sources` and `GET /api/sources/{source_id}` with safe extracted
   content, plus `GET /api/runs` and `GET /api/health`;
 - multipart `POST /api/submissions` and

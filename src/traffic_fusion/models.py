@@ -58,6 +58,12 @@ class SourceRecord(StrictModel):
     published_at: datetime | None = None
     timezone: str | None = None
     languages: list[str] = Field(default_factory=list)
+    country: str | None = None
+    country_code: str | None = Field(
+        default=None,
+        pattern=r"^[A-Z]{2,3}$",
+        description="Uppercase ISO 3166-1 alpha-2 or alpha-3 country code.",
+    )
     title: str | None = None
     source_metadata: dict[str, Any] = Field(default_factory=dict)
     ingest_warnings: list[str] = Field(default_factory=list)

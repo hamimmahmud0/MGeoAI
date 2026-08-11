@@ -15,6 +15,7 @@ export function SourceInspector({ source, onClose }: { source: SourceDetail; onC
       <div className="flex-1 overflow-y-auto px-6 py-5">
         <section className="grid grid-cols-2 gap-3">
           <Data label="Publisher" value={source.publisher || 'Unknown'} />
+          <Data label="Country" value={source.country ? `${source.country} (${source.country_code || 'unassigned code'})` : source.country_code || 'Unassigned'} />
           <Data label="Platform" value={source.platform || 'Local file'} />
           <Data label="Type" value={source.source_type.replaceAll('_', ' ')} />
           <Data label="Independence" value={source.dependency_group || source.independence} />

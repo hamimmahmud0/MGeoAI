@@ -1,4 +1,4 @@
-import type { Incident, IncidentEvidence, Page, ProviderRun, ReviewerSession, Source, SourceDetail, Submission, SubmissionInput, SubmissionStatus } from '../types'
+import type { CoverageCollection, Incident, IncidentEvidence, Page, ProviderRun, ReviewerSession, Source, SourceDetail, Submission, SubmissionInput, SubmissionStatus } from '../types'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, { credentials: 'same-origin', ...init })
@@ -36,7 +36,8 @@ export const api = {
   incidents: (query = '') => request<Page<Incident>>(`/api/incidents?${query}`),
   incident: (id: string) => request<Incident>(`/api/incidents/${encodeURIComponent(id)}`),
   geojson: (query = '') => request<GeoJSON.FeatureCollection<GeoJSON.Point>>(`/api/incidents.geojson?${query}`),
-  sources: () => request<Page<Source>>('/api/sources?page_size=200'),
+  coverage: () => request<CoverageCollection>('/api/coverage.geojson'),
+  sources: () => request<Page<Source>>('/api/sources?page_size=1000'),
   source: (id: string) => request<SourceDetail>(`/api/sources/${encodeURIComponent(id)}`),
   evidence: (incidentId: string) => request<IncidentEvidence>(`/api/incidents/${encodeURIComponent(incidentId)}/evidence`),
   runs: () => request<Page<ProviderRun>>('/api/runs?page_size=200'),

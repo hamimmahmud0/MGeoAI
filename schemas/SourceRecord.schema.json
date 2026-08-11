@@ -42,6 +42,32 @@
       "title": "Content Hash",
       "type": "string"
     },
+    "country": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Country"
+    },
+    "country_code": {
+      "anyOf": [
+        {
+          "pattern": "^[A-Z]{2,3}$",
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Uppercase ISO 3166-1 alpha-2 or alpha-3 country code.",
+      "title": "Country Code"
+    },
     "dependency_group": {
       "anyOf": [
         {

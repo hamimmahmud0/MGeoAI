@@ -28,6 +28,70 @@ INCIDENT_TERMS = re.compile(
     r"\b(?:accident|crash|collision|killed|injured|fatal)\b|দুর্ঘটনা|নিহত|আহত|সংঘর্ষ",
     re.I,
 )
+UNKNOWN_LEXICAL_STOPWORDS = {
+    "about",
+    "after",
+    "against",
+    "article",
+    "before",
+    "collision",
+    "country",
+    "crash",
+    "incident",
+    "injured",
+    "killed",
+    "metadata",
+    "original",
+    "people",
+    "publisher",
+    "report",
+    "reported",
+    "road",
+    "source",
+    "traffic",
+    "vehicle",
+}
+
+
+def _source_traffic_keywords(source: SourceRecord) -> list[str]:
+    raw = source.source_metadata.get("traffic_keywords", [])
+    values = raw if isinstance(raw, list) else str(raw).split(",") if raw else []
+    return [str(item).strip().casefold() for item in values if str(item).strip()]
+
+
+def _source_declares_traffic_incident(source: SourceRecord) -> bool:
+    return source.source_metadata.get("traffic_incident") is True
+
+
+def _matches_source_traffic(text: str, source: SourceRecord) -> bool:
+    folded = text.casefold()
+    return bool(TRAFFIC_TERMS.search(text)) or any(
+        keyword in folded for keyword in _source_traffic_keywords(source)
+    )
+
+
+def _matches_source_incident(text: str, source: SourceRecord) -> bool:
+    folded = text.casefold()
+    return (
+        _source_declares_traffic_incident(source)
+        or bool(INCIDENT_TERMS.search(text))
+        or any(keyword in folded for keyword in _source_traffic_keywords(source))
+    )
+
+
+def _unknown_lexical_features(source: SourceRecord) -> list[str]:
+    """Keep unmapped reports distinct without inventing a geographic coordinate."""
+    title = source.title or ""
+    excluded = set(UNKNOWN_LEXICAL_STOPWORDS)
+    for value in [source.country or "", source.publisher or "", *_source_traffic_keywords(source)]:
+        excluded.update(re.findall(r"[^\W_]+", value.casefold(), flags=re.UNICODE))
+    tokens = {
+        token
+        for token in re.findall(r"[^\W_]+", title.casefold(), flags=re.UNICODE)
+        if len(token) >= 4 and token not in excluded
+    }
+    country_feature = f"country:{source.country_code}" if source.country_code else ""
+    return sorted({country_feature, *tokens} - {""})
 
 # Anchor groups are a transparent local-domain lexical normalizer, not an event truth database.
 # Location aliases are deliberately separated from person/vehicle aliases so provenance never
@@ -282,7 +346,9 @@ def blocks_to_evidence(source: SourceRecord, blocks: Iterable[ParsedBlock]) -> l
     for block in blocks:
         if block.kind not in {"headline", "article", "post", "caption", "comment"}:
             continue
-        if not TRAFFIC_TERMS.search(block.text):
+        if not _source_declares_traffic_incident(source) and not _matches_source_traffic(
+            block.text, source
+        ):
             continue
         claim = normalize_text(normalize_digits(block.text))
         assertion = AssertionType.OPINION if block.kind == "comment" else AssertionType.REPORTED
@@ -374,7 +440,7 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
     if (
         not found
         and source.source_type in {SourceType.NEWS_HTML, SourceType.FACEBOOK_HTML}
-        and INCIDENT_TERMS.search(all_text)
+        and _matches_source_incident(all_text, source)
     ):
         found = [Anchor("unknown", (), "Location not resolved", "unknown", (None, None), ("incident",))]
     mentions: list[IncidentMention] = []
@@ -478,11 +544,19 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
                     None,
                 ),
                 traffic_effects=traffic_effects,
-                lexical_features=sorted(
-                    {
-                        anchor_name,
-                        *[alias.casefold() for alias in family_aliases if _has_alias(related_text, alias)],
-                    }
+                lexical_features=(
+                    _unknown_lexical_features(source)
+                    if anchor_name == "unknown"
+                    else sorted(
+                        {
+                            anchor_name,
+                            *[
+                                alias.casefold()
+                                for alias in family_aliases
+                                if _has_alias(related_text, alias)
+                            ],
+                        }
+                    )
                 ),
                 uncertainty=(
                     (["Event time unresolved"] if not _date_for_anchor(related_text, source, anchor.family or anchor_name).start else [])

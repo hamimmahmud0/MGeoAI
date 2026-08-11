@@ -531,7 +531,66 @@ approved or retried through the review queue. Regenerating the tracked
 `outputs/demo` directory also appears as a Git change, so inspect `git status`
 before committing.
 
-## 15. Run the test suite
+## 15. Reproduce the international corpus run
+
+The checked-in international corpus is separate from the small immutable demo
+under `assets/scraps`. It stores direct publisher links, short evidence excerpts,
+hashes, review metadata, and country/multi-source coverage records. It does not
+redistribute full publisher pages.
+
+First validate all country and source requirements:
+
+```bash
+mgeoai corpus-validate --corpus-dir corpus/global-v1
+```
+
+The report must show `VALID`. It checks at least 50 countries, at least 10
+accepted sources per country, one distinct-publisher multi-source incident per
+country, artifact hashes, and matching review/link records.
+
+Create the ordinary scrap-directory shape used by the pipeline:
+
+```bash
+mgeoai corpus-materialize \
+  --corpus-dir corpus/global-v1 \
+  --output-dir build/global-scraps
+```
+
+The materializer intentionally excludes curation-only incident memberships,
+reviewer names, and pair labels so they cannot leak into model input. Run the
+offline provider over the materialized input:
+
+```bash
+mgeoai run \
+  --input build/global-scraps \
+  --provider recorded \
+  --output-dir outputs/global-v1
+```
+
+Copy the separately labeled country-coverage layer into the served output:
+
+```bash
+cp corpus/global-v1/reports/coverage.geojson outputs/global-v1/coverage.geojson
+mgeoai serve --data-dir outputs/global-v1 --host 127.0.0.1 --port 8000
+```
+
+Open `http://127.0.0.1:8000` and choose **Global coverage**. These markers use
+country centroids to show publisher/source representation. They are not crash
+locations. The Overview map only displays incident locations supported by
+extracted source evidence.
+
+To check every original source manually, open:
+
+```text
+corpus/global-v1/reports/source_links.csv
+```
+
+The file contains country code, source ID, publisher, domain, publication time,
+and a direct verification URL for every accepted source. The full country list
+and quota counts are in `corpus/global-v1/reports/countries.md`. Study design and
+limitations are documented in `METHODOLOGY.md`.
+
+## 16. Run the test suite
 
 Backend checks from the repository root:
 
@@ -554,7 +613,7 @@ cd ..
 Automated tests are offline. Do not put a live API call into the test suite; use
 `mgeoai smoke-live` when an explicitly bounded live check is required.
 
-## 16. Common problems
+## 17. Common problems
 
 ### `mgeoai: command not found`
 
@@ -642,7 +701,7 @@ Inspect `failed_clusters.json` and `provider_runs.json`. Partial means useful
 outputs were produced but at least one cluster failed strict fusion or provenance
 validation. Do not describe a partial run as fully successful.
 
-## 17. Security and deployment notes
+## 18. Security and deployment notes
 
 - Treat saved HTML and submitted text as untrusted data.
 - Never execute scripts found in submitted HTML.
@@ -657,7 +716,7 @@ validation. Do not describe a partial run as fully successful.
   distributed job queue.
 - Back up moderation and runtime data before replacing an output directory.
 
-## 18. Everyday command checklist
+## 19. Everyday command checklist
 
 Offline development:
 

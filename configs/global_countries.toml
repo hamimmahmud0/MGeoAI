@@ -1,0 +1,464 @@
+schema_version = "1.0.0"
+
+# Discovery profiles only. `coverage_centroid` is a conservative marker for
+# collection-country coverage maps. It is NEVER an incident or crash coordinate;
+# incident-country assignment and geolocation happen only after extraction.
+
+[[countries]]
+iso2 = "US"
+iso3 = "USA"
+name = "United States"
+primary_timezone = "America/Chicago"
+coverage_centroid = { latitude = 39.8283, longitude = -98.5795 }
+languages = ["en"]
+query_terms = ["road accident", "traffic crash", "vehicle collision", "highway crash"]
+
+[[countries]]
+iso2 = "CA"
+iso3 = "CAN"
+name = "Canada"
+primary_timezone = "America/Toronto"
+coverage_centroid = { latitude = 56.1304, longitude = -106.3468 }
+languages = ["en", "fr"]
+query_terms = ["road accident", "traffic collision", "highway crash", "accident de la route"]
+
+[[countries]]
+iso2 = "MX"
+iso3 = "MEX"
+name = "Mexico"
+primary_timezone = "America/Mexico_City"
+coverage_centroid = { latitude = 23.6345, longitude = -102.5528 }
+languages = ["es"]
+query_terms = ["accidente de tránsito", "accidente carretero", "choque vehicular", "colisión vial"]
+
+[[countries]]
+iso2 = "BR"
+iso3 = "BRA"
+name = "Brazil"
+primary_timezone = "America/Sao_Paulo"
+coverage_centroid = { latitude = -14.2350, longitude = -51.9253 }
+languages = ["pt"]
+query_terms = ["acidente de trânsito", "acidente rodoviário", "colisão de veículos", "acidente de ônibus"]
+
+[[countries]]
+iso2 = "AR"
+iso3 = "ARG"
+name = "Argentina"
+primary_timezone = "America/Argentina/Buenos_Aires"
+coverage_centroid = { latitude = -38.4161, longitude = -63.6167 }
+languages = ["es"]
+query_terms = ["accidente vial", "choque vehicular", "siniestro vial", "accidente de tránsito"]
+
+[[countries]]
+iso2 = "CL"
+iso3 = "CHL"
+name = "Chile"
+primary_timezone = "America/Santiago"
+coverage_centroid = { latitude = -35.6751, longitude = -71.5430 }
+languages = ["es"]
+query_terms = ["accidente de tránsito", "choque vehicular", "colisión vial", "accidente carretero"]
+
+[[countries]]
+iso2 = "CO"
+iso3 = "COL"
+name = "Colombia"
+primary_timezone = "America/Bogota"
+coverage_centroid = { latitude = 4.5709, longitude = -74.2973 }
+languages = ["es"]
+query_terms = ["accidente vial", "accidente de tránsito", "choque vehicular", "siniestro vial"]
+
+[[countries]]
+iso2 = "PE"
+iso3 = "PER"
+name = "Peru"
+primary_timezone = "America/Lima"
+coverage_centroid = { latitude = -9.1900, longitude = -75.0152 }
+languages = ["es"]
+query_terms = ["accidente de tránsito", "choque vehicular", "accidente carretero", "siniestro vial"]
+
+[[countries]]
+iso2 = "EC"
+iso3 = "ECU"
+name = "Ecuador"
+primary_timezone = "America/Guayaquil"
+coverage_centroid = { latitude = -1.8312, longitude = -78.1834 }
+languages = ["es"]
+query_terms = ["accidente de tránsito", "siniestro vial", "choque vehicular", "accidente de bus"]
+
+[[countries]]
+iso2 = "CR"
+iso3 = "CRI"
+name = "Costa Rica"
+primary_timezone = "America/Costa_Rica"
+coverage_centroid = { latitude = 9.7489, longitude = -83.7534 }
+languages = ["es"]
+query_terms = ["accidente de tránsito", "choque vehicular", "accidente vial", "colisión en carretera"]
+
+[[countries]]
+iso2 = "GB"
+iso3 = "GBR"
+name = "United Kingdom"
+primary_timezone = "Europe/London"
+coverage_centroid = { latitude = 55.3781, longitude = -3.4360 }
+languages = ["en"]
+query_terms = ["road accident", "traffic collision", "motorway crash", "vehicle collision"]
+
+[[countries]]
+iso2 = "IE"
+iso3 = "IRL"
+name = "Ireland"
+primary_timezone = "Europe/Dublin"
+coverage_centroid = { latitude = 53.1424, longitude = -7.6921 }
+languages = ["en", "ga"]
+query_terms = ["road accident", "traffic collision", "road crash", "vehicle collision"]
+
+[[countries]]
+iso2 = "FR"
+iso3 = "FRA"
+name = "France"
+primary_timezone = "Europe/Paris"
+coverage_centroid = { latitude = 46.2276, longitude = 2.2137 }
+languages = ["fr"]
+query_terms = ["accident de la route", "collision routière", "accident de voiture", "accident de bus"]
+
+[[countries]]
+iso2 = "DE"
+iso3 = "DEU"
+name = "Germany"
+primary_timezone = "Europe/Berlin"
+coverage_centroid = { latitude = 51.1657, longitude = 10.4515 }
+languages = ["de"]
+query_terms = ["Verkehrsunfall", "Autounfall", "Busunfall", "Zusammenstoß"]
+
+[[countries]]
+iso2 = "ES"
+iso3 = "ESP"
+name = "Spain"
+primary_timezone = "Europe/Madrid"
+coverage_centroid = { latitude = 40.4637, longitude = -3.7492 }
+languages = ["es"]
+query_terms = ["accidente de tráfico", "accidente de carretera", "choque de vehículos", "colisión vial"]
+
+[[countries]]
+iso2 = "PT"
+iso3 = "PRT"
+name = "Portugal"
+primary_timezone = "Europe/Lisbon"
+coverage_centroid = { latitude = 39.3999, longitude = -8.2245 }
+languages = ["pt"]
+query_terms = ["acidente rodoviário", "acidente de viação", "colisão de veículos", "acidente de autocarro"]
+
+[[countries]]
+iso2 = "IT"
+iso3 = "ITA"
+name = "Italy"
+primary_timezone = "Europe/Rome"
+coverage_centroid = { latitude = 41.8719, longitude = 12.5674 }
+languages = ["it"]
+query_terms = ["incidente stradale", "scontro tra veicoli", "incidente automobilistico", "incidente autobus"]
+
+[[countries]]
+iso2 = "NL"
+iso3 = "NLD"
+name = "Netherlands"
+primary_timezone = "Europe/Amsterdam"
+coverage_centroid = { latitude = 52.1326, longitude = 5.2913 }
+languages = ["nl"]
+query_terms = ["verkeersongeval", "auto-ongeluk", "botsing voertuigen", "busongeluk"]
+
+[[countries]]
+iso2 = "BE"
+iso3 = "BEL"
+name = "Belgium"
+primary_timezone = "Europe/Brussels"
+coverage_centroid = { latitude = 50.5039, longitude = 4.4699 }
+languages = ["nl", "fr", "de"]
+query_terms = ["verkeersongeval", "accident de la route", "botsing voertuigen", "collision routière"]
+
+[[countries]]
+iso2 = "SE"
+iso3 = "SWE"
+name = "Sweden"
+primary_timezone = "Europe/Stockholm"
+coverage_centroid = { latitude = 60.1282, longitude = 18.6435 }
+languages = ["sv"]
+query_terms = ["trafikolycka", "bilolycka", "fordonskollision", "bussolycka"]
+
+[[countries]]
+iso2 = "NO"
+iso3 = "NOR"
+name = "Norway"
+primary_timezone = "Europe/Oslo"
+coverage_centroid = { latitude = 60.4720, longitude = 8.4689 }
+languages = ["no"]
+query_terms = ["trafikkulykke", "bilulykke", "kjøretøykollisjon", "bussulykke"]
+
+[[countries]]
+iso2 = "PL"
+iso3 = "POL"
+name = "Poland"
+primary_timezone = "Europe/Warsaw"
+coverage_centroid = { latitude = 51.9194, longitude = 19.1451 }
+languages = ["pl"]
+query_terms = ["wypadek drogowy", "zderzenie pojazdów", "wypadek samochodowy", "wypadek autobusu"]
+
+[[countries]]
+iso2 = "ZA"
+iso3 = "ZAF"
+name = "South Africa"
+primary_timezone = "Africa/Johannesburg"
+coverage_centroid = { latitude = -30.5595, longitude = 22.9375 }
+languages = ["en", "af", "zu"]
+query_terms = ["road crash", "traffic collision", "taxi crash", "bus accident"]
+
+[[countries]]
+iso2 = "NG"
+iso3 = "NGA"
+name = "Nigeria"
+primary_timezone = "Africa/Lagos"
+coverage_centroid = { latitude = 9.0820, longitude = 8.6753 }
+languages = ["en"]
+query_terms = ["road accident", "traffic crash", "bus crash", "vehicle collision"]
+
+[[countries]]
+iso2 = "KE"
+iso3 = "KEN"
+name = "Kenya"
+primary_timezone = "Africa/Nairobi"
+coverage_centroid = { latitude = -0.0236, longitude = 37.9062 }
+languages = ["en", "sw"]
+query_terms = ["road accident", "traffic crash", "ajali barabarani", "bus crash"]
+
+[[countries]]
+iso2 = "GH"
+iso3 = "GHA"
+name = "Ghana"
+primary_timezone = "Africa/Accra"
+coverage_centroid = { latitude = 7.9465, longitude = -1.0232 }
+languages = ["en"]
+query_terms = ["road accident", "traffic collision", "bus crash", "vehicle crash"]
+
+[[countries]]
+iso2 = "UG"
+iso3 = "UGA"
+name = "Uganda"
+primary_timezone = "Africa/Kampala"
+coverage_centroid = { latitude = 1.3733, longitude = 32.2903 }
+languages = ["en", "sw"]
+query_terms = ["road accident", "traffic crash", "bus accident", "vehicle collision"]
+
+[[countries]]
+iso2 = "TZ"
+iso3 = "TZA"
+name = "Tanzania"
+primary_timezone = "Africa/Dar_es_Salaam"
+coverage_centroid = { latitude = -6.3690, longitude = 34.8888 }
+languages = ["sw", "en"]
+query_terms = ["ajali barabarani", "ajali ya basi", "road accident", "traffic crash"]
+
+[[countries]]
+iso2 = "ET"
+iso3 = "ETH"
+name = "Ethiopia"
+primary_timezone = "Africa/Addis_Ababa"
+coverage_centroid = { latitude = 9.1450, longitude = 40.4897 }
+languages = ["am", "en"]
+query_terms = ["የመንገድ አደጋ", "የትራፊክ አደጋ", "road accident", "traffic crash"]
+
+[[countries]]
+iso2 = "MA"
+iso3 = "MAR"
+name = "Morocco"
+primary_timezone = "Africa/Casablanca"
+coverage_centroid = { latitude = 31.7917, longitude = -7.0926 }
+languages = ["ar", "fr"]
+query_terms = ["حادث سير", "تصادم مركبات", "accident de la route", "collision routière"]
+
+[[countries]]
+iso2 = "EG"
+iso3 = "EGY"
+name = "Egypt"
+primary_timezone = "Africa/Cairo"
+coverage_centroid = { latitude = 26.8206, longitude = 30.8025 }
+languages = ["ar", "en"]
+query_terms = ["حادث سير", "حادث مروري", "تصادم سيارات", "road accident"]
+
+[[countries]]
+iso2 = "TN"
+iso3 = "TUN"
+name = "Tunisia"
+primary_timezone = "Africa/Tunis"
+coverage_centroid = { latitude = 33.8869, longitude = 9.5375 }
+languages = ["ar", "fr"]
+query_terms = ["حادث سير", "حادث مروري", "accident de la route", "collision routière"]
+
+[[countries]]
+iso2 = "BD"
+iso3 = "BGD"
+name = "Bangladesh"
+primary_timezone = "Asia/Dhaka"
+coverage_centroid = { latitude = 23.6850, longitude = 90.3563 }
+languages = ["bn", "en"]
+query_terms = ["সড়ক দুর্ঘটনা", "বাস দুর্ঘটনা", "road accident", "traffic collision"]
+
+[[countries]]
+iso2 = "IN"
+iso3 = "IND"
+name = "India"
+primary_timezone = "Asia/Kolkata"
+coverage_centroid = { latitude = 20.5937, longitude = 78.9629 }
+languages = ["en", "hi"]
+query_terms = ["road accident", "traffic collision", "सड़क दुर्घटना", "बस दुर्घटना"]
+
+[[countries]]
+iso2 = "PK"
+iso3 = "PAK"
+name = "Pakistan"
+primary_timezone = "Asia/Karachi"
+coverage_centroid = { latitude = 30.3753, longitude = 69.3451 }
+languages = ["ur", "en"]
+query_terms = ["ٹریفک حادثہ", "سڑک حادثہ", "road accident", "bus crash"]
+
+[[countries]]
+iso2 = "LK"
+iso3 = "LKA"
+name = "Sri Lanka"
+primary_timezone = "Asia/Colombo"
+coverage_centroid = { latitude = 7.8731, longitude = 80.7718 }
+languages = ["si", "ta", "en"]
+query_terms = ["මාර්ග අනතුර", "சாலை விபத்து", "road accident", "bus crash"]
+
+[[countries]]
+iso2 = "NP"
+iso3 = "NPL"
+name = "Nepal"
+primary_timezone = "Asia/Kathmandu"
+coverage_centroid = { latitude = 28.3949, longitude = 84.1240 }
+languages = ["ne", "en"]
+query_terms = ["सडक दुर्घटना", "बस दुर्घटना", "road accident", "traffic collision"]
+
+[[countries]]
+iso2 = "ID"
+iso3 = "IDN"
+name = "Indonesia"
+primary_timezone = "Asia/Jakarta"
+coverage_centroid = { latitude = -0.7893, longitude = 113.9213 }
+languages = ["id"]
+query_terms = ["kecelakaan lalu lintas", "tabrakan kendaraan", "kecelakaan bus", "kecelakaan jalan"]
+
+[[countries]]
+iso2 = "MY"
+iso3 = "MYS"
+name = "Malaysia"
+primary_timezone = "Asia/Kuala_Lumpur"
+coverage_centroid = { latitude = 4.2105, longitude = 101.9758 }
+languages = ["ms", "en"]
+query_terms = ["kemalangan jalan raya", "nahas jalan raya", "kemalangan bas", "traffic collision"]
+
+[[countries]]
+iso2 = "SG"
+iso3 = "SGP"
+name = "Singapore"
+primary_timezone = "Asia/Singapore"
+coverage_centroid = { latitude = 1.3521, longitude = 103.8198 }
+languages = ["en", "ms", "zh", "ta"]
+query_terms = ["traffic accident", "road collision", "vehicle crash", "bus accident"]
+
+[[countries]]
+iso2 = "TH"
+iso3 = "THA"
+name = "Thailand"
+primary_timezone = "Asia/Bangkok"
+coverage_centroid = { latitude = 15.8700, longitude = 100.9925 }
+languages = ["th", "en"]
+query_terms = ["อุบัติเหตุทางถนน", "รถชน", "รถบัสชน", "road accident"]
+
+[[countries]]
+iso2 = "PH"
+iso3 = "PHL"
+name = "Philippines"
+primary_timezone = "Asia/Manila"
+coverage_centroid = { latitude = 12.8797, longitude = 121.7740 }
+languages = ["en", "fil"]
+query_terms = ["road accident", "traffic collision", "bus crash", "banggaan ng sasakyan"]
+
+[[countries]]
+iso2 = "VN"
+iso3 = "VNM"
+name = "Vietnam"
+primary_timezone = "Asia/Ho_Chi_Minh"
+coverage_centroid = { latitude = 14.0583, longitude = 108.2772 }
+languages = ["vi"]
+query_terms = ["tai nạn giao thông", "va chạm xe", "tai nạn xe buýt", "tai nạn đường bộ"]
+
+[[countries]]
+iso2 = "JP"
+iso3 = "JPN"
+name = "Japan"
+primary_timezone = "Asia/Tokyo"
+coverage_centroid = { latitude = 36.2048, longitude = 138.2529 }
+languages = ["ja"]
+query_terms = ["交通事故", "車両衝突", "バス事故", "高速道路事故"]
+
+[[countries]]
+iso2 = "KR"
+iso3 = "KOR"
+name = "South Korea"
+primary_timezone = "Asia/Seoul"
+coverage_centroid = { latitude = 35.9078, longitude = 127.7669 }
+languages = ["ko"]
+query_terms = ["교통사고", "차량 충돌", "버스 사고", "고속도로 사고"]
+
+[[countries]]
+iso2 = "AU"
+iso3 = "AUS"
+name = "Australia"
+primary_timezone = "Australia/Sydney"
+coverage_centroid = { latitude = -25.2744, longitude = 133.7751 }
+languages = ["en"]
+query_terms = ["road crash", "traffic collision", "highway crash", "vehicle collision"]
+
+[[countries]]
+iso2 = "NZ"
+iso3 = "NZL"
+name = "New Zealand"
+primary_timezone = "Pacific/Auckland"
+coverage_centroid = { latitude = -40.9006, longitude = 174.8860 }
+languages = ["en", "mi"]
+query_terms = ["road crash", "traffic collision", "state highway crash", "vehicle collision"]
+
+[[countries]]
+iso2 = "TR"
+iso3 = "TUR"
+name = "Turkey"
+primary_timezone = "Europe/Istanbul"
+coverage_centroid = { latitude = 38.9637, longitude = 35.2433 }
+languages = ["tr"]
+query_terms = ["trafik kazası", "araç çarpışması", "otobüs kazası", "karayolu kazası"]
+
+[[countries]]
+iso2 = "JO"
+iso3 = "JOR"
+name = "Jordan"
+primary_timezone = "Asia/Amman"
+coverage_centroid = { latitude = 30.5852, longitude = 36.2384 }
+languages = ["ar", "en"]
+query_terms = ["حادث سير", "حادث مروري", "تصادم مركبات", "road accident"]
+
+[[countries]]
+iso2 = "AE"
+iso3 = "ARE"
+name = "United Arab Emirates"
+primary_timezone = "Asia/Dubai"
+coverage_centroid = { latitude = 23.4241, longitude = 53.8478 }
+languages = ["ar", "en"]
+query_terms = ["حادث مروري", "حادث سير", "road accident", "traffic collision"]
+
+[[countries]]
+iso2 = "SA"
+iso3 = "SAU"
+name = "Saudi Arabia"
+primary_timezone = "Asia/Riyadh"
+coverage_centroid = { latitude = 23.8859, longitude = 45.0792 }
+languages = ["ar", "en"]
+query_terms = ["حادث مروري", "حادث سير", "تصادم مركبات", "road accident"]
