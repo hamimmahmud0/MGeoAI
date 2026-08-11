@@ -52,6 +52,73 @@ def test_one_source_splits_sylhet_and_bogura() -> None:
     assert {item.locations[0].hierarchy["anchor"] for item in mentions} == {"sylhet", "bogura"}
 
 
+def test_roundup_uses_incident_specific_bogura_block() -> None:
+    source = SourceRecord(
+        source_id="src_roundup",
+        source_type=SourceType.NEWS_HTML,
+        local_path="roundup.html",
+        content_hash="e" * 64,
+    )
+    evidence = [
+        make_evidence(
+            source.source_id,
+            "Sixteen killed and forty-eight injured in Sylhet and Bogura crashes.",
+            "headline",
+        ),
+        make_evidence(
+            source.source_id,
+            "Eight people died and twenty-five were injured at Kashikapan, Osmaninagar, Sylhet when two buses collided.",
+            "sylhet",
+        ),
+        make_evidence(
+            source.source_id,
+            "Seven labourers were killed when a bus crashed near Erulia Bazar in Bogura Sadar.",
+            "bogura",
+        ),
+    ]
+    evidence[0].casualty_quantities = {"fatalities": 16, "injuries": 48}
+    evidence[1].casualty_quantities = {"fatalities": 8, "injuries": 25}
+    evidence[2].casualty_quantities = {"fatalities": 7}
+
+    mentions = split_mentions(source, evidence)
+    bogura = next(item for item in mentions if item.locations[0].hierarchy["anchor"] == "bogura")
+
+    assert bogura.locations[0].name.startswith("Erulia Bazar")
+    assert (bogura.locations[0].latitude, bogura.locations[0].longitude) == (
+        24.858327,
+        89.333249,
+    )
+    assert bogura.casualties == {"fatalities": 7, "injuries": None}
+    assert bogura.vehicles == ["bus"]
+    assert bogura.evidence_ids == ["ev_bogura"]
+
+
+def test_specific_nila_market_suppresses_broad_purbachal_centroid() -> None:
+    source = SourceRecord(
+        source_id="src_purbachal",
+        source_type=SourceType.NEWS_HTML,
+        local_path="purbachal.html",
+        content_hash="f" * 64,
+    )
+    mention = split_mentions(
+        source,
+        [
+            make_evidence(
+                source.source_id,
+                "One student was killed and two injured at Nila Market intersection on Purbachal 300 Feet Road.",
+                "nila",
+            )
+        ],
+    )[0]
+
+    assert len(mention.locations) == 1
+    assert mention.locations[0].name.startswith("Nila Market intersection")
+    assert (mention.locations[0].latitude, mention.locations[0].longitude) == (
+        23.834106,
+        90.484744,
+    )
+
+
 def test_bangla_baniacho_report_resolves_area_centroid() -> None:
     source = SourceRecord(
         source_id="src_baniacho",

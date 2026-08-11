@@ -2,6 +2,8 @@ from __future__ import annotations
 
 from traffic_fusion.fusion.recorded import RecordedFusionProvider
 from traffic_fusion.models import (
+    FusedFact,
+    Geolocation,
     IncidentMention,
     LocationCandidate,
     SentimentEvidence,
@@ -137,3 +139,22 @@ def test_sentiment_is_aspect_based_and_reaction_free() -> None:
     incident = RecordedFusionProvider().fuse("cluster", bundle())
     assert incident.sentiment.by_aspect == {"congestion_delay": {"negative": 1}}
     assert "reaction counts excluded" in incident.sentiment.coverage_note
+
+
+def test_casualty_fact_aliases_and_region_defaults_are_canonical() -> None:
+    fatality = FusedFact(
+        field="fatalities_count",
+        value=1,
+        confidence=0.9,
+        selection_rationale="reported",
+    )
+    location = Geolocation(
+        display_name="Reported area",
+        latitude=23.8,
+        longitude=90.4,
+        granularity="area",
+    )
+
+    assert fatality.field == "fatalities"
+    assert location.uncertainty_radius_km == 3.0
+    assert "centroid" in (location.ambiguity_reason or "")

@@ -8,7 +8,7 @@ import pytest
 
 from traffic_fusion.config import Settings
 from traffic_fusion.fusion.provider import DeepSeekProvider, ProviderFailure
-from traffic_fusion.models import IncidentMention, MatchFeatures
+from traffic_fusion.models import FusedIncident, IncidentMention, MatchFeatures
 
 
 def provider(tmp_path: Path, retries: int = 1, mode: str = "chat_completions") -> DeepSeekProvider:
@@ -195,3 +195,70 @@ def test_explicit_responses_mode_routes_to_responses(
     left, right, features = pair()
     provider(tmp_path, mode="responses").adjudicate(left, right, features)
     assert captured["url"].endswith("/responses")
+
+
+def test_fusion_reconciles_location_and_canonical_casualty_aliases(tmp_path: Path) -> None:
+    incident = FusedIncident.model_validate_json(
+        json.dumps(
+            {
+                "incident_id": "inc_test",
+                "title": "One killed and two injured",
+                "event_type": "road_crash",
+                "geolocation": {
+                    "display_name": "Invented exact point",
+                    "latitude": 23.9,
+                    "longitude": 90.9,
+                    "granularity": "point",
+                    "confidence": 0.99,
+                },
+                "facts": [
+                    {
+                        "field": "fatalities_count",
+                        "value": 1,
+                        "confidence": 0.9,
+                        "selection_rationale": "reported",
+                    },
+                    {
+                        "field": "injuries_count",
+                        "value": 2,
+                        "confidence": 0.9,
+                        "selection_rationale": "reported",
+                    },
+                ],
+                "source_ids": ["s1"],
+                "evidence_ids": ["e1"],
+                "human_summary": "Reported incident [e1].",
+                "generated_at": "2026-08-12T00:00:00Z",
+            }
+        )
+    )
+    bundle = {
+        "mentions": [
+            {
+                "locations": [
+                    {
+                        "name": "Nila Market, Purbachal",
+                        "normalized_name": "nila market purbachal",
+                        "latitude": 23.834106,
+                        "longitude": 90.484744,
+                        "granularity": "area",
+                        "confidence": 0.75,
+                        "evidence_ids": ["e1"],
+                        "reason": "source-named area centroid",
+                    }
+                ],
+                "casualties": {"fatalities": 1, "injuries": 2},
+            }
+        ],
+        "evidence": [{"evidence_id": "e1", "casualty_quantities": {"fatalities": 1, "injuries": 2}}],
+    }
+
+    result = provider(tmp_path)._reconcile_fusion(incident, bundle)
+
+    assert (result.geolocation.latitude, result.geolocation.longitude) == (
+        23.834106,
+        90.484744,
+    )
+    assert result.geolocation.granularity == "area"
+    assert result.geolocation.uncertainty_radius_km == 3.0
+    assert {fact.field for fact in result.facts} >= {"fatalities", "injuries"}

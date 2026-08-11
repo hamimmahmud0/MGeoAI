@@ -12,8 +12,11 @@ from pydantic import BaseModel, ValidationError
 
 from traffic_fusion.config import Settings
 from traffic_fusion.models import (
+    FusedFact,
     FusedIncident,
+    Geolocation,
     IncidentMention,
+    LocationCandidate,
     MatchDecision,
     MatchFeatures,
     ProviderRun,
@@ -58,7 +61,7 @@ class DeepSeekProvider:
         self.settings = settings
         self.model = settings.deepseek_model or "unconfigured"
         self.prompt = prompt_path.read_text(encoding="utf-8")
-        self.prompt_version = "1.1.0"
+        self.prompt_version = "1.2.0"
         self.cache_dir = cache_dir
         self.cache_dir.mkdir(parents=True, exist_ok=True)
         self._runs: list[ProviderRun] = []
@@ -399,9 +402,101 @@ class DeepSeekProvider:
         )
 
     def fuse(self, cluster_id: str, bundle: dict[str, Any]) -> FusedIncident:
-        return self._request(
+        incident = self._request(
             "fusion", cluster_id, {"task": "cluster_fusion", **bundle}, FusedIncident
         )
+        return self._reconcile_fusion(incident, bundle)
+
+    @staticmethod
+    def _reconcile_fusion(incident: FusedIncident, bundle: dict[str, Any]) -> FusedIncident:
+        """Enforce stable semantic fields that must not depend on model wording."""
+        candidates = [
+            LocationCandidate.model_validate(location)
+            for mention in bundle.get("mentions", [])
+            if isinstance(mention, dict)
+            for location in mention.get("locations", [])
+            if isinstance(location, dict)
+        ]
+        located = [
+            candidate
+            for candidate in candidates
+            if candidate.latitude is not None and candidate.longitude is not None
+        ]
+        if located:
+            output_name = (incident.geolocation.display_name or "").casefold()
+
+            def candidate_rank(candidate: LocationCandidate) -> tuple[int, float]:
+                tokens = {
+                    token
+                    for token in candidate.normalized_name.replace(",", " ").split()
+                    if len(token) > 3
+                }
+                overlap = sum(token in output_name for token in tokens)
+                return overlap, candidate.confidence
+
+            selected = max(located, key=candidate_rank)
+            incident.geolocation = Geolocation.model_validate(
+                {
+                    **incident.geolocation.model_dump(mode="python"),
+                    "display_name": selected.name,
+                    "hierarchy": selected.hierarchy,
+                    "latitude": selected.latitude,
+                    "longitude": selected.longitude,
+                    "granularity": selected.granularity,
+                    "method": "source-named local gazetteer centroid",
+                    "supporting_evidence_ids": selected.evidence_ids,
+                    "confidence": min(incident.geolocation.confidence, selected.confidence),
+                    "ambiguity_reason": selected.reason,
+                    "uncertainty_radius_km": None,
+                }
+            )
+        elif incident.geolocation.latitude is not None:
+            incident.geolocation = Geolocation(
+                display_name=incident.geolocation.display_name,
+                granularity="unknown",
+                method="unresolved; model coordinate discarded because no supplied candidate exists",
+                confidence=0,
+                ambiguity_reason="No source-grounded coordinate candidate was supplied.",
+            )
+
+        facts_by_field = {fact.field: fact for fact in incident.facts}
+        evidence = [item for item in bundle.get("evidence", []) if isinstance(item, dict)]
+        for field_name in ("fatalities", "injuries"):
+            if field_name in facts_by_field:
+                continue
+            counts = {
+                mention.get("casualties", {}).get(field_name)
+                for mention in bundle.get("mentions", [])
+                if isinstance(mention, dict)
+                and isinstance(mention.get("casualties"), dict)
+                and mention["casualties"].get(field_name) is not None
+            }
+            if len(counts) != 1:
+                continue
+            count = counts.pop()
+            support_ids = sorted(
+                {
+                    str(item["evidence_id"])
+                    for item in evidence
+                    if item.get("evidence_id")
+                    and isinstance(item.get("casualty_quantities"), dict)
+                    and item["casualty_quantities"].get(field_name) == count
+                }
+            )
+            incident.facts.append(
+                FusedFact(
+                    field=field_name,
+                    value=count,
+                    state="reported_zero" if count == 0 else "known",
+                    support_evidence_ids=support_ids,
+                    confidence=0.8,
+                    selection_rationale=(
+                        "Deterministic fallback from unanimous normalized source mentions; "
+                        "the live provider omitted the canonical field."
+                    ),
+                )
+            )
+        return incident
 
     def persist_runs(self, path: Path) -> None:
         write_json(path, [run.model_dump(mode="json") for run in self._runs])

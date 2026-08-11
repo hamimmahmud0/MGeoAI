@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { AlertTriangle, BookOpen, ExternalLink, FileSearch, MapPin, X } from 'lucide-react'
 import { api } from '../lib/api'
+import { formatCasualtyFact, formatValue } from '../lib/incidentPresentation'
 import type { Incident, IncidentEvidence } from '../types'
 import { DetailedIncidentReview } from './DetailedIncidentReview'
 
@@ -47,13 +48,13 @@ export function IncidentDetail({ incident, onClose, onInspectSource }: { inciden
         <section className="grid grid-cols-2 gap-3">
           <Data label="When" value={incident.event_time.start ? new Date(incident.event_time.start).toLocaleDateString() : 'Not reported'} />
           <Data label="Severity" value={incident.severity} />
-          <Data label="Fatalities" value={String(fatality?.value ?? fatality?.state ?? 'Not reported')} />
-          <Data label="Injuries" value={String(injury?.value ?? injury?.state ?? 'Not reported')} />
+          <Data label="Fatalities" value={formatCasualtyFact(fatality)} />
+          <Data label="Injuries" value={formatCasualtyFact(injury)} />
         </section>
-        <section><h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">Location and precision</h3><div className="flex gap-3 rounded border border-line p-3"><MapPin size={18} className="mt-0.5 shrink-0 text-primary" /><div><p className="text-sm font-medium">{incident.geolocation.display_name || 'Unmapped'}</p><p className="mt-1 text-xs leading-5 text-muted">{incident.geolocation.granularity} precision · {Math.round(incident.geolocation.confidence * 100)}% confidence{incident.geolocation.uncertainty_radius_km ? ` · ~${incident.geolocation.uncertainty_radius_km} km reported-region radius` : ''}</p>{incident.geolocation.ambiguity_reason && <p className="mt-2 text-xs text-muted">{incident.geolocation.ambiguity_reason}</p>}{incident.geolocation.latitude !== undefined && incident.geolocation.longitude !== undefined && <a className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline" href={`https://www.openstreetmap.org/?mlat=${incident.geolocation.latitude}&mlon=${incident.geolocation.longitude}#map=15/${incident.geolocation.latitude}/${incident.geolocation.longitude}`} target="_blank" rel="noreferrer"><ExternalLink size={13} />Inspect nearby roads</a>}</div></div></section>
+        <section><h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">Location and precision</h3><div className="flex gap-3 rounded border border-line p-3"><MapPin size={18} className="mt-0.5 shrink-0 text-primary" /><div><p className="text-sm font-medium">{incident.geolocation.display_name || 'Unmapped'}</p><p className="mt-1 text-xs leading-5 text-muted">{incident.geolocation.granularity} precision · {Math.round(incident.geolocation.confidence * 100)}% confidence{incident.geolocation.uncertainty_radius_km ? ` · ~${incident.geolocation.uncertainty_radius_km} km uncertainty radius` : ''}</p>{incident.geolocation.ambiguity_reason && <p className="mt-2 text-xs text-muted">{incident.geolocation.ambiguity_reason}</p>}{incident.geolocation.latitude !== undefined && incident.geolocation.longitude !== undefined && <a className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-primary hover:underline" href={`https://www.openstreetmap.org/?mlat=${incident.geolocation.latitude}&mlon=${incident.geolocation.longitude}#map=15/${incident.geolocation.latitude}/${incident.geolocation.longitude}`} target="_blank" rel="noreferrer"><ExternalLink size={13} />Inspect nearby roads</a>}</div></div></section>
         <section><h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">Traffic effect</h3><p className="text-sm">{incident.congestion_delay || 'Not reported; no congestion inferred from the crash alone.'}</p></section>
         <section><h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">Sentiment by aspect</h3>{Object.keys(incident.sentiment.by_aspect).length ? Object.entries(incident.sentiment.by_aspect).map(([aspect, values]) => <div key={aspect} className="mb-2 flex items-center justify-between border-b border-line pb-2 text-sm"><span>{aspect.replaceAll('_', ' ')}</span><span className="text-muted">{Object.entries(values).map(([key, value]) => `${key} ${value}`).join(' · ')}</span></div>) : <p className="text-sm text-muted">{incident.sentiment.coverage_note}</p>}</section>
-        {incident.facts.some((fact) => fact.conflicting_values.length) && <section><h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">Conflicts and alternatives</h3>{incident.facts.filter((fact) => fact.conflicting_values.length).map((fact) => <p className="mb-2 text-sm" key={fact.field}><b>{fact.field}:</b> selected {String(fact.value)}; alternatives {fact.conflicting_values.map(String).join(', ')}</p>)}</section>}
+        {incident.facts.some((fact) => fact.conflicting_values.length) && <section><h3 className="mb-3 text-xs font-semibold uppercase tracking-wider text-muted">Conflicts and alternatives</h3>{incident.facts.filter((fact) => fact.conflicting_values.length).map((fact) => <p className="mb-2 text-sm" key={fact.field}><b>{fact.field}:</b> selected {formatValue(fact.value)}; alternatives {fact.conflicting_values.map(formatValue).join(', ')}</p>)}</section>}
         <section>
           <h3 className="mb-2 text-xs font-semibold uppercase tracking-wider text-muted">Evidence and provenance</h3>
           <p className="text-sm">{incident.independent_source_count} independent source group(s), {incident.evidence_ids.length} cited evidence item(s).</p>
@@ -89,8 +90,9 @@ function casualtySummary(incident: Incident) {
   const values = incident.facts.filter((item) => item.field === 'fatalities' || item.field === 'injuries').map((item) => {
     const label = item.field === 'fatalities' ? 'fatalities' : 'injuries'
     if (item.state === 'reported_zero') return `0 ${label} explicitly reported`
+    if (item.conflicting_values.length) return `${formatCasualtyFact(item)} ${label}`
     if (item.state !== 'known') return `${label} ${item.state.replaceAll('_', ' ')}`
-    return `${String(item.value)} ${label}`
+    return `${formatCasualtyFact(item)} ${label}`
   })
   return values.join(' and ') || 'Casualty information not reported'
 }

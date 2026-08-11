@@ -4,7 +4,7 @@ from datetime import datetime
 from enum import StrEnum
 from typing import Any, Literal
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, model_validator
 
 SCHEMA_VERSION = "1.0.0"
 
@@ -198,6 +198,21 @@ class FusedFact(StrictModel):
     confidence: float = Field(ge=0, le=1)
     selection_rationale: str
 
+    @field_validator("field", mode="before")
+    @classmethod
+    def canonical_field_name(cls, value: Any) -> Any:
+        if not isinstance(value, str):
+            return value
+        aliases = {
+            "fatality_count": "fatalities",
+            "fatalities_count": "fatalities",
+            "death_count": "fatalities",
+            "injury_count": "injuries",
+            "injuries_count": "injuries",
+            "injured_count": "injuries",
+        }
+        return aliases.get(value.strip().casefold(), value)
+
 
 class Geolocation(StrictModel):
     display_name: str | None = None
@@ -218,6 +233,23 @@ class Geolocation(StrictModel):
     def coordinate_pair(self) -> Geolocation:
         if (self.latitude is None) != (self.longitude is None):
             raise ValueError("latitude and longitude must be supplied together")
+        if self.latitude is not None and self.uncertainty_radius_km is None:
+            self.uncertainty_radius_km = {
+                "intersection": 0.75,
+                "road_segment": 1.0,
+                "area": 3.0,
+                "city": 12.0,
+                "district": 35.0,
+            }.get(self.granularity)
+        if (
+            self.latitude is not None
+            and self.granularity not in {"point", "unknown"}
+            and not self.ambiguity_reason
+        ):
+            self.ambiguity_reason = (
+                "Coordinates represent a reported-place centroid; the exact crash point "
+                "was not established."
+            )
         return self
 
 

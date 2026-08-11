@@ -63,22 +63,24 @@ def _read_text(path: Path) -> str:
 
 
 def _severity(incident: FusedIncident) -> str:
-    fatalities = next(
-        (
-            fact.value
-            for fact in incident.facts
-            if fact.field == "fatalities" and isinstance(fact.value, int)
-        ),
-        0,
-    )
-    injuries = next(
-        (
-            fact.value
-            for fact in incident.facts
-            if fact.field == "injuries" and isinstance(fact.value, int)
-        ),
-        0,
-    )
+    def reported_counts(field: str) -> list[int]:
+        counts: list[int] = []
+        for fact in incident.facts:
+            if fact.field != field:
+                continue
+            if isinstance(fact.value, int) and not isinstance(fact.value, bool):
+                counts.append(fact.value)
+            for alternative in fact.conflicting_values:
+                if isinstance(alternative, int) and not isinstance(alternative, bool):
+                    counts.append(alternative)
+                elif isinstance(alternative, dict):
+                    count = alternative.get("count")
+                    if isinstance(count, int) and not isinstance(count, bool):
+                        counts.append(count)
+        return counts
+
+    fatalities = max(reported_counts("fatalities"), default=0)
+    injuries = max(reported_counts("injuries"), default=0)
     if fatalities >= 5:
         return "critical"
     if fatalities > 0:

@@ -1,5 +1,6 @@
 import { useEffect, useRef } from 'react'
 import maplibregl, { type GeoJSONSource, type Map } from 'maplibre-gl'
+import { regionData } from '../lib/mapRegions'
 
 type Props = {
   data: GeoJSON.FeatureCollection<GeoJSON.Point>
@@ -14,24 +15,6 @@ const sourceId = 'incidents'
 const regionSourceId = 'incident-regions'
 const lightStyle = import.meta.env.VITE_MAP_STYLE_LIGHT_URL || import.meta.env.VITE_MAP_STYLE_URL || 'https://tiles.openfreemap.org/styles/liberty'
 const darkStyle = import.meta.env.VITE_MAP_STYLE_DARK_URL || 'https://tiles.openfreemap.org/styles/dark'
-
-function regionData(data: GeoJSON.FeatureCollection<GeoJSON.Point>): GeoJSON.FeatureCollection<GeoJSON.Polygon> {
-  const features = data.features.flatMap((feature) => {
-    const radiusKm = Number(feature.properties?.uncertainty_radius_km || 0)
-    const granularity = String(feature.properties?.granularity || '')
-    if (!radiusKm || !['area', 'city', 'district'].includes(granularity)) return []
-    const [longitude, latitude] = feature.geometry.coordinates
-    const coordinates: GeoJSON.Position[] = []
-    const latitudeDegrees = radiusKm / 111.32
-    const longitudeDegrees = radiusKm / (111.32 * Math.max(Math.cos(latitude * Math.PI / 180), 0.2))
-    for (let step = 0; step <= 64; step += 1) {
-      const angle = step / 64 * Math.PI * 2
-      coordinates.push([longitude + Math.cos(angle) * longitudeDegrees, latitude + Math.sin(angle) * latitudeDegrees])
-    }
-    return [{ type: 'Feature' as const, id: feature.id, properties: feature.properties, geometry: { type: 'Polygon' as const, coordinates: [coordinates] } }]
-  })
-  return { type: 'FeatureCollection', features }
-}
 
 export function MapView({ data, selectedId, onSelect, onBounds, theme, className = '' }: Props) {
   const container = useRef<HTMLDivElement>(null)
