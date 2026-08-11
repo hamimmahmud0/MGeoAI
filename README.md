@@ -121,7 +121,7 @@ CSRF token. In an internet-facing deployment, terminate TLS and apply request
 size/rate limits at the reverse proxy. Reviewer passwords and the signing secret
 belong in a secret manager, not in the repository or generated data.
 
-Approval is synchronous in v0.2.0. A live provider failure stays visible as an
+Approval is synchronous in v0.2.1. A live provider failure stays visible as an
 `ingest_failed` submission that can be retried; MGeoAI never silently changes to
 the recorded provider.
 

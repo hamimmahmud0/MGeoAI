@@ -165,7 +165,7 @@ def create_app(
     pipeline_lock = threading.Lock()
     app = FastAPI(
         title="MGeoAI API",
-        version="0.2.0",
+        version="0.2.1",
         description="Evidence-fusion API; records are attributed reports, not independently verified truth.",
     )
     app.add_middleware(
