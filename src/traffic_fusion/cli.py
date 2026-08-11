@@ -7,6 +7,7 @@ from pathlib import Path
 import typer
 
 from traffic_fusion import __version__
+from traffic_fusion.api.moderation import hash_reviewer_password
 from traffic_fusion.config import Settings
 from traffic_fusion.evaluation import extraction_coverage, matching_metrics
 from traffic_fusion.ingest.discovery import write_manifest
@@ -18,6 +19,13 @@ app = typer.Typer(
     no_args_is_help=True,
     help="MGeoAI provenance-preserving traffic incident intelligence.",
 )
+
+
+@app.command("hash-reviewer-password")
+def hash_reviewer_password_command() -> None:
+    """Generate a PBKDF2 password value for MGEOAI_REVIEWERS_JSON."""
+    password = typer.prompt("Reviewer password", hide_input=True, confirmation_prompt=True)
+    typer.echo(hash_reviewer_password(password))
 
 
 @app.command()

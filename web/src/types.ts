@@ -24,3 +24,14 @@ export type Evidence = {
 export type IncidentEvidence = { items: Evidence[]; sources: Record<string, Source> }
 export type ProviderRun = { run_id: string; cluster_id: string; operation: string; provider: string; model: string; finish_status: string; latency_ms: number; input_tokens?: number; output_tokens?: number; retries: number; validation_status: string; prompt_hash: string; error?: string }
 export type Page<T> = { items: T[]; total: number; page: number; page_size: number }
+export type SubmissionStatus = 'pending' | 'processing' | 'approved' | 'rejected' | 'ingest_failed'
+export type SubmissionAudit = { action: string; actor: string; at: string; detail?: string }
+export type Submission = {
+  submission_id: string; status: SubmissionStatus; source_kind: 'news' | 'social' | 'other';
+  title: string; publisher?: string; source_uri?: string; content: string; submitter_name?: string;
+  submitted_at: string; reviewed_by?: string; reviewed_at?: string; review_note?: string;
+  pipeline_run_id?: string; loaded_source_ids: string[]; loaded_incident_ids: string[];
+  ingest_error?: string; audit: SubmissionAudit[];
+}
+export type SubmissionInput = Pick<Submission, 'source_kind' | 'title' | 'content'> & { publisher?: string; source_uri?: string; submitter_name?: string }
+export type ReviewerSession = { username: string; csrf_token: string }

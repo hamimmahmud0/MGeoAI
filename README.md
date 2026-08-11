@@ -74,10 +74,45 @@ retry and validation state. Successful calls are cached using canonical evidence
 prompt, schema, provider, mode, and model. Credentials are never included in
 requests logs, outputs, API data, or the browser.
 
+## Runtime source submission and review
+
+The dashboard includes a public **Submit source** form and an authenticated
+**Review queue**. A submitted news report or social post is stored as pending
+text. Reviewers can inspect the exact text, metadata, original link, and audit
+history before rejecting it or approving it for ingestion. Approval converts
+the text to escaped, inert HTML under `outputs/<run>/runtime_scraps/`, combines
+it with the configured base scraps, and reruns the pipeline with the configured
+provider. Markup supplied by a contributor is displayed and stored as text; it
+is never executed.
+
+Configure any number of reviewers with PBKDF2 password hashes. Generate each
+hash interactively, then provide a JSON username-to-hash mapping and a random
+session-signing secret of at least 32 characters:
+
+```bash
+mgeoai hash-reviewer-password
+export MGEOAI_REVIEWERS_JSON='{"alice":"pbkdf2_sha256$...","bob":"pbkdf2_sha256$..."}'
+export MGEOAI_SESSION_SECRET='replace-with-a-random-secret-at-least-32-characters'
+export MGEOAI_DATA_DIR='outputs/demo'
+export MGEOAI_BASE_SCRAPS_DIR='assets/scraps'
+mgeoai serve --data-dir outputs/demo
+```
+
+Set `MGEOAI_SECURE_COOKIES=true` when serving over HTTPS. Reviewer sessions use
+an eight-hour, HTTP-only, SameSite cookie and mutating actions also require a
+CSRF token. In an internet-facing deployment, terminate TLS and apply request
+size/rate limits at the reverse proxy. Reviewer passwords and the signing secret
+belong in a secret manager, not in the repository or generated data.
+
+Approval is synchronous in v0.2.0. A live provider failure stays visible as an
+`ingest_failed` submission that can be retried; MGeoAI never silently changes to
+the recorded provider.
+
 ## Commands
 
 ```bash
 mgeoai doctor --provider recorded
+mgeoai hash-reviewer-password
 mgeoai ingest assets/scraps --output outputs/demo/manifest.jsonl
 mgeoai export-schemas --output-dir schemas
 mgeoai run --input assets/scraps --provider recorded --output-dir outputs/demo
@@ -118,6 +153,8 @@ provider_runs.json             operational metadata without hidden reasoning
 failed_clusters.json           terminal failures retained for retry/review
 run.json                       batch summary and recorded/live mode
 cache/                         successful request cache
+moderation/submissions/        pending/reviewed submissions and audit history
+runtime_scraps/                approved text materialized as inert HTML
 ```
 
 Versioned JSON Schemas are exported to `schemas/`.
@@ -144,7 +181,11 @@ The FastAPI service provides:
 - `GET /api/incidents/{incident_id}/evidence` with full cited claims and provenance;
 - `GET /api/incidents.geojson` with server-side spatial/filter handling;
 - `GET /api/sources` and `GET /api/sources/{source_id}` with safe extracted
-  content, plus `GET /api/runs` and `GET /api/health`.
+  content, plus `GET /api/runs` and `GET /api/health`;
+- `POST /api/submissions` and `GET /api/submissions/{submission_id}/status` for
+  public runtime source intake and status receipts;
+- `POST /api/reviewer/login`, `GET /api/reviewer/me`, and reviewer-only queue,
+  logout, approval, rejection, retry, and audit endpoints under `/api/reviewer`.
 
 The React interface starts on a world map and includes marker clustering,
 map/list synchronization, URL-preserved filters and selected incident, location
@@ -205,8 +246,11 @@ allegation into an observation.
 - The incident splitter uses transparent lexical/location anchors suited to the
   supplied Bangladesh corpus. Broader deployment needs learned extraction plus a
   larger evaluated gazetteer.
-- No raw image/audio/video inference, live scraping, external geocoder, queue,
-  authentication, or multi-tenant retention service is included.
+- No raw image/audio/video inference, live scraping, external geocoder, or
+  multi-tenant retention service is included.
+- The moderation queue and reviewer sessions use local files and process-local
+  locking. Multi-instance deployment needs a shared database, distributed job
+  queue, centralized rate limiting, and coordinated pipeline publication.
 - The small evaluation corpus is a development fixture, not an accuracy claim.
 - The production frontend is functional but MapLibre keeps the initial JavaScript
   bundle above Vite's 500 kB advisory threshold; route/map code splitting is a
