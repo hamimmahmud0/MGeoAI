@@ -1,0 +1,2958 @@
+[
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_23e903df4479a2d7"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7999999999999999,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": "prun_d37653791199b751",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_6d0cf2cea1670792"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_01fc9be579007137"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": "prun_3c6b4e83225d317f",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_3b165ec9c80664fb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_1f834f7777ccf794"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": "prun_6a01c06422a00ddf",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_417bcdcfda26dbb4"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_4c5ab42977ec172a"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": "prun_ed306680e2688cdd",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_c25ba046b55b709d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_9aade6bed862e60d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": "prun_6929fcab00349c74",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_298c49bd952c41d8"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3df0367527a772a9",
+    "provider_run_id": "prun_f13ad90215caee7b",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_23e903df4479a2d7",
+      "ev_01fc9be579007137"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.75,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": "prun_05c73835e6346983",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_3b165ec9c80664fb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_23e903df4479a2d7",
+      "ev_1f834f7777ccf794"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7749999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": "prun_7fb19daedb7e9b7c",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_417bcdcfda26dbb4"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_23e903df4479a2d7",
+      "ev_4c5ab42977ec172a"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.75,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": "prun_4dea80a0a90af789",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_c25ba046b55b709d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_9aade6bed862e60d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_23e903df4479a2d7",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": "prun_418d0d3785f9bf91",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_23e903df4479a2d7",
+      "ev_298c49bd952c41d8"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7749999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_6d0cf2cea1670792",
+    "provider_run_id": "prun_da46841ff320c454",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_1f834f7777ccf794"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": "prun_616a3276f40e7b00",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_417bcdcfda26dbb4"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_4c5ab42977ec172a"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.75,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": "prun_bd3b1f30a843cd41",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_c25ba046b55b709d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_9aade6bed862e60d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": "prun_d13e822301a09383",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_298c49bd952c41d8"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_3b165ec9c80664fb",
+    "provider_run_id": "prun_abf884732c7998df",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1f834f7777ccf794",
+      "ev_4c5ab42977ec172a"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7749999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": "prun_7c52bb8dc3d36f48",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_c25ba046b55b709d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_9aade6bed862e60d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1f834f7777ccf794",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": "prun_203919230d5fecf9",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1f834f7777ccf794",
+      "ev_298c49bd952c41d8"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.85,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_417bcdcfda26dbb4",
+    "provider_run_id": "prun_af416d34707fca51",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_c25ba046b55b709d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_9aade6bed862e60d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_4c5ab42977ec172a",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": "prun_9bd618a91851cf57",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_4c5ab42977ec172a",
+      "ev_298c49bd952c41d8"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7749999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": "prun_047025d9aff50e83",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_25f22aa562f7533f",
+      "ev_4be9adbfb1ccf9b1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_420324e66c294e32",
+    "provider_run_id": "prun_283c82dc166b3f57",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_2affff13e0d6f845"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_25f22aa562f7533f",
+      "ev_32e6290ff8c2ead6"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_420324e66c294e32",
+    "provider_run_id": "prun_7c48a71e1ae2361e",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_4be9adbfb1ccf9b1",
+      "ev_32e6290ff8c2ead6"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_2affff13e0d6f845",
+    "provider_run_id": "prun_a902ffc8954c31ad",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.8333333333333333,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_1d44c58721ec92c0"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.8333333333333333,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": "prun_b78c8646915bec75",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_9aade6bed862e60d"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_14dde01cdcc5810e"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.75,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7958333333333332,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": "prun_326bf8374074393f",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_031d7714f37e547d"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.75,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7958333333333332,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": "prun_2950992912c8b6cc",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_1eacca6cdb82b6ae"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": "prun_02de7399bf150584",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.75
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.75
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1d44c58721ec92c0",
+      "ev_14dde01cdcc5810e"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.75,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.8125,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": "prun_a85a1ad8e5c290d5",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1d44c58721ec92c0",
+      "ev_031d7714f37e547d"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.75,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.8125,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": "prun_1dea3a0ca1c413a5",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1d44c58721ec92c0",
+      "ev_1eacca6cdb82b6ae"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": "prun_5da9b879dcad520e",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_9aade6bed862e60d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_14dde01cdcc5810e",
+      "ev_031d7714f37e547d"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.85,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": "prun_4db3d320380f2b18",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_35221c25a4ae7a71"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_14dde01cdcc5810e",
+      "ev_1eacca6cdb82b6ae"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": "prun_a326c0e977e6665d",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_7ed9b9512fc6ad2b",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_031d7714f37e547d",
+      "ev_1eacca6cdb82b6ae"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": "prun_3c487d9382ded5e5",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_35221c25a4ae7a71",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_d549f45a52ba834c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_9867b75ca9d83221",
+      "ev_c1a2d5b73a89a4d2"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 0.0,
+      "time_score": 0.25,
+      "total_score": 0.62,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_37977261b478b3c4",
+    "provider_run_id": "prun_acc450cf61292d95",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_63368cf8e497c57d"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_851244544886379c",
+      "ev_189d525e6f97c130"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.6666666666666666,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7749999999999999,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": "prun_6d435b0bf7347b75",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_d549f45a52ba834c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_d549f45a52ba834c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_d549f45a52ba834c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_35ec9cf7714b6c1c",
+      "ev_b02f78dc220fb6ca"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_d549f45a52ba834c",
+    "provider_run_id": "prun_207b51b4c8da6a7a",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_d549f45a52ba834c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_ed0878d035a5a6ee"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.5
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_ed0878d035a5a6ee",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_ed0878d035a5a6ee",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_07a4549765a2d7a1",
+      "ev_298c49bd952c41d8"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_ed0878d035a5a6ee",
+    "provider_run_id": "prun_6a8b0213bfce8262",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_b5c461f657a8f51f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_b5c461f657a8f51f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_6820b78d82593f2c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e5821d942ba973bb"
+  }
+]

@@ -1,0 +1,306 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bb000ac54be1e730",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bb000ac54be1e730",
+      "locator": "article#node-1027126 > header:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Buet student’s death: 3 accused sent to jail after remand",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Buet student’s death: 3 accused sent to jail after remand",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_be0c5909115b9715",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_be0c5909115b9715",
+      "locator": "article#node-1027126 > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Senior Judicial Magistrate Nur Mohsin issued the order today",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Senior Judicial Magistrate Nur Mohsin issued the order today",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b601667fd03660c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6b601667fd03660c",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "A Narayanganj court has sent three accused to jail in a case filed over the death of Buet student Muhtasim Masud in a road accident at Purbachal.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "A Narayanganj court has sent three accused to jail in a case filed over the death of Buet student Muhtasim Masud in a road accident at Purbachal.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3b296f1b352751ab",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3b296f1b352751ab",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Senior Judicial Magistrate Nur Mohsin issued the order today (25 December) after the trio were presented in court upon completion of two-day remand, said the court police Inspector Qaiyum Khan.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Senior Judicial Magistrate Nur Mohsin issued the order today (25 December) after the trio were presented in court upon completion of two-day remand, said the court police Inspector Qaiyum Khan.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3ce5f301e59d1ebc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3ce5f301e59d1ebc",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Earlier on 22 December, the same court granted a two-day remand for the suspects to facilitate further investigation.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Earlier on 22 December, the same court granted a two-day remand for the suspects to facilitate further investigation.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d21f92b508e1c737",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d21f92b508e1c737",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(5)",
+      "locator_type": "html_selector",
+      "original_text": "On 21 December, Rupganj police station's Assistant Sub-Inspector Mehedi Hasan lodged a caser under the Narcotics Control Act 2018 against Mubin Al Mamun, 20, Mirajul Karim, 22, and Asif Chowdhury, 19.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "On 21 December, Rupganj police station's Assistant Sub-Inspector Mehedi Hasan lodged a caser under the Narcotics Control Act 2018 against Mubin Al Mamun, 20, Mirajul Karim, 22, and Asif Chowdhury, 19.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ade6b4b854d1d391",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ade6b4b854d1d391",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(6)",
+      "locator_type": "html_selector",
+      "original_text": "Mubin and Mirajul were charged for consuming and carrying drugs, while Asif was charged for assisting them.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Mubin and Mirajul were charged for consuming and carrying drugs, while Asif was charged for assisting them.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8e5b5739643cade9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8e5b5739643cade9",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(7)",
+      "locator_type": "html_selector",
+      "original_text": "The first case was filed by deceased Muhtasim Masud's father Masud Mia against the trio under the Road Transport Act 2018 on Friday (20 December), several hours after the incident that took place at the Nila Market intersection on the 300-feet road in Purbachal in the early hours of the day.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "The first case was filed by deceased Muhtasim Masud's father Masud Mia against the trio under the Road Transport Act 2018 on Friday (20 December), several hours after the incident that took place at the Nila Market intersection on the 300-feet road in Purbachal in the early hours of the day.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2634207cd5f3a04a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2634207cd5f3a04a",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(8)",
+      "locator_type": "html_selector",
+      "original_text": "The accused include Mubin Al Mamun, the driver of the car, and his two friends, Mirazul Karim and Asif Chowdhury. Mubin Al Mamun is the son of Brigadier General (retd) Abdullah Al Mamun. He was driving the vehicle at the time of the incident on December 19. During a search of the private car, authorities discovered a can of beer and an empty liquor bottle.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "The accused include Mubin Al Mamun, the driver of the car, and his two friends, Mirazul Karim and Asif Chowdhury. Mubin Al Mamun is the son of Brigadier General (retd) Abdullah Al Mamun. He was driving the vehicle at the time of the incident on December 19. During a search of the private car, authorities discovered a can of beer and an empty liquor bottle.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b6d535fd22872c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6b6d535fd22872c8",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(9)",
+      "locator_type": "html_selector",
+      "original_text": "A dope test conducted on the three suspects revealed positive results for two of them. According to Narayanganj District Civil Surgeon AFM Mushiur Rahman, Mubin Al Mamun tested positive for both marijuana and alcohol, while passenger Mirazul Karim tested positive for alcohol.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "A dope test conducted on the three suspects revealed positive results for two of them. According to Narayanganj District Civil Surgeon AFM Mushiur Rahman, Mubin Al Mamun tested positive for both marijuana and alcohol, while passenger Mirazul Karim tested positive for alcohol.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e8390231f8cdb8f5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e8390231f8cdb8f5",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(10)",
+      "locator_type": "html_selector",
+      "original_text": "The victim's father, Masud, has filed a case under the Traffic Act regarding his son's death. Additionally, the police have filed a separate case under the Narcotics Act against the accused. Their arrests have also been recorded in connection with the drug-related charges.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "The victim's father, Masud, has filed a case under the Traffic Act regarding his son's death. Additionally, the police have filed a separate case under the Narcotics Act against the accused. Their arrests have also been recorded in connection with the drug-related charges.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6bb633f00dfaa995",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6bb633f00dfaa995",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(11)",
+      "locator_type": "html_selector",
+      "original_text": "Muhtasim, 22, a student of Buet's computer science and engineering department, and his two friends from the same department – Amit Saha, 22, and Mehedi Hasan, 22, went to Nila Market on his motorcycle on Thursday night to have dinner. On their way back to Dhaka at around 3am Friday, they were stopped by the police at the checkpost at Nila Market intersection.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Muhtasim, 22, a student of Buet's computer science and engineering department, and his two friends from the same department – Amit Saha, 22, and Mehedi Hasan, 22, went to Nila Market on his motorcycle on Thursday night to have dinner. On their way back to Dhaka at around 3am Friday, they were stopped by the police at the checkpost at Nila Market intersection.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_14fb20a7c3438e52",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_14fb20a7c3438e52",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(12)",
+      "locator_type": "html_selector",
+      "original_text": "The three youths were on the stationary motorcycle and talking to the police when the car recklessly driven by Mubin crashed into them, killing Muhtasim on the spot and critically injuring his two friends.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "The three youths were on the stationary motorcycle and talking to the police when the car recklessly driven by Mubin crashed into them, killing Muhtasim on the spot and critically injuring his two friends.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d7626b3e702e2ce5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d7626b3e702e2ce5",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(13)",
+      "locator_type": "html_selector",
+      "original_text": "After police and locals detained the car's three passengers – Mubin, Mirajul and Asif, an empty bottle of liquor and a can of beer were found in the vehicle – which raised suspicion that Mubin could have been under the influence of alcohol when he was driving.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "After police and locals detained the car's three passengers – Mubin, Mirajul and Asif, an empty bottle of liquor and a can of beer were found in the vehicle – which raised suspicion that Mubin could have been under the influence of alcohol when he was driving.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f72e3784ea04535c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f72e3784ea04535c",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > p:nth-of-type(14)",
+      "locator_type": "html_selector",
+      "original_text": "Mubin, the son of a former army official, and Mirajul later tested positive for alcohol and marijuana.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Mubin, the son of a former army official, and Mirajul later tested positive for alcohol and marijuana.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_945a784eecadca0e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_945a784eecadca0e",
+      "locator": "article#node-1027126 > div:nth-of-type(7) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladesh / BUET student / road accident",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Bangladesh / BUET student / road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_94572858ca77425c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_94572858ca77425c",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Comments",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Comments",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_536037399e595087",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_536037399e595087",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "While most comments will be posted if they are on-topic and not abusive, moderation decisions are subjective. Published comments are readers’ own views and The Business Standard does not endorse any of the readers’ comments.",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "While most comments will be posted if they are on-topic and not abusive, moderation decisions are subjective. Published comments are readers’ own views and The Business Standard does not endorse any of the readers’ comments.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0ab3362162fb4926",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0ab3362162fb4926",
+      "locator": "article#node-1027126 > div:nth-of-type(5) > ul:nth-of-type(1) > li:nth-of-type(1) > em:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Buet student Muhtasim Masud was killed in accident on 20 Dec",
+      "source_path": "html/02/news_01.html"
+    },
+    "reactions": null,
+    "source_id": "src_67f5fd8305b791e7",
+    "text": "Buet student Muhtasim Masud was killed in accident on 20 Dec",
+    "url": null
+  }
+]

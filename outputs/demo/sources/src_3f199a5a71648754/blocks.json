@@ -1,0 +1,354 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e7c7063810f2c044",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e7c7063810f2c044",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Buet student killed as car hits bike",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Buet student killed as car hits bike",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90b6d89a427c7aef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_90b6d89a427c7aef",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A Buet student was killed and two of his classmates were injured when a car hit them and their stationary motorcycle early yesterday at a police check post on Purbachal Expressway, better known as 300-feet road.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "A Buet student was killed and two of his classmates were injured when a car hit them and their stationary motorcycle early yesterday at a police check post on Purbachal Expressway, better known as 300-feet road.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95ba407d43a0fdcb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95ba407d43a0fdcb",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Police said the car was being driven recklessly by a 20-year-old man.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Police said the car was being driven recklessly by a 20-year-old man.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_658990597c8d9d3a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_658990597c8d9d3a",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Mohtassim Masud, aged 22, was a 2nd-year student of computer science. He lived with his parents on the capital's Green Road.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Mohtassim Masud, aged 22, was a 2nd-year student of computer science. He lived with his parents on the capital's Green Road.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_22a6d4bd01d1bea7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_22a6d4bd01d1bea7",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Police said he died at the scene near Neela Market in Rupganj, Narayanganj.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Police said he died at the scene near Neela Market in Rupganj, Narayanganj.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_41eb7ff821693e67",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_41eb7ff821693e67",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(5)",
+      "locator_type": "html_selector",
+      "original_text": "Mehedi Hasan Khan, 22, and Amit Saha, 22, also students of computer science at Buet, were admitted to hospitals with serious injuries.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Mehedi Hasan Khan, 22, and Amit Saha, 22, also students of computer science at Buet, were admitted to hospitals with serious injuries.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_415c0e861cb4de7a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_415c0e861cb4de7a",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(6)",
+      "locator_type": "html_selector",
+      "original_text": "Police arrested the driver of the car Mubin Al Mamun, 20, and two passengers Mirajul Karim, 22, and Asif Chowdhury, 19, said Liakat Ali, officer-in-charge of Rupganj Police Station.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Police arrested the driver of the car Mubin Al Mamun, 20, and two passengers Mirajul Karim, 22, and Asif Chowdhury, 19, said Liakat Ali, officer-in-charge of Rupganj Police Station.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe0025de3a007893",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe0025de3a007893",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(7)",
+      "locator_type": "html_selector",
+      "original_text": "Mubin is a resident of Mirpur DOHS, Mirajul of Pirerbagh, and Asif Chowdhury of Uttara Sector 13, he added.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Mubin is a resident of Mirpur DOHS, Mirajul of Pirerbagh, and Asif Chowdhury of Uttara Sector 13, he added.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c5b6830089d8c2c9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c5b6830089d8c2c9",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(8)",
+      "locator_type": "html_selector",
+      "original_text": "Mohtassim's father Masud Mia filed a case under the Road Transport Act at Rupganj Police Station.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Mohtassim's father Masud Mia filed a case under the Road Transport Act at Rupganj Police Station.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_91dfb440e1faa406",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_91dfb440e1faa406",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(9)",
+      "locator_type": "html_selector",
+      "original_text": "Quoting witnesses, Mehedi Islam, senior assistant superintendent of police in Narayanganj, said the car was being driven recklessly.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Quoting witnesses, Mehedi Islam, senior assistant superintendent of police in Narayanganj, said the car was being driven recklessly.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0c31384c88b22db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e0c31384c88b22db",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(10)",
+      "locator_type": "html_selector",
+      "original_text": "After an examination of the suspects at Narayanganj General Hospital, Civil Surgeon Moshiur Rahman said Mubin, who was driving the vehicle, had consumed alcohol and marijuana, Mirajul had alcohol, and Asif was clean.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "After an examination of the suspects at Narayanganj General Hospital, Civil Surgeon Moshiur Rahman said Mubin, who was driving the vehicle, had consumed alcohol and marijuana, Mirajul had alcohol, and Asif was clean.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8bb46339dffd6a79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8bb46339dffd6a79",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(11)",
+      "locator_type": "html_selector",
+      "original_text": "An empty bottle of liquor and a can of beer were found inside the car, said OC Liakat.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "An empty bottle of liquor and a can of beer were found inside the car, said OC Liakat.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_21e5d4c574ccf298",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_21e5d4c574ccf298",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(12)",
+      "locator_type": "html_selector",
+      "original_text": "A court sent the arrestees to jail after scheduling a hearing on Sunday.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "A court sent the arrestees to jail after scheduling a hearing on Sunday.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9821a6ab5b231eea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9821a6ab5b231eea",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(13)",
+      "locator_type": "html_selector",
+      "original_text": "On the court premises, Mubin's father Brig Gen (retd) Abdullah Al Mamun said his son had a valid driver's licence but refrained from making any further comments.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "On the court premises, Mubin's father Brig Gen (retd) Abdullah Al Mamun said his son had a valid driver's licence but refrained from making any further comments.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_128459ea9a205b26",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_128459ea9a205b26",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(14)",
+      "locator_type": "html_selector",
+      "original_text": "However, OC Liakat said Mubin could not produce any licence.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "However, OC Liakat said Mubin could not produce any licence.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c8c1db09cd2baecf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c8c1db09cd2baecf",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(15)",
+      "locator_type": "html_selector",
+      "original_text": "Police have seized the car and the motorcycle.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Police have seized the car and the motorcycle.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7992c223dad07f03",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7992c223dad07f03",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(16)",
+      "locator_type": "html_selector",
+      "original_text": "Mohtassim's parents and other family members at their home on Green Road were shocked at the news of his death.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "Mohtassim's parents and other family members at their home on Green Road were shocked at the news of his death.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d7dfa2d039f164f9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d7dfa2d039f164f9",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(17)",
+      "locator_type": "html_selector",
+      "original_text": "His mother Raisa Sultana kept breaking down in tears. \"Why has my son gone? I raised him with so much love,\" she wailed.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "His mother Raisa Sultana kept breaking down in tears. \"Why has my son gone? I raised him with so much love,\" she wailed.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a99f4b80b0c0b61b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a99f4b80b0c0b61b",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(18)",
+      "locator_type": "html_selector",
+      "original_text": "According to the case filed by Masud, Mohtassim and his two friends were returning from Neela Market after a late night dinner on the weekend.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "According to the case filed by Masud, Mohtassim and his two friends were returning from Neela Market after a late night dinner on the weekend.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9f28b02fdcb811cc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9f28b02fdcb811cc",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(19)",
+      "locator_type": "html_selector",
+      "original_text": "\"They were coming home. Around 3:00am, they were stopped at a police check post when a speeding car crashed into them. Mohtassim died on the spot, while his two friends were injured,\" reads the complaint.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "\"They were coming home. Around 3:00am, they were stopped at a police check post when a speeding car crashed into them. Mohtassim died on the spot, while his two friends were injured,\" reads the complaint.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_513196ce68225d3b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_513196ce68225d3b",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(20)",
+      "locator_type": "html_selector",
+      "original_text": "After daybreak, over 100 Buet students demonstrated in front of Rupganj Police Station, demanding punishment of the driver.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "After daybreak, over 100 Buet students demonstrated in front of Rupganj Police Station, demanding punishment of the driver.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a36d7ae0b51e4415",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a36d7ae0b51e4415",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(21)",
+      "locator_type": "html_selector",
+      "original_text": "They also held a rally near Buet campus around noon.",
+      "source_path": "html/03/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f199a5a71648754",
+    "text": "They also held a rally near Buet campus around noon.",
+    "url": null
+  }
+]

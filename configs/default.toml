@@ -1,0 +1,27 @@
+[fusion]
+provider = "deepseek"
+request_timeout = 45.0
+retry_count = 2
+concurrency = 2
+token_budget = 6000
+run_cost_limit_usd = 5.0
+daily_cost_limit_usd = 20.0
+
+[matching]
+match_threshold = 0.72
+possible_match_threshold = 0.45
+max_days_apart = 3
+
+[privacy]
+redact_comment_authors = false
+retain_raw_text = true
+
+[limits]
+max_file_bytes = 5000000
+
+[map]
+style_url = "https://tiles.openfreemap.org/styles/liberty"
+
+[overrides]
+must_link = []
+cannot_link = []

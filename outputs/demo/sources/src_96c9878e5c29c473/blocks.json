@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ae23628026646acf",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ae23628026646acf",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Views Bangladesh's Post",
+      "source_path": "html/06/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_96c9878e5c29c473",
+    "text": "Views Bangladesh's Post",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7f6b3aa7587f4e54",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7f6b3aa7587f4e54",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Views Bangladesh",
+      "source_path": "html/06/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_96c9878e5c29c473",
+    "text": "Views Bangladesh",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8fb782fdd7591fd5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8fb782fdd7591fd5",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bn.viewsbangladesh.com/students-leave-highway-in.../",
+      "source_path": "html/06/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_96c9878e5c29c473",
+    "text": "https://bn.viewsbangladesh.com/students-leave-highway-in.../",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4777cdc00b6cfdda",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4777cdc00b6cfdda",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "তিন ঘণ্টা পর টঙ্গীতে মহাসড়ক ছাড়লেন আন্দোলনরত শিক্ষার্থীরা",
+      "source_path": "html/06/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_96c9878e5c29c473",
+    "text": "তিন ঘণ্টা পর টঙ্গীতে মহাসড়ক ছাড়লেন আন্দোলনরত শিক্ষার্থীরা",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5bd2803656bc0975",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5bd2803656bc0975",
+      "locator": "div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "গাজীপুরের টঙ্গীতে সড়ক দুর্ঘটনায় নিহত মাদরাসাছাত্র ইয়াসিন আলীর (১৫) মৃত্যুর প্রতিবাদে দীর্ঘ তিন ঘণ্টা মহাসড়ক অবরোধের পর অবশেষে সড়ক ছেড়েছেন শিক্ষার্থীরা। এই দীর্ঘ অবরোধের কারণে ঢাকা-ময়মনসিংহ মহাসড়কে সৃষ্টি হয় প্রায় ১৫ কিলোমিটারজুড়ে তীব্র যানজট, যাতে চরম ভোগান্তির মুখে পড়েন হাজারো যাত্রী",
+      "source_path": "html/06/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_96c9878e5c29c473",
+    "text": "গাজীপুরের টঙ্গীতে সড়ক দুর্ঘটনায় নিহত মাদরাসাছাত্র ইয়াসিন আলীর (১৫) মৃত্যুর প্রতিবাদে দীর্ঘ তিন ঘণ্টা মহাসড়ক অবরোধের পর অবশেষে সড়ক ছেড়েছেন শিক্ষার্থীরা। এই দীর্ঘ অবরোধের কারণে ঢাকা-ময়মনসিংহ মহাসড়কে সৃষ্টি হয় প্রায় ১৫ কিলোমিটারজুড়ে তীব্র যানজট, যাতে চরম ভোগান্তির মুখে পড়েন হাজারো যাত্রী",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b5f908128a05c10",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8b5f908128a05c10",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "গাজীপুরের টঙ্গীতে সড়ক দুর্ঘটনায় নিহত মাদরাসাছাত্র ইয়াসিন আলীর (১৫) মৃত্যুর প্রতিবাদে দীর্ঘ তিন ঘণ্টা মহাসড়ক অবরোধের পর অবশেষে সড়ক ছেড়েছেন শিক্ষার্থীরা। এই দীর্ঘ অবরোধের কারণে ঢাকা-ময়মনসিংহ মহাসড়কে সৃষ্টি হয় প্রায় ১৫ কিলোমিটারজুড়ে তীব্র যানজট, যাতে চরম ভোগান্তির মুখে পড়েন হাজারো যাত্রী #TongiBlockade #StudentProtest #viewsbangladesh",
+      "source_path": "html/06/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_96c9878e5c29c473",
+    "text": "গাজীপুরের টঙ্গীতে সড়ক দুর্ঘটনায় নিহত মাদরাসাছাত্র ইয়াসিন আলীর (১৫) মৃত্যুর প্রতিবাদে দীর্ঘ তিন ঘণ্টা মহাসড়ক অবরোধের পর অবশেষে সড়ক ছেড়েছেন শিক্ষার্থীরা। এই দীর্ঘ অবরোধের কারণে ঢাকা-ময়মনসিংহ মহাসড়কে সৃষ্টি হয় প্রায় ১৫ কিলোমিটারজুড়ে তীব্র যানজট, যাতে চরম ভোগান্তির মুখে পড়েন হাজারো যাত্রী #TongiBlockade #StudentProtest #viewsbangladesh",
+    "url": null
+  }
+]

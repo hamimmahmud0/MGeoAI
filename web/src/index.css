@@ -1,0 +1,52 @@
+@import 'maplibre-gl/dist/maplibre-gl.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --ink: 23 32 51;
+    --muted: 102 112 133;
+    --line: 229 233 240;
+    --canvas: 245 247 250;
+    --surface: 255 255 255;
+    --primary: 31 94 255;
+    --primary-soft: 238 244 255;
+    --danger: 153 27 27;
+    --danger-line: 252 165 165;
+    --danger-soft: 254 242 242;
+    --warning: 120 53 15;
+    --warning-line: 252 211 77;
+    --warning-soft: 255 251 235;
+  }
+  :root[data-theme='dark'] {
+    --ink: 235 239 247;
+    --muted: 161 171 190;
+    --line: 55 65 81;
+    --canvas: 15 23 42;
+    --surface: 22 31 49;
+    --primary: 122 162 255;
+    --primary-soft: 28 48 82;
+    --danger: 254 202 202;
+    --danger-line: 127 29 29;
+    --danger-soft: 69 24 31;
+    --warning: 253 230 138;
+    --warning-line: 146 64 14;
+    --warning-soft: 66 39 16;
+  }
+  * { box-sizing: border-box; }
+  body { @apply m-0 bg-canvas font-sans text-ink antialiased; }
+  button, input, select { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2; }
+}
+
+@layer components {
+  .badge { @apply inline-flex items-center rounded border border-line bg-surface px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-muted; }
+  .control { @apply h-9 rounded-md border border-line bg-surface px-3 text-sm text-ink; }
+  .panel { @apply border border-line bg-surface; }
+}
+
+.maplibregl-map { font: inherit; }
+.maplibregl-ctrl-attrib { font-size: 10px; }
+:root[data-theme='dark'] .maplibregl-ctrl-group,
+:root[data-theme='dark'] .maplibregl-ctrl-attrib { background: rgb(var(--surface) / 0.92); color: rgb(var(--ink)); }
+:root[data-theme='dark'] .maplibregl-ctrl button .maplibregl-ctrl-icon { filter: invert(1); }

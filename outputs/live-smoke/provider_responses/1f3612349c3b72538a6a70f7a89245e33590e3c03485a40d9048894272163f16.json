@@ -1,0 +1,7 @@
+{
+  "finish_status": "stop",
+  "mode": "chat_completions",
+  "model": "deepseek-v4-flash",
+  "provider": "deepseek",
+  "response": "{\"confidence\":0.8,\"contradictions\":[],\"decision\":\"same_incident\",\"decisive_evidence_ids\":[\"ev_53bf08280ca47b12\",\"ev_e8c697e231ce67eb\",\"ev_23e903df4479a2d7\",\"ev_3cb89b4791adcc04\",\"ev_850f0b4bcf2418e4\",\"ev_c425c2c64fdbc3bf\",\"ev_f6979130e8086261\"],\"rationale\":\"Both reports involve the same person (Muhtasim), same location (Purbachal 300 Feet Road), same date (2024-12-20 to 2024-12-21), same casualty counts (1 fatality, 2 injuries), and same event type (road crash). The right report adds a subtype 'fatal' and vehicles (motorcycle, car), which are compatible extensions. No contradictions. Location is a gazetteer centroid, not an exact point, but both share the same normalized area. Time granularity matches at day level.\"}"
+}

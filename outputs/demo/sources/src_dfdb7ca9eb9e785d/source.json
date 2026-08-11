@@ -1,0 +1,27 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1069b7a8afc3b83f941526d3e18cb8d5e78ba8d4cc1a69b25c0f40fc30e7ea28",
+  "dependency_group": "thedailystar.net",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "bn",
+    "en"
+  ],
+  "local_path": "html/12/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": null,
+  "publisher": "thedailystar.net",
+  "schema_version": "1.0.0",
+  "source_id": "src_dfdb7ca9eb9e785d",
+  "source_metadata": {
+    "source_info_hash": "0389a63c64531388",
+    "source_info_path": "/home/hamim-mahmud/Workspace/ASCE/assets/scraps/html/12/SOURCE_INFO.md"
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.thedailystar.net/news/accidents-fires/news/16-killed-sylhet-bogura-road-crashes-4242531",
+  "timezone": null,
+  "title": "16 killed in Sylhet, Bogura road crashes"
+}

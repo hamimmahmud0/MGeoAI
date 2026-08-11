@@ -1,0 +1,27 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b3416c0616ebfb3516f37fc8c4e7b409af1537b6a72cbe585b2eb528c96edab3",
+  "dependency_group": "the business standard",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "bn",
+    "en"
+  ],
+  "local_path": "html/08/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": null,
+  "publisher": "The Business Standard",
+  "schema_version": "1.0.0",
+  "source_id": "src_08e85baf3bc7a60a",
+  "source_metadata": {
+    "source_info_hash": "f8579f3f0a239397",
+    "source_info_path": "/home/hamim-mahmud/Workspace/ASCE/assets/scraps/html/08/SOURCE_INFO.md"
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.tbsnews.net/privacy-policy",
+  "timezone": null,
+  "title": "The Business Standard's Post"
+}

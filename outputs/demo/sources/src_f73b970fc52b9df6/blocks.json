@@ -1,0 +1,194 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f3847016bcf90838",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f3847016bcf90838",
+      "locator": "article#node-1307781 > header:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 university students killed as DNCC garbage truck hits motorcycle in Dhaka",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "2 university students killed as DNCC garbage truck hits motorcycle in Dhaka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90a77ac513057330",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_90a77ac513057330",
+      "locator": "article#node-1307781 > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Redwan and Apu were returning home from a wedding event around 4:30am when the DNCC garbage truck hit their motorcycle",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "Redwan and Apu were returning home from a wedding event around 4:30am when the DNCC garbage truck hit their motorcycle",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f2249f750ab3c814",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f2249f750ab3c814",
+      "locator": "article#node-1307781 > div:nth-of-type(5) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two university students were killed today (12 December) when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra.",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "Two university students were killed today (12 December) when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b173d0e01a2c7467",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b173d0e01a2c7467",
+      "locator": "article#node-1307781 > div:nth-of-type(5) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "The deceased were identified as Iram Redwan, 25, a student of American International University-Bangladesh (AIUB), and Apu Ahmed, 25, a student of United International University (UIU).",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "The deceased were identified as Iram Redwan, 25, a student of American International University-Bangladesh (AIUB), and Apu Ahmed, 25, a student of United International University (UIU).",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a7ebc97b17d930d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3a7ebc97b17d930d",
+      "locator": "article#node-1307781 > div:nth-of-type(5) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Victims' classmate Tausif said Redwan and Apu were returning home from a wedding event around 4:30am when the DNCC garbage truck hit their motorcycle, leaving them seriously injured.",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "Victims' classmate Tausif said Redwan and Apu were returning home from a wedding event around 4:30am when the DNCC garbage truck hit their motorcycle, leaving them seriously injured.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d15442422fb7a0a6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d15442422fb7a0a6",
+      "locator": "article#node-1307781 > div:nth-of-type(5) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "They were taken to Dhaka Medical College Hospital (DMCH), where doctors declared Apu dead first, followed shortly by Redwan, he added.",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "They were taken to Dhaka Medical College Hospital (DMCH), where doctors declared Apu dead first, followed shortly by Redwan, he added.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b7ccc55f191f9dd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6b7ccc55f191f9dd",
+      "locator": "article#node-1307781 > div:nth-of-type(5) > p:nth-of-type(5)",
+      "locator_type": "html_selector",
+      "original_text": "Both students resided in the Chittagong Road area of Shanarpar. The City Corporation vehicle (registration Dhaka Metro Sha-140574) has been seized by police.",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "Both students resided in the Chittagong Road area of Shanarpar. The City Corporation vehicle (registration Dhaka Metro Sha-140574) has been seized by police.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c1204dcbeb9ed51",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1c1204dcbeb9ed51",
+      "locator": "article#node-1307781 > div:nth-of-type(5) > p:nth-of-type(6)",
+      "locator_type": "html_selector",
+      "original_text": "Inspector Md Faruk, in charge of the police camp at DMCH, said the bodies have been kept in the hospital morgue.",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "Inspector Md Faruk, in charge of the police camp at DMCH, said the bodies have been kept in the hospital morgue.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fbbf5411f4bb2682",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fbbf5411f4bb2682",
+      "locator": "article#node-1307781 > div:nth-of-type(5) > p:nth-of-type(7)",
+      "locator_type": "html_selector",
+      "original_text": "The incident has been reported to the Demra police station.",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "The incident has been reported to the Demra police station.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_24710450ed91e92d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_24710450ed91e92d",
+      "locator": "article#node-1307781 > div:nth-of-type(7) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Accident / DNCC garbage truck accident",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "Accident / DNCC garbage truck accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_287895d7a1d3a89f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_287895d7a1d3a89f",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Comments",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "Comments",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_431fcff9a829b6ec",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_431fcff9a829b6ec",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "While most comments will be posted if they are on-topic and not abusive, moderation decisions are subjective. Published comments are readers’ own views and The Business Standard does not endorse any of the readers’ comments.",
+      "source_path": "html/09/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f73b970fc52b9df6",
+    "text": "While most comments will be posted if they are on-topic and not abusive, moderation decisions are subjective. Published comments are readers’ own views and The Business Standard does not endorse any of the readers’ comments.",
+    "url": null
+  }
+]

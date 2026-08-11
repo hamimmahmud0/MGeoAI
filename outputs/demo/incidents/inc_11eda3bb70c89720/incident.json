@@ -1,0 +1,333 @@
+{
+  "alternate_time_claims": [],
+  "collision": "road_crash; Gazipur; fatalities=1",
+  "congestion_delay": "road blockade or associated congestion reported",
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-10T00:00:00",
+    "original_expression": "date normalized from corpus evidence family",
+    "precision": "day",
+    "start": "2026-08-09T00:00:00",
+    "timezone": null
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_25f22aa562f7533f",
+    "ev_32e6290ff8c2ead6",
+    "ev_33738fa816ada880",
+    "ev_4be9adbfb1ccf9b1",
+    "ev_68d7f18f8fe461ea",
+    "ev_9012296fa587ace1",
+    "ev_d9abeb718696a746"
+  ],
+  "facts": [
+    {
+      "confidence": 0.79,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_32e6290ff8c2ead6",
+        "ev_33738fa816ada880",
+        "ev_4be9adbfb1ccf9b1",
+        "ev_68d7f18f8fe461ea",
+        "ev_9012296fa587ace1",
+        "ev_d9abeb718696a746"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.65,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "traffic_effect",
+      "selection_rationale": "Retained from explicit source or analysis evidence; no quantitative delay inferred.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_32e6290ff8c2ead6",
+        "ev_33738fa816ada880",
+        "ev_4be9adbfb1ccf9b1",
+        "ev_68d7f18f8fe461ea",
+        "ev_9012296fa587ace1",
+        "ev_d9abeb718696a746"
+      ],
+      "value": "road blockade or associated congestion reported"
+    }
+  ],
+  "generated_at": "2026-08-09T00:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Coordinates represent a named-area centroid, not the exact crash point.",
+    "confidence": 0.78,
+    "display_name": "Tongi, Gazipur",
+    "granularity": "city",
+    "hierarchy": {
+      "anchor": "tongi",
+      "country": "Bangladesh"
+    },
+    "latitude": 23.8957,
+    "longitude": 90.4023,
+    "method": "local_gazetteer_centroid",
+    "supporting_evidence_ids": [
+      "ev_25f22aa562f7533f",
+      "ev_32e6290ff8c2ead6",
+      "ev_33738fa816ada880",
+      "ev_4be9adbfb1ccf9b1",
+      "ev_68d7f18f8fe461ea",
+      "ev_9012296fa587ace1",
+      "ev_d9abeb718696a746"
+    ],
+    "uncertainty_radius_km": 12.0
+  },
+  "human_summary": "The fused record concerns this reported incident: Tongi student crash and highway blockade. The reported date is August 9, 2026, retained at day precision. Reports identify the location as Tongi, Gazipur; fusion retains it at city precision with 78% location confidence. The reconciled casualty assessment records 1 reported fatality and injuries not reported. Identified vehicles or road users include bus. Explicitly reported traffic effects include road blockade or associated congestion reported. The record combines 3 source record(s) representing 3 independent source group(s) and 7 cited evidence item(s). Important location limitation: Coordinates represent a named-area centroid, not the exact crash point, with an approximate 12 km uncertainty radius. Representative decisive evidence: [ev_25f22aa562f7533f] [ev_32e6290ff8c2ead6] [ev_33738fa816ada880].",
+  "incident_id": "inc_11eda3bb70c89720",
+  "independent_source_count": 3,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_79cae0b43fa77098",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {
+      "congestion_delay": {
+        "negative": 5
+      },
+      "road_safety": {
+        "negative": 8
+      }
+    },
+    "coverage_note": "13 unique visible or analyzed expression(s); reaction counts excluded.",
+    "items": [
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_33738fa816ada880",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_f980c75151b79254",
+        "source_id": "src_96c9878e5c29c473",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_25f22aa562f7533f",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_391fc28c8cbffb55",
+        "source_id": "src_96c9878e5c29c473",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_4be9adbfb1ccf9b1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_50615fe2e3d93535",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_9012296fa587ace1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_f24bf1debe561a6c",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_e40b9b57c9908c1f",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_68a914611c69ada8",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_1daa4367bcff93e1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_45deddcf0e76ae24",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_d8845078d12a5ec7",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_b5925edd927a9947",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_284772af9f97ab7a",
+        "holder": "Channel 24",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_607568b36140bbbe",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.65,
+        "emotion": "concern",
+        "evidence_id": "ev_0f1872d7ddd16d11",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_4ea5d430db02e0b6",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_4d29e8fa51fb6d16",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_857912a1380da4b7",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_bc734548b660a703",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_9784f7572c739de5",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_8e0582fee1384a4f",
+        "holder": "source audience or participant",
+        "holder_type": "group",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_3278aaee71f96bb6",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.65,
+        "emotion": "concern",
+        "evidence_id": "ev_5f25b1e88d2d414f",
+        "holder": "source audience or participant",
+        "holder_type": "group",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_65615cd287753652",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 13,
+    "traffic_relevant_count": 13
+  },
+  "source_ids": [
+    "src_064d6b3f7a7be59c",
+    "src_96c9878e5c29c473",
+    "src_ac806a793f71ca54"
+  ],
+  "status": "reported",
+  "title": "Tongi student crash and highway blockade",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

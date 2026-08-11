@@ -1,0 +1,7 @@
+[
+  {"left": "men_3df0367527a772a9", "right": "men_6d0cf2cea1670792", "label": "same_incident"},
+  {"left": "men_c25ba046b55b709d", "right": "men_7ed9b9512fc6ad2b", "label": "same_incident"},
+  {"left": "men_3df0367527a772a9", "right": "men_c25ba046b55b709d", "label": "different_incident"},
+  {"left": "men_047777136d153155", "right": "men_d549f45a52ba834c", "label": "different_incident"},
+  {"left": "men_420324e66c294e32", "right": "men_b5c461f657a8f51f", "label": "ambiguous"}
+]

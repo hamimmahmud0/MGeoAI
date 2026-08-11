@@ -1,0 +1,481 @@
+{
+"source_type": "image",
+"traffic_relevance": {
+"is_traffic_relevant": true,
+"relevance_level": "contextual",
+"confidence": "high",
+"primary_traffic_relation": "Police-station forecourt/access scene containing a pedestrian gathering and two visible motor vehicles. A possible localized effect on vehicle access or maneuvering exists, but no direct roadway congestion, queue, crash, closure, or lane blockage is visible.",
+"traffic_relation_types": [
+"pedestrian_activity",
+"vehicle_access",
+"stationary_vehicles",
+"possible_local_access_impedance"
+],
+"reason": "The image contains transportation-relevant vehicles and people occupying an access/forecourt area, but the main roadway and an active traffic stream are not sufficiently visible to establish a direct traffic condition."
+},
+"image_classification": {
+"image_type": "live exterior scene photograph",
+"appears_to_be_live_scene": true,
+"appears_to_show_actual_incident": false,
+"is_composite_image": false,
+"contains_road_scene": true,
+"contains_news_graphics": false,
+"contains_social_media": false,
+"contains_comments": false,
+"contains_cctv_content": false,
+"contains_document": false,
+"contains_government_or_official_notice": false,
+"contains_map": false,
+"contains_infographic": false,
+"contains_event_announcement": false,
+"contains_stock_or_illustrative_content": false
+},
+"overall_scene": {
+"description": "Daylight exterior of a police-station building. Approximately 14-17 visible people are standing, walking, waiting, or conversing in the paved forecourt/access area. A blue-and-yellow three-wheeled motor vehicle and a blue SUV/pickup-type vehicle with a roof emergency light bar are visible near the entrance. No visible crash, damaged vehicle, debris, traffic queue, barricade, or clear lane blockage is present.",
+"camera_viewpoint": "ground-level oblique frontal view toward the building entrance",
+"transportation_context": "police-station forecourt/driveway or access area with pedestrians and stationary or possibly stationary vehicles",
+"lighting": "bright daylight with visible shadows",
+"weather": "no rain or adverse weather visibly apparent",
+"visibility": "good",
+"road_surface_condition": "paved surface appears dry",
+"apparent_traffic_condition": "not determinable because a through-road traffic stream is not clearly visible",
+"confidence": "high"
+},
+"image_regions": [],
+"traffic_conditions": [],
+"vehicles": [
+{
+"vehicle_id": "VEH_001",
+"vehicle_type": "three-wheeled motor vehicle",
+"subtype": "auto-rickshaw-type vehicle",
+"make": null,
+"model": null,
+"color": "blue body with yellow upper canopy",
+"registration_number": null,
+"position_in_image": "center, immediately in front of or beside the building entrance",
+"road_position": "forecourt/access area",
+"orientation": "approximately side/front-oblique view",
+"apparent_direction": null,
+"apparent_movement_state": "unknown",
+"traffic_role": "three-wheeled passenger-type motor vehicle",
+"damage": [],
+"overturned": false,
+"off_road": false,
+"obstructing_traffic": null,
+"interaction_with_objects": [
+"positioned close to pedestrians near the station entrance"
+],
+"confidence": "high"
+},
+{
+"vehicle_id": "VEH_002",
+"vehicle_type": "motor vehicle",
+"subtype": "SUV/pickup-type vehicle with roof emergency light bar",
+"make": null,
+"model": null,
+"color": "blue",
+"registration_number": null,
+"position_in_image": "right side of image beside the building",
+"road_position": "forecourt/access area",
+"orientation": "side view",
+"apparent_direction": null,
+"apparent_movement_state": "unknown",
+"traffic_role": "possible official or emergency-service vehicle; affiliation is not confirmed by readable vehicle markings",
+"damage": [],
+"overturned": false,
+"off_road": false,
+"obstructing_traffic": null,
+"interaction_with_objects": [
+"located adjacent to pedestrians and the building entrance area"
+],
+"confidence": "medium"
+}
+],
+"vehicle_groups": [],
+"road_users": [
+{
+"road_user_id": "PERSON_001",
+"role": "pedestrian/bystander group",
+"position": "foreground and middle ground across the station forecourt and entrance",
+"visible_action": "standing, waiting, walking, and conversing; one person at the far left appears to be using a phone",
+"interaction_with_traffic": "people are positioned around the two visible vehicles and within the forecourt/access space",
+"possible_obstruction": "the gathering may occupy some vehicle maneuvering space, but no traffic lane obstruction is established",
+"injury_visually_apparent": false,
+"confidence": "high"
+}
+],
+"road_environment": {
+"road_type": "paved forecourt/driveway/access area; main through-road geometry is not sufficiently visible",
+"number_of_visible_lanes": null,
+"carriageways": null,
+"traffic_direction": null,
+"intersection_present": null,
+"intersection_type": null,
+"median_present": null,
+"shoulder_present": null,
+"footpath_present": null,
+"pedestrian_crossing_present": false,
+"bicycle_infrastructure_present": false,
+"traffic_signal_present": false,
+"road_markings": [],
+"road_signs": [],
+"barriers": [],
+"traffic_cones": [],
+"barricades": [],
+"checkpoint_present": false,
+"construction_zone_present": false,
+"parking_activity_present": null,
+"roadside_encroachment_present": null,
+"public_transport_infrastructure": [],
+"other_infrastructure": [
+"police-station building",
+"building entrance",
+"paved forecourt/access area",
+"overhead utility lines visible toward the left background"
+]
+},
+"traffic_obstructions": [],
+"traffic_affecting_events": [
+{
+"event_id": "EVT_001",
+"event_type": "public_gathering",
+"event_description": "Approximately 14-17 visible people are gathered around the forecourt and entrance of the police-station building.",
+"event_status": "occurring",
+"location": "forecourt/entrance of the building identified by visible text as Rupganj Thana",
+"directly_observed_traffic_effect": "No direct effect on through-road traffic is visible. People occupy part of the forecourt/access area around two vehicles.",
+"possible_traffic_impact": {
+"impact_status": "possible",
+"impact_direction": "unknown",
+"impact_types": [
+"localized_access_impedance",
+"reduced_vehicle_maneuvering_space_possible"
+],
+"affected_modes": [
+"motor_vehicles",
+"pedestrians"
+],
+"affected_road_space": "station forecourt/entrance access area, not established as a traffic lane",
+"severity": "low_or_unknown"
+},
+"causal_mechanism": "Standing pedestrians and vehicles could reduce available maneuvering space at the station entrance if the visible paved area functions as vehicle access.",
+"evidence_type": "direct_visual_observation",
+"supporting_region_ids": [],
+"supporting_text_ids": [
+"TXT_001",
+"TXT_002"
+],
+"confidence": "medium"
+}
+],
+"traffic_incidents": [],
+"physical_evidence": [],
+"weather_and_environmental_factors": [
+{
+"factor_id": "ENV_001",
+"factor_type": "dry_paved_surface",
+"description": "The visible paved forecourt appears dry under daylight conditions.",
+"traffic_relevance": "No visible weather-related reduction in accessibility or traction is apparent.",
+"direct_traffic_effect_visible": false,
+"possible_traffic_effect": null,
+"evidence_type": "direct_visual_observation",
+"confidence": "high"
+}
+],
+"visible_text": [
+{
+"text_id": "TXT_001",
+"original_text": "বাংলাদেশ পুলিশ",
+"normalized_text": "বাংলাদেশ পুলিশ (Bangladesh Police)",
+"text_type": "organization_name",
+"image_region": "upper center on blue building signboard",
+"associated_region_id": null,
+"language": "Bengali",
+"confidence": "high"
+},
+{
+"text_id": "TXT_002",
+"original_text": "রূপগঞ্জ থানা",
+"normalized_text": "রূপগঞ্জ থানা (Rupganj Police Station)",
+"text_type": "police_station_name/location_landmark",
+"image_region": "upper center on blue building signboard",
+"associated_region_id": null,
+"language": "Bengali",
+"confidence": "high"
+}
+],
+"textual_claims": [],
+"social_media_content": {
+"platform_visible": false,
+"original_post": null,
+"quoted_or_shared_content": [],
+"comments": [],
+"reaction_metrics": {
+"likes": null,
+"love": null,
+"sad": null,
+"angry": null,
+"other_reactions": [],
+"comments_count": null,
+"shares": null,
+"views": null
+}
+},
+"policy_or_official_information": [],
+"map_or_diagram_information": [],
+"location_evidence": {
+"country": "Bangladesh",
+"division_or_state": null,
+"district": null,
+"city": null,
+"municipality_or_upazila": null,
+"area": "Rupganj",
+"road": null,
+"intersection": null,
+"landmarks": [
+"রূপগঞ্জ থানা / Rupganj Police Station"
+],
+"aliases": [],
+"supporting_text_ids": [
+"TXT_001",
+"TXT_002"
+],
+"supporting_visual_evidence": [
+"The police-station name and Bangladesh Police text are visibly mounted on the building facade."
+],
+"confidence": "high"
+},
+"time_evidence": {
+"image_or_cctv_timestamp": null,
+"publication_or_post_datetime": null,
+"event_date": null,
+"event_time": null,
+"start_datetime": null,
+"end_datetime": null,
+"relative_time_expressions": [],
+"confidence": null
+},
+"quantitative_information": [
+{
+"metric_id": "QNT_001",
+"metric": "visible_people",
+"value": "approximately 14-17",
+"unit": "persons",
+"value_type": "approximate_visual_estimate",
+"location": "station forecourt and entrance area",
+"time": null,
+"supporting_text_id": null,
+"confidence": "medium"
+},
+{
+"metric_id": "QNT_002",
+"metric": "clearly_visible_motor_vehicles",
+"value": 2,
+"unit": "vehicles",
+"value_type": "visually_counted",
+"location": "station forecourt/access area",
+"time": null,
+"supporting_text_id": null,
+"confidence": "high"
+}
+],
+"casualty_evidence": {
+"visually_apparent_injured_people": 0,
+"visually_apparent_fatalities": 0,
+"text_reported_injuries": null,
+"text_reported_fatalities": null,
+"supporting_evidence": [
+"No visibly injured or motionless casualty is apparent in the image."
+]
+},
+"sentiment_analysis": {
+"traffic_related_sentiment_present": false,
+"sentiment_expressions": [],
+"traffic_perception": {
+"perceived_congestion": null,
+"perceived_road_safety": null,
+"perceived_enforcement_quality": null,
+"perceived_transport_quality": null,
+"policy_approval_or_opposition": null,
+"confidence": null
+},
+"visible_comment_aggregation": {
+"visible_comments_analyzed": 0,
+"traffic_relevant_comments": 0,
+"positive_count": 0,
+"neutral_count": 0,
+"negative_count": 0,
+"mixed_count": 0,
+"dominant_emotions": [],
+"dominant_topics": [],
+"dominant_sentiment_targets": [],
+"disagreement_present": false,
+"notable_minor_views": [],
+"limitations": [
+"No social-media text, comments, captions, or other textual sentiment evidence is visible."
+]
+}
+},
+"observations": [
+{
+"observation_id": "OBS_001",
+"observation": "A blue sign mounted on the building visibly contains the Bengali text 'বাংলাদেশ পুলিশ' and 'রূপগঞ্জ থানা'.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "upper-center building facade",
+"associated_entity_ids": [
+"TXT_001",
+"TXT_002"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_002",
+"observation": "Approximately 14-17 people are visible standing, walking, waiting, or conversing in the paved forecourt and entrance area.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "foreground and middle ground",
+"associated_entity_ids": [
+"PERSON_001",
+"EVT_001"
+],
+"confidence": "medium"
+},
+{
+"observation_id": "OBS_003",
+"observation": "Two clearly visible motor vehicles are present: a blue-and-yellow three-wheeler and a blue SUV/pickup-type vehicle with a roof light bar.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "middle and right portions of image",
+"associated_entity_ids": [
+"VEH_001",
+"VEH_002"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_004",
+"observation": "The paved surface appears dry and the scene is illuminated by daylight with visible shadows.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "whole image",
+"associated_entity_ids": [
+"ENV_001"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_005",
+"observation": "No crash damage, debris, barricades, traffic queue, or clearly blocked traffic lane is visible within the image.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "whole visible scene",
+"associated_entity_ids": [],
+"confidence": "high"
+}
+],
+"inferences": [
+{
+"inference_id": "INF_001",
+"inference": "The visible paved area appears more consistent with a police-station forecourt or access area than with a clearly observable through-road traffic stream.",
+"inference_type": "visual_inference",
+"supporting_observation_ids": [
+"OBS_001",
+"OBS_002",
+"OBS_003"
+],
+"assumptions": [
+"The sign mounted on the facade corresponds to the building and its entrance area."
+],
+"confidence": "high"
+},
+{
+"inference_id": "INF_002",
+"inference": "The pedestrian gathering may modestly reduce vehicle maneuvering space around the station entrance, but the image does not establish a reduction in roadway capacity.",
+"inference_type": "possible_traffic_impact",
+"supporting_observation_ids": [
+"OBS_002",
+"OBS_003"
+],
+"assumptions": [
+"The paved forecourt is used for vehicle access or maneuvering.",
+"The visible people remained in approximately the shown positions for more than an instantaneous moment."
+],
+"confidence": "low"
+}
+],
+"predicted_or_possible_traffic_impacts": [
+{
+"impact_id": "IMP_001",
+"trigger": "pedestrian gathering combined with vehicles positioned near the station entrance",
+"possible_traffic_effect": "Localized maneuvering or access around the entrance could be constrained while the gathering remains present.",
+"causal_mechanism": "Pedestrians and vehicles occupy portions of the available paved access space.",
+"affected_location": "Rupganj Thana forecourt/entrance area as indicated by visible signage",
+"affected_modes": [
+"motor_vehicles",
+"pedestrians"
+],
+"time_horizon": "while the visible gathering persists",
+"explicitly_stated_in_image": false,
+"evidence_type": "possible_impact",
+"supporting_text_ids": [
+"TXT_002"
+],
+"supporting_observation_ids": [
+"OBS_002",
+"OBS_003"
+],
+"assumptions": [
+"The forecourt functions as an access or maneuvering area for vehicles."
+],
+"confidence": "low"
+}
+],
+"important_objects": [
+"police-station signboard",
+"blue-and-yellow three-wheeled motor vehicle",
+"blue SUV/pickup-type vehicle with roof emergency light bar",
+"pedestrian/bystander gathering",
+"building entrance",
+"paved forecourt/access area"
+],
+"duplicate_content": [],
+"important_uncertainties": [
+"The main roadway and lane geometry are largely outside the visible frame, so congestion, traffic speed, queueing, roadway blockage, and lane capacity cannot be established.",
+"The exact reason for the pedestrian gathering is not visible or stated.",
+"The exact make, model, registration numbers, and operational status of the vehicles cannot be reliably determined.",
+"The blue vehicle's police or official affiliation is plausible from the light bar and setting but is not confirmed by readable markings on the vehicle.",
+"Small auxiliary text on the building sign is not sufficiently legible to extract reliably.",
+"The still image cannot establish whether either visible vehicle is actively moving."
+],
+"traffic_intelligence_summary": {
+"most_important_direct_visual_evidence": [
+"Approximately 14-17 people are gathered in the police-station forecourt/entrance area.",
+"Two clearly visible motor vehicles occupy the same access area.",
+"No visible crash, debris, barricade, traffic queue, or clearly blocked lane is present."
+],
+"most_important_textual_information": [
+"বাংলাদেশ পুলিশ (Bangladesh Police)",
+"রূপগঞ্জ থানা (Rupganj Police Station)"
+],
+"current_or_observed_traffic_conditions": [
+"No direct through-road traffic condition can be reliably determined from the limited view."
+],
+"traffic_affecting_events": [
+"An ongoing pedestrian gathering is visible around the station entrance."
+],
+"possible_future_impacts": [
+"The gathering could temporarily reduce maneuvering or access space in the station forecourt, but roadway disruption is not established."
+],
+"important_incident_evidence": [],
+"important_public_sentiment": [],
+"important_locations": [
+"Rupganj Thana / Rupganj Police Station",
+"Bangladesh"
+],
+"most_important_inferences": [
+"The scene is primarily a police-station forecourt/access scene rather than a clearly observable traffic-flow scene.",
+"Any transportation impact is likely localized and uncertain."
+],
+"most_important_unresolved_questions": [
+"Does the visible forecourt directly connect to an active public roadway?",
+"Are the visible vehicles parked, waiting, or moving?",
+"Is the gathering affecting vehicle access beyond the limited image frame?"
+]
+},
+"_prompt_provenance": "The attached specification requires valid JSON-only output, null for undetermined information, empty arrays when no items are present, and avoidance of invented schema content. "
+}

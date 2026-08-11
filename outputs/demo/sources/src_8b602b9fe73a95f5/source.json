@@ -1,0 +1,27 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d2c8ba2253496d4aae3782888cb8237af96fc234e52457f2226d9b7bcc390850",
+  "dependency_group": "en.prothomalo.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "bn",
+    "en"
+  ],
+  "local_path": "html/04/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-12-20T00:00:00",
+  "publisher": "en.prothomalo.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_8b602b9fe73a95f5",
+  "source_metadata": {
+    "source_info_hash": "cc1ed7c972378b25",
+    "source_info_path": "/home/hamim-mahmud/Workspace/ASCE/assets/scraps/html/04/SOURCE_INFO.md"
+  },
+  "source_type": "news_html",
+  "source_uri": "https://en.prothomalo.com/bangladesh/local-news/tm5x902wod",
+  "timezone": "Asia/Dhaka",
+  "title": "BUET student killed as car hits motorcycle at checkpost in Purbachal"
+}

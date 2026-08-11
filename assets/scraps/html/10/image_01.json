@@ -1,0 +1,610 @@
+{
+"source_type": "image",
+"traffic_relevance": {
+"is_traffic_relevant": true,
+"relevance_level": "contextual",
+"confidence": "high",
+"primary_traffic_relation": "The image is a road-network map showing named areas, classified roads, junctions, and water crossings that can provide geographic and accessibility context for traffic intelligence.",
+"traffic_relation_types": [
+"road_network",
+"transportation_context",
+"accessibility_context",
+"location_context",
+"route_connectivity"
+],
+"reason": "The map contains multiple labeled roads and locations useful for geolocating traffic information, but it does not display or explicitly state any current congestion, blockage, incident, closure, diversion, or traffic flow condition."
+},
+"image_classification": {
+"image_type": "map",
+"appears_to_be_live_scene": false,
+"appears_to_show_actual_incident": false,
+"is_composite_image": false,
+"contains_road_scene": false,
+"contains_news_graphics": false,
+"contains_social_media": false,
+"contains_comments": false,
+"contains_cctv_content": false,
+"contains_document": false,
+"contains_government_or_official_notice": false,
+"contains_map": true,
+"contains_infographic": false,
+"contains_event_announcement": false,
+"contains_stock_or_illustrative_content": false
+},
+"overall_scene": {
+"description": "A digital map centered on the labeled area DEMRA, with nearby labels including SARULIA, SHANARPAR, SIDDHIRGANJ, Kanchpur, and a partially visible JATRA BARI. Multiple classified roads and a large water body are shown. A red dotted boundary encloses much of the Demra/Sarulia area.",
+"camera_viewpoint": "top-down map view",
+"transportation_context": "Road-network and geographic context showing connections among several labeled areas and numbered routes.",
+"lighting": null,
+"weather": null,
+"visibility": "map labels and major road alignments are generally clear",
+"road_surface_condition": null,
+"apparent_traffic_condition": "unknown; no traffic-flow visualization or vehicles are shown",
+"confidence": "high"
+},
+"image_regions": [
+{
+"region_id": "REG_001",
+"region": "entire image",
+"description": "Digital road map containing place names, road-number labels, a water body, road junctions, and a red dotted boundary.",
+"content_type": "map",
+"relationship_to_other_regions": null,
+"confidence": "high"
+}
+],
+"traffic_conditions": [],
+"vehicles": [],
+"vehicle_groups": [],
+"road_users": [],
+"road_environment": {
+"road_type": "mapped road network containing several numbered routes",
+"number_of_visible_lanes": null,
+"carriageways": null,
+"traffic_direction": null,
+"intersection_present": true,
+"intersection_type": "multiple mapped road junctions; exact engineering configurations are not determinable",
+"median_present": null,
+"shoulder_present": null,
+"footpath_present": null,
+"pedestrian_crossing_present": null,
+"bicycle_infrastructure_present": null,
+"traffic_signal_present": null,
+"road_markings": [],
+"road_signs": [
+"R110",
+"R201",
+"Z1102",
+"N2",
+"N1",
+"N8"
+],
+"barriers": [],
+"traffic_cones": [],
+"barricades": [],
+"checkpoint_present": null,
+"construction_zone_present": null,
+"parking_activity_present": null,
+"roadside_encroachment_present": null,
+"public_transport_infrastructure": [],
+"other_infrastructure": [
+"large mapped water body",
+"multiple mapped road-water crossings",
+"red dotted mapped boundary"
+]
+},
+"traffic_obstructions": [],
+"traffic_affecting_events": [],
+"traffic_incidents": [],
+"physical_evidence": [],
+"weather_and_environmental_factors": [],
+"visible_text": [
+{
+"text_id": "TXT_001",
+"original_text": "DEMRA",
+"normalized_text": "Demra",
+"text_type": "map_label_location",
+"image_region": "upper-central",
+"associated_region_id": "REG_001",
+"language": "English",
+"confidence": "high"
+},
+{
+"text_id": "TXT_002",
+"original_text": "ডেমরা",
+"normalized_text": "ডেমরা",
+"text_type": "map_label_location",
+"image_region": "upper-central below DEMRA",
+"associated_region_id": "REG_001",
+"language": "Bengali",
+"confidence": "high"
+},
+{
+"text_id": "TXT_003",
+"original_text": "SARULIA",
+"normalized_text": "Sarulia",
+"text_type": "map_label_location",
+"image_region": "central-right",
+"associated_region_id": "REG_001",
+"language": "English",
+"confidence": "high"
+},
+{
+"text_id": "TXT_004",
+"original_text": "সারুলিয়া",
+"normalized_text": "সারুলিয়া",
+"text_type": "map_label_location",
+"image_region": "central-right below SARULIA",
+"associated_region_id": "REG_001",
+"language": "Bengali",
+"confidence": "high"
+},
+{
+"text_id": "TXT_005",
+"original_text": "SHANARPAR",
+"normalized_text": "Shanarpar",
+"text_type": "map_label_location",
+"image_region": "lower-central-right",
+"associated_region_id": "REG_001",
+"language": "English",
+"confidence": "high"
+},
+{
+"text_id": "TXT_006",
+"original_text": "SIDDHIRGANJ",
+"normalized_text": "Siddhirganj",
+"text_type": "map_label_location",
+"image_region": "bottom-central",
+"associated_region_id": "REG_001",
+"language": "English",
+"confidence": "medium"
+},
+{
+"text_id": "TXT_007",
+"original_text": "Kanchpur",
+"normalized_text": "Kanchpur",
+"text_type": "map_label_location",
+"image_region": "right-central",
+"associated_region_id": "REG_001",
+"language": "English",
+"confidence": "high"
+},
+{
+"text_id": "TXT_008",
+"original_text": "JATRA BARI",
+"normalized_text": "Jatra Bari",
+"text_type": "map_label_location",
+"image_region": "left edge, partially cropped",
+"associated_region_id": "REG_001",
+"language": "English",
+"confidence": "medium"
+},
+{
+"text_id": "TXT_009",
+"original_text": "যাত্রাবাড়ি",
+"normalized_text": "যাত্রাবাড়ি",
+"text_type": "map_label_location",
+"image_region": "left edge, partially cropped",
+"associated_region_id": "REG_001",
+"language": "Bengali",
+"confidence": "medium"
+},
+{
+"text_id": "TXT_010",
+"original_text": "R110",
+"normalized_text": "R110",
+"text_type": "road_route_label",
+"image_region": "left-central",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_011",
+"original_text": "R110",
+"normalized_text": "R110",
+"text_type": "road_route_label",
+"image_region": "lower-right",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_012",
+"original_text": "R201",
+"normalized_text": "R201",
+"text_type": "road_route_label",
+"image_region": "upper-right-central near water crossing",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_013",
+"original_text": "Z1102",
+"normalized_text": "Z1102",
+"text_type": "road_route_label",
+"image_region": "upper-left-central",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_014",
+"original_text": "Z1102",
+"normalized_text": "Z1102",
+"text_type": "road_route_label",
+"image_region": "central-left",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_015",
+"original_text": "N2",
+"normalized_text": "N2",
+"text_type": "road_route_label",
+"image_region": "upper-right",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_016",
+"original_text": "N1",
+"normalized_text": "N1",
+"text_type": "road_route_label",
+"image_region": "lower-central",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_017",
+"original_text": "N1",
+"normalized_text": "N1",
+"text_type": "road_route_label",
+"image_region": "lower-right",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+},
+{
+"text_id": "TXT_018",
+"original_text": "N8",
+"normalized_text": "N8",
+"text_type": "road_route_label",
+"image_region": "bottom-left",
+"associated_region_id": "REG_001",
+"language": "alphanumeric",
+"confidence": "high"
+}
+],
+"textual_claims": [],
+"social_media_content": {
+"platform_visible": null,
+"original_post": null,
+"quoted_or_shared_content": [],
+"comments": [],
+"reaction_metrics": {
+"likes": null,
+"love": null,
+"sad": null,
+"angry": null,
+"other_reactions": [],
+"comments_count": null,
+"shares": null,
+"views": null
+}
+},
+"policy_or_official_information": [],
+"map_or_diagram_information": [
+{
+"item_id": "MAP_001",
+"type": "road_network_map",
+"title": null,
+"roads": [
+"R110",
+"R201",
+"Z1102",
+"N2",
+"N1",
+"N8"
+],
+"locations": [
+"Demra",
+"Sarulia",
+"Shanarpar",
+"Siddhirganj",
+"Kanchpur",
+"Jatra Bari"
+],
+"routes": [],
+"closure_points": [],
+"diversions": [],
+"checkpoints": [],
+"direction_arrows": [],
+"annotations": [
+"A red dotted boundary encloses much of the area around Demra and Sarulia.",
+"A large blue water body runs through the right side of the map.",
+"Several mapped roads cross or approach the water body.",
+"A small graduation-cap-style map symbol appears in the lower-central portion; its exact meaning or associated place name is not shown."
+],
+"confidence": "high"
+}
+],
+"location_evidence": {
+"country": null,
+"division_or_state": null,
+"district": null,
+"city": null,
+"municipality_or_upazila": null,
+"area": "Demra and surrounding mapped areas",
+"road": null,
+"intersection": null,
+"landmarks": [
+"Demra",
+"Sarulia",
+"Shanarpar",
+"Siddhirganj",
+"Kanchpur",
+"Jatra Bari"
+],
+"aliases": [
+{
+"names": [
+"DEMRA",
+"ডেমরা"
+],
+"relationship": "same map label presented in English and Bengali"
+},
+{
+"names": [
+"SARULIA",
+"সারুলিয়া"
+],
+"relationship": "same map label presented in English and Bengali"
+},
+{
+"names": [
+"JATRA BARI",
+"যাত্রাবাড়ি"
+],
+"relationship": "same partially visible map label presented in English and Bengali"
+}
+],
+"supporting_text_ids": [
+"TXT_001",
+"TXT_002",
+"TXT_003",
+"TXT_004",
+"TXT_005",
+"TXT_006",
+"TXT_007",
+"TXT_008",
+"TXT_009",
+"TXT_010",
+"TXT_011",
+"TXT_012",
+"TXT_013",
+"TXT_014",
+"TXT_015",
+"TXT_016",
+"TXT_017",
+"TXT_018"
+],
+"supporting_visual_evidence": [
+"Mapped road alignments",
+"Mapped junctions",
+"Large water body",
+"Red dotted boundary"
+],
+"confidence": "high"
+},
+"time_evidence": {
+"image_or_cctv_timestamp": null,
+"publication_or_post_datetime": null,
+"event_date": null,
+"event_time": null,
+"start_datetime": null,
+"end_datetime": null,
+"relative_time_expressions": [],
+"confidence": null
+},
+"quantitative_information": [],
+"casualty_evidence": {
+"visually_apparent_injured_people": null,
+"visually_apparent_fatalities": null,
+"text_reported_injuries": null,
+"text_reported_fatalities": null,
+"supporting_evidence": []
+},
+"sentiment_analysis": {
+"traffic_related_sentiment_present": false,
+"sentiment_expressions": [],
+"traffic_perception": {
+"perceived_congestion": null,
+"perceived_road_safety": null,
+"perceived_enforcement_quality": null,
+"perceived_transport_quality": null,
+"policy_approval_or_opposition": null,
+"confidence": null
+},
+"visible_comment_aggregation": {
+"visible_comments_analyzed": 0,
+"traffic_relevant_comments": 0,
+"positive_count": 0,
+"neutral_count": 0,
+"negative_count": 0,
+"mixed_count": 0,
+"dominant_emotions": [],
+"dominant_topics": [],
+"dominant_sentiment_targets": [],
+"disagreement_present": false,
+"notable_minor_views": [],
+"limitations": [
+"No social-media comments or sentiment-bearing textual statements are visible."
+]
+}
+},
+"observations": [
+{
+"observation_id": "OBS_001",
+"observation": "The image is a top-down digital map rather than a live roadway photograph.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "REG_001",
+"associated_entity_ids": [
+"MAP_001"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_002",
+"observation": "Multiple numbered roads are visibly mapped, including R110, R201, Z1102, N2, N1, and N8.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "REG_001",
+"associated_entity_ids": [
+"MAP_001"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_003",
+"observation": "Named locations visible on the map include Demra, Sarulia, Shanarpar, Siddhirganj, Kanchpur, and a partially cropped Jatra Bari.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "REG_001",
+"associated_entity_ids": [
+"MAP_001"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_004",
+"observation": "A large water body is shown along the right side, with mapped road connections crossing or approaching it.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "REG_001",
+"associated_entity_ids": [
+"MAP_001"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_005",
+"observation": "A red dotted boundary surrounds much of the Demra/Sarulia area.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "REG_001",
+"associated_entity_ids": [
+"MAP_001"
+],
+"confidence": "high"
+},
+{
+"observation_id": "OBS_006",
+"observation": "No vehicles, queues, congestion overlay, closure symbol, incident marker, or traffic-speed information are visibly shown.",
+"observation_type": "direct_visual_observation",
+"supporting_region": "REG_001",
+"associated_entity_ids": [],
+"confidence": "high"
+}
+],
+"inferences": [
+{
+"inference_id": "INF_001",
+"inference": "The map can be used as geographic context for associating traffic reports with nearby roads and named areas.",
+"inference_type": "transportation_context_inference",
+"supporting_observation_ids": [
+"OBS_002",
+"OBS_003",
+"OBS_004"
+],
+"assumptions": [
+"The visible map labels accurately represent the mapped road and place names."
+],
+"confidence": "high"
+},
+{
+"inference_id": "INF_002",
+"inference": "The mapped road junctions and crossings indicate route-connectivity context, but the image does not establish present accessibility or traffic performance on those routes.",
+"inference_type": "accessibility_context_inference",
+"supporting_observation_ids": [
+"OBS_002",
+"OBS_004",
+"OBS_006"
+],
+"assumptions": [],
+"confidence": "high"
+}
+],
+"predicted_or_possible_traffic_impacts": [],
+"important_objects": [
+{
+"object": "large water body",
+"traffic_relevance": "Several mapped roads cross or approach it, making it relevant to route connectivity.",
+"confidence": "high"
+},
+{
+"object": "red dotted boundary",
+"traffic_relevance": "May delineate an area relevant for spatial traffic analysis, but the meaning of the boundary is not explicitly labeled.",
+"confidence": "medium"
+},
+{
+"object": "graduation-cap-style map marker",
+"traffic_relevance": "May indicate an institution or educational location, but the exact place and transport significance are not shown.",
+"confidence": "medium"
+}
+],
+"duplicate_content": [],
+"important_uncertainties": [
+"The image contains no timestamp, so the temporal relevance of the map cannot be determined.",
+"No current traffic-state layer, vehicle data, congestion color coding, travel-time information, closure symbol, or incident marker is visible.",
+"The meaning of the red dotted boundary is not explicitly identified.",
+"The exact meaning of the graduation-cap-style map symbol is not stated.",
+"The map does not explicitly identify a country, division/state, district, or city in the visible frame.",
+"Road lane counts, carriageway configuration, traffic direction, capacity, and operating condition cannot be determined from this image.",
+"A mapped road crossing a water body suggests a transport crossing, but the image does not explicitly label the structure as a bridge."
+],
+"traffic_intelligence_summary": {
+"most_important_direct_visual_evidence": [
+"A mapped road network is visible around Demra, Sarulia, Shanarpar, Siddhirganj, Kanchpur, and Jatra Bari.",
+"Visible route labels include R110, R201, Z1102, N2, N1, and N8.",
+"A large water body and multiple road connections or crossings are shown.",
+"No vehicles, queues, congestion indicators, closures, diversions, incidents, or traffic-speed information are visible."
+],
+"most_important_textual_information": [
+"DEMRA / ডেমরা",
+"SARULIA / সারুলিয়া",
+"SHANARPAR",
+"SIDDHIRGANJ",
+"Kanchpur",
+"JATRA BARI / যাত্রাবাড়ি",
+"R110",
+"R201",
+"Z1102",
+"N2",
+"N1",
+"N8"
+],
+"current_or_observed_traffic_conditions": [],
+"traffic_affecting_events": [],
+"possible_future_impacts": [],
+"important_incident_evidence": [],
+"important_public_sentiment": [],
+"important_locations": [
+"Demra",
+"Sarulia",
+"Shanarpar",
+"Siddhirganj",
+"Kanchpur",
+"Jatra Bari"
+],
+"most_important_inferences": [
+"The map is useful primarily for spatial and road-network context in a traffic-intelligence fusion pipeline.",
+"It does not independently provide evidence of current congestion, delay, blockage, crash, or disruption."
+],
+"most_important_unresolved_questions": [
+"What does the red dotted boundary represent?",
+"What location or institution is represented by the graduation-cap-style symbol?",
+"What date or data source does the map correspond to?",
+"Are any of the mapped roads currently congested, blocked, restricted, or under construction? The image does not show this."
+]
+}
+}

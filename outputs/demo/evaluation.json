@@ -1,0 +1,23 @@
+{
+  "extraction": {
+    "field_coverage": {
+      "event_time": 0.8333,
+      "fatalities": 0.8333,
+      "geolocation": 0.8333,
+      "injuries": 0.6667,
+      "provenance": 1.0
+    },
+    "sample_size": 6
+  },
+  "matching": {
+    "ambiguous_excluded": 1,
+    "f1": 1.0,
+    "false_negative": 0,
+    "false_positive": 0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "true_negative": 2,
+    "true_positive": 2
+  },
+  "warning": "Small development fixture; not a model-accuracy claim."
+}

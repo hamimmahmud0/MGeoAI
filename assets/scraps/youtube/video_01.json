@@ -1,0 +1,444 @@
+{
+"_prompt_reference": "Extraction follows the supplied strict-grounding, attribution, and traffic-incident rules. ",
+"source": {
+"source_type": "television_news_video",
+"platform_or_publisher": "ATN News",
+"author": null,
+"publication_datetime": null,
+"source_languages": [
+"Bengali",
+"English"
+],
+"primary_topic": "Fatal traffic incident involving a BUET student, with an on-screen allegation that the accused were intoxicated",
+"content_characteristics": [
+"news_anchor",
+"damaged_vehicle_footage",
+"reporter_segment",
+"police_escort_footage",
+"student_demonstration_footage",
+"interviews",
+"on_screen_headlines",
+"location_labels"
+],
+"comments_present": false,
+"comments_complete": null
+},
+"traffic_relevance": {
+"is_traffic_relevant": true,
+"relevance_level": "DIRECT",
+"relevance_confidence": "high",
+"primary_traffic_relation": "traffic_incident",
+"traffic_relation_types": [
+"traffic_incident",
+"safety_issue",
+"law_enforcement",
+"public_behavior"
+],
+"traffic_relevant_topics": [
+"fatal road crash",
+"vehicle damage",
+"alleged alcohol involvement",
+"police response",
+"post-incident demonstration"
+],
+"reason": "The video directly concerns a fatal road-traffic incident and visually shows a severely damaged passenger vehicle, police escorting individuals associated with the case, and a demonstration demanding justice."
+},
+"traffic_conditions": [],
+"traffic_affecting_events": [
+{
+"event_id": "EVT_001",
+"event_type": "road_crash",
+"event_description": "A fatal road crash involving a BUET student is reported. The video shows the damaged vehicle after the incident.",
+"event_status": "historical",
+"location": "Narayanganj",
+"start_time": null,
+"end_time": null,
+"traffic_relationship": "direct",
+"mobility_impact": {
+"impact_status": "unknown",
+"impact_direction": "unknown",
+"impact_types": [
+"safety_risk"
+],
+"affected_roads": [],
+"affected_areas": [
+"Narayanganj"
+],
+"affected_modes": [
+"road_vehicle"
+],
+"affected_users": [
+"vehicle_occupants"
+],
+"severity": "fatal",
+"expected_duration": null
+},
+"causal_mechanism": "A motor-vehicle crash caused a fatality; the exact collision mechanism is not visually established.",
+"evidence_type": "reported_and_visual",
+"source": "ATN News video",
+"supporting_text": "বুয়েট শিক্ষার্থী নিহত: মদ্যপ ছিল আসামিরা",
+"confidence": "high"
+},
+{
+"event_id": "EVT_002",
+"event_type": "demonstration",
+"event_description": "A group of people, apparently students, is shown marching and gathering with placards after the reported fatal crash. One visible placard reads 'WE WANT JUSTICE'.",
+"event_status": "historical",
+"location": null,
+"start_time": null,
+"end_time": null,
+"traffic_relationship": "contextual",
+"mobility_impact": {
+"impact_status": "possible",
+"impact_direction": "unknown",
+"impact_types": [],
+"affected_roads": [],
+"affected_areas": [],
+"affected_modes": [],
+"affected_users": [],
+"severity": null,
+"expected_duration": null
+},
+"causal_mechanism": "A sizeable gathering or march could affect movement if it occupies a public roadway, but the supplied visual evidence does not establish an actual traffic disruption.",
+"evidence_type": "observed_visual",
+"source": "ATN News video",
+"supporting_text": "WE WANT JUSTICE",
+"confidence": "medium"
+}
+],
+"traffic_incidents": [
+{
+"incident_id": "INC_001",
+"incident_type": "fatal_motor_vehicle_crash",
+"location": "Narayanganj",
+"date": null,
+"time": null,
+"vehicles": [
+{
+"vehicle_id": "VEH_001",
+"vehicle_type": "passenger_car",
+"color": "dark_maroon_or_red",
+"make": null,
+"model": null,
+"registration_plate": null,
+"damage": [
+"severe frontal destruction",
+"front bumper and structural components displaced or missing",
+"hood severely crushed and deformed",
+"windshield extensively shattered",
+"front-left area heavily damaged",
+"roof/front upper-body deformation visible"
+],
+"orientation_or_position": "stationary on a multi-lane divided roadway in aftermath footage",
+"confidence": "high"
+}
+],
+"road_users": [
+{
+"type": "BUET_student",
+"role": "reported_fatality",
+"identity": null,
+"evidence_type": "on_screen_report",
+"confidence": "high"
+}
+],
+"collision_description": "The collision sequence, impact counterpart, pre-crash movements, and exact impact mechanism are not shown. Only aftermath damage to one passenger car is clearly visible.",
+"fatalities": 1,
+"injuries": null,
+"road_obstruction": null,
+"resulting_traffic_effect": null,
+"reported_contributing_factors": [
+{
+"factor": "alcohol_or_intoxication",
+"status": "alleged_or_reported_claim",
+"claim": "The on-screen headline states that the accused were intoxicated.",
+"supporting_text": "মদ্যপ ছিল আসামিরা",
+"claimant": null,
+"confidence": "medium"
+}
+],
+"police_or_emergency_response": [
+{
+"type": "police_presence",
+"description": "Uniformed police are shown escorting three adult men.",
+"confidence": "high"
+},
+{
+"type": "custody_or_case_processing_possible",
+"description": "The three men appear under police escort; the visual evidence alone does not establish their precise legal status.",
+"confidence": "medium"
+}
+],
+"claims": [
+{
+"claim_id": "INC_CLM_001",
+"claim": "A BUET student was killed.",
+"claimant": "ATN News on-screen report",
+"evidence_type": "reported",
+"supporting_text": "বুয়েট শিক্ষার্থী নিহত",
+"confidence": "high"
+},
+{
+"claim_id": "INC_CLM_002",
+"claim": "The accused were intoxicated.",
+"claimant": "ATN News on-screen headline; underlying claimant not established from visual evidence",
+"evidence_type": "reported_claim",
+"supporting_text": "মদ্যপ ছিল আসামিরা",
+"confidence": "medium"
+}
+],
+"confidence": "high"
+}
+],
+"road_and_infrastructure_changes": [],
+"policies_and_regulations": [],
+"public_transport_information": [],
+"traffic_management_information": [],
+"weather_and_environmental_factors": [
+{
+"factor": "lighting_condition",
+"description": "The crash-aftermath footage is recorded at night under artificial roadway lighting.",
+"traffic_effect": null,
+"confidence": "high"
+},
+{
+"factor": "road_surface",
+"description": "The visible paved roadway appears dry in the crash-aftermath footage.",
+"traffic_effect": null,
+"confidence": "medium"
+}
+],
+"quantitative_information": [
+{
+"metric": "reported_fatalities",
+"value": 1,
+"unit": "person",
+"location": "Narayanganj",
+"time": null,
+"source": "ATN News on-screen headline",
+"evidence_type": "reported",
+"confidence": "high"
+},
+{
+"metric": "clearly_visible_severely_damaged_vehicles",
+"value": 1,
+"unit": "vehicle",
+"location": null,
+"time": null,
+"source": "video imagery",
+"evidence_type": "observed_visual",
+"confidence": "high"
+},
+{
+"metric": "people_visibly_escorted_by_police",
+"value": 3,
+"unit": "persons",
+"location": "Narayanganj",
+"time": null,
+"source": "video imagery",
+"evidence_type": "observed_visual",
+"confidence": "high"
+}
+],
+"locations": [
+{
+"name": "Narayanganj",
+"location_type": "district_or_city_label",
+"aliases": [
+"নারায়ণগঞ্জ"
+],
+"parent_location": null,
+"traffic_relevance": "An on-screen location label identifies Narayanganj during footage related to the case.",
+"confidence": "high"
+},
+{
+"name": "Dhaka",
+"location_type": "city",
+"aliases": [
+"ঢাকা"
+],
+"parent_location": null,
+"traffic_relevance": "Dhaka appears beneath a reporter identification graphic; this does not by itself establish Dhaka as the crash location.",
+"confidence": "medium"
+}
+],
+"entities": {
+"people": [
+{
+"name": "Ferdous Rahman",
+"original_text": "ফেরদৌস রহমান",
+"role": "person identified in an ATN News graphic",
+"confidence": "high"
+},
+{
+"name": null,
+"role": "reported deceased BUET student",
+"confidence": "high"
+},
+{
+"name": null,
+"role": "three men shown under police escort",
+"count": 3,
+"confidence": "high"
+}
+],
+"organizations": [
+"ATN News",
+"BUET"
+],
+"government_bodies": [],
+"police_units": [
+{
+"name": null,
+"description": "Uniformed Bangladesh police personnel visible",
+"confidence": "high"
+}
+],
+"transport_agencies": [],
+"roads": [],
+"locations": [
+"Narayanganj",
+"Dhaka"
+],
+"vehicles": [
+"dark maroon/red passenger car"
+]
+},
+"claims": [
+{
+"claim_id": "CLM_001",
+"claim": "A BUET student was killed.",
+"claimant": "ATN News",
+"claimant_role": "news broadcaster",
+"claim_type": "fatality_report",
+"evidence_type": "reported",
+"supporting_text": "বুয়েট শিক্ষার্থী নিহত",
+"traffic_relevance": "Directly identifies a fatal traffic-incident outcome.",
+"confidence_in_extraction": "high"
+},
+{
+"claim_id": "CLM_002",
+"claim": "The accused were intoxicated.",
+"claimant": "ATN News on-screen report",
+"claimant_role": "news broadcaster; underlying information source not visually established",
+"claim_type": "alleged_contributing_factor",
+"evidence_type": "reported_claim",
+"supporting_text": "মদ্যপ ছিল আসামিরা",
+"traffic_relevance": "Potential contributing factor to the crash, but it must not be treated as an independently established fact.",
+"confidence_in_extraction": "medium"
+}
+],
+"sentiment_analysis": {
+"traffic_related_sentiment_present": true,
+"overall_traffic_sentiment": {
+"sentiment": "negative",
+"confidence": "medium",
+"note": "The visible demonstration expresses dissatisfaction and a demand for justice regarding the fatal incident, rather than a measurable assessment of general traffic conditions."
+},
+"aspect_sentiments": [
+{
+"holder": "demonstrators",
+"holder_type": "group",
+"target": "incident_accountability",
+"aspect": "justice_after_fatal_crash",
+"sentiment": "negative",
+"emotion": "concern",
+"intensity": "strong",
+"evidence_text": "WE WANT JUSTICE",
+"sarcasm_possible": false,
+"confidence": "high"
+}
+],
+"traffic_perception": {
+"perceived_congestion": null,
+"perceived_safety": "concern implied by response to a fatal traffic incident",
+"perceived_enforcement_quality": null,
+"perceived_transport_quality": null,
+"policy_approval_or_opposition": null,
+"confidence": "low"
+},
+"comment_aggregation": {
+"comments_analyzed": null,
+"positive_count": null,
+"neutral_count": null,
+"negative_count": null,
+"mixed_count": null,
+"dominant_emotions": [],
+"dominant_topics": [],
+"dominant_sentiment_targets": [],
+"disagreement_present": null,
+"notable_minority_views": [],
+"limitations": [
+"No social-media comment set is present."
+]
+}
+},
+"predicted_or_possible_impacts": [
+{
+"trigger": "student demonstration following the fatal incident",
+"possible_traffic_effect": "Temporary interference with movement could occur if participants occupy a public road.",
+"causal_mechanism": "Pedestrian gathering or march could reduce usable road space.",
+"affected_location": null,
+"affected_modes": [
+"road_vehicle",
+"pedestrian"
+],
+"time_horizon": "during_demonstration",
+"explicitly_predicted_by_source": false,
+"evidence_type": "inferred",
+"assumptions": [
+"The gathering would need to occupy or interact with a public roadway.",
+"No actual congestion, closure, or delay is established by the visible evidence."
+],
+"confidence": "low"
+}
+],
+"temporal_information": {
+"publication_datetime": null,
+"reference_datetime": null,
+"event_times": [],
+"future_events": [],
+"relative_time_expressions": []
+},
+"internal_conflicts": [],
+"uncertainties": [
+"The exact crash date and time are not reliably visible in the examined frames.",
+"The exact road, intersection, or crash coordinates are not established.",
+"Only one severely damaged vehicle is clearly shown; the complete set of vehicles or road users involved in the collision cannot be determined from the aftermath footage.",
+"The collision sequence and impact counterpart are not shown.",
+"No reliable registration plate is readable.",
+"The allegation of intoxication is preserved as a reported claim because the visible material does not independently establish toxicology or testing evidence.",
+"The video shows police escorting three men, but their exact legal status cannot be established from imagery alone.",
+"The Narayanganj label is visible in case-related footage, but a more specific incident location is not established.",
+"No road closure, lane closure, queue length, congestion severity, traffic speed, or travel-time impact is directly established.",
+"This run used the video's visual imagery and on-screen text. Spoken narration and interviews were not transcribed, so facts available only through audio may be absent."
+],
+"traffic_intelligence_summary": {
+"current_conditions": [],
+"major_disruptions": [
+"A fatal road crash involving a BUET student is reported."
+],
+"major_demand_or_capacity_changes": [],
+"future_risks": [],
+"potential_improvements": [],
+"important_public_sentiment": [
+"Demonstrators visibly demand justice following the fatal incident."
+],
+"most_important_claims": [
+"ATN News reports that a BUET student was killed.",
+"The on-screen report claims that the accused were intoxicated; this remains an attributed allegation in this extraction."
+],
+"most_important_locations": [
+"Narayanganj"
+],
+"unresolved_questions": [
+"What was the exact crash location?",
+"What were the crash date and time?",
+"What other vehicle, pedestrian, cyclist, or fixed object was involved in the collision?",
+"What was the collision sequence?",
+"Was alcohol involvement confirmed by police, toxicology, or another documented test?",
+"Did the incident cause any lane blockage, road closure, congestion, or diversion?",
+"What additional incident facts are contained only in the spoken narration or interviews?"
+]
+}
+}

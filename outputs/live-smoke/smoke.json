@@ -1,0 +1,13 @@
+{
+  "incident_id": "inc_muhtasim_masud_road_crash_purbachal_20241220",
+  "match_decision": "same_incident",
+  "model": "deepseek-v4-flash",
+  "provider": "deepseek",
+  "scope": "one bounded match adjudication and one cluster fusion",
+  "status": "passed",
+  "usage": {
+    "estimated_cost_usd": 0.00221998,
+    "input_tokens": 9321,
+    "output_tokens": 3268
+  }
+}

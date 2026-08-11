@@ -1,0 +1,125 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          90.5452,
+          23.8307
+        ],
+        "type": "Point"
+      },
+      "id": "inc_7506aea7be28123a",
+      "properties": {
+        "confidence": 0.9,
+        "event_start": "2024-12-20T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_7506aea7be28123a",
+        "location_name": "Purbachal 300 Feet Road, Rupganj",
+        "sentiment_count": 2,
+        "source_count": 7,
+        "status": "reported",
+        "title": "BUET student crash on Purbachal 300 Feet Road",
+        "uncertainty_radius_km": 3.0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          90.4023,
+          23.8957
+        ],
+        "type": "Point"
+      },
+      "id": "inc_11eda3bb70c89720",
+      "properties": {
+        "confidence": 0.78,
+        "event_start": "2026-08-09T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "city",
+        "incident_id": "inc_11eda3bb70c89720",
+        "location_name": "Tongi, Gazipur",
+        "sentiment_count": 13,
+        "source_count": 3,
+        "status": "reported",
+        "title": "Tongi student crash and highway blockade",
+        "uncertainty_radius_km": 12.0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          90.4867,
+          23.7055
+        ],
+        "type": "Point"
+      },
+      "id": "inc_753bb5d167966303",
+      "properties": {
+        "confidence": 0.8800000000000001,
+        "event_start": "2025-12-12T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_753bb5d167966303",
+        "location_name": "Konapara, Demra",
+        "sentiment_count": 0,
+        "source_count": 5,
+        "status": "reported",
+        "title": "DNCC garbage truck–motorcycle crash in Demra",
+        "uncertainty_radius_km": 3.0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          91.7417,
+          24.7063
+        ],
+        "type": "Point"
+      },
+      "id": "inc_e99408b6b12ed0d8",
+      "properties": {
+        "confidence": 0.7300000000000001,
+        "event_start": "2026-08-07T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_e99408b6b12ed0d8",
+        "location_name": "Kashikapan, Osmaninagar, Sylhet",
+        "sentiment_count": 1,
+        "source_count": 2,
+        "status": "reported",
+        "title": "Passenger-bus collision in Osmaninagar, Sylhet",
+        "uncertainty_radius_km": 3.0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          89.417,
+          24.675
+        ],
+        "type": "Point"
+      },
+      "id": "inc_17485b80f7f4a524",
+      "properties": {
+        "confidence": 0.7300000000000001,
+        "event_start": "2026-08-07T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "city",
+        "incident_id": "inc_17485b80f7f4a524",
+        "location_name": "Sherpur, Bogura",
+        "sentiment_count": 1,
+        "source_count": 2,
+        "status": "reported",
+        "title": "Bus crash involving labourers in Sherpur, Bogura",
+        "uncertainty_radius_km": 12.0
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

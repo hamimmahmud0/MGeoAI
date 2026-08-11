@@ -1,0 +1,315 @@
+{
+  "$defs": {
+    "LocationCandidate": {
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {
+          "default": 0.5,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "granularity": {
+          "default": "unknown",
+          "enum": [
+            "point",
+            "intersection",
+            "road_segment",
+            "area",
+            "city",
+            "district",
+            "unknown"
+          ],
+          "title": "Granularity",
+          "type": "string"
+        },
+        "hierarchy": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Hierarchy",
+          "type": "object"
+        },
+        "latitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Latitude"
+        },
+        "longitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Longitude"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "normalized_name": {
+          "title": "Normalized Name",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        }
+      },
+      "required": [
+        "name",
+        "normalized_name"
+      ],
+      "title": "LocationCandidate",
+      "type": "object"
+    },
+    "TimeInterval": {
+      "additionalProperties": false,
+      "properties": {
+        "end": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End"
+        },
+        "original_expression": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Expression"
+        },
+        "precision": {
+          "default": "unknown",
+          "enum": [
+            "minute",
+            "hour",
+            "day",
+            "month",
+            "year",
+            "unknown"
+          ],
+          "title": "Precision",
+          "type": "string"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start"
+        },
+        "timezone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Timezone"
+        }
+      },
+      "title": "TimeInterval",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "casualties": {
+      "additionalProperties": {
+        "anyOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "null"
+          }
+        ]
+      },
+      "title": "Casualties",
+      "type": "object"
+    },
+    "collision_description": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Collision Description"
+    },
+    "completeness": {
+      "default": 0.5,
+      "maximum": 1,
+      "minimum": 0,
+      "title": "Completeness",
+      "type": "number"
+    },
+    "event_subtype": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Event Subtype"
+    },
+    "event_time": {
+      "$ref": "#/$defs/TimeInterval"
+    },
+    "event_type": {
+      "title": "Event Type",
+      "type": "string"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "lexical_features": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Lexical Features",
+      "type": "array"
+    },
+    "locations": {
+      "items": {
+        "$ref": "#/$defs/LocationCandidate"
+      },
+      "title": "Locations",
+      "type": "array"
+    },
+    "mention_id": {
+      "title": "Mention Id",
+      "type": "string"
+    },
+    "organizations": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Organizations",
+      "type": "array"
+    },
+    "people": {
+      "items": {
+        "type": "string"
+      },
+      "title": "People",
+      "type": "array"
+    },
+    "relation_type": {
+      "default": "primary",
+      "enum": [
+        "primary",
+        "response_to",
+        "later_development_of"
+      ],
+      "title": "Relation Type",
+      "type": "string"
+    },
+    "response": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Response",
+      "type": "array"
+    },
+    "sentiment_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Sentiment Ids",
+      "type": "array"
+    },
+    "source_id": {
+      "title": "Source Id",
+      "type": "string"
+    },
+    "traffic_effects": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Traffic Effects",
+      "type": "array"
+    },
+    "uncertainty": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Uncertainty",
+      "type": "array"
+    },
+    "vehicles": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Vehicles",
+      "type": "array"
+    }
+  },
+  "required": [
+    "mention_id",
+    "source_id",
+    "evidence_ids",
+    "event_type"
+  ],
+  "title": "IncidentMention",
+  "type": "object"
+}

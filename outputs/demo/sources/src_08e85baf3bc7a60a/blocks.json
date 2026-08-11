@@ -1,0 +1,178 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a45ea54925d8ae94",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a45ea54925d8ae94",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The Business Standard's Post",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "The Business Standard's Post",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d54a38721e28c6b4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d54a38721e28c6b4",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The Business Standard",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "The Business Standard",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cdce94fb992c2132",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cdce94fb992c2132",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.tbsnews.net/.../2-university-students-killed...",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "https://www.tbsnews.net/.../2-university-students-killed...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d3b589b2f867af2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7d3b589b2f867af2",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 university students killed as DNCC garbage truck hits motorcycle in Dhaka",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "2 university students killed as DNCC garbage truck hits motorcycle in Dhaka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_403d73bfcb2516e6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_403d73bfcb2516e6",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Subscribe to TBS+: https://www.tbsnews.net/tbs-subscribe/index.html",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "Subscribe to TBS+: https://www.tbsnews.net/tbs-subscribe/index.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_daa7e6c5f65307d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_daa7e6c5f65307d8",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > a:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "TBS+",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "TBS+",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eadb90fab42e7422",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eadb90fab42e7422",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "What are the facts? Garbage truck gone berserk? Or bikers pulling another daring stunt?",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "What are the facts? Garbage truck gone berserk? Or bikers pulling another daring stunt?",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5d654d2b97dfa627",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5d654d2b97dfa627",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Well it can be the fault of both sides. Starting from tesla, tempu, bike and bus, every one drives crazy in that jatrabari, demra, konapara, shonir akhra zone",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "Well it can be the fault of both sides. Starting from tesla, tempu, bike and bus, every one drives crazy in that jatrabari, demra, konapara, shonir akhra zone",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_22f32a4fb754d41c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_22f32a4fb754d41c",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "This road thug is the garbage truck. It breaks every law that exists — and does it with pride.",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "This road thug is the garbage truck. It breaks every law that exists — and does it with pride.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b69d7e66feb422c5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b69d7e66feb422c5",
+      "locator": "div:nth-of-type(1) > span:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two university students were killed today (12 December) when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra.",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "Two university students were killed today (12 December) when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e29ee1d3b6659d37",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e29ee1d3b6659d37",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > span:nth-of-type(1) > span:nth-of-type(1) > span:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two university students were killed today (12 December) when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra. Link in comments #accident #garbagetruck #rammed #TBSNews Disclaimer: This content is shared in accordance with Meta Community Standards. It is intended solely for journalistic purposes and is based on verified information. We do not endorse or promote violence, political bias, or harmful behavior.",
+      "source_path": "html/08/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08e85baf3bc7a60a",
+    "text": "Two university students were killed today (12 December) when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra. Link in comments #accident #garbagetruck #rammed #TBSNews Disclaimer: This content is shared in accordance with Meta Community Standards. It is intended solely for journalistic purposes and is based on verified information. We do not endorse or promote violence, political bias, or harmful behavior.",
+    "url": null
+  }
+]

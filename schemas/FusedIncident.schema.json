@@ -1,0 +1,681 @@
+{
+  "$defs": {
+    "FusedFact": {
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "conflicting_values": {
+          "items": {},
+          "title": "Conflicting Values",
+          "type": "array"
+        },
+        "contradiction": {
+          "default": false,
+          "title": "Contradiction",
+          "type": "boolean"
+        },
+        "field": {
+          "title": "Field",
+          "type": "string"
+        },
+        "selection_rationale": {
+          "title": "Selection Rationale",
+          "type": "string"
+        },
+        "state": {
+          "default": "known",
+          "enum": [
+            "known",
+            "unknown",
+            "not_reported",
+            "not_applicable",
+            "reported_zero"
+          ],
+          "title": "State",
+          "type": "string"
+        },
+        "support_evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Support Evidence Ids",
+          "type": "array"
+        },
+        "value": {
+          "default": null,
+          "title": "Value"
+        }
+      },
+      "required": [
+        "field",
+        "confidence",
+        "selection_rationale"
+      ],
+      "title": "FusedFact",
+      "type": "object"
+    },
+    "Geolocation": {
+      "additionalProperties": false,
+      "properties": {
+        "alternatives": {
+          "items": {
+            "$ref": "#/$defs/LocationCandidate"
+          },
+          "title": "Alternatives",
+          "type": "array"
+        },
+        "ambiguity_reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Ambiguity Reason"
+        },
+        "confidence": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "display_name": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Display Name"
+        },
+        "granularity": {
+          "default": "unknown",
+          "enum": [
+            "point",
+            "intersection",
+            "road_segment",
+            "area",
+            "city",
+            "district",
+            "unknown"
+          ],
+          "title": "Granularity",
+          "type": "string"
+        },
+        "hierarchy": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Hierarchy",
+          "type": "object"
+        },
+        "latitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Latitude"
+        },
+        "longitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Longitude"
+        },
+        "method": {
+          "default": "unresolved",
+          "title": "Method",
+          "type": "string"
+        },
+        "supporting_evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Supporting Evidence Ids",
+          "type": "array"
+        },
+        "uncertainty_radius_km": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Uncertainty Radius Km"
+        }
+      },
+      "title": "Geolocation",
+      "type": "object"
+    },
+    "LocationCandidate": {
+      "additionalProperties": false,
+      "properties": {
+        "confidence": {
+          "default": 0.5,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "evidence_ids": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Evidence Ids",
+          "type": "array"
+        },
+        "granularity": {
+          "default": "unknown",
+          "enum": [
+            "point",
+            "intersection",
+            "road_segment",
+            "area",
+            "city",
+            "district",
+            "unknown"
+          ],
+          "title": "Granularity",
+          "type": "string"
+        },
+        "hierarchy": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "title": "Hierarchy",
+          "type": "object"
+        },
+        "latitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Latitude"
+        },
+        "longitude": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Longitude"
+        },
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "normalized_name": {
+          "title": "Normalized Name",
+          "type": "string"
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Reason"
+        }
+      },
+      "required": [
+        "name",
+        "normalized_name"
+      ],
+      "title": "LocationCandidate",
+      "type": "object"
+    },
+    "SentimentEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "aspect": {
+          "title": "Aspect",
+          "type": "string"
+        },
+        "confidence": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Confidence",
+          "type": "number"
+        },
+        "emotion": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Emotion"
+        },
+        "evidence_id": {
+          "title": "Evidence Id",
+          "type": "string"
+        },
+        "holder": {
+          "title": "Holder",
+          "type": "string"
+        },
+        "holder_type": {
+          "title": "Holder Type",
+          "type": "string"
+        },
+        "intensity": {
+          "default": "unknown",
+          "enum": [
+            "low",
+            "medium",
+            "high",
+            "unknown"
+          ],
+          "title": "Intensity",
+          "type": "string"
+        },
+        "polarity": {
+          "enum": [
+            "positive",
+            "neutral",
+            "negative",
+            "mixed",
+            "unknown"
+          ],
+          "title": "Polarity",
+          "type": "string"
+        },
+        "sarcasm_uncertainty": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Sarcasm Uncertainty",
+          "type": "number"
+        },
+        "sentiment_id": {
+          "title": "Sentiment Id",
+          "type": "string"
+        },
+        "source_id": {
+          "title": "Source Id",
+          "type": "string"
+        },
+        "target": {
+          "title": "Target",
+          "type": "string"
+        },
+        "traffic_related": {
+          "title": "Traffic Related",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "sentiment_id",
+        "holder",
+        "holder_type",
+        "target",
+        "aspect",
+        "polarity",
+        "traffic_related",
+        "evidence_id",
+        "source_id",
+        "confidence"
+      ],
+      "title": "SentimentEvidence",
+      "type": "object"
+    },
+    "SentimentSummary": {
+      "additionalProperties": false,
+      "properties": {
+        "by_aspect": {
+          "additionalProperties": {
+            "additionalProperties": {
+              "type": "integer"
+            },
+            "type": "object"
+          },
+          "title": "By Aspect",
+          "type": "object"
+        },
+        "coverage_note": {
+          "default": "No visible traffic-related sentiment was supplied.",
+          "title": "Coverage Note",
+          "type": "string"
+        },
+        "items": {
+          "items": {
+            "$ref": "#/$defs/SentimentEvidence"
+          },
+          "title": "Items",
+          "type": "array"
+        },
+        "notable_minority_views": {
+          "items": {
+            "type": "string"
+          },
+          "title": "Notable Minority Views",
+          "type": "array"
+        },
+        "sample_size": {
+          "default": 0,
+          "title": "Sample Size",
+          "type": "integer"
+        },
+        "traffic_relevant_count": {
+          "default": 0,
+          "title": "Traffic Relevant Count",
+          "type": "integer"
+        }
+      },
+      "title": "SentimentSummary",
+      "type": "object"
+    },
+    "TimeInterval": {
+      "additionalProperties": false,
+      "properties": {
+        "end": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "End"
+        },
+        "original_expression": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Original Expression"
+        },
+        "precision": {
+          "default": "unknown",
+          "enum": [
+            "minute",
+            "hour",
+            "day",
+            "month",
+            "year",
+            "unknown"
+          ],
+          "title": "Precision",
+          "type": "string"
+        },
+        "start": {
+          "anyOf": [
+            {
+              "format": "date-time",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Start"
+        },
+        "timezone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Timezone"
+        }
+      },
+      "title": "TimeInterval",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "alternate_time_claims": {
+      "items": {
+        "$ref": "#/$defs/TimeInterval"
+      },
+      "title": "Alternate Time Claims",
+      "type": "array"
+    },
+    "collision": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Collision"
+    },
+    "congestion_delay": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Congestion Delay"
+    },
+    "contributing_factors": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Contributing Factors",
+      "type": "array"
+    },
+    "data_quality_warnings": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Data Quality Warnings",
+      "type": "array"
+    },
+    "duplicate_groups": {
+      "items": {
+        "items": {
+          "type": "string"
+        },
+        "type": "array"
+      },
+      "title": "Duplicate Groups",
+      "type": "array"
+    },
+    "emergency_response": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Emergency Response",
+      "type": "array"
+    },
+    "event_time": {
+      "$ref": "#/$defs/TimeInterval"
+    },
+    "event_type": {
+      "title": "Event Type",
+      "type": "string"
+    },
+    "evidence_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Evidence Ids",
+      "type": "array"
+    },
+    "facts": {
+      "items": {
+        "$ref": "#/$defs/FusedFact"
+      },
+      "title": "Facts",
+      "type": "array"
+    },
+    "generated_at": {
+      "format": "date-time",
+      "title": "Generated At",
+      "type": "string"
+    },
+    "geolocation": {
+      "$ref": "#/$defs/Geolocation"
+    },
+    "human_summary": {
+      "title": "Human Summary",
+      "type": "string"
+    },
+    "incident_id": {
+      "title": "Incident Id",
+      "type": "string"
+    },
+    "independent_source_count": {
+      "default": 0,
+      "title": "Independent Source Count",
+      "type": "integer"
+    },
+    "involved_parties": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Involved Parties",
+      "type": "array"
+    },
+    "later_developments": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Later Developments",
+      "type": "array"
+    },
+    "obstruction": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Obstruction"
+    },
+    "provider_run_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Provider Run Id"
+    },
+    "schema_version": {
+      "default": "1.0.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "sentiment": {
+      "$ref": "#/$defs/SentimentSummary"
+    },
+    "source_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Source Ids",
+      "type": "array"
+    },
+    "status": {
+      "default": "reported",
+      "enum": [
+        "reported",
+        "developing",
+        "resolved",
+        "uncertain"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "title": {
+      "title": "Title",
+      "type": "string"
+    },
+    "unresolved_questions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Unresolved Questions",
+      "type": "array"
+    },
+    "vehicles": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Vehicles",
+      "type": "array"
+    }
+  },
+  "required": [
+    "incident_id",
+    "title",
+    "event_type",
+    "source_ids",
+    "evidence_ids",
+    "human_summary",
+    "generated_at"
+  ],
+  "title": "FusedIncident",
+  "type": "object"
+}
