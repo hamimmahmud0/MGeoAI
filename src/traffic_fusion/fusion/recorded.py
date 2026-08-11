@@ -125,7 +125,16 @@ class RecordedFusionProvider:
                 feature
                 for mention in mentions
                 for feature in mention.lexical_features
-                if feature in {"purbachal", "demra", "tongi", "sylhet", "bogura", "fahim"}
+                if feature
+                in {
+                    "purbachal",
+                    "demra",
+                    "tongi",
+                    "sylhet",
+                    "bogura",
+                    "baniacho_shahrasti",
+                    "fahim",
+                }
             ),
             "unmapped",
         )
@@ -135,6 +144,7 @@ class RecordedFusionProvider:
             "tongi": "Tongi student crash and highway blockade",
             "sylhet": "Passenger-bus collision in Osmaninagar, Sylhet",
             "bogura": "Bus crash involving labourers in Sherpur, Bogura",
+            "baniacho_shahrasti": "Bus–truck collision in Baniacho, Shahrasti",
             "fahim": "Fatal crash involving student organizer Fahim Ahmed",
             "unmapped": "Reported traffic incident with unresolved location",
         }

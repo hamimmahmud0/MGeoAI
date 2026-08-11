@@ -13,6 +13,7 @@ from traffic_fusion.models import (
     ParsedBlock,
     SentimentEvidence,
     SourceRecord,
+    SourceType,
     TimeInterval,
 )
 from traffic_fusion.utils import normalize_text, stable_id
@@ -20,6 +21,10 @@ from traffic_fusion.utils import normalize_text, stable_id
 BN_DIGITS = str.maketrans("০১২৩৪৫৬৭৮৯", "0123456789")
 TRAFFIC_TERMS = re.compile(
     r"\b(?:accident|crash|collision|killed|injured|road|highway|traffic|blockade|congestion|vehicle|motorcycle|bus|truck)\b|সড়ক|দুর্ঘটনা|নিহত|আহত|মহাসড়ক|যানজট|অবরোধ",
+    re.I,
+)
+INCIDENT_TERMS = re.compile(
+    r"\b(?:accident|crash|collision|killed|injured|fatal)\b|দুর্ঘটনা|নিহত|আহত|সংঘর্ষ",
     re.I,
 )
 
@@ -61,6 +66,13 @@ ANCHORS = [
         (24.6750, 89.4170),
     ),
     (
+        "baniacho_shahrasti",
+        ["baniacho", "baniachow", "bāniācho", "বানিয়াচো", "বানিয়াচো"],
+        "Baniacho, Shahrasti, Chandpur",
+        "area",
+        (23.253908, 90.968507),
+    ),
+    (
         "fahim",
         ["fahim ahmed", "ফাহিম আহমেদ"],
         "Crash location not reported",
@@ -74,6 +86,16 @@ def normalize_digits(value: str) -> str:
     return value.translate(BN_DIGITS)
 
 
+def _matching_anchors(
+    text: str,
+) -> list[tuple[str, list[str], str, str, tuple[float | None, float | None]]]:
+    return [
+        anchor_spec
+        for anchor_spec in ANCHORS
+        if any(alias.casefold() in text for alias in anchor_spec[1])
+    ]
+
+
 def blocks_to_evidence(source: SourceRecord, blocks: Iterable[ParsedBlock]) -> list[EvidenceItem]:
     result: list[EvidenceItem] = []
     for block in blocks:
@@ -84,6 +106,9 @@ def blocks_to_evidence(source: SourceRecord, blocks: Iterable[ParsedBlock]) -> l
         claim = normalize_text(normalize_digits(block.text))
         assertion = AssertionType.OPINION if block.kind == "comment" else AssertionType.REPORTED
         evidence_id = stable_id("ev", source.source_id, block.block_id, claim)
+        location_mentions = [
+            display for _, _, display, _, _ in _matching_anchors(claim.casefold())
+        ]
         result.append(
             EvidenceItem(
                 evidence_id=evidence_id,
@@ -94,6 +119,7 @@ def blocks_to_evidence(source: SourceRecord, blocks: Iterable[ParsedBlock]) -> l
                 claim_text=claim,
                 normalized_claim=claim.casefold(),
                 claimant=block.author or source.publisher,
+                location_mentions=location_mentions,
                 provenance=block.locator,
                 extraction_confidence=0.82 if block.kind != "comment" else 0.65,
                 source_support=block.text,
@@ -155,10 +181,7 @@ def _casualties(text: str, anchor: str) -> dict[str, int | None]:
 
 def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[IncidentMention]:
     all_text = " ".join(item.normalized_claim for item in evidence)
-    found: list[tuple[str, list[str], str, str, tuple[float | None, float | None]]] = []
-    for anchor_spec in ANCHORS:
-        if any(alias.casefold() in all_text for alias in anchor_spec[1]):
-            found.append(anchor_spec)
+    found = _matching_anchors(all_text)
     if not found and "buet student" in all_text and "narayanganj" in all_text:
         found.append(ANCHORS[0])
     if (
@@ -170,6 +193,14 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
         found.append(ANCHORS[2])
     # JSON can be terse and omit distinctive names; preserve an unanchored incident mention.
     if not found and any(item.evidence_kind == "traffic_incident" for item in evidence):
+        found = [("unknown", ["incident"], "Location not resolved", "unknown", (None, None))]
+    # HTML incident reports should survive normalization even when a place is not yet
+    # in the local gazetteer. This keeps them reviewable and explicitly unmapped.
+    if (
+        not found
+        and source.source_type in {SourceType.NEWS_HTML, SourceType.FACEBOOK_HTML}
+        and INCIDENT_TERMS.search(all_text)
+    ):
         found = [("unknown", ["incident"], "Location not resolved", "unknown", (None, None))]
     mentions: list[IncidentMention] = []
     for anchor_name, aliases, display, granularity_raw, coords in found:
@@ -202,11 +233,16 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
         latitude, longitude = coords
         locations = []
         if anchor_name != "fahim" and anchor_name != "unknown":
+            hierarchy = {"country": "Bangladesh", "anchor": anchor_name}
+            if anchor_name == "baniacho_shahrasti":
+                hierarchy.update(
+                    {"district": "Chandpur", "upazila": "Shahrasti", "locality": "Baniacho"}
+                )
             locations.append(
                 LocationCandidate(
                     name=display,
                     normalized_name=display.casefold(),
-                    hierarchy={"country": "Bangladesh", "anchor": anchor_name},
+                    hierarchy=hierarchy,
                     latitude=latitude,
                     longitude=longitude,
                     granularity=granularity,
@@ -243,9 +279,10 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
                         *[alias.casefold() for alias in aliases if alias.casefold() in all_text],
                     }
                 ),
-                uncertainty=["Event time unresolved"]
-                if not _date_for_anchor(all_text, source, anchor_name).start
-                else [],
+                uncertainty=(
+                    (["Event time unresolved"] if not _date_for_anchor(all_text, source, anchor_name).start else [])
+                    + (["Location unresolved"] if anchor_name == "unknown" else [])
+                ),
                 completeness=min(0.9, 0.35 + len(related) * 0.05),
                 relation_type=relation,
             )

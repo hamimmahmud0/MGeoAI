@@ -14,11 +14,11 @@ class Settings:
     deepseek_base_url: str = "https://api.deepseek.com"
     deepseek_model: str | None = None
     api_mode: str = "auto"
-    thinking: str = "disabled"
+    thinking: str = "enabled"
     request_timeout: float = 90.0
     retry_count: int = 2
     concurrency: int = 2
-    token_budget: int = 6000
+    token_budget: int = 24000
     run_cost_limit_usd: float = 5.0
     daily_cost_limit_usd: float = 20.0
     input_cost_per_million_usd: float | None = None
@@ -61,13 +61,13 @@ class Settings:
             deepseek_base_url=os.getenv("DEEPSEEK_BASE_URL", "https://api.deepseek.com"),
             deepseek_model=os.getenv("DEEPSEEK_MODEL") or None,
             api_mode=os.getenv("DEEPSEEK_API_MODE", "auto"),
-            thinking=os.getenv("DEEPSEEK_THINKING", "disabled"),
+            thinking=os.getenv("DEEPSEEK_THINKING", "enabled"),
             request_timeout=float(
                 os.getenv("FUSION_REQUEST_TIMEOUT", fusion.get("request_timeout", 90))
             ),
             retry_count=int(os.getenv("FUSION_RETRY_COUNT", fusion.get("retry_count", 2))),
             concurrency=int(os.getenv("FUSION_CONCURRENCY", fusion.get("concurrency", 2))),
-            token_budget=int(os.getenv("FUSION_TOKEN_BUDGET", fusion.get("token_budget", 6000))),
+            token_budget=int(os.getenv("FUSION_TOKEN_BUDGET", fusion.get("token_budget", 24000))),
             run_cost_limit_usd=float(
                 os.getenv("FUSION_RUN_COST_LIMIT_USD", fusion.get("run_cost_limit_usd", 5))
             ),

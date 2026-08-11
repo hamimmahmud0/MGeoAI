@@ -52,6 +52,53 @@ def test_one_source_splits_sylhet_and_bogura() -> None:
     assert {item.locations[0].hierarchy["anchor"] for item in mentions} == {"sylhet", "bogura"}
 
 
+def test_bangla_baniacho_report_resolves_area_centroid() -> None:
+    source = SourceRecord(
+        source_id="src_baniacho",
+        source_type=SourceType.NEWS_HTML,
+        local_path="content.html",
+        content_hash="c" * 64,
+    )
+    evidence = [
+        make_evidence(
+            source.source_id,
+            "চাঁদপুরের শাহরাস্তি উপজেলার বানিয়াচো এলাকায় বাস-ট্রাক সংঘর্ষে তিনজন নিহত।",
+            "baniacho",
+        )
+    ]
+
+    mention = split_mentions(source, evidence)[0]
+
+    location = mention.locations[0]
+    assert location.name == "Baniacho, Shahrasti, Chandpur"
+    assert location.hierarchy == {
+        "country": "Bangladesh",
+        "anchor": "baniacho_shahrasti",
+        "district": "Chandpur",
+        "upazila": "Shahrasti",
+        "locality": "Baniacho",
+    }
+    assert (location.latitude, location.longitude) == (23.253908, 90.968507)
+    assert location.granularity == "area"
+
+
+def test_unrecognized_html_incident_remains_reviewable_and_unmapped() -> None:
+    source = SourceRecord(
+        source_id="src_unknown_html",
+        source_type=SourceType.NEWS_HTML,
+        local_path="unknown.html",
+        content_hash="d" * 64,
+    )
+
+    mention = split_mentions(
+        source,
+        [make_evidence(source.source_id, "A collision killed one person near an unnamed road.", "unknown")],
+    )[0]
+
+    assert mention.locations == []
+    assert "Location unresolved" in mention.uncertainty
+
+
 def test_different_specific_locations_trigger_hard_guard() -> None:
     source_a = SourceRecord(
         source_id="a", source_type=SourceType.NEWS_HTML, local_path="a", content_hash="a" * 64

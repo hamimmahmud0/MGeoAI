@@ -18,6 +18,7 @@ from traffic_fusion.models import (
     MatchFeatures,
     ProviderRun,
 )
+from traffic_fusion.reporting import validate_fused_provenance
 from traffic_fusion.utils import canonical_json, stable_hash, stable_id, write_json
 
 T = TypeVar("T", bound=BaseModel)
@@ -90,26 +91,27 @@ class DeepSeekProvider:
         started = datetime.now(UTC)
         if cache_path.exists():
             parsed = output_model.model_validate_json(cache_path.read_text())
-            self._runs.append(
-                ProviderRun(
-                    run_id=stable_id("prun", request_hash, "cache"),
-                    cluster_id=cluster_id,
-                    operation=operation,
-                    provider=self.name,
-                    model=self.model,
-                    endpoint_mode=self.endpoint_mode,
-                    prompt_version=self.prompt_version,
-                    prompt_hash=stable_hash(self.prompt, 64),
-                    request_hash=request_hash,
-                    started_at=started,
-                    latency_ms=0,
-                    retries=0,
-                    finish_status="cached",
-                    validation_status="valid",
-                    cache_hit=True,
+            if not self._provenance_errors(parsed, payload):
+                self._runs.append(
+                    ProviderRun(
+                        run_id=stable_id("prun", request_hash, "cache"),
+                        cluster_id=cluster_id,
+                        operation=operation,
+                        provider=self.name,
+                        model=self.model,
+                        endpoint_mode=self.endpoint_mode,
+                        prompt_version=self.prompt_version,
+                        prompt_hash=stable_hash(self.prompt, 64),
+                        request_hash=request_hash,
+                        started_at=started,
+                        latency_ms=0,
+                        retries=0,
+                        finish_status="cached",
+                        validation_status="valid",
+                        cache_hit=True,
+                    )
                 )
-            )
-            return parsed
+                return parsed
         if self.endpoint_mode == "responses":
             url = f"{self.settings.deepseek_base_url.rstrip('/')}/responses"
             body: dict[str, Any] = {
@@ -228,6 +230,23 @@ class DeepSeekProvider:
                         body["messages"].append({"role": "assistant", "content": content})
                         body["messages"].append({"role": "user", "content": repair})
                     continue
+                provenance_errors = self._provenance_errors(parsed, payload)
+                if provenance_errors:
+                    last_error = "provenance validation failed: " + "; ".join(
+                        provenance_errors
+                    )
+                    if attempt >= self.settings.retry_count:
+                        raise ProviderFailure(last_error)
+                    repair = (
+                        "Repair the JSON using only source_id and evidence_id values present "
+                        f"in the supplied bundle. Validation errors: {provenance_errors}"
+                    )
+                    if self.endpoint_mode == "responses":
+                        body["input"] = f"{body['input']}\n{repair}"
+                    else:
+                        body["messages"].append({"role": "assistant", "content": content})
+                        body["messages"].append({"role": "user", "content": repair})
+                    continue
                 input_tokens = usage.get("prompt_tokens") or usage.get("input_tokens")
                 output_tokens = usage.get("completion_tokens") or usage.get("output_tokens")
                 estimated_cost = self._estimate_cost(input_tokens, output_tokens)
@@ -293,6 +312,22 @@ class DeepSeekProvider:
             )
         )
         raise ProviderFailure(last_error)
+
+    @staticmethod
+    def _provenance_errors(parsed: BaseModel, payload: dict[str, Any]) -> list[str]:
+        if not isinstance(parsed, FusedIncident):
+            return []
+        allowed_evidence = {
+            str(item["evidence_id"])
+            for item in payload.get("evidence", [])
+            if isinstance(item, dict) and item.get("evidence_id")
+        }
+        allowed_sources = {
+            str(item["source_id"])
+            for item in payload.get("sources", [])
+            if isinstance(item, dict) and item.get("source_id")
+        }
+        return validate_fused_provenance(parsed, allowed_evidence, allowed_sources)
 
     def _estimate_cost(self, input_tokens: int | None, output_tokens: int | None) -> float:
         input_rate = self.settings.input_cost_per_million_usd or 0

@@ -209,29 +209,44 @@ def run_pipeline(
     mentions_by_source: dict[str, list[IncidentMention]] = {}
     for mention in mentions:
         mentions_by_source.setdefault(mention.source_id, []).append(mention)
-    # A paired image without an explicit crash object may still provide bounded
-    # contextual evidence. Attach it only when its parent HTML has exactly one
-    # incident mention, avoiding ambiguous roundup-image assignment.
+    # A paired image may provide bounded contextual evidence even when it does
+    # not independently establish time or place. Inherit only from a parent HTML
+    # with exactly one incident mention, avoiding ambiguous roundup-image assignment.
     for source in sources:
-        if not source.parent_source_id or source.source_id in mentions_by_source:
+        if not source.parent_source_id:
             continue
         parents = mentions_by_source.get(source.parent_source_id, [])
         child_evidence = evidence_by_source.get(source.source_id, [])
         if len(parents) != 1 or not child_evidence:
             continue
         parent = parents[0]
-        child = parent.model_copy(deep=True)
-        child.mention_id = stable_id("men", source.source_id, parent.mention_id)
-        child.source_id = source.source_id
-        child.evidence_ids = [item.evidence_id for item in child_evidence]
-        for location in child.locations:
-            location.evidence_ids = child.evidence_ids
-            location.confidence = min(location.confidence, 0.45)
-            location.reason = "Inherited from the single paired HTML incident; image alone does not establish crash location"
-        child.uncertainty.append("Incident linkage inherited from paired HTML source")
-        child.completeness = min(child.completeness, 0.45)
-        mentions.append(child)
-        mentions_by_source[source.source_id] = [child]
+        children = mentions_by_source.get(source.source_id, [])
+        if not children:
+            child = parent.model_copy(deep=True)
+            child.mention_id = stable_id("men", source.source_id, parent.mention_id)
+            child.source_id = source.source_id
+            child.evidence_ids = [item.evidence_id for item in child_evidence]
+            children = [child]
+            mentions.append(child)
+            mentions_by_source[source.source_id] = children
+        for child in children:
+            if not child.event_time.start:
+                child.event_time = parent.event_time.model_copy(deep=True)
+            if not child.locations:
+                child.locations = [location.model_copy(deep=True) for location in parent.locations]
+                for location in child.locations:
+                    location.confidence = min(location.confidence, 0.45)
+                    location.reason = (
+                        "Inherited from the single paired HTML incident; image alone does not "
+                        "establish crash location"
+                    )
+            child.lexical_features = sorted(
+                set(child.lexical_features) | set(parent.lexical_features)
+            )
+            inherited_warning = "Incident linkage inherited from paired HTML source"
+            if inherited_warning not in child.uncertainty:
+                child.uncertainty.append(inherited_warning)
+            child.completeness = min(child.completeness, 0.45)
     sentiments = extract_sentiment(evidence)
     write_jsonl(output_dir / "sources.jsonl", sources)
     write_jsonl(output_dir / "evidence.jsonl", evidence)

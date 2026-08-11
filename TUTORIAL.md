@@ -247,9 +247,9 @@ Open `.env` in your editor and set at least these values:
 FUSION_PROVIDER=deepseek
 DEEPSEEK_API_KEY='replace-with-your-key'
 DEEPSEEK_BASE_URL=https://api.deepseek.com
-DEEPSEEK_MODEL=deepseek-v4-flash
+DEEPSEEK_MODEL=deepseek-v4-pro
 DEEPSEEK_API_MODE=chat_completions
-DEEPSEEK_THINKING=disabled
+DEEPSEEK_THINKING=enabled
 DEEPSEEK_INPUT_COST_PER_MILLION_USD=replace-with-current-numeric-price
 DEEPSEEK_OUTPUT_COST_PER_MILLION_USD=replace-with-current-numeric-price
 FUSION_RUN_COST_LIMIT_USD=5.00

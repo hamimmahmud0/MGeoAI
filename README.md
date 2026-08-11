@@ -60,9 +60,9 @@ in your shell or deployment system.
 ```bash
 export FUSION_PROVIDER=deepseek
 export DEEPSEEK_API_KEY='...'
-export DEEPSEEK_MODEL='deepseek-v4-flash'
+export DEEPSEEK_MODEL='deepseek-v4-pro'
 export DEEPSEEK_API_MODE=chat_completions
-export DEEPSEEK_THINKING=disabled
+export DEEPSEEK_THINKING=enabled
 export DEEPSEEK_INPUT_COST_PER_MILLION_USD='current-provider-price'
 export DEEPSEEK_OUTPUT_COST_PER_MILLION_USD='current-provider-price'
 mgeoai doctor --provider deepseek

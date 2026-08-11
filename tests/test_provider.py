@@ -69,6 +69,20 @@ def valid_match() -> str:
     )
 
 
+def fused_incident(evidence_id: str, source_id: str = "s1") -> str:
+    return json.dumps(
+        {
+            "incident_id": "inc_test",
+            "title": "Test incident",
+            "event_type": "road_crash",
+            "source_ids": [source_id],
+            "evidence_ids": [evidence_id],
+            "human_summary": f"Reported incident [{evidence_id}].",
+            "generated_at": "2026-08-12T00:00:00Z",
+        }
+    )
+
+
 def test_request_delimits_untrusted_evidence_and_caches(
     monkeypatch: pytest.MonkeyPatch, tmp_path: Path
 ) -> None:
@@ -86,6 +100,7 @@ def test_request_delimits_untrusted_evidence_and_caches(
     assert first.decision == second.decision == "same_incident"
     assert len(calls) == 1
     assert "<UNTRUSTED_EVIDENCE>" in calls[0]["messages"][1]["content"]
+    assert calls[0]["thinking"] == {"type": "enabled"}
     assert instance.runs[-1].cache_hit is True
 
 
@@ -123,6 +138,29 @@ def test_schema_repair(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
     result = provider(tmp_path).adjudicate(left, right, features)
     assert result.decision == "same_incident"
     assert result.provider_run_id
+
+
+def test_fusion_repairs_out_of_bundle_provenance(
+    monkeypatch: pytest.MonkeyPatch, tmp_path: Path
+) -> None:
+    results = [response(fused_incident("ev_unknown")), response(fused_incident("e1"))]
+    calls: list[dict] = []
+
+    def post(*args, **kwargs):
+        calls.append(kwargs["json"])
+        return results.pop(0)
+
+    monkeypatch.setattr(httpx, "post", post)
+    bundle = {
+        "sources": [{"source_id": "s1"}],
+        "evidence": [{"evidence_id": "e1"}],
+    }
+
+    result = provider(tmp_path).fuse("cluster-test", bundle)
+
+    assert result.evidence_ids == ["e1"]
+    assert len(calls) == 2
+    assert "using only source_id and evidence_id values" in calls[1]["messages"][-1]["content"]
 
 
 def test_timeout_is_terminal(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> None:
