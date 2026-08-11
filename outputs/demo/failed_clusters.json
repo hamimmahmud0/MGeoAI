@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "cluster_id": "cluster-005",
+    "error": "fact event_type has a value without support evidence; fact casualties_fatalities has a value without support evidence; fact casualties_injuries has a value without support evidence; fact event_time has a value without support evidence",
+    "retryable": "true"
+  },
+  {
+    "cluster_id": "cluster-012",
+    "error": "fact vehicles has a value without support evidence",
+    "retryable": "true"
+  }
+]

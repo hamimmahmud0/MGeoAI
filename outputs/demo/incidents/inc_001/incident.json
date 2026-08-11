@@ -1,0 +1,363 @@
+{
+  "alternate_time_claims": [],
+  "collision": "car collided with stationary motorcycle at police checkpoint",
+  "congestion_delay": null,
+  "contributing_factors": [
+    "alleged intoxication (reported claim)",
+    "speeding/reckless driving (reported claim)"
+  ],
+  "data_quality_warnings": [
+    "Image analysis source (src_986f165864da7582) shows a police station forecourt, but does not depict the crash itself; its linkage to the incident is inherited from paired HTML source and uncertain.",
+    "Some sources use alternate spellings (Muhtasim/Mohtassim) which are likely the same person.",
+    "The Business Standard sources may share a common origin; treated as potentially duplicate for source counting.",
+    "The video analysis (src_02298208b235935d) provides high-level details but lacks exact time and location precision."
+  ],
+  "duplicate_groups": [
+    [
+      "src_2a54e1ad115b0de3",
+      "src_67f5fd8305b791e7"
+    ]
+  ],
+  "emergency_response": [
+    "Police present at scene escorting three men",
+    "Body sent to Shaheed Suhrawardy Medical College Hospital for postmortem"
+  ],
+  "event_time": {
+    "end": "2024-12-20T03:00:00+06:00",
+    "original_expression": "around 3:00 am early on Friday (20 Dec)",
+    "precision": "hour",
+    "start": "2024-12-20T03:00:00+06:00",
+    "timezone": "Asia/Dhaka"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_01fc9be579007137",
+    "ev_07a4549765a2d7a1",
+    "ev_17797e3df968c79a",
+    "ev_1f834f7777ccf794",
+    "ev_23e903df4479a2d7",
+    "ev_249e84b4d0423349",
+    "ev_298c49bd952c41d8",
+    "ev_33667123810c930a",
+    "ev_3cb89b4791adcc04",
+    "ev_46842f13e60fde78",
+    "ev_4868bd0517e733cd",
+    "ev_4c5ab42977ec172a",
+    "ev_4dd4327dffa9a504",
+    "ev_53bf08280ca47b12",
+    "ev_65ff85722690ad8d",
+    "ev_6f614cdd3f691d5e",
+    "ev_7302506cacaa1a27",
+    "ev_7a9911d957c3b042",
+    "ev_7e2b75efeb5007b6",
+    "ev_850f0b4bcf2418e4",
+    "ev_8abd92a099282678",
+    "ev_9a606d918d721b9b",
+    "ev_a483b15db9baf756",
+    "ev_bb8f9aa29bb214dc",
+    "ev_bd1c816a8b65297c",
+    "ev_c425c2c64fdbc3bf",
+    "ev_c72db83917462014",
+    "ev_d7c18f446cad4094",
+    "ev_e83083c24c1fb324",
+    "ev_e8c697e231ce67eb",
+    "ev_eec8df76ec28439f",
+    "ev_f6979130e8086261",
+    "ev_ffdb144fdbfff7c5"
+  ],
+  "facts": [
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatality_count",
+      "selection_rationale": "All independent sources report one fatality, Muhtasim Masud, with no conflicting fatality counts.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_07a4549765a2d7a1",
+        "ev_4868bd0517e733cd",
+        "ev_7e2b75efeb5007b6",
+        "ev_4c5ab42977ec172a"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.85,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injury_count",
+      "selection_rationale": "Multiple sources report two injured friends. No source gives a different number.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_7e2b75efeb5007b6",
+        "ev_4c5ab42977ec172a",
+        "ev_c72db83917462014",
+        "ev_3cb89b4791adcc04"
+      ],
+      "value": 2
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "event_date",
+      "selection_rationale": "Several sources explicitly date the incident to 20 December. The video analysis does not provide a date.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_850f0b4bcf2418e4",
+        "ev_c425c2c64fdbc3bf",
+        "ev_eec8df76ec28439f"
+      ],
+      "value": "2024-12-20"
+    },
+    {
+      "confidence": 0.85,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "event_time",
+      "selection_rationale": "Multiple independent sources report the collision around 3:00am on Friday (20 Dec).",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_17797e3df968c79a",
+        "ev_7a9911d957c3b042",
+        "ev_c72db83917462014",
+        "ev_f6979130e8086261"
+      ],
+      "value": "around 3:00 am"
+    },
+    {
+      "confidence": 0.7,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "location_name",
+      "selection_rationale": "The most specific location provided is Neela Market intersection on the 300-feet road, with district and upazila corroborated by multiple sources.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_7a9911d957c3b042",
+        "ev_c72db83917462014",
+        "ev_850f0b4bcf2418e4",
+        "ev_4868bd0517e733cd"
+      ],
+      "value": "Neela Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicle_1",
+      "selection_rationale": "All descriptions explicitly mention a motorcycle occupied by the students.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_7e2b75efeb5007b6",
+        "ev_4868bd0517e733cd",
+        "ev_3cb89b4791adcc04",
+        "ev_f6979130e8086261"
+      ],
+      "value": "motorcycle"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicle_2",
+      "selection_rationale": "Sources describe a car hitting the motorcycle. The video analysis identifies a passenger car with severe frontal damage.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_7e2b75efeb5007b6",
+        "ev_4868bd0517e733cd",
+        "ev_3cb89b4791adcc04",
+        "ev_07a4549765a2d7a1"
+      ],
+      "value": "passenger car"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatal_casualty_identity",
+      "selection_rationale": "Multiple sources consistently name the deceased as Muhtasim/Mohtassim Masud, a BUET student.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_4dd4327dffa9a504",
+        "ev_a483b15db9baf756",
+        "ev_f6979130e8086261",
+        "ev_c425c2c64fdbc3bf"
+      ],
+      "value": "Muhtasim Masud (Mohtassim Masud), 22, BUET CSE student"
+    },
+    {
+      "confidence": 0.75,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "involved_parties",
+      "selection_rationale": "Names of the deceased, injured friends, accused driver, and father are explicitly given in sources.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_f6979130e8086261",
+        "ev_3cb89b4791adcc04",
+        "ev_6f614cdd3f691d5e"
+      ],
+      "value": [
+        "Muhtasim Masud (deceased)",
+        "Amit Saha (injured)",
+        "Mehedi Hasan (injured)",
+        "Mubin (accused driver)",
+        "Masud Mia (victim's father)"
+      ]
+    },
+    {
+      "confidence": 0.5,
+      "conflicting_values": [
+        "not verified"
+      ],
+      "contradiction": false,
+      "field": "contributing_factor_alcohol",
+      "selection_rationale": "Only the ATN News on-screen headline alleges intoxication; this is a reported claim, not observed fact. The fact is known to be alleged.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_07a4549765a2d7a1"
+      ],
+      "value": "alleged intoxication of accused"
+    },
+    {
+      "confidence": 0.6,
+      "conflicting_values": [
+        "speeding",
+        "reckless driving"
+      ],
+      "contradiction": false,
+      "field": "contributing_factor_speeding",
+      "selection_rationale": "Multiple sources describe the car as speeding or recklessly driven; this is attributed to the complaint or reports, not independently measured. The fact is known as a reported claim.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_17797e3df968c79a",
+        "ev_7a9911d957c3b042",
+        "ev_3cb89b4791adcc04"
+      ],
+      "value": "speeding / reckless driving"
+    },
+    {
+      "confidence": 0.85,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "legal_actions",
+      "selection_rationale": "Multiple independent sources report the case, arrests, and court action.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_6f614cdd3f691d5e",
+        "ev_9a606d918d721b9b",
+        "ev_23e903df4479a2d7",
+        "ev_e8c697e231ce67eb"
+      ],
+      "value": "case filed by victim's father; three accused arrested and sent to jail"
+    }
+  ],
+  "generated_at": "2025-01-30T00:00:00Z",
+  "geolocation": {
+    "alternatives": [
+      {
+        "confidence": 0.68,
+        "evidence_ids": [
+          "ev_4868bd0517e733cd",
+          "ev_4c5ab42977ec172a"
+        ],
+        "granularity": "area",
+        "hierarchy": {},
+        "latitude": 23.8307,
+        "longitude": 90.5452,
+        "name": "Purbachal 300 Feet Road, Rupganj (gazetteer centroid)",
+        "normalized_name": "purbachal 300 feet road, rupganj",
+        "reason": "Gazetteer centroid for the road area, not exact crash point"
+      }
+    ],
+    "ambiguity_reason": "Exact coordinates not provided; the named intersection location is based on reports.",
+    "confidence": 0.5,
+    "display_name": "Neela Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj",
+    "granularity": "intersection",
+    "hierarchy": {},
+    "latitude": null,
+    "longitude": null,
+    "method": "unresolved",
+    "supporting_evidence_ids": [
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_850f0b4bcf2418e4"
+    ],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "A fatal road crash occurred early on 20 December 2024 at a police checkpoint near Neela Market intersection on Purbachal 300 Feet Road in Rupganj, Narayanganj. A passenger car struck a stationary motorcycle carrying three BUET students, killing 22-year-old Muhtasim (Mohtassim) Masud, a second-year CSE student, and seriously injuring his two friends, Amit Saha and Mehedi Hasan [ev_7a9911d957c3b042][ev_f6979130e8086261][ev_3cb89b4791adcc04]. Sources consistently report the motorcycle had been stopped by police when the car hit it; the car was described as speeding in reports [ev_17797e3df968c79a][ev_850f0b4bcf2418e4]. The video analysis shows severe front-end damage to a passenger car but does not establish crash dynamics [ev_07a4549765a2d7a1]. A claim that the accused were intoxicated appears only in an on-screen headline and is not independently confirmed [ev_07a4549765a2d7a1]. The victim's father filed a case under the Road Transport Act 2018 at Rupganj Police Station, and three accused were arrested and later sent to jail by a Narayanganj court [ev_6f614cdd3f691d5e][ev_23e903df4479a2d7][ev_e8c697e231ce67eb]. The body was sent to Shaheed Suhrawardy Medical College Hospital for postmortem [ev_1f834f7777ccf794]. Location precision is limited to the named intersection; exact coordinates are not available. Independent sources include The Daily Star, Prothom Alo, TBS, Dhaka Tribune, and ATN News video analysis, with six independent sources counted after accounting for a possible duplicate group [ev_7e2b75efeb5007b6][ev_4868bd0517e733cd][ev_4c5ab42977ec172a][ev_23e903df4479a2d7][ev_07a4549765a2d7a1].",
+  "incident_id": "inc_001",
+  "independent_source_count": 6,
+  "involved_parties": [],
+  "later_developments": [
+    "Case filed under Road Transport Act 2018 by victim's father",
+    "Three accused arrested and sent to jail by Narayanganj court"
+  ],
+  "obstruction": null,
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {
+      "road_safety": {
+        "negative": 2
+      }
+    },
+    "coverage_note": "Two sentiment expressions supplied, both traffic-related and negative about road safety and accountability. No public-opinion polling implied.",
+    "items": [
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_e5f62af3baefeb2d",
+        "holder": "en.prothomalo.com",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_3bc7b385cab36d28",
+        "source_id": "src_8b602b9fe73a95f5",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_68a6094853599576",
+        "holder": "source audience or participant",
+        "holder_type": "group",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_8234280887af6327",
+        "source_id": "src_02298208b235935d",
+        "target": "incident accountability",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 2,
+    "traffic_relevant_count": 2
+  },
+  "source_ids": [
+    "src_3f199a5a71648754",
+    "src_2a54e1ad115b0de3",
+    "src_8b602b9fe73a95f5",
+    "src_22bbac43d90432e0",
+    "src_67f5fd8305b791e7",
+    "src_02298208b235935d",
+    "src_986f165864da7582"
+  ],
+  "status": "developing",
+  "title": "Fatal road crash involving BUET student Muhtasim Masud at Purbachal, Narayanganj",
+  "unresolved_questions": [
+    "Exact impact dynamics and sequence of collision not established by available evidence.",
+    "Legal status of the three accused at time of arrest not fully specified.",
+    "Whether intoxication claim is substantiated beyond headline allegation.",
+    "Precise time not stated with minute-level accuracy; only 'around 3:00am'."
+  ],
+  "vehicles": [
+    "motorcycle",
+    "passenger_car"
+  ]
+}

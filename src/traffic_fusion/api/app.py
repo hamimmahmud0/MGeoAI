@@ -5,6 +5,7 @@ import os
 import shutil
 import tempfile
 import threading
+from concurrent.futures import ThreadPoolExecutor
 from datetime import UTC, datetime
 from pathlib import Path
 from typing import Annotated, Any, Literal
@@ -163,9 +164,11 @@ def create_app(
     base_scraps = base_scraps_dir or Path(configured_base_scraps)
     submissions = SubmissionStore(root)
     pipeline_lock = threading.Lock()
+    review_lock = threading.Lock()
+    approval_executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="mgeoai-approval")
     app = FastAPI(
         title="MGeoAI API",
-        version="0.2.1",
+        version="0.2.2",
         description="Evidence-fusion API; records are attributed reports, not independently verified truth.",
     )
     app.add_middleware(
@@ -193,6 +196,88 @@ def create_app(
             for source_id in incident.source_ids:
                 links.setdefault(source_id, []).append(incident.incident_id)
         return links
+
+    def load_approved_submission(submission_id: str, reviewer: str) -> None:
+        with pipeline_lock:
+            record = submissions.get(submission_id)
+            if record.get("status") != "processing":
+                return
+            runtime_persisted = False
+            try:
+                with tempfile.TemporaryDirectory(
+                    prefix=".mgeoai-review-", dir=root.parent
+                ) as temporary:
+                    staging_root = Path(temporary)
+                    materialize_submission(root, staging_root, record)
+                    pipeline_output = staging_root / "pipeline"
+                    existing_cache = root / "cache"
+                    if existing_cache.is_dir():
+                        shutil.copytree(existing_cache, pipeline_output / "cache")
+                    with combined_scraps(
+                        base_scraps,
+                        root / "runtime_scraps",
+                        staging_root / "runtime_scraps",
+                    ) as input_dir:
+                        summary = run_pipeline(
+                            input_dir,
+                            pipeline_output,
+                            runtime_settings.provider,
+                            runtime_settings,
+                        )
+                    if summary.status == "failed":
+                        raise RuntimeError(
+                            f"Pipeline run {summary.run_id} finished with failed status"
+                        )
+                    materialize_submission(root, root, record)
+                    runtime_persisted = True
+                    publish_pipeline_output(pipeline_output, root)
+            except Exception as exc:
+                if runtime_persisted:
+                    remove_materialized_submission(root, record)
+                safe_error = f"{type(exc).__name__}: {str(exc)[:500]}"
+                submissions.update(
+                    submission_id, status="ingest_failed", ingest_error=safe_error
+                )
+                submissions.add_audit(
+                    submission_id,
+                    action="ingest_failed",
+                    actor=reviewer,
+                    detail=safe_error,
+                )
+                return
+
+            submission_type = record.get("submission_type")
+            runtime_prefix = f"runtime/html/{submission_id}/"
+            runtime_video = f"runtime/youtube/{submission_id}.json"
+            loaded_source_ids = [
+                source.source_id
+                for source in source_records()
+                if (
+                    source.local_path.startswith(runtime_prefix)
+                    if submission_type == "html_bundle"
+                    else source.local_path == runtime_video
+                    if submission_type == "video_json"
+                    else source.local_path == f"runtime/html/{submission_id}/content.html"
+                )
+            ]
+            loaded_incident_ids = sorted(
+                {
+                    incident.incident_id
+                    for incident in incidents()
+                    if set(incident.source_ids).intersection(loaded_source_ids)
+                }
+            )
+            submissions.update(
+                submission_id,
+                status="approved",
+                pipeline_run_id=summary.run_id,
+                loaded_source_ids=loaded_source_ids,
+                loaded_incident_ids=loaded_incident_ids,
+                ingest_error=None,
+            )
+            submissions.add_audit(
+                submission_id, action="loaded", actor=reviewer, detail=summary.run_id
+            )
 
     @app.get("/api/health")
     def health() -> dict[str, Any]:
@@ -306,9 +391,9 @@ def create_app(
     @app.post("/api/reviewer/submissions/{submission_id}/review")
     def review_submission(
         submission_id: str, payload: ReviewInput, request: Request
-    ) -> dict[str, object]:
+    ) -> JSONResponse:
         reviewer, _ = require_reviewer(request, csrf=True)
-        with pipeline_lock:
+        with review_lock:
             record = submissions.get(submission_id)
             if record.get("status") not in {"pending", "ingest_failed"}:
                 raise HTTPException(status_code=409, detail="Submission has already been reviewed")
@@ -322,9 +407,10 @@ def create_app(
                     review_note=payload.note,
                     ingest_error=None,
                 )
-                return submissions.add_audit(
+                rejected = submissions.add_audit(
                     submission_id, action="rejected", actor=reviewer, detail=payload.note
                 )
+                return JSONResponse(content=rejected)
 
             submissions.update(
                 submission_id,
@@ -334,41 +420,12 @@ def create_app(
                 review_note=payload.note,
                 ingest_error=None,
             )
-            submissions.add_audit(
+            queued = submissions.add_audit(
                 submission_id, action="approved_for_ingest", actor=reviewer, detail=payload.note
             )
-            runtime_persisted = False
             try:
-                with tempfile.TemporaryDirectory(
-                    prefix=".mgeoai-review-", dir=root.parent
-                ) as temporary:
-                    staging_root = Path(temporary)
-                    materialize_submission(root, staging_root, record)
-                    pipeline_output = staging_root / "pipeline"
-                    existing_cache = root / "cache"
-                    if existing_cache.is_dir():
-                        shutil.copytree(existing_cache, pipeline_output / "cache")
-                    with combined_scraps(
-                        base_scraps,
-                        root / "runtime_scraps",
-                        staging_root / "runtime_scraps",
-                    ) as input_dir:
-                        summary = run_pipeline(
-                            input_dir,
-                            pipeline_output,
-                            runtime_settings.provider,
-                            runtime_settings,
-                        )
-                    if summary.status == "failed":
-                        raise RuntimeError(
-                            f"Pipeline run {summary.run_id} finished with failed status"
-                        )
-                    materialize_submission(root, root, record)
-                    runtime_persisted = True
-                    publish_pipeline_output(pipeline_output, root)
+                approval_executor.submit(load_approved_submission, submission_id, reviewer)
             except Exception as exc:
-                if runtime_persisted:
-                    remove_materialized_submission(root, record)
                 safe_error = f"{type(exc).__name__}: {str(exc)[:500]}"
                 submissions.update(
                     submission_id, status="ingest_failed", ingest_error=safe_error
@@ -380,42 +437,10 @@ def create_app(
                     detail=safe_error,
                 )
                 raise HTTPException(
-                    status_code=502,
-                    detail="Approval was recorded, but pipeline loading failed and can be retried",
+                    status_code=503,
+                    detail="Approval could not be queued and can be retried",
                 ) from exc
-
-            submission_type = record.get("submission_type")
-            runtime_prefix = f"runtime/html/{submission_id}/"
-            runtime_video = f"runtime/youtube/{submission_id}.json"
-            loaded_source_ids = [
-                source.source_id
-                for source in source_records()
-                if (
-                    source.local_path.startswith(runtime_prefix)
-                    if submission_type == "html_bundle"
-                    else source.local_path == runtime_video
-                    if submission_type == "video_json"
-                    else source.local_path == f"runtime/html/{submission_id}/content.html"
-                )
-            ]
-            loaded_incident_ids = sorted(
-                {
-                    incident.incident_id
-                    for incident in incidents()
-                    if set(incident.source_ids).intersection(loaded_source_ids)
-                }
-            )
-            submissions.update(
-                submission_id,
-                status="approved",
-                pipeline_run_id=summary.run_id,
-                loaded_source_ids=loaded_source_ids,
-                loaded_incident_ids=loaded_incident_ids,
-                ingest_error=None,
-            )
-            return submissions.add_audit(
-                submission_id, action="loaded", actor=reviewer, detail=summary.run_id
-            )
+            return JSONResponse(status_code=202, content=queued)
 
     @app.get("/api/incidents")
     def list_incidents(

@@ -14,6 +14,8 @@ export function ReviewPage({ onDataChanged }: { onDataChanged: () => void }) {
   const [previews, setPreviews] = useState<Record<string, string>>({})
   const [busy, setBusy] = useState('')
   const [error, setError] = useState('')
+  const [notice, setNotice] = useState('')
+  const [watching, setWatching] = useState('')
 
   const load = useCallback(async (selectedStatus: SubmissionStatus) => {
     setError('')
@@ -28,6 +30,31 @@ export function ReviewPage({ onDataChanged }: { onDataChanged: () => void }) {
   useEffect(() => {
     api.reviewerMe().then((result) => { setSession(result); return load(status) }).catch(() => undefined).finally(() => setChecking(false))
   }, [load, status])
+
+  useEffect(() => {
+    if (!session || !watching) return
+    let active = true
+    async function poll() {
+      try {
+        const result = await api.submissionStatus(watching)
+        if (!active || result.status === 'processing') return
+        setWatching('')
+        setStatus(result.status)
+        await load(result.status)
+        if (result.status === 'approved') {
+          setNotice('Approval completed and the refreshed pipeline data is available.')
+          onDataChanged()
+        } else if (result.status === 'ingest_failed') {
+          setNotice('Pipeline loading failed. Inspect the recorded error and retry when ready.')
+        }
+      } catch (reason) {
+        if (active) setError(reason instanceof Error ? reason.message : 'Unable to check pipeline status')
+      }
+    }
+    void poll()
+    const timer = window.setInterval(() => void poll(), 3000)
+    return () => { active = false; window.clearInterval(timer) }
+  }, [load, onDataChanged, session, watching])
 
   async function login(event: React.FormEvent) {
     event.preventDefault(); setBusy('login'); setError('')
@@ -62,9 +89,16 @@ export function ReviewPage({ onDataChanged }: { onDataChanged: () => void }) {
 
   async function review(item: Submission, decision: 'approve' | 'reject') {
     if (!session) return
-    setBusy(item.submission_id); setError('')
+    setBusy(item.submission_id); setError(''); setNotice('')
     try {
-      await api.reviewSubmission(item.submission_id, decision, notes[item.submission_id] || '', session.csrf_token)
+      const result = await api.reviewSubmission(item.submission_id, decision, notes[item.submission_id] || '', session.csrf_token)
+      if (decision === 'approve' && result.status === 'processing') {
+        setWatching(item.submission_id)
+        setNotice('Approval started in the background. This page will update when processing finishes.')
+        setStatus('processing')
+        await load('processing')
+        return
+      }
       await load(status)
       if (decision === 'approve') onDataChanged()
     } catch (reason) {
@@ -80,6 +114,7 @@ export function ReviewPage({ onDataChanged }: { onDataChanged: () => void }) {
   return <div className="p-4 lg:p-6">
     <div className="mb-5 flex flex-wrap items-start justify-between gap-4"><div><p className="text-xs font-semibold uppercase tracking-widest text-primary">Moderation workspace</p><h2 className="mt-2 text-2xl font-semibold">Incident source review</h2><p className="mt-2 text-sm text-muted">Signed in as {session.username}. Inspect every quarantined file before approval loads it with the configured provider.</p></div><button onClick={logout} disabled={busy === 'logout'} className="inline-flex items-center gap-2 rounded border border-line bg-surface px-3 py-2 text-sm"><LogOut size={15} />Log out</button></div>
     {error && <div role="alert" className="mb-4 flex gap-2 border border-danger-line bg-danger-soft p-3 text-sm text-danger"><AlertCircle size={17} />{error}</div>}
+    {notice && <div role="status" className="mb-4 flex gap-2 border border-line bg-primary-soft p-3 text-sm text-primary"><CheckCircle2 size={17} />{notice}</div>}
     <div className="mb-4 flex flex-wrap items-center gap-2"><select aria-label="Queue status" className="control" value={status} onChange={(event) => setStatus(event.target.value as SubmissionStatus)}><option value="pending">Pending</option><option value="ingest_failed">Ingest failed</option><option value="approved">Approved</option><option value="rejected">Rejected</option><option value="processing">Processing</option></select><button onClick={() => void load(status)} className="inline-flex items-center gap-2 rounded border border-line bg-surface px-3 py-2 text-sm"><RefreshCw size={15} />Refresh</button><span className="text-xs text-muted">{rows.length} submission(s)</span></div>
     {!rows.length ? <div className="panel p-10 text-center text-sm text-muted">No submissions in this queue.</div> : <div className="space-y-4">{rows.map((item) => <article key={item.submission_id} className="panel p-5">
       <div className="flex flex-wrap items-start justify-between gap-3"><div><div className="flex flex-wrap items-center gap-2"><span className="badge">{item.status.replaceAll('_', ' ')}</span><span className="badge">{submissionLabel(item)}</span></div><h3 className="mt-3 text-lg font-semibold">{item.original_filename || item.title}</h3><p className="mt-1 text-xs text-muted">Submitted {new Date(item.submitted_at).toLocaleString()} by {item.submitter_name || 'anonymous'}{item.size_bytes !== undefined ? ` · ${formatBytes(item.size_bytes)}` : ''}</p></div><span className="break-all text-[11px] text-muted">{item.submission_id}</span></div>

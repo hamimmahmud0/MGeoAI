@@ -18,6 +18,10 @@ that an incident occurred, determine fault, or establish that a claim is true.
 
 Requirements: Python 3.11+, Node 20+, and npm.
 
+New to the project? Follow the complete [beginner setup tutorial](TUTORIAL.md)
+for environment configuration, offline and live runs, reviewer accounts, source
+submission, testing, and troubleshooting.
+
 ```bash
 python -m venv .venv
 source .venv/bin/activate
@@ -121,9 +125,12 @@ CSRF token. In an internet-facing deployment, terminate TLS and apply request
 size/rate limits at the reverse proxy. Reviewer passwords and the signing secret
 belong in a secret manager, not in the repository or generated data.
 
-Approval is synchronous in v0.2.1. A live provider failure stays visible as an
+Approval is queued in-process and returns immediately with `processing`; the
+review page polls until the pipeline finishes, avoiding reverse-proxy timeouts
+during long live runs. A live provider failure stays visible as an
 `ingest_failed` submission that can be retried; MGeoAI never silently changes to
-the recorded provider.
+the recorded provider. Keep the single server process running while an approval
+is processing.
 
 ## Commands
 

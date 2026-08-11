@@ -1,0 +1,263 @@
+{
+  "alternate_time_claims": [
+    {
+      "end": "2026-08-07T05:30:00Z",
+      "original_expression": "around 5:30am yesterday",
+      "precision": "hour",
+      "start": "2026-08-07T05:30:00Z",
+      "timezone": "Asia/Dhaka"
+    }
+  ],
+  "collision": "Bus reportedly ran over labourers waiting for work after hitting an electricity pole; incident occurred near Erulia Bazar on Bogura-Naogaon highway.",
+  "congestion_delay": null,
+  "contributing_factors": [
+    "speeding (reported)",
+    "brake failure (reported)",
+    "lack of route permit (reported)"
+  ],
+  "data_quality_warnings": [
+    "The Daily Star article combines two incidents (Sylhet and Bogura) for total casualties, leading to ambiguity in fatality/injury counts.",
+    "Video report does not specify number of injured.",
+    "Sentiment extraction has moderate sarcasm uncertainty."
+  ],
+  "duplicate_groups": [
+    [
+      "ev_4fb792ed1f7986df",
+      "ev_f4ce6c0e09c51b56",
+      "ev_8b268ae223138eae"
+    ]
+  ],
+  "emergency_response": [
+    "Fire service attended scene",
+    "Hospitals treated injured",
+    "District administration visited hospital",
+    "Committee formed to investigate",
+    "Compensation announced"
+  ],
+  "event_time": {
+    "end": "2026-08-07T23:59:59Z",
+    "original_expression": "2026-08-07 (inferred from 'yesterday')",
+    "precision": "day",
+    "start": "2026-08-07T00:00:00Z",
+    "timezone": "UTC"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_35ec9cf7714b6c1c",
+    "ev_3c2f6e349cdbbcef",
+    "ev_3d9b6f7ef1b8f36b",
+    "ev_4fb792ed1f7986df",
+    "ev_5a31009168ec3910",
+    "ev_7d10439deaca950c",
+    "ev_87b42b640fb4be67",
+    "ev_8b268ae223138eae",
+    "ev_b02f78dc220fb6ca",
+    "ev_be00c7adf6f585e6",
+    "ev_c8197f78704ba550",
+    "ev_deb71134d0e6a8a6",
+    "ev_f4ce6c0e09c51b56"
+  ],
+  "facts": [
+    {
+      "confidence": 0.9,
+      "conflicting_values": [
+        {
+          "confidence": 0.2,
+          "state": "reported",
+          "support_evidence_ids": [
+            "ev_8b268ae223138eae",
+            "ev_f4ce6c0e09c51b56"
+          ],
+          "value": 16
+        }
+      ],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Both The Daily Star article and Ekattor TV report seven deaths specific to this Bogura incident. The 16 is a combined death toll for Sylhet and Bogura.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_3d9b6f7ef1b8f36b",
+        "ev_b02f78dc220fb6ca",
+        "ev_deb71134d0e6a8a6"
+      ],
+      "value": 7
+    },
+    {
+      "confidence": 0.5,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Video report mentions injured persons but does not specify number; article mentions 48 injured across both crashes but not specific to this incident.",
+      "state": "unknown",
+      "support_evidence_ids": [
+        "ev_be00c7adf6f585e6"
+      ],
+      "value": null
+    },
+    {
+      "confidence": 0.85,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "road_user_victims",
+      "selection_rationale": "Daily Star states bus ran over labourers waiting for work; fire officer confirms crash into labourers.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_3d9b6f7ef1b8f36b",
+        "ev_7d10439deaca950c"
+      ],
+      "value": [
+        "labourers"
+      ]
+    },
+    {
+      "confidence": 0.95,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicle_type",
+      "selection_rationale": "All sources identify a bus; video also mentions bus.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_3d9b6f7ef1b8f36b",
+        "ev_7d10439deaca950c",
+        "ev_b02f78dc220fb6ca"
+      ],
+      "value": [
+        "bus"
+      ]
+    },
+    {
+      "confidence": 0.6,
+      "conflicting_values": [
+        {
+          "confidence": 0.7,
+          "state": "known",
+          "support_evidence_ids": [
+            "ev_7d10439deaca950c"
+          ],
+          "value": [
+            "brake failure"
+          ]
+        }
+      ],
+      "contradiction": true,
+      "field": "contributing_factor",
+      "selection_rationale": "Daily Star reports 'speeding bus'; fire service officer attributes brake failure. Both are reported claims, not observed facts; conflicting.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_3d9b6f7ef1b8f36b"
+      ],
+      "value": [
+        "speeding"
+      ]
+    },
+    {
+      "confidence": 0.7,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "bus_route_permit",
+      "selection_rationale": "BRTA official statement reported by Daily Star.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_c8197f78704ba550"
+      ],
+      "value": "no route permit for 1.5 years"
+    }
+  ],
+  "generated_at": "2026-08-08T00:00:00Z",
+  "geolocation": {
+    "alternatives": [
+      {
+        "confidence": 0.4,
+        "evidence_ids": [
+          "ev_3d9b6f7ef1b8f36b"
+        ],
+        "granularity": "area",
+        "hierarchy": {},
+        "latitude": null,
+        "longitude": null,
+        "name": "Erulia Bazar area, Bogura Sadar upazila",
+        "normalized_name": "erulia bazar area, bogura sadar upazila",
+        "reason": "Reported incident location near Erulia Bazar; no precise coordinates."
+      }
+    ],
+    "ambiguity_reason": "Exact crash point not provided; city-level centroid with approximate area alternative.",
+    "confidence": 0.5,
+    "display_name": "Bogura, Bangladesh",
+    "granularity": "city",
+    "hierarchy": {},
+    "latitude": 24.675,
+    "longitude": 89.417,
+    "method": "gazetteer centroid",
+    "supporting_evidence_ids": [
+      "ev_35ec9cf7714b6c1c",
+      "ev_3c2f6e349cdbbcef",
+      "ev_3d9b6f7ef1b8f36b",
+      "ev_7d10439deaca950c",
+      "ev_b02f78dc220fb6ca"
+    ],
+    "uncertainty_radius_km": 20.0
+  },
+  "human_summary": "Evidence from The Daily Star and a video report from Ekattor TV describe a fatal bus crash on the Bogura-Naogaon regional highway near Erulia Bazar in Bogura Sadar upazila. The Daily Star reports that a speeding bus ran over labourers waiting for work around 5:30 am, killing seven; the video report confirms seven fatalities. The bus, operated by Shah Fateh Ali Paribahan, had reportedly been running without a route permit for one and a half years per BRTA. A fire service officer stated that brake failure occurred when the bus gave way to a motorcycle, after which it struck an electricity pole and then hit the labourers. Authorities formed a three-member committee led by Additional District Magistrate Masud Hossain to investigate; compensation of Tk 25,000 per deceased and Tk 15,000 per injured was announced. Locals blocked the road demanding speed breakers, and the Roads and Highways Department promised installation. The crash killed seven and injured an unspecified number; the broader article mentions 16 deaths and 48 injuries across Sylhet and Bogura, but this incident-specific count is seven. The exact crash coordinates remain unknown; geolocation is based on city-level centroid. [ev_3d9b6f7ef1b8f36b, ev_7d10439deaca950c, ev_b02f78dc220fb6ca, ev_35ec9cf7714b6c1c]",
+  "incident_id": "inc_008",
+  "independent_source_count": 2,
+  "involved_parties": [
+    "labourers",
+    "bus operator (Shah Fateh Ali Paribahan)",
+    "motorcycle (reported as giving way)"
+  ],
+  "later_developments": [
+    "Three-member committee formed to identify those responsible, report due in 3 working days",
+    "Locals blocked road demanding speed breakers; executive engineer promised installation",
+    "BRTA stated bus lacked route permit for 1.5 years",
+    "Family of deceased to receive Tk 25,000; injured Tk 15,000; government to cover treatment costs"
+  ],
+  "obstruction": "Locals blocked the road at the scene, demanding speed breakers.",
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {
+      "road_safety": {
+        "negative": 1
+      }
+    },
+    "coverage_note": "One sentiment record supplied.",
+    "items": [
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_3c2f6e349cdbbcef",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_64f3b6560f2086d6",
+        "source_id": "src_dfdb7ca9eb9e785d",
+        "target": "incident accountability",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 1,
+    "traffic_relevant_count": 1
+  },
+  "source_ids": [
+    "src_dfdb7ca9eb9e785d",
+    "src_fdc9d6452f3a9057"
+  ],
+  "status": "reported",
+  "title": "Fatal bus crash in Bogura kills seven, prompts official inquiry",
+  "unresolved_questions": [
+    "Was the bus speeding?",
+    "Did brake failure occur?",
+    "How many injured in total?",
+    "Exact crash location?",
+    "What is the identity of the motorcycle?",
+    "What is the role of the bus operator?",
+    "What are the findings of the investigation committee?"
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

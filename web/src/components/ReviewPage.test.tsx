@@ -4,7 +4,7 @@ import { api } from '../lib/api'
 import type { Submission } from '../types'
 import { ReviewPage } from './ReviewPage'
 
-vi.mock('../lib/api', () => ({ api: { reviewerMe: vi.fn(), reviewerLogin: vi.fn(), reviewerLogout: vi.fn(), reviewerSubmissions: vi.fn(), reviewerFileText: vi.fn(), reviewerDownloadUrl: vi.fn((id: string) => `/download/${id}`), reviewSubmission: vi.fn() } }))
+vi.mock('../lib/api', () => ({ api: { reviewerMe: vi.fn(), reviewerLogin: vi.fn(), reviewerLogout: vi.fn(), reviewerSubmissions: vi.fn(), reviewerFileText: vi.fn(), reviewerDownloadUrl: vi.fn((id: string) => `/download/${id}`), reviewSubmission: vi.fn(), submissionStatus: vi.fn() } }))
 afterEach(() => { cleanup(); vi.clearAllMocks() })
 
 const submission: Submission = {
@@ -34,4 +34,18 @@ test('unauthenticated reviewer sees the login form', async () => {
   expect(await screen.findByRole('heading', { name: 'Reviewer login' })).toBeInTheDocument()
   expect(screen.getByLabelText('Username')).toBeInTheDocument()
   expect(screen.getByLabelText('Password')).toHaveAttribute('type', 'password')
+})
+
+test('background approval is polled without keeping the review request open', async () => {
+  vi.mocked(api.reviewerMe).mockResolvedValue({ username: 'alice', csrf_token: 'csrf-test' })
+  vi.mocked(api.reviewerSubmissions).mockResolvedValue({ items: [submission], total: 1 })
+  vi.mocked(api.reviewSubmission).mockResolvedValue({ ...submission, status: 'processing', reviewed_by: 'alice' })
+  vi.mocked(api.submissionStatus).mockResolvedValue({ submission_id: submission.submission_id, status: 'approved', submitted_at: submission.submitted_at })
+  const changed = vi.fn()
+  render(<ReviewPage onDataChanged={changed} />)
+  expect(await screen.findByText('incident.zip')).toBeInTheDocument()
+  fireEvent.click(screen.getByRole('button', { name: 'Approve and load' }))
+  expect(await screen.findByText('Approval completed and the refreshed pipeline data is available.')).toBeInTheDocument()
+  expect(api.submissionStatus).toHaveBeenCalledWith('sub_test123')
+  expect(changed).toHaveBeenCalled()
 })

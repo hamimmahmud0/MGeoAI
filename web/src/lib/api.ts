@@ -41,6 +41,7 @@ export const api = {
   evidence: (incidentId: string) => request<IncidentEvidence>(`/api/incidents/${encodeURIComponent(incidentId)}/evidence`),
   runs: () => request<Page<ProviderRun>>('/api/runs?page_size=200'),
   submit: (value: SubmissionInput) => request<{ submission_id: string; status: SubmissionStatus; submitted_at: string }>('/api/submissions', submissionRequest(value)),
+  submissionStatus: (id: string) => request<{ submission_id: string; status: SubmissionStatus; submitted_at: string; reviewed_at?: string }>(`/api/submissions/${encodeURIComponent(id)}/status`),
   reviewerMe: () => request<ReviewerSession>('/api/reviewer/me'),
   reviewerLogin: (username: string, password: string) => request<ReviewerSession>('/api/reviewer/login', jsonRequest('POST', { username, password })),
   reviewerLogout: (csrfToken: string) => request<{ status: string }>('/api/reviewer/logout', jsonRequest('POST', undefined, csrfToken)),

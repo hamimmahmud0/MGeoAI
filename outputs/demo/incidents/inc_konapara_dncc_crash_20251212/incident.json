@@ -1,0 +1,290 @@
+{
+  "alternate_time_claims": [
+    {
+      "end": "2025-12-13T00:00:00",
+      "original_expression": null,
+      "precision": "day",
+      "start": "2025-12-13T00:00:00",
+      "timezone": null
+    }
+  ],
+  "collision": "DNCC garbage truck hits motorcycle",
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "One source (src_3550b64508b9c484) is an image analysis with medium confidence; components may not be direct photos.",
+    "Source independence for src_f73b970fc52b9df6 and src_08e85baf3bc7a60a is listed as unknown; may share content.",
+    "Some evidence IDs appear in duplicate groups but are treated as separate reports from the same source; deduplication may overstate corroboration."
+  ],
+  "duplicate_groups": [
+    [
+      "ev_06ec52e20a074589",
+      "ev_b0b8b99479d8ee63",
+      "ev_9e4a653608620eff"
+    ],
+    [
+      "ev_5a4ec4c3f6f0abd5",
+      "ev_5c4e8c46dd9be73e",
+      "ev_c653379844e9e6d9"
+    ],
+    [
+      "ev_031d7714f37e547d",
+      "ev_738d53c92c9d089d"
+    ]
+  ],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-12-13T00:00:00",
+    "original_expression": "12 December",
+    "precision": "day",
+    "start": "2025-12-12T00:00:00",
+    "timezone": null
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_031d7714f37e547d",
+    "ev_06ec52e20a074589",
+    "ev_14dde01cdcc5810e",
+    "ev_1d44c58721ec92c0",
+    "ev_244b71a7a2c0143a",
+    "ev_2e2e59eb3bfdfb64",
+    "ev_3800704948f1c63d",
+    "ev_5a4ec4c3f6f0abd5",
+    "ev_5c4e8c46dd9be73e",
+    "ev_5ed24943db8b6a48",
+    "ev_738d53c92c9d089d",
+    "ev_9e4a653608620eff",
+    "ev_ae420e88f0151c14",
+    "ev_b0b8b99479d8ee63",
+    "ev_bc4144b4e776d8ef",
+    "ev_c653379844e9e6d9",
+    "ev_c80e9fe54daea2bc",
+    "ev_f967ca19b4c62d12"
+  ],
+  "facts": [
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "casualties_fatalities",
+      "selection_rationale": "All sources consistently report two fatalities.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_06ec52e20a074589",
+        "ev_2e2e59eb3bfdfb64",
+        "ev_5a4ec4c3f6f0abd5",
+        "ev_9e4a653608620eff",
+        "ev_f967ca19b4c62d12"
+      ],
+      "value": 2
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "casualties_injuries",
+      "selection_rationale": "No injuries reported; sources mention only deaths.",
+      "state": "reported_zero",
+      "support_evidence_ids": [
+        "ev_06ec52e20a074589",
+        "ev_2e2e59eb3bfdfb64"
+      ],
+      "value": 0
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "event_date",
+      "selection_rationale": "Mentions and article text explicitly state 12 December.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_5a4ec4c3f6f0abd5",
+        "ev_c653379844e9e6d9",
+        "ev_2e2e59eb3bfdfb64"
+      ],
+      "value": {
+        "end": "2025-12-13T00:00:00",
+        "original_expression": "12 December",
+        "precision": "day",
+        "start": "2025-12-12T00:00:00",
+        "timezone": null
+      }
+    },
+    {
+      "confidence": 0.5,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "event_time_of_day",
+      "selection_rationale": "Only attributed claim from classmate Tausif; not independently verified.",
+      "state": "unknown",
+      "support_evidence_ids": [
+        "ev_031d7714f37e547d",
+        "ev_738d53c92c9d089d"
+      ],
+      "value": "04:30"
+    },
+    {
+      "confidence": 0.7,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "victims_names",
+      "selection_rationale": "Named in multiple reports.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_031d7714f37e547d",
+        "ev_14dde01cdcc5810e"
+      ],
+      "value": [
+        "Redwan",
+        "Apu"
+      ]
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicles_involved",
+      "selection_rationale": "Sources consistently mention motorcycle and DNCC garbage truck. A bus mentioned only in a reader comment about general traffic, not the crash.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_2e2e59eb3bfdfb64",
+        "ev_5a4ec4c3f6f0abd5"
+      ],
+      "value": [
+        "motorcycle",
+        "truck"
+      ]
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicle_operator",
+      "selection_rationale": "Explicitly identified in all reports.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_2e2e59eb3bfdfb64",
+        "ev_5a4ec4c3f6f0abd5"
+      ],
+      "value": "DNCC garbage truck"
+    },
+    {
+      "confidence": 0.7,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "incident_location_area",
+      "selection_rationale": "Multiple independent sources specify Konapara area of Demra.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_2e2e59eb3bfdfb64",
+        "ev_5a4ec4c3f6f0abd5",
+        "ev_1d44c58721ec92c0"
+      ],
+      "value": "Konapara, Demra, Dhaka"
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "incident_cause",
+      "selection_rationale": "No source assigns fault; one reader comment suggests shared fault without evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [
+        "ev_bc4144b4e776d8ef"
+      ],
+      "value": "Not explicitly reported"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "traffic_effects",
+      "selection_rationale": "No source mentions traffic delays or obstruction.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": "Not reported"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "emergency_response",
+      "selection_rationale": "No details on response or rescue.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": "Not reported"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "later_developments",
+      "selection_rationale": "No updates or investigations mentioned.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": "None reported"
+    }
+  ],
+  "generated_at": "2026-01-01T00:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Area-level precision; not a precise crash point.",
+    "confidence": 0.68,
+    "display_name": "Konapara, Demra, Dhaka, Bangladesh",
+    "granularity": "area",
+    "hierarchy": {
+      "anchor": "Demra",
+      "city": "Dhaka",
+      "country": "Bangladesh"
+    },
+    "latitude": 23.7055,
+    "longitude": 90.4867,
+    "method": "gazetteer centroid",
+    "supporting_evidence_ids": [
+      "ev_1d44c58721ec92c0",
+      "ev_244b71a7a2c0143a",
+      "ev_3800704948f1c63d",
+      "ev_5ed24943db8b6a48",
+      "ev_c80e9fe54daea2bc"
+    ],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "Two university students, Redwan and Apu, were killed early on 12 December 2025 when a Dhaka North City Corporation (DNCC) garbage truck reportedly struck their motorcycle in the Konapara area of Demra, Dhaka [ev_2e2e59eb3bfdfb64, ev_5a4ec4c3f6f0abd5]. The incident was reported by at least three independent outlets: The Business Standard (web and social), tbsnews.net, and Dhaka Tribune, with corroborating visual evidence from a composite news graphic [ev_1d44c58721ec92c0, ev_3800704948f1c63d, ev_f967ca19b4c62d12]. The event time has day-level precision for 12 December, with an additional attributed claim putting the crash around 4:30am when the victims were returning from a wedding event, as stated by classmate Tausif [ev_738d53c92c9d089d]. Casualties are consistently reported as two fatalities and zero injuries across sources. Involved vehicles are a motorcycle and the DNCC garbage truck; one source also mentioned a bus in a general traffic safety comment. Location is represented as an area-level gazetteer centroid for Konapara, Demra, not an exact crash point [ev_244b71a7a2c0143a]. No traffic delays, emergency response, or later developments were reported. A reader comment speculates on shared fault without evidence [ev_bc4144b4e776d8ef]. The most significant unresolved uncertainty is the precise crash time and exact location on the ground, as only an approximate area and time are provided.",
+  "incident_id": "inc_konapara_dncc_crash_20251212",
+  "independent_source_count": 3,
+  "involved_parties": [
+    "Redwan (deceased)",
+    "Apu (deceased)"
+  ],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No traffic-related sentiment expressions were supplied in the evidence bundle.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_b93f4489c5cce965",
+    "src_f73b970fc52b9df6",
+    "src_08e85baf3bc7a60a",
+    "src_3550b64508b9c484"
+  ],
+  "status": "reported",
+  "title": "Two university students killed in Demra after DNCC garbage truck hits motorcycle",
+  "unresolved_questions": [
+    "What was the exact time of the crash? The 4:30am time is only attributed to a classmate.",
+    "What is the precise crash location on the road? The evidence supports only area-level precision.",
+    "Was anyone else involved or injured? No information.",
+    "Are there any official police reports or investigations? Not mentioned."
+  ],
+  "vehicles": [
+    "motorcycle",
+    "truck"
+  ]
+}

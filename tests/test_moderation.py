@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import io
 import json
+import time
 import zipfile
 from pathlib import Path
 from types import SimpleNamespace
@@ -52,6 +53,27 @@ def _login(client: TestClient, username: str, password: str) -> str:
     )
     assert response.status_code == 200
     return str(response.json()["csrf_token"])
+
+
+def _wait_for_submission(
+    client: TestClient, submission_id: str, expected_status: str, timeout: float = 10.0
+) -> dict[str, object]:
+    deadline = time.monotonic() + timeout
+    while time.monotonic() < deadline:
+        response = client.get(f"/api/submissions/{submission_id}/status")
+        assert response.status_code == 200
+        if response.json()["status"] == expected_status:
+            queue = client.get(
+                "/api/reviewer/submissions", params={"status": expected_status}
+            )
+            assert queue.status_code == 200
+            return next(
+                item
+                for item in queue.json()["items"]
+                if item["submission_id"] == submission_id
+            )
+        time.sleep(0.01)
+    raise AssertionError(f"submission {submission_id} did not reach {expected_status}")
 
 
 def _html_bundle(*, unsafe_path: str | None = None, raw_image: bool = False) -> bytes:
@@ -180,8 +202,9 @@ def test_multiple_reviewers_can_inspect_and_load_html_bundle(
         headers={"X-CSRF-Token": bob_csrf},
         json={"decision": "approve", "note": "All packaged files reviewed."},
     )
-    assert approved.status_code == 200, approved.text
-    record = approved.json()
+    assert approved.status_code == 202, approved.text
+    assert approved.json()["status"] == "processing"
+    record = _wait_for_submission(bob, submission_id, "approved")
     assert record["status"] == "approved"
     assert record["reviewed_by"] == "bob"
     assert len(record["loaded_source_ids"]) == 2
@@ -208,8 +231,10 @@ def test_video_json_is_loaded_under_runtime_youtube(
         headers={"X-CSRF-Token": csrf},
         json={"decision": "approve", "note": "JSON contract reviewed."},
     )
-    assert approved.status_code == 200, approved.text
-    assert approved.json()["loaded_source_ids"]
+    assert approved.status_code == 202, approved.text
+    assert approved.json()["status"] == "processing"
+    record = _wait_for_submission(client, submission_id, "approved")
+    assert record["loaded_source_ids"]
     runtime = data / "runtime_scraps" / "youtube" / f"{submission_id}.json"
     assert runtime.read_bytes() == _video_json()
 
@@ -300,9 +325,9 @@ def test_pipeline_failure_remains_retryable_without_publishing_upload(
         headers={"X-CSRF-Token": csrf},
         json={"decision": "approve", "note": "Retry provider later."},
     )
-    assert response.status_code == 502
-    queue = client.get("/api/reviewer/submissions", params={"status": "ingest_failed"})
-    record = queue.json()["items"][0]
+    assert response.status_code == 202
+    assert response.json()["status"] == "processing"
+    record = _wait_for_submission(client, submission_id, "ingest_failed")
     assert "configured provider unavailable" in record["ingest_error"]
     assert not (data / "run.json").exists()
     assert not (data / "runtime_scraps" / "html" / submission_id).exists()
@@ -324,6 +349,8 @@ def test_failed_pipeline_summary_is_not_published(
         headers={"X-CSRF-Token": csrf},
         json={"decision": "approve"},
     )
-    assert response.status_code == 502
+    assert response.status_code == 202
+    assert response.json()["status"] == "processing"
+    _wait_for_submission(client, submission_id, "ingest_failed")
     assert not (data / "run.json").exists()
     assert not (data / "runtime_scraps" / "youtube" / f"{submission_id}.json").exists()

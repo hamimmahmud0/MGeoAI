@@ -15,7 +15,7 @@ class Settings:
     deepseek_model: str | None = None
     api_mode: str = "auto"
     thinking: str = "disabled"
-    request_timeout: float = 45.0
+    request_timeout: float = 90.0
     retry_count: int = 2
     concurrency: int = 2
     token_budget: int = 6000
@@ -63,7 +63,7 @@ class Settings:
             api_mode=os.getenv("DEEPSEEK_API_MODE", "auto"),
             thinking=os.getenv("DEEPSEEK_THINKING", "disabled"),
             request_timeout=float(
-                os.getenv("FUSION_REQUEST_TIMEOUT", fusion.get("request_timeout", 45))
+                os.getenv("FUSION_REQUEST_TIMEOUT", fusion.get("request_timeout", 90))
             ),
             retry_count=int(os.getenv("FUSION_RETRY_COUNT", fusion.get("retry_count", 2))),
             concurrency=int(os.getenv("FUSION_CONCURRENCY", fusion.get("concurrency", 2))),
