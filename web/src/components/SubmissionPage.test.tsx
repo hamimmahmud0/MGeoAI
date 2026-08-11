@@ -6,13 +6,20 @@ import { SubmissionPage } from './SubmissionPage'
 vi.mock('../lib/api', () => ({ api: { submit: vi.fn() } }))
 afterEach(() => { cleanup(); vi.clearAllMocks() })
 
-test('submits pasted incident text to the moderation queue', async () => {
+test('submits an HTML scrap ZIP to the moderation queue', async () => {
   vi.mocked(api.submit).mockResolvedValue({ submission_id: 'sub_test123', status: 'pending', submitted_at: '2026-08-11T00:00:00Z' })
+  const bundle = new File(['zip-content'], 'incident.zip', { type: 'application/zip' })
   render(<SubmissionPage />)
-  fireEvent.change(screen.getByLabelText('Source title'), { target: { value: 'Runtime road collision' } })
-  fireEvent.change(screen.getByLabelText('Publisher (optional)'), { target: { value: 'Test News' } })
-  fireEvent.change(screen.getByLabelText('Scrap content as text'), { target: { value: 'A bus collision was reported on Test Road with traffic disruption.' } })
-  fireEvent.click(screen.getByRole('button', { name: 'Submit for review' }))
+  fireEvent.change(screen.getByLabelText('HTML scrap ZIP'), { target: { files: [bundle] } })
+  fireEvent.change(screen.getByLabelText('Your name (optional)'), { target: { value: 'Contributor' } })
+  fireEvent.submit(screen.getByRole('button', { name: 'Submit for review' }).closest('form')!)
   expect(await screen.findByText('Submission received for review')).toBeInTheDocument()
-  await waitFor(() => expect(api.submit).toHaveBeenCalledWith(expect.objectContaining({ title: 'Runtime road collision', publisher: 'Test News' })))
+  await waitFor(() => expect(api.submit).toHaveBeenCalledWith({ submission_type: 'html_bundle', package: bundle, submitter_name: 'Contributor' }))
+})
+
+test('switches to standalone video JSON input', () => {
+  render(<SubmissionPage />)
+  fireEvent.click(screen.getByText('Video analysis JSON'))
+  expect(screen.getByLabelText('Video analysis JSON')).toHaveAttribute('accept', '.json,application/json')
+  expect(screen.getByText('Upload the analysis JSON, not a raw video file.')).toBeInTheDocument()
 })

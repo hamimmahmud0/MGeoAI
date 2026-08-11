@@ -26,7 +26,7 @@ class Settings:
     match_threshold: float = 0.72
     possible_match_threshold: float = 0.45
     max_days_apart: int = 3
-    max_file_bytes: int = 5_000_000
+    max_file_bytes: int = 25 * 1024 * 1024
     redact_comment_authors: bool = False
     map_style_url: str = "https://tiles.openfreemap.org/styles/liberty"
     must_link: list[list[str]] = field(default_factory=list)
@@ -83,7 +83,7 @@ class Settings:
             match_threshold=float(matching.get("match_threshold", 0.72)),
             possible_match_threshold=float(matching.get("possible_match_threshold", 0.45)),
             max_days_apart=int(matching.get("max_days_apart", 3)),
-            max_file_bytes=int(limits.get("max_file_bytes", 5_000_000)),
+            max_file_bytes=int(limits.get("max_file_bytes", 25 * 1024 * 1024)),
             redact_comment_authors=redact_authors.lower() == "true",
             map_style_url=os.getenv(
                 "MAP_STYLE_URL",

@@ -7,18 +7,18 @@ import tempfile
 import threading
 from datetime import UTC, datetime
 from pathlib import Path
-from typing import Any
+from typing import Annotated, Any, Literal
 
-from fastapi import FastAPI, HTTPException, Query, Request
+from fastapi import FastAPI, File, Form, HTTPException, Query, Request, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import FileResponse, JSONResponse
+from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 
 from traffic_fusion.api.moderation import (
+    MAX_UPLOAD_BYTES,
     SESSION_COOKIE,
     LoginInput,
     ReviewInput,
-    SubmissionInput,
     SubmissionStore,
     authenticate,
     combined_scraps,
@@ -204,8 +204,25 @@ def create_app(
         }
 
     @app.post("/api/submissions", status_code=201)
-    def create_submission(payload: SubmissionInput) -> dict[str, object]:
-        record = submissions.create(payload)
+    async def create_submission(
+        submission_type: Annotated[Literal["html_bundle", "video_json"], Form()],
+        package: Annotated[UploadFile, File()],
+        submitter_name: Annotated[str | None, Form(max_length=120)] = None,
+    ) -> dict[str, object]:
+        payload = bytearray()
+        try:
+            while chunk := await package.read(1024 * 1024):
+                payload.extend(chunk)
+                if len(payload) > MAX_UPLOAD_BYTES:
+                    raise HTTPException(status_code=413, detail="Uploads are limited to 25 MB")
+        finally:
+            await package.close()
+        record = submissions.create_upload(
+            submission_type,
+            package.filename or "",
+            bytes(payload),
+            submitter_name,
+        )
         return {
             "submission_id": record["submission_id"],
             "status": record["status"],
@@ -262,6 +279,30 @@ def create_app(
         rows = submissions.list(status)
         return {"items": rows, "total": len(rows)}
 
+    @app.get("/api/reviewer/submissions/{submission_id}/download")
+    def reviewer_download(submission_id: str, request: Request) -> FileResponse:
+        require_reviewer(request)
+        record = submissions.get(submission_id)
+        response = FileResponse(
+            submissions.original_path(record),
+            media_type=str(record.get("content_type") or "application/octet-stream"),
+            filename=str(record.get("original_filename") or "submission"),
+        )
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        return response
+
+    @app.get("/api/reviewer/submissions/{submission_id}/files/{file_id}")
+    def reviewer_file(
+        submission_id: str, file_id: str, request: Request
+    ) -> PlainTextResponse:
+        require_reviewer(request)
+        record = submissions.get(submission_id)
+        path, _ = submissions.review_file_path(record, file_id)
+        response = PlainTextResponse(path.read_text(encoding="utf-8"))
+        response.headers["X-Content-Type-Options"] = "nosniff"
+        response.headers["Content-Security-Policy"] = "default-src 'none'"
+        return response
+
     @app.post("/api/reviewer/submissions/{submission_id}/review")
     def review_submission(
         submission_id: str, payload: ReviewInput, request: Request
@@ -302,7 +343,7 @@ def create_app(
                     prefix=".mgeoai-review-", dir=root.parent
                 ) as temporary:
                     staging_root = Path(temporary)
-                    materialize_submission(staging_root, record)
+                    materialize_submission(root, staging_root, record)
                     pipeline_output = staging_root / "pipeline"
                     existing_cache = root / "cache"
                     if existing_cache.is_dir():
@@ -322,12 +363,12 @@ def create_app(
                         raise RuntimeError(
                             f"Pipeline run {summary.run_id} finished with failed status"
                         )
-                    materialize_submission(root, record)
+                    materialize_submission(root, root, record)
                     runtime_persisted = True
                     publish_pipeline_output(pipeline_output, root)
             except Exception as exc:
                 if runtime_persisted:
-                    remove_materialized_submission(root, submission_id)
+                    remove_materialized_submission(root, record)
                 safe_error = f"{type(exc).__name__}: {str(exc)[:500]}"
                 submissions.update(
                     submission_id, status="ingest_failed", ingest_error=safe_error
@@ -343,11 +384,19 @@ def create_app(
                     detail="Approval was recorded, but pipeline loading failed and can be retried",
                 ) from exc
 
-            runtime_path = f"runtime/html/{submission_id}/content.html"
+            submission_type = record.get("submission_type")
+            runtime_prefix = f"runtime/html/{submission_id}/"
+            runtime_video = f"runtime/youtube/{submission_id}.json"
             loaded_source_ids = [
                 source.source_id
                 for source in source_records()
-                if source.local_path == runtime_path
+                if (
+                    source.local_path.startswith(runtime_prefix)
+                    if submission_type == "html_bundle"
+                    else source.local_path == runtime_video
+                    if submission_type == "video_json"
+                    else source.local_path == f"runtime/html/{submission_id}/content.html"
+                )
             ]
             loaded_incident_ids = sorted(
                 {

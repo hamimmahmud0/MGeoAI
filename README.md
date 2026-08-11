@@ -81,13 +81,26 @@ requests logs, outputs, API data, or the browser.
 ## Runtime source submission and review
 
 The dashboard includes a public **Submit source** form and an authenticated
-**Review queue**. A submitted news report or social post is stored as pending
-text. Reviewers can inspect the exact text, metadata, original link, and audit
-history before rejecting it or approving it for ingestion. Approval converts
-the text to escaped, inert HTML under `outputs/<run>/runtime_scraps/`, combines
-it with the configured base scraps, and reruns the pipeline with the configured
-provider. Markup supplied by a contributor is displayed and stored as text; it
-is never executed.
+**Review queue**. Runtime intake accepts the same two source shapes as the
+supplied scraps:
+
+- an HTML scrap ZIP containing exactly one UTF-8 `.html` page, with optional
+  `SOURCE_INFO.md` and `image_01.json` in the same folder; or
+- one UTF-8 video-analysis `.json` object matching the files under
+  `assets/scraps/youtube`.
+
+Raw images and raw video are not accepted; image information accompanies HTML
+as `image_01.json`. Uploads and extracted ZIP contents are capped at 25 MB.
+Packages are quarantined under `outputs/<run>/moderation/uploads/`. Reviewers can
+inspect each HTML, metadata, and analysis file as inert text, verify hashes and
+the file manifest, download the original package, and review its audit history
+before rejection or approval. Approval copies the package into
+`outputs/<run>/runtime_scraps/`, combines it with the configured base scraps,
+and reruns the pipeline with the configured provider. Submitted HTML is parsed
+as untrusted data and is never executed or sent raw to the fusion model.
+
+The multipart submission fields are `submission_type` (`html_bundle` or
+`video_json`), `package`, and optional `submitter_name`.
 
 Configure any number of reviewers with PBKDF2 password hashes. Generate each
 hash interactively, then provide a JSON username-to-hash mapping and a random
@@ -158,7 +171,8 @@ failed_clusters.json           terminal failures retained for retry/review
 run.json                       batch summary and recorded/live mode
 cache/                         successful request cache
 moderation/submissions/        pending/reviewed submissions and audit history
-runtime_scraps/                approved text materialized as inert HTML
+moderation/uploads/            quarantined original packages and inspected files
+runtime_scraps/                approved HTML/image-analysis/video-analysis scraps
 ```
 
 Versioned JSON Schemas are exported to `schemas/`.
@@ -186,10 +200,12 @@ The FastAPI service provides:
 - `GET /api/incidents.geojson` with server-side spatial/filter handling;
 - `GET /api/sources` and `GET /api/sources/{source_id}` with safe extracted
   content, plus `GET /api/runs` and `GET /api/health`;
-- `POST /api/submissions` and `GET /api/submissions/{submission_id}/status` for
-  public runtime source intake and status receipts;
+- multipart `POST /api/submissions` and
+  `GET /api/submissions/{submission_id}/status` for public runtime package
+  intake and status receipts;
 - `POST /api/reviewer/login`, `GET /api/reviewer/me`, and reviewer-only queue,
-  logout, approval, rejection, retry, and audit endpoints under `/api/reviewer`.
+  inert file preview, original-package download, logout, approval, rejection,
+  retry, and audit endpoints under `/api/reviewer`.
 
 The React interface starts on a world map and includes marker clustering,
 map/list synchronization, URL-preserved filters and selected incident, location

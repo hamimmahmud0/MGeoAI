@@ -26,12 +26,15 @@ export type ProviderRun = { run_id: string; cluster_id: string; operation: strin
 export type Page<T> = { items: T[]; total: number; page: number; page_size: number }
 export type SubmissionStatus = 'pending' | 'processing' | 'approved' | 'rejected' | 'ingest_failed'
 export type SubmissionAudit = { action: string; actor: string; at: string; detail?: string }
+export type SubmissionType = 'html_bundle' | 'video_json'
+export type SubmissionFile = { file_id: string; path: string; kind: string; size_bytes: number; sha256: string; preview_kind: 'text' }
 export type Submission = {
-  submission_id: string; status: SubmissionStatus; source_kind: 'news' | 'social' | 'other';
-  title: string; publisher?: string; source_uri?: string; content: string; submitter_name?: string;
+  submission_id: string; status: SubmissionStatus; submission_type?: SubmissionType;
+  title: string; original_filename?: string; content_type?: string; size_bytes?: number; sha256?: string;
+  files?: SubmissionFile[]; submitter_name?: string; content?: string;
   submitted_at: string; reviewed_by?: string; reviewed_at?: string; review_note?: string;
   pipeline_run_id?: string; loaded_source_ids: string[]; loaded_incident_ids: string[];
   ingest_error?: string; audit: SubmissionAudit[];
 }
-export type SubmissionInput = Pick<Submission, 'source_kind' | 'title' | 'content'> & { publisher?: string; source_uri?: string; submitter_name?: string }
+export type SubmissionInput = { submission_type: SubmissionType; package: File; submitter_name?: string }
 export type ReviewerSession = { username: string; csrf_token: string }
