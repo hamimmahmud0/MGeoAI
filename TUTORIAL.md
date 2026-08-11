@@ -447,7 +447,91 @@ outputs/demo/incidents/            per-incident JSON and Markdown reports
 GeoJSON coordinates are `[longitude, latitude]`. Area and city centroids retain
 their granularity and uncertainty; they are not exact crash coordinates.
 
-## 14. Run the test suite
+## 14. Regenerate pipeline outputs
+
+Stop the API server with `Ctrl+C` before regenerating the directory it serves.
+This prevents the dashboard from reading a mixture of old and newly written
+files.
+
+### Rebuild the recorded demo
+
+Use the recorded provider for a deterministic, offline rebuild of
+`outputs/demo`:
+
+```bash
+cd /path/to/MGeoAI
+source .venv/bin/activate
+export FUSION_PROVIDER=recorded
+
+mgeoai doctor --provider recorded
+mgeoai run \
+  --input assets/scraps \
+  --provider recorded \
+  --output-dir outputs/demo
+```
+
+Inspect the result before restarting the server:
+
+```bash
+python -m json.tool outputs/demo/run.json
+python -m json.tool outputs/demo/failed_clusters.json
+```
+
+Serve the regenerated output:
+
+```bash
+mgeoai serve \
+  --data-dir outputs/demo \
+  --host 0.0.0.0 \
+  --port 8000
+```
+
+### Generate fresh live DeepSeek output
+
+Load the live configuration and validate it first:
+
+```bash
+cd /path/to/MGeoAI
+source .venv/bin/activate
+set -a
+source .env
+set +a
+
+mgeoai doctor --provider deepseek
+```
+
+Generate into a separate directory so the recorded demo remains available:
+
+```bash
+mgeoai run \
+  --input assets/scraps \
+  --provider deepseek \
+  --output-dir outputs/live-demo
+```
+
+Then inspect and serve it:
+
+```bash
+python -m json.tool outputs/live-demo/run.json
+python -m json.tool outputs/live-demo/failed_clusters.json
+
+mgeoai serve \
+  --data-dir outputs/live-demo \
+  --host 0.0.0.0 \
+  --port 8000
+```
+
+Reusing a live output directory also reuses successful responses from its
+`cache/` directory. Use a new directory such as `outputs/live-demo-2` when you
+intentionally want fresh paid provider calls.
+
+`mgeoai run --input assets/scraps` processes the checked-in base corpus only.
+Approved runtime submissions are combined with the base corpus when they are
+approved or retried through the review queue. Regenerating the tracked
+`outputs/demo` directory also appears as a Git change, so inspect `git status`
+before committing.
+
+## 15. Run the test suite
 
 Backend checks from the repository root:
 
@@ -470,7 +554,7 @@ cd ..
 Automated tests are offline. Do not put a live API call into the test suite; use
 `mgeoai smoke-live` when an explicitly bounded live check is required.
 
-## 15. Common problems
+## 16. Common problems
 
 ### `mgeoai: command not found`
 
@@ -558,7 +642,7 @@ Inspect `failed_clusters.json` and `provider_runs.json`. Partial means useful
 outputs were produced but at least one cluster failed strict fusion or provenance
 validation. Do not describe a partial run as fully successful.
 
-## 16. Security and deployment notes
+## 17. Security and deployment notes
 
 - Treat saved HTML and submitted text as untrusted data.
 - Never execute scripts found in submitted HTML.
@@ -573,7 +657,7 @@ validation. Do not describe a partial run as fully successful.
   distributed job queue.
 - Back up moderation and runtime data before replacing an output directory.
 
-## 17. Everyday command checklist
+## 18. Everyday command checklist
 
 Offline development:
 
