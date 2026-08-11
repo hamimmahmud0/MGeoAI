@@ -1,0 +1,4140 @@
+[
+  {
+    "confidence": 0.9,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_e8c697e231ce67eb",
+      "ev_850f0b4bcf2418e4",
+      "ev_f6979130e8086261"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.75,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7625,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": "prun_b2740002452d26a1",
+    "rationale": "Both records describe a road crash at the same location (Nila Market intersection, Purbachal 300 Feet Road, Rupganj) on the same date (2024-12-20 to 2024-12-21, precision day), with one fatality each. Both mention the name 'muhtasim' and the 'purbachal' area. The left record does not report injuries, while the right records two; this is an unreported detail rather than a contradiction. Different source IDs and disjoint evidence IDs indicate independent reporting rather than duplication. The matching time, location, and fatality count are decisive, so the records are adjudicated as the same incident.",
+    "right_mention_id": "men_4613c5e06bcb2a7f"
+  },
+  {
+    "confidence": 0.88,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_e8c697e231ce67eb",
+      "ev_01fc9be579007137",
+      "ev_17797e3df968c79a",
+      "ev_4dd4327dffa9a504",
+      "ev_6f614cdd3f691d5e",
+      "ev_7e2b75efeb5007b6"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": "prun_8bba9bee722b0bd9",
+    "rationale": "Both bundles describe a road crash at the same gazetteer location (Nila Market intersection, Purbachal 300 Feet Road, Rupganj) on the same date range (2024-12-20 to 2024-12-21), both report a single fatality, and the person-name variants 'muhtasim' and 'mohtassim' are consistent transliterations. These common location, time, and fatality facts are specific enough to identify the reports as the same incident. The right bundle additionally reports two injuries and motorcycle/car involvement; the left bundle omits those details, but its null injury count is an absence of reporting, not a reported conflict. No material contradiction exists between the two bundles.",
+    "right_mention_id": "men_c1726df0a05a1782"
+  },
+  {
+    "confidence": 0.86,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_e8c697e231ce67eb",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.6,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": "prun_599c3942e62adca5",
+    "rationale": "Both mentions describe a road crash at Nila Market intersection, Purbachal 300 Feet Road, Rupganj, on the same date, with one fatality and the shared lexical reference 'Muhtasim'. The location and time match exactly, and the casualty counts do not conflict. The left mention does not report vehicles or event subtype, so the right mention's motorcycle/car and fatal classification are compatible rather than contradictory. Independent sources corroborate the same incident.",
+    "right_mention_id": "men_bc941c96cefd01e2"
+  },
+  {
+    "confidence": 0.5,
+    "contradictions": [
+      "Left injuries are unknown while right reports two injuries; not a direct contradiction, but prevents confirmation.",
+      "Location centroids differ by several kilometers, though both are imprecise area references on the same road."
+    ],
+    "decision": "uncertain",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": "prun_231ecc8fd15621e5",
+    "rationale": "Both records describe a fatal road crash on Purbachal 300 Feet Road, Rupganj, on 2024-12-20/21, and each reports one fatality. However, the locations are broad area centroids with different coordinates (Nila Market intersection versus a wider Purbachal 300 Feet Road area) and one has up to 8 km uncertainty, so the exact incident location cannot be confirmed. The left record does not specify injuries or vehicles, while the right record reports two injuries and a motorcycle and car; the left record includes a possible name 'Muhtasim' but no corroborating entity. There is no collision description or decisive evidence linking them to the same crash. They may be the same incident with incomplete reporting, or separate fatal crashes on the same road within the same day. Therefore, the safe decision is uncertain.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_3fb945f0b41d1e22"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_a520208c573df434"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_5d6c68cbaf636ec1"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.74,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_e8c697e231ce67eb",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": "prun_ca1f027eb20ab5e8",
+    "rationale": "Both records describe a fatal road crash at the same location (Nila Market intersection, Purbachal 300 Feet Road, Rupganj) on the same date (2024-12-20/21), with the same reported casualty count of one fatality and no reported injuries. The right record adds a passenger-car detail and labels the crash fatal, while the left record does not mention a vehicle; this is an information gap, not a contradiction. The shared specific place and time make it likely that these independent-source reports refer to the same incident, despite the lack of a common named person or vehicle identifier.",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.84,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_53bf08280ca47b12",
+      "ev_e8c697e231ce67eb",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.6,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_74fa449698113150",
+    "provider_run_id": "prun_d38e6a5e693c860b",
+    "rationale": "Both sides report a road crash on 2024-12-20/21 at Nila Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj, with one fatality and no reported injuries. The location is the same gazetteer area and the shared distinctive lexical token 'muhtasim' appears in both evidence families. Neither side presents a conflicting time, location, casualty count, or vehicle set; the right side's additional 'motorcycle' and 'car' vehicle details and fatal subtype do not contradict the left side's missing values. The only limitations are the left side's incomplete vehicle/subtype detail and the right side's inherited-linkage uncertainty marker, but the core fields align sufficiently to classify this as the same incident.",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [
+      "Victim name appears as 'Muhtasim' in left evidence and 'Mohtassim' in right evidence (likely spelling/transliteration variant)."
+    ],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_850f0b4bcf2418e4",
+      "ev_f6979130e8086261",
+      "ev_01fc9be579007137",
+      "ev_17797e3df968c79a"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.4,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.76,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": "prun_8eb7a2223abb20df",
+    "rationale": "Both mentions describe a fatal road crash at the same location (Nila Market intersection, Purbachal 300 Feet Road, Rupganj), with the same day-level time window (2024-12-20 to 2024-12-21), the same road-user categories (motorcycle and car), and the same casualty counts (1 fatality, 2 injuries). The only material difference is the spelling variant 'Muhtasim' versus 'Mohtassim', which is plausibly a transliteration difference rather than evidence of a separate crash. No contradictory time, location, vehicle, or casualty data appear, so the records are best fused as the same incident despite originating from distinct source evidence IDs.",
+    "right_mention_id": "men_c1726df0a05a1782"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_850f0b4bcf2418e4",
+      "ev_f6979130e8086261",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7749999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": "prun_08fcaa25b6ae85c2",
+    "rationale": "Both reports describe a fatal road crash at the same area: Nila Market/Neela Market intersection on Purbachal 300 Feet Road in Rupganj, Narayanganj. The event date is identical (2024-12-20 to 2024-12-21) and both list a motorcycle and a car as involved vehicles. Both report 1 fatality; the right source does not report an injury count, while the left reports 2 injuries, which is a missing field rather than a contradiction. The location evidence IDs on both sides support the same named place, and the overlapping lexical features (e.g., muhtasim, nila market, purbachal) reinforce the match. No decisive conflict appears.",
+    "right_mention_id": "men_bc941c96cefd01e2"
+  },
+  {
+    "confidence": 0.78,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_23e903df4479a2d7",
+      "ev_3cb89b4791adcc04",
+      "ev_850f0b4bcf2418e4",
+      "ev_c425c2c64fdbc3bf",
+      "ev_f6979130e8086261",
+      "ev_4c5ab42977ec172a",
+      "ev_bd1c816a8b65297c"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": "prun_e4600ebc3f3e5273",
+    "rationale": "Both source families report a fatal road crash on Purbachal 300 Feet Road, Rupganj, on the same day (2024-12-20/21), with one fatality and two injuries and involvement of a motorcycle and car. The left mention adds a more specific intersection, Nila Market, on that same road; the right mention uses a broad area centroid with about 8 km uncertainty, so the coordinate gap is not a reliable contradiction. No conflicting casualty, time, or vehicle facts are present. Given the coincident date, casualty counts, vehicle set, and named road, the two mentions are best treated as the same incident, though the exact crash point remains approximate.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_3fb945f0b41d1e22"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_a520208c573df434"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_5d6c68cbaf636ec1"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.8,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_850f0b4bcf2418e4",
+      "ev_f6979130e8086261",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": "prun_856c3a9c0bc1aae0",
+    "rationale": "Both sides describe a fatal road crash on 2024-12-20/21 in the same area: Nila Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj. Time precision and gazetteer-derived location coordinates match exactly. Both report one fatality; the right side leaves injuries unknown rather than reporting zero, so the left side's two injuries do not contradict it. Vehicle descriptors overlap (car/passenger_car), with the left additionally reporting a motorcycle, which is compatible with a multi-vehicle collision. The records come from different source IDs and use disjoint evidence IDs, supporting independent coverage of the same event. The person name and extra injury detail on the left appear to be additional reporting rather than evidence of a different crash. Overall, the common time, place, and fatal outcome are decisive, but confidence is not maximal because casualty detail and vehicle composition differ.",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.93,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_850f0b4bcf2418e4",
+      "ev_f6979130e8086261",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.5,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7749999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_4613c5e06bcb2a7f",
+    "provider_run_id": "prun_15457a07caa92ffa",
+    "rationale": "Both records refer to a fatal road crash on 2024-12-20/21 at Nila Market intersection, Purbachal 300 Feet Road, Rupganj, involving a motorcycle and a car, with one fatality and the name 'Muhtasim'. The event date, area, road type, vehicle mix, and fatality count align across the two independent sources. The left record reports two injuries while the right record does not report an injury count; this is incomplete detail rather than a conflicting count. Matching location evidence from both records and the shared event attributes make the same-incident conclusion highly likely.",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.9,
+    "contradictions": [
+      "Reported injuries differ: left bundle reports 2; right bundle reports null (not reported)."
+    ],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_7e2b75efeb5007b6",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.75,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": "prun_9cb173076009c21d",
+    "rationale": "Both mentions describe a fatal road crash at the same area (Nila Market intersection, Purbachal 300 Feet Road, Rupganj), on the same date (2024-12-20 to 2024-12-21), with one fatality and the same involved vehicle types (motorcycle and car). The similarity in location, time, and vehicle set strongly indicates the same incident. The left bundle reports 2 injuries while the right bundle does not report an injury count; this is a reporting discrepancy rather than a decisive contradiction.",
+    "right_mention_id": "men_bc941c96cefd01e2"
+  },
+  {
+    "confidence": 0.74,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_17797e3df968c79a",
+      "ev_4dd4327dffa9a504",
+      "ev_6f614cdd3f691d5e",
+      "ev_7e2b75efeb5007b6",
+      "ev_4c5ab42977ec172a",
+      "ev_bd1c816a8b65297c"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.25,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": "prun_8f57fe63b04f8414",
+    "rationale": "Both records describe a fatal road crash on 2024-12-20/21 in the Purbachal area, Rupganj, with identical casualty counts (1 fatality, 2 injuries) and the same vehicle involvement (motorcycle and car). The left record places the incident at Nila Market intersection on Purbachal 300 Feet Road, while the right record describes Purbachal 300 Feet Road with area-level uncertainty; its centroid does not contradict the more specific Nila Market location given the reported 8 km uncertainty. Time, location at road/area granularity, casualties, and vehicles align. No explicit contradictory facts were supplied. The lower lexical match is accounted for by the differing specificity of the place names, not by a material conflict.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_3fb945f0b41d1e22"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_a520208c573df434"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_5d6c68cbaf636ec1"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.74,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_07a4549765a2d7a1",
+      "ev_01fc9be579007137",
+      "ev_17797e3df968c79a",
+      "ev_4dd4327dffa9a504",
+      "ev_6f614cdd3f691d5e",
+      "ev_7e2b75efeb5007b6"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": "prun_76f1b08abe205edb",
+    "rationale": "Both evidence bundles describe the same fatal road crash: the location candidate is identical at Nila Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj, and the event time window matches to day precision (2024-12-20 to 2024-12-21). Independent source ev_07a4549765a2d7a1 corroborates the left-side evidence family, which also reports 1 fatality. The left bundle adds 2 injuries and includes motorcycle/car as involved vehicles, while the right bundle only reports passenger_car and no injury count; these are not direct contradictions because the right side lacks an injury report and has a less detailed vehicle description. The shared location, time, and fatality count are sufficient to consider them the same incident with moderate confidence.",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.86,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_17797e3df968c79a",
+      "ev_4dd4327dffa9a504",
+      "ev_6f614cdd3f691d5e",
+      "ev_7e2b75efeb5007b6",
+      "ev_298c49bd952c41d8",
+      "ev_46842f13e60fde78",
+      "ev_d7c18f446cad4094",
+      "ev_ffdb144fdbfff7c5",
+      "ev_33667123810c930a",
+      "ev_8abd92a099282678",
+      "ev_e83083c24c1fb324",
+      "ev_65ff85722690ad8d",
+      "ev_249e84b4d0423349",
+      "ev_bb8f9aa29bb214dc",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.75,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_c1726df0a05a1782",
+    "provider_run_id": "prun_557317e117c6c4fe",
+    "rationale": "Both bundles describe a fatal road crash on 2024-12-20/21 at the Nila Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj, Bangladesh. Both list a motorcycle and a car as involved vehicles, report exactly one fatality, and share the same location and date. The identity of the location is reinforced by the same gazetteer place and coordinates; the event subtype is 'fatal' in both. The right bundle has fewer casualty details (no injury count) and uses a publication-date fallback, but this is an omission rather than a direct contradiction with the left bundle's two reported injuries. The name spelling variation (Mohtassim vs Muhtasim) is non-material for incident identity. Because the date, location, vehicles, and fatal outcome align, the two references are best treated as the same incident.",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.72,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_7a9911d957c3b042",
+      "ev_eec8df76ec28439f",
+      "ev_4c5ab42977ec172a",
+      "ev_bd1c816a8b65297c"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.4,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.76,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": "prun_774bf144ac98baec",
+    "rationale": "Both records describe a fatal road crash on the same date (2024-12-20/21) on Purbachal 300 Feet Road, Rupganj, with the same vehicle set (motorcycle and car) and the same reported fatality count. The left-side location is a more specific named intersection (Nila Market) that falls within the broad eight-kilometer uncertainty of the right-side corridor centroid, so the coordinates do not contradict. The right record reports two injuries while the left leaves injuries unreported; because unreported is not zero, this is an unresolved discrepancy rather than a direct conflict. The absence of the left's named person/intersection in the right record may reflect less detail, not necessarily a different event. Confidence is moderate because the road is long and two fatal crashes on the same day are possible, but the matching time, corridor, vehicles, and one fatality favor the same incident.",
+    "right_mention_id": "men_48845e87897e3f69"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_3fb945f0b41d1e22"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_a520208c573df434"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_5d6c68cbaf636ec1"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.8,
+    "contradictions": [
+      "Vehicle composition differs: left bundle includes motorcycle and car; right bundle lists passenger_car only."
+    ],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": "prun_134f51107dd1e7d0",
+    "rationale": "Both bundles describe a fatal road crash at the same named location, Nila Market intersection on Purbachal 300 Feet Road in Rupganj/Narayanganj, with matching fatality count (1) and the same event window (2024-12-20 to 2024-12-21). The left location evidence IDs ev_7a9911d957c3b042, ev_c72db83917462014, and ev_eec8df76ec28439f, and the right record's location evidence ev_07a4549765a2d7a1, identify the same gazetteer centroid. The bundles come from separate supplied source IDs, increasing corroboration. The only material conflict is vehicle composition: the left bundle reports motorcycle and car, while the right bundle reports passenger_car only. This may reflect partial reporting rather than a separate crash. Because location, date, and fatality count match, I adjudicate as the same incident.",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f",
+      "ev_1f834f7777ccf794",
+      "ev_298c49bd952c41d8"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.85,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_bc941c96cefd01e2",
+    "provider_run_id": "prun_fa0b659a226ef1eb",
+    "rationale": "Both records describe the same fatal road crash: one fatality, motorcycle and car involvement, the same date window in Asia/Dhaka, and the same source-named location (Nila Market intersection, Purbachal 300 Feet Road, Rupganj). Lexical markers are identical, including the person reference Muhtasim and location terms. There are no contradictions between the records. The only caveat is the right-side record noting inherited incident linkage, but the alignment of casualty, time, location, and vehicle fields supports same-incident status.",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_3fb945f0b41d1e22"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_a520208c573df434"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_5d6c68cbaf636ec1"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.6,
+    "contradictions": [
+      "Vehicle inventory differs: left includes motorcycle and car, right includes passenger car; right may be incomplete",
+      "Location specificity differs: left names broad Purbachal 300 Feet Road, right names Nila Market intersection"
+    ],
+    "decision": "uncertain",
+    "decisive_evidence_ids": [
+      "ev_4c5ab42977ec172a",
+      "ev_bd1c816a8b65297c",
+      "ev_07a4549765a2d7a1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.6499999999999999,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": "prun_e7e593c969bc8285",
+    "rationale": "Both records report a fatal road crash on 2024-12-20/21 on Purbachal 300 Feet Road in Rupganj, Narayanganj. The right record's more specific Nila Market intersection location is compatible with the left record's broad Purbachal 300 Feet Road area and lies within its approximate uncertainty, and the common date and road type are suggestive. However, the records are not explicitly linked: the left record lists a motorcycle and car with two injuries, while the right record mentions only a passenger car and does not report injuries. These differences could reflect incomplete reporting or could be separate incidents on the same road. Because the evidence does not provide a common identifier or eliminate the possibility of two distinct fatal crashes on the same day and road, the safest adjudication is uncertain.",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.72,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_4c5ab42977ec172a",
+      "ev_bd1c816a8b65297c",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.4,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.76,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_48845e87897e3f69",
+    "provider_run_id": "prun_bf099a007d7a2d04",
+    "rationale": "Both evidence bundles describe a fatal road crash on Purbachal 300 Feet Road in Rupganj, Narayanganj, dated 2024-12-20/21, involving a motorcycle and a car. The right bundle's more specific Nila Market intersection is compatible with the left bundle's broader Purbachal 300 Feet Road area and lies within its approximate location uncertainty. Both report one fatality and neither reports zero injuries; the left reports two injuries while the right leaves injuries unknown, so there is no direct numeric contradiction. The shared date, road corridor, and road-user combination, together with the more specific location anchor, support treating these as the same incident rather than an uncertain merge.",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_25f22aa562f7533f",
+      "ev_33738fa816ada880",
+      "ev_9012296fa587ace1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.16666666666666666,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": "prun_14db0e1719a3b85b",
+    "rationale": "Both mentions describe a road crash in the Asia Pump area of Tongi, Gazipur, on 2026-08-09/10 with a road blockade/congestion. They share identical day-level timing, the same location candidate (coordinates 23.917957, 90.393642; road_segment granularity), and overlapping lexical features including 'asia_pump_tongi' and the name Yasin/ইয়াসিন. The right mention adds a bus and one fatality, which does not contradict the less complete left mention. The shared location, time, event type, and traffic effect strongly indicate the same incident.",
+    "right_mention_id": "men_a520208c573df434"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_5d6c68cbaf636ec1"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.55,
+    "contradictions": [
+      "Right records one fatality; left records no casualty count."
+    ],
+    "decision": "uncertain",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.6499999999999999,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": "prun_c5a51eb8da3bc9a8",
+    "rationale": "Both records concern road crashes in Tongi, Gazipur on the same date (2026-08-09/10), but they are based on independent sources and evidence sets. The left item places the crash at Asia Pump area, mentions road blockade/congestion, and includes the token 'ইয়াসিন'; the right item is a fatal road crash reported at city-level Tongi with no traffic-effect detail. The shared date and approximate location are consistent with a single crash, but location precision differs and there is no overlap in named people, vehicles, casualty figures, or collision description. The right's one fatality is not directly contradicted by the left's missing casualty data, but it also cannot be confirmed as the same event. With no decisive shared detail, uncertain is preferred over merging.",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_3fb945f0b41d1e22",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_5d6c68cbaf636ec1"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.55,
+    "contradictions": [],
+    "decision": "uncertain",
+    "decisive_evidence_ids": [
+      "ev_9012296fa587ace1",
+      "ev_32e6290ff8c2ead6"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": "prun_e64a5cd2209b8b97",
+    "rationale": "Both reports describe a fatal road crash in Tongi, Gazipur on 2026-08-09/10 with one fatality. Time and location match at a coarse granularity. The left report contains specific location (Asia Pump area), bus involvement, and traffic effects, while the right report is generic with no vehicle or location details beyond Tongi. There is no explicit contradiction, but the sparse overlap in specifics (low lexical and vehicle scores) leaves room for these to be separate incidents. Following the guideline to prefer uncertain over aggressive merge, the decision is uncertain.",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_a520208c573df434",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_bc4144b4e776d8ef",
+      "ev_1d44c58721ec92c0",
+      "ev_c80e9fe54daea2bc"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.8,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.8033333333333332,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": "prun_e089aeaac9df2ffc",
+    "rationale": "Both mentions describe a fatal road crash on the same date (2025-12-12 to 2025-12-13) in the same area (Konapara, Demra, Dhaka) with matching location precision and overlapping involved vehicles (truck and motorcycle). The left report additionally lists a bus, but this is not a direct contradiction since source coverage may be incomplete. No casualty counts or collision descriptions are available, and no explicit conflicting details appear. The strong agreement in event type, time, and place supports treating these as the same incident.",
+    "right_mention_id": "men_8cd6c7096345cb64"
+  },
+  {
+    "confidence": 0.75,
+    "contradictions": [
+      "Vehicle composition differs: left records bus, truck, and motorcycle; right records only truck and motorcycle."
+    ],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_bc4144b4e776d8ef",
+      "ev_c653379844e9e6d9",
+      "ev_5a4ec4c3f6f0abd5"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.8,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.8033333333333332,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": "prun_766a98f67f3433d3",
+    "rationale": "Both records describe a fatal road crash in Konapara, Demra, Dhaka on the same normalized date interval (2025-12-12 to 2025-12-13). The location candidates are identical (same gazetteer centroid), and both report the crash subtype as fatal. Vehicles overlap on truck and motorcycle; the left record additionally lists a bus, a minor compositional difference rather than an explicit contradiction. Both share distinctive lexical features such as 'demra', 'konapara_demra', and 'dncc garbage', and the sources are independent. No conflicting time, location, or incident type is present. The match is not absolutely certain because there is no shared evidence ID, person/entity, or unique incident identifier, and the location precision is an area with roughly 3 km uncertainty.",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.8,
+    "contradictions": [
+      "Vehicle list differs: left includes bus, truck, and motorcycle; right lists only truck and motorcycle."
+    ],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_9e4a653608620eff",
+      "ev_bc4144b4e776d8ef",
+      "ev_c653379844e9e6d9",
+      "ev_031d7714f37e547d",
+      "ev_06ec52e20a074589",
+      "ev_2e2e59eb3bfdfb64"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.8,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.8033333333333332,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": "prun_4e3d32a7e466171c",
+    "rationale": "Both records describe a fatal road crash in Konapara, Demra (Dhaka) with the same event date precision (2025-12-12/2025-12-13). They share specific lexical features including 'demra', 'konapara', 'konapara_demra', and the distinctive 'dncc garbage'. The right record also includes 'redwan', which is not contradictory. Vehicle overlap includes truck and motorcycle, while the left additionally lists a bus; this is a reporting discrepancy rather than a decisive conflict. The records come from different source IDs and therefore provide separate source coverage. No casualty counts or named people are present. Given the strong spatiotemporal and lexical match and overlapping vehicle set, the records are best treated as the same incident.",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_bc4144b4e776d8ef",
+      "ev_1eacca6cdb82b6ae",
+      "ev_3a11629dd10d78e7"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.8,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7699999999999999,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": "prun_9903bafd911474d8",
+    "rationale": "Both records describe a road crash in the Demra/Konapara area of Dhaka on the same event time window (2025-12-12 to 2025-12-13, day precision). They share distinctive lexical markers: 'demra', 'dncc garbage', 'konapara', and 'konapara_demra'. Event type is 'road_crash' for both, and the location centroids overlap within their stated uncertainties. The right record is less complete: it lacks a subtype and vehicle list, which explains the absence rather than creating a contradiction. The right record's caveat about incident linkage inherited from a paired HTML source is consistent with the two records being derived from related source families. No decisive contradictions are present. The disjoint evidence IDs reflect different source records, but the strong overlapping place, time, and lexical features support a same-incident determination.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_5d6c68cbaf636ec1",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.72,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1d44c58721ec92c0",
+      "ev_5a4ec4c3f6f0abd5",
+      "ev_244b71a7a2c0143a",
+      "ev_ae420e88f0151c14"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.6666666666666666,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7999999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": "prun_b2e2c89cc930e749",
+    "rationale": "Both entries report a fatal road crash in Konapara, Demra, Dhaka on 2025-12-12/13 involving a truck and motorcycle. The event type, subtype, time window, location, and vehicle set match exactly, and the lexical overlap (demra, dncc garbage, konapara, konapara_demra) is strong. The right entry adds the name 'Redwan', while the left adds the Bengali spelling 'কোনাপাড়া'; these are complementary details, not contradictions. The two independent sources corroborate the same incident pattern, although the entity score is zero and no shared evidence ID directly links the mentions, leaving modest uncertainty.",
+    "right_mention_id": "men_e517d17e87c12ecf"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1d44c58721ec92c0",
+      "ev_2e2e59eb3bfdfb64"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.6666666666666666,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7999999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": "prun_e71fb0173b10b10d",
+    "rationale": "Both sides describe a fatal road crash involving a truck and motorcycle on the same date (2025-12-12/13) at the same area (Konapara, Demra, Dhaka), with matching vehicle types. The shared location is represented by the same gazetteer centroid, and no conflicting details are present. The additional name 'Redwan' in the right side is an enrichment rather than a contradiction. The location-time-vehicle agreement across independent sources is strong enough to treat them as the same incident despite broad location precision and incomplete casualty fields.",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.72,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_1d44c58721ec92c0",
+      "ev_1eacca6cdb82b6ae",
+      "ev_7c71a6f4b2bc95da",
+      "ev_c80e9fe54daea2bc"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.6666666666666666,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7499999999999999,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": "prun_4058eeb74fb24c58",
+    "rationale": "Both sides describe a road crash on the same normalized date range (2025-12-12 to 2025-12-13) and in the same Demra/Konapara area of Dhaka; the shared area estimates and the distinctive Demra-Konapara/DNCC-garbage lexical markers provide more than a generic road-accident match [ev_1d44c58721ec92c0, ev_1eacca6cdb82b6ae, ev_7c71a6f4b2bc95da, ev_c80e9fe54daea2bc]. The left side's truck/motorcycle fatal characterization is not contradicted by the right side, which leaves vehicles and subtype unknown rather than reporting different facts. No casualty counts or shared people were supplied, so confidence is moderate.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_8cd6c7096345cb64",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5a4ec4c3f6f0abd5",
+      "ev_2e2e59eb3bfdfb64"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.85,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": "prun_3abda6bbd8b2ecd3",
+    "rationale": "Both reports describe a fatal road crash involving a truck and motorcycle at Konapara, Demra, Dhaka, with the same day-level time window (2025-12-12 to 2025-12-13). They originate from distinct sources (src_f73b970fc52b9df6 and src_b93f4489c5cce965) with non-overlapping evidence IDs, and there are no contradictory casualty, location, time, or vehicle details. The matching lexical features and identical event subtype support same-incident adjudication.",
+    "right_mention_id": "men_e45f59c8d6fdfea8"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5a4ec4c3f6f0abd5",
+      "ev_1eacca6cdb82b6ae"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7999999999999999,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": "prun_6ef7f08310c05ee1",
+    "rationale": "Both records describe a road crash in the Demra/Konapara area of Dhaka on 2025-12-12/13, with identical lexical features ('konapara', 'konapara_demra', 'demra', 'dncc garbage', 'redwan') and overlapping local gazetteer coordinates roughly 2 km apart. No direct contradictions appear; the main differences are source-specific detail: left marks the crash as fatal and lists truck/motorcycle, while right does not specify subtype or vehicles. The matching time window, shared area, distinctive terms, and the right bundle's note of inherited incident linkage point to the same incident, though separate-source corroboration leaves minor uncertainty.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_e517d17e87c12ecf",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.85,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_031d7714f37e547d",
+      "ev_06ec52e20a074589",
+      "ev_2e2e59eb3bfdfb64",
+      "ev_1eacca6cdb82b6ae",
+      "ev_3a11629dd10d78e7",
+      "ev_7c71a6f4b2bc95da",
+      "ev_e787e97741729869"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 1.0,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7999999999999999,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": "prun_64a661965b9a94ef",
+    "rationale": "Both bundles describe a road crash in Demra, Konapara, Dhaka, Bangladesh on the same date (2025-12-12 to 2025-12-13). They share identical lexical features, including specific terms 'demra', 'dncc garbage', 'konapara', 'konapara_demra', and 'redwan', which strongly indicates the same reported event. The location granularity is area-level in both, with overlapping named places (Konapara, Demra vs Demra, Dhaka), and the slight coordinate difference is consistent with gazetteer centroid uncertainty. No contradictions are present: event type is road_crash in both, casualty counts are unreported in both, and the discrepancies in event_subtype and vehicles are due to missing information rather than conflicting data. The right bundle's uncertainty about inherited linkage does not undermine the match given the strong lexical and spatial overlap. Therefore, the evidence supports same_incident.",
+    "right_mention_id": "men_530c898e32287c4d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_e45f59c8d6fdfea8",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_fd8f4b908d33e34a"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_047777136d153155"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_530c898e32287c4d",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.15,
+    "contradictions": [],
+    "decision": "uncertain",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 0.0,
+      "time_score": 0.25,
+      "total_score": 0.62,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_37977261b478b3c4",
+    "provider_run_id": "prun_a1ec64ca8fa326f9",
+    "rationale": "The two mentions share only the event type 'road_crash' and the lexical token 'fahim'. No matching location, time, vehicles, casualties, or collision description is supplied. The right side marks the subtype as fatal while the left side leaves it unknown, but that absence is not a contradiction. This limited overlap is insufficient to determine that they describe the same incident.",
+    "right_mention_id": "men_63368cf8e497c57d"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_fd8f4b908d33e34a",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_fd8f4b908d33e34a",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_fd8f4b908d33e34a",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_fd8f4b908d33e34a",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.75,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_3d9b6f7ef1b8f36b",
+      "ev_b02f78dc220fb6ca"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.3333333333333333,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.3333333333333333
+    },
+    "left_mention_id": "men_fd8f4b908d33e34a",
+    "provider_run_id": "prun_dace1f0f7109dbd1",
+    "rationale": "Both mentions concern a fatal road crash in Bogura District on the same date (2026-08-07/08) with exactly 7 fatalities and a bus involved. The left mention provides a more precise location (Erulia Bazar, Bogura Sadar, Bogura) while the right mention is at district level (Bogura), and the former falls within the latter. No material contradictions exist: the right mention's omission of truck and motorcycle is not incompatible with the left mention's broader vehicle list. The evidence sets are independent, and the right record is less specific, leaving some uncertainty; however, the combination of identical date, identical fatality count, district overlap, and bus involvement strongly indicates the same incident rather than two coincidental crashes.",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.25
+    },
+    "left_mention_id": "men_fd8f4b908d33e34a",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.9,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_851244544886379c",
+      "ev_8675a512af387063",
+      "ev_03c6593b6ff5558e",
+      "ev_189d525e6f97c130",
+      "ev_6e66ceecc047e881",
+      "ev_80bb0d4e8bc0bb7e",
+      "ev_99685340cfb96e6d",
+      "ev_a50c19158fca4347",
+      "ev_bd7059355180a4f1"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.6666666666666666,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7999999999999999,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": "prun_d562e63ce7c0fe0f",
+    "rationale": "Both records describe a road crash involving buses and explicitly mention the same operators ('bengal paribahan', 'unique paribahan'), the same location (Kashikapan, Osmaninagar, Sylhet), and the same date range (2026-08-07 to 2026-08-08). Location and time scores are full matches, and vehicle type is identical. The right record contains more complete data, including 8 fatalities and 25 injuries, while the left record lacks casualty details; this is a completeness difference, not a factual contradiction. The paired mentions therefore likely refer to the same incident.",
+    "right_mention_id": "men_bec43b76c6ae0f1c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.7,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_851244544886379c",
+      "ev_8675a512af387063",
+      "ev_fd400a07465e0029"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": "prun_e9aad81cad2091c8",
+    "rationale": "Both mentions report a road crash on the same date (2026-08-07/08) in the same area, Kashikapan, Osmaninagar, Sylhet, with identical location coordinates and precision. The left mention provides additional details (bus involvement, transport operators) absent from the right, but nothing in the right contradicts or conflicts with the left. The shared time and place, even with the ~3 km location uncertainty, make the same incident the most plausible interpretation, though the sparse right-side details prevent absolute certainty.",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_047777136d153155",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_f3b60863c6d95a68"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.74,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_fd400a07465e0029",
+      "ev_03c6593b6ff5558e"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": "prun_e92fef39a71ce938",
+    "rationale": "Both records describe a road crash on the same date (2026-08-07/08) at the same location (Kashikapan, Osmaninagar, Sylhet, Bangladesh). The right record is sparse and provides no casualty or vehicle details, but its location and date align with the left record; no contradictions or conflicting facts appear. The right record's lack of casualty counts is not evidence that no casualties occurred, only that they were not reported in that source. Therefore the records are best treated as referring to the same incident.",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 1.0
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_bec43b76c6ae0f1c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_f3b60863c6d95a68",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b5c461f657a8f51f"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_f3b60863c6d95a68",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_f3b60863c6d95a68",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.74,
+    "contradictions": [
+      "Vehicle detail differs: left record lists only passenger_car; right record lists motorcycle and car."
+    ],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_07a4549765a2d7a1",
+      "ev_7a9911d957c3b042",
+      "ev_c72db83917462014",
+      "ev_eec8df76ec28439f"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.2,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.74,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_f3b60863c6d95a68",
+    "provider_run_id": "prun_d078f729eaa14e93",
+    "rationale": "Both records describe a fatal road crash at the same location (Nila Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj) on the same date (2024-12-20/21 day precision) and report exactly one fatality. The vehicle details differ (left lists passenger_car; right lists motorcycle and car), but the right-side list may simply be more detailed or use different categories; this is not a direct contradiction. The right record carries an uncertainty note that incident linkage was inherited from a paired HTML source, so independent confirmation is limited. Strong location/time overlap supports same-incident matching, but the residual vehicle discrepancy and single-source left record prevent full confidence.",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_b5c461f657a8f51f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_b7b658fc55f5a244"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.33333333333333337,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_b5c461f657a8f51f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_b5c461f657a8f51f",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 1.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_b7b658fc55f5a244",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_6820b78d82593f2c"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_b7b658fc55f5a244",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  },
+  {
+    "confidence": 0.95,
+    "contradictions": [
+      "specific normalized locations conflict"
+    ],
+    "decision": "different_incident",
+    "decisive_evidence_ids": [],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": "specific normalized locations conflict",
+      "lexical_score": 0.0,
+      "location_score": 0.0,
+      "time_score": 0.0,
+      "total_score": 0.0,
+      "vehicle_score": 0.0
+    },
+    "left_mention_id": "men_6820b78d82593f2c",
+    "provider_run_id": null,
+    "rationale": "specific normalized locations conflict",
+    "right_mention_id": "men_2bb15ae68a324033"
+  }
+]

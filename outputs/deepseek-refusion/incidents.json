@@ -1,0 +1,1728 @@
+[
+  {
+    "alternate_time_claims": [
+      {
+        "end": "2024-12-21T00:00:00",
+        "original_expression": "date normalized from corpus evidence family / publication date used as event-date fallback",
+        "precision": "day",
+        "start": "2024-12-20T00:00:00",
+        "timezone": "Asia/Dhaka"
+      }
+    ],
+    "collision": "Reported: a car struck a stationary motorcycle stopped at a police checkpoint; the motorcycle rider died on the spot and two passengers were injured.",
+    "congestion_delay": null,
+    "contributing_factors": [
+      "reckless speed of car (reported in complaint/articles)",
+      "intoxication of accused (reported on-screen headline; underlying claimant not established)"
+    ],
+    "data_quality_warnings": [
+      "The ATN video source supplies only 'Narayanganj' as a location mention, but its mention object assigns the Nila Market candidate.",
+      "The image analysis attached to the Prothom Alo article shows no crash damage or lane blockage; its road-crash mention is inherited from the paired HTML, not observed in the image.",
+      "The Dhaka Tribune source is marked as a repost in source metadata; it is therefore not counted in independent_source_count.",
+      "Sentiment records reference evidence IDs not present in the evidence bundle; those IDs are retained as sentiment identifiers only.",
+      "Spelling variants Nila Market and Neela Market refer to the same named location.",
+      "The selected location coordinate is a gazetteer centroid, not an exact surveyed crash point."
+    ],
+    "duplicate_groups": [
+      [
+        "ev_23e903df4479a2d7",
+        "ev_3cb89b4791adcc04",
+        "ev_850f0b4bcf2418e4",
+        "ev_c425c2c64fdbc3bf",
+        "ev_f6979130e8086261",
+        "ev_53bf08280ca47b12",
+        "ev_e8c697e231ce67eb"
+      ]
+    ],
+    "emergency_response": [
+      "Police at the checkpoint were present at the time; video shows uniformed police escorting three adult men",
+      "Body sent to Shaheed Suhrawardy Medical College Hospital for postmortem",
+      "Police seized the motorcycle and car",
+      "Police arrested three people",
+      "Narayanganj court sent three accused to jail"
+    ],
+    "event_time": {
+      "end": "2024-12-20T03:00:00+06:00",
+      "original_expression": "Around 3:00 am in the morning ... early on Friday; Friday (20 December)",
+      "precision": "hour",
+      "start": "2024-12-20T03:00:00+06:00",
+      "timezone": "Asia/Dhaka"
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_07a4549765a2d7a1",
+      "ev_17797e3df968c79a",
+      "ev_1f834f7777ccf794",
+      "ev_23e903df4479a2d7",
+      "ev_249e84b4d0423349",
+      "ev_298c49bd952c41d8",
+      "ev_33667123810c930a",
+      "ev_3cb89b4791adcc04",
+      "ev_46842f13e60fde78",
+      "ev_4868bd0517e733cd",
+      "ev_4c5ab42977ec172a",
+      "ev_4dd4327dffa9a504",
+      "ev_53bf08280ca47b12",
+      "ev_65ff85722690ad8d",
+      "ev_6f614cdd3f691d5e",
+      "ev_7302506cacaa1a27",
+      "ev_7a9911d957c3b042",
+      "ev_7e2b75efeb5007b6",
+      "ev_850f0b4bcf2418e4",
+      "ev_8abd92a099282678",
+      "ev_9a606d918d721b9b",
+      "ev_a483b15db9baf756",
+      "ev_bb8f9aa29bb214dc",
+      "ev_bd1c816a8b65297c",
+      "ev_c425c2c64fdbc3bf",
+      "ev_c72db83917462014",
+      "ev_d7c18f446cad4094",
+      "ev_e83083c24c1fb324",
+      "ev_e8c697e231ce67eb",
+      "ev_eec8df76ec28439f",
+      "ev_f6979130e8086261",
+      "ev_ffdb144fdbfff7c5"
+    ],
+    "facts": [
+      {
+        "confidence": 0.97,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "All reporting sources agree that one person, Muhtasim Masud, died at the scene.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_07a4549765a2d7a1",
+          "ev_23e903df4479a2d7",
+          "ev_7a9911d957c3b042",
+          "ev_7e2b75efeb5007b6",
+          "ev_4c5ab42977ec172a",
+          "ev_c425c2c64fdbc3bf"
+        ],
+        "value": 1
+      },
+      {
+        "confidence": 0.93,
+        "conflicting_values": [
+          {
+            "note": "ATN video analysis did not report an injury count.",
+            "source_id": "src_02298208b235935d",
+            "state": "not_reported",
+            "value": null
+          }
+        ],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "Four reports state two friends/classmates were injured; the ATN video analysis reported only a fatality and gave no injury count.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_17797e3df968c79a",
+          "ev_3cb89b4791adcc04",
+          "ev_4c5ab42977ec172a",
+          "ev_7e2b75efeb5007b6",
+          "ev_c72db83917462014"
+        ],
+        "value": 2
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "crash_time",
+        "selection_rationale": "Multiple reports place the crash around 3:00 am on Friday, and TBS identifies Friday as 20 December.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_7a9911d957c3b042",
+          "ev_c72db83917462014",
+          "ev_f6979130e8086261",
+          "ev_850f0b4bcf2418e4",
+          "ev_17797e3df968c79a"
+        ],
+        "value": "2024-12-20T03:00:00+06:00"
+      },
+      {
+        "confidence": 0.75,
+        "conflicting_values": [
+          {
+            "granularity": "area",
+            "latitude": 23.8307,
+            "longitude": 90.5452,
+            "name": "Purbachal 300 Feet Road, Rupganj",
+            "note": "Broader area candidate with approximately 8 km uncertainty"
+          }
+        ],
+        "contradiction": false,
+        "field": "crash_location",
+        "selection_rationale": "Sources mostly name Nila/Neela Market intersection on the Purbachal 300 Feet Road in Rupganj; coordinates are a gazetteer centroid for that named area, not an exact impact point.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_7a9911d957c3b042",
+          "ev_c72db83917462014",
+          "ev_eec8df76ec28439f",
+          "ev_850f0b4bcf2418e4",
+          "ev_f6979130e8086261"
+        ],
+        "value": "Nila Market intersection, Purbachal 300 Feet Road, Rupganj, Narayanganj, Bangladesh"
+      },
+      {
+        "confidence": 0.75,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "location_precision",
+        "selection_rationale": "The supplied mention candidates are centroids of named areas, not crash-point coordinates.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_7a9911d957c3b042",
+          "ev_850f0b4bcf2418e4",
+          "ev_4c5ab42977ec172a"
+        ],
+        "value": "area-level (gazetteer centroid, approximately 1.5 km uncertainty for selected candidate; broader Purbachal candidate has ~8 km uncertainty)"
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "vehicles_involved",
+        "selection_rationale": "Reports consistently say a car struck a motorcycle; the video analysis describes the car as a damaged passenger car.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_4868bd0517e733cd",
+          "ev_7e2b75efeb5007b6",
+          "ev_4c5ab42977ec172a",
+          "ev_07a4549765a2d7a1"
+        ],
+        "value": [
+          "motorcycle",
+          "car"
+        ]
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "collision_circumstances",
+        "selection_rationale": "This is the consistent reported account in the complaint and articles; the video shows only aftermath and does not independently show the impact.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_17797e3df968c79a",
+          "ev_3cb89b4791adcc04",
+          "ev_7a9911d957c3b042",
+          "ev_7e2b75efeb5007b6",
+          "ev_07a4549765a2d7a1"
+        ],
+        "value": "Reported: a stationary motorcycle with three BUET students was stopped at a police checkpoint/check post when a car struck it; the rider died at the scene, and two friends were injured."
+      }
+    ],
+    "generated_at": "2026-04-26T00:00:00Z",
+    "geolocation": {
+      "alternatives": [
+        {
+          "confidence": 0.68,
+          "evidence_ids": [
+            "ev_4c5ab42977ec172a",
+            "ev_bd1c816a8b65297c"
+          ],
+          "granularity": "area",
+          "hierarchy": {
+            "anchor": "purbachal",
+            "country": "Bangladesh",
+            "district": "Narayanganj",
+            "upazila": "Rupganj"
+          },
+          "latitude": 23.8307,
+          "longitude": 90.5452,
+          "name": "Purbachal 300 Feet Road, Rupganj",
+          "normalized_name": "purbachal 300 feet road, rupganj",
+          "reason": "source-named place represented by a local gazetteer centroid; approximately 8 km uncertainty"
+        },
+        {
+          "confidence": 0.8,
+          "evidence_ids": [
+            "ev_07a4549765a2d7a1"
+          ],
+          "granularity": "district",
+          "hierarchy": {
+            "country": "Bangladesh",
+            "district": "Narayanganj"
+          },
+          "latitude": null,
+          "longitude": null,
+          "name": "Narayanganj",
+          "normalized_name": "narayanganj",
+          "reason": "ATN video supplied only district-level location"
+        }
+      ],
+      "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 1.5 km uncertainty",
+      "confidence": 0.75,
+      "display_name": "Nila Market intersection, Purbachal 300 Feet Road, Rupganj",
+      "granularity": "area",
+      "hierarchy": {
+        "anchor": "purbachal",
+        "country": "Bangladesh",
+        "district": "Narayanganj",
+        "locality": "Nila Market",
+        "upazila": "Rupganj"
+      },
+      "latitude": 23.834106,
+      "longitude": 90.484744,
+      "method": "source-named local gazetteer centroid",
+      "supporting_evidence_ids": [
+        "ev_7a9911d957c3b042",
+        "ev_c72db83917462014",
+        "ev_eec8df76ec28439f"
+      ],
+      "uncertainty_radius_km": 3.0
+    },
+    "human_summary": "On 20 December 2024, at about 3:00 am, a car reportedly struck a stationary motorcycle at a police checkpoint/check post at Nila Market intersection on Purbachal 300 Feet Road in Rupganj upazila, Narayanganj. Reports identify the rider as Muhtasim Masud, 22, a second-year BUET computer science student, who died at the scene; two classmates, Amit Saha and Mehedi Hasan, were injured [ev_7a9911d957c3b042, ev_7e2b75efeb5007b6, ev_4c5ab42977ec172a, ev_c72db83917462014]. The reported collision sequence is a car hitting the stopped motorcycle, but the ATN video analysis shows only aftermath damage to one passenger car and police escort of three men, not the impact [ev_07a4549765a2d7a1]. Sources describe the car as speeding, and an on-screen headline alleges the accused were intoxicated; these remain reported allegations [ev_17797e3df968c79a, ev_07a4549765a2d7a1]. No explicit traffic blockage or congestion was reported; an image at Rupganj police station shows no crash damage or lane obstruction [ev_33667123810c930a]. A case under the Road Transport Act was filed by the victim's father, police arrested three people, and a Narayanganj court later sent the three accused to jail; the body was sent for postmortem and the motorcycle and car were seized [ev_6f614cdd3f691d5e, ev_9a606d918d721b9b, ev_23e903df4479a2d7, ev_1f834f7777ccf794]. Coverage spans at least four independent reporting sources plus a Dhaka Tribune repost. The location is area-level: the supplied coordinate is a Nila Market gazetteer centroid with about 1.5 km uncertainty, while some reports only name Purbachal or Narayanganj. The main unresolved uncertainty is whether the speed and intoxication allegations are substantiated beyond the reported claims.",
+    "incident_id": "cluster-001",
+    "independent_source_count": 4,
+    "involved_parties": [
+      "Muhtasim Masud (deceased; BUET CSE student, 22)",
+      "Amit Saha (injured; BUET CSE student, 22)",
+      "Mehedi Hasan (injured; BUET CSE student, 22)",
+      "Masud Mia (victim's father; plaintiff)",
+      "Mubin (named in reports as the car driver)",
+      "Three accused in the related court case"
+    ],
+    "later_developments": [
+      "Case filed by Muhtasim Masud's father under the Road Transport Act at Rupganj Police Station",
+      "Police arrested three people involved in the incident",
+      "Body sent to Shaheed Suhrawardy Medical College Hospital for postmortem",
+      "Police seized the motorcycle and car",
+      "Narayanganj court sent three accused to jail after remand"
+    ],
+    "obstruction": null,
+    "provider_run_id": null,
+    "schema_version": "1.0.0",
+    "sentiment": {
+      "by_aspect": {
+        "road_safety": {
+          "negative": 2
+        }
+      },
+      "coverage_note": "Two traffic-related sentiment expressions were supplied, both negative/concern about incident accountability.",
+      "items": [
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_e5f62af3baefeb2d",
+          "holder": "en.prothomalo.com",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_3bc7b385cab36d28",
+          "source_id": "src_8b602b9fe73a95f5",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_68a6094853599576",
+          "holder": "source audience or participant",
+          "holder_type": "group",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.1,
+          "sentiment_id": "sent_8234280887af6327",
+          "source_id": "src_02298208b235935d",
+          "target": "incident accountability",
+          "traffic_related": true
+        }
+      ],
+      "notable_minority_views": [],
+      "sample_size": 2,
+      "traffic_relevant_count": 2
+    },
+    "source_ids": [
+      "src_3f199a5a71648754",
+      "src_02298208b235935d",
+      "src_8b602b9fe73a95f5",
+      "src_67f5fd8305b791e7",
+      "src_986f165864da7582",
+      "src_2a54e1ad115b0de3",
+      "src_22bbac43d90432e0"
+    ],
+    "status": "reported",
+    "title": "Fatal crash at Nila Market checkpoint in Purbachal kills BUET student Muhtasim Masud",
+    "unresolved_questions": [
+      "Exact impact mechanism and pre-crash car speed are not established; video shows only aftermath damage to the car and police escort.",
+      "Whether the accused were intoxicated is an on-screen headline allegation, and the underlying claimant is not established from visual evidence.",
+      "Exact crash point is not surveyed; the selected coordinate is a gazetteer centroid with up to about 1.5 km uncertainty, and some reports only name Purbachal or Narayanganj.",
+      "Current hospital status and severity of the two injured classmates are not detailed beyond 'seriously/critically injured'."
+    ],
+    "vehicles": [
+      "motorcycle",
+      "car"
+    ]
+  },
+  {
+    "alternate_time_claims": [
+      {
+        "end": null,
+        "original_expression": "around 11am",
+        "precision": "hour",
+        "start": "2026-08-09T11:00:00",
+        "timezone": null
+      },
+      {
+        "end": null,
+        "original_expression": "around 3pm today",
+        "precision": "hour",
+        "start": "2026-08-09T15:00:00",
+        "timezone": null
+      }
+    ],
+    "collision": null,
+    "congestion_delay": "About 15 km of severe congestion along the highway was caused by the blockade; thousands of passengers suffered [ev_25f22aa562f7533f][ev_33738fa816ada880].",
+    "contributing_factors": [],
+    "data_quality_warnings": [
+      "Victim age conflict: Bengali post reports Yasin Ali, 15; The Daily Star reports Yasin, 17. The fused facts preserve one fatality but not a single age.",
+      "Source src_96c9878e5c29c473 has no publisher metadata, publication time, or source URI; source independence is flagged unknown.",
+      "Mention extraction labeled 'bus' as a vehicle, but the supplied text only names Gazipur bus stand; no vehicle involvement is supported, so vehicles is empty.",
+      "Time precision is day for the crash from corpus normalization; the 11am and 3pm times in sources refer to the blockade, not the crash time."
+    ],
+    "duplicate_groups": [
+      [
+        "ev_25f22aa562f7533f",
+        "ev_33738fa816ada880"
+      ]
+    ],
+    "emergency_response": [
+      "Police personnel from Tongi East and Tongi West police stations were deployed and attempted to persuade students to withdraw [ev_68d7f18f8fe461ea].",
+      "Police reportedly assured students that their demand for foot overbridges would be met [ev_4be9adbfb1ccf9b1]."
+    ],
+    "event_time": {
+      "end": "2026-08-10T00:00:00",
+      "original_expression": "date normalized from corpus evidence family",
+      "precision": "day",
+      "start": "2026-08-09T00:00:00",
+      "timezone": null
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_25f22aa562f7533f",
+      "ev_33738fa816ada880",
+      "ev_4be9adbfb1ccf9b1",
+      "ev_68d7f18f8fe461ea",
+      "ev_9012296fa587ace1",
+      "ev_d9abeb718696a746"
+    ],
+    "facts": [
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "The Daily Star states one fatality (Yasin) and the Bengali post reports one named madrasa student killed; both agree on one fatality.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_9012296fa587ace1",
+          "ev_25f22aa562f7533f",
+          "ev_33738fa816ada880"
+        ],
+        "value": 1
+      },
+      {
+        "confidence": 0.8,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "No supplied evidence reports an injury count; state is not_reported rather than zero.",
+        "state": "not_reported",
+        "support_evidence_ids": [],
+        "value": null
+      }
+    ],
+    "generated_at": "2026-08-10T00:00:00Z",
+    "geolocation": {
+      "alternatives": [],
+      "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 1 km uncertainty",
+      "confidence": 0.75,
+      "display_name": "Asia Pump area, Tongi, Gazipur",
+      "granularity": "road_segment",
+      "hierarchy": {
+        "anchor": "tongi",
+        "city": "Tongi",
+        "country": "Bangladesh",
+        "district": "Gazipur",
+        "locality": "Asia Pump"
+      },
+      "latitude": 23.917957,
+      "longitude": 90.393642,
+      "method": "source-named local gazetteer centroid",
+      "supporting_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_33738fa816ada880"
+      ],
+      "uncertainty_radius_km": 1.0
+    },
+    "human_summary": "Reports describe a road accident in Tongi, Gazipur, in which a madrasa student, Yasin Ali, died, prompting students to block the Dhaka-Mymensingh Highway around 11am at the Asia Pump and Gazipur bus stand area [ev_25f22aa562f7533f][ev_9012296fa587ace1]. The posts and The Daily Star agree on one fatality, but give the victim's age differently: 15 in the Bengali post and 17 in The Daily Star [ev_33738fa816ada880][ev_9012296fa587ace1]. No injury count is reported. The blockade lasted about three hours and caused roughly 15 km of severe congestion, affecting thousands of passengers [ev_25f22aa562f7533f]. Police from Tongi East and Tongi West police stations were deployed and tried to persuade students to leave [ev_68d7f18f8fe461ea]; The Daily Star reports students ended the blockade around 3pm after police assured them their demand for foot overbridges would be met [ev_4be9adbfb1ccf9b1]. Location precision is limited to a road-segment centroid near Asia Pump in Tongi, with about 1 km uncertainty. The two independent sources are corroborating but not fully identical in metadata; one is a single Bengali post with no publisher metadata. The exact crash time, vehicle(s) involved, and circumstances of the accident remain unreported.",
+    "incident_id": "inc_cluster_002",
+    "independent_source_count": 2,
+    "involved_parties": [
+      "Yasin Ali (victim; reported age 15 in one source, 17 in another)",
+      "Protesting students (blockade participants)"
+    ],
+    "later_developments": [
+      "Students ended the blockade around 3pm after police assurances [ev_4be9adbfb1ccf9b1]."
+    ],
+    "obstruction": "Dhaka-Mymensingh Highway was blocked by protesting students for approximately three hours; the blockade started around 11am and was lifted around 3pm [ev_9012296fa587ace1][ev_4be9adbfb1ccf9b1].",
+    "provider_run_id": null,
+    "schema_version": "1.2.0",
+    "sentiment": {
+      "by_aspect": {
+        "congestion_delay": {
+          "negative": 5
+        },
+        "road_safety": {
+          "negative": 2
+        }
+      },
+      "coverage_note": "Seven supplied traffic-related sentiment expressions, all negative, express frustration over congestion/delay and concern over road safety and incident accountability. No mixed or positive traffic sentiment was supplied.",
+      "items": [
+        {
+          "aspect": "congestion_delay",
+          "confidence": 0.75,
+          "emotion": "frustration",
+          "evidence_id": "ev_33738fa816ada880",
+          "holder": "source audience or participant",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_f980c75151b79254",
+          "source_id": "src_96c9878e5c29c473",
+          "target": "traffic conditions",
+          "traffic_related": true
+        },
+        {
+          "aspect": "congestion_delay",
+          "confidence": 0.75,
+          "emotion": "frustration",
+          "evidence_id": "ev_25f22aa562f7533f",
+          "holder": "source audience or participant",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_391fc28c8cbffb55",
+          "source_id": "src_96c9878e5c29c473",
+          "target": "traffic conditions",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_4be9adbfb1ccf9b1",
+          "holder": "thedailystar.net",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_50615fe2e3d93535",
+          "source_id": "src_064d6b3f7a7be59c",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_9012296fa587ace1",
+          "holder": "thedailystar.net",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_f24bf1debe561a6c",
+          "source_id": "src_064d6b3f7a7be59c",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "congestion_delay",
+          "confidence": 0.75,
+          "emotion": "frustration",
+          "evidence_id": "ev_e40b9b57c9908c1f",
+          "holder": "thedailystar.net",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_68a914611c69ada8",
+          "source_id": "src_064d6b3f7a7be59c",
+          "target": "traffic conditions",
+          "traffic_related": true
+        },
+        {
+          "aspect": "congestion_delay",
+          "confidence": 0.75,
+          "emotion": "frustration",
+          "evidence_id": "ev_1daa4367bcff93e1",
+          "holder": "thedailystar.net",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_45deddcf0e76ae24",
+          "source_id": "src_064d6b3f7a7be59c",
+          "target": "traffic conditions",
+          "traffic_related": true
+        },
+        {
+          "aspect": "congestion_delay",
+          "confidence": 0.75,
+          "emotion": "frustration",
+          "evidence_id": "ev_d8845078d12a5ec7",
+          "holder": "thedailystar.net",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_b5925edd927a9947",
+          "source_id": "src_064d6b3f7a7be59c",
+          "target": "traffic conditions",
+          "traffic_related": true
+        }
+      ],
+      "notable_minority_views": [],
+      "sample_size": 7,
+      "traffic_relevant_count": 7
+    },
+    "source_ids": [
+      "src_96c9878e5c29c473",
+      "src_064d6b3f7a7be59c"
+    ],
+    "status": "reported",
+    "title": "Road crash death of student sparks three-hour Dhaka-Mymensingh Highway blockade in Tongi",
+    "unresolved_questions": [
+      "What was the exact time, mechanism, and vehicle(s) involved in the crash that killed Yasin?",
+      "What are the victim's correct age and full identity (15 or 17; Yasin Ali vs Yasin)?",
+      "Was anyone injured in the road accident?",
+      "Were any official findings or charges announced after the police response?"
+    ],
+    "vehicles": []
+  },
+  {
+    "alternate_time_claims": [
+      {
+        "end": "2025-12-13T00:00:00",
+        "original_expression": "date normalized from corpus evidence family; sources say 'today (12 December)' and 'early Friday'",
+        "precision": "day",
+        "start": "2025-12-12T00:00:00",
+        "timezone": null
+      }
+    ],
+    "collision": "DNCC garbage truck hit/rammed the victims' motorcycle",
+    "congestion_delay": null,
+    "contributing_factors": [],
+    "data_quality_warnings": [
+      "src_b93f4489c5cce965 is marked as a repost; independent_source_count therefore reflects only the The Business Standard family.",
+      "The image analysis for html/08 is described as a composite news graphic; the map pin and truck image should not be treated as direct crash-scene photographs.",
+      "The event year 2025 is inherited from the normalized corpus metadata; source text itself says 'today (12 December)' and 'early Friday' without an explicit year."
+    ],
+    "duplicate_groups": [
+      [
+        "ev_9e4a653608620eff",
+        "ev_b0b8b99479d8ee63",
+        "ev_3800704948f1c63d"
+      ],
+      [
+        "ev_5a4ec4c3f6f0abd5",
+        "ev_5c4e8c46dd9be73e",
+        "ev_c653379844e9e6d9"
+      ],
+      [
+        "ev_14dde01cdcc5810e",
+        "ev_738d53c92c9d089d"
+      ],
+      [
+        "ev_06ec52e20a074589",
+        "ev_2e2e59eb3bfdfb64",
+        "ev_031d7714f37e547d"
+      ],
+      [
+        "ev_1d44c58721ec92c0",
+        "ev_244b71a7a2c0143a",
+        "ev_2fed54736fb0fd49",
+        "ev_3800704948f1c63d",
+        "ev_5ed24943db8b6a48",
+        "ev_c80e9fe54daea2bc",
+        "ev_f967ca19b4c62d12"
+      ],
+      [
+        "ev_1eacca6cdb82b6ae",
+        "ev_3a11629dd10d78e7",
+        "ev_7c71a6f4b2bc95da",
+        "ev_e787e97741729869"
+      ]
+    ],
+    "emergency_response": [],
+    "event_time": {
+      "end": null,
+      "original_expression": "around 4:30am",
+      "precision": "minute",
+      "start": "2025-12-12T04:30:00",
+      "timezone": null
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_031d7714f37e547d",
+      "ev_06ec52e20a074589",
+      "ev_14dde01cdcc5810e",
+      "ev_1d44c58721ec92c0",
+      "ev_1eacca6cdb82b6ae",
+      "ev_244b71a7a2c0143a",
+      "ev_2e2e59eb3bfdfb64",
+      "ev_2fed54736fb0fd49",
+      "ev_3800704948f1c63d",
+      "ev_3a11629dd10d78e7",
+      "ev_5a4ec4c3f6f0abd5",
+      "ev_5c4e8c46dd9be73e",
+      "ev_5ed24943db8b6a48",
+      "ev_738d53c92c9d089d",
+      "ev_7c71a6f4b2bc95da",
+      "ev_9e4a653608620eff",
+      "ev_ae420e88f0151c14",
+      "ev_b0b8b99479d8ee63",
+      "ev_bc4144b4e776d8ef",
+      "ev_c653379844e9e6d9",
+      "ev_c80e9fe54daea2bc",
+      "ev_e787e97741729869",
+      "ev_f967ca19b4c62d12"
+    ],
+    "facts": [
+      {
+        "confidence": 0.92,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "All reporting texts consistently state that two university students were killed in the collision.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_06ec52e20a074589",
+          "ev_2e2e59eb3bfdfb64",
+          "ev_5a4ec4c3f6f0abd5",
+          "ev_5c4e8c46dd9be73e",
+          "ev_c653379844e9e6d9"
+        ],
+        "value": 2
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "No source reports an explicit injury count; the phrase 'seriously injured' appears in a classmate account but is not quantified.",
+        "state": "not_reported",
+        "support_evidence_ids": [],
+        "value": null
+      }
+    ],
+    "generated_at": "2026-01-01T00:00:00Z",
+    "geolocation": {
+      "alternatives": [
+        {
+          "confidence": 0.68,
+          "evidence_ids": [
+            "ev_1eacca6cdb82b6ae",
+            "ev_3a11629dd10d78e7",
+            "ev_7c71a6f4b2bc95da",
+            "ev_e787e97741729869"
+          ],
+          "granularity": "area",
+          "hierarchy": {
+            "anchor": "demra",
+            "city": "Dhaka",
+            "country": "Bangladesh"
+          },
+          "latitude": 23.7055,
+          "longitude": 90.4867,
+          "name": "Demra, Dhaka",
+          "normalized_name": "demra, dhaka",
+          "reason": "source-named place represented by a local gazetteer centroid; approximately 5 km uncertainty"
+        }
+      ],
+      "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 3 km uncertainty",
+      "confidence": 0.75,
+      "display_name": "Konapara, Demra",
+      "granularity": "area",
+      "hierarchy": {
+        "anchor": "demra",
+        "city": "Dhaka",
+        "country": "Bangladesh",
+        "locality": "Konapara"
+      },
+      "latitude": 23.71677,
+      "longitude": 90.4685,
+      "method": "source-named local gazetteer centroid",
+      "supporting_evidence_ids": [
+        "ev_5c4e8c46dd9be73e",
+        "ev_bc4144b4e776d8ef",
+        "ev_c653379844e9e6d9"
+      ],
+      "uncertainty_radius_km": 3.0
+    },
+    "human_summary": "Multiple source records report that two university students, named as Redwan and Apu, were killed after a DNCC garbage truck hit their motorcycle in the Konapara area of Demra, Dhaka. The Business Standard family and a Dhaka Tribune repost both carry the same collision account [ev_2e2e59eb3bfdfb64, ev_5a4ec4c3f6f0abd5, ev_9e4a653608620eff]. A classmate quoted in both reports said the victims were returning from a wedding around 4:30am; that timing is preserved as a reported claim [ev_031d7714f37e547d, ev_738d53c92c9d089d]. Fused casualty data are two fatalities and no reported injury count. Location is Konapara in Demra at a gazetteer centroid with about 3 km uncertainty [ev_1d44c58721ec92c0, ev_244b71a7a2c0143a]. A broader Demra map area appears as an alternative [ev_1eacca6cdb82b6ae]. No official cause, fault, traffic effects, emergency response, or later development was supplied. The main unresolved uncertainty is the exact crash point; the only time precision is an 'around 4:30am' account. A reader comment blamed 'both sides' but is not treated as a finding [ev_bc4144b4e776d8ef].",
+    "incident_id": "inc_cluster-003",
+    "independent_source_count": 1,
+    "involved_parties": [
+      "Redwan",
+      "Apu"
+    ],
+    "later_developments": [],
+    "obstruction": null,
+    "provider_run_id": null,
+    "schema_version": "1.0.0",
+    "sentiment": {
+      "by_aspect": {},
+      "coverage_note": "No coded sentiment records were supplied. One reader comment in evidence blames 'both sides' and says drivers 'drive crazy' in the area [ev_bc4144b4e776d8ef], but it was not included in the sentiment records and no polarity score is inferred.",
+      "items": [],
+      "notable_minority_views": [
+        "A commenter said both sides could be at fault and described drivers in the Jatrabari/Demra/Konapara/Shonir Akhra zone as driving crazily [ev_bc4144b4e776d8ef]."
+      ],
+      "sample_size": 0,
+      "traffic_relevant_count": 0
+    },
+    "source_ids": [
+      "src_08e85baf3bc7a60a",
+      "src_3550b64508b9c484",
+      "src_8dac3e72e19fdb88",
+      "src_b93f4489c5cce965",
+      "src_f73b970fc52b9df6"
+    ],
+    "status": "reported",
+    "title": "Fatal truck-motorcycle collision in Konapara, Demra",
+    "unresolved_questions": [
+      "What is the exact crash point within Konapara/Demra? Supplied coordinates are gazetteer centroids, not precise incident locations.",
+      "Is the 'around 4:30am' time an official time or only the classmate's account? The source text attributes it to the victims' classmate.",
+      "Were there any injuries beyond the two reported fatalities? No explicit injury count was reported.",
+      "What was the official cause or fault determination? No investigative or police statement is provided."
+    ],
+    "vehicles": [
+      "DNCC garbage truck",
+      "motorcycle"
+    ]
+  },
+  {
+    "alternate_time_claims": [],
+    "collision": null,
+    "congestion_delay": null,
+    "contributing_factors": [],
+    "data_quality_warnings": [
+      "The two evidence records appear to be duplicate variants from the same Channel I Online article, so they do not provide independent corroboration.",
+      "The article was captured with the generic title 'Untitled' and lacks explicit time and location metadata.",
+      "The structured casualty_quantities are empty even though the article text reports one named fatality; the value is inferred directly from the narrative."
+    ],
+    "duplicate_groups": [
+      [
+        "ev_9867b75ca9d83221",
+        "ev_ba3cd608eb8053a2"
+      ]
+    ],
+    "emergency_response": [],
+    "event_time": {
+      "end": null,
+      "original_expression": null,
+      "precision": "unknown",
+      "start": null,
+      "timezone": null
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_9867b75ca9d83221",
+      "ev_ba3cd608eb8053a2"
+    ],
+    "facts": [
+      {
+        "confidence": 0.82,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "The supplied Channel I Online article reports that student movement coordinator Fahim Ahmed was killed in a road accident. The report names one fatality and no other fatality number is supplied; this count is reported rather than independently confirmed.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_9867b75ca9d83221",
+          "ev_ba3cd608eb8053a2"
+        ],
+        "value": 1
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "No injury count or injury information is present in the evidence bundle.",
+        "state": "not_reported",
+        "support_evidence_ids": [],
+        "value": null
+      }
+    ],
+    "generated_at": "2026-05-07T00:00:00Z",
+    "geolocation": {
+      "alternatives": [],
+      "ambiguity_reason": "No crash location was supplied in the evidence.",
+      "confidence": 0.0,
+      "display_name": null,
+      "granularity": "unknown",
+      "hierarchy": {},
+      "latitude": null,
+      "longitude": null,
+      "method": "unresolved",
+      "supporting_evidence_ids": [],
+      "uncertainty_radius_km": null
+    },
+    "human_summary": "Channel I Online reported a road crash in which student movement coordinator Fahim Ahmed was killed [ev_9867b75ca9d83221]. The report refers to a photograph of Ahmed standing next to a truck, but it does not state that the truck was involved in the crash [ev_ba3cd608eb8053a2]. The time and location of the crash are not given, and no injury count or other casualty details were reported. Both evidence records come from the same Channel I Online article, so the incident currently has only one independent source [ev_9867b75ca9d83221, ev_ba3cd608eb8053a2]. No traffic effects, emergency response, or later developments are described. The main unresolved uncertainties are the exact crash time and place, whether anyone else was injured or killed, and the full circumstances of the collision.",
+    "incident_id": "inc_cluster-004",
+    "independent_source_count": 1,
+    "involved_parties": [
+      "Fahim Ahmed"
+    ],
+    "later_developments": [],
+    "obstruction": null,
+    "provider_run_id": null,
+    "schema_version": "1.0.0",
+    "sentiment": {
+      "by_aspect": {},
+      "coverage_note": "No traffic-related sentiment expression was supplied.",
+      "items": [],
+      "notable_minority_views": [],
+      "sample_size": 0,
+      "traffic_relevant_count": 0
+    },
+    "source_ids": [
+      "src_b0acde03f433f474"
+    ],
+    "status": "reported",
+    "title": "Fahim Ahmed reported killed in road crash",
+    "unresolved_questions": [
+      "What was the exact time of the crash?",
+      "Where did the crash occur?",
+      "Were any other people injured or killed?",
+      "What were the vehicle(s) and collision circumstances?",
+      "Was the truck visible in the photograph involved in the crash?"
+    ],
+    "vehicles": []
+  },
+  {
+    "alternate_time_claims": [
+      {
+        "end": null,
+        "original_expression": "around 5:30am yesterday",
+        "precision": "minute",
+        "start": null,
+        "timezone": null
+      }
+    ],
+    "collision": "Reported: a Naogaon-bound Shah Fateh Ali Paribahan bus coming from Dhaka gave way to a motorcycle, its brakes failed, it struck an electricity pole, then crashed into labourers and people waiting to hire them [ev_7d10439deaca950c]. Another report described a speeding bus running over labourers [ev_3d9b6f7ef1b8f36b]. Video analysis shows the bus on the roadway with front/front-side damage and a crowd at the scene [ev_b02f78dc220fb6ca].",
+    "congestion_delay": null,
+    "contributing_factors": [
+      "Reported by fire service official: brake failure after the bus gave way to a motorcycle [ev_7d10439deaca950c]",
+      "Reported in The Daily Star: bus was speeding [ev_3d9b6f7ef1b8f36b]",
+      "Reported by BRTA: bus had been operating without a route permit for about 1.5 years [ev_c8197f78704ba550]"
+    ],
+    "data_quality_warnings": [
+      "The Daily Star article headline references '16 killed in Sylhet, Bogura road crashes', but this bundle contains only the Bogura incident; Sylhet facts are absent.",
+      "A structured mention for The Daily Star lists 'truck' among vehicles, but no supplied evidence text mentions a truck; this is likely an extraction artifact.",
+      "Injury count is missing even though injured persons are reported.",
+      "Exact date is ambiguous: article says 'yesterday' without publication date; the supplied mention normalizes to 2026-08-07/08 with day precision."
+    ],
+    "duplicate_groups": [],
+    "emergency_response": [
+      "District administration pledged Tk 25,000 to each deceased family and Tk 15,000 to each injured person, with treatment costs covered [ev_5a31009168ec3910]",
+      "A three-member committee led by Additional District Magistrate Masud Hossain was formed to identify responsibility, with a report due within three working days [ev_35ec9cf7714b6c1c]",
+      "Fire service official Shahidul Islam reported collision details [ev_7d10439deaca950c]",
+      "District administrator reportedly visited a hospital to see injured persons [ev_be00c7adf6f585e6]"
+    ],
+    "event_time": {
+      "end": "2026-08-08T00:00:00Z",
+      "original_expression": "around 5:30am yesterday; date normalized from corpus evidence family",
+      "precision": "day",
+      "start": "2026-08-07T00:00:00Z",
+      "timezone": null
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_35ec9cf7714b6c1c",
+      "ev_3c2f6e349cdbbcef",
+      "ev_3d9b6f7ef1b8f36b",
+      "ev_5a31009168ec3910",
+      "ev_7d10439deaca950c",
+      "ev_87b42b640fb4be67",
+      "ev_b02f78dc220fb6ca",
+      "ev_be00c7adf6f585e6",
+      "ev_c8197f78704ba550",
+      "ev_deb71134d0e6a8a6"
+    ],
+    "facts": [
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "Two independent sources report seven deaths in the Bogura bus crash; no conflicting death count was supplied.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_3d9b6f7ef1b8f36b",
+          "ev_b02f78dc220fb6ca",
+          "ev_deb71134d0e6a8a6"
+        ],
+        "value": 7
+      },
+      {
+        "confidence": 0.6,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "Injured persons are mentioned and were reportedly seen at a hospital, but no injury count is supplied, so the number remains unknown.",
+        "state": "unknown",
+        "support_evidence_ids": [
+          "ev_be00c7adf6f585e6",
+          "ev_5a31009168ec3910"
+        ],
+        "value": null
+      }
+    ],
+    "generated_at": "2026-08-08T00:00:00Z",
+    "geolocation": {
+      "alternatives": [
+        {
+          "confidence": 0.55,
+          "evidence_ids": [
+            "ev_b02f78dc220fb6ca",
+            "ev_deb71134d0e6a8a6",
+            "ev_be00c7adf6f585e6"
+          ],
+          "granularity": "district",
+          "hierarchy": {
+            "anchor": "bogura",
+            "country": "Bangladesh",
+            "district": "Bogura"
+          },
+          "latitude": 24.8465,
+          "longitude": 89.3773,
+          "name": "Bogura District, Bangladesh",
+          "normalized_name": "bogura district, bangladesh",
+          "reason": "source-named place represented by local gazetteer centroid; approximately 35 km uncertainty"
+        }
+      ],
+      "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 3 km uncertainty",
+      "confidence": 0.75,
+      "display_name": "Erulia Bazar, Bogura Sadar, Bogura",
+      "granularity": "area",
+      "hierarchy": {
+        "anchor": "bogura",
+        "country": "Bangladesh",
+        "district": "Bogura",
+        "locality": "Erulia Bazar",
+        "upazila": "Bogura Sadar"
+      },
+      "latitude": 24.858327,
+      "longitude": 89.333249,
+      "method": "source-named local gazetteer centroid",
+      "supporting_evidence_ids": [
+        "ev_3d9b6f7ef1b8f36b"
+      ],
+      "uncertainty_radius_km": 3.0
+    },
+    "human_summary": "Seven people were killed when a bus ran into labourers waiting for work beside the Bogura-Naogaon regional highway near Erulia Bazar, Bogura Sadar, Bogura, around 5:30am yesterday [ev_3d9b6f7ef1b8f36b]. The Daily Star's account describes a speeding bus that ran over the workers, while a fire service official reported that the Naogaon-bound Shah Fateh Ali Paribahan bus, coming from Dhaka, had brake failure after giving way to a motorcycle, struck an electricity pole, and then hit labourers and people who had come to hire them [ev_7d10439deaca950c]. Ekattor TV independently reported seven deaths in a bus crash in Bogura and showed hospital treatment of injured persons, though no injury count was given [ev_deb71134d0e6a8a6, ev_be00c7adf6f585e6]. Locals blocked the road demanding speed breakers; an executive engineer promised installation [ev_3c2f6e349cdbbcef]. Authorities pledged compensation [ev_5a31009168ec3910], formed an inquiry committee [ev_35ec9cf7714b6c1c], and BRTA reported the bus lacked a route permit [ev_c8197f78704ba550]. Location precision is area-level, about 3 km around Erulia Bazar; an alternative district-level Bogura location is retained from the video source [ev_b02f78dc220fb6ca]. The main unresolved uncertainties are the total number of injured people and the conflicting reported causes of speeding versus brake failure.",
+    "incident_id": "inc_cluster_005",
+    "independent_source_count": 2,
+    "involved_parties": [
+      "labourers waiting for work (victims)",
+      "people who had come to hire labourers (victims)",
+      "motorcycle (reported object of the bus's evasive action)"
+    ],
+    "later_developments": [
+      "Locals blocked the road at the scene, demanding speed breakers; the Roads and Highways Department executive engineer visited and assured protesters that speed breakers would be installed soon [ev_3c2f6e349cdbbcef]",
+      "BRTA stated the bus lacked a route permit for the past one and a half years [ev_c8197f78704ba550]"
+    ],
+    "obstruction": "Locals blocked the road at the scene, demanding speed breakers [ev_3c2f6e349cdbbcef].",
+    "provider_run_id": null,
+    "schema_version": "1.0.0",
+    "sentiment": {
+      "by_aspect": {
+        "road_safety": {
+          "negative": 1
+        }
+      },
+      "coverage_note": "One traffic-related sentiment supplied, expressing negative concern about road safety and incident accountability. No broader public-opinion sentiment was supplied.",
+      "items": [
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_3c2f6e349cdbbcef",
+          "holder": "thedailystar.net",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_64f3b6560f2086d6",
+          "source_id": "src_dfdb7ca9eb9e785d",
+          "target": "incident accountability",
+          "traffic_related": true
+        }
+      ],
+      "notable_minority_views": [],
+      "sample_size": 1,
+      "traffic_relevant_count": 1
+    },
+    "source_ids": [
+      "src_dfdb7ca9eb9e785d",
+      "src_fdc9d6452f3a9057"
+    ],
+    "status": "reported",
+    "title": "Seven killed in bus crash near Erulia Bazar, Bogura",
+    "unresolved_questions": [
+      "How many people were injured, and what are their conditions?",
+      "Was there a final official determination of cause: speeding, brake failure, or another factor?",
+      "What exact date and time does 'around 5:30am yesterday' correspond to, and in which timezone?",
+      "Were arrests or charges filed in connection with the crash?",
+      "Were speed breakers actually installed after the promised visit?"
+    ],
+    "vehicles": [
+      "bus (Shah Fateh Ali Paribahan)"
+    ]
+  },
+  {
+    "alternate_time_claims": [
+      {
+        "end": "2026-08-07T07:00:00+06:00",
+        "original_expression": "around 7:00am",
+        "precision": "hour",
+        "start": "2026-08-07T07:00:00+06:00",
+        "timezone": "Asia/Dhaka"
+      }
+    ],
+    "collision": "Head-on collision between two passenger buses; the Unique Paribahan bus reportedly fell into a roadside ditch after impact.",
+    "congestion_delay": null,
+    "contributing_factors": [
+      "Reported witness claim: The Bengal Paribahan bus attempted to overtake a pickup and veered onto the right side; high speed was alleged [ev_e7e4274f75924b4d].",
+      "Reported social-media video: The Bengal Paribahan bus appeared to lose control before impact [ev_8675a512af387063]."
+    ],
+    "data_quality_warnings": [
+      "Casualty counts conflict between sources (8 vs 9 fatalities; 25 vs 24 injuries), so the fused casualty facts are marked unknown pending corroboration.",
+      "Location is an area-level gazetteer centroid with about 3 km uncertainty, not an exact crash point.",
+      "ev_fd400a07465e0029, from Independent Television, is a ministerial road-safety statement in Sylhet rather than a report of this crash; it was excluded from incident facts and not counted as independent crash-source coverage.",
+      "The Daily Star source title refers to 16 killed in Sylhet and Bogura road crashes, while the cluster evidence body assigns 9 deaths to this Sylhet crash; article-level totals were not used.",
+      "ev_6e66ceecc047e881 and ev_80bb0d4e8bc0bb7e are essentially duplicate captions from the same Prothom Alo article; counted once."
+    ],
+    "duplicate_groups": [
+      [
+        "ev_6e66ceecc047e881",
+        "ev_80bb0d4e8bc0bb7e"
+      ]
+    ],
+    "emergency_response": [
+      "Many injured passengers were rescued and taken to Sylhet MAG Osmani Medical College Hospital [ev_03c6593b6ff5558e]."
+    ],
+    "event_time": {
+      "end": "2026-08-07T07:30:00+06:00",
+      "original_expression": "around 7:30 am on Friday in the Kashikapan area on the Dhaka–Sylhet Highway",
+      "precision": "hour",
+      "start": "2026-08-07T07:30:00+06:00",
+      "timezone": "Asia/Dhaka"
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_03c6593b6ff5558e",
+      "ev_189d525e6f97c130",
+      "ev_6e66ceecc047e881",
+      "ev_80bb0d4e8bc0bb7e",
+      "ev_851244544886379c",
+      "ev_8675a512af387063",
+      "ev_99685340cfb96e6d",
+      "ev_a50c19158fca4347",
+      "ev_bd7059355180a4f1",
+      "ev_c78334d8553e64e3",
+      "ev_e7e4274f75924b4d",
+      "ev_f4f6bf3ae3a5ae94"
+    ],
+    "facts": [
+      {
+        "confidence": 0.95,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "event_type",
+        "selection_rationale": "Multiple sources describe a road collision involving two passenger buses on a highway.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_a50c19158fca4347",
+          "ev_99685340cfb96e6d",
+          "ev_8675a512af387063"
+        ],
+        "value": "road_crash"
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "incident_date",
+        "selection_rationale": "Captions and article text identify 7 August 2026 as the incident date.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_6e66ceecc047e881",
+          "ev_80bb0d4e8bc0bb7e",
+          "ev_a50c19158fca4347"
+        ],
+        "value": "2026-08-07"
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [
+          8,
+          9
+        ],
+        "contradiction": true,
+        "field": "fatalities",
+        "selection_rationale": "Prothom Alo reports 8 killed; The Daily Star reports 9 killed. The conflict is preserved; no average is applied.",
+        "state": "unknown",
+        "support_evidence_ids": [
+          "ev_a50c19158fca4347",
+          "ev_f4f6bf3ae3a5ae94",
+          "ev_c78334d8553e64e3"
+        ],
+        "value": null
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [
+          25,
+          24
+        ],
+        "contradiction": true,
+        "field": "injuries",
+        "selection_rationale": "Prothom Alo reports at least 25 injured; The Daily Star reports at least 24 injured. The conflict is preserved; no average is applied.",
+        "state": "unknown",
+        "support_evidence_ids": [
+          "ev_a50c19158fca4347",
+          "ev_03c6593b6ff5558e",
+          "ev_f4f6bf3ae3a5ae94"
+        ],
+        "value": null
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "vehicles_involved",
+        "selection_rationale": "Police and eyewitnesses cited in both articles name the same two buses and their directions.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_99685340cfb96e6d",
+          "ev_8675a512af387063",
+          "ev_f4f6bf3ae3a5ae94"
+        ],
+        "value": "Two passenger buses: a Sylhet-bound Bengal Paribahan bus and a Dhaka-bound Unique Paribahan bus"
+      },
+      {
+        "confidence": 0.8,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "collision_type",
+        "selection_rationale": "Police and witness reports describe a head-on collision, and multiple reports state the Unique Paribahan bus entered a ditch.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_189d525e6f97c130",
+          "ev_99685340cfb96e6d",
+          "ev_c78334d8553e64e3",
+          "ev_e7e4274f75924b4d"
+        ],
+        "value": "Head-on collision between the two buses; the Unique Paribahan bus reportedly fell into a roadside ditch"
+      },
+      {
+        "confidence": 0.6,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "reported_contributing_factor",
+        "selection_rationale": "These are reported witness/video claims, not established fault or speed; no official finding was supplied.",
+        "state": "unknown",
+        "support_evidence_ids": [
+          "ev_e7e4274f75924b4d",
+          "ev_8675a512af387063"
+        ],
+        "value": "Witnesses reported the Bengal Paribahan bus attempted to overtake a pickup and veered onto the right side before the collision; high speed was alleged. A social-media video reportedly showed loss of control."
+      }
+    ],
+    "generated_at": "2026-08-07T12:00:00Z",
+    "geolocation": {
+      "alternatives": [],
+      "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 3 km uncertainty",
+      "confidence": 0.68,
+      "display_name": "Kashikapan, Osmaninagar, Sylhet",
+      "granularity": "area",
+      "hierarchy": {
+        "anchor": "sylhet",
+        "country": "Bangladesh",
+        "district": "Sylhet",
+        "upazila": "Osmaninagar"
+      },
+      "latitude": 24.7063,
+      "longitude": 91.7417,
+      "method": "source-named local gazetteer centroid",
+      "supporting_evidence_ids": [
+        "ev_851244544886379c",
+        "ev_8675a512af387063"
+      ],
+      "uncertainty_radius_km": 3.0
+    },
+    "human_summary": "On 7 August 2026, two passenger buses collided head-on in the Kashikapan area of the Dhaka–Sylhet highway in Osmaninagar, Sylhet, according to reporting from Prothom Alo [ev_99685340cfb96e6d] and The Daily Star [ev_8675a512af387063]. Police and eyewitnesses cited by Prothom Alo identified the vehicles as a Sylhet-bound Bengal Paribahan bus and a Dhaka-bound Unique Paribahan bus [ev_99685340cfb96e6d]. The Daily Star cited witnesses saying the Bengal bus attempted to overtake a pickup, veered onto the right side, and hit the Unique bus, which fell into a roadside ditch [ev_e7e4274f75924b4d]; a social-media video reportedly shows loss of control [ev_8675a512af387063]. The exact location is only known at area level; the supplied point is a representative centroid with about 3 km uncertainty. Casualty counts conflict: Prothom Alo reports eight killed and at least 25 injured [ev_a50c19158fca4347], while The Daily Star reports nine passengers of the Unique bus died and at least 24 were injured [ev_f4f6bf3ae3a5ae94]. Injured passengers were reportedly rescued and taken to Sylhet MAG Osmani Medical College Hospital [ev_03c6593b6ff5558e]. The identities of the dead and injured were not immediately known [ev_189d525e6f97c130]. Two independent sources cover this crash. No traffic closure or delay details were supplied.",
+    "incident_id": "inc_cluster-006",
+    "independent_source_count": 2,
+    "involved_parties": [
+      "Unique Paribahan (Dhaka-bound bus) passengers",
+      "Bengal Paribahan (Sylhet-bound bus) passengers",
+      "Faruk Miah, injured Unique Paribahan passenger"
+    ],
+    "later_developments": [],
+    "obstruction": null,
+    "provider_run_id": null,
+    "schema_version": "1.0.0",
+    "sentiment": {
+      "by_aspect": {
+        "road_safety": {
+          "negative": 1
+        }
+      },
+      "coverage_note": "One traffic-related sentiment expression was supplied by The Daily Star's article, expressing concern about incident accountability under the road-safety aspect. No other traffic-related sentiment was supplied.",
+      "items": [
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_3c2f6e349cdbbcef",
+          "holder": "thedailystar.net",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.25,
+          "sentiment_id": "sent_64f3b6560f2086d6",
+          "source_id": "src_dfdb7ca9eb9e785d",
+          "target": "incident accountability",
+          "traffic_related": true
+        }
+      ],
+      "notable_minority_views": [],
+      "sample_size": 1,
+      "traffic_relevant_count": 1
+    },
+    "source_ids": [
+      "src_34358089c6fb35c0",
+      "src_dfdb7ca9eb9e785d"
+    ],
+    "status": "reported",
+    "title": "Two passenger buses collide on Dhaka–Sylhet highway in Kashikapan, Osmaninagar, Sylhet",
+    "unresolved_questions": [
+      "Which fatality count is correct for this crash: 8 (Prothom Alo) or 9 (The Daily Star)?",
+      "Which injury count is correct: at least 25 (Prothom Alo) or at least 24 (The Daily Star)?",
+      "Did all deaths occur among Unique Paribahan passengers, and were all deaths at the scene?",
+      "What caused the Bengal Paribahan bus to cross into oncoming traffic? Overtaking is reported but not confirmed.",
+      "Were any road closures or traffic delays caused by the crash? No traffic-effect evidence was supplied."
+    ],
+    "vehicles": [
+      "Bengal Paribahan bus",
+      "Unique Paribahan bus"
+    ]
+  },
+  {
+    "alternate_time_claims": [],
+    "collision": null,
+    "congestion_delay": null,
+    "contributing_factors": [],
+    "data_quality_warnings": [
+      "Only one independent source supports this incident; all sentiment expressions trace to that same source ID.",
+      "The raw evidence record contains no date; the supplied mention provides a normalized day-precision interval 2026-08-09 to 2026-08-10 labeled 'date normalized from corpus evidence family'.",
+      "Location is ambiguous: source text names Gazipur, while the mention candidate is Tongi, Gazipur. The coordinate is a gazetteer centroid with approximately 12 km uncertainty.",
+      "Sentiment entries in the bundle referenced evidence IDs not present in the top-level evidence array; for validation these were mapped to the sole available evidence ID ev_32e6290ff8c2ead6."
+    ],
+    "duplicate_groups": [],
+    "emergency_response": [],
+    "event_time": {
+      "end": "2026-08-10T00:00:00",
+      "original_expression": "date normalized from corpus evidence family",
+      "precision": "day",
+      "start": "2026-08-09T00:00:00",
+      "timezone": null
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_32e6290ff8c2ead6"
+    ],
+    "facts": [
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "event_type",
+        "selection_rationale": "The single evidence record and its mention both classify the event as a road crash.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": "road_crash"
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "The source's casualty_quantities and normalized claim both report fatalities=1; no conflicting fatality count is supplied.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": 1
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "The source casualty_quantities has injuries=null and no source reports an injury count, so injuries are marked not_reported rather than zero.",
+        "state": "not_reported",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": null
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "road_user_involved",
+        "selection_rationale": "The road_users field identifies a student as the fatality; the exact road-user role is not specified.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": "student"
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "vehicles",
+        "selection_rationale": "The vehicles array is empty; no vehicle information was supplied.",
+        "state": "not_reported",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": null
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "traffic_effects",
+        "selection_rationale": "No traffic effects were supplied in the evidence.",
+        "state": "not_reported",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": null
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "emergency_response",
+        "selection_rationale": "The police_or_emergency_response array is empty; no response was reported.",
+        "state": "not_reported",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": null
+      },
+      {
+        "confidence": 0.65,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "contributing_factors",
+        "selection_rationale": "No contributing factors were supplied in the evidence.",
+        "state": "not_reported",
+        "support_evidence_ids": [
+          "ev_32e6290ff8c2ead6"
+        ],
+        "value": null
+      }
+    ],
+    "generated_at": "2026-08-10T00:00:00Z",
+    "geolocation": {
+      "alternatives": [
+        {
+          "confidence": 0.68,
+          "evidence_ids": [
+            "ev_32e6290ff8c2ead6"
+          ],
+          "granularity": "city",
+          "hierarchy": {},
+          "latitude": null,
+          "longitude": null,
+          "name": "Gazipur",
+          "normalized_name": "gazipur",
+          "reason": "Raw claim, normalized claim, and source title name Gazipur; no coordinates are supplied for this candidate."
+        }
+      ],
+      "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 12 km uncertainty",
+      "confidence": 0.68,
+      "display_name": "Tongi, Gazipur",
+      "granularity": "city",
+      "hierarchy": {
+        "anchor": "tongi",
+        "city": "Tongi",
+        "country": "Bangladesh",
+        "district": "Gazipur"
+      },
+      "latitude": 23.8957,
+      "longitude": 90.4023,
+      "method": "source-named local gazetteer centroid",
+      "supporting_evidence_ids": [
+        "ev_32e6290ff8c2ead6"
+      ],
+      "uncertainty_radius_km": 12.0
+    },
+    "human_summary": "One video-analysis source [ev_32e6290ff8c2ead6] reports a road crash in Gazipur, Bangladesh, in which a student was killed. The source title connects the crash to a protest in Gazipur. The casualty fact is fused as one fatality; no injury count was supplied, so injuries are marked not reported. The supplied mention places the event in Tongi, Gazipur, at a city-level gazetteer centroid (approximately 12 km uncertainty), while the raw claim names only Gazipur. The event time is given by the mention as a day-precision interval 2026-08-09 to 2026-08-10, but the raw evidence has no date. No vehicles, traffic effects, contributing factors, or emergency response were reported. All sentiment expressions are from the single source and concern road safety/accountability. The main uncertainty is the precise location and time of the crash, the victim's road-user role, and any injuries beyond the reported fatality.",
+    "incident_id": "cluster-007",
+    "independent_source_count": 1,
+    "involved_parties": [
+      "student (fatal casualty)"
+    ],
+    "later_developments": [
+      "Report of protest in Gazipur over the student's death appears in the source title."
+    ],
+    "obstruction": null,
+    "provider_run_id": null,
+    "schema_version": "1.2.0",
+    "sentiment": {
+      "by_aspect": {
+        "road_safety": {
+          "negative": 6
+        }
+      },
+      "coverage_note": "All six sentiment expressions are traffic-related and come from the same single source; no independent sentiment evidence is available.",
+      "items": [
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_32e6290ff8c2ead6",
+          "holder": "Channel 24",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.1,
+          "sentiment_id": "sent_607568b36140bbbe",
+          "source_id": "src_ac806a793f71ca54",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.65,
+          "emotion": "concern",
+          "evidence_id": "ev_32e6290ff8c2ead6",
+          "holder": "source audience or participant",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.1,
+          "sentiment_id": "sent_4ea5d430db02e0b6",
+          "source_id": "src_ac806a793f71ca54",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_32e6290ff8c2ead6",
+          "holder": "source audience or participant",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.1,
+          "sentiment_id": "sent_857912a1380da4b7",
+          "source_id": "src_ac806a793f71ca54",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_32e6290ff8c2ead6",
+          "holder": "source audience or participant",
+          "holder_type": "source",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.1,
+          "sentiment_id": "sent_9784f7572c739de5",
+          "source_id": "src_ac806a793f71ca54",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.75,
+          "emotion": "concern",
+          "evidence_id": "ev_32e6290ff8c2ead6",
+          "holder": "source audience or participant",
+          "holder_type": "group",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.1,
+          "sentiment_id": "sent_3278aaee71f96bb6",
+          "source_id": "src_ac806a793f71ca54",
+          "target": "incident accountability",
+          "traffic_related": true
+        },
+        {
+          "aspect": "road_safety",
+          "confidence": 0.65,
+          "emotion": "concern",
+          "evidence_id": "ev_32e6290ff8c2ead6",
+          "holder": "source audience or participant",
+          "holder_type": "group",
+          "intensity": "medium",
+          "polarity": "negative",
+          "sarcasm_uncertainty": 0.1,
+          "sentiment_id": "sent_65615cd287753652",
+          "source_id": "src_ac806a793f71ca54",
+          "target": "incident accountability",
+          "traffic_related": true
+        }
+      ],
+      "notable_minority_views": [],
+      "sample_size": 6,
+      "traffic_relevant_count": 6
+    },
+    "source_ids": [
+      "src_ac806a793f71ca54"
+    ],
+    "status": "reported",
+    "title": "Road crash in Gazipur kills student",
+    "unresolved_questions": [
+      "What is the exact crash location within Gazipur or Tongi?",
+      "What is the precise time and date of the crash?",
+      "What road-user role did the deceased student have, and were there any other casualties or injuries?",
+      "Which vehicle(s), if any, were involved?",
+      "Are the reported protests a later development or only part of the source headline?",
+      "Was any police or emergency response present?"
+    ],
+    "vehicles": []
+  },
+  {
+    "alternate_time_claims": [],
+    "collision": null,
+    "congestion_delay": null,
+    "contributing_factors": [],
+    "data_quality_warnings": [
+      "Structured casualty_quantities are empty and mention casualties are null even though the claim text reports a fatality.",
+      "No location, time, vehicles, road users, or traffic effects were extracted.",
+      "Source independence is marked unknown, and only one report is present."
+    ],
+    "duplicate_groups": [],
+    "emergency_response": [],
+    "event_time": {
+      "end": null,
+      "original_expression": null,
+      "precision": "unknown",
+      "start": null,
+      "timezone": null
+    },
+    "event_type": "road_crash",
+    "evidence_ids": [
+      "ev_f04620f562aba0a0",
+      "ev_c1a2d5b73a89a4d2"
+    ],
+    "facts": [
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "The Kalbela report explicitly states that Fahim Ahmed was killed in a road accident. One named victim is identified, so the fatality count is set to 1.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_f04620f562aba0a0"
+        ],
+        "value": 1
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "No injury count or any information about injured persons is supplied in the evidence.",
+        "state": "not_reported",
+        "support_evidence_ids": [],
+        "value": null
+      },
+      {
+        "confidence": 0.9,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "victim_identity",
+        "selection_rationale": "The same source identifies Fahim Ahmed as the reported road-accident fatality and as a coordinator of the student movement.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_f04620f562aba0a0",
+          "ev_c1a2d5b73a89a4d2"
+        ],
+        "value": "Fahim Ahmed"
+      }
+    ],
+    "generated_at": "2026-04-26T00:00:00Z",
+    "geolocation": {
+      "alternatives": [],
+      "ambiguity_reason": null,
+      "confidence": 0.0,
+      "display_name": null,
+      "granularity": "unknown",
+      "hierarchy": {},
+      "latitude": null,
+      "longitude": null,
+      "method": "unresolved",
+      "supporting_evidence_ids": [],
+      "uncertainty_radius_km": null
+    },
+    "human_summary": "According to a single Kalbela video report [ev_f04620f562aba0a0], Fahim Ahmed, described as a coordinator of the student movement [ev_c1a2d5b73a89a4d2], was killed in a road accident. The report is classified as a road crash with a fatal subtype. The evidence identifies one fatality, Fahim Ahmed, but does not report any injuries or other casualties. No exact date or time is provided, and no crash location or road segment is supplied; the time and place remain unresolved. The report also lacks details about vehicles, road users, traffic effects, emergency response, or later developments. The fused fatality count of 1 is drawn from the explicit identification of Fahim Ahmed as killed, but this is a reported claim from one source rather than an independently confirmed or primary-responder account. There are no material conflicting facts, but the absence of location, time, and corroborating sources leaves significant uncertainty. No sentiment records were supplied.",
+    "incident_id": "cluster-008",
+    "independent_source_count": 1,
+    "involved_parties": [
+      "Fahim Ahmed"
+    ],
+    "later_developments": [],
+    "obstruction": null,
+    "provider_run_id": null,
+    "schema_version": "1.0.0",
+    "sentiment": {
+      "by_aspect": {},
+      "coverage_note": "No visible traffic-related sentiment was supplied.",
+      "items": [],
+      "notable_minority_views": [],
+      "sample_size": 0,
+      "traffic_relevant_count": 0
+    },
+    "source_ids": [
+      "src_c3f5e7fc8d48d47b"
+    ],
+    "status": "reported",
+    "title": "Fatal road accident involving student movement coordinator Fahim Ahmed",
+    "unresolved_questions": [
+      "What is the exact date and time of the road accident?",
+      "Where did the road accident occur?",
+      "Were any vehicles or other road users involved?",
+      "Were any other persons injured?",
+      "Is there independent confirmation or official documentation of the fatality?"
+    ],
+    "vehicles": []
+  }
+]

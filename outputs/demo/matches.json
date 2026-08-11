@@ -1,16 +1,11 @@
 [
   {
-    "confidence": 0.8,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_53bf08280ca47b12",
-      "ev_e8c697e231ce67eb",
-      "ev_23e903df4479a2d7",
-      "ev_3cb89b4791adcc04",
-      "ev_850f0b4bcf2418e4",
-      "ev_c425c2c64fdbc3bf",
-      "ev_f6979130e8086261"
+      "ev_23e903df4479a2d7"
     ],
     "features": {
       "entity_score": 0.0,
@@ -22,12 +17,12 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_3df0367527a772a9",
-    "provider_run_id": "prun_3e04b057521f5fa0",
-    "rationale": "Both mentions report the same road crash on Purbachal 300 Feet Road, Rupganj, Bangladesh, on December 20-21, 2024, with one fatality and two injuries. The person 'muhtasim' and location 'purbachal' are common lexical features. The right mention adds vehicle types (motorcycle and car) and a fatal subtype, but these supplements do not contradict the left mention's details. The location coordinates are identical and derived from the same gazetteer centroid. Time windows match exactly. The higher completeness of the right side likely reflects additional evidence records from a different source (src_67f5fd8305b791e7) that corroborate the same incident. No conflicting details arise; the vehicles are additional context, not contradictions. Given the shared specific location, exact time, and identical casualty counts, the evidence strongly indicates the same incident.",
+    "provider_run_id": "prun_d37653791199b751",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_6d0cf2cea1670792"
   },
   {
-    "confidence": 0.72,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
@@ -44,17 +39,17 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_3df0367527a772a9",
-    "provider_run_id": "prun_061e0cdd794ffb85",
-    "rationale": "Both reports describe a road crash in Purbachal 300 Feet Road, Rupganj, Bangladesh, on 2024-12-20/21. They share identical casualty counts (1 fatality, 2 injuries), matching location (area-level with same gazetteer coordinates), and event time (day precision). The only strong mismatch is the person's name in lexical features: 'Muhtasim' vs 'Mohtassim', which are likely transliteration variants, and the right report specifies vehicles (motorcycle, car) while the left lacks vehicle data, not a contradiction. The cumulative evidence from separate sources (src_2a54e1ad115b0de3 and src_3f199a5a71648754) supports same-incident determination. Distinct-source corroboration lowers uncertainty, though lexical differences and lack of unique identifiers prevent absolute confidence.",
+    "provider_run_id": "prun_3c6b4e83225d317f",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_3b165ec9c80664fb"
   },
   {
-    "confidence": 0.85,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_53bf08280ca47b12",
-      "ev_e8c697e231ce67eb"
+      "ev_1f834f7777ccf794"
     ],
     "features": {
       "entity_score": 0.0,
@@ -66,19 +61,17 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_3df0367527a772a9",
-    "provider_run_id": "prun_b0c14d74dea51ee6",
-    "rationale": "Both mentions describe a fatal road crash on Purbachal 300 Feet Road, Rupganj, with identical casualty counts (1 fatality, 2 injuries) and the same approximate date (2024-12-20/21). The lexical overlap includes 'muhtasim' and 'purbachal', and the right side mentions additional details such as 'Neela Market' and vehicle types (motorcycle, car) that are not contradicted by the left. The comprehensive event time windows match exactly, and location coordinates are identical. The left evidence set is a subset of the right's evidence, suggesting the left is a partial or earlier report of the same incident. Despite minor differences in completeness and absence of certain details, the core attributes align strongly, warranting a high-confidence merge.",
+    "provider_run_id": "prun_6a01c06422a00ddf",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_417bcdcfda26dbb4"
   },
   {
-    "confidence": 0.72,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_53bf08280ca47b12",
-      "ev_e8c697e231ce67eb",
-      "ev_4c5ab42977ec172a",
-      "ev_bd1c816a8b65297c"
+      "ev_4c5ab42977ec172a"
     ],
     "features": {
       "entity_score": 0.0,
@@ -90,8 +83,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_3df0367527a772a9",
-    "provider_run_id": "prun_c39db78f72fe5ce0",
-    "rationale": "Both mentions describe a road crash at the same area (Purbachal 300 Feet Road, Rupganj) on the same day (2024-12-20 to 2024-12-21). Casualties are identical: 1 fatality and 2 injuries. The left side lacks an event_subtype and vehicles, while the right side specifies 'fatal' and vehicles as motorcycle and car. The lexical overlap includes 'purbachal' and the right mentions '300 feet' which matches the location name. The evidence IDs are distinct, indicating separate reports, but the location and timing coincide strongly. The differences in detail are not contradictions but complementary missing information. Therefore, they are likely the same incident. Confidence is moderate-high due to consistent location, time, and casualty counts.",
+    "provider_run_id": "prun_ed306680e2688cdd",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_48845e87897e3f69"
   },
   {
@@ -263,12 +256,11 @@
     "right_mention_id": "men_bec43b76c6ae0f1c"
   },
   {
-    "confidence": 0.7,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_53bf08280ca47b12",
-      "ev_e8c697e231ce67eb",
       "ev_07a4549765a2d7a1"
     ],
     "features": {
@@ -281,8 +273,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_3df0367527a772a9",
-    "provider_run_id": "prun_cf63db612f4dde10",
-    "rationale": "Both reports describe a fatal motor vehicle crash on Purbachal 300 Feet Road, Rupganj, Narayanganj, Bangladesh, with matching casualty counts (1 fatality, 2 injuries) and the same day-level date range (2024-12-20 to 2024-12-21). The left evidence IDs lexically include 'purbachal' and 'muhtasim', while the right includes 'purbachal'; the location is identical. Although the right explicitly mentions a passenger_car and the left does not specify vehicle type, the consistent location, time, event type, and casualty counts strongly support the same incident. No contradictions are present.",
+    "provider_run_id": "prun_6929fcab00349c74",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_ed0878d035a5a6ee"
   },
   {
@@ -328,22 +320,12 @@
     "right_mention_id": "men_6820b78d82593f2c"
   },
   {
-    "confidence": 0.9,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_53bf08280ca47b12",
-      "ev_e8c697e231ce67eb",
-      "ev_298c49bd952c41d8",
-      "ev_46842f13e60fde78",
-      "ev_d7c18f446cad4094",
-      "ev_ffdb144fdbfff7c5",
-      "ev_33667123810c930a",
-      "ev_8abd92a099282678",
-      "ev_e83083c24c1fb324",
-      "ev_65ff85722690ad8d",
-      "ev_249e84b4d0423349",
-      "ev_bb8f9aa29bb214dc"
+      "ev_298c49bd952c41d8"
     ],
     "features": {
       "entity_score": 0.0,
@@ -355,12 +337,12 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_3df0367527a772a9",
-    "provider_run_id": "prun_5b31914b94f73400",
-    "rationale": "Both mentions describe a road crash on Purbachal 300 Feet Road, Rupganj, Bangladesh, with identical casualty counts (1 fatal, 2 injured) and overlapping dates (Dec 20-21, 2024). Strong lexical overlap includes 'Purbachal', '300 feet', and 'Muhtasim'. The right side explicitly lists 'motorcycle' and 'car' vehicles while the left lists none, which is a supplement rather than a contradiction. The evidence linkage is inherited from a paired HTML source, and the location and time are consistent. The high match scores (location and time perfect, lexical 0.5) and common event type support a same-incident decision despite the lack of explicit collision description.",
+    "provider_run_id": "prun_f13ad90215caee7b",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.75,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
@@ -377,20 +359,17 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_6d0cf2cea1670792",
-    "provider_run_id": "prun_5a645a4ff51f6f91",
-    "rationale": "Both sides describe a fatal road crash in Purbachal 300 Feet Road, Rupganj on the same date (2024-12-20/21) with identical casualty counts (1 fatality, 2 injuries) and same vehicles (motorcycle, car). The only lexical difference is 'muhtasim' vs 'mohtassim', likely a transliteration variant. Location and time match exactly. Multiple independent sources within each side corroborate. No contradictions. The similarity is high and consistent, so the incidents are the same.",
+    "provider_run_id": "prun_05c73835e6346983",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_3b165ec9c80664fb"
   },
   {
-    "confidence": 0.85,
-    "contradictions": [
-      "Event time precision differs: left uses date normalized from evidence family, right uses publication date as fallback"
-    ],
+    "confidence": 0.82,
+    "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_23e903df4479a2d7",
-      "ev_1f834f7777ccf794",
-      "ev_a483b15db9baf756"
+      "ev_1f834f7777ccf794"
     ],
     "features": {
       "entity_score": 0.0,
@@ -402,22 +381,17 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_6d0cf2cea1670792",
-    "provider_run_id": "prun_84d82f6c29587b60",
-    "rationale": "Both reports describe a fatal road crash involving a motorcycle and a car in Purbachal 300 Feet Road, Rupganj, Bangladesh, with identical casualties (1 fatality, 2 injuries) and overlapping time spans (Dec 20-21, 2024). Despite separate source IDs and evidence sets, the location, event type, subtype, vehicles, and casualty counts align exactly. The only minor discrepancy is time precision annotation, which is not material. Lexical features like 'Muhtasim' appear in both. Decisive evidence IDs represent reports from independent sources (ev_23e903df4479a2d7 from left and ev_1f834f7777ccf794 from right) that corroborate the same incident. No contradictions that undermine a match are present.",
+    "provider_run_id": "prun_7fb19daedb7e9b7c",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_417bcdcfda26dbb4"
   },
   {
-    "confidence": 0.9,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_23e903df4479a2d7",
-      "ev_3cb89b4791adcc04",
-      "ev_850f0b4bcf2418e4",
-      "ev_c425c2c64fdbc3bf",
-      "ev_f6979130e8086261",
-      "ev_4c5ab42977ec172a",
-      "ev_bd1c816a8b65297c"
+      "ev_4c5ab42977ec172a"
     ],
     "features": {
       "entity_score": 0.0,
@@ -429,8 +403,8 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_6d0cf2cea1670792",
-    "provider_run_id": "prun_31dd7467b337d94e",
-    "rationale": "Both mentions describe a road crash on Purbachal 300 Feet Road, Rupganj with identical fatalities (1), injuries (2), and event time (December 20-21, 2024). Locations match at high confidence. Vehicle types (motorcycle and car) are consistent. The lexical features differ (muhtasim vs 300 feet) but muhtasim likely refers to a person not present in structured people fields, while 300 feet matches the road name. The evidence IDs are from different sources, indicating multiple independent reports. High time and location scores support same incident.",
+    "provider_run_id": "prun_4dea80a0a90af789",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_48845e87897e3f69"
   },
   {
@@ -602,15 +576,11 @@
     "right_mention_id": "men_bec43b76c6ae0f1c"
   },
   {
-    "confidence": 0.7,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_23e903df4479a2d7",
-      "ev_3cb89b4791adcc04",
-      "ev_850f0b4bcf2418e4",
-      "ev_c425c2c64fdbc3bf",
-      "ev_f6979130e8086261",
       "ev_07a4549765a2d7a1"
     ],
     "features": {
@@ -623,8 +593,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_6d0cf2cea1670792",
-    "provider_run_id": "prun_95734eea9e9dbea1",
-    "rationale": "Both sides describe a fatal road crash on Purbachal 300 Feet Road, Rupganj, on 2024-12-21 with the same casualties (1 fatality, 2 injuries). The specific location and time match exactly, and the event subtype is 'fatal' for both. The left side mentions a motorcycle and a car, while the right mentions a passenger car, but this is not a contradiction because a crash can involve multiple vehicles and the right may have incomplete vehicle details. The left has more evidence (5 IDs) and mentions 'muhtasim' additionally, but the right's single evidence ID aligns on the core facts. Therefore, the evidence strongly indicates the same incident.",
+    "provider_run_id": "prun_418d0d3785f9bf91",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_ed0878d035a5a6ee"
   },
   {
@@ -670,13 +640,12 @@
     "right_mention_id": "men_6820b78d82593f2c"
   },
   {
-    "confidence": 0.8,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_23e903df4479a2d7",
-      "ev_298c49bd952c41d8",
-      "ev_46842f13e60fde78"
+      "ev_298c49bd952c41d8"
     ],
     "features": {
       "entity_score": 0.0,
@@ -688,28 +657,17 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_6d0cf2cea1670792",
-    "provider_run_id": "prun_16ba86fd28c234f9",
-    "rationale": "Both bundles refer to the same fatal road crash on Purbachal 300 Feet Road, Rupganj, involving a motorcycle and a car, with identical casualty counts (1 fatality, 2 injuries). The event time ranges overlap (2024-12-20 to 2024-12-21). Location names and coordinates match exactly, and lexical features include 'Muhtasim' and 'Purbachal' in both. The right bundle's uncertainty notes that linkage is inherited from paired HTML source, but this does not contradict the strong matching evidence. Both sources are independent, providing corroboration. No material contradictions exist; the only difference is source counts and slight timezone handling, which are not substantive.",
+    "provider_run_id": "prun_da46841ff320c454",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.9,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_01fc9be579007137",
-      "ev_17797e3df968c79a",
-      "ev_4dd4327dffa9a504",
-      "ev_6f614cdd3f691d5e",
-      "ev_7e2b75efeb5007b6",
-      "ev_1f834f7777ccf794",
-      "ev_4868bd0517e733cd",
-      "ev_7302506cacaa1a27",
-      "ev_7a9911d957c3b042",
-      "ev_9a606d918d721b9b",
-      "ev_a483b15db9baf756",
-      "ev_c72db83917462014",
-      "ev_eec8df76ec28439f"
+      "ev_1f834f7777ccf794"
     ],
     "features": {
       "entity_score": 0.0,
@@ -721,22 +679,17 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_3b165ec9c80664fb",
-    "provider_run_id": "prun_ce9a17fba247ea55",
-    "rationale": "Both records describe a fatal road crash on Purbachal 300 Feet Road, Rupganj, Bangladesh, with identical event type, subtype, casualties (1 fatality, 2 injuries), vehicles (motorcycle and car), and both event times normalized to the same day (2024-12-20/21). Location data (name, coordinates, granularity) matches exactly, and both use gazetteer centroids as representative area coordinates. The only minor lexical difference is 'mohtassim' vs 'muhtasim', a name variant possibly referring to the same individual; this does not indicate a different incident. Source records are distinct and independent, providing corroboration. No contradictions exist. Therefore, they are very likely the same incident.",
+    "provider_run_id": "prun_616a3276f40e7b00",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_417bcdcfda26dbb4"
   },
   {
-    "confidence": 0.85,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_01fc9be579007137",
-      "ev_17797e3df968c79a",
-      "ev_4dd4327dffa9a504",
-      "ev_6f614cdd3f691d5e",
-      "ev_7e2b75efeb5007b6",
-      "ev_4c5ab42977ec172a",
-      "ev_bd1c816a8b65297c"
+      "ev_4c5ab42977ec172a"
     ],
     "features": {
       "entity_score": 0.0,
@@ -748,8 +701,8 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_3b165ec9c80664fb",
-    "provider_run_id": "prun_e8935fbe27a1725c",
-    "rationale": "Both records describe the same fatal road crash in the same area (Purbachal 300 Feet Road, Rupganj) on the same date (2024-12-20/21). Casualties match exactly (1 fatality, 2 injuries), and vehicle types (motorcycle, car) are identical. Locations have the same precision and coordinates. No contradictions are present. The only difference is source and mention identifiers, with a shared lexical anchor. Thus, the evidence strongly supports same-incident adjudication.",
+    "provider_run_id": "prun_bd3b1f30a843cd41",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_48845e87897e3f69"
   },
   {
@@ -921,17 +874,11 @@
     "right_mention_id": "men_bec43b76c6ae0f1c"
   },
   {
-    "confidence": 0.72,
-    "contradictions": [
-      "vehicle types differ: left mentions motorcycle and car, right mentions passenger_car"
-    ],
+    "confidence": 0.82,
+    "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_01fc9be579007137",
-      "ev_17797e3df968c79a",
-      "ev_4dd4327dffa9a504",
-      "ev_6f614cdd3f691d5e",
-      "ev_7e2b75efeb5007b6",
       "ev_07a4549765a2d7a1"
     ],
     "features": {
@@ -944,8 +891,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_3b165ec9c80664fb",
-    "provider_run_id": "prun_e04686faf478a8c6",
-    "rationale": "Both left and right refer to a fatal road crash in Purbachal 300 Feet Road, Rupganj, Bangladesh, with identical event time (2024-12-20 to 2024-12-21, day precision) and identical casualty counts (1 fatality, 2 injuries). The location is the same gazetteer centroid with the same name, indicating a match. The primary discrepancy is vehicle types: the left side lists motorcycle and car, while the right side lists passenger_car. This could be due to different source descriptions but does not preclude the same incident. Given strong overlap in time, location, and casualties, the evidence supports same incident. Confidence is moderate due to the vehicle discrepancy and lack of explicit collision details.",
+    "provider_run_id": "prun_d13e822301a09383",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_ed0878d035a5a6ee"
   },
   {
@@ -991,10 +938,13 @@
     "right_mention_id": "men_6820b78d82593f2c"
   },
   {
-    "confidence": 0.95,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
-    "decisive_evidence_ids": [],
+    "decisive_evidence_ids": [
+      "ev_01fc9be579007137",
+      "ev_298c49bd952c41d8"
+    ],
     "features": {
       "entity_score": 0.0,
       "hard_guard": null,
@@ -1005,12 +955,12 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_3b165ec9c80664fb",
-    "provider_run_id": "prun_abfc6078f9ab321c",
-    "rationale": "Both mentions describe a fatal road crash on Purbachal 300 Feet Road, Rupganj on December 20-21, 2024, involving a motorcycle and a car, with 1 fatality and 2 injuries. The left mention (men_3b165ec9c80664fb) includes evidence from corpus, while the right mention (men_e5821d942ba973bb) is paired with HTML source and inherits the location from that source. Despite minor variation in person name spelling ('Mohtassim' vs 'Muhtasim') and one mention being derived from image analysis, the overlapping location, time, crash type, casualties, and vehicle types strongly indicate they refer to the same incident. No contradictory information is present. Decisive evidence IDs supporting the match: ev_01fc9be579007137, ev_298c49bd952c41d8, ev_46842f13e60fde78, ev_d7c18f446cad4094, ev_ffdb144fdbfff7c5, and ev_33667123810c930a.",
+    "provider_run_id": "prun_abf884732c7998df",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.85,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
@@ -1027,8 +977,8 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_417bcdcfda26dbb4",
-    "provider_run_id": "prun_7a2989f8e6980060",
-    "rationale": "Both reports describe a fatal road crash at Purbachal 300 Feet Road, Rupganj, within the same day (2024-12-20/21), involving a motorcycle and a car, with identical casualty counts (1 fatality, 2 injuries). The location gazetteer centroid, event type/subtype, and vehicles align. While the left has more evidence, the right is consistent and does not contradict. The lexical features '300 feet' and 'purbachal' further corroborate. Therefore, these are likely the same incident.",
+    "provider_run_id": "prun_7c52bb8dc3d36f48",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_48845e87897e3f69"
   },
   {
@@ -1200,11 +1150,8 @@
     "right_mention_id": "men_bec43b76c6ae0f1c"
   },
   {
-    "confidence": 0.74,
-    "contradictions": [
-      "Left evidence includes motorcycle and car, right only passenger car",
-      "Left has more evidence IDs and higher completeness"
-    ],
+    "confidence": 0.82,
+    "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_1f834f7777ccf794",
@@ -1220,8 +1167,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_417bcdcfda26dbb4",
-    "provider_run_id": "prun_e143e381ef2c1aa4",
-    "rationale": "Both mention Purbachal 300 Feet Road, Rupganj with identical location coordinates and same event date range. Casualty counts match exactly (fatalities=1, injuries=2). Left's vehicles include motorcycle and car, while right only lists passenger car; this is a minor discrepancy not contradicting the core incident. The left side has multiple evidence IDs but the right only one, yet the lexical features and location overlap are strong. Time, place, and causality align, supporting same incident.",
+    "provider_run_id": "prun_203919230d5fecf9",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_ed0878d035a5a6ee"
   },
   {
@@ -1267,28 +1214,12 @@
     "right_mention_id": "men_6820b78d82593f2c"
   },
   {
-    "confidence": 0.9,
+    "confidence": 0.85,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_1f834f7777ccf794",
-      "ev_4868bd0517e733cd",
-      "ev_7302506cacaa1a27",
-      "ev_7a9911d957c3b042",
-      "ev_9a606d918d721b9b",
-      "ev_a483b15db9baf756",
-      "ev_c72db83917462014",
-      "ev_eec8df76ec28439f",
-      "ev_298c49bd952c41d8",
-      "ev_46842f13e60fde78",
-      "ev_d7c18f446cad4094",
-      "ev_ffdb144fdbfff7c5",
-      "ev_33667123810c930a",
-      "ev_8abd92a099282678",
-      "ev_e83083c24c1fb324",
-      "ev_65ff85722690ad8d",
-      "ev_249e84b4d0423349",
-      "ev_bb8f9aa29bb214dc"
+      "ev_298c49bd952c41d8"
     ],
     "features": {
       "entity_score": 0.0,
@@ -1300,8 +1231,8 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_417bcdcfda26dbb4",
-    "provider_run_id": "prun_ed3db2d5037e0237",
-    "rationale": "Both records report the same road crash: identical event type (road_crash), subtype (fatal), date (2024-12-20/21), timezone (Asia/Dhaka), casualties (1 fatality, 2 injuries), vehicles (motorcycle, car), and lexical features ('300 feet','muhtasim','neela market','purbachal'). The location is the same with identical coordinates. The right record notes inheritance from a paired HTML source, but its evidence IDs are distinct from the left, meaning they are separate source documents. Cross-checking the shared unique lexical terms and matching attributes, the evidence strongly indicates the same incident. No contradictions are present.",
+    "provider_run_id": "prun_af416d34707fca51",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
@@ -1474,13 +1405,10 @@
   },
   {
     "confidence": 0.82,
-    "contradictions": [
-      "Right event description mentions Narayanganj explicitly in collision_description while left does not; vehicles differ: left includes motorcycle and car, right only passenger car."
-    ],
+    "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_4c5ab42977ec172a",
-      "ev_bd1c816a8b65297c",
       "ev_07a4549765a2d7a1"
     ],
     "features": {
@@ -1493,8 +1421,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_48845e87897e3f69",
-    "provider_run_id": "prun_8a3cbe7b37e44d19",
-    "rationale": "Both events are road crashes with identical fatality and injury counts (1 fatal, 2 injured), the same date precision (day-level, 2024-12-20 to 2024-12-21), and the same location centroid for Purbachal 300 Feet Road, Rupganj (Bangladesh) with area granularity. The evidence IDs are distinct but the location and time align strongly. Minor discrepancies: the right event's collision description explicitly mentions Narayanganj while the left does not, and the vehicle sets differ (left has motorcycle and car, right only passenger car). These are considered potential description or vehicle detail variations rather than evidence of distinct incidents. Given the high location and time similarity and matching casualty numbers, the probability of being the same incident is high.",
+    "provider_run_id": "prun_9bd618a91851cf57",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_ed0878d035a5a6ee"
   },
   {
@@ -1540,14 +1468,12 @@
     "right_mention_id": "men_6820b78d82593f2c"
   },
   {
-    "confidence": 0.75,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_4c5ab42977ec172a",
-      "ev_bd1c816a8b65297c",
-      "ev_298c49bd952c41d8",
-      "ev_46842f13e60fde78"
+      "ev_298c49bd952c41d8"
     ],
     "features": {
       "entity_score": 0.0,
@@ -1559,23 +1485,17 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_48845e87897e3f69",
-    "provider_run_id": "prun_e529cd6312d737ba",
-    "rationale": "Both reports describe a fatal road crash on Purbachal 300 Feet Road, Rupganj with the same casualty counts (1 fatality, 2 injuries) and same vehicle types (motorcycle and car). The event date range (2024-12-20 to 2024-12-21) matches with day precision, and the location names and normalized gazetteer coordinates are identical. The lexical features overlap on '300 feet' and 'purbachal'. The right side includes additional evidence IDs and a named individual (Muhtasim) as well as a market reference, but these do not contradict the left side. The right side has an uncertainty note that linkage is inherited from paired HTML source, but the core facts align. Given strong alignment in time, location, casualties, and vehicles, the evidence supports the same incident. No material contradictions are present.",
+    "provider_run_id": "prun_047025d9aff50e83",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.65,
-    "contradictions": [
-      "Vehicle type mismatch: left record has no vehicle information, right record mentions a bus; not necessarily contradictory given partial data."
-    ],
-    "decision": "related_but_distinct",
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_25f22aa562f7533f",
-      "ev_33738fa816ada880",
-      "ev_4be9adbfb1ccf9b1",
-      "ev_68d7f18f8fe461ea",
-      "ev_9012296fa587ace1",
-      "ev_d9abeb718696a746"
+      "ev_4be9adbfb1ccf9b1"
     ],
     "features": {
       "entity_score": 0.0,
@@ -1587,17 +1507,16 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_420324e66c294e32",
-    "provider_run_id": "prun_ab07e89c73158930",
-    "rationale": "Both records describe a fatal road crash in Tongi, Gazipur, Bangladesh on the same date (August 9-10, 2026), with a single fatality and no reported injuries, and both mention traffic effects as road blockade or associated congestion. The location and time align, and the casualty counts match exactly. The right record additionally mentions 'Asia pump' and 'Gazipur bus stand' as specific landmarks and a bus as a vehicle, while the left record only has the entity 'ইয়াসিন' (Yasin), which also appears on the right. These additional details suggest a more specific incident within the same area, but the core identifiers (location, time, casualties, traffic effect) are consistent. Since no explicit collision description or people details are provided, and the lexical features overlap partially, it is plausible these refer to the same incident, but the extra landmarks and vehicle mention may indicate a related but distinct event or a variation in reporting. Given the ambiguity, 'related_but_distinct' is more appropriate than 'same_incident' to avoid merging possibly separate events without stronger evidence.",
+    "provider_run_id": "prun_283c82dc166b3f57",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_2affff13e0d6f845"
   },
   {
-    "confidence": 0.74,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_25f22aa562f7533f",
-      "ev_33738fa816ada880",
       "ev_32e6290ff8c2ead6"
     ],
     "features": {
@@ -1610,19 +1529,16 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_420324e66c294e32",
-    "provider_run_id": "prun_1de6198af398b54f",
-    "rationale": "Both records describe a fatal road crash in Tongi, Gazipur, Bangladesh on the same day (2026-08-09/10), with one fatality each. Location and time scores are high, and the left record's mention of 'ইয়াসিন' is consistent with a person involved in the crash. The right record is an independent source and adds a bus vehicle, which is not contradicted by the left. No conflicts are present, and although vehicle details are missing on the left, the overlapping location, time, and casualty count strongly indicate the same incident.",
+    "provider_run_id": "prun_7c48a71e1ae2361e",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_b5c461f657a8f51f"
   },
   {
-    "confidence": 0.74,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_4be9adbfb1ccf9b1",
-      "ev_68d7f18f8fe461ea",
-      "ev_9012296fa587ace1",
-      "ev_d9abeb718696a746",
       "ev_32e6290ff8c2ead6"
     ],
     "features": {
@@ -1635,25 +1551,17 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_2affff13e0d6f845",
-    "provider_run_id": "prun_52ecde15e42f6c8b",
-    "rationale": "Both mentions describe a road crash in Tongi, Gazipur, Bangladesh, with identical event time (2026-08-09 to 2026-08-10), vehicle type (bus), and one fatality. The left mention includes four evidence IDs with more detail, while the right is a single evidence with consistent location and time. Matching lexical features, location coordinates, and vehicle type strongly indicate the same incident. No contradictions found.",
+    "provider_run_id": "prun_a902ffc8954c31ad",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_b5c461f657a8f51f"
   },
   {
-    "confidence": 0.85,
+    "confidence": 0.8333333333333333,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_5c4e8c46dd9be73e",
-      "ev_9e4a653608620eff",
-      "ev_bc4144b4e776d8ef",
-      "ev_c653379844e9e6d9",
-      "ev_1d44c58721ec92c0",
-      "ev_244b71a7a2c0143a",
-      "ev_3800704948f1c63d",
-      "ev_5ed24943db8b6a48",
-      "ev_c80e9fe54daea2bc",
-      "ev_f967ca19b4c62d12"
+      "ev_1d44c58721ec92c0"
     ],
     "features": {
       "entity_score": 0.0,
@@ -1665,44 +1573,17 @@
       "vehicle_score": 0.6666666666666666
     },
     "left_mention_id": "men_c25ba046b55b709d",
-    "provider_run_id": "prun_60068c5a7a960087",
-    "rationale": "Both mentions share identical event type (road_crash), subtype (fatal), casualties (2 fatalities, 0 injuries), time window (2025-12-12 to 2025-12-13), location (Konapara, Demra, same coordinates and granularity), and overlapping keyword features (demra, dncc garbage, konapara). Vehicles overlap partially (left has bus, truck, motorcycle; right has truck, motorcycle), with no contradictions such as different counts or locations. The lexical and location scores are high, and source IDs differ, supporting independent reporting of the same incident. Per adjudication rules, the strong temporal, spatial, and casualty agreement outweighs minor vehicle list difference, warranting a same_incident decision with high confidence.",
+    "provider_run_id": "prun_b78c8646915bec75",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_9aade6bed862e60d"
   },
   {
-    "confidence": 0.8,
-    "contradictions": [],
-    "decision": "same_incident",
-    "decisive_evidence_ids": [
-      "ev_bc4144b4e776d8ef",
-      "ev_c653379844e9e6d9"
-    ],
-    "features": {
-      "entity_score": 0.0,
-      "hard_guard": null,
-      "lexical_score": 0.75,
-      "location_score": 1.0,
-      "time_score": 1.0,
-      "total_score": 0.7958333333333332,
-      "vehicle_score": 0.6666666666666666
-    },
-    "left_mention_id": "men_c25ba046b55b709d",
-    "provider_run_id": "prun_6b04e8ce5147f839",
-    "rationale": "Both mentions share the same incident type, date window, location (Konapara, Demra), and report two fatalities with no injuries. Vehicle sets overlap (truck and motorcycle in both; left also includes bus). The lexical features overlap on 'demra', 'dncc garbage', and 'konapara', and the right adds 'redwan' as a name, potentially a person involved. The location and time precision match exactly, and the credibility of the match is supported by high location and time scores despite vehicle differences. No contradictions are apparent.",
-    "right_mention_id": "men_7ed9b9512fc6ad2b"
-  },
-  {
-    "confidence": 0.95,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_5c4e8c46dd9be73e",
-      "ev_9e4a653608620eff",
-      "ev_bc4144b4e776d8ef",
-      "ev_c653379844e9e6d9",
-      "ev_031d7714f37e547d",
-      "ev_06ec52e20a074589",
-      "ev_2e2e59eb3bfdfb64"
+      "ev_14dde01cdcc5810e"
     ],
     "features": {
       "entity_score": 0.0,
@@ -1714,12 +1595,34 @@
       "vehicle_score": 0.6666666666666666
     },
     "left_mention_id": "men_c25ba046b55b709d",
-    "provider_run_id": "prun_fcb90e5b8a4b81e3",
-    "rationale": "Both sides describe the same fatal road crash on 2025-12-12 (day precision) in Konapara, Demra, Bangladesh, with the same area-level location (centroid) and identical casualty counts (2 fatalities, 0 injuries). Vehicles overlap (truck and motorcycle on both; left additionally mentions a bus). Lexical features overlap on 'demra', 'dncc garbage', 'konapara'. Although the right side mentions 'redwan' and the left does not, this does not contradict. The slight difference in vehicle sets (left includes bus) may reflect different report details but does not undermine the same incident. Given high location, time, and casualty similarity, and consistent evidence IDs across both mentions, they are the same incident.",
+    "provider_run_id": "prun_326bf8374074393f",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
+    "right_mention_id": "men_7ed9b9512fc6ad2b"
+  },
+  {
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_5c4e8c46dd9be73e",
+      "ev_031d7714f37e547d"
+    ],
+    "features": {
+      "entity_score": 0.0,
+      "hard_guard": null,
+      "lexical_score": 0.75,
+      "location_score": 1.0,
+      "time_score": 1.0,
+      "total_score": 0.7958333333333332,
+      "vehicle_score": 0.6666666666666666
+    },
+    "left_mention_id": "men_c25ba046b55b709d",
+    "provider_run_id": "prun_2950992912c8b6cc",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_35221c25a4ae7a71"
   },
   {
-    "confidence": 0.7,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
@@ -1736,8 +1639,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_c25ba046b55b709d",
-    "provider_run_id": "prun_bf4ae23238890724",
-    "rationale": "Both mentions report a fatal road crash in Konapara, Demra, Bangladesh on the same day (2025-12-12/13) with the same casualty figures (2 fatalities, 0 injuries). The location coordinates and precision match exactly. Although the left mention lists vehicles (bus, truck, motorcycle) and the right does not, the absence of vehicle details in the right does not contradict the left. The provided evidence appears to be from different sources but describes the same incident.",
+    "provider_run_id": "prun_02de7399bf150584",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_530c898e32287c4d"
   },
   {
@@ -1888,7 +1791,7 @@
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.9,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
@@ -1905,24 +1808,17 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_9aade6bed862e60d",
-    "provider_run_id": "prun_7304558bf077be88",
-    "rationale": "Both mentions describe a fatal road crash with two fatalities, involving a truck and a motorcycle, occurring on the same day (2025-12-12 to 2025-12-13) at the same location (Konapara, Demra, Bangladesh) with identical lexical features including 'demra', 'dncc garbage', and 'konapara'. The vehicles, casualties, time window, and location are all consistent, and both are attributed to distinct source IDs (src_3550b64508b9c484 and src_f73b970fc52b9df6), indicating independent reporting of the same incident. No contradictions exist.",
+    "provider_run_id": "prun_a85a1ad8e5c290d5",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_7ed9b9512fc6ad2b"
   },
   {
-    "confidence": 0.9,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_1d44c58721ec92c0",
-      "ev_244b71a7a2c0143a",
-      "ev_3800704948f1c63d",
-      "ev_5ed24943db8b6a48",
-      "ev_c80e9fe54daea2bc",
-      "ev_f967ca19b4c62d12",
-      "ev_031d7714f37e547d",
-      "ev_06ec52e20a074589",
-      "ev_2e2e59eb3bfdfb64"
+      "ev_031d7714f37e547d"
     ],
     "features": {
       "entity_score": 0.0,
@@ -1934,12 +1830,12 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_9aade6bed862e60d",
-    "provider_run_id": "prun_90dc4c7a6963c934",
-    "rationale": "Both sides describe a fatal road crash involving a truck and motorcycle at Konapara, Demra, Bangladesh, on 2025-12-12 to 2025-12-13 with exactly 2 fatalities and 0 injuries. Locations, time, vehicles, and casualty counts match precisely. Lexical features overlap strongly (demra, dncc garbage, konapara). No contradictions exist. The right side adds the name 'Redwan' but does not conflict. Evidence IDs are distinct but the high consistency across all features indicates the same incident reported by independent sources.",
+    "provider_run_id": "prun_1dea3a0ca1c413a5",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_35221c25a4ae7a71"
   },
   {
-    "confidence": 0.7,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
@@ -1956,8 +1852,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_9aade6bed862e60d",
-    "provider_run_id": "prun_e6739b547f8bf574",
-    "rationale": "Both evidence bundles describe a fatal road crash in Konapara, Demra (e.g., area centroid with matching coordinates) on 2025-12-12. The left has two fatalities and unspecified truck/motorcycle involvement; the right has two fatalities but no vehicle details, which is not a direct contradiction. The shared location and date, combined with the high time and location scores, support same incident despite differences in lexical features and evidence provenance.",
+    "provider_run_id": "prun_5da9b879dcad520e",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_530c898e32287c4d"
   },
   {
@@ -2113,13 +2009,7 @@
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_14dde01cdcc5810e",
-      "ev_5a4ec4c3f6f0abd5",
-      "ev_738d53c92c9d089d",
-      "ev_ae420e88f0151c14",
-      "ev_b0b8b99479d8ee63",
-      "ev_031d7714f37e547d",
-      "ev_06ec52e20a074589",
-      "ev_2e2e59eb3bfdfb64"
+      "ev_031d7714f37e547d"
     ],
     "features": {
       "entity_score": 0.0,
@@ -2131,15 +2021,18 @@
       "vehicle_score": 1.0
     },
     "left_mention_id": "men_7ed9b9512fc6ad2b",
-    "provider_run_id": "prun_c71d6cd3711dfb4d",
-    "rationale": "Both mentions describe the same fatal road crash in Konapara, Demra, Bangladesh on December 12-13, 2025, involving a truck and motorcycle, with 2 fatalities and 0 injuries. The locations, times, casualties, vehicles, and lexical features ('demra', 'dncc garbage', 'konapara', 'redwan') align perfectly. The evidence sets are disjoint but consistent, and the high lexical, location, time, and vehicle scores support a same-incident decision. No contradictions found.",
+    "provider_run_id": "prun_4db3d320380f2b18",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_35221c25a4ae7a71"
   },
   {
-    "confidence": 0.74,
+    "confidence": 0.82,
     "contradictions": [],
-    "decision": "related_but_distinct",
-    "decisive_evidence_ids": [],
+    "decision": "same_incident",
+    "decisive_evidence_ids": [
+      "ev_14dde01cdcc5810e",
+      "ev_1eacca6cdb82b6ae"
+    ],
     "features": {
       "entity_score": 0.0,
       "hard_guard": null,
@@ -2150,8 +2043,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_7ed9b9512fc6ad2b",
-    "provider_run_id": "prun_2e005eda0e2eb4e2",
-    "rationale": "Both reports describe a fatal road crash in Konapara, Demra, on 2025-12-12/13, with two fatalities and no injuries, and same location area and time. However, the left record includes vehicles (truck and motorcycle) and specific lexical details (DNCC garbage, Redwan), while the right lacks any vehicle information and lists different evidence IDs. The absence of explicit unique identifiers (e.g., vehicle models, collision types, names) makes merging uncertain, yet the strong overlap in time, location, and casualties suggests related incidents from distinct sources. Given the shared location and date, they likely refer to the same crash but with limited corroborating details; hence, treating them as related but potentially distinct due to missing decisive evidence.",
+    "provider_run_id": "prun_a326c0e977e6665d",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_530c898e32287c4d"
   },
   {
@@ -2302,11 +2195,9 @@
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.65,
-    "contradictions": [
-      "Right side does not report vehicles, left reports truck and motorcycle"
-    ],
-    "decision": "related_but_distinct",
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_031d7714f37e547d",
       "ev_1eacca6cdb82b6ae"
@@ -2321,8 +2212,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_35221c25a4ae7a71",
-    "provider_run_id": "prun_53292bcb70b2deb7",
-    "rationale": "The two records share the same location (Konapara, Demra) and date (2025-12-12 to 2025-12-13) and both report two fatalities with no injuries. However, the left record explicitly mentions a truck and motorcycle while the right record does not list any vehicles. The evidence IDs are disjoint, and the lexical overlap is limited to 'demra'. Given the same time and place but divergent vehicle details and lack of direct cross-references, the incidents are related but possibly distinct.",
+    "provider_run_id": "prun_3c487d9382ded5e5",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_530c898e32287c4d"
   },
   {
@@ -2620,16 +2511,12 @@
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.4,
-    "contradictions": [
-      "Left report lacks vehicle information while right report includes truck and car"
-    ],
-    "decision": "uncertain",
+    "confidence": 0.82,
+    "contradictions": [],
+    "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_9867b75ca9d83221",
-      "ev_ba3cd608eb8053a2",
-      "ev_c1a2d5b73a89a4d2",
-      "ev_f04620f562aba0a0"
+      "ev_c1a2d5b73a89a4d2"
     ],
     "features": {
       "entity_score": 0.0,
@@ -2641,27 +2528,17 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_37977261b478b3c4",
-    "provider_run_id": "prun_22939343be22d53a",
-    "rationale": "Both mentions describe a fatal road crash involving a person named 'Fahim' (or 'Fahim Ahmed'), with one fatality each and unresolved event times. However, locations are absent in both, vehicle information differs (right mentions truck and car, left has none), and the names are spelled differently ('ফাহিম আহমেদ' vs 'fahim ahmed'). The similarities in name and fatality count suggest possible same incident, but the lack of location and conflicting vehicle details prevent confident matching. Thus, uncertain is appropriate.",
+    "provider_run_id": "prun_acc450cf61292d95",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_63368cf8e497c57d"
   },
   {
     "confidence": 0.82,
-    "contradictions": [
-      "left mentions vehicle types bus, truck, motorcycle, car; right only bus and motorcycle"
-    ],
+    "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_851244544886379c",
-      "ev_8675a512af387063",
-      "ev_e7e4274f75924b4d",
-      "ev_f4f6bf3ae3a5ae94",
-      "ev_189d525e6f97c130",
-      "ev_6e66ceecc047e881",
-      "ev_80bb0d4e8bc0bb7e",
-      "ev_99685340cfb96e6d",
-      "ev_a50c19158fca4347",
-      "ev_c78334d8553e64e3"
+      "ev_189d525e6f97c130"
     ],
     "features": {
       "entity_score": 0.0,
@@ -2673,8 +2550,8 @@
       "vehicle_score": 0.5
     },
     "left_mention_id": "men_047777136d153155",
-    "provider_run_id": "prun_7ef04b87c8d3b040",
-    "rationale": "Both sides describe a road crash on 7-8 August 2026, in the same area (Kashikapan, Osmaninagar, Sylhet) with high location and time match. They share lexical features 'Bengal Paribahan', 'Sylhet', 'Kashikapan', and mention 'Unique Paribahan' (left also 'Dhaka-Sylhet'). The left has more vehicle types, but the core entities and location strongly indicate the same incident. The casualty discrepancy (right reports 25 injuries and a fatal subtype; left has no casualties) may be a data gap rather than a contradiction, as left completeness is lower. Minor vehicle type difference is not decisive.",
+    "provider_run_id": "prun_6d435b0bf7347b75",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_bec43b76c6ae0f1c"
   },
   {
@@ -2825,25 +2702,12 @@
     "right_mention_id": "men_b5c461f657a8f51f"
   },
   {
-    "confidence": 0.7,
-    "contradictions": [
-      "left reports 16 fatalities and 48 injuries, right reports 7 fatalities and injuries unknown"
-    ],
+    "confidence": 0.82,
+    "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_35ec9cf7714b6c1c",
-      "ev_3c2f6e349cdbbcef",
-      "ev_3d9b6f7ef1b8f36b",
-      "ev_4fb792ed1f7986df",
-      "ev_5a31009168ec3910",
-      "ev_7d10439deaca950c",
-      "ev_87b42b640fb4be67",
-      "ev_8b268ae223138eae",
-      "ev_c8197f78704ba550",
-      "ev_f4ce6c0e09c51b56",
-      "ev_b02f78dc220fb6ca",
-      "ev_be00c7adf6f585e6",
-      "ev_deb71134d0e6a8a6"
+      "ev_b02f78dc220fb6ca"
     ],
     "features": {
       "entity_score": 0.0,
@@ -2855,8 +2719,8 @@
       "vehicle_score": 0.25
     },
     "left_mention_id": "men_d549f45a52ba834c",
-    "provider_run_id": "prun_e3300d329a49d2da",
-    "rationale": "Both sides describe a fatal road crash in Bogura, Bangladesh, with the same date (August 7-8, 2026) and location (Sherpur, Bogura). The left mentions labourers and multiple vehicles (bus, truck, motorcycle, car), while the right specifies a bus-related incident. The time, location, and incident type align strongly. The casualty counts differ (left: 16 fatalities, 48 injuries; right: 7 fatalities, unknown injuries), which is a material contradiction. However, given the specific location, same date, and both being fatal road crashes, the likelihood of different incidents on the same day in the same place is low. The discrepancy could be due to preliminary vs. updated reports or different reporting scopes. Stronger evidence for a single incident includes the repeated Bogura identifier and the shared date. Thus, the decision is same_incident with moderate confidence, noting the casualty discrepancy.",
+    "provider_run_id": "prun_207b51b4c8da6a7a",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_6820b78d82593f2c"
   },
   {
@@ -2965,63 +2829,6 @@
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {
-    "confidence": 0.3,
-    "contradictions": [],
-    "decision": "uncertain",
-    "decisive_evidence_ids": [],
-    "features": {
-      "entity_score": 0.0,
-      "hard_guard": null,
-      "lexical_score": 1.0,
-      "location_score": 0.0,
-      "time_score": 0.25,
-      "total_score": 0.62,
-      "vehicle_score": 0.0
-    },
-    "left_mention_id": "men_bf79a56d57f3645a",
-    "provider_run_id": "prun_528e48cb5052c9f6",
-    "rationale": "Both mentions report road crashes with unresolved event times and no location, vehicle, or casualty details. Lexical features are generic ('incident','unknown'), and there is no overlap in evidence IDs, sources, or specific facts. The low total score (0.62) and lack of decisive identifiers make it impossible to determine if they refer to the same incident. Therefore, preferring uncertainty.",
-    "right_mention_id": "men_22310e681c918d7a"
-  },
-  {
-    "confidence": 0.2,
-    "contradictions": [],
-    "decision": "uncertain",
-    "decisive_evidence_ids": [],
-    "features": {
-      "entity_score": 0.0,
-      "hard_guard": null,
-      "lexical_score": 1.0,
-      "location_score": 0.0,
-      "time_score": 0.25,
-      "total_score": 0.62,
-      "vehicle_score": 0.0
-    },
-    "left_mention_id": "men_bf79a56d57f3645a",
-    "provider_run_id": "prun_1de79bc8e16c810f",
-    "rationale": "Both mentions describe generic road crashes with unknown time, location, vehicles, and casualties. No shared identifying details or explicit conflicts exist. The low overlap in event time resolution and lack of location or vehicle information do not support merging. Uncertain is appropriate.",
-    "right_mention_id": "men_73c489d2dbf5e0c0"
-  },
-  {
-    "confidence": 0.6,
-    "contradictions": [],
-    "decision": "uncertain",
-    "decisive_evidence_ids": [],
-    "features": {
-      "entity_score": 0.0,
-      "hard_guard": null,
-      "lexical_score": 1.0,
-      "location_score": 0.0,
-      "time_score": 0.25,
-      "total_score": 0.62,
-      "vehicle_score": 0.0
-    },
-    "left_mention_id": "men_22310e681c918d7a",
-    "provider_run_id": "prun_b4c400cd2f66b4ab",
-    "rationale": "Both mentions are road crashes with no location, time, or vehicle details. The lexical similarity is high but generic, and the time score is low because time is unknown for both. There are no overlapping evidence IDs, and no explicit contradictions. The evidence is insufficient to determine if they are the same incident or different ones, so 'uncertain' is the appropriate decision.",
-    "right_mention_id": "men_73c489d2dbf5e0c0"
-  },
-  {
     "confidence": 0.95,
     "contradictions": [
       "specific normalized locations conflict"
@@ -3064,21 +2871,12 @@
     "right_mention_id": "men_6820b78d82593f2c"
   },
   {
-    "confidence": 0.74,
+    "confidence": 0.82,
     "contradictions": [],
     "decision": "same_incident",
     "decisive_evidence_ids": [
       "ev_07a4549765a2d7a1",
-      "ev_298c49bd952c41d8",
-      "ev_46842f13e60fde78",
-      "ev_d7c18f446cad4094",
-      "ev_ffdb144fdbfff7c5",
-      "ev_33667123810c930a",
-      "ev_8abd92a099282678",
-      "ev_e83083c24c1fb324",
-      "ev_65ff85722690ad8d",
-      "ev_249e84b4d0423349",
-      "ev_bb8f9aa29bb214dc"
+      "ev_298c49bd952c41d8"
     ],
     "features": {
       "entity_score": 0.0,
@@ -3090,8 +2888,8 @@
       "vehicle_score": 0.0
     },
     "left_mention_id": "men_ed0878d035a5a6ee",
-    "provider_run_id": "prun_b4dbce27a96da1b7",
-    "rationale": "Both mentions share the same event type (road_crash), subtype (fatal), identical casualty counts (1 fatality, 2 injuries), overlapping date (2024-12-20/21), and the same location (Purbachal 300 Feet Road, Rupganj) with matching coordinates. The right mention inherits the location from the left, and includes a vehicle overlap (car vs. motorcycle/car). The left evidence ID is explicitly paired with the right's evidence IDs, indicating they refer to the same incident. The lexical overlap ('purbachal', '300 feet') and the right's note that linkage is inherited from the paired HTML source further support the match. No contradictions in time, location, or casualties are present.",
+    "provider_run_id": "prun_6a8b0213bfce8262",
+    "rationale": "Recorded adjudication: normalized date and location anchors agree.",
     "right_mention_id": "men_e5821d942ba973bb"
   },
   {

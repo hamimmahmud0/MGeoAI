@@ -1,0 +1,322 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d451ebd0ba4f7595",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d451ebd0ba4f7595",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 university students killed as DNCC garbage truck hits motorcycle in Demra",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "2 university students killed as DNCC garbage truck hits motorcycle in Demra",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d52398a1e77d9cb5",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_d52398a1e77d9cb5",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Both students resided in the Chittagong Road area of Shanarpar",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Both students resided in the Chittagong Road area of Shanarpar",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8f52b08264975443",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_8f52b08264975443",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two university students were killed early Friday when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra.",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Two university students were killed early Friday when a Dhaka North City Corporation (DNCC) garbage truck rammed their motorcycle in the Konapara area of Demra.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5d40101626e072b9",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_5d40101626e072b9",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "The deceased were identified as Iram Redwan, 25, a student of American International University-Bangladesh (AIUB), and Apu Ahmed, 25, a student of United International University (UIU).",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "The deceased were identified as Iram Redwan, 25, a student of American International University-Bangladesh (AIUB), and Apu Ahmed, 25, a student of United International University (UIU).",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_26abff18a343fa11",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_26abff18a343fa11",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Victims’ classmate Tausif said Redwan and Apu were returning home from a wedding event around 4:30am when the DNCC garbage truck hit their motorcycle, leaving them seriously injured.",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Victims’ classmate Tausif said Redwan and Apu were returning home from a wedding event around 4:30am when the DNCC garbage truck hit their motorcycle, leaving them seriously injured.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_615a6ea137bc0117",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_615a6ea137bc0117",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "They were taken to Dhaka Medical College Hospital (DMCH), where doctors declared Apu dead first, followed shortly by Redwan, he added.",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "They were taken to Dhaka Medical College Hospital (DMCH), where doctors declared Apu dead first, followed shortly by Redwan, he added.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30f22baf692ec20d",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_30f22baf692ec20d",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(5)",
+      "locator_type": "html_selector",
+      "original_text": "Both students resided in the Chittagong Road area of Shanarpar. The City Corporation vehicle (registration Dhaka Metro Sha-140574) has been seized by police.",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Both students resided in the Chittagong Road area of Shanarpar. The City Corporation vehicle (registration Dhaka Metro Sha-140574) has been seized by police.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f483169bb2e194ff",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_f483169bb2e194ff",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(6)",
+      "locator_type": "html_selector",
+      "original_text": "Inspector Md Faruk, in charge of the police camp at DMCH, said the bodies have been kept in the hospital morgue.",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Inspector Md Faruk, in charge of the police camp at DMCH, said the bodies have been kept in the hospital morgue.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_64e505fb275a4226",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_64e505fb275a4226",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > article:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(7)",
+      "locator_type": "html_selector",
+      "original_text": "The incident has been reported to the Demra police station.",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "The incident has been reported to the Demra police station.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99c6453452c1591f",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_99c6453452c1591f",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Chief Whip: MPs bound by party line in presidential election",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Chief Whip: MPs bound by party line in presidential election",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e4f51978670ede69",
+    "kind": "post",
+    "locator": {
+      "block_id": "blk_e4f51978670ede69",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Exclusive breastfeeding in Bangladesh falls to 56.6%",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Exclusive breastfeeding in Bangladesh falls to 56.6%",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d7098a5ec223ef1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7d7098a5ec223ef1",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Five arrested over attempted murder of BNP activist in Pallabi",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Five arrested over attempted murder of BNP activist in Pallabi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40396d0ef6aceb8e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_40396d0ef6aceb8e",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Energy minister: Investment-friendly policy adopted for energy sector",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Energy minister: Investment-friendly policy adopted for energy sector",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95dea6baceed2f9e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95dea6baceed2f9e",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Parliament to go into third session August 27",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "Parliament to go into third session August 27",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e009be684c7ada3f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e009be684c7ada3f",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "DMP files 915 cases against black smoke-emitting vehicles in July",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "DMP files 915 cases against black smoke-emitting vehicles in July",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bb3cea319074e064",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bb3cea319074e064",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "রাষ্ট্রপতি নির্বাচনে দলীয় প্রার্থীর বাইরে ভোট দিলে কী হবে?",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "রাষ্ট্রপতি নির্বাচনে দলীয় প্রার্থীর বাইরে ভোট দিলে কী হবে?",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c9c4fd33747cd171",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c9c4fd33747cd171",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "আরব বিশ্বের প্রথম দেশ হিসেবে মৃত্যুদণ্ড বাতিল করলো লেবানন",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "আরব বিশ্বের প্রথম দেশ হিসেবে মৃত্যুদণ্ড বাতিল করলো লেবানন",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7bf0f2443b2dac53",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7bf0f2443b2dac53",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "দক্ষিণ কোরিয়ায় পড়তে যাওয়ার আগে যে তথ্যগুলো জানা জরুরি",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "দক্ষিণ কোরিয়ায় পড়তে যাওয়ার আগে যে তথ্যগুলো জানা জরুরি",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7026edcec4500f7d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7026edcec4500f7d",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "ইয়ারবাড দিনে কতক্ষণ ব্যবহার করা নিরাপদ?",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "ইয়ারবাড দিনে কতক্ষণ ব্যবহার করা নিরাপদ?",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5f9facf8c893a1c2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5f9facf8c893a1c2",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "প্রধানমন্ত্রী: বিদেশি বিনিয়োগকারীদের সহযোগিতা করতে প্রস্তুত সরকার",
+      "source_path": "html/10/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b93f4489c5cce965",
+    "text": "প্রধানমন্ত্রী: বিদেশি বিনিয়োগকারীদের সহযোগিতা করতে প্রস্তুত সরকার",
+    "url": null
+  }
+]

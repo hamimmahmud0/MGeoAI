@@ -1,0 +1,240 @@
+{
+  "alternate_time_claims": [
+    {
+      "end": "2026-08-07T07:00:00+06:00",
+      "original_expression": "around 7:00am",
+      "precision": "hour",
+      "start": "2026-08-07T07:00:00+06:00",
+      "timezone": "Asia/Dhaka"
+    }
+  ],
+  "collision": "Head-on collision between two passenger buses; the Unique Paribahan bus reportedly fell into a roadside ditch after impact.",
+  "congestion_delay": null,
+  "contributing_factors": [
+    "Reported witness claim: The Bengal Paribahan bus attempted to overtake a pickup and veered onto the right side; high speed was alleged [ev_e7e4274f75924b4d].",
+    "Reported social-media video: The Bengal Paribahan bus appeared to lose control before impact [ev_8675a512af387063]."
+  ],
+  "data_quality_warnings": [
+    "Casualty counts conflict between sources (8 vs 9 fatalities; 25 vs 24 injuries), so the fused casualty facts are marked unknown pending corroboration.",
+    "Location is an area-level gazetteer centroid with about 3 km uncertainty, not an exact crash point.",
+    "ev_fd400a07465e0029, from Independent Television, is a ministerial road-safety statement in Sylhet rather than a report of this crash; it was excluded from incident facts and not counted as independent crash-source coverage.",
+    "The Daily Star source title refers to 16 killed in Sylhet and Bogura road crashes, while the cluster evidence body assigns 9 deaths to this Sylhet crash; article-level totals were not used.",
+    "ev_6e66ceecc047e881 and ev_80bb0d4e8bc0bb7e are essentially duplicate captions from the same Prothom Alo article; counted once."
+  ],
+  "duplicate_groups": [
+    [
+      "ev_6e66ceecc047e881",
+      "ev_80bb0d4e8bc0bb7e"
+    ]
+  ],
+  "emergency_response": [
+    "Many injured passengers were rescued and taken to Sylhet MAG Osmani Medical College Hospital [ev_03c6593b6ff5558e]."
+  ],
+  "event_time": {
+    "end": "2026-08-07T07:30:00+06:00",
+    "original_expression": "around 7:30 am on Friday in the Kashikapan area on the Dhaka–Sylhet Highway",
+    "precision": "hour",
+    "start": "2026-08-07T07:30:00+06:00",
+    "timezone": "Asia/Dhaka"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_03c6593b6ff5558e",
+    "ev_189d525e6f97c130",
+    "ev_6e66ceecc047e881",
+    "ev_80bb0d4e8bc0bb7e",
+    "ev_851244544886379c",
+    "ev_8675a512af387063",
+    "ev_99685340cfb96e6d",
+    "ev_a50c19158fca4347",
+    "ev_bd7059355180a4f1",
+    "ev_c78334d8553e64e3",
+    "ev_e7e4274f75924b4d",
+    "ev_f4f6bf3ae3a5ae94"
+  ],
+  "facts": [
+    {
+      "confidence": 0.95,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "event_type",
+      "selection_rationale": "Multiple sources describe a road collision involving two passenger buses on a highway.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_a50c19158fca4347",
+        "ev_99685340cfb96e6d",
+        "ev_8675a512af387063"
+      ],
+      "value": "road_crash"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "incident_date",
+      "selection_rationale": "Captions and article text identify 7 August 2026 as the incident date.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_6e66ceecc047e881",
+        "ev_80bb0d4e8bc0bb7e",
+        "ev_a50c19158fca4347"
+      ],
+      "value": "2026-08-07"
+    },
+    {
+      "confidence": 0.65,
+      "conflicting_values": [
+        8,
+        9
+      ],
+      "contradiction": true,
+      "field": "fatalities",
+      "selection_rationale": "Prothom Alo reports 8 killed; The Daily Star reports 9 killed. The conflict is preserved; no average is applied.",
+      "state": "unknown",
+      "support_evidence_ids": [
+        "ev_a50c19158fca4347",
+        "ev_f4f6bf3ae3a5ae94",
+        "ev_c78334d8553e64e3"
+      ],
+      "value": null
+    },
+    {
+      "confidence": 0.65,
+      "conflicting_values": [
+        25,
+        24
+      ],
+      "contradiction": true,
+      "field": "injuries",
+      "selection_rationale": "Prothom Alo reports at least 25 injured; The Daily Star reports at least 24 injured. The conflict is preserved; no average is applied.",
+      "state": "unknown",
+      "support_evidence_ids": [
+        "ev_a50c19158fca4347",
+        "ev_03c6593b6ff5558e",
+        "ev_f4f6bf3ae3a5ae94"
+      ],
+      "value": null
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicles_involved",
+      "selection_rationale": "Police and eyewitnesses cited in both articles name the same two buses and their directions.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_99685340cfb96e6d",
+        "ev_8675a512af387063",
+        "ev_f4f6bf3ae3a5ae94"
+      ],
+      "value": "Two passenger buses: a Sylhet-bound Bengal Paribahan bus and a Dhaka-bound Unique Paribahan bus"
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "collision_type",
+      "selection_rationale": "Police and witness reports describe a head-on collision, and multiple reports state the Unique Paribahan bus entered a ditch.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_189d525e6f97c130",
+        "ev_99685340cfb96e6d",
+        "ev_c78334d8553e64e3",
+        "ev_e7e4274f75924b4d"
+      ],
+      "value": "Head-on collision between the two buses; the Unique Paribahan bus reportedly fell into a roadside ditch"
+    },
+    {
+      "confidence": 0.6,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "reported_contributing_factor",
+      "selection_rationale": "These are reported witness/video claims, not established fault or speed; no official finding was supplied.",
+      "state": "unknown",
+      "support_evidence_ids": [
+        "ev_e7e4274f75924b4d",
+        "ev_8675a512af387063"
+      ],
+      "value": "Witnesses reported the Bengal Paribahan bus attempted to overtake a pickup and veered onto the right side before the collision; high speed was alleged. A social-media video reportedly showed loss of control."
+    }
+  ],
+  "generated_at": "2026-08-07T12:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 3 km uncertainty",
+    "confidence": 0.68,
+    "display_name": "Kashikapan, Osmaninagar, Sylhet",
+    "granularity": "area",
+    "hierarchy": {
+      "anchor": "sylhet",
+      "country": "Bangladesh",
+      "district": "Sylhet",
+      "upazila": "Osmaninagar"
+    },
+    "latitude": 24.7063,
+    "longitude": 91.7417,
+    "method": "source-named local gazetteer centroid",
+    "supporting_evidence_ids": [
+      "ev_851244544886379c",
+      "ev_8675a512af387063"
+    ],
+    "uncertainty_radius_km": 3.0
+  },
+  "human_summary": "On 7 August 2026, two passenger buses collided head-on in the Kashikapan area of the Dhaka–Sylhet highway in Osmaninagar, Sylhet, according to reporting from Prothom Alo [ev_99685340cfb96e6d] and The Daily Star [ev_8675a512af387063]. Police and eyewitnesses cited by Prothom Alo identified the vehicles as a Sylhet-bound Bengal Paribahan bus and a Dhaka-bound Unique Paribahan bus [ev_99685340cfb96e6d]. The Daily Star cited witnesses saying the Bengal bus attempted to overtake a pickup, veered onto the right side, and hit the Unique bus, which fell into a roadside ditch [ev_e7e4274f75924b4d]; a social-media video reportedly shows loss of control [ev_8675a512af387063]. The exact location is only known at area level; the supplied point is a representative centroid with about 3 km uncertainty. Casualty counts conflict: Prothom Alo reports eight killed and at least 25 injured [ev_a50c19158fca4347], while The Daily Star reports nine passengers of the Unique bus died and at least 24 were injured [ev_f4f6bf3ae3a5ae94]. Injured passengers were reportedly rescued and taken to Sylhet MAG Osmani Medical College Hospital [ev_03c6593b6ff5558e]. The identities of the dead and injured were not immediately known [ev_189d525e6f97c130]. Two independent sources cover this crash. No traffic closure or delay details were supplied.",
+  "incident_id": "inc_cluster-006",
+  "independent_source_count": 2,
+  "involved_parties": [
+    "Unique Paribahan (Dhaka-bound bus) passengers",
+    "Bengal Paribahan (Sylhet-bound bus) passengers",
+    "Faruk Miah, injured Unique Paribahan passenger"
+  ],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {
+      "road_safety": {
+        "negative": 1
+      }
+    },
+    "coverage_note": "One traffic-related sentiment expression was supplied by The Daily Star's article, expressing concern about incident accountability under the road-safety aspect. No other traffic-related sentiment was supplied.",
+    "items": [
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_3c2f6e349cdbbcef",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_64f3b6560f2086d6",
+        "source_id": "src_dfdb7ca9eb9e785d",
+        "target": "incident accountability",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 1,
+    "traffic_relevant_count": 1
+  },
+  "source_ids": [
+    "src_34358089c6fb35c0",
+    "src_dfdb7ca9eb9e785d"
+  ],
+  "status": "reported",
+  "title": "Two passenger buses collide on Dhaka–Sylhet highway in Kashikapan, Osmaninagar, Sylhet",
+  "unresolved_questions": [
+    "Which fatality count is correct for this crash: 8 (Prothom Alo) or 9 (The Daily Star)?",
+    "Which injury count is correct: at least 25 (Prothom Alo) or at least 24 (The Daily Star)?",
+    "Did all deaths occur among Unique Paribahan passengers, and were all deaths at the scene?",
+    "What caused the Bengal Paribahan bus to cross into oncoming traffic? Overtaking is reported but not confirmed.",
+    "Were any road closures or traffic delays caused by the crash? No traffic-effect evidence was supplied."
+  ],
+  "vehicles": [
+    "Bengal Paribahan bus",
+    "Unique Paribahan bus"
+  ]
+}

@@ -3,24 +3,24 @@
     {
       "geometry": {
         "coordinates": [
-          90.4023,
-          23.8957
+          90.5452,
+          23.8307
         ],
         "type": "Point"
       },
-      "id": "cluster-002",
+      "id": "inc_7506aea7be28123a",
       "properties": {
-        "confidence": 0.68,
-        "event_start": "2026-08-09T00:00:00",
+        "confidence": 0.9,
+        "event_start": "2024-12-20T00:00:00",
         "event_type": "road_crash",
-        "granularity": "city",
-        "incident_id": "cluster-002",
-        "location_name": "Tongi, Gazipur",
+        "granularity": "area",
+        "incident_id": "inc_7506aea7be28123a",
+        "location_name": "Purbachal 300 Feet Road, Rupganj",
         "sentiment_count": 2,
-        "source_count": 2,
+        "source_count": 7,
         "status": "reported",
-        "title": "Road crash and aftermath in Tongi, Gazipur",
-        "uncertainty_radius_km": 5.0
+        "title": "BUET student crash on Purbachal 300 Feet Road",
+        "uncertainty_radius_km": 3.0
       },
       "type": "Feature"
     },
@@ -32,19 +32,19 @@
         ],
         "type": "Point"
       },
-      "id": "inc_003",
+      "id": "inc_11eda3bb70c89720",
       "properties": {
-        "confidence": 0.68,
-        "event_start": "2026-08-09T11:00:00",
+        "confidence": 0.78,
+        "event_start": "2026-08-09T00:00:00",
         "event_type": "road_crash",
         "granularity": "city",
-        "incident_id": "inc_003",
+        "incident_id": "inc_11eda3bb70c89720",
         "location_name": "Tongi, Gazipur",
-        "sentiment_count": 5,
-        "source_count": 1,
-        "status": "resolved",
-        "title": "Students blockade Dhaka-Mymensingh Highway in Tongi after road death of student Yasin",
-        "uncertainty_radius_km": 5.0
+        "sentiment_count": 13,
+        "source_count": 3,
+        "status": "reported",
+        "title": "Tongi student crash and highway blockade",
+        "uncertainty_radius_km": 12.0
       },
       "type": "Feature"
     },
@@ -56,19 +56,19 @@
         ],
         "type": "Point"
       },
-      "id": "inc_konapara_dncc_crash_20251212",
+      "id": "inc_753bb5d167966303",
       "properties": {
-        "confidence": 0.68,
+        "confidence": 0.8800000000000001,
         "event_start": "2025-12-12T00:00:00",
         "event_type": "road_crash",
         "granularity": "area",
-        "incident_id": "inc_konapara_dncc_crash_20251212",
-        "location_name": "Konapara, Demra, Dhaka, Bangladesh",
+        "incident_id": "inc_753bb5d167966303",
+        "location_name": "Konapara, Demra",
         "sentiment_count": 0,
-        "source_count": 3,
+        "source_count": 5,
         "status": "reported",
-        "title": "Two university students killed in Demra after DNCC garbage truck hits motorcycle",
-        "uncertainty_radius_km": null
+        "title": "DNCC garbage truck–motorcycle crash in Demra",
+        "uncertainty_radius_km": 3.0
       },
       "type": "Feature"
     },
@@ -80,19 +80,19 @@
         ],
         "type": "Point"
       },
-      "id": "inc_cluster007",
+      "id": "inc_e99408b6b12ed0d8",
       "properties": {
-        "confidence": 0.68,
+        "confidence": 0.7300000000000001,
         "event_start": "2026-08-07T00:00:00",
         "event_type": "road_crash",
         "granularity": "area",
-        "incident_id": "inc_cluster007",
-        "location_name": "Kashikapan, Osmaninagar, Sylhet, Bangladesh",
+        "incident_id": "inc_e99408b6b12ed0d8",
+        "location_name": "Kashikapan, Osmaninagar, Sylhet",
         "sentiment_count": 1,
         "source_count": 2,
         "status": "reported",
-        "title": "Two passenger buses collide on Dhaka–Sylhet highway in Kashikapan, Osmaninagar, Sylhet",
-        "uncertainty_radius_km": 5.0
+        "title": "Passenger-bus collision in Osmaninagar, Sylhet",
+        "uncertainty_radius_km": 3.0
       },
       "type": "Feature"
     },
@@ -104,19 +104,19 @@
         ],
         "type": "Point"
       },
-      "id": "inc_008",
+      "id": "inc_17485b80f7f4a524",
       "properties": {
-        "confidence": 0.5,
-        "event_start": "2026-08-07T00:00:00+00:00",
+        "confidence": 0.7300000000000001,
+        "event_start": "2026-08-07T00:00:00",
         "event_type": "road_crash",
         "granularity": "city",
-        "incident_id": "inc_008",
-        "location_name": "Bogura, Bangladesh",
+        "incident_id": "inc_17485b80f7f4a524",
+        "location_name": "Sherpur, Bogura",
         "sentiment_count": 1,
         "source_count": 2,
         "status": "reported",
-        "title": "Fatal bus crash in Bogura kills seven, prompts official inquiry",
-        "uncertainty_radius_km": 20.0
+        "title": "Bus crash involving labourers in Sherpur, Bogura",
+        "uncertainty_radius_km": 12.0
       },
       "type": "Feature"
     }

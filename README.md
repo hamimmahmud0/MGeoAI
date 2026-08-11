@@ -51,6 +51,23 @@ mgeoai serve --data-dir outputs/demo --host 0.0.0.0 --port 8000
 
 Open `http://127.0.0.1:8000`.
 
+### Serve the bundled v0.2.3 live dataset
+
+Release v0.2.3 includes the production frontend and a validated DeepSeek Flash
+thinking-mode output, so hosting does not require Node, a provider key, or data
+regeneration. Install the Python package and run:
+
+```bash
+mgeoai serve \
+  --data-dir outputs/deepseek-refusion \
+  --host 0.0.0.0 \
+  --port 8000
+```
+
+The bundled output contains the API records, GeoJSON, source/evidence views,
+per-incident reports, and provider-run metadata required by the dashboard.
+Transient provider-response caches and cost ledgers are intentionally excluded.
+
 ## Live DeepSeek run
 
 Copy `.env.example` to an ignored `.env` or export values from a secret manager.

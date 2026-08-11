@@ -1,0 +1,450 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f58a1ec7dbcdb630",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f58a1ec7dbcdb630",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "16 killed in Sylhet, Bogura road crashes",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "16 killed in Sylhet, Bogura road crashes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c77e9484723c6882",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c77e9484723c6882",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 16 people, including five labourers, were killed and 48 others injured in road crashes in Sylhet and Bogura yesterday.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "At least 16 people, including five labourers, were killed and 48 others injured in road crashes in Sylhet and Bogura yesterday.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f69fd0062b0e5a24",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f69fd0062b0e5a24",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "In Sylhet’s Osmaninagar upazila, two buses collided head-on.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "In Sylhet’s Osmaninagar upazila, two buses collided head-on.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c582b32989286a0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2c582b32989286a0",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "A video circulating on social media shows a Bengal Paribahan bus losing control and hitting a Unique Paribahan bus, which then fell into a roadside ditch on the Dhaka-Sylhet highway in Kashikapan around 7:00am.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "A video circulating on social media shows a Bengal Paribahan bus losing control and hitting a Unique Paribahan bus, which then fell into a roadside ditch on the Dhaka-Sylhet highway in Kashikapan around 7:00am.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6a99015356062699",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6a99015356062699",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Nine passengers of the Dhaka-bound Unique Paribahan bus died. At least 24 others of the two vehicles were injured.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Nine passengers of the Dhaka-bound Unique Paribahan bus died. At least 24 others of the two vehicles were injured.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a06ccf015ec5d7c7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a06ccf015ec5d7c7",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(5)",
+      "locator_type": "html_selector",
+      "original_text": "Several witnesses told reporters that the Bengal Paribahan bus veered onto the right side of the road while attempting to overtake a pickup, before colliding head-on with the Unique Paribahan bus at high speed.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Several witnesses told reporters that the Bengal Paribahan bus veered onto the right side of the road while attempting to overtake a pickup, before colliding head-on with the Unique Paribahan bus at high speed.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d1076ea61921d521",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d1076ea61921d521",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(6)",
+      "locator_type": "html_selector",
+      "original_text": "Four of the nine deceased have been identified as Saiful Islam, 50, of Kishoreganj; Peheli Bhairabi, 17, of the same district; Faiza, 3, daughter of Jahangir of Sylhet city; and Saptam Roy Pritam, 22, of the city’s Sobhanighat area.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Four of the nine deceased have been identified as Saiful Islam, 50, of Kishoreganj; Peheli Bhairabi, 17, of the same district; Faiza, 3, daughter of Jahangir of Sylhet city; and Saptam Roy Pritam, 22, of the city’s Sobhanighat area.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_adb9de58fd21afb7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_adb9de58fd21afb7",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(7)",
+      "locator_type": "html_selector",
+      "original_text": "Peheli was a Baul singer. She was on the way to Dhaka after performing at an event in Sylhet, her acquaintances said.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Peheli was a Baul singer. She was on the way to Dhaka after performing at an event in Sylhet, her acquaintances said.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0943dc4d395b4d1e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0943dc4d395b4d1e",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(8)",
+      "locator_type": "html_selector",
+      "original_text": "Faruk Miah, 52, of Kuliarchar in Kishoreganj, a Unique Paribahan passenger injured in the crash, said he, along with his four friends, had come to Sylhet to visit the shrine of Hazrat Shahjalal (RA). Two of them flew back to Dhaka, and he and the other two boarded the bus.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Faruk Miah, 52, of Kuliarchar in Kishoreganj, a Unique Paribahan passenger injured in the crash, said he, along with his four friends, had come to Sylhet to visit the shrine of Hazrat Shahjalal (RA). Two of them flew back to Dhaka, and he and the other two boarded the bus.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5963eb25aad405fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5963eb25aad405fa",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(9)",
+      "locator_type": "html_selector",
+      "original_text": "“I was dozing off at the time of the accident. A loud sound and crash woke me up. People carried me to the hospital. My friend Saiful Islam was killed.”",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "“I was dozing off at the time of the accident. A loud sound and crash woke me up. People carried me to the hospital. My friend Saiful Islam was killed.”",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5baf109d9d6295c5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5baf109d9d6295c5",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(10)",
+      "locator_type": "html_selector",
+      "original_text": "Brig Gen Umar Rashed Munir, director of Osmani Medical College Hospital, said 16 people were admitted to the hospital. Of them, a child died first and another patient afterwards, he said, adding that the 14 others were undergoing treatment.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Brig Gen Umar Rashed Munir, director of Osmani Medical College Hospital, said 16 people were admitted to the hospital. Of them, a child died first and another patient afterwards, he said, adding that the 14 others were undergoing treatment.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_937ac348cd8c9064",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_937ac348cd8c9064",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(11)",
+      "locator_type": "html_selector",
+      "original_text": "BOGURA CRASH",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "BOGURA CRASH",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_582c8858342dd963",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_582c8858342dd963",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(12)",
+      "locator_type": "html_selector",
+      "original_text": "Seven people were killed when a speeding bus ran over labourers waiting for work by the Bogura-Naogaon regional highway near Erulia Bazar in Bogura Sadar upazila around 5:30am yesterday.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Seven people were killed when a speeding bus ran over labourers waiting for work by the Bogura-Naogaon regional highway near Erulia Bazar in Bogura Sadar upazila around 5:30am yesterday.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae6fe3930313f2fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae6fe3930313f2fa",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(13)",
+      "locator_type": "html_selector",
+      "original_text": "Five of them were day labourers, while the rest had come to hire them.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Five of them were day labourers, while the rest had come to hire them.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bbcd57862f024174",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bbcd57862f024174",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(14)",
+      "locator_type": "html_selector",
+      "original_text": "Monjur-A-Morshed, deputy director of Shaheed Ziaur Rahman Medical College Hospital, said 24 injured were admitted to the facility and 19 of them were undergoing treatment.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Monjur-A-Morshed, deputy director of Shaheed Ziaur Rahman Medical College Hospital, said 24 injured were admitted to the facility and 19 of them were undergoing treatment.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_449eb9ba45cbf595",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_449eb9ba45cbf595",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(15)",
+      "locator_type": "html_selector",
+      "original_text": "The deceased have been identified as Tazimul, 47, of Dinajpur; Bellal Hossain, of Bogura Sadar upazila; Nur Mohammad, 76, of the same district; Abu Sayeed, 45, of Gaibandha; Nur Alam, 45, of the same district; Anarul, 55, of Joypurhat; and Amirul, 40, of the same district.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "The deceased have been identified as Tazimul, 47, of Dinajpur; Bellal Hossain, of Bogura Sadar upazila; Nur Mohammad, 76, of the same district; Abu Sayeed, 45, of Gaibandha; Nur Alam, 45, of the same district; Anarul, 55, of Joypurhat; and Amirul, 40, of the same district.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_26aab4ff4a81d2e1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_26aab4ff4a81d2e1",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(16)",
+      "locator_type": "html_selector",
+      "original_text": "Shahidul Islam, senior station officer of the Bogura fire service office, told The Daily Star that the brakes of Naogaon-bound Shah Fateh Ali Paribahan bus coming from Dhaka failed when the vehicle gave the way to a motorcycle. The bus first struck an electricity pole, then crashed into labourers and people who had come to hire them, he said.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Shahidul Islam, senior station officer of the Bogura fire service office, told The Daily Star that the brakes of Naogaon-bound Shah Fateh Ali Paribahan bus coming from Dhaka failed when the vehicle gave the way to a motorcycle. The bus first struck an electricity pole, then crashed into labourers and people who had come to hire them, he said.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f69a4003ef0353c0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f69a4003ef0353c0",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(17)",
+      "locator_type": "html_selector",
+      "original_text": "Three died on the spot.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Three died on the spot.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c634037a2caf45c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c634037a2caf45c6",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(18)",
+      "locator_type": "html_selector",
+      "original_text": "Doctors declared three dead after being taken to the hospital, while another died later.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Doctors declared three dead after being taken to the hospital, while another died later.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e93b381675174a09",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e93b381675174a09",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(19)",
+      "locator_type": "html_selector",
+      "original_text": "Shahidul said locals, transport workers, and firefighters rescued the victims and sent them to the hospital.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Shahidul said locals, transport workers, and firefighters rescued the victims and sent them to the hospital.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8c4d2f8ac32b6cee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8c4d2f8ac32b6cee",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(20)",
+      "locator_type": "html_selector",
+      "original_text": "Labourer Md Borhan, who was present at the scene, told this newspaper, “Around 200 workers were waiting at the spot this morning. Suddenly, a speeding bus veered onto our side of the road to avoid a collision with an oncoming motorcycle. I ran and somehow managed to survive, but one person from my village was killed, and six others have been hospitalised.”",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Labourer Md Borhan, who was present at the scene, told this newspaper, “Around 200 workers were waiting at the spot this morning. Suddenly, a speeding bus veered onto our side of the road to avoid a collision with an oncoming motorcycle. I ran and somehow managed to survive, but one person from my village was killed, and six others have been hospitalised.”",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e7439f8fd409b60",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e7439f8fd409b60",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(21)",
+      "locator_type": "html_selector",
+      "original_text": "Bogura Sadar Upazila Nirbahi Officer Abdul Wazed said locals blocked the road at the scene, demanding speed breakers to prevent further crashes. The executive engineer of the Roads and Highways Department visited the spot and assured the protesters that speed breakers would be installed there soon, he added.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Bogura Sadar Upazila Nirbahi Officer Abdul Wazed said locals blocked the road at the scene, demanding speed breakers to prevent further crashes. The executive engineer of the Roads and Highways Department visited the spot and assured the protesters that speed breakers would be installed there soon, he added.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a3faac6ff0462bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9a3faac6ff0462bf",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(22)",
+      "locator_type": "html_selector",
+      "original_text": "Bogura Deputy Commissioner Toufiqur Rahman said the family of each deceased person would receive Tk 25,000, while each injured would be provided Tk 15,000. He added that the government would bear all treatment costs for the injured.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Bogura Deputy Commissioner Toufiqur Rahman said the family of each deceased person would receive Tk 25,000, while each injured would be provided Tk 15,000. He added that the government would bear all treatment costs for the injured.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_44da106866a5f95e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_44da106866a5f95e",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(23)",
+      "locator_type": "html_selector",
+      "original_text": "Meanwhile, a three-member committee, led by Bogura Additional District Magistrate Masud Hossain, has been formed to identify those responsible for the crash and asked to submit its report within three working days.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Meanwhile, a three-member committee, led by Bogura Additional District Magistrate Masud Hossain, has been formed to identify those responsible for the crash and asked to submit its report within three working days.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f75e491c2d644074",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f75e491c2d644074",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(24)",
+      "locator_type": "html_selector",
+      "original_text": "According to the Bogura office of Bangladesh Road Transport Authority (BRTA), the bus had been operating without a route permit for the past one and a half years.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "According to the Bogura office of Bangladesh Road Transport Authority (BRTA), the bus had been operating without a route permit for the past one and a half years.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34a023fbbea359f2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34a023fbbea359f2",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(25)",
+      "locator_type": "html_selector",
+      "original_text": "Asked about the matter, DC Toufiqur told The Daily Star said that once the investigation is completed, action will be taken.",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "Asked about the matter, DC Toufiqur told The Daily Star said that once the investigation is completed, action will be taken.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e511a153b717efc1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e511a153b717efc1",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(6) > span:nth-of-type(1) > p:nth-of-type(26)",
+      "locator_type": "html_selector",
+      "original_text": "[Our correspondents in Sylhet and Bogura contributed to this report.]",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "[Our correspondents in Sylhet and Bogura contributed to this report.]",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9f22bb6200177aa7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9f22bb6200177aa7",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(5) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "At least 16 people, including five labourers, were killed and 48 others injured in road crashes in Sylhet and Bogura yesterday. Photo: Star, collected",
+      "source_path": "html/12/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfdb7ca9eb9e785d",
+    "text": "At least 16 people, including five labourers, were killed and 48 others injured in road crashes in Sylhet and Bogura yesterday. Photo: Star, collected",
+    "url": null
+  }
+]

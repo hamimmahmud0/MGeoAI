@@ -1,0 +1,249 @@
+{
+  "alternate_time_claims": [
+    {
+      "end": null,
+      "original_expression": "around 11am",
+      "precision": "hour",
+      "start": "2026-08-09T11:00:00",
+      "timezone": null
+    },
+    {
+      "end": null,
+      "original_expression": "around 3pm today",
+      "precision": "hour",
+      "start": "2026-08-09T15:00:00",
+      "timezone": null
+    }
+  ],
+  "collision": null,
+  "congestion_delay": "About 15 km of severe congestion along the highway was caused by the blockade; thousands of passengers suffered [ev_25f22aa562f7533f][ev_33738fa816ada880].",
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "Victim age conflict: Bengali post reports Yasin Ali, 15; The Daily Star reports Yasin, 17. The fused facts preserve one fatality but not a single age.",
+    "Source src_96c9878e5c29c473 has no publisher metadata, publication time, or source URI; source independence is flagged unknown.",
+    "Mention extraction labeled 'bus' as a vehicle, but the supplied text only names Gazipur bus stand; no vehicle involvement is supported, so vehicles is empty.",
+    "Time precision is day for the crash from corpus normalization; the 11am and 3pm times in sources refer to the blockade, not the crash time."
+  ],
+  "duplicate_groups": [
+    [
+      "ev_25f22aa562f7533f",
+      "ev_33738fa816ada880"
+    ]
+  ],
+  "emergency_response": [
+    "Police personnel from Tongi East and Tongi West police stations were deployed and attempted to persuade students to withdraw [ev_68d7f18f8fe461ea].",
+    "Police reportedly assured students that their demand for foot overbridges would be met [ev_4be9adbfb1ccf9b1]."
+  ],
+  "event_time": {
+    "end": "2026-08-10T00:00:00",
+    "original_expression": "date normalized from corpus evidence family",
+    "precision": "day",
+    "start": "2026-08-09T00:00:00",
+    "timezone": null
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_25f22aa562f7533f",
+    "ev_33738fa816ada880",
+    "ev_4be9adbfb1ccf9b1",
+    "ev_68d7f18f8fe461ea",
+    "ev_9012296fa587ace1",
+    "ev_d9abeb718696a746"
+  ],
+  "facts": [
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "The Daily Star states one fatality (Yasin) and the Bengali post reports one named madrasa student killed; both agree on one fatality.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_9012296fa587ace1",
+        "ev_25f22aa562f7533f",
+        "ev_33738fa816ada880"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No supplied evidence reports an injury count; state is not_reported rather than zero.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-08-10T00:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 1 km uncertainty",
+    "confidence": 0.75,
+    "display_name": "Asia Pump area, Tongi, Gazipur",
+    "granularity": "road_segment",
+    "hierarchy": {
+      "anchor": "tongi",
+      "city": "Tongi",
+      "country": "Bangladesh",
+      "district": "Gazipur",
+      "locality": "Asia Pump"
+    },
+    "latitude": 23.917957,
+    "longitude": 90.393642,
+    "method": "source-named local gazetteer centroid",
+    "supporting_evidence_ids": [
+      "ev_25f22aa562f7533f",
+      "ev_33738fa816ada880"
+    ],
+    "uncertainty_radius_km": 1.0
+  },
+  "human_summary": "Reports describe a road accident in Tongi, Gazipur, in which a madrasa student, Yasin Ali, died, prompting students to block the Dhaka-Mymensingh Highway around 11am at the Asia Pump and Gazipur bus stand area [ev_25f22aa562f7533f][ev_9012296fa587ace1]. The posts and The Daily Star agree on one fatality, but give the victim's age differently: 15 in the Bengali post and 17 in The Daily Star [ev_33738fa816ada880][ev_9012296fa587ace1]. No injury count is reported. The blockade lasted about three hours and caused roughly 15 km of severe congestion, affecting thousands of passengers [ev_25f22aa562f7533f]. Police from Tongi East and Tongi West police stations were deployed and tried to persuade students to leave [ev_68d7f18f8fe461ea]; The Daily Star reports students ended the blockade around 3pm after police assured them their demand for foot overbridges would be met [ev_4be9adbfb1ccf9b1]. Location precision is limited to a road-segment centroid near Asia Pump in Tongi, with about 1 km uncertainty. The two independent sources are corroborating but not fully identical in metadata; one is a single Bengali post with no publisher metadata. The exact crash time, vehicle(s) involved, and circumstances of the accident remain unreported.",
+  "incident_id": "inc_cluster_002",
+  "independent_source_count": 2,
+  "involved_parties": [
+    "Yasin Ali (victim; reported age 15 in one source, 17 in another)",
+    "Protesting students (blockade participants)"
+  ],
+  "later_developments": [
+    "Students ended the blockade around 3pm after police assurances [ev_4be9adbfb1ccf9b1]."
+  ],
+  "obstruction": "Dhaka-Mymensingh Highway was blocked by protesting students for approximately three hours; the blockade started around 11am and was lifted around 3pm [ev_9012296fa587ace1][ev_4be9adbfb1ccf9b1].",
+  "provider_run_id": null,
+  "schema_version": "1.2.0",
+  "sentiment": {
+    "by_aspect": {
+      "congestion_delay": {
+        "negative": 5
+      },
+      "road_safety": {
+        "negative": 2
+      }
+    },
+    "coverage_note": "Seven supplied traffic-related sentiment expressions, all negative, express frustration over congestion/delay and concern over road safety and incident accountability. No mixed or positive traffic sentiment was supplied.",
+    "items": [
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_33738fa816ada880",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_f980c75151b79254",
+        "source_id": "src_96c9878e5c29c473",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_25f22aa562f7533f",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_391fc28c8cbffb55",
+        "source_id": "src_96c9878e5c29c473",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_4be9adbfb1ccf9b1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_50615fe2e3d93535",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_9012296fa587ace1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_f24bf1debe561a6c",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_e40b9b57c9908c1f",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_68a914611c69ada8",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_1daa4367bcff93e1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_45deddcf0e76ae24",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_d8845078d12a5ec7",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_b5925edd927a9947",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 7,
+    "traffic_relevant_count": 7
+  },
+  "source_ids": [
+    "src_96c9878e5c29c473",
+    "src_064d6b3f7a7be59c"
+  ],
+  "status": "reported",
+  "title": "Road crash death of student sparks three-hour Dhaka-Mymensingh Highway blockade in Tongi",
+  "unresolved_questions": [
+    "What was the exact time, mechanism, and vehicle(s) involved in the crash that killed Yasin?",
+    "What are the victim's correct age and full identity (15 or 17; Yasin Ali vs Yasin)?",
+    "Was anyone injured in the road accident?",
+    "Were any official findings or charges announced after the police response?"
+  ],
+  "vehicles": []
+}
