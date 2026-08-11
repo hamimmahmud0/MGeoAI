@@ -10,6 +10,10 @@ Markdown, and a map-first operations dashboard.
 The application fuses attributed evidence. It does **not** independently verify
 that an incident occurred, determine fault, or establish that a claim is true.
 
+## Dashboard preview
+
+![MGeoAI map-first incident dashboard in dark mode](assets/snapshot/WebScreenShot.png)
+
 ## Quick start
 
 Requirements: Python 3.11+, Node 20+, and npm.
