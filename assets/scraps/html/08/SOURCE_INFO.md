@@ -9,7 +9,6 @@ Location: `4/A, Eskaton Garden, Dhaka, Bangladesh, 1000`
 ### Privacy and Legal Info
 Privacy Policy
 
-https://www.tbsnews.net/privacy-policy
 Description
 
 Go beneath the surface with our 24/7 coverage of news from around the world.
