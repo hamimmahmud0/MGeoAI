@@ -12,7 +12,7 @@ from traffic_fusion.config import Settings
 from traffic_fusion.corpus.build import build_corpus, load_candidates
 from traffic_fusion.corpus.discovery import load_country_profiles
 from traffic_fusion.corpus.materialize import materialize_corpus
-from traffic_fusion.corpus.reporting import render_validation_report
+from traffic_fusion.corpus.reporting import render_news_source_catalog, render_validation_report
 from traffic_fusion.corpus.store import CorpusStore
 from traffic_fusion.corpus.validation import validate_corpus
 from traffic_fusion.evaluation import extraction_coverage, matching_metrics
@@ -82,6 +82,18 @@ def corpus_validate_command(corpus_dir: Path = typer.Option(Path("corpus/global-
     typer.echo(render_validation_report(report))
     if not report.valid:
         raise typer.Exit(1)
+
+
+@app.command("corpus-source-catalog")
+def corpus_source_catalog_command(
+    corpus_dir: Path = typer.Option(Path("corpus/global-v1")),
+    output: Path = typer.Option(Path("NEWS_SOURCES.md")),
+) -> None:
+    """Write a Markdown catalog of every accepted news source and verification link."""
+    content = render_news_source_catalog(CorpusStore(corpus_dir))
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(content, encoding="utf-8")
+    typer.echo(f"News source catalog written to {output}")
 
 
 @app.command("corpus-materialize")

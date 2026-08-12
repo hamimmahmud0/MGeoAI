@@ -16,7 +16,7 @@ from traffic_fusion.corpus.models import (
     CorpusSource,
     ReviewEvent,
 )
-from traffic_fusion.corpus.reporting import render_validation_report
+from traffic_fusion.corpus.reporting import render_news_source_catalog, render_validation_report
 from traffic_fusion.corpus.store import CorpusStore
 from traffic_fusion.corpus.validation import ValidationReport, validate_corpus
 
@@ -37,5 +37,6 @@ __all__ = [
     "load_candidates",
     "materialize_corpus",
     "render_validation_report",
+    "render_news_source_catalog",
     "validate_corpus",
 ]

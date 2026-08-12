@@ -56,15 +56,22 @@ mgeoai serve --data-dir outputs/demo --host 0.0.0.0 --port 8000
 
 Open `http://127.0.0.1:8000`.
 
-### Serve the bundled v0.2.3 live dataset
+### Serve the bundled v0.2.4 datasets
 
-Release v0.2.3 includes the production frontend and a validated DeepSeek Flash
-thinking-mode output, so hosting does not require Node, a provider key, or data
-regeneration. Install the Python package and run:
+Release v0.2.4 includes the production frontend, the validated DeepSeek Flash
+thinking-mode output, and the complete recorded `global-v1` visualization. Hosting
+these checked-in outputs does not require Node, a provider key, or data regeneration.
+Install the Python package and run either dataset:
 
 ```bash
 mgeoai serve \
   --data-dir outputs/deepseek-refusion \
+  --host 0.0.0.0 \
+  --port 8000
+
+# Or serve all 51 collection-country groups and 510 news sources.
+mgeoai serve \
+  --data-dir outputs/global-v1 \
   --host 0.0.0.0 \
   --port 8000
 ```
@@ -213,8 +220,15 @@ country centroids. Those markers are collection-country coverage symbols and are
 explicitly not incident coordinates. The **Overview** map continues to use only
 source-grounded incident geolocation. Direct links, article titles, discovery links,
 and pair keys for manual checking are in
-`corpus/global-v1/reports/source_links.csv`, and the country/quota table is in
-`corpus/global-v1/reports/countries.md`.
+[`NEWS_SOURCES.md`](NEWS_SOURCES.md) and
+`corpus/global-v1/reports/source_links.csv`; the country/quota table is in
+`corpus/global-v1/reports/countries.md`. Regenerate the Markdown catalog with:
+
+```bash
+mgeoai corpus-source-catalog \
+  --corpus-dir corpus/global-v1 \
+  --output NEWS_SOURCES.md
+```
 
 Best-effort social discovery is retained separately under
 `work/global_candidates/group_social/`. It contains public Bluesky AppView metadata

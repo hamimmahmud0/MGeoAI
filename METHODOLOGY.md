@@ -173,6 +173,37 @@ source sample nor fused clusters estimate incident prevalence. Counts of reports
 sources, or clusters must not be interpreted as road-safety rates without an
 independent denominator and surveillance design.
 
+### 3.4 Datasource inventory for the global-v1 snapshot
+
+The frozen `global-v1` release contains 510 accepted metadata-only news records,
+allocated as 10 sources in each of 51 collection-country groups. It contains 311
+distinct publisher labels, 300 declared domain/dependency groups, and 26 declared
+language tags. All 510 records include publication timestamps. These figures describe
+the corpus inventory, not 510 verified incidents: reports may cover the same event,
+may have been assigned through a publisher-country query, and may still require
+event-country correction.
+
+The release uses several datasource layers that must not be conflated:
+
+| Datasource layer | Snapshot contribution | Stored role | Principal limitation |
+| --- | --- | --- | --- |
+| Publisher pages | 510 canonical article URLs from 311 publisher labels | Original verification target and publisher/domain identity | Availability and page content can change; a link is not proof that every claim is true. |
+| Bing News discovery | 256 retained discovery-record links | Candidate provenance and manual rediscovery route | Search ranking and indexing are proprietary and time-varying. |
+| Google News discovery | 250 retained discovery-record links | Candidate provenance and manual rediscovery route | The RSS interface is opportunistic discovery metadata, not the canonical article. |
+| Google web discovery | 4 retained discovery-record links | Candidate provenance for otherwise selected reports | Search results are unstable and may be personalized or removed. |
+| Committed metadata/excerpt payloads | 510 generated HTML records | Title, publisher, canonical URL, publication time, and a maximum 25-word public-feed excerpt | These are not complete archived articles and cannot support claims absent from the excerpt. |
+| Automated review records | 510 accepted link/content-match decisions | Eligibility and audit trail for this seed release | Automated acceptance is not qualified human verification of relevance, country, independence, or truth. |
+| Curation incident groups | 53 automatically proposed distinct-domain groups | Matching/evaluation candidates withheld from model input | Same-incident membership and upstream editorial independence remain human-review requirements. |
+| Derived MGeoAI outputs | 510 sources, 2,887 evidence items, 511 mentions, and 441 recorded-provider incidents | Reproducible extraction, clustering, fusion, GeoJSON, and dashboard artifacts | Recorded-provider output demonstrates pipeline behavior, not live-model accuracy or factual verification. |
+
+Every accepted row is listed in [`NEWS_SOURCES.md`](NEWS_SOURCES.md), grouped by
+collection country with source ID, publication date, publisher, direct article link,
+and discovery-record link. The machine-readable counterpart is
+`corpus/global-v1/reports/source_links.csv`. The catalog is generated from canonical
+corpus records with `mgeoai corpus-source-catalog`; it should not be edited as an
+independent source of truth. Link rot should be recorded in a subsequent review event
+rather than silently replacing the frozen URL or payload.
+
 ## 4. Discovery, capture, and eligibility
 
 ### 4.1 Discovery protocol

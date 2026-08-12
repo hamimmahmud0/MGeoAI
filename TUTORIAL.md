@@ -603,14 +603,25 @@ extracted source evidence.
 To check every original source manually, open:
 
 ```text
+NEWS_SOURCES.md
 corpus/global-v1/reports/source_links.csv
 ```
 
-The file contains country code, source ID, article title, publisher, domain,
+The Markdown catalog groups every linked article by collection country for convenient
+manual review. The CSV contains country code, source ID, article title, publisher, domain,
 publication time, direct verification URL, discovery URL, and any multi-source pair
 key for every accepted source. The full country list
 and quota counts are in `corpus/global-v1/reports/countries.md`. Study design and
 limitations are documented in `METHODOLOGY.md`.
+
+Regenerate the Markdown list directly from the canonical source records and committed
+metadata excerpts:
+
+```bash
+mgeoai corpus-source-catalog \
+  --corpus-dir corpus/global-v1 \
+  --output NEWS_SOURCES.md
+```
 
 Best-effort public social discovery is stored separately in
 `work/global_candidates/group_social/`. Those Bluesky metadata candidates are not

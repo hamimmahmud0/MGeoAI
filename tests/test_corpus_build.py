@@ -64,3 +64,8 @@ def test_builds_production_quota_corpus_with_links_and_coverage(tmp_path: Path) 
     coverage = Path(result.coverage_geojson).read_text(encoding="utf-8")
     assert '"is_incident_location": false' in coverage
     assert "collection-country source coverage" in coverage
+    catalog = Path(result.news_sources_report).read_text(encoding="utf-8")
+    assert catalog.count("[Open discovery record]") == 510
+    assert catalog.count("## ") == 52
+    assert "## Datasource details" in catalog
+    assert "[United States traffic collision report 0]" in catalog

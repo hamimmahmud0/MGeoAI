@@ -170,7 +170,7 @@ def create_app(
     approval_executor = ThreadPoolExecutor(max_workers=1, thread_name_prefix="mgeoai-approval")
     app = FastAPI(
         title="MGeoAI API",
-        version="0.2.3",
+        version="0.2.4",
         description="Evidence-fusion API; records are attributed reports, not independently verified truth.",
     )
     app.add_middleware(

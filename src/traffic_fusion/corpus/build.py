@@ -27,7 +27,7 @@ from traffic_fusion.corpus.models import (
     StrictCorpusModel,
     VerificationLink,
 )
-from traffic_fusion.corpus.reporting import render_validation_report
+from traffic_fusion.corpus.reporting import render_news_source_catalog, render_validation_report
 from traffic_fusion.corpus.store import CorpusStore
 from traffic_fusion.corpus.validation import validate_corpus
 
@@ -87,6 +87,7 @@ class CorpusBuildResult(StrictCorpusModel):
     countries: int
     multi_source_incidents: int
     links_report: str
+    news_sources_report: str
     countries_report: str
     validation_report: str
     coverage_geojson: str
@@ -264,6 +265,8 @@ def build_corpus(
         _links_csv(selected_by_country, profiles),
         encoding="utf-8",
     )
+    news_sources_path = reports_dir / "news_sources.md"
+    news_sources_path.write_text(render_news_source_catalog(store), encoding="utf-8")
     coverage_path = reports_dir / "coverage.geojson"
     coverage_path.write_text(
         json.dumps(_coverage_geojson(report, profiles), ensure_ascii=False, indent=2) + "\n",
@@ -278,6 +281,7 @@ def build_corpus(
         countries=len(report.countries),
         multi_source_incidents=sum(item.reviewed_shared_incidents for item in report.countries),
         links_report=str(links_path),
+        news_sources_report=str(news_sources_path),
         countries_report=str(countries_path),
         validation_report=str(validation_path),
         coverage_geojson=str(coverage_path),
