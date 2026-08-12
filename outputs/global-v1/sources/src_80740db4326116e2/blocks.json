@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ef3394da6f70b2be",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ef3394da6f70b2be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dubai Police visit road accident victims at Rashid Hospital in 'Relieving the Injured' drive",
+      "source_path": "html/ARE/ARE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80740db4326116e2",
+    "text": "Dubai Police visit road accident victims at Rashid Hospital in 'Relieving the Injured' drive",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6d24b9509ad720df",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6d24b9509ad720df",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T12:40:00+04:00",
+      "source_path": "html/ARE/ARE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80740db4326116e2",
+    "text": "2026-08-03T12:40:00+04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d69638d70f67811a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d69638d70f67811a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Officers checked on patients' wellbeing, presented them with gifts and spoke to them and their families about the importance of following traffic laws ...",
+      "source_path": "html/ARE/ARE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80740db4326116e2",
+    "text": "Officers checked on patients' wellbeing, presented them with gifts and spoke to them and their families about the importance of following traffic laws ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee552b0eddab1c86",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee552b0eddab1c86",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Gulf News",
+      "source_path": "html/ARE/ARE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80740db4326116e2",
+    "text": "Publisher: Gulf News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7cfb6f436448df5b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7cfb6f436448df5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://gulfnews.com/uae/emergencies/dubai-police-visit-road-accident-victims-at-rashid-hospital-in-relieving-the-injured-drive-1.500629245",
+      "source_path": "html/ARE/ARE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80740db4326116e2",
+    "text": "Original source: https://gulfnews.com/uae/emergencies/dubai-police-visit-road-accident-victims-at-rashid-hospital-in-relieving-the-injured-drive-1.500629245",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1bea3ddb63bfabe6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1bea3ddb63bfabe6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARE/ARE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80740db4326116e2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_def01feb525b1cc5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_def01feb525b1cc5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://gulfnews.com/uae/emergencies/dubai-police-visit-road-accident-victims-at-rashid-hospital-in-relieving-the-injured-drive-1.500629245",
+      "source_path": "html/ARE/ARE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80740db4326116e2",
+    "text": "https://gulfnews.com/uae/emergencies/dubai-police-visit-road-accident-victims-at-rashid-hospital-in-relieving-the-injured-drive-1.500629245",
+    "url": null
+  }
+]

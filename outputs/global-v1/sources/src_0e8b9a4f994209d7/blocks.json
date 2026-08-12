@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9d668949d34d4234",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9d668949d34d4234",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "KSRTC bus accident: Staff working hours to be examined, says Minister John",
+      "source_path": "html/IND/IND-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e8b9a4f994209d7",
+    "text": "KSRTC bus accident: Staff working hours to be examined, says Minister John",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f7fc7b2d293e4e3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1f7fc7b2d293e4e3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T10:48:00+05:30",
+      "source_path": "html/IND/IND-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e8b9a4f994209d7",
+    "text": "2026-08-08T10:48:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ffb063a78d2f095",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ffb063a78d2f095",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Kerala Transport Minister C P John on Saturday said the government would examine whether KSRTC employees were being made to work excessively long hours without ...",
+      "source_path": "html/IND/IND-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e8b9a4f994209d7",
+    "text": "Kerala Transport Minister C P John on Saturday said the government would examine whether KSRTC employees were being made to work excessively long hours without ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b275b480b9e8fb7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0b275b480b9e8fb7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Print",
+      "source_path": "html/IND/IND-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e8b9a4f994209d7",
+    "text": "Publisher: The Print",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e529d73ac70d2e6d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e529d73ac70d2e6d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://theprint.in/india/ksrtc-bus-accident-staff-working-hours-to-be-examined-says-minister-john/3009352/",
+      "source_path": "html/IND/IND-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e8b9a4f994209d7",
+    "text": "Original source: https://theprint.in/india/ksrtc-bus-accident-staff-working-hours-to-be-examined-says-minister-john/3009352/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_512da78df8baa53f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_512da78df8baa53f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e8b9a4f994209d7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7eada19f66b9182d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7eada19f66b9182d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://theprint.in/india/ksrtc-bus-accident-staff-working-hours-to-be-examined-says-minister-john/3009352/",
+      "source_path": "html/IND/IND-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e8b9a4f994209d7",
+    "text": "https://theprint.in/india/ksrtc-bus-accident-staff-working-hours-to-be-examined-says-minister-john/3009352/",
+    "url": null
+  }
+]

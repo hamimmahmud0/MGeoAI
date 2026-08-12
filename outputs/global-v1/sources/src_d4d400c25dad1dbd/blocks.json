@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_30e0f42493012a96",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_30e0f42493012a96",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Young couple killed, actor in critical condition after Amman road accident",
+      "source_path": "html/JOR/JOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4d400c25dad1dbd",
+    "text": "Young couple killed, actor in critical condition after Amman road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_159d5ad688e2828f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_159d5ad688e2828f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2016-09-03T19:53:00+03:00",
+      "source_path": "html/JOR/JOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4d400c25dad1dbd",
+    "text": "2016-09-03T19:53:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f183374f3aecdc57",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f183374f3aecdc57",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "AMMAN — A young couple was killed in a road accident in Amman on Friday, leaving behind a one-month-old son, the Central Traffic Department (CTD) ...",
+      "source_path": "html/JOR/JOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4d400c25dad1dbd",
+    "text": "AMMAN — A young couple was killed in a road accident in Amman on Friday, leaving behind a one-month-old son, the Central Traffic Department (CTD) ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d195e91b141300f0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d195e91b141300f0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Jordan Times",
+      "source_path": "html/JOR/JOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4d400c25dad1dbd",
+    "text": "Publisher: The Jordan Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_61bd7f1c3fa5fa49",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_61bd7f1c3fa5fa49",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.jordantimes.com/news/local/young-couple-killed-actor-critical-condition-after-amman-road-accident",
+      "source_path": "html/JOR/JOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4d400c25dad1dbd",
+    "text": "Original source: https://www.jordantimes.com/news/local/young-couple-killed-actor-critical-condition-after-amman-road-accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1e709493fd39605c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1e709493fd39605c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4d400c25dad1dbd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a6be17cdf493c6a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9a6be17cdf493c6a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.jordantimes.com/news/local/young-couple-killed-actor-critical-condition-after-amman-road-accident",
+      "source_path": "html/JOR/JOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4d400c25dad1dbd",
+    "text": "https://www.jordantimes.com/news/local/young-couple-killed-actor-critical-condition-after-amman-road-accident",
+    "url": null
+  }
+]

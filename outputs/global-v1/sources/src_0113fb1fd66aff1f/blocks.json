@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cf1483093e6c4a88",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cf1483093e6c4a88",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "School Bus Crash Kills 23 Pupils in Uganda",
+      "source_path": "html/UGA/UGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0113fb1fd66aff1f",
+    "text": "School Bus Crash Kills 23 Pupils in Uganda",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a41e16a6c539fb52",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a41e16a6c539fb52",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-17T03:43:00+03:00",
+      "source_path": "html/UGA/UGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0113fb1fd66aff1f",
+    "text": "2026-07-17T03:43:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_278a450547abea31",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_278a450547abea31",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 23 people, including 22 schoolchildren and the founder of King David Junior School, were killed when a school bus crashed in eastern Uganda's ...",
+      "source_path": "html/UGA/UGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0113fb1fd66aff1f",
+    "text": "At least 23 people, including 22 schoolchildren and the founder of King David Junior School, were killed when a school bus crashed in eastern Uganda's ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_11ecbef95cd782dc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_11ecbef95cd782dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: AllAfrica",
+      "source_path": "html/UGA/UGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0113fb1fd66aff1f",
+    "text": "Publisher: AllAfrica",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_590c144e5c541086",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_590c144e5c541086",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://allafrica.com/view/group/main/main/id/00097472.html",
+      "source_path": "html/UGA/UGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0113fb1fd66aff1f",
+    "text": "Original source: https://allafrica.com/view/group/main/main/id/00097472.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0d482ec099096b26",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0d482ec099096b26",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0113fb1fd66aff1f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b4cadbc002e0819",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8b4cadbc002e0819",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://allafrica.com/view/group/main/main/id/00097472.html",
+      "source_path": "html/UGA/UGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0113fb1fd66aff1f",
+    "text": "https://allafrica.com/view/group/main/main/id/00097472.html",
+    "url": null
+  }
+]

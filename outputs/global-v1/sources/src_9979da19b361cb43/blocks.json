@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_39961f0ec3e7c7b3",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_39961f0ec3e7c7b3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "British teen dies after road trip accident in Vietnam; parents donate her organs to help save others",
+      "source_path": "html/VNM/VNM-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9979da19b361cb43",
+    "text": "British teen dies after road trip accident in Vietnam; parents donate her organs to help save others",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_310f3b5bfba1c00c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_310f3b5bfba1c00c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-08T15:10:00+07:00",
+      "source_path": "html/VNM/VNM-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9979da19b361cb43",
+    "text": "2026-04-08T15:10:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c1c3a28568d9bbd3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c1c3a28568d9bbd3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Orla Wates, 19, from London, had been on a tour of South-East Asia, in the lead-up to her first year at England’s Durham University, when ...",
+      "source_path": "html/VNM/VNM-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9979da19b361cb43",
+    "text": "Orla Wates, 19, from London, had been on a tour of South-East Asia, in the lead-up to her first year at England’s Durham University, when ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f1cb9a49f91fe256",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f1cb9a49f91fe256",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Star",
+      "source_path": "html/VNM/VNM-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9979da19b361cb43",
+    "text": "Publisher: The Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ce84079887d9895e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ce84079887d9895e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/08/british-teen-dies-after-road-trip-accident-in-vietnam-parents-donate-her-organs-to-help-save-others",
+      "source_path": "html/VNM/VNM-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9979da19b361cb43",
+    "text": "Original source: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/08/british-teen-dies-after-road-trip-accident-in-vietnam-parents-donate-her-organs-to-help-save-others",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_97c1ff4f18213594",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_97c1ff4f18213594",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9979da19b361cb43",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_293708a3d9a48432",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_293708a3d9a48432",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/08/british-teen-dies-after-road-trip-accident-in-vietnam-parents-donate-her-organs-to-help-save-others",
+      "source_path": "html/VNM/VNM-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9979da19b361cb43",
+    "text": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/08/british-teen-dies-after-road-trip-accident-in-vietnam-parents-donate-her-organs-to-help-save-others",
+    "url": null
+  }
+]

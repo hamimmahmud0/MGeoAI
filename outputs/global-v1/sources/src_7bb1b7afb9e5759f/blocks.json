@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_439f389ad8e954e1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_439f389ad8e954e1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Train-bus crash leaves multiple dead in Thailand",
+      "source_path": "html/THA/THA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7bb1b7afb9e5759f",
+    "text": "Train-bus crash leaves multiple dead in Thailand",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac55a2252078c067",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ac55a2252078c067",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-16T22:30:00+07:00",
+      "source_path": "html/THA/THA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7bb1b7afb9e5759f",
+    "text": "2026-05-16T22:30:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cbb15c7dcea110ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cbb15c7dcea110ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least eight people were killed and 25 others injured after a train collision triggered a fire involving a public bus in Bangkok on Saturday. ...",
+      "source_path": "html/THA/THA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7bb1b7afb9e5759f",
+    "text": "At least eight people were killed and 25 others injured after a train collision triggered a fire involving a public bus in Bangkok on Saturday. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_54c76a61431b494e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_54c76a61431b494e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Daily Times",
+      "source_path": "html/THA/THA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7bb1b7afb9e5759f",
+    "text": "Publisher: Daily Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f0b4571dc42997d2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f0b4571dc42997d2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://dailytimes.com.pk/1494492/train-bus-crash-leaves-multiple-dead-in-thailand/",
+      "source_path": "html/THA/THA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7bb1b7afb9e5759f",
+    "text": "Original source: https://dailytimes.com.pk/1494492/train-bus-crash-leaves-multiple-dead-in-thailand/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_65152d83a1ebaae0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_65152d83a1ebaae0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7bb1b7afb9e5759f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6e1eef75ba85fd37",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6e1eef75ba85fd37",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://dailytimes.com.pk/1494492/train-bus-crash-leaves-multiple-dead-in-thailand/",
+      "source_path": "html/THA/THA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7bb1b7afb9e5759f",
+    "text": "https://dailytimes.com.pk/1494492/train-bus-crash-leaves-multiple-dead-in-thailand/",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_419625b3df961120",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_419625b3df961120",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Diputado del PLN resulta herido tras aparatoso accidente de tránsito",
+      "source_path": "html/CRI/CRI-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2c92378851e3f9c",
+    "text": "Diputado del PLN resulta herido tras aparatoso accidente de tránsito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4ec6404744221e2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a4ec6404744221e2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-29T01:00:00-06:00",
+      "source_path": "html/CRI/CRI-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2c92378851e3f9c",
+    "text": "2026-06-29T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b29c938d8c7b9a0f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b29c938d8c7b9a0f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Diario Extra",
+      "source_path": "html/CRI/CRI-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2c92378851e3f9c",
+    "text": "Publisher: Diario Extra",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3670291eadb01ac8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3670291eadb01ac8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.diarioextra.com/noticia/diputado-del-pln-resulta-herido-tras-accidente-de-transito/",
+      "source_path": "html/CRI/CRI-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2c92378851e3f9c",
+    "text": "Original source: https://www.diarioextra.com/noticia/diputado-del-pln-resulta-herido-tras-accidente-de-transito/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4f95d5ebb4ab61d6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4f95d5ebb4ab61d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2c92378851e3f9c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_07ceca0c9318b419",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_07ceca0c9318b419",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.diarioextra.com/noticia/diputado-del-pln-resulta-herido-tras-accidente-de-transito/",
+      "source_path": "html/CRI/CRI-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2c92378851e3f9c",
+    "text": "https://www.diarioextra.com/noticia/diputado-del-pln-resulta-herido-tras-accidente-de-transito/",
+    "url": null
+  }
+]

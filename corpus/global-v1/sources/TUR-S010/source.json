@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S010",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Global Times",
+  "canonical_url": "https://www.globaltimes.cn/page/202208/1273454.shtml",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.globaltimes.cn/page/202208/1273454.shtml",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22T%C3%BCrkiye%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "70a173c1b3b898915a50bb3ef6b62552d0131e4095ab62b85e9e6024e40badc8",
+      "size_bytes": 880,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2022-08-21T01:35:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "globaltimes.cn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S010"
+}

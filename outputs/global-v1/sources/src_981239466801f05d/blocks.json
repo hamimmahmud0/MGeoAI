@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_950fbe5505db4217",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_950fbe5505db4217",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "71 die in Ethiopia road accident",
+      "source_path": "html/ETH/ETH-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_981239466801f05d",
+    "text": "71 die in Ethiopia road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d35830628eba2b27",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d35830628eba2b27",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-30T02:36:00+03:00",
+      "source_path": "html/ETH/ETH-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_981239466801f05d",
+    "text": "2024-12-30T02:36:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f2beac68e29f553",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f2beac68e29f553",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "No fewer than 71 people died in Ethiopia when a truck packed with passengers plunged into a river. Spokesperson for the southern Sidama regional government ...",
+      "source_path": "html/ETH/ETH-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_981239466801f05d",
+    "text": "No fewer than 71 people died in Ethiopia when a truck packed with passengers plunged into a river. Spokesperson for the southern Sidama regional government ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d39a06fb643d89eb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d39a06fb643d89eb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Daily Post Nigeria",
+      "source_path": "html/ETH/ETH-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_981239466801f05d",
+    "text": "Publisher: Daily Post Nigeria",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6e799ea75daad4a6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6e799ea75daad4a6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://dailypost.ng/2024/12/30/71-die-in-ethiopia-road-accident/",
+      "source_path": "html/ETH/ETH-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_981239466801f05d",
+    "text": "Original source: https://dailypost.ng/2024/12/30/71-die-in-ethiopia-road-accident/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d36cbad94993470d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d36cbad94993470d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_981239466801f05d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b1279aad5120253",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2b1279aad5120253",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://dailypost.ng/2024/12/30/71-die-in-ethiopia-road-accident/",
+      "source_path": "html/ETH/ETH-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_981239466801f05d",
+    "text": "https://dailypost.ng/2024/12/30/71-die-in-ethiopia-road-accident/",
+    "url": null
+  }
+]

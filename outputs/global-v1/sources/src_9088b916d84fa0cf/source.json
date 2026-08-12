@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "078642eeddc2d59819c88aed87a3fd73cf716da052402c4b0e40d8d5c0b0f598",
+  "country": "Malaysia",
+  "country_code": "MYS",
+  "dependency_group": "bdnews24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MYS/MYS-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-02T08:13:00Z",
+  "publisher": "bdnews24",
+  "schema_version": "1.0.0",
+  "source_id": "src_9088b916d84fa0cf",
+  "source_metadata": {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-08-02T08:13:00+00:00",
+    "source_info_hash": "ba7bbf327c49c7c5",
+    "source_info_path": "html/MYS/MYS-S007/SOURCE_INFO.md",
+    "timezone": "Asia/Kuala_Lumpur",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kemalangan jalan raya",
+      "nahas jalan raya",
+      "kemalangan bas",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/bangladesh/8584bb3713b6",
+  "timezone": "Asia/Kuala_Lumpur",
+  "title": "Malaysia highway crash kills three Bangladeshi workers, injures two"
+}

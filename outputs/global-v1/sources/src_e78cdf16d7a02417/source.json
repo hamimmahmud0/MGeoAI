@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "decf6e14aadf30634ec329350439544ced5b2e9a5b1d67d02140f43775ab761a",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "wsmv.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-11T10:29:30Z",
+  "publisher": "wsmv.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_e78cdf16d7a02417",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-11T10:29:30+00:00",
+    "source_info_hash": "b591d6741e2506e8",
+    "source_info_path": "html/USA/USA-S002/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.wsmv.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+  "timezone": "America/Chicago",
+  "title": "2 kids dead, 1 hurt in Henrico car crash"
+}

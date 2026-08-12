@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9e905f5585b6de98f30e6b38902b2da53287bb488cf6828cc341c1b2f2e5c086",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "kenyans.co.ke",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-02-21T08:00:00Z",
+  "publisher": "Kenyans.co.ke",
+  "schema_version": "1.0.0",
+  "source_id": "src_dac7563c442aeda2",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-02-21T08:00:00+00:00",
+    "source_info_hash": "d891f21e19081e2d",
+    "source_info_path": "html/KEN/KEN-S010/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.kenyans.co.ke/news/121059-more-five-killed-matatu-and-lorry-crash-salama-nairobi-mombasa-highway",
+  "timezone": "Africa/Nairobi",
+  "title": "Students Among Several Feared Dead in Road Crash on Nairobi-Mombasa Highway"
+}

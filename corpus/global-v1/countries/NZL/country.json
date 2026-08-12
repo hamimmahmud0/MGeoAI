@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "NZL",
+  "name": "New Zealand",
+  "languages": [
+    "en",
+    "mi"
+  ],
+  "timezones": [
+    "Pacific/Auckland"
+  ],
+  "target_sources": 12
+}

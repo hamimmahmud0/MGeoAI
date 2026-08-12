@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6bd0f29193822c4008f98064ffff5def3395f686fd1eea66d3658a3d2d263db9",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "the economic times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-18T07:00:00Z",
+  "publisher": "The Economic Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_cff5324c6c5a10a3",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-18T07:00:00+00:00",
+    "source_info_hash": "501fc6d4e413185e",
+    "source_info_path": "html/GBR/GBR-S006/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://economictimes.indiatimes.com/nri/latest-updates/indian-student-killed-in-road-accident-near-chicago-in-us/articleshow/131166454.cms?from=mdr",
+  "timezone": "Europe/London",
+  "title": "Indian student killed in road accident near Chicago in US"
+}

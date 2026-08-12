@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IDN-S006",
+  "country_code": "IDN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "中国日报网",
+  "canonical_url": "https://www.chinadaily.com.cn/a/202511/14/WS6916e83ba310d6866eb29922.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.chinadaily.com.cn/a/202511/14/WS6916e83ba310d6866eb29922.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Indonesia%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "950e8e3fefc9478dbbbde3aa1549001fe23d5b9be87f7a34ba182024a31e05fe",
+      "size_bytes": 1026,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kecelakaan lalu lintas",
+    "tabrakan kendaraan",
+    "kecelakaan bus",
+    "kecelakaan jalan"
+  ],
+  "timezone": "Asia/Jakarta",
+  "captured_at": "2026-08-12T03:55:02.411366+06:00",
+  "published_at": "2025-11-14T08:28:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "chinadaily.com.cn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IDN-S006"
+}

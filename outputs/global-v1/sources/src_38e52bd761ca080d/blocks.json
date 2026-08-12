@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_37bf8b08010befbd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_37bf8b08010befbd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Blitzeinschlag stört Tauffeier: Schwere Gewitter ziehen über Deutschland - zwei Tote bei Karlsruhe",
+      "source_path": "html/DEU/DEU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38e52bd761ca080d",
+    "text": "Blitzeinschlag stört Tauffeier: Schwere Gewitter ziehen über Deutschland - zwei Tote bei Karlsruhe",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1611a43ff0065618",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1611a43ff0065618",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-31T09:00:00+02:00",
+      "source_path": "html/DEU/DEU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38e52bd761ca080d",
+    "text": "2026-05-31T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a87cc2a8e8698a76",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a87cc2a8e8698a76",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: n-tv.de",
+      "source_path": "html/DEU/DEU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38e52bd761ca080d",
+    "text": "Publisher: n-tv.de",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba1c81547b4b21cb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba1c81547b4b21cb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.n-tv.de/panorama/Schwere-Gewitter-ziehen-ueber-Deutschland-zwei-Tote-bei-Karlsruhe-id30877059.html",
+      "source_path": "html/DEU/DEU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38e52bd761ca080d",
+    "text": "Original source: https://www.n-tv.de/panorama/Schwere-Gewitter-ziehen-ueber-Deutschland-zwei-Tote-bei-Karlsruhe-id30877059.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_975659b8f8fee2db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_975659b8f8fee2db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38e52bd761ca080d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_112dd9f80dd1c717",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_112dd9f80dd1c717",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.n-tv.de/panorama/Schwere-Gewitter-ziehen-ueber-Deutschland-zwei-Tote-bei-Karlsruhe-id30877059.html",
+      "source_path": "html/DEU/DEU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38e52bd761ca080d",
+    "text": "https://www.n-tv.de/panorama/Schwere-Gewitter-ziehen-ueber-Deutschland-zwei-Tote-bei-Karlsruhe-id30877059.html",
+    "url": null
+  }
+]

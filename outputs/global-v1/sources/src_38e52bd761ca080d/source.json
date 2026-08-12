@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "44b4002103d091886414353a5cbc5047b5d41e2b72210007a61469c9dde29754",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "n-tv.de",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-31T07:00:00Z",
+  "publisher": "n-tv.de",
+  "schema_version": "1.0.0",
+  "source_id": "src_38e52bd761ca080d",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-05-31T07:00:00+00:00",
+    "source_info_hash": "8d233888600c2ba7",
+    "source_info_path": "html/DEU/DEU-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.n-tv.de/panorama/Schwere-Gewitter-ziehen-ueber-Deutschland-zwei-Tote-bei-Karlsruhe-id30877059.html",
+  "timezone": "Europe/Berlin",
+  "title": "Blitzeinschlag stört Tauffeier: Schwere Gewitter ziehen über Deutschland - zwei Tote bei Karlsruhe"
+}

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "MYS",
+  "name": "Malaysia",
+  "languages": [
+    "ms",
+    "en"
+  ],
+  "timezones": [
+    "Asia/Kuala_Lumpur"
+  ],
+  "target_sources": 12
+}

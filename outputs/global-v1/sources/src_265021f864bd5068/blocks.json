@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_633fdf7747ee4b9c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_633fdf7747ee4b9c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Accident de la route au Lamentin : un motard grièvement blessé",
+      "source_path": "html/FRA/FRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_265021f864bd5068",
+    "text": "Accident de la route au Lamentin : un motard grièvement blessé",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9c8de941591b9e07",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9c8de941591b9e07",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-21T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_265021f864bd5068",
+    "text": "2026-06-21T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b2079f7535dd9e8d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b2079f7535dd9e8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Outre-mer La 1ère",
+      "source_path": "html/FRA/FRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_265021f864bd5068",
+    "text": "Publisher: Outre-mer La 1ère",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7a82290c43f7e9f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a7a82290c43f7e9f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://la1ere.franceinfo.fr/guadeloupe/accident-de-la-route-au-lamentin-un-motard-grievement-blesse-1712836.html",
+      "source_path": "html/FRA/FRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_265021f864bd5068",
+    "text": "Original source: https://la1ere.franceinfo.fr/guadeloupe/accident-de-la-route-au-lamentin-un-motard-grievement-blesse-1712836.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c62bf0cce3de1bd5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c62bf0cce3de1bd5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_265021f864bd5068",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dfff94bfa0b66f72",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dfff94bfa0b66f72",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://la1ere.franceinfo.fr/guadeloupe/accident-de-la-route-au-lamentin-un-motard-grievement-blesse-1712836.html",
+      "source_path": "html/FRA/FRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_265021f864bd5068",
+    "text": "https://la1ere.franceinfo.fr/guadeloupe/accident-de-la-route-au-lamentin-un-motard-grievement-blesse-1712836.html",
+    "url": null
+  }
+]

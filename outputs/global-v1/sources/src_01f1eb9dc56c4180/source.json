@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "eeeb1f805ff595b170678f5abe79c5a33f976eb5db634c69303e81267477d81f",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "manilatimes",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-20T19:34:00Z",
+  "publisher": "manilatimes",
+  "schema_version": "1.0.0",
+  "source_id": "src_01f1eb9dc56c4180",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-08-20T19:34:00+00:00",
+    "source_info_hash": "d94f1940253075b9",
+    "source_info_path": "html/PHL/PHL-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.manilatimes.net/2025/08/21/news/5-people-injured-in-road-crash-in-manila/2171404",
+  "timezone": "Asia/Manila",
+  "title": "5 people injured in road crash in Manila"
+}

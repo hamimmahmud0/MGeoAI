@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SGP-S008",
+  "country_code": "SGP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Straits Times",
+  "canonical_url": "https://www.straitstimes.com/singapore/courts-crime/driver-in-2024-tampines-crash-that-killed-2-pleads-guilty-to-dangerous-driving-causing-death",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.straitstimes.com/singapore/courts-crime/driver-in-2024-tampines-crash-that-killed-2-pleads-guilty-to-dangerous-driving-causing-death",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Singapore%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6cf9a985c62055da937d01af28bea6b5c95965a4d91bf77aeafd695c82325bad",
+      "size_bytes": 1243,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "traffic accident",
+    "road collision",
+    "vehicle crash",
+    "bus accident"
+  ],
+  "timezone": "Asia/Singapore",
+  "captured_at": "2026-08-12T03:37:44.337273+06:00",
+  "published_at": "2026-08-06T11:35:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "straitstimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SGP-S008"
+}

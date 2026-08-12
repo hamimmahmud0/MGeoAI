@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8bd9da7264b4ef6e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8bd9da7264b4ef6e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tenåring omkom i trafikkulykke i Kragerø",
+      "source_path": "html/NOR/NOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_24f1b7e7b8c47bd2",
+    "text": "Tenåring omkom i trafikkulykke i Kragerø",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2af29e93a418cbea",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2af29e93a418cbea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-03-24T08:00:00+01:00",
+      "source_path": "html/NOR/NOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_24f1b7e7b8c47bd2",
+    "text": "2024-03-24T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_13d4903cf29ab2aa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_13d4903cf29ab2aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tenåring omkom i trafikkulykke i Kragerø UTV kjørte av veien.",
+      "source_path": "html/NOR/NOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_24f1b7e7b8c47bd2",
+    "text": "Tenåring omkom i trafikkulykke i Kragerø UTV kjørte av veien.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df4525268909c11c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df4525268909c11c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Bergens Tidende",
+      "source_path": "html/NOR/NOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_24f1b7e7b8c47bd2",
+    "text": "Publisher: Bergens Tidende",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ce26198c447841e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ce26198c447841e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bt.no/innenriks/i/l37o8M/en-person-omkom-i-trafikkulykke-i-krageroe-i-norge",
+      "source_path": "html/NOR/NOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_24f1b7e7b8c47bd2",
+    "text": "Original source: https://www.bt.no/innenriks/i/l37o8M/en-person-omkom-i-trafikkulykke-i-krageroe-i-norge",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a53df9706ea84e11",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a53df9706ea84e11",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_24f1b7e7b8c47bd2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_38608235cfac33ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_38608235cfac33ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bt.no/innenriks/i/l37o8M/en-person-omkom-i-trafikkulykke-i-krageroe-i-norge",
+      "source_path": "html/NOR/NOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_24f1b7e7b8c47bd2",
+    "text": "https://www.bt.no/innenriks/i/l37o8M/en-person-omkom-i-trafikkulykke-i-krageroe-i-norge",
+    "url": null
+  }
+]

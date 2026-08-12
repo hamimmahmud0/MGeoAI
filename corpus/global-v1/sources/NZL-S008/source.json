@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S008",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NZ Herald",
+  "canonical_url": "https://www.nzherald.co.nz/nz/auckland/driverless-car-travelled-300m-after-four-vehicle-crash-on-auckland-southern-motorway-witness-says/EKWEAZUYS5HT5N64VXSJWYKYTI/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nzherald.co.nz/nz/auckland/driverless-car-travelled-300m-after-four-vehicle-crash-on-auckland-southern-motorway-witness-says/EKWEAZUYS5HT5N64VXSJWYKYTI/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "64b42314021b142b71b01b172c774c27474b7eb4f1a7fac9f466565383e8a169",
+      "size_bytes": 1324,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:33.063897+06:00",
+  "published_at": "2026-08-10T17:22:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nzherald.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S008"
+}

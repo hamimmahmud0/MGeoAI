@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ITA",
+  "name": "Italy",
+  "languages": [
+    "it"
+  ],
+  "timezones": [
+    "Europe/Rome"
+  ],
+  "target_sources": 12
+}

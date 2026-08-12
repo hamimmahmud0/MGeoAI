@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "744a41fd3014f8b535aec3e2f65bf0e8780251aa636c185bd5512e0ffcd6a753",
+  "country": "Portugal",
+  "country_code": "PRT",
+  "dependency_group": "agência incomparáveis",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/PRT/PRT-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-07T07:00:00Z",
+  "publisher": "Agência Incomparáveis",
+  "schema_version": "1.0.0",
+  "source_id": "src_7941065ff5d15653",
+  "source_metadata": {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-07-07T07:00:00+00:00",
+    "source_info_hash": "da20b9442745ce94",
+    "source_info_path": "html/PRT/PRT-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Lisbon",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente rodoviário",
+      "acidente de viação",
+      "colisão de veículos",
+      "acidente de autocarro"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.agenciaincomparaveis.com/portugal-acidente-de-autocarro-em-agualva-e-mira-sintra-provoca-duas-mortes-e-varios-feridos/",
+  "timezone": "Europe/Lisbon",
+  "title": "Portugal: Acidente de autocarro em Agualva e Mira-Sintra provoca duas mortes e vários feridos"
+}

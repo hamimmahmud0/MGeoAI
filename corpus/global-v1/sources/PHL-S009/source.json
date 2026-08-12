@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PHL-S009",
+  "country_code": "PHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "manilatimes",
+  "canonical_url": "https://www.manilatimes.net/2025/08/21/news/5-people-injured-in-road-crash-in-manila/2171404",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.manilatimes.net/2025/08/21/news/5-people-injured-in-road-crash-in-manila/2171404",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Manila%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "eeeb1f805ff595b170678f5abe79c5a33f976eb5db634c69303e81267477d81f",
+      "size_bytes": 1001,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "banggaan ng sasakyan"
+  ],
+  "timezone": "Asia/Manila",
+  "captured_at": "2026-08-12T03:45:33.843402+06:00",
+  "published_at": "2025-08-20T19:34:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "manilatimes.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PHL-S009"
+}

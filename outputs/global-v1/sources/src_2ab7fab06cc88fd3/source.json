@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f339abce5865b5ba73cb0c89607e33f6f84ab8b865cf8ee8bb9754601f7a8fb6",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "el universo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-09T00:44:00Z",
+  "publisher": "El Universo",
+  "schema_version": "1.0.0",
+  "source_id": "src_2ab7fab06cc88fd3",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-09T00:44:00+00:00",
+    "source_info_hash": "57768d5efcb4b7e6",
+    "source_info_path": "html/ECU/ECU-S009/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+  "timezone": "America/Guayaquil",
+  "title": "Al menos 13 muertos y cuatro heridos en accidente de tránsito registrado en Perú"
+}

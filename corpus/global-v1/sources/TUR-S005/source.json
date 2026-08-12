@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S005",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Xinhua",
+  "canonical_url": "http://www.chinaview.cn/20260201/f7d7de8f100b42a1af8a4800d9e462e1/c.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "http://www.chinaview.cn/20260201/f7d7de8f100b42a1af8a4800d9e462e1/c.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22T%C3%BCrkiye%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e305de1f13281ccd7a84bdfe81e668952f8c46ad3b252ebbad46284843a0566e",
+      "size_bytes": 925,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2026-02-01T13:44:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "chinaview.cn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S005"
+}

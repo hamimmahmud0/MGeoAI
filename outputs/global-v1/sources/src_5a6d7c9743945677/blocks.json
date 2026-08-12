@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c05e9feade7f7a1d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c05e9feade7f7a1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Road Accident Claims Six Lives in Nepal",
+      "source_path": "html/NPL/NPL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5a6d7c9743945677",
+    "text": "Road Accident Claims Six Lives in Nepal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0d1105a2dbda6012",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0d1105a2dbda6012",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-10-05T01:45:00+05:45",
+      "source_path": "html/NPL/NPL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5a6d7c9743945677",
+    "text": "2025-10-05T01:45:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_77ce6126e48b287f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_77ce6126e48b287f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "(MENAFN) A devastating road accident in eastern Nepal claimed six lives on Saturday after a sport utility vehicle carrying a dozen passengers veered off a ...",
+      "source_path": "html/NPL/NPL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5a6d7c9743945677",
+    "text": "(MENAFN) A devastating road accident in eastern Nepal claimed six lives on Saturday after a sport utility vehicle carrying a dozen passengers veered off a ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_712aa4a02e25d700",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_712aa4a02e25d700",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Mena FN",
+      "source_path": "html/NPL/NPL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5a6d7c9743945677",
+    "text": "Publisher: Mena FN",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2a186fd690dd064b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2a186fd690dd064b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://menafn.com/1110151613/Road-Accident-Claims-Six-Lives-in-Nepal",
+      "source_path": "html/NPL/NPL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5a6d7c9743945677",
+    "text": "Original source: https://menafn.com/1110151613/Road-Accident-Claims-Six-Lives-in-Nepal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d18912d402f9e651",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d18912d402f9e651",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5a6d7c9743945677",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d21899629d7e1aed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d21899629d7e1aed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://menafn.com/1110151613/Road-Accident-Claims-Six-Lives-in-Nepal",
+      "source_path": "html/NPL/NPL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5a6d7c9743945677",
+    "text": "https://menafn.com/1110151613/Road-Accident-Claims-Six-Lives-in-Nepal",
+    "url": null
+  }
+]

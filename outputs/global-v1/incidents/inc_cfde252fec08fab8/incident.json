@@ -1,0 +1,87 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-07-06T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-07-05T07:00:00",
+    "timezone": "Europe/Rome"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_8ac0da5999f9efd9",
+    "ev_9a0cd741e41bf905",
+    "ev_9a53858f497254ab",
+    "ev_b90e16eb524b9241",
+    "ev_c551ed9f7edfc4dc"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-07-05T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "No incident-location evidence survived normalization",
+    "confidence": 0.0,
+    "display_name": null,
+    "granularity": "unknown",
+    "hierarchy": {},
+    "latitude": null,
+    "longitude": null,
+    "method": "unresolved",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Reported traffic incident with unresolved location. The reported date is July 5, 2026, retained at day precision. The incident location remains unresolved in the supplied evidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: No incident-location evidence survived normalization. Representative decisive evidence: [ev_8ac0da5999f9efd9] [ev_9a0cd741e41bf905] [ev_9a53858f497254ab].",
+  "incident_id": "inc_cfde252fec08fab8",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_65606a961cd69962",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_a063b85783c3babd"
+  ],
+  "status": "reported",
+  "title": "Reported traffic incident with unresolved location",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

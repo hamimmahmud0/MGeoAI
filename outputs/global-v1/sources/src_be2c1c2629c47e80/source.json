@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "db043d498070203ffa6705839fb58b43b13e54df2c9f177a42fa0d32789bf631",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "radiopik.pl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-22T07:00:00Z",
+  "publisher": "radiopik.pl",
+  "schema_version": "1.0.0",
+  "source_id": "src_be2c1c2629c47e80",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-04-22T07:00:00+00:00",
+    "source_info_hash": "bf00b7cafc6e8029",
+    "source_info_path": "html/POL/POL-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.radiopik.pl/2,138086,smiertelny-wypadek-rowerzystki-w-inowroclawiu-45-latka-zginela-potracona-na-pasach",
+  "timezone": "Europe/Warsaw",
+  "title": "Śmiertelny wypadek rowerzystki w Inowrocławiu. 45-latka zginęła potrącona na pasach"
+}

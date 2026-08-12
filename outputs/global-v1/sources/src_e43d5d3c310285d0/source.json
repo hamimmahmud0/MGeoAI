@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "06de4078449612188d01531e81606d98fff71eb85e530064ea84295651dd47c3",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "channels television",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-22T07:00:00Z",
+  "publisher": "Channels Television",
+  "schema_version": "1.0.0",
+  "source_id": "src_e43d5d3c310285d0",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2026-04-22T07:00:00+00:00",
+    "source_info_hash": "d6480ba6dfb48232",
+    "source_info_path": "html/NGA/NGA-S008/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.channelstv.com/2026/04/22/12-killed-14-injured-in-edo-road-accident/",
+  "timezone": "Africa/Lagos",
+  "title": "12 Killed, 14 Injured In Edo Road Accident"
+}

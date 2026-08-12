@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SAU-S004",
+  "country_code": "SAU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "bdnews24",
+  "canonical_url": "https://bdnews24.com/bangladesh/another-bangladeshi-dies-in-saudi-arabia-road-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://bdnews24.com/bangladesh/another-bangladeshi-dies-in-saudi-arabia-road-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Saudi+Arabia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "d596c6f0fc1e9bf3cdf9975a8274d27adcb705643a46a2a1439aedcd4a81a309",
+      "size_bytes": 961,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "تصادم مركبات",
+    "road accident"
+  ],
+  "timezone": "Asia/Riyadh",
+  "captured_at": "2026-08-12T03:38:50.984901+06:00",
+  "published_at": "2014-10-23T16:42:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bdnews24.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SAU-S004"
+}

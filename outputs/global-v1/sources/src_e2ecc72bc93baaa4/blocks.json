@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_df18de3a5eac9d8a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_df18de3a5eac9d8a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Octavio Rivero sufrió accidente de tránsito en la capital",
+      "source_path": "html/CHL/CHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2ecc72bc93baaa4",
+    "text": "Octavio Rivero sufrió accidente de tránsito en la capital",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d6654b18e90badb3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d6654b18e90badb3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-01T03:00:00-04:00",
+      "source_path": "html/CHL/CHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2ecc72bc93baaa4",
+    "text": "2026-06-01T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5b9c08b3c34ba4c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5b9c08b3c34ba4c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Cooperativa",
+      "source_path": "html/CHL/CHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2ecc72bc93baaa4",
+    "text": "Publisher: Cooperativa",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d8747c19b8a28abb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d8747c19b8a28abb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/octavio-rivero-sufrio-accidente-de-transito-en-la-capital/2026-06-01/143428.html",
+      "source_path": "html/CHL/CHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2ecc72bc93baaa4",
+    "text": "Original source: https://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/octavio-rivero-sufrio-accidente-de-transito-en-la-capital/2026-06-01/143428.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6cce09e511ba24fe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6cce09e511ba24fe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2ecc72bc93baaa4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2be3a18db1d5d46b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2be3a18db1d5d46b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/octavio-rivero-sufrio-accidente-de-transito-en-la-capital/2026-06-01/143428.html",
+      "source_path": "html/CHL/CHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2ecc72bc93baaa4",
+    "text": "https://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/octavio-rivero-sufrio-accidente-de-transito-en-la-capital/2026-06-01/143428.html",
+    "url": null
+  }
+]

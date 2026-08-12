@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0c6e61c0ed8738e086a018b89f747024d4c4b86de777e3c883bb4433645664e1",
+  "country": "India",
+  "country_code": "IND",
+  "dependency_group": "india today",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IND/IND-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2023-05-30T04:25:00Z",
+  "publisher": "India Today",
+  "schema_version": "1.0.0",
+  "source_id": "src_3291f3b70bca8786",
+  "source_metadata": {
+    "country": "India",
+    "country_code": "IND",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2023-05-30T04:25:00+00:00",
+    "source_info_hash": "fb67cb85aa2e35a5",
+    "source_info_path": "html/IND/IND-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Kolkata",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "सड़क दुर्घटना",
+      "बस दुर्घटना"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.indiatoday.in/india/story/bus-falls-into-gorge-in-major-accident-on-jammu-srinagar-national-highway-2386215-2023-05-30",
+  "timezone": "Asia/Kolkata",
+  "title": "10 killed, 55 injured as Katra-bound bus rolls down gorge on Jammu-Srinagar National Highway"
+}

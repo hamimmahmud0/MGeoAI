@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_512c98672a3c0d7f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_512c98672a3c0d7f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus accident kills 22 in Tunisia",
+      "source_path": "html/TUN/TUN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d9f04672468641c8",
+    "text": "Bus accident kills 22 in Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6fe3abf0f0ab7a0c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6fe3abf0f0ab7a0c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-12-01T13:51:00+01:00",
+      "source_path": "html/TUN/TUN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d9f04672468641c8",
+    "text": "2019-12-01T13:51:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d41d35b78851cb18",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d41d35b78851cb18",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus carrying Tunisian tourists crashed in mountains in the country's north on Sunday, killing 22 people and injuring 21, the interior ministry said. The ...",
+      "source_path": "html/TUN/TUN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d9f04672468641c8",
+    "text": "A bus carrying Tunisian tourists crashed in mountains in the country's north on Sunday, killing 22 people and injuring 21, the interior ministry said. The ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6a6eee37ee4b864e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6a6eee37ee4b864e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/TUN/TUN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d9f04672468641c8",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0cd7ee6460a1c26c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0cd7ee6460a1c26c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/africa/194907/bus-accident-kills-22-in-tunisia",
+      "source_path": "html/TUN/TUN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d9f04672468641c8",
+    "text": "Original source: https://www.dhakatribune.com/world/africa/194907/bus-accident-kills-22-in-tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0ad5ebc65343917",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e0ad5ebc65343917",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d9f04672468641c8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_46f48831f4c8171b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_46f48831f4c8171b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/africa/194907/bus-accident-kills-22-in-tunisia",
+      "source_path": "html/TUN/TUN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d9f04672468641c8",
+    "text": "https://www.dhakatribune.com/world/africa/194907/bus-accident-kills-22-in-tunisia",
+    "url": null
+  }
+]

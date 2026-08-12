@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_97677d126d85a6de",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_97677d126d85a6de",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dode bij ernstig ongeval tegen boom",
+      "source_path": "html/NLD/NLD-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0b1917477e9cef78",
+    "text": "Dode bij ernstig ongeval tegen boom",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_028d3ff5efba60e0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_028d3ff5efba60e0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-17T09:00:00+02:00",
+      "source_path": "html/NLD/NLD-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0b1917477e9cef78",
+    "text": "2026-05-17T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0c1a67a0f1a42fca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0c1a67a0f1a42fca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "HELLENDOORN – Bij een eenzijdig verkeersongeval op de Kosteeweg, ter hoogte van de Joncheerlaan in het buitengebied van Hellendoorn, is een auto tegen een boom ...",
+      "source_path": "html/NLD/NLD-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0b1917477e9cef78",
+    "text": "HELLENDOORN – Bij een eenzijdig verkeersongeval op de Kosteeweg, ter hoogte van de Joncheerlaan in het buitengebied van Hellendoorn, is een auto tegen een boom ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_395e28463c4f7f0f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_395e28463c4f7f0f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 112 Nederland",
+      "source_path": "html/NLD/NLD-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0b1917477e9cef78",
+    "text": "Publisher: 112 Nederland",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7f44ad68d5429c93",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7f44ad68d5429c93",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://112nederland.nl/2026/05/17/video/dode-bij-ernstig-ongeval-tegen-boom-2/",
+      "source_path": "html/NLD/NLD-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0b1917477e9cef78",
+    "text": "Original source: https://112nederland.nl/2026/05/17/video/dode-bij-ernstig-ongeval-tegen-boom-2/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_becd7953f37d4d15",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_becd7953f37d4d15",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0b1917477e9cef78",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_257e6db2b9ca8c78",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_257e6db2b9ca8c78",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://112nederland.nl/2026/05/17/video/dode-bij-ernstig-ongeval-tegen-boom-2/",
+      "source_path": "html/NLD/NLD-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0b1917477e9cef78",
+    "text": "https://112nederland.nl/2026/05/17/video/dode-bij-ernstig-ongeval-tegen-boom-2/",
+    "url": null
+  }
+]

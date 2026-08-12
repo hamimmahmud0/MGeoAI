@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "SAU",
+  "name": "Saudi Arabia",
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "timezones": [
+    "Asia/Riyadh"
+  ],
+  "target_sources": 12
+}

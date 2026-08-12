@@ -534,9 +534,12 @@ before committing.
 ## 15. Reproduce the international corpus run
 
 The checked-in international corpus is separate from the small immutable demo
-under `assets/scraps`. It stores direct publisher links, short evidence excerpts,
-hashes, review metadata, and country/multi-source coverage records. It does not
-redistribute full publisher pages.
+under `assets/scraps`. It contains 51 collection-country groups, 510 accepted source
+records, and 53 automated distinct-domain multi-source candidates. It stores direct
+publisher links, short evidence excerpts, hashes, automated review metadata, and
+country/multi-source coverage records. It does not redistribute full publisher pages.
+The collection country is a discovery/source bucket, not a verified crash location;
+pair identity and upstream independence still need qualified human review.
 
 First validate all country and source requirements:
 
@@ -585,10 +588,16 @@ To check every original source manually, open:
 corpus/global-v1/reports/source_links.csv
 ```
 
-The file contains country code, source ID, publisher, domain, publication time,
-and a direct verification URL for every accepted source. The full country list
+The file contains country code, source ID, article title, publisher, domain,
+publication time, direct verification URL, discovery URL, and any multi-source pair
+key for every accepted source. The full country list
 and quota counts are in `corpus/global-v1/reports/countries.md`. Study design and
 limitations are documented in `METHODOLOGY.md`.
+
+Best-effort public social discovery is stored separately in
+`work/global_candidates/group_social/`. Those Bluesky metadata candidates are not
+accepted sources: they deliberately remain `requires_human_incident_and_location_review`
+and include no downloaded media or full thread capture.
 
 ## 16. Run the test suite
 

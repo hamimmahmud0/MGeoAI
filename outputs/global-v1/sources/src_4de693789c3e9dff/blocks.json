@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5b792f0bda51bbe0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5b792f0bda51bbe0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Trágico accidente en la Panamericana Sur deja cinco fallecidos y varios heridos en Tacna",
+      "source_path": "html/PER/PER-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4de693789c3e9dff",
+    "text": "Trágico accidente en la Panamericana Sur deja cinco fallecidos y varios heridos en Tacna",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aefafbf7924c607e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_aefafbf7924c607e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-25T02:00:00-05:00",
+      "source_path": "html/PER/PER-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4de693789c3e9dff",
+    "text": "2026-07-25T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_216d5f92bf056631",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_216d5f92bf056631",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Infobae",
+      "source_path": "html/PER/PER-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4de693789c3e9dff",
+    "text": "Publisher: Infobae",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d34ed269dac77ba1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d34ed269dac77ba1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.infobae.com/peru/2026/07/25/fatal-accidente-en-la-panamericana-sur-deja-fallecidos-y-multiples-heridos-en-tacna/",
+      "source_path": "html/PER/PER-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4de693789c3e9dff",
+    "text": "Original source: https://www.infobae.com/peru/2026/07/25/fatal-accidente-en-la-panamericana-sur-deja-fallecidos-y-multiples-heridos-en-tacna/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d5f436eaaeb1b6fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d5f436eaaeb1b6fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4de693789c3e9dff",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f38d4a1827efa7b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f38d4a1827efa7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.infobae.com/peru/2026/07/25/fatal-accidente-en-la-panamericana-sur-deja-fallecidos-y-multiples-heridos-en-tacna/",
+      "source_path": "html/PER/PER-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4de693789c3e9dff",
+    "text": "https://www.infobae.com/peru/2026/07/25/fatal-accidente-en-la-panamericana-sur-deja-fallecidos-y-multiples-heridos-en-tacna/",
+    "url": null
+  }
+]

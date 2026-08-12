@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KEN-S002",
+  "country_code": "KEN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "the-star.co.ke",
+  "canonical_url": "https://www.the-star.co.ke/news/2026-03-05-six-dead-in-head-on-collision-on-nairobi-mombasa-highway",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.the-star.co.ke/news/2026-03-05-six-dead-in-head-on-collision-on-nairobi-mombasa-highway",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=KE%3Aen&gl=KE&hl=en-KE&q=%28road+crash+OR+traffic+accident+OR+collision%29+Kenya+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "7032fd30f355e4c51aad642acf54290de1f68353699aba6cf8ca15eda7634e93",
+      "size_bytes": 1039,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "ajali barabarani",
+    "bus crash"
+  ],
+  "timezone": "Africa/Nairobi",
+  "captured_at": "2026-08-11T21:49:45.077385Z",
+  "published_at": "2026-03-05T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "the-star.co.ke",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KEN-S002"
+}

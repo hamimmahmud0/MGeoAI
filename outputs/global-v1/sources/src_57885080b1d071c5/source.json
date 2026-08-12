@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "36be065b5f34a4556ef1af0be47221befb6eeef4d6782441a7abfbad145d44ca",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "hbvl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-06-05T07:00:00Z",
+  "publisher": "HBVL",
+  "schema_version": "1.0.0",
+  "source_id": "src_57885080b1d071c5",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2024-06-05T07:00:00+00:00",
+    "source_info_hash": "f6cb5556d9b3b43b",
+    "source_info_path": "html/BEL/BEL-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hbvl.be/binnenland/brusselse-ring-weer-vrij-na-dodelijk-ongeval-trucker-54-overleeft-crash-tegen-vangrail-niet/26338042.html",
+  "timezone": "Europe/Brussels",
+  "title": "Brusselse ring weer vrij na dodelijk ongeval, trucker (54) overleeft crash tegen vangrail niet"
+}

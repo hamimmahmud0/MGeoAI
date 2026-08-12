@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e2fc968c788d458e7c0e67bc3e9637c5d1e2763ad98e7a8df465a26d708ff68f",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "hoodline",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/JOR/JOR-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-10T13:36:00Z",
+  "publisher": "Hoodline",
+  "schema_version": "1.0.0",
+  "source_id": "src_69f7c23f07f423ee",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2026-08-10T13:36:00+00:00",
+    "source_info_hash": "d33f64b528b8dc70",
+    "source_info_path": "html/JOR/JOR-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://hoodline.com/2026/08/west-jordan-man-dies-trapped-under-car-after-rollover-at-busy-intersection/",
+  "timezone": "Asia/Amman",
+  "title": "West Jordan Man Dies Trapped Under Car After Rollover at Busy Intersection"
+}

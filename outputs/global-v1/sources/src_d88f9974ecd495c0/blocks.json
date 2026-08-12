@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e576ac66aea4666f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e576ac66aea4666f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "13-latek jechał z rodzicami, zginął na miejscu. Tragiczny wypadek w Chabielicach",
+      "source_path": "html/POL/POL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d88f9974ecd495c0",
+    "text": "13-latek jechał z rodzicami, zginął na miejscu. Tragiczny wypadek w Chabielicach",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e79defe257118134",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e79defe257118134",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-12T09:00:00+02:00",
+      "source_path": "html/POL/POL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d88f9974ecd495c0",
+    "text": "2026-07-12T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_32ef6e8150cbb183",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_32ef6e8150cbb183",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Wypadek samochodowy, do którego doszło w niedzielę w Chabielicach (woj.",
+      "source_path": "html/POL/POL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d88f9974ecd495c0",
+    "text": "Wypadek samochodowy, do którego doszło w niedzielę w Chabielicach (woj.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b6958f93975bf109",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b6958f93975bf109",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: PolsatNews.pl",
+      "source_path": "html/POL/POL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d88f9974ecd495c0",
+    "text": "Publisher: PolsatNews.pl",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84701e5f7e92eb87",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84701e5f7e92eb87",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.polsatnews.pl/wiadomosc/2026-07-12/13-latek-jechal-z-rodzicami-zginal-na-miejscu-tragiczny-wypadek-w-chabielicach/",
+      "source_path": "html/POL/POL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d88f9974ecd495c0",
+    "text": "Original source: https://www.polsatnews.pl/wiadomosc/2026-07-12/13-latek-jechal-z-rodzicami-zginal-na-miejscu-tragiczny-wypadek-w-chabielicach/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9f3ecfa9817579ae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9f3ecfa9817579ae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d88f9974ecd495c0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_145eb66965163868",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_145eb66965163868",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.polsatnews.pl/wiadomosc/2026-07-12/13-latek-jechal-z-rodzicami-zginal-na-miejscu-tragiczny-wypadek-w-chabielicach/",
+      "source_path": "html/POL/POL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d88f9974ecd495c0",
+    "text": "https://www.polsatnews.pl/wiadomosc/2026-07-12/13-latek-jechal-z-rodzicami-zginal-na-miejscu-tragiczny-wypadek-w-chabielicach/",
+    "url": null
+  }
+]

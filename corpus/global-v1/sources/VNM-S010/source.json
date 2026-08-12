@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S010",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Vietnam News",
+  "canonical_url": "https://vietnamnews.vn/society/1723195/three-killed-in-traffic-accident-in-ha-noi.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://vietnamnews.vn/society/1723195/three-killed-in-traffic-accident-in-ha-noi.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Three+killed+in+traffic+accident+in+Ha+Noi",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4877e4e0b6399af555846c0c1b8569de29eb3bbcd68fe9ba1ac8af2dad0fc29e",
+      "size_bytes": 874,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:53:17.007465+06:00",
+  "published_at": "2026-04-21T00:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "vietnamnews.vn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S010"
+}

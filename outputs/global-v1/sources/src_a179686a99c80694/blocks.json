@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_68d5e62183440489",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_68d5e62183440489",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "India road accident",
+      "source_path": "html/IND/IND-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a179686a99c80694",
+    "text": "India road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca89fa28967aae05",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ca89fa28967aae05",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-07T21:29:00+05:30",
+      "source_path": "html/IND/IND-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a179686a99c80694",
+    "text": "2026-01-07T21:29:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_526ee511e4c21887",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_526ee511e4c21887",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 28 people, many of them children, drowned yesterday after their bus plunged into a canal in India, police said, in the latest tragedy ...",
+      "source_path": "html/IND/IND-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a179686a99c80694",
+    "text": "At least 28 people, many of them children, drowned yesterday after their bus plunged into a canal in India, police said, in the latest tragedy ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fd39f36f6eae40df",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fd39f36f6eae40df",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Daily Star",
+      "source_path": "html/IND/IND-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a179686a99c80694",
+    "text": "Publisher: The Daily Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a07e3a58dbeaf38f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a07e3a58dbeaf38f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thedailystar.net/tags/india-road-accident",
+      "source_path": "html/IND/IND-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a179686a99c80694",
+    "text": "Original source: https://www.thedailystar.net/tags/india-road-accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_289a19819e557e9d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_289a19819e557e9d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a179686a99c80694",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_859638cab61cfb99",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_859638cab61cfb99",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thedailystar.net/tags/india-road-accident",
+      "source_path": "html/IND/IND-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a179686a99c80694",
+    "text": "https://www.thedailystar.net/tags/india-road-accident",
+    "url": null
+  }
+]

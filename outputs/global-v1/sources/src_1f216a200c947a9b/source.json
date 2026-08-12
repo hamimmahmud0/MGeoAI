@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f3aef7c4d56e4fc8cb1c48d03cd503d765f9ac9e1c8340d380103b77b7d7d6ee",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "the business standard",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T08:22:00Z",
+  "publisher": "The Business Standard",
+  "schema_version": "1.0.0",
+  "source_id": "src_1f216a200c947a9b",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-08T08:22:00+00:00",
+    "source_info_hash": "41b02a116612fcb7",
+    "source_info_path": "html/BGD/BGD-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.tbsnews.net/bangladesh/sylhet-road-crash-families-deceased-get-tk5-lakh-each-injured-tk3-lakh-1509516",
+  "timezone": "Asia/Dhaka",
+  "title": "Sylhet road crash: Families of deceased to get Tk5 lakh each, injured up to Tk3 lakh"
+}

@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8b44cdc5e242c9f7d770f748fcc09f8deacc4bce35c11eb5178a679a3c52cd00",
+  "country": "Uganda",
+  "country_code": "UGA",
+  "dependency_group": "al bawaba news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "local_path": "html/UGA/UGA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-10-21T21:53:00Z",
+  "publisher": "Al Bawaba News",
+  "schema_version": "1.0.0",
+  "source_id": "src_396b9c9faa12305a",
+  "source_metadata": {
+    "country": "Uganda",
+    "country_code": "UGA",
+    "languages": [
+      "en",
+      "sw",
+      "lg"
+    ],
+    "published_at": "2025-10-21T21:53:00+00:00",
+    "source_info_hash": "9f3e45dcefde4604",
+    "source_info_path": "html/UGA/UGA-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Kampala",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus accident",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.albawaba.com/news/tragic-multi-vehicle-collision-claims-46-1615108",
+  "timezone": "Africa/Kampala",
+  "title": "Tragic multi-vehicle collision claims 46 lives in Uganda"
+}

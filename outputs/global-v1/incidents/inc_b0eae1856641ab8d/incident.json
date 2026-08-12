@@ -1,0 +1,132 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [
+    [
+      "src_1f216a200c947a9b",
+      "src_9a000ba483d1029f"
+    ]
+  ],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-08T08:02:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-07T08:02:00",
+    "timezone": "Asia/Dhaka"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_02e1248ad077ecae",
+    "ev_10cec01ebd4f8df5",
+    "ev_2a045075fbf8c346",
+    "ev_3f6961080bc668f6",
+    "ev_73caa947a1a84577",
+    "ev_c37dc0ef53c92868",
+    "ev_c942312219ddf43e",
+    "ev_db7573f7b739e2c7",
+    "ev_dc6904dcf0f72456",
+    "ev_f0061c2b01f6def2",
+    "ev_f4adace1e27d5371"
+  ],
+  "facts": [
+    {
+      "confidence": 0.51,
+      "conflicting_values": [
+        9
+      ],
+      "contradiction": true,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_02e1248ad077ecae",
+        "ev_2a045075fbf8c346",
+        "ev_c37dc0ef53c92868",
+        "ev_c942312219ddf43e",
+        "ev_f0061c2b01f6def2"
+      ],
+      "value": 16
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_73caa947a1a84577",
+        "ev_f4adace1e27d5371"
+      ],
+      "value": 25
+    }
+  ],
+  "generated_at": "2026-08-07T08:02:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Coordinates represent a named-area centroid, not the exact crash point.",
+    "confidence": 0.8800000000000001,
+    "display_name": "Kashikapan, Osmaninagar, Sylhet",
+    "granularity": "area",
+    "hierarchy": {
+      "anchor": "sylhet",
+      "country": "Bangladesh",
+      "district": "Sylhet",
+      "upazila": "Osmaninagar"
+    },
+    "latitude": 24.7063,
+    "longitude": 91.7417,
+    "method": "local_gazetteer_centroid",
+    "supporting_evidence_ids": [
+      "ev_02e1248ad077ecae",
+      "ev_10cec01ebd4f8df5",
+      "ev_2a045075fbf8c346",
+      "ev_3f6961080bc668f6",
+      "ev_73caa947a1a84577",
+      "ev_c37dc0ef53c92868",
+      "ev_c942312219ddf43e",
+      "ev_db7573f7b739e2c7",
+      "ev_dc6904dcf0f72456",
+      "ev_f0061c2b01f6def2",
+      "ev_f4adace1e27d5371"
+    ],
+    "uncertainty_radius_km": 3.0
+  },
+  "human_summary": "The fused record concerns this reported incident: Passenger-bus collision in Osmaninagar, Sylhet. The reported date is August 7, 2026, retained at day precision. Reports identify the location as Kashikapan, Osmaninagar, Sylhet; fusion retains it at area precision with 88% location confidence. The reconciled casualty assessment records 16 reported fatalities and 25 reported injuries. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 5 source record(s) representing 4 independent source group(s) and 11 cited evidence item(s). Important location limitation: Coordinates represent a named-area centroid, not the exact crash point, with an approximate 3 km uncertainty radius. Representative decisive evidence: [ev_02e1248ad077ecae] [ev_10cec01ebd4f8df5] [ev_2a045075fbf8c346].",
+  "incident_id": "inc_b0eae1856641ab8d",
+  "independent_source_count": 4,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_89c62d5359c04866",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_1f216a200c947a9b",
+    "src_4d82b7e87ecfc5fa",
+    "src_6e56eed9ea5d3d70",
+    "src_9a000ba483d1029f",
+    "src_f169afeba22bd6f6"
+  ],
+  "status": "reported",
+  "title": "Passenger-bus collision in Osmaninagar, Sylhet",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

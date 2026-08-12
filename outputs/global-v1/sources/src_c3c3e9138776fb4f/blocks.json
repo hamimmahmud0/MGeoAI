@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c4090d6436220d24",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c4090d6436220d24",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Grave accidente de tránsito en Bolivia tras la caída de bus a un barranco que dejó a menores de edad muertos y varios heridos: esto se sabe",
+      "source_path": "html/MEX/MEX-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c3c3e9138776fb4f",
+    "text": "Grave accidente de tránsito en Bolivia tras la caída de bus a un barranco que dejó a menores de edad muertos y varios heridos: esto se sabe",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7cd2c937684e89fc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7cd2c937684e89fc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-06T01:00:00-06:00",
+      "source_path": "html/MEX/MEX-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c3c3e9138776fb4f",
+    "text": "2026-07-06T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d80fd2dd9b0c4c00",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d80fd2dd9b0c4c00",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Grave accidente de tránsito en Bolivia tras la caída de bus a un barranco que dejó a menores de edad muertos y varios heridos: esto ...",
+      "source_path": "html/MEX/MEX-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c3c3e9138776fb4f",
+    "text": "Grave accidente de tránsito en Bolivia tras la caída de bus a un barranco que dejó a menores de edad muertos y varios heridos: esto ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9c62af2b42ed3cf5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9c62af2b42ed3cf5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Tiempo",
+      "source_path": "html/MEX/MEX-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c3c3e9138776fb4f",
+    "text": "Publisher: El Tiempo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5129b6b974701fc5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5129b6b974701fc5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.eltiempo.com/mundo/latinoamerica/grave-accidente-de-transito-en-bolivia-tras-la-caida-de-bus-a-un-barranco-que-dejo-a-menores-de-edad-muertos-y-varios-heridos-esto-se-sabe-3569379",
+      "source_path": "html/MEX/MEX-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c3c3e9138776fb4f",
+    "text": "Original source: https://www.eltiempo.com/mundo/latinoamerica/grave-accidente-de-transito-en-bolivia-tras-la-caida-de-bus-a-un-barranco-que-dejo-a-menores-de-edad-muertos-y-varios-heridos-esto-se-sabe-3569379",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7476dab443aa68a0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7476dab443aa68a0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c3c3e9138776fb4f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a20a7bfbc247e0e2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a20a7bfbc247e0e2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.eltiempo.com/mundo/latinoamerica/grave-accidente-de-transito-en-bolivia-tras-la-caida-de-bus-a-un-barranco-que-dejo-a-menores-de-edad-muertos-y-varios-heridos-esto-se-sabe-3569379",
+      "source_path": "html/MEX/MEX-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c3c3e9138776fb4f",
+    "text": "https://www.eltiempo.com/mundo/latinoamerica/grave-accidente-de-transito-en-bolivia-tras-la-caida-de-bus-a-un-barranco-que-dejo-a-menores-de-edad-muertos-y-varios-heridos-esto-se-sabe-3569379",
+    "url": null
+  }
+]

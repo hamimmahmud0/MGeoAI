@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1f6afad360ff21f041f7bf9c9c9e94b55da599e7ac65a1a75c4532770014fa6d",
+  "country": "Ireland",
+  "country_code": "IRL",
+  "dependency_group": "kildare live",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IRL/IRL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-11T09:35:00Z",
+  "publisher": "Kildare Live",
+  "schema_version": "1.0.0",
+  "source_id": "src_3b347abdaaf775d3",
+  "source_metadata": {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-11T09:35:00+00:00",
+    "source_info_hash": "55a0c1b0a755ad9d",
+    "source_info_path": "html/IRL/IRL-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Dublin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "road crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.leinsterleader.ie/news/rathangan/woman-pronounced-dead-following-road-traffic-collision-in-kildare-8876308",
+  "timezone": "Europe/Dublin",
+  "title": "Woman aged in her 80s pronounced dead following road traffic collision in Kildare"
+}

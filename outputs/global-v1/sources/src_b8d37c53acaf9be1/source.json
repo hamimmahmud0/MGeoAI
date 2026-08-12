@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5affcc5acc2723e1ad974d221d33fdfa2e1ee8155a49898aeda131dad1d2b217",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "vietnamnet",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-13T17:00:00Z",
+  "publisher": "VietNamNet",
+  "schema_version": "1.0.0",
+  "source_id": "src_b8d37c53acaf9be1",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-09-13T17:00:00+00:00",
+    "source_info_hash": "80e2c442adacb208",
+    "source_info_path": "html/VNM/VNM-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://vietnamnet.vn/en/hanoi-truck-driver-arrested-for-dragging-schoolgirl-to-death-after-crash-2442474.html",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "Hanoi truck driver arrested for dragging schoolgirl to death after crash"
+}

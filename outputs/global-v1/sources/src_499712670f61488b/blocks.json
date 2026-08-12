@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0b0e169574a2ea74",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0b0e169574a2ea74",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Triple Tragedy As Woman And Baby Killed By Health Minister’s Vehicle After Husband Died In Earlier Crash",
+      "source_path": "html/ZAF/ZAF-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_499712670f61488b",
+    "text": "Triple Tragedy As Woman And Baby Killed By Health Minister’s Vehicle After Husband Died In Earlier Crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7433f90c6bf949ba",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7433f90c6bf949ba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-13T09:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_499712670f61488b",
+    "text": "2026-05-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f2be93218b42310a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f2be93218b42310a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "[Image: Pexels] The N1 outside Bela-Bela became the setting for an absolutely devastating sequence of events on Saturday, 9 May, after a woman and her ...",
+      "source_path": "html/ZAF/ZAF-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_499712670f61488b",
+    "text": "[Image: Pexels] The N1 outside Bela-Bela became the setting for an absolutely devastating sequence of events on Saturday, 9 May, after a woman and her ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6c1638631a388f70",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6c1638631a388f70",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 2oceansvibe News",
+      "source_path": "html/ZAF/ZAF-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_499712670f61488b",
+    "text": "Publisher: 2oceansvibe News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50952c276c189b45",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_50952c276c189b45",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.2oceansvibe.com/world/south-africa/triple-tragedy-as-woman-and-baby-killed-by-health-ministers-vehicle-after-husband-died-in-earlier-crash/",
+      "source_path": "html/ZAF/ZAF-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_499712670f61488b",
+    "text": "Original source: https://www.2oceansvibe.com/world/south-africa/triple-tragedy-as-woman-and-baby-killed-by-health-ministers-vehicle-after-husband-died-in-earlier-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17985c59b4e4893f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17985c59b4e4893f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_499712670f61488b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e8f0ef55026836fc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e8f0ef55026836fc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.2oceansvibe.com/world/south-africa/triple-tragedy-as-woman-and-baby-killed-by-health-ministers-vehicle-after-husband-died-in-earlier-crash/",
+      "source_path": "html/ZAF/ZAF-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_499712670f61488b",
+    "text": "https://www.2oceansvibe.com/world/south-africa/triple-tragedy-as-woman-and-baby-killed-by-health-ministers-vehicle-after-husband-died-in-earlier-crash/",
+    "url": null
+  }
+]

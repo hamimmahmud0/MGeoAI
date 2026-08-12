@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "IDN",
+  "name": "Indonesia",
+  "languages": [
+    "id"
+  ],
+  "timezones": [
+    "Asia/Jakarta"
+  ],
+  "target_sources": 12
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ESP",
+  "name": "Spain",
+  "languages": [
+    "es"
+  ],
+  "timezones": [
+    "Europe/Madrid"
+  ],
+  "target_sources": 12
+}

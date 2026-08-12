@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "93881752de628096bbf6a29e22df8eff5771fec9dccb2f57956f50efee65abe4",
+  "country": "Malaysia",
+  "country_code": "MYS",
+  "dependency_group": "bangkok post",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MYS/MYS-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-09T07:42:00Z",
+  "publisher": "Bangkok Post",
+  "schema_version": "1.0.0",
+  "source_id": "src_079a9f3cc9a26eba",
+  "source_metadata": {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-06-09T07:42:00+00:00",
+    "source_info_hash": "2195a7ef4c5308b3",
+    "source_info_path": "html/MYS/MYS-S006/SOURCE_INFO.md",
+    "timezone": "Asia/Kuala_Lumpur",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kemalangan jalan raya",
+      "nahas jalan raya",
+      "kemalangan bas",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bangkokpost.com/world/3045447/at-least-15-die-in-malaysia-bus-crash",
+  "timezone": "Asia/Kuala_Lumpur",
+  "title": "At least 15 die in Malaysia bus crash"
+}

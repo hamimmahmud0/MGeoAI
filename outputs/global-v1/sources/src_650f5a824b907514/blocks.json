@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_656bde51514a015a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_656bde51514a015a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tanzania car crash claims lives from seven countries",
+      "source_path": "html/TZA/TZA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_650f5a824b907514",
+    "text": "Tanzania car crash claims lives from seven countries",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c60a2e9ffead25c8",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c60a2e9ffead25c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-02-26T05:28:00+03:00",
+      "source_path": "html/TZA/TZA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_650f5a824b907514",
+    "text": "2024-02-26T05:28:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e50716e43589d1c4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e50716e43589d1c4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The 25 people killed in a multi-vehicle crash in Tanzania hailed from seven different countries, it has emerged. The accident occurred when a Kenyan-registered lorry ...",
+      "source_path": "html/TZA/TZA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_650f5a824b907514",
+    "text": "The 25 people killed in a multi-vehicle crash in Tanzania hailed from seven different countries, it has emerged. The accident occurred when a Kenyan-registered lorry ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5f403fdeb8dfac69",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5f403fdeb8dfac69",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ghanaweb.com",
+      "source_path": "html/TZA/TZA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_650f5a824b907514",
+    "text": "Publisher: Ghanaweb.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba3a9c5cfdae547d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba3a9c5cfdae547d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ghanaweb.com/GhanaHomePage/africa/Tanzania-car-crash-claims-lives-from-seven-countries-1918697",
+      "source_path": "html/TZA/TZA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_650f5a824b907514",
+    "text": "Original source: https://www.ghanaweb.com/GhanaHomePage/africa/Tanzania-car-crash-claims-lives-from-seven-countries-1918697",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1b192d644ecdaad3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1b192d644ecdaad3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_650f5a824b907514",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8fe11a379f3570a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8fe11a379f3570a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ghanaweb.com/GhanaHomePage/africa/Tanzania-car-crash-claims-lives-from-seven-countries-1918697",
+      "source_path": "html/TZA/TZA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_650f5a824b907514",
+    "text": "https://www.ghanaweb.com/GhanaHomePage/africa/Tanzania-car-crash-claims-lives-from-seven-countries-1918697",
+    "url": null
+  }
+]

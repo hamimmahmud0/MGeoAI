@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "61e8d171917bcaa02db40a3403366556b3e55e69e7658d638283bb136623e2e8",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "mustsharenews",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/JPN/JPN-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-30T08:33:00Z",
+  "publisher": "MustShareNews",
+  "schema_version": "1.0.0",
+  "source_id": "src_989a21d8712b8681",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-09-30T08:33:00+00:00",
+    "source_info_hash": "ea521d9a21efeb26",
+    "source_info_path": "html/JPN/JPN-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://mustsharenews.com/kindergarten-bus-crashes/amp/",
+  "timezone": "Asia/Tokyo",
+  "title": "1 dead and 10 injured after kindergarten bus crashes into house in Japan"
+}

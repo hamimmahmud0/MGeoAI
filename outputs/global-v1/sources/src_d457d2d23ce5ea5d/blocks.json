@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f89a960daff0a766",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f89a960daff0a766",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "UAE traffic alert: Accidents cause tailbacks on Dubai–Sharjah routes, avoid key roads",
+      "source_path": "html/ARE/ARE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d457d2d23ce5ea5d",
+    "text": "UAE traffic alert: Accidents cause tailbacks on Dubai–Sharjah routes, avoid key roads",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b20ca010edb31b79",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b20ca010edb31b79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-28T03:15:00+04:00",
+      "source_path": "html/ARE/ARE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d457d2d23ce5ea5d",
+    "text": "2025-11-28T03:15:00+04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b7655cad7a8d5b77",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b7655cad7a8d5b77",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dubai Police urge drivers to stay alert, watch for pedestrians and avoid distractions Dubai/Sharjah: Motorists across the UAE are experiencing significant rush-hour delays on Friday ...",
+      "source_path": "html/ARE/ARE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d457d2d23ce5ea5d",
+    "text": "Dubai Police urge drivers to stay alert, watch for pedestrians and avoid distractions Dubai/Sharjah: Motorists across the UAE are experiencing significant rush-hour delays on Friday ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a5dd42c720acea6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a5dd42c720acea6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Gulf News",
+      "source_path": "html/ARE/ARE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d457d2d23ce5ea5d",
+    "text": "Publisher: Gulf News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_51f07249ea81b2fd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_51f07249ea81b2fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://gulfnews.com/uae/transport/uae-traffic-alert-accidents-cause-tailbacks-on-dubaisharjah-routes-avoid-key-roads-1.500362399",
+      "source_path": "html/ARE/ARE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d457d2d23ce5ea5d",
+    "text": "Original source: https://gulfnews.com/uae/transport/uae-traffic-alert-accidents-cause-tailbacks-on-dubaisharjah-routes-avoid-key-roads-1.500362399",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_16e540dfdb889811",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_16e540dfdb889811",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARE/ARE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d457d2d23ce5ea5d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4f42f9bafc29fb6a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4f42f9bafc29fb6a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://gulfnews.com/uae/transport/uae-traffic-alert-accidents-cause-tailbacks-on-dubaisharjah-routes-avoid-key-roads-1.500362399",
+      "source_path": "html/ARE/ARE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d457d2d23ce5ea5d",
+    "text": "https://gulfnews.com/uae/transport/uae-traffic-alert-accidents-cause-tailbacks-on-dubaisharjah-routes-avoid-key-roads-1.500362399",
+    "url": null
+  }
+]

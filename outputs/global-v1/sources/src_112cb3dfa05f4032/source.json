@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "45bd74384fb7cbfb1fc888c7840669dac03ae729a3a142b3ce4843e73aac43fc",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "7news australia",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-21T01:54:00Z",
+  "publisher": "7NEWS Australia",
+  "schema_version": "1.0.0",
+  "source_id": "src_112cb3dfa05f4032",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-09-21T01:54:00+00:00",
+    "source_info_hash": "356f92949b0abd2f",
+    "source_info_path": "html/AUS/AUS-S004/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://7news.com.au/news/serious-bus-crash-on-m2-motorway-leaves-four-in-serious-condition-c-20095486",
+  "timezone": "Australia/Sydney",
+  "title": "Horror crash between bus and car on Sydney’s M2 motorway leaves four in serious condition"
+}

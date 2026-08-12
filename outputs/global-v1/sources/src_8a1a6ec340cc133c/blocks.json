@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5de2935f309a7e16",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5de2935f309a7e16",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Grave siniestro vial en la zona Sur: un motociclista herido de gravedad tras un choque",
+      "source_path": "html/ARG/ARG-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8a1a6ec340cc133c",
+    "text": "Grave siniestro vial en la zona Sur: un motociclista herido de gravedad tras un choque",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_64b03ae760c45e38",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_64b03ae760c45e38",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-24T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8a1a6ec340cc133c",
+    "text": "2026-07-24T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_247815697048beb3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_247815697048beb3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Medios Rioja",
+      "source_path": "html/ARG/ARG-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8a1a6ec340cc133c",
+    "text": "Publisher: Medios Rioja",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_86b03e8897f90e1f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_86b03e8897f90e1f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://mediosrioja.com.ar/grave-siniestro-vial-en-la-zona-sur-un-motociclista-herido-de-gravedad-tras-un-choque/",
+      "source_path": "html/ARG/ARG-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8a1a6ec340cc133c",
+    "text": "Original source: https://mediosrioja.com.ar/grave-siniestro-vial-en-la-zona-sur-un-motociclista-herido-de-gravedad-tras-un-choque/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_557604c714471379",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_557604c714471379",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8a1a6ec340cc133c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b982d6cf8fb9feae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b982d6cf8fb9feae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://mediosrioja.com.ar/grave-siniestro-vial-en-la-zona-sur-un-motociclista-herido-de-gravedad-tras-un-choque/",
+      "source_path": "html/ARG/ARG-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8a1a6ec340cc133c",
+    "text": "https://mediosrioja.com.ar/grave-siniestro-vial-en-la-zona-sur-un-motociclista-herido-de-gravedad-tras-un-choque/",
+    "url": null
+  }
+]

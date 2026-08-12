@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0bcbe24fa08fc57efa29dbf204cdf362c6240f0da73688bd697c70db5f165570",
+  "country": "Indonesia",
+  "country_code": "IDN",
+  "dependency_group": "the new indian express",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IDN/IDN-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-21T19:18:00Z",
+  "publisher": "The New Indian Express",
+  "schema_version": "1.0.0",
+  "source_id": "src_00e914dccdc1613a",
+  "source_metadata": {
+    "country": "Indonesia",
+    "country_code": "IDN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-12-21T19:18:00+00:00",
+    "source_info_hash": "8636bde5c76c9ac3",
+    "source_info_path": "html/IDN/IDN-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Jakarta",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kecelakaan lalu lintas",
+      "tabrakan kendaraan",
+      "kecelakaan bus",
+      "kecelakaan jalan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.newindianexpress.com/world/2025/Dec/22/passenger-bus-crash-in-indonesia-kills-at-least-16-people",
+  "timezone": "Asia/Jakarta",
+  "title": "Passenger bus crash in Indonesia kills at least 16 people"
+}

@@ -1,0 +1,100 @@
+{
+  "alternate_time_claims": [],
+  "collision": "Vehicle-to-fixed-object collision possible but unconfirmed (vehicle_collision_or_structural_incident_uncertain)",
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "Evidence is only from an image analysis with low confidence (0.35) and a visual inference (medium confidence).",
+    "Location is inherited from a mention that cites an evidence ID not present in the bundle; therefore, the location is only as reliable as the image evidence.",
+    "The incident type is uncertain: 'vehicle_collision_or_structural_incident_uncertain'."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": null,
+    "original_expression": null,
+    "precision": "unknown",
+    "start": null,
+    "timezone": null
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_4b1ab98ebafd8471",
+    "ev_fb1dd7979f021da8"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No source reports a fatality count.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No source reports an injury count.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2025-01-01T00:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Image alone does not establish crash location; the point is a representative centroid, not an exact crash point.",
+    "confidence": 0.45,
+    "display_name": "Baniacho, Shahrasti, Chandpur",
+    "granularity": "area",
+    "hierarchy": {
+      "anchor": "baniacho_shahrasti",
+      "country": "Bangladesh",
+      "district": "Chandpur",
+      "locality": "Baniacho",
+      "upazila": "Shahrasti"
+    },
+    "latitude": 23.253908,
+    "longitude": 90.968507,
+    "method": "inherited_from_mention",
+    "supporting_evidence_ids": [
+      "ev_4b1ab98ebafd8471"
+    ],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "A single image source [ev_4b1ab98ebafd8471] depicts a dense crowd around heavily deformed metal framework or wreckage beside a blue-painted structure. The image analyst noted a possible vehicle-to-fixed-object collision but could not confirm the incident type from the still image; a related inference [ev_fb1dd7979f021da8] suggests the scene is the immediate aftermath of a serious incident. No time, exact location, casualties, vehicles, or road users are reported. The only location candidate, Baniacho, Shahrasti, Chandpur, is inherited from a mention in the same source, but its origin is not fully traceable and is an area-level coordinate with low confidence. No traffic effects or emergency response are documented. Given the low-confidence image-only evidence and the absence of corroborating sources, the incident remains uncertain in nature and details. Fatalities and injuries are not reported. [ev_4b1ab98ebafd8471]",
+  "incident_id": "inc_cluster-008",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_50083f1e78680e22"
+  ],
+  "status": "uncertain",
+  "title": "Possible vehicle collision or structural incident reported in Baniacho, Shahrasti, Chandpur",
+  "unresolved_questions": [
+    "What exactly occurred at the scene: a vehicle collision or a structural incident?",
+    "When did the incident happen?",
+    "What was the exact location of the incident?",
+    "Were there any casualties?",
+    "What vehicles or road users were involved?",
+    "What traffic effects, if any, were caused?",
+    "Was there any emergency response?"
+  ],
+  "vehicles": []
+}

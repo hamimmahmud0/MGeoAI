@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9d3ff9c25c4271f4a5df8cbeb37fc7cca77484690ae9b23332d69c62d2467d25",
+  "country": "New Zealand",
+  "country_code": "NZL",
+  "dependency_group": "otago daily times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NZL/NZL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-04T14:37:00Z",
+  "publisher": "Otago Daily Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_f82f7515f0f0ef65",
+  "source_metadata": {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-04T14:37:00+00:00",
+    "source_info_hash": "ec4253e3a9d25d14",
+    "source_info_path": "html/NZL/NZL-S010/SOURCE_INFO.md",
+    "timezone": "Pacific/Auckland",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "state highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.odt.co.nz/news/national/person-in-custody-three-in-hospital-after-serious-auckland-incident-llttzdx8",
+  "timezone": "Pacific/Auckland",
+  "title": "Charges to be laid after schoolboy cyclists hit, dog killed in Auckland"
+}

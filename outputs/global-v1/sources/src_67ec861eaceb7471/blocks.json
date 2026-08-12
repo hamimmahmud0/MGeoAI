@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_96d62815bdbd0bce",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_96d62815bdbd0bce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Catalunha. 46 feridos em embate de autocarro contra fachada de edifício",
+      "source_path": "html/PRT/PRT-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67ec861eaceb7471",
+    "text": "Catalunha. 46 feridos em embate de autocarro contra fachada de edifício",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8abba57dfac337c9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8abba57dfac337c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-01T08:00:00+01:00",
+      "source_path": "html/PRT/PRT-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67ec861eaceb7471",
+    "text": "2026-07-01T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f4e3052b2d61864e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f4e3052b2d61864e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Diário de Notícias",
+      "source_path": "html/PRT/PRT-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67ec861eaceb7471",
+    "text": "Publisher: Diário de Notícias",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_52bb24bff802474d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_52bb24bff802474d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dn.pt/internacional/catalunha-46-feridos-em-embate-de-autocarro-contra-fachada-de-edifcio",
+      "source_path": "html/PRT/PRT-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67ec861eaceb7471",
+    "text": "Original source: https://www.dn.pt/internacional/catalunha-46-feridos-em-embate-de-autocarro-contra-fachada-de-edifcio",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ec2c96c89e70ba5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ec2c96c89e70ba5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67ec861eaceb7471",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd5e8436a9250229",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd5e8436a9250229",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dn.pt/internacional/catalunha-46-feridos-em-embate-de-autocarro-contra-fachada-de-edifcio",
+      "source_path": "html/PRT/PRT-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67ec861eaceb7471",
+    "text": "https://www.dn.pt/internacional/catalunha-46-feridos-em-embate-de-autocarro-contra-fachada-de-edifcio",
+    "url": null
+  }
+]

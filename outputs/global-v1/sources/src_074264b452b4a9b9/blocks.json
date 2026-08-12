@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_711c0052753a8e68",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_711c0052753a8e68",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Former Donegal All-Ireland winner dies in tragic Cavan road crash",
+      "source_path": "html/IRL/IRL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_074264b452b4a9b9",
+    "text": "Former Donegal All-Ireland winner dies in tragic Cavan road crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02679b107c35311c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_02679b107c35311c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T07:06:51+01:00",
+      "source_path": "html/IRL/IRL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_074264b452b4a9b9",
+    "text": "2026-08-11T07:06:51+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1441f194ca42357c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1441f194ca42357c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Extra.ie",
+      "source_path": "html/IRL/IRL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_074264b452b4a9b9",
+    "text": "Publisher: Extra.ie",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_77231eef865dafa8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_77231eef865dafa8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://extra.ie/2026/08/11/news/irish-news/donegal-all-ireland-winner-cavan-crash",
+      "source_path": "html/IRL/IRL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_074264b452b4a9b9",
+    "text": "Original source: https://extra.ie/2026/08/11/news/irish-news/donegal-all-ireland-winner-cavan-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cf4e6fd2e1ea2e87",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cf4e6fd2e1ea2e87",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_074264b452b4a9b9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c4e72aa40c70ae84",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c4e72aa40c70ae84",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://extra.ie/2026/08/11/news/irish-news/donegal-all-ireland-winner-cavan-crash",
+      "source_path": "html/IRL/IRL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_074264b452b4a9b9",
+    "text": "https://extra.ie/2026/08/11/news/irish-news/donegal-all-ireland-winner-cavan-crash",
+    "url": null
+  }
+]

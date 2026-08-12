@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S006",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "protothema.gr",
+  "canonical_url": "https://en.protothema.gr/2024/10/18/turkiye-six-dead-and-twenty-five-injured-in-bus-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://en.protothema.gr/2024/10/18/turkiye-six-dead-and-twenty-five-injured-in-bus-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22T%C3%BCrkiye%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "7e5942ae4c4bf2eb3aea5ba9b95408248149f09e5a5e3bad3c012056ab34f712",
+      "size_bytes": 1010,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2024-10-18T03:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "en.protothema.gr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S006"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ffbc45b81f4d2b93",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ffbc45b81f4d2b93",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dos muertos deja un accidente de tránsito en Tarqui",
+      "source_path": "html/ECU/ECU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f6400bfe60de8",
+    "text": "Dos muertos deja un accidente de tránsito en Tarqui",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_164b04383c9268b5",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_164b04383c9268b5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-21T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f6400bfe60de8",
+    "text": "2026-06-21T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df1fd194c03d95d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df1fd194c03d95d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: elmercurio.com.ec",
+      "source_path": "html/ECU/ECU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f6400bfe60de8",
+    "text": "Publisher: elmercurio.com.ec",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3fc8fea7c070b5a0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3fc8fea7c070b5a0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://elmercurio.com.ec/cuenca/2026/06/21/dos-muertos-deja-un-accidente-de-transito-en-tarqui/",
+      "source_path": "html/ECU/ECU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f6400bfe60de8",
+    "text": "Original source: https://elmercurio.com.ec/cuenca/2026/06/21/dos-muertos-deja-un-accidente-de-transito-en-tarqui/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_af3447e716dc743d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_af3447e716dc743d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f6400bfe60de8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c8791f2aadb51832",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c8791f2aadb51832",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://elmercurio.com.ec/cuenca/2026/06/21/dos-muertos-deja-un-accidente-de-transito-en-tarqui/",
+      "source_path": "html/ECU/ECU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f6400bfe60de8",
+    "text": "https://elmercurio.com.ec/cuenca/2026/06/21/dos-muertos-deja-un-accidente-de-transito-en-tarqui/",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "AUS-S006",
+  "country_code": "AUS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Australian Broadcasting Corporation",
+  "canonical_url": "https://www.abc.net.au/news/2026-05-23/police-investigate-sans-souci-triple-fatal-crash/106714104",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.abc.net.au/news/2026-05-23/police-investigate-sans-souci-triple-fatal-crash/106714104",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Sydney%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "89d1101f905aafbf7188d3be4f1239b93bf6f03daa4a94714872f3c2bd30ba34",
+      "size_bytes": 1078,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Australia/Sydney",
+  "captured_at": "2026-08-12T03:49:07.507231+06:00",
+  "published_at": "2026-05-22T18:07:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "abc.net.au",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-AUS-S006"
+}

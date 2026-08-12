@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e24687b7e411d5f2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e24687b7e411d5f2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Homem de 30 anos é morto a tiros após acidente de trânsito em Caraguatatuba",
+      "source_path": "html/BRA/BRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d69c316e52bebfe2",
+    "text": "Homem de 30 anos é morto a tiros após acidente de trânsito em Caraguatatuba",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f1124ce5507c07e9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f1124ce5507c07e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-27T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d69c316e52bebfe2",
+    "text": "2026-06-27T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_43f896c1fdcd1a09",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_43f896c1fdcd1a09",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: g1.globo.com",
+      "source_path": "html/BRA/BRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d69c316e52bebfe2",
+    "text": "Publisher: g1.globo.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0734960f456a1c8a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0734960f456a1c8a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/06/27/homem-de-30-anos-e-morto-a-tiros-apos-acidente-de-transito-em-caraguatatuba.ghtml",
+      "source_path": "html/BRA/BRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d69c316e52bebfe2",
+    "text": "Original source: https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/06/27/homem-de-30-anos-e-morto-a-tiros-apos-acidente-de-transito-em-caraguatatuba.ghtml",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bab4bdbee19d2dd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4bab4bdbee19d2dd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d69c316e52bebfe2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f70330b3bf3c5361",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f70330b3bf3c5361",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/06/27/homem-de-30-anos-e-morto-a-tiros-apos-acidente-de-transito-em-caraguatatuba.ghtml",
+      "source_path": "html/BRA/BRA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d69c316e52bebfe2",
+    "text": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/06/27/homem-de-30-anos-e-morto-a-tiros-apos-acidente-de-transito-em-caraguatatuba.ghtml",
+    "url": null
+  }
+]

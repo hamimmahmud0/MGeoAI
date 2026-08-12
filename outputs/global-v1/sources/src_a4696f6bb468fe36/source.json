@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "22f68544d745fc4f6f39fbcbfda276ae3aa920a23d7813d4b027b72da7824b7b",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "ecuador comunicación",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-15T07:00:00Z",
+  "publisher": "Ecuador Comunicación",
+  "schema_version": "1.0.0",
+  "source_id": "src_a4696f6bb468fe36",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "source_info_hash": "bf6d50f01222145c",
+    "source_info_path": "html/ECU/ECU-S003/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://ecuadorcomunicacion.com/explosion-tras-choque-de-vehiculos-en-estambul-deja-tres-heridos",
+  "timezone": "America/Guayaquil",
+  "title": "Explosión tras choque de vehículos en Estambul deja tres heridos"
+}

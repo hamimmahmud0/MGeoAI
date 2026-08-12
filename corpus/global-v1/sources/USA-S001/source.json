@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "USA-S001",
+  "country_code": "USA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "FOX5 Vegas",
+  "canonical_url": "https://www.fox5vegas.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.fox5vegas.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%28%22traffic+crash%22+OR+%22highway+crash%22+OR+%22car+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0234adee072ae939db669892e264cc2cfa672697ddc8ce6fbec31b4d8d7cd8ab",
+      "size_bytes": 827,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "vehicle collision",
+    "highway crash"
+  ],
+  "timezone": "America/Chicago",
+  "captured_at": "2026-08-11T21:38:28Z",
+  "published_at": "2026-08-11T10:28:38Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "fox5vegas.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-USA-S001"
+}

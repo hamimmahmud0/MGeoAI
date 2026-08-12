@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JOR-S009",
+  "country_code": "JOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Jordan Times",
+  "canonical_url": "https://www.jordantimes.com/news/local/bodybuilder-among-five-killed-amman-road-accident",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.jordantimes.com/news/local/bodybuilder-among-five-killed-amman-road-accident",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Amman%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "a27c5f24978510db975e098fb4d4d8cf1ffb90ddcc6389a96d629505bffef4c1",
+      "size_bytes": 982,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "حادث مروري",
+    "تصادم مركبات",
+    "road accident"
+  ],
+  "timezone": "Asia/Amman",
+  "captured_at": "2026-08-11T21:57:58.200119Z",
+  "published_at": "2016-09-17T16:01:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "jordantimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JOR-S009"
+}

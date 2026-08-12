@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ad2139068039058577573a39263b735f9e769d5d962e26f7b2adb8d3baac956a",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "adn radio",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-07T07:00:00Z",
+  "publisher": "ADN Radio",
+  "schema_version": "1.0.0",
+  "source_id": "src_b1558d2da3097756",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-07T07:00:00+00:00",
+    "source_info_hash": "54e781ea6a905a6d",
+    "source_info_path": "html/ARG/ARG-S003/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.adnradio.cl/2026/07/07/el-insolito-accidente-de-transito-que-marco-las-celebraciones-en-argentina-atencion-al-registro/",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "El insólito accidente de tránsito que marcó las celebraciones en Argentina: atención al registro"
+}

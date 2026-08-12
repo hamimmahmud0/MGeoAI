@@ -152,7 +152,15 @@ def run_pipeline(
         started_at=started_at,
         input_files=len(manifest),
     )
-    write_jsonl(output_dir / "manifest.jsonl", manifest)
+    public_manifest = []
+    input_root = input_dir.resolve()
+    for row in manifest:
+        public_row = {key: value for key, value in row.items() if key != "absolute_path"}
+        source_info = row.get("source_info_path")
+        if isinstance(source_info, str):
+            public_row["source_info_path"] = Path(source_info).relative_to(input_root).as_posix()
+        public_manifest.append(public_row)
+    write_jsonl(output_dir / "manifest.jsonl", public_manifest)
     sources: list[SourceRecord] = []
     evidence: list[EvidenceItem] = []
     html_source_by_relative: dict[str, str] = {}

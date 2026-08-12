@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ee99ee83038d1750",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ee99ee83038d1750",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Atiq Ahmed’s son Aaban killed in Jhansi road accident",
+      "source_path": "html/GBR/GBR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4b616687abc5ed02",
+    "text": "Atiq Ahmed’s son Aaban killed in Jhansi road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2729828d9ca7fc45",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2729828d9ca7fc45",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-06T08:54:46+01:00",
+      "source_path": "html/GBR/GBR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4b616687abc5ed02",
+    "text": "2026-08-06T08:54:46+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8a60304242f37feb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8a60304242f37feb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Economic Times",
+      "source_path": "html/GBR/GBR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4b616687abc5ed02",
+    "text": "Publisher: The Economic Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_82530e88faeca882",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_82530e88faeca882",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://economictimes.indiatimes.com/news/india/atiq-ahmeds-son-aaban-killed-in-jhansi-road-accident/articleshow/132990159.cms?from=mdr",
+      "source_path": "html/GBR/GBR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4b616687abc5ed02",
+    "text": "Original source: https://economictimes.indiatimes.com/news/india/atiq-ahmeds-son-aaban-killed-in-jhansi-road-accident/articleshow/132990159.cms?from=mdr",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe960a6c7db06b79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe960a6c7db06b79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4b616687abc5ed02",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_81384e20da18f924",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_81384e20da18f924",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://economictimes.indiatimes.com/news/india/atiq-ahmeds-son-aaban-killed-in-jhansi-road-accident/articleshow/132990159.cms?from=mdr",
+      "source_path": "html/GBR/GBR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4b616687abc5ed02",
+    "text": "https://economictimes.indiatimes.com/news/india/atiq-ahmeds-son-aaban-killed-in-jhansi-road-accident/articleshow/132990159.cms?from=mdr",
+    "url": null
+  }
+]

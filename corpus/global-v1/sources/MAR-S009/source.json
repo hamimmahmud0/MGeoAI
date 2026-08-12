@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MAR-S009",
+  "country_code": "MAR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Metro",
+  "canonical_url": "https://metro.co.uk/2025/05/05/two-brits-killed-crash-car-overturns-morocco-23026452/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://metro.co.uk/2025/05/05/two-brits-killed-crash-car-overturns-morocco-23026452/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Morocco%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "c048d61da7564e279ccfb57af6796c5933be42497ee0f70ec71cf5cb520b6d27",
+      "size_bytes": 977,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "تصادم مركبات",
+    "accident de la route",
+    "collision routière"
+  ],
+  "timezone": "Africa/Casablanca",
+  "captured_at": "2026-08-11T21:56:33.263756Z",
+  "published_at": "2025-05-05T03:01:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "metro.co.uk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MAR-S009"
+}

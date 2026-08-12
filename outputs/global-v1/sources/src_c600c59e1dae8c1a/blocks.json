@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e6a55a7148a7fb69",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e6a55a7148a7fb69",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One person dead in violent car crash in Winnetka",
+      "source_path": "html/USA/USA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c600c59e1dae8c1a",
+    "text": "One person dead in violent car crash in Winnetka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_465c733a81e247e4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_465c733a81e247e4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-28T02:00:00-05:00",
+      "source_path": "html/USA/USA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c600c59e1dae8c1a",
+    "text": "2026-07-28T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_da826a39fe746f45",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_da826a39fe746f45",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Los Angeles Times",
+      "source_path": "html/USA/USA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c600c59e1dae8c1a",
+    "text": "Publisher: Los Angeles Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_940cbbc2b5aa475a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_940cbbc2b5aa475a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.latimes.com/california/story/2026-07-28/one-person-dead-in-violent-car-crash-in-winnetka",
+      "source_path": "html/USA/USA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c600c59e1dae8c1a",
+    "text": "Original source: https://www.latimes.com/california/story/2026-07-28/one-person-dead-in-violent-car-crash-in-winnetka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5d37f7be4cc666b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5d37f7be4cc666b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c600c59e1dae8c1a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0dd7667095b931d3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0dd7667095b931d3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.latimes.com/california/story/2026-07-28/one-person-dead-in-violent-car-crash-in-winnetka",
+      "source_path": "html/USA/USA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c600c59e1dae8c1a",
+    "text": "https://www.latimes.com/california/story/2026-07-28/one-person-dead-in-violent-car-crash-in-winnetka",
+    "url": null
+  }
+]

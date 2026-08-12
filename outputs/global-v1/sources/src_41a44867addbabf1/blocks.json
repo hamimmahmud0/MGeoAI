@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_62e030f2b6d9974f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_62e030f2b6d9974f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Singapore: 38-Year-Old Man Dies After Car Skids and Crashes in Hougang",
+      "source_path": "html/SGP/SGP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41a44867addbabf1",
+    "text": "Singapore: 38-Year-Old Man Dies After Car Skids and Crashes in Hougang",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4b1b46def5006bdd",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4b1b46def5006bdd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T15:03:00+08:00",
+      "source_path": "html/SGP/SGP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41a44867addbabf1",
+    "text": "2026-08-08T15:03:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e55a0276bb272a2a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e55a0276bb272a2a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A 38-year-old man has died following a traffic accident in Singapore's Hougang on Friday, August 7. The police and the Singapore Civil Defence Force (SCDF) ...",
+      "source_path": "html/SGP/SGP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41a44867addbabf1",
+    "text": "A 38-year-old man has died following a traffic accident in Singapore's Hougang on Friday, August 7. The police and the Singapore Civil Defence Force (SCDF) ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac2b357f60edf142",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ac2b357f60edf142",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: International Business Times Singapore",
+      "source_path": "html/SGP/SGP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41a44867addbabf1",
+    "text": "Publisher: International Business Times Singapore",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf46da5b8e1b2537",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bf46da5b8e1b2537",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ibtimes.sg/singapore-38-year-old-man-dies-after-car-skids-crashes-hougang-91771",
+      "source_path": "html/SGP/SGP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41a44867addbabf1",
+    "text": "Original source: https://www.ibtimes.sg/singapore-38-year-old-man-dies-after-car-skids-crashes-hougang-91771",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_382dfff096e9d8e1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_382dfff096e9d8e1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SGP/SGP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41a44867addbabf1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_035f4d1b38d8805a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_035f4d1b38d8805a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ibtimes.sg/singapore-38-year-old-man-dies-after-car-skids-crashes-hougang-91771",
+      "source_path": "html/SGP/SGP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41a44867addbabf1",
+    "text": "https://www.ibtimes.sg/singapore-38-year-old-man-dies-after-car-skids-crashes-hougang-91771",
+    "url": null
+  }
+]

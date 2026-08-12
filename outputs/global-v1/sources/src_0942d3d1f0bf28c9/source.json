@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f6df21f5ec1149489d184804a01be890fd917917bf01877871ae675a8390c48c",
+  "country": "Portugal",
+  "country_code": "PRT",
+  "dependency_group": "jornal de angola",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/PRT/PRT-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T07:00:00Z",
+  "publisher": "Jornal de Angola",
+  "schema_version": "1.0.0",
+  "source_id": "src_0942d3d1f0bf28c9",
+  "source_metadata": {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-08-08T07:00:00+00:00",
+    "source_info_hash": "c1cd104b30a2488e",
+    "source_info_path": "html/PRT/PRT-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Lisbon",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente rodoviário",
+      "acidente de viação",
+      "colisão de veículos",
+      "acidente de autocarro"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://jornaldeangola.ao/noticias/3/sociedade/682796/acidente-de-viacao-em-cabo-ledo-causa-28-feridos",
+  "timezone": "Europe/Lisbon",
+  "title": "Acidente de viação em Cabo Ledo causa 28 feridos"
+}

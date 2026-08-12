@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9cb3b0cabe3ad31f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9cb3b0cabe3ad31f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 kids dead, 1 hurt in Henrico car crash",
+      "source_path": "html/USA/USA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e78cdf16d7a02417",
+    "text": "2 kids dead, 1 hurt in Henrico car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4b709796e2434d4c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4b709796e2434d4c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T05:29:30-05:00",
+      "source_path": "html/USA/USA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e78cdf16d7a02417",
+    "text": "2026-08-11T05:29:30-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0099dca23f27a7d5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0099dca23f27a7d5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: wsmv.com",
+      "source_path": "html/USA/USA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e78cdf16d7a02417",
+    "text": "Publisher: wsmv.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dc276848814722ad",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dc276848814722ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.wsmv.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+      "source_path": "html/USA/USA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e78cdf16d7a02417",
+    "text": "Original source: https://www.wsmv.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f819a6a1b90cdc9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f819a6a1b90cdc9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e78cdf16d7a02417",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c4a8afed7c4981a7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c4a8afed7c4981a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.wsmv.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+      "source_path": "html/USA/USA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e78cdf16d7a02417",
+    "text": "https://www.wsmv.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+    "url": null
+  }
+]

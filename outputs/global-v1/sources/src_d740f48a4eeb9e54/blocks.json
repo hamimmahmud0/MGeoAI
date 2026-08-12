@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e81263d7d5233811",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e81263d7d5233811",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Neun Verletzte bei Zusammenstoß in Schwaben",
+      "source_path": "html/DEU/DEU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d740f48a4eeb9e54",
+    "text": "Neun Verletzte bei Zusammenstoß in Schwaben",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_de8a16e0abe975bb",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_de8a16e0abe975bb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T07:01:12+02:00",
+      "source_path": "html/DEU/DEU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d740f48a4eeb9e54",
+    "text": "2026-08-10T07:01:12+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4f917856e6e047fd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4f917856e6e047fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: onetz.de",
+      "source_path": "html/DEU/DEU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d740f48a4eeb9e54",
+    "text": "Publisher: onetz.de",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bd6b0bb7014efc53",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bd6b0bb7014efc53",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.onetz.de/deutschland-welt/neun-verletzte-zusammenstoss-schwaben-id5465047.html",
+      "source_path": "html/DEU/DEU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d740f48a4eeb9e54",
+    "text": "Original source: https://www.onetz.de/deutschland-welt/neun-verletzte-zusammenstoss-schwaben-id5465047.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aedbc1d24f5936ef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aedbc1d24f5936ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d740f48a4eeb9e54",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8f5cf707d3545dea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8f5cf707d3545dea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.onetz.de/deutschland-welt/neun-verletzte-zusammenstoss-schwaben-id5465047.html",
+      "source_path": "html/DEU/DEU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d740f48a4eeb9e54",
+    "text": "https://www.onetz.de/deutschland-welt/neun-verletzte-zusammenstoss-schwaben-id5465047.html",
+    "url": null
+  }
+]

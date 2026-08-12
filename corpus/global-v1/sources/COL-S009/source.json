@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "COL-S009",
+  "country_code": "COL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "La FM",
+  "canonical_url": "https://www.lafm.com.co/actualidad/accidente-transito-puerto-colombia-19-heridos-399705",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.lafm.com.co/actualidad/accidente-transito-puerto-colombia-19-heridos-399705",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CO%3Aes-419&gl=CO&hl=es-419&q=%28%22accidente+vial%22+OR+%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22siniestro+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Colombia%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "664476129043447159651bfcdedea808216014eb4036c08485f46466c82845e4",
+      "size_bytes": 1035,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente vial",
+    "accidente de tránsito",
+    "choque vehicular",
+    "siniestro vial"
+  ],
+  "timezone": "America/Bogota",
+  "captured_at": "2026-08-11T21:51:46Z",
+  "published_at": "2026-05-19T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "lafm.com.co",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-COL-S009"
+}

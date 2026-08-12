@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8acb3e7de8328206",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8acb3e7de8328206",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "All killed in Sylhet bus crash were Unique Paribahan passengers, police say",
+      "source_path": "html/BGD/BGD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e56eed9ea5d3d70",
+    "text": "All killed in Sylhet bus crash were Unique Paribahan passengers, police say",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1e197dbf96981706",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1e197dbf96981706",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-07T14:02:00+06:00",
+      "source_path": "html/BGD/BGD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e56eed9ea5d3d70",
+    "text": "2026-08-07T14:02:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a33f8af29fe3426f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a33f8af29fe3426f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Highway Police have identified four of the victims as Saiful Islam, 50, of Kuliarchar Upazila in Kishoreganj; Faiza, 3, who hailed from Dakshin Surma in ...",
+      "source_path": "html/BGD/BGD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e56eed9ea5d3d70",
+    "text": "Highway Police have identified four of the victims as Saiful Islam, 50, of Kuliarchar Upazila in Kishoreganj; Faiza, 3, who hailed from Dakshin Surma in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_25134d4409b3d25f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_25134d4409b3d25f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24.com",
+      "source_path": "html/BGD/BGD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e56eed9ea5d3d70",
+    "text": "Publisher: bdnews24.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_24905e785689cfa9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_24905e785689cfa9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/8232805d583b",
+      "source_path": "html/BGD/BGD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e56eed9ea5d3d70",
+    "text": "Original source: https://bdnews24.com/bangladesh/8232805d583b",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3b16cdd6a70bfb45",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3b16cdd6a70bfb45",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e56eed9ea5d3d70",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

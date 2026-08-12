@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "GBR-S004",
+  "country_code": "GBR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Bakersfield.com",
+  "canonical_url": "https://www.bakersfield.com/news/coroners-office-ids-motorcyclist-killed-in-tehachapi-traffic-collision/article_12f8a168-4ff9-4566-a707-a95e9fd2526c.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bakersfield.com/news/coroners-office-ids-motorcyclist-killed-in-tehachapi-traffic-collision/article_12f8a168-4ff9-4566-a707-a95e9fd2526c.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=GB%3Aen&gl=GB&hl=en-GB&q=%28%22road+accident%22+OR+%22traffic+collision%22+OR+%22motorway+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+%22United+Kingdom%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "cdebc9f5ac33679b6f48d80a3fa2065367207af4efd559d782efd41f7b199377",
+      "size_bytes": 1159,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "motorway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Europe/London",
+  "captured_at": "2026-08-11T21:57:54Z",
+  "published_at": "2026-06-22T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bakersfield.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-GBR-S004"
+}

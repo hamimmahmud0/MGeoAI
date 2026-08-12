@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0273e28c91e3e3e6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0273e28c91e3e3e6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "22 S. Korean nationals wounded in bus accident near Hanoi",
+      "source_path": "html/VNM/VNM-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b83f547ee31185e9",
+    "text": "22 S. Korean nationals wounded in bus accident near Hanoi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_449d90e005b86f64",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_449d90e005b86f64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-06-11T23:05:00+07:00",
+      "source_path": "html/VNM/VNM-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b83f547ee31185e9",
+    "text": "2023-06-11T23:05:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f15fd23537d4c24",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f15fd23537d4c24",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "HANOI, June 11 (Yonhap) -- A tour bus fell off from a road near Hanoi in Vietnam on Sunday, leaving 22 South Korean nationals injured ...",
+      "source_path": "html/VNM/VNM-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b83f547ee31185e9",
+    "text": "HANOI, June 11 (Yonhap) -- A tour bus fell off from a road near Hanoi in Vietnam on Sunday, leaving 22 South Korean nationals injured ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a70a697987c6cd0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a70a697987c6cd0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yonhap News Agency",
+      "source_path": "html/VNM/VNM-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b83f547ee31185e9",
+    "text": "Publisher: Yonhap News Agency",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e2739fe74f68ae3b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e2739fe74f68ae3b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://en.yna.co.kr/view/AEN20230611003600315",
+      "source_path": "html/VNM/VNM-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b83f547ee31185e9",
+    "text": "Original source: https://en.yna.co.kr/view/AEN20230611003600315",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_277d21aa66895398",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_277d21aa66895398",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b83f547ee31185e9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_308f0fe2aacf7c88",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_308f0fe2aacf7c88",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://en.yna.co.kr/view/AEN20230611003600315",
+      "source_path": "html/VNM/VNM-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b83f547ee31185e9",
+    "text": "https://en.yna.co.kr/view/AEN20230611003600315",
+    "url": null
+  }
+]

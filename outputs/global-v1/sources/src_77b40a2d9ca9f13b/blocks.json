@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_67795f469da0bb43",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_67795f469da0bb43",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "accidente de tránsito",
+      "source_path": "html/COL/COL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77b40a2d9ca9f13b",
+    "text": "accidente de tránsito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_185becc0e51a1bfe",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_185becc0e51a1bfe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-18T23:56:01-05:00",
+      "source_path": "html/COL/COL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77b40a2d9ca9f13b",
+    "text": "2026-05-18T23:56:01-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_79a3efa2499ebc2f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_79a3efa2499ebc2f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Patria",
+      "source_path": "html/COL/COL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77b40a2d9ca9f13b",
+    "text": "Publisher: La Patria",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_92def52e5943d3eb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_92def52e5943d3eb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://archivo.lapatria.com/tags/accidente-de-transito?page=95&qt-qt_3_lomas=1",
+      "source_path": "html/COL/COL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77b40a2d9ca9f13b",
+    "text": "Original source: https://archivo.lapatria.com/tags/accidente-de-transito?page=95&qt-qt_3_lomas=1",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b4ca74fb2fec5476",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b4ca74fb2fec5476",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77b40a2d9ca9f13b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cbcd0a657907fb07",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cbcd0a657907fb07",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://archivo.lapatria.com/tags/accidente-de-transito?page=95&qt-qt_3_lomas=1",
+      "source_path": "html/COL/COL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77b40a2d9ca9f13b",
+    "text": "https://archivo.lapatria.com/tags/accidente-de-transito?page=95&qt-qt_3_lomas=1",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "38f72c75c61803486edb247e4bbb90924b0ed0d9b10ecd50d421c8cc6006bbde",
+  "country": "Netherlands",
+  "country_code": "NLD",
+  "dependency_group": "nu",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "local_path": "html/NLD/NLD-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-28T07:00:00Z",
+  "publisher": "NU",
+  "schema_version": "1.0.0",
+  "source_id": "src_4d0f814c4ccbca2d",
+  "source_metadata": {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "languages": [
+      "nl",
+      "en"
+    ],
+    "published_at": "2026-07-28T07:00:00+00:00",
+    "source_info_hash": "d52cad4d15f6ff1b",
+    "source_info_path": "html/NLD/NLD-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Amsterdam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "auto-ongeluk",
+      "botsing voertuigen",
+      "busongeluk"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nu.nl/binnenland/6404674/dode-en-gewonden-bij-zwaar-ongeval-met-drie-vrachtwagens-op-a17.html",
+  "timezone": "Europe/Amsterdam",
+  "title": "Dode en gewonden bij zwaar ongeval met drie vrachtwagens op A17"
+}

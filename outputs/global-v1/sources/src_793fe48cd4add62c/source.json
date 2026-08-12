@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2ac767b2cb8bd2329fa5a414f35c8726967187af155b4846ab0511f77aa6cbd2",
+  "country": "Nepal",
+  "country_code": "NPL",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NPL/NPL-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2014-11-24T11:21:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_793fe48cd4add62c",
+  "source_metadata": {
+    "country": "Nepal",
+    "country_code": "NPL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2014-11-24T11:21:00+00:00",
+    "source_info_hash": "2cf59f09df065ae5",
+    "source_info_path": "html/NPL/NPL-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Kathmandu",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "सडक दुर्घटना",
+      "बस दुर्घटना",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/bangladesh/bangladesh-others/87190/atleast-47-dead-in-nepal-bus-crash",
+  "timezone": "Asia/Kathmandu",
+  "title": "Atleast 47 dead in Nepal bus crash"
+}

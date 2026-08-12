@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8127c0bd02a848c0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8127c0bd02a848c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two killed, several injured in head-on crash at Hosita",
+      "source_path": "html/GHA/GHA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e9bcac0fc07c7482",
+    "text": "Two killed, several injured in head-on crash at Hosita",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e25e18ce7f7be3b4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e25e18ce7f7be3b4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-18T08:00:00+00:00",
+      "source_path": "html/GHA/GHA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e9bcac0fc07c7482",
+    "text": "2025-12-18T08:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_621d1512b59a3cec",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_621d1512b59a3cec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "16, GNA – A gruesome road accident at Hosita in the Ho Municipality has claimed two lives, leaving several others injured on Monday.",
+      "source_path": "html/GHA/GHA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e9bcac0fc07c7482",
+    "text": "16, GNA – A gruesome road accident at Hosita in the Ho Municipality has claimed two lives, leaving several others injured on Monday.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8153925478af3a92",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8153925478af3a92",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ghana News Agency",
+      "source_path": "html/GHA/GHA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e9bcac0fc07c7482",
+    "text": "Publisher: Ghana News Agency",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d4c1e05866a35575",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d4c1e05866a35575",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://gna.org.gh/2025/12/two-killed-several-injured-in-head-on-crash-at-hosita/",
+      "source_path": "html/GHA/GHA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e9bcac0fc07c7482",
+    "text": "Original source: https://gna.org.gh/2025/12/two-killed-several-injured-in-head-on-crash-at-hosita/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0a205e3060d59229",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0a205e3060d59229",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e9bcac0fc07c7482",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09a0cc06cc674444",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09a0cc06cc674444",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://gna.org.gh/2025/12/two-killed-several-injured-in-head-on-crash-at-hosita/",
+      "source_path": "html/GHA/GHA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e9bcac0fc07c7482",
+    "text": "https://gna.org.gh/2025/12/two-killed-several-injured-in-head-on-crash-at-hosita/",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bdd7cd83256d723f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bdd7cd83256d723f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus choca en Carabayllo y deja un muerto",
+      "source_path": "html/PER/PER-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_921e1df58b45762d",
+    "text": "Bus choca en Carabayllo y deja un muerto",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e0f9f2055dbd524",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2e0f9f2055dbd524",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-09T02:00:00-05:00",
+      "source_path": "html/PER/PER-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_921e1df58b45762d",
+    "text": "2026-06-09T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_24540e9b2295ef56",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_24540e9b2295ef56",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: América TV",
+      "source_path": "html/PER/PER-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_921e1df58b45762d",
+    "text": "Publisher: América TV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc5c1a06083be491",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc5c1a06083be491",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.americatv.com.pe/noticias/actualidad/accidente-bus-deja-muerto-carabayllo-n519105",
+      "source_path": "html/PER/PER-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_921e1df58b45762d",
+    "text": "Original source: https://www.americatv.com.pe/noticias/actualidad/accidente-bus-deja-muerto-carabayllo-n519105",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_455a5b0e24a25ea4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_455a5b0e24a25ea4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_921e1df58b45762d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_335dacdb2e92f77f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_335dacdb2e92f77f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.americatv.com.pe/noticias/actualidad/accidente-bus-deja-muerto-carabayllo-n519105",
+      "source_path": "html/PER/PER-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_921e1df58b45762d",
+    "text": "https://www.americatv.com.pe/noticias/actualidad/accidente-bus-deja-muerto-carabayllo-n519105",
+    "url": null
+  }
+]

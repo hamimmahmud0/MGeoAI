@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a8c03e7005cfe869",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a8c03e7005cfe869",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Andhra accident: Eight pilgrims killed, several injured after car collides with lorry in Kurnool",
+      "source_path": "html/IND/IND-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_15da8bd9eadb4a2b",
+    "text": "Andhra accident: Eight pilgrims killed, several injured after car collides with lorry in Kurnool",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3173fce742a2bea3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3173fce742a2bea3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-16T01:16:00+05:30",
+      "source_path": "html/IND/IND-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_15da8bd9eadb4a2b",
+    "text": "2026-04-16T01:16:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8637ab92252f471c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8637ab92252f471c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least eight people lost their lives in a tragic road accident after a Bolero vehicle collided with a lorry near Chilakaladona in Mantralayam mandal ...",
+      "source_path": "html/IND/IND-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_15da8bd9eadb4a2b",
+    "text": "At least eight people lost their lives in a tragic road accident after a Bolero vehicle collided with a lorry near Chilakaladona in Mantralayam mandal ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5e377a5f364977f5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5e377a5f364977f5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: India TV",
+      "source_path": "html/IND/IND-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_15da8bd9eadb4a2b",
+    "text": "Publisher: India TV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3af488c0768338ee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3af488c0768338ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.indiatvnews.com/news/india/andhra-accident-eight-pilgrims-killed-several-injured-after-car-collides-with-lorry-in-kurnool-2026-04-16-1037695",
+      "source_path": "html/IND/IND-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_15da8bd9eadb4a2b",
+    "text": "Original source: https://www.indiatvnews.com/news/india/andhra-accident-eight-pilgrims-killed-several-injured-after-car-collides-with-lorry-in-kurnool-2026-04-16-1037695",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a04873295abac577",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a04873295abac577",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_15da8bd9eadb4a2b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98faea8a1d4dc1ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98faea8a1d4dc1ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.indiatvnews.com/news/india/andhra-accident-eight-pilgrims-killed-several-injured-after-car-collides-with-lorry-in-kurnool-2026-04-16-1037695",
+      "source_path": "html/IND/IND-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_15da8bd9eadb4a2b",
+    "text": "https://www.indiatvnews.com/news/india/andhra-accident-eight-pilgrims-killed-several-injured-after-car-collides-with-lorry-in-kurnool-2026-04-16-1037695",
+    "url": null
+  }
+]

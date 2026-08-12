@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "520bd3e04bfbc5973fa8a967f30fce74ee17ad77cd859e9a39cc6202ca05f59f",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "ici.fr",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-13T07:00:00Z",
+  "publisher": "ici.fr",
+  "schema_version": "1.0.0",
+  "source_id": "src_60a6be2d97120e79",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-06-13T07:00:00+00:00",
+    "source_info_hash": "bb90c444e49ed690",
+    "source_info_path": "html/FRA/FRA-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/fessy/haute-savoie-un-gendarme-tue-et-deux-blesses-dans-un-accident-a-fessy-7670517",
+  "timezone": "Europe/Paris",
+  "title": "Haute-Savoie : un gendarme tué dans un accident de la route à Fessy et deux militaires blessés en marge du G7"
+}

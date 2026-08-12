@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cf8ad8f97d92399c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cf8ad8f97d92399c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus in Hougang brakes to avoid accident, 3 passengers injured",
+      "source_path": "html/SGP/SGP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_64e3d8f28a92d907",
+    "text": "Bus in Hougang brakes to avoid accident, 3 passengers injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f98d7c854f784b5f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f98d7c854f784b5f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-09T06:11:00+08:00",
+      "source_path": "html/SGP/SGP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_64e3d8f28a92d907",
+    "text": "2026-08-09T06:11:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2dc1f360d5e36e7b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2dc1f360d5e36e7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three people were injured after a car swerved into the bus lane in Hougang and caused an SBS Transit bus to brake abruptly.Photos of the ...",
+      "source_path": "html/SGP/SGP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_64e3d8f28a92d907",
+    "text": "Three people were injured after a car swerved into the bus lane in Hougang and caused an SBS Transit bus to brake abruptly.Photos of the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_22eff2e9151ca1cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_22eff2e9151ca1cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: AsiaOne",
+      "source_path": "html/SGP/SGP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_64e3d8f28a92d907",
+    "text": "Publisher: AsiaOne",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30af7d737fa74318",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30af7d737fa74318",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.asiaone.com/singapore/sbs-bus-hougang-brakes-avoid-accident-3-passengers-injured",
+      "source_path": "html/SGP/SGP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_64e3d8f28a92d907",
+    "text": "Original source: https://www.asiaone.com/singapore/sbs-bus-hougang-brakes-avoid-accident-3-passengers-injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b971d9ef25220496",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b971d9ef25220496",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SGP/SGP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_64e3d8f28a92d907",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_464aa3e312977214",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_464aa3e312977214",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.asiaone.com/singapore/sbs-bus-hougang-brakes-avoid-accident-3-passengers-injured",
+      "source_path": "html/SGP/SGP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_64e3d8f28a92d907",
+    "text": "https://www.asiaone.com/singapore/sbs-bus-hougang-brakes-avoid-accident-3-passengers-injured",
+    "url": null
+  }
+]

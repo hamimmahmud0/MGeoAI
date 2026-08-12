@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "UGA-S004",
+  "country_code": "UGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Al Bawaba News",
+  "canonical_url": "https://www.albawaba.com/news/tragic-multi-vehicle-collision-claims-46-1615108",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.albawaba.com/news/tragic-multi-vehicle-collision-claims-46-1615108",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Uganda%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "8b44cdc5e242c9f7d770f748fcc09f8deacc4bce35c11eb5178a679a3c52cd00",
+      "size_bytes": 977,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus accident",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Kampala",
+  "captured_at": "2026-08-11T21:55:58.323780Z",
+  "published_at": "2025-10-21T21:53:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "albawaba.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-UGA-S004"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b2b7dc21d91204a9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b2b7dc21d91204a9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Acidente de ônibus no Ceará mata sete integrantes de time de basquete; entidades se solidarizam",
+      "source_path": "html/BRA/BRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b6283ebd3c551f2",
+    "text": "Acidente de ônibus no Ceará mata sete integrantes de time de basquete; entidades se solidarizam",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d4ca365bd2a69571",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d4ca365bd2a69571",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-15T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b6283ebd3c551f2",
+    "text": "2026-06-15T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_74f4c2997eaddf64",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_74f4c2997eaddf64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ge",
+      "source_path": "html/BRA/BRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b6283ebd3c551f2",
+    "text": "Publisher: ge",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0103f851d9989125",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0103f851d9989125",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://ge.globo.com/basquete/noticia/2026/06/15/acidente-de-onibus-no-ceara-mata-sete-integrantes-de-time-de-basquete-entidades-se-solidarizam.ghtml",
+      "source_path": "html/BRA/BRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b6283ebd3c551f2",
+    "text": "Original source: https://ge.globo.com/basquete/noticia/2026/06/15/acidente-de-onibus-no-ceara-mata-sete-integrantes-de-time-de-basquete-entidades-se-solidarizam.ghtml",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c67ca432a6ead1e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2c67ca432a6ead1e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b6283ebd3c551f2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e6d3f69da32e2cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0e6d3f69da32e2cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://ge.globo.com/basquete/noticia/2026/06/15/acidente-de-onibus-no-ceara-mata-sete-integrantes-de-time-de-basquete-entidades-se-solidarizam.ghtml",
+      "source_path": "html/BRA/BRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b6283ebd3c551f2",
+    "text": "https://ge.globo.com/basquete/noticia/2026/06/15/acidente-de-onibus-no-ceara-mata-sete-integrantes-de-time-de-basquete-entidades-se-solidarizam.ghtml",
+    "url": null
+  }
+]

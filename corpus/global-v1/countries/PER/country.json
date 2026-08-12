@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "PER",
+  "name": "Peru",
+  "languages": [
+    "es"
+  ],
+  "timezones": [
+    "America/Lima"
+  ],
+  "target_sources": 12
+}

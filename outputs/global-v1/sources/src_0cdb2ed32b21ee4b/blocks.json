@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a7081eaec78c42bc",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a7081eaec78c42bc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladeshi student dies in Australia car accident",
+      "source_path": "html/AUS/AUS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0cdb2ed32b21ee4b",
+    "text": "Bangladeshi student dies in Australia car accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e86bfca5ce2fb4fa",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e86bfca5ce2fb4fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2017-06-27T20:42:00+10:00",
+      "source_path": "html/AUS/AUS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0cdb2ed32b21ee4b",
+    "text": "2017-06-27T20:42:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5a13138b14ff937",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5a13138b14ff937",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A Bangladeshi student of Charles Darwin University (CDU) and his friend have been killed in a car crash near Australia's Litchfield National Park. Irfan Munna ...",
+      "source_path": "html/AUS/AUS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0cdb2ed32b21ee4b",
+    "text": "A Bangladeshi student of Charles Darwin University (CDU) and his friend have been killed in a car crash near Australia's Litchfield National Park. Irfan Munna ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f184fc4fa97e3725",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f184fc4fa97e3725",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/AUS/AUS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0cdb2ed32b21ee4b",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d8c3313605070d4c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d8c3313605070d4c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/bangladesh/23363/bangladeshi-student-dies-in-australia-car-accident",
+      "source_path": "html/AUS/AUS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0cdb2ed32b21ee4b",
+    "text": "Original source: https://www.dhakatribune.com/bangladesh/23363/bangladeshi-student-dies-in-australia-car-accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2fa94dea0a52a7b2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2fa94dea0a52a7b2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0cdb2ed32b21ee4b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_858be71ca94534bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_858be71ca94534bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/bangladesh/23363/bangladeshi-student-dies-in-australia-car-accident",
+      "source_path": "html/AUS/AUS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0cdb2ed32b21ee4b",
+    "text": "https://www.dhakatribune.com/bangladesh/23363/bangladeshi-student-dies-in-australia-car-accident",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0ea17173a7633eb36887726ff859d634768c8e1c690ff6318bfe33a48957a47c",
+  "country": "Italy",
+  "country_code": "ITA",
+  "dependency_group": "leggo.it",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "it"
+  ],
+  "local_path": "html/ITA/ITA-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-28T07:00:00Z",
+  "publisher": "Leggo.it",
+  "schema_version": "1.0.0",
+  "source_id": "src_a4b492fcc49e3bc9",
+  "source_metadata": {
+    "country": "Italy",
+    "country_code": "ITA",
+    "languages": [
+      "it"
+    ],
+    "published_at": "2026-06-28T07:00:00+00:00",
+    "source_info_hash": "bae52a21a4b4df21",
+    "source_info_path": "html/ITA/ITA-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Rome",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "incidente stradale",
+      "scontro tra veicoli",
+      "incidente automobilistico",
+      "incidente autobus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.leggo.it/italia/cronache/28_giugno_2026_taranto_incidente_stradale_famiglia_papa_morto_feriti_chi_sono-9620007.html",
+  "timezone": "Europe/Rome",
+  "title": "Incidente stradale sulla statale, un morto e quattro feriti"
+}

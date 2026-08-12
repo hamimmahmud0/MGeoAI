@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d8a9ec895c2d6723",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d8a9ec895c2d6723",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Motorcyclist dead after crash with car in West Jordan",
+      "source_path": "html/JOR/JOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_88155d4918d7c482",
+    "text": "Motorcyclist dead after crash with car in West Jordan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4fafa4f7f8ef7a7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a4fafa4f7f8ef7a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-03T23:11:00+03:00",
+      "source_path": "html/JOR/JOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_88155d4918d7c482",
+    "text": "2026-05-03T23:11:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c1868868d39cf01d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c1868868d39cf01d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "WEST JORDAN, Utah (ABC4) — A motorcyclist was pronounced dead on scene on Sunday night after a crash involving another car in West Jordan. According ...",
+      "source_path": "html/JOR/JOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_88155d4918d7c482",
+    "text": "WEST JORDAN, Utah (ABC4) — A motorcyclist was pronounced dead on scene on Sunday night after a crash involving another car in West Jordan. According ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e1fdd0a8a4607a9b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e1fdd0a8a4607a9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: AOL",
+      "source_path": "html/JOR/JOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_88155d4918d7c482",
+    "text": "Publisher: AOL",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d32782ba19ef762d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d32782ba19ef762d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aol.com/news/motorcyclist-dead-crash-car-west-031132184.html",
+      "source_path": "html/JOR/JOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_88155d4918d7c482",
+    "text": "Original source: https://www.aol.com/news/motorcyclist-dead-crash-car-west-031132184.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7918722e563294ad",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7918722e563294ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_88155d4918d7c482",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4ae1b69560aa48f0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4ae1b69560aa48f0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aol.com/news/motorcyclist-dead-crash-car-west-031132184.html",
+      "source_path": "html/JOR/JOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_88155d4918d7c482",
+    "text": "https://www.aol.com/news/motorcyclist-dead-crash-car-west-031132184.html",
+    "url": null
+  }
+]

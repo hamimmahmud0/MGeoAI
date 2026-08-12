@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "34b46c9ab067af8c263afbc8ff196aa6e9ca1d68ed131d6bceaa820dd1841b1a",
+  "country": "India",
+  "country_code": "IND",
+  "dependency_group": "the daily star",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IND/IND-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-07T15:59:00Z",
+  "publisher": "The Daily Star",
+  "schema_version": "1.0.0",
+  "source_id": "src_a179686a99c80694",
+  "source_metadata": {
+    "country": "India",
+    "country_code": "IND",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-01-07T15:59:00+00:00",
+    "source_info_hash": "5676a8d3590fbb05",
+    "source_info_path": "html/IND/IND-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Kolkata",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "सड़क दुर्घटना",
+      "बस दुर्घटना"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.thedailystar.net/tags/india-road-accident",
+  "timezone": "Asia/Kolkata",
+  "title": "India road accident"
+}

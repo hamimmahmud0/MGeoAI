@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "810c12bd09fa6dc78dd4f9a91d208cf6c0dcf6566cfb0343e59513e2be68a817",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "elmercurio.com.ec",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-21T07:00:00Z",
+  "publisher": "elmercurio.com.ec",
+  "schema_version": "1.0.0",
+  "source_id": "src_0f3f6400bfe60de8",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-21T07:00:00+00:00",
+    "source_info_hash": "90d82798a142495a",
+    "source_info_path": "html/ECU/ECU-S007/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://elmercurio.com.ec/cuenca/2026/06/21/dos-muertos-deja-un-accidente-de-transito-en-tarqui/",
+  "timezone": "America/Guayaquil",
+  "title": "Dos muertos deja un accidente de tránsito en Tarqui"
+}

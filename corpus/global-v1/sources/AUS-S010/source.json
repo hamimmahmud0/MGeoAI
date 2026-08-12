@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "AUS-S010",
+  "country_code": "AUS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/bangladesh/23363/bangladeshi-student-dies-in-australia-car-accident",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/bangladesh/23363/bangladeshi-student-dies-in-australia-car-accident",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Australia%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "398c27eb46c51824e38dd62db56b18806a63591d426ac8b99a5f271820e898b9",
+      "size_bytes": 1025,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Australia/Sydney",
+  "captured_at": "2026-08-12T03:38:32.879701+06:00",
+  "published_at": "2017-06-27T10:42:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-AUS-S010"
+}

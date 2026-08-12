@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_35985b9e4e302017",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_35985b9e4e302017",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Volcadura en carretera Guadalajara Morelia deja dos muertos y tres lesionados",
+      "source_path": "html/MEX/MEX-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_484b8a7654d6e057",
+    "text": "Volcadura en carretera Guadalajara Morelia deja dos muertos y tres lesionados",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ec8c1019df872a98",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ec8c1019df872a98",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-19T01:00:00-06:00",
+      "source_path": "html/MEX/MEX-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_484b8a7654d6e057",
+    "text": "2026-07-19T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e31311562db6e461",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e31311562db6e461",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Informador",
+      "source_path": "html/MEX/MEX-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_484b8a7654d6e057",
+    "text": "Publisher: El Informador",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df2c6fde6ed2c075",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df2c6fde6ed2c075",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.informador.mx/jalisco/volcadura-en-carretera-guadalajara--morelia-deja-dos-muertos-y-tres-lesionados-20260719-0067.html",
+      "source_path": "html/MEX/MEX-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_484b8a7654d6e057",
+    "text": "Original source: https://www.informador.mx/jalisco/volcadura-en-carretera-guadalajara--morelia-deja-dos-muertos-y-tres-lesionados-20260719-0067.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0cf545db002dd361",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0cf545db002dd361",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_484b8a7654d6e057",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_128a78ae1ac35a97",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_128a78ae1ac35a97",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.informador.mx/jalisco/volcadura-en-carretera-guadalajara--morelia-deja-dos-muertos-y-tres-lesionados-20260719-0067.html",
+      "source_path": "html/MEX/MEX-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_484b8a7654d6e057",
+    "text": "https://www.informador.mx/jalisco/volcadura-en-carretera-guadalajara--morelia-deja-dos-muertos-y-tres-lesionados-20260719-0067.html",
+    "url": null
+  }
+]

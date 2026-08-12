@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "43b6aec840f218278b9275cfbba77abe06ac6e355bf7c041ae983f1499fde3da",
+  "country": "Indonesia",
+  "country_code": "IDN",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IDN/IDN-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-22T09:21:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_2c338ca2bb831ef5",
+  "source_metadata": {
+    "country": "Indonesia",
+    "country_code": "IDN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-12-22T09:21:00+00:00",
+    "source_info_hash": "3041598b771feef1",
+    "source_info_path": "html/IDN/IDN-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Jakarta",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kecelakaan lalu lintas",
+      "tabrakan kendaraan",
+      "kecelakaan bus",
+      "kecelakaan jalan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/asia/399323/indonesia-bus-crash-kills-16-rescuer-says",
+  "timezone": "Asia/Jakarta",
+  "title": "Indonesia bus crash kills 16, rescuer says"
+}

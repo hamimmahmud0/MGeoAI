@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_22fecd09f70fa659",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_22fecd09f70fa659",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bodybuilder among five killed in Amman road accident",
+      "source_path": "html/JOR/JOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c7f9f6dd6493bd74",
+    "text": "Bodybuilder among five killed in Amman road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9152b96bdae78691",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9152b96bdae78691",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2016-09-17T19:01:00+03:00",
+      "source_path": "html/JOR/JOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c7f9f6dd6493bd74",
+    "text": "2016-09-17T19:01:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ff2b9714ab6ebdbf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ff2b9714ab6ebdbf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "AMMAN — Bodybuilder Laith Samih Al Barri was killed in a road accident in Amman last Thursday along with his wife and three friends, an ...",
+      "source_path": "html/JOR/JOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c7f9f6dd6493bd74",
+    "text": "AMMAN — Bodybuilder Laith Samih Al Barri was killed in a road accident in Amman last Thursday along with his wife and three friends, an ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_191c79af9e8eb59a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_191c79af9e8eb59a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Jordan Times",
+      "source_path": "html/JOR/JOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c7f9f6dd6493bd74",
+    "text": "Publisher: The Jordan Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f638f04fa411f689",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f638f04fa411f689",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.jordantimes.com/news/local/bodybuilder-among-five-killed-amman-road-accident",
+      "source_path": "html/JOR/JOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c7f9f6dd6493bd74",
+    "text": "Original source: https://www.jordantimes.com/news/local/bodybuilder-among-five-killed-amman-road-accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_256dd6fcc7f4fdda",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_256dd6fcc7f4fdda",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c7f9f6dd6493bd74",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_14a8fb9f53d79dc9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_14a8fb9f53d79dc9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.jordantimes.com/news/local/bodybuilder-among-five-killed-amman-road-accident",
+      "source_path": "html/JOR/JOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c7f9f6dd6493bd74",
+    "text": "https://www.jordantimes.com/news/local/bodybuilder-among-five-killed-amman-road-accident",
+    "url": null
+  }
+]

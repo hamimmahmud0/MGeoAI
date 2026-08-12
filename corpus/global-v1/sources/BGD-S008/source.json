@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BGD-S008",
+  "country_code": "BGD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Business Standard",
+  "canonical_url": "https://www.tbsnews.net/bangladesh/9-killed-sylhet-bus-crash-5-member-probe-committee-formed-1509656",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.tbsnews.net/bangladesh/9-killed-sylhet-bus-crash-5-member-probe-committee-formed-1509656",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Bangladesh%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "908a7b29f7603337489ffed28c0001c3ccd963f9175fc58a8cac94d5f8066b61",
+      "size_bytes": 1067,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "সড়ক দুর্ঘটনা",
+    "বাস দুর্ঘটনা",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dhaka",
+  "captured_at": "2026-08-12T03:55:02.402720+06:00",
+  "published_at": "2026-08-08T10:58:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "tbsnews.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BGD-S008"
+}

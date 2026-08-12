@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6dc64c6db8669cb635dd9af91a6d6468b8046d9f61c8328844ffd6d2bcc8817a",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "hln",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-01T07:00:00Z",
+  "publisher": "HLN",
+  "schema_version": "1.0.0",
+  "source_id": "src_10aeea5600773695",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "source_info_hash": "e59ed84208dbc6b1",
+    "source_info_path": "html/BEL/BEL-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hln.be/binnenland/we-hebben-meermaals-gevraagd-om-de-buschauffeur-van-die-rit-te-halen-provinciebestuur-trok-nog-voor-het-dramatische-ongeval-aan-de-alarmbel~a65fad4f/",
+  "timezone": "Europe/Brussels",
+  "title": "“We hebben meermaals gevraagd om de buschauffeur van die rit te halen”: provinciebestuur trok nog voor het dramatische ongeval aan de alarmbel"
+}

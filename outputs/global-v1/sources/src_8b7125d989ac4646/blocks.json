@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ed7e77c7ceb5164b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ed7e77c7ceb5164b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "مصرع 15 معتمرًا فلسطينيًا في حادث مروري بالأردن (محدث)",
+      "source_path": "html/JOR/JOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b7125d989ac4646",
+    "text": "مصرع 15 معتمرًا فلسطينيًا في حادث مروري بالأردن (محدث)",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9dad57fdd5f57d4d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9dad57fdd5f57d4d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2013-03-16T06:57:00+03:00",
+      "source_path": "html/JOR/JOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b7125d989ac4646",
+    "text": "2013-03-16T06:57:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d15e306a9966a7b1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d15e306a9966a7b1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "لقي 15 شخصًا مصرعهم صباح السبت في انقلاب حافلة تقل معتمرين فلسطينيين قادمة من الأراضي السعودية إثر اصطدامها بشاحنة. | Anadolu ...",
+      "source_path": "html/JOR/JOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b7125d989ac4646",
+    "text": "لقي 15 شخصًا مصرعهم صباح السبت في انقلاب حافلة تقل معتمرين فلسطينيين قادمة من الأراضي السعودية إثر اصطدامها بشاحنة. | Anadolu ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e109e006acdc37a1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e109e006acdc37a1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: وكالة الأناضول",
+      "source_path": "html/JOR/JOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b7125d989ac4646",
+    "text": "Publisher: وكالة الأناضول",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09f1d5b6403327f3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09f1d5b6403327f3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aa.com.tr/ar/archive/مصرع-15-معتمرًا-فلسطينيًا-في-حادث-مروري-بالأردن-محدث/264793",
+      "source_path": "html/JOR/JOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b7125d989ac4646",
+    "text": "Original source: https://www.aa.com.tr/ar/archive/مصرع-15-معتمرًا-فلسطينيًا-في-حادث-مروري-بالأردن-محدث/264793",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d367e514959dcfd1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d367e514959dcfd1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b7125d989ac4646",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5896401ad78fd9cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5896401ad78fd9cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aa.com.tr/ar/archive/مصرع-15-معتمرًا-فلسطينيًا-في-حادث-مروري-بالأردن-محدث/264793",
+      "source_path": "html/JOR/JOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8b7125d989ac4646",
+    "text": "https://www.aa.com.tr/ar/archive/مصرع-15-معتمرًا-فلسطينيًا-في-حادث-مروري-بالأردن-محدث/264793",
+    "url": null
+  }
+]

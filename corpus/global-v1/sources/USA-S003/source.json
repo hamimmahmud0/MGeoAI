@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "USA-S003",
+  "country_code": "USA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "6abc.com",
+  "canonical_url": "https://6abc.com/post/1-dead-5-hurt-single-car-crash-columbus-boulevard-south-philadelphia/19567461/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://6abc.com/post/1-dead-5-hurt-single-car-crash-columbus-boulevard-south-philadelphia/19567461/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%28%22traffic+crash%22+OR+%22highway+crash%22+OR+%22car+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "f234548bc19479ab736e925450dae668e94af680335153b1af5790b84f7a2ba8",
+      "size_bytes": 1089,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "vehicle collision",
+    "highway crash"
+  ],
+  "timezone": "America/Chicago",
+  "captured_at": "2026-08-11T21:38:28Z",
+  "published_at": "2026-07-24T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "6abc.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-USA-S003"
+}

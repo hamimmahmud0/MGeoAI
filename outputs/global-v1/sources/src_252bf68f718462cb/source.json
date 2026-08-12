@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ccea162de856e8389da322606a65ec0535d52b0888843df2c64ab1e7674c5bd2",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "chiba nippo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ja"
+  ],
+  "local_path": "html/JPN/JPN-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-29T11:45:00Z",
+  "publisher": "Chiba Nippo",
+  "schema_version": "1.0.0",
+  "source_id": "src_252bf68f718462cb",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "ja"
+    ],
+    "published_at": "2025-09-29T11:45:00+00:00",
+    "source_info_hash": "57fd6dff14e5af45",
+    "source_info_path": "html/JPN/JPN-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.chibanippo.co.jp/articles/1504265",
+  "timezone": "Asia/Tokyo",
+  "title": "【詳報】園児含む11人搬送、運転手死亡 幼稚園バスが住宅に突っ込む"
+}

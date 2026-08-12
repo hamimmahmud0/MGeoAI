@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9e81ba406673e835",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9e81ba406673e835",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "4 killed, 19 injured in traffic accident in Tunisia",
+      "source_path": "html/TUN/TUN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2e07001f74f7f3d",
+    "text": "4 killed, 19 injured in traffic accident in Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae670bee6f4723fe",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ae670bee6f4723fe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-05-31T18:00:00+01:00",
+      "source_path": "html/TUN/TUN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2e07001f74f7f3d",
+    "text": "2024-05-31T18:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_38ce8b8f1ab51678",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_38ce8b8f1ab51678",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "TUNIS, May 31 (Xinhua) -- Four immigrants from sub-Saharan African countries were killed and 19 others injured in a traffic accident in Tunisia's southwestern Gafsa ...",
+      "source_path": "html/TUN/TUN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2e07001f74f7f3d",
+    "text": "TUNIS, May 31 (Xinhua) -- Four immigrants from sub-Saharan African countries were killed and 19 others injured in a traffic accident in Tunisia's southwestern Gafsa ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f3e7a977537810cb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f3e7a977537810cb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: China Internet Information Center",
+      "source_path": "html/TUN/TUN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2e07001f74f7f3d",
+    "text": "Publisher: China Internet Information Center",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f627006eef78c984",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f627006eef78c984",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2024-06/01/content_117227854.htm",
+      "source_path": "html/TUN/TUN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2e07001f74f7f3d",
+    "text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2024-06/01/content_117227854.htm",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_efbda7ead8dc5a5b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_efbda7ead8dc5a5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2e07001f74f7f3d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fc65f9a63e6daa8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0fc65f9a63e6daa8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.china.org.cn/world/Off_the_Wire/2024-06/01/content_117227854.htm",
+      "source_path": "html/TUN/TUN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2e07001f74f7f3d",
+    "text": "https://www.china.org.cn/world/Off_the_Wire/2024-06/01/content_117227854.htm",
+    "url": null
+  }
+]

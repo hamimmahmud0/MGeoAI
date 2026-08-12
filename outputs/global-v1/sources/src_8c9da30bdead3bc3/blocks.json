@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cadcfb9f697b3f4f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cadcfb9f697b3f4f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Pakistan bus crash kills 27",
+      "source_path": "html/PAK/PAK-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c9da30bdead3bc3",
+    "text": "Pakistan bus crash kills 27",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8fb5772fdcc0ea93",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8fb5772fdcc0ea93",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-05-29T12:40:00+05:00",
+      "source_path": "html/PAK/PAK-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c9da30bdead3bc3",
+    "text": "2024-05-29T12:40:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02da59224dec55ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_02da59224dec55ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 27 people were killed on Wednesday when a bus plunged off the road into a deep ravine in southwestern Pakistan, hospital and government ...",
+      "source_path": "html/PAK/PAK-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c9da30bdead3bc3",
+    "text": "At least 27 people were killed on Wednesday when a bus plunged off the road into a deep ravine in southwestern Pakistan, hospital and government ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f118c8e36a9fcd7b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f118c8e36a9fcd7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/PAK/PAK-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c9da30bdead3bc3",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d069a6c6f82cc693",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d069a6c6f82cc693",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/south-asia/347813/pakistan-bus-crash-kills-27",
+      "source_path": "html/PAK/PAK-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c9da30bdead3bc3",
+    "text": "Original source: https://www.dhakatribune.com/world/south-asia/347813/pakistan-bus-crash-kills-27",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b773ecc3e2609fe6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b773ecc3e2609fe6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c9da30bdead3bc3",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_70c3ba94752f94a1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_70c3ba94752f94a1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/south-asia/347813/pakistan-bus-crash-kills-27",
+      "source_path": "html/PAK/PAK-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c9da30bdead3bc3",
+    "text": "https://www.dhakatribune.com/world/south-asia/347813/pakistan-bus-crash-kills-27",
+    "url": null
+  }
+]

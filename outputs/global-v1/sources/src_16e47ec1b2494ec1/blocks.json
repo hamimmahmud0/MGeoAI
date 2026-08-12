@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_929eeafb528e52d9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_929eeafb528e52d9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "8 killed, 66 injured in bus collision in central Tanzania",
+      "source_path": "html/TZA/TZA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16e47ec1b2494ec1",
+    "text": "8 killed, 66 injured in bus collision in central Tanzania",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_31b860e49fef516a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_31b860e49fef516a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T03:37:00+03:00",
+      "source_path": "html/TZA/TZA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16e47ec1b2494ec1",
+    "text": "2026-08-03T03:37:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d66023c870842914",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d66023c870842914",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dodoma Region, Tanzania. Eight people were killed and 66 others injured Sunday when two passenger buses collided in central T ...",
+      "source_path": "html/TZA/TZA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16e47ec1b2494ec1",
+    "text": "Dodoma Region, Tanzania. Eight people were killed and 66 others injured Sunday when two passenger buses collided in central T ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_71a8c8c9a681c5a7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_71a8c8c9a681c5a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Global Times",
+      "source_path": "html/TZA/TZA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16e47ec1b2494ec1",
+    "text": "Publisher: Global Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ea1c27e29853f201",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ea1c27e29853f201",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.globaltimes.cn/page/202608/1367394.shtml",
+      "source_path": "html/TZA/TZA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16e47ec1b2494ec1",
+    "text": "Original source: https://www.globaltimes.cn/page/202608/1367394.shtml",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0eadadbd41ae074e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0eadadbd41ae074e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16e47ec1b2494ec1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f94eaa52d722a954",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f94eaa52d722a954",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.globaltimes.cn/page/202608/1367394.shtml",
+      "source_path": "html/TZA/TZA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16e47ec1b2494ec1",
+    "text": "https://www.globaltimes.cn/page/202608/1367394.shtml",
+    "url": null
+  }
+]

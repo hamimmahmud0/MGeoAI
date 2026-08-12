@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6749a2b43d7e91c0a4e78168b565989c2f174fac1a316377fda83a3c1fc08102",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "china internet information center",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-05-31T17:00:00Z",
+  "publisher": "China Internet Information Center",
+  "schema_version": "1.0.0",
+  "source_id": "src_e2e07001f74f7f3d",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2024-05-31T17:00:00+00:00",
+    "source_info_hash": "f552cb01ba31f058",
+    "source_info_path": "html/TUN/TUN-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.china.org.cn/world/Off_the_Wire/2024-06/01/content_117227854.htm",
+  "timezone": "Africa/Tunis",
+  "title": "4 killed, 19 injured in traffic accident in Tunisia"
+}

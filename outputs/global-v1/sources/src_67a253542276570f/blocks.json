@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8c494a7391fb6611",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8c494a7391fb6611",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "6 killed, 18 injured in traffic accident in Morocco",
+      "source_path": "html/MAR/MAR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67a253542276570f",
+    "text": "6 killed, 18 injured in traffic accident in Morocco",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_78b2216f1e1709f1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_78b2216f1e1709f1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-03-04T17:00:00+01:00",
+      "source_path": "html/MAR/MAR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67a253542276570f",
+    "text": "2024-03-04T17:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5c86e5e48f78c7ba",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5c86e5e48f78c7ba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "RABAT, March 4 (Xinhua) -- Six people were killed and 18 others injured on Sunday evening in a traffic accident in Morocco's northwestern Berrechid Province ...",
+      "source_path": "html/MAR/MAR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67a253542276570f",
+    "text": "RABAT, March 4 (Xinhua) -- Six people were killed and 18 others injured on Sunday evening in a traffic accident in Morocco's northwestern Berrechid Province ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2dd22d0e05cb574",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2dd22d0e05cb574",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: China Internet Information Center",
+      "source_path": "html/MAR/MAR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67a253542276570f",
+    "text": "Publisher: China Internet Information Center",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cb9c0acd0589f609",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cb9c0acd0589f609",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2024-03/05/content_117035501.htm",
+      "source_path": "html/MAR/MAR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67a253542276570f",
+    "text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2024-03/05/content_117035501.htm",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d8fb1561bb0f3e8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8d8fb1561bb0f3e8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67a253542276570f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e59415a8496f3de",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e59415a8496f3de",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.china.org.cn/world/Off_the_Wire/2024-03/05/content_117035501.htm",
+      "source_path": "html/MAR/MAR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_67a253542276570f",
+    "text": "https://www.china.org.cn/world/Off_the_Wire/2024-03/05/content_117035501.htm",
+    "url": null
+  }
+]

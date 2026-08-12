@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a90e46c9bde2074d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a90e46c9bde2074d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Autofahrer übersieht Motorradfahrer – schwer verletzt",
+      "source_path": "html/DEU/DEU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca134308ab8dfe80",
+    "text": "Autofahrer übersieht Motorradfahrer – schwer verletzt",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_764834150f7b7564",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_764834150f7b7564",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-27T09:00:00+02:00",
+      "source_path": "html/DEU/DEU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca134308ab8dfe80",
+    "text": "2026-07-27T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8e4d2d48b8195abd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8e4d2d48b8195abd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: onetz.de",
+      "source_path": "html/DEU/DEU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca134308ab8dfe80",
+    "text": "Publisher: onetz.de",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c76fcc5dc0a4e78",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2c76fcc5dc0a4e78",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.onetz.de/deutschland-welt/autofahrer-uebersieht-motorradfahrer-schwer-verletzt-id5450572.html",
+      "source_path": "html/DEU/DEU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca134308ab8dfe80",
+    "text": "Original source: https://www.onetz.de/deutschland-welt/autofahrer-uebersieht-motorradfahrer-schwer-verletzt-id5450572.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_210e8a31ca681b4f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_210e8a31ca681b4f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca134308ab8dfe80",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eaf122f776e18031",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eaf122f776e18031",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.onetz.de/deutschland-welt/autofahrer-uebersieht-motorradfahrer-schwer-verletzt-id5450572.html",
+      "source_path": "html/DEU/DEU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca134308ab8dfe80",
+    "text": "https://www.onetz.de/deutschland-welt/autofahrer-uebersieht-motorradfahrer-schwer-verletzt-id5450572.html",
+    "url": null
+  }
+]

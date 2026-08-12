@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "64d1f147aab7df73a5e5ff68265a591c611a1a0953a679bc838fd8ceb7dbaeaa",
+  "country": "Malaysia",
+  "country_code": "MYS",
+  "dependency_group": "asia one",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MYS/MYS-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-06-08T20:37:00Z",
+  "publisher": "Asia One",
+  "schema_version": "1.0.0",
+  "source_id": "src_38a87406d8f2812e",
+  "source_metadata": {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-06-08T20:37:00+00:00",
+    "source_info_hash": "430412d59d15ca4c",
+    "source_info_path": "html/MYS/MYS-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Kuala_Lumpur",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kemalangan jalan raya",
+      "nahas jalan raya",
+      "kemalangan bas",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.asiaone.com/singapore/singapore-motorcyclist-dies-after-collision-car-malaysia",
+  "timezone": "Asia/Kuala_Lumpur",
+  "title": "Singapore motorcyclist dies after collision with car in Malaysia"
+}

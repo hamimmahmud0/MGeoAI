@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NGA-S010",
+  "country_code": "NGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "guardian.ng",
+  "canonical_url": "https://guardian.ng/news/nigeria/metro/commercial-bus-driver-killed-in-multiple-auto-crash-in-lagos/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://guardian.ng/news/nigeria/metro/commercial-bus-driver-killed-in-multiple-auto-crash-in-lagos/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NG%3Aen&gl=NG&hl=en-NG&q=%28road+crash+OR+traffic+accident+OR+collision%29+Nigeria+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "dcdc875c1988e7805f5448bacf7a39c99bcb1ae3e08df3d67878067a2d5c3dd1",
+      "size_bytes": 1048,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus crash",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Lagos",
+  "captured_at": "2026-08-11T21:48:28.207646Z",
+  "published_at": "2026-06-10T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "guardian.ng",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NGA-S010"
+}

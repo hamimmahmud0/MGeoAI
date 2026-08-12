@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ca60bdeba6f7cdefd55980333196ef9a6838c0de7e9b116668b1674c8262e69d",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "estadão",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-16T07:00:00Z",
+  "publisher": "Estadão",
+  "schema_version": "1.0.0",
+  "source_id": "src_30013f50668ca59c",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-06-16T07:00:00+00:00",
+    "source_info_hash": "6d884f0273764a57",
+    "source_info_path": "html/BRA/BRA-S007/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.estadao.com.br/brasil/juazeiro-do-norte-realiza-velorio-coletivo-de-vitimas-de-acidente-com-equipe-de-basquete-npr/",
+  "timezone": "America/Sao_Paulo",
+  "title": "Jovens atletas de basquete têm velório coletivo após acidente de ônibus no Ceará: ‘Consternação’"
+}

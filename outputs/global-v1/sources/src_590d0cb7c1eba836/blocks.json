@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_aa0712c112c3e035",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_aa0712c112c3e035",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Six Myanmar migrant workers killed in Thailand bus crash",
+      "source_path": "html/THA/THA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_590d0cb7c1eba836",
+    "text": "Six Myanmar migrant workers killed in Thailand bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b061bfcbd5b0f795",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b061bfcbd5b0f795",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2018-04-10T05:51:00+07:00",
+      "source_path": "html/THA/THA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_590d0cb7c1eba836",
+    "text": "2018-04-10T05:51:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f966b66bec9054d6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f966b66bec9054d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Add Yahoo as a preferred source to see more of our stories on Google. BANGKOK (Reuters) - Six migrant workers from Myanmar were killed when ...",
+      "source_path": "html/THA/THA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_590d0cb7c1eba836",
+    "text": "Add Yahoo as a preferred source to see more of our stories on Google. BANGKOK (Reuters) - Six migrant workers from Myanmar were killed when ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_31b098f7722c33a9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_31b098f7722c33a9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yahoo News Canada",
+      "source_path": "html/THA/THA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_590d0cb7c1eba836",
+    "text": "Publisher: Yahoo News Canada",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_59dcc3693844ba02",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_59dcc3693844ba02",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://ca.news.yahoo.com/six-myanmar-migrant-workers-killed-thailand-bus-crash-055146003.html",
+      "source_path": "html/THA/THA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_590d0cb7c1eba836",
+    "text": "Original source: https://ca.news.yahoo.com/six-myanmar-migrant-workers-killed-thailand-bus-crash-055146003.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0d5b24ab8c3bd7ca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0d5b24ab8c3bd7ca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_590d0cb7c1eba836",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e712c3e28cc162c2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e712c3e28cc162c2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://ca.news.yahoo.com/six-myanmar-migrant-workers-killed-thailand-bus-crash-055146003.html",
+      "source_path": "html/THA/THA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_590d0cb7c1eba836",
+    "text": "https://ca.news.yahoo.com/six-myanmar-migrant-workers-killed-thailand-bus-crash-055146003.html",
+    "url": null
+  }
+]

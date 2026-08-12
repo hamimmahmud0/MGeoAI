@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e618509edd21b71ade54f0065ba8bf0f8e580180884b6ce457e353188eb1b250",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "polsatnews.pl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-12T07:00:00Z",
+  "publisher": "PolsatNews.pl",
+  "schema_version": "1.0.0",
+  "source_id": "src_d88f9974ecd495c0",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-07-12T07:00:00+00:00",
+    "source_info_hash": "3e80497a456636d9",
+    "source_info_path": "html/POL/POL-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.polsatnews.pl/wiadomosc/2026-07-12/13-latek-jechal-z-rodzicami-zginal-na-miejscu-tragiczny-wypadek-w-chabielicach/",
+  "timezone": "Europe/Warsaw",
+  "title": "13-latek jechał z rodzicami, zginął na miejscu. Tragiczny wypadek w Chabielicach"
+}

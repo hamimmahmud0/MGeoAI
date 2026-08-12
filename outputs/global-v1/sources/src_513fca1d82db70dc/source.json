@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "47b3f592f13db271e80566680ddfea90092a37064be5fb481a85be0039462a0f",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "vn express",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-11-03T23:40:00Z",
+  "publisher": "VN Express",
+  "schema_version": "1.0.0",
+  "source_id": "src_513fca1d82db70dc",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2022-11-03T23:40:00+00:00",
+    "source_info_hash": "c6fe46de3e1e597d",
+    "source_info_path": "html/VNM/VNM-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://e.vnexpress.net/news/news/15-foreigners-injured-in-road-crash-in-northern-vietnam-4532381.html",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "15 foreigners injured in road crash in northern Vietnam"
+}

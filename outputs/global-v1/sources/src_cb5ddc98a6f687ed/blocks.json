@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5d43b3fa78341f31",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5d43b3fa78341f31",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tokyo crash carnage as car hits crowd leaving at least one dead before 'driver flees'",
+      "source_path": "html/JPN/JPN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb5ddc98a6f687ed",
+    "text": "Tokyo crash carnage as car hits crowd leaving at least one dead before 'driver flees'",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e82f6165cf089d8",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0e82f6165cf089d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-24T10:14:00+09:00",
+      "source_path": "html/JPN/JPN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb5ddc98a6f687ed",
+    "text": "2025-11-24T10:14:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_51124d771f8ae160",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_51124d771f8ae160",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least one person has died and 10 others are injured after a car ploughed into a crowd in Japan. Around a dozen people were ...",
+      "source_path": "html/JPN/JPN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb5ddc98a6f687ed",
+    "text": "At least one person has died and 10 others are injured after a car ploughed into a crowd in Japan. Around a dozen people were ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3ff3f29f7fa671ba",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3ff3f29f7fa671ba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Mirror",
+      "source_path": "html/JPN/JPN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb5ddc98a6f687ed",
+    "text": "Publisher: The Mirror",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_76f2280d2f69cafb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_76f2280d2f69cafb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.mirror.co.uk/news/world-news/breaking-tokyo-crash-carnage-car-35212231",
+      "source_path": "html/JPN/JPN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb5ddc98a6f687ed",
+    "text": "Original source: https://www.mirror.co.uk/news/world-news/breaking-tokyo-crash-carnage-car-35212231",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c55efc4ad3b83aa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1c55efc4ad3b83aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb5ddc98a6f687ed",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6048bd9e5949f0fe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6048bd9e5949f0fe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.mirror.co.uk/news/world-news/breaking-tokyo-crash-carnage-car-35212231",
+      "source_path": "html/JPN/JPN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb5ddc98a6f687ed",
+    "text": "https://www.mirror.co.uk/news/world-news/breaking-tokyo-crash-carnage-car-35212231",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_37294fbf374fb1a6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_37294fbf374fb1a6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "16 killed in traffic accident in SE Türkiye",
+      "source_path": "html/TUR/TUR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_af5c1a3af599c84c",
+    "text": "16 killed in traffic accident in SE Türkiye",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9e0539796788909b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9e0539796788909b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-08-21T04:35:00+03:00",
+      "source_path": "html/TUR/TUR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_af5c1a3af599c84c",
+    "text": "2022-08-21T04:35:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5784a31e73ab1837",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5784a31e73ab1837",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Sixteen people were killed and 21 others injured in a traffic accident on a highway in Türkiye's southeastern Gaziantep province on Saturday. The accident on ...",
+      "source_path": "html/TUR/TUR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_af5c1a3af599c84c",
+    "text": "Sixteen people were killed and 21 others injured in a traffic accident on a highway in Türkiye's southeastern Gaziantep province on Saturday. The accident on ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7045d00ef13a7163",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7045d00ef13a7163",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Global Times",
+      "source_path": "html/TUR/TUR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_af5c1a3af599c84c",
+    "text": "Publisher: Global Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c26f4ce7a8fab45e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c26f4ce7a8fab45e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.globaltimes.cn/page/202208/1273454.shtml",
+      "source_path": "html/TUR/TUR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_af5c1a3af599c84c",
+    "text": "Original source: https://www.globaltimes.cn/page/202208/1273454.shtml",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f0ef43a5fdee839",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f0ef43a5fdee839",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_af5c1a3af599c84c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd6fceeb09559a8e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd6fceeb09559a8e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.globaltimes.cn/page/202208/1273454.shtml",
+      "source_path": "html/TUR/TUR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_af5c1a3af599c84c",
+    "text": "https://www.globaltimes.cn/page/202208/1273454.shtml",
+    "url": null
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "UGA-S010",
+  "country_code": "UGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Jacaranda FM",
+  "canonical_url": "https://www.jacarandafm.com/news/news/uganda-bus-collision-kills-46-police-revise-toll-down/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.jacarandafm.com/news/news/uganda-bus-collision-kills-46-police-revise-toll-down/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Uganda%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "5bce19b37f7674e6dcd2fafdcb8012ea642b8aac16cb882a33db5f62ecd5ea5a",
+      "size_bytes": 1047,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus accident",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Kampala",
+  "captured_at": "2026-08-11T21:55:58.323780Z",
+  "published_at": "2025-10-22T01:50:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "jacarandafm.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-UGA-S010"
+}

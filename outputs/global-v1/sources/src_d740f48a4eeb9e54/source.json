@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "80c3d93191d321325b887860bf275bf88e826bca793e7d46219a3430ea0f00ea",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "onetz.de",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-10T05:01:12Z",
+  "publisher": "onetz.de",
+  "schema_version": "1.0.0",
+  "source_id": "src_d740f48a4eeb9e54",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-08-10T05:01:12+00:00",
+    "source_info_hash": "14c496ee75d9e9f6",
+    "source_info_path": "html/DEU/DEU-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.onetz.de/deutschland-welt/neun-verletzte-zusammenstoss-schwaben-id5465047.html",
+  "timezone": "Europe/Berlin",
+  "title": "Neun Verletzte bei Zusammenstoß in Schwaben"
+}

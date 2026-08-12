@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "GHA-S004",
+  "country_code": "GHA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "CitiNewsroom.com",
+  "canonical_url": "https://www.citinewsroom.com/2026/04/4-dead-14-injured-in-kintampo-tamale-highway-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.citinewsroom.com/2026/04/4-dead-14-injured-in-kintampo-tamale-highway-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=GH%3Aen&gl=GH&hl=en-GH&q=%28road+crash+OR+traffic+accident+OR+collision%29+Ghana+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4dce005a75b8d200b0368cefe57caf2b6f3624b9c0f6bdfc99d86d4f9d85101c",
+      "size_bytes": 1000,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "vehicle crash"
+  ],
+  "timezone": "Africa/Accra",
+  "captured_at": "2026-08-11T21:51:32.732472Z",
+  "published_at": "2026-04-05T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "citinewsroom.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-GHA-S004"
+}

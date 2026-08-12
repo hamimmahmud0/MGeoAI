@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "37eee56c4750ce2e62664f186faa2dcc0959ef6c6fcdc3041cb7283b4cddeb63",
+  "country": "India",
+  "country_code": "IND",
+  "dependency_group": "the print",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IND/IND-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T05:18:00Z",
+  "publisher": "The Print",
+  "schema_version": "1.0.0",
+  "source_id": "src_0e8b9a4f994209d7",
+  "source_metadata": {
+    "country": "India",
+    "country_code": "IND",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-08T05:18:00+00:00",
+    "source_info_hash": "390ebf0ccbe02cb0",
+    "source_info_path": "html/IND/IND-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Kolkata",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "सड़क दुर्घटना",
+      "बस दुर्घटना"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://theprint.in/india/ksrtc-bus-accident-staff-working-hours-to-be-examined-says-minister-john/3009352/",
+  "timezone": "Asia/Kolkata",
+  "title": "KSRTC bus accident: Staff working hours to be examined, says Minister John"
+}

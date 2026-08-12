@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_50c6497cfc743b87",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_50c6497cfc743b87",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 killed, 4 wounded in truck-car collision in SW Tunisia",
+      "source_path": "html/TUN/TUN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4970d2007e00dedb",
+    "text": "2 killed, 4 wounded in truck-car collision in SW Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_04290165208fe36c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_04290165208fe36c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-13T09:04:00+01:00",
+      "source_path": "html/TUN/TUN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4970d2007e00dedb",
+    "text": "2024-12-13T09:04:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ecbf0017e23163c9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ecbf0017e23163c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "\"The accident occurred on Thursday afternoon when a car carrying a family collided with a truck on the main road linking the towns of Oum ...",
+      "source_path": "html/TUN/TUN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4970d2007e00dedb",
+    "text": "\"The accident occurred on Thursday afternoon when a car carrying a family collided with a truck on the main road linking the towns of Oum ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9230ef3d95269e63",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9230ef3d95269e63",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: en.mehrnews",
+      "source_path": "html/TUN/TUN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4970d2007e00dedb",
+    "text": "Publisher: en.mehrnews",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_472e110cf920197a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_472e110cf920197a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://en.mehrnews.com/news/225532/2-killed-4-wounded-in-truck-car-collision-in-SW-Tunisia",
+      "source_path": "html/TUN/TUN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4970d2007e00dedb",
+    "text": "Original source: https://en.mehrnews.com/news/225532/2-killed-4-wounded-in-truck-car-collision-in-SW-Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3786143f1cfe9e21",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3786143f1cfe9e21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4970d2007e00dedb",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e191580a89dafbd9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e191580a89dafbd9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://en.mehrnews.com/news/225532/2-killed-4-wounded-in-truck-car-collision-in-SW-Tunisia",
+      "source_path": "html/TUN/TUN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4970d2007e00dedb",
+    "text": "https://en.mehrnews.com/news/225532/2-killed-4-wounded-in-truck-car-collision-in-SW-Tunisia",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c91fae1f70de1f89",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c91fae1f70de1f89",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Saskatchewan Roughrider linebacker Jayden Dalke dead after car crash",
+      "source_path": "html/CAN/CAN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10afb34310966264",
+    "text": "Saskatchewan Roughrider linebacker Jayden Dalke dead after car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_325aafbd347e2737",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_325aafbd347e2737",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-19T16:35:43-04:00",
+      "source_path": "html/CAN/CAN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10afb34310966264",
+    "text": "2026-07-19T16:35:43-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_76ad15767b6e9d00",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_76ad15767b6e9d00",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: larongeNOW",
+      "source_path": "html/CAN/CAN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10afb34310966264",
+    "text": "Publisher: larongeNOW",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_31e3103e360949fd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_31e3103e360949fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://larongenow.com/2026/07/19/saskatchewan-roughrider-linebacker-jayden-dalke-dead-after-car-crash/",
+      "source_path": "html/CAN/CAN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10afb34310966264",
+    "text": "Original source: https://larongenow.com/2026/07/19/saskatchewan-roughrider-linebacker-jayden-dalke-dead-after-car-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b5fb9312a399d1e8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b5fb9312a399d1e8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10afb34310966264",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1d373e61ab557273",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1d373e61ab557273",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://larongenow.com/2026/07/19/saskatchewan-roughrider-linebacker-jayden-dalke-dead-after-car-crash/",
+      "source_path": "html/CAN/CAN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10afb34310966264",
+    "text": "https://larongenow.com/2026/07/19/saskatchewan-roughrider-linebacker-jayden-dalke-dead-after-car-crash/",
+    "url": null
+  }
+]

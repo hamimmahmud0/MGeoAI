@@ -1,0 +1,355 @@
+{
+  "alternate_time_claims": [
+    {
+      "end": "2024-12-20T03:00:00+06:00",
+      "original_expression": "Around 3:00am",
+      "precision": "hour",
+      "start": "2024-12-20T03:00:00+06:00",
+      "timezone": "Asia/Dhaka"
+    },
+    {
+      "end": "2024-12-19T20:00:00+06:00",
+      "original_expression": "around 8:00 pm on Thursday night (departure)",
+      "precision": "hour",
+      "start": "2024-12-19T20:00:00+06:00",
+      "timezone": "Asia/Dhaka"
+    },
+    {
+      "end": "2024-12-21T00:00:00+06:00",
+      "original_expression": "date normalized from corpus evidence family",
+      "precision": "day",
+      "start": "2024-12-20T00:00:00+06:00",
+      "timezone": "Asia/Dhaka"
+    }
+  ],
+  "collision": "A passenger car struck three students on a stationary motorcycle at a police checkpoint. The motorcycle was stopped for questioning when the car hit from behind/side; exact impact mechanics not described.",
+  "congestion_delay": null,
+  "contributing_factors": [
+    "Reckless/speeding car (reported)",
+    "Possible intoxication of car occupants (alleged, not confirmed)"
+  ],
+  "data_quality_warnings": [
+    "Video evidence lacks date/time metadata; on-screen allegation of intoxication is medium confidence and unattributed beyond headline.",
+    "Image evidence is from a police-station forecourt, not the crash scene, and is inherited from an unrelated URL; it does not confirm the crash.",
+    "Two articles from The Business Standard are duplicates (same content), counted as one independent source.",
+    "Several sources use publication date as event date fallback; day-level precision may be off."
+  ],
+  "duplicate_groups": [
+    [
+      "src_2a54e1ad115b0de3",
+      "src_67f5fd8305b791e7"
+    ]
+  ],
+  "emergency_response": [
+    "Police at checkpoint present at scene",
+    "Body sent to Shaheed Suhrawardy Medical College Hospital for postmortem",
+    "Police seized motorcycle and car",
+    "Three accused arrested and sent to jail by Narayanganj court"
+  ],
+  "event_time": {
+    "end": "2024-12-20T03:00:00Z",
+    "original_expression": "around 3:00 AM on Friday (20 Dec) and 8:00 PM Thursday night; day-level normalized",
+    "precision": "hour",
+    "start": "2024-12-19T20:00:00Z",
+    "timezone": "Asia/Dhaka"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_01fc9be579007137",
+    "ev_07a4549765a2d7a1",
+    "ev_17797e3df968c79a",
+    "ev_1f834f7777ccf794",
+    "ev_23e903df4479a2d7",
+    "ev_249e84b4d0423349",
+    "ev_298c49bd952c41d8",
+    "ev_33667123810c930a",
+    "ev_3cb89b4791adcc04",
+    "ev_46842f13e60fde78",
+    "ev_4868bd0517e733cd",
+    "ev_4c5ab42977ec172a",
+    "ev_4dd4327dffa9a504",
+    "ev_53bf08280ca47b12",
+    "ev_65ff85722690ad8d",
+    "ev_6f614cdd3f691d5e",
+    "ev_7302506cacaa1a27",
+    "ev_7a9911d957c3b042",
+    "ev_7e2b75efeb5007b6",
+    "ev_850f0b4bcf2418e4",
+    "ev_8abd92a099282678",
+    "ev_9a606d918d721b9b",
+    "ev_a483b15db9baf756",
+    "ev_bb8f9aa29bb214dc",
+    "ev_bd1c816a8b65297c",
+    "ev_c425c2c64fdbc3bf",
+    "ev_c72db83917462014",
+    "ev_d7c18f446cad4094",
+    "ev_e83083c24c1fb324",
+    "ev_e8c697e231ce67eb",
+    "ev_eec8df76ec28439f",
+    "ev_f6979130e8086261",
+    "ev_ffdb144fdbfff7c5"
+  ],
+  "facts": [
+    {
+      "confidence": 0.92,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "All stories agree one fatality (Muhtasim/Mohtassim Masud).",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_4868bd0517e733cd",
+        "ev_7e2b75efeb5007b6",
+        "ev_4c5ab42977ec172a",
+        "ev_07a4549765a2d7a1"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Multiple sources state two friends injured; no conflicting count.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_17797e3df968c79a",
+        "ev_7a9911d957c3b042",
+        "ev_3cb89b4791adcc04",
+        "ev_7e2b75efeb5007b6"
+      ],
+      "value": 2
+    },
+    {
+      "confidence": 0.85,
+      "conflicting_values": [
+        "2024-12-19T20:00:00+06:00"
+      ],
+      "contradiction": false,
+      "field": "crash_time",
+      "selection_rationale": "Most sources report crash around 3:00 AM on Friday; 8 PM Thursday is departure time to market.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_17797e3df968c79a",
+        "ev_7a9911d957c3b042",
+        "ev_f6979130e8086261"
+      ],
+      "value": "2024-12-20T03:00:00+06:00"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "road_users",
+      "selection_rationale": "Motorcyclists were stationary at checkpoint; car struck them.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_f6979130e8086261",
+        "ev_4868bd0517e733cd"
+      ],
+      "value": "three motorcyclists (BUET students) and car driver(s)"
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [
+        "Purbachal Uposhohor area",
+        "Purbachal Expressway"
+      ],
+      "contradiction": false,
+      "field": "crash_location",
+      "selection_rationale": "Multiple sources specify Nila Market intersection as precise point; others broader.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_850f0b4bcf2418e4",
+        "ev_7a9911d957c3b042"
+      ],
+      "value": "Nila Market intersection on Purbachal 300 Feet Road, Rupganj, Narayanganj"
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "contributing_factor_speed",
+      "selection_rationale": "Reports consistently describe car coming at reckless/speeding speed.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_17797e3df968c79a",
+        "ev_7a9911d957c3b042",
+        "ev_3cb89b4791adcc04"
+      ],
+      "value": "reckless speeding"
+    },
+    {
+      "confidence": 0.5,
+      "conflicting_values": [
+        "alleged intoxication of accused"
+      ],
+      "contradiction": false,
+      "field": "contributing_factor_intoxication",
+      "selection_rationale": "Only one source states an on-screen allegation; not established as fact.",
+      "state": "unknown",
+      "support_evidence_ids": [
+        "ev_07a4549765a2d7a1"
+      ],
+      "value": null
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "traffic_effects",
+      "selection_rationale": "No source reports congestion, closure, or delay; visual shows no blockage.",
+      "state": "not_reported",
+      "support_evidence_ids": [
+        "ev_33667123810c930a"
+      ],
+      "value": null
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicles_involved",
+      "selection_rationale": "All reports agree car-motorcycle collision.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_4868bd0517e733cd",
+        "ev_1f834f7777ccf794"
+      ],
+      "value": "motorcycle (ridden by victims) and passenger car (driven by accused)"
+    }
+  ],
+  "generated_at": "2025-01-01T00:00:00Z",
+  "geolocation": {
+    "alternatives": [
+      {
+        "confidence": 0.7,
+        "evidence_ids": [
+          "ev_850f0b4bcf2418e4",
+          "ev_f6979130e8086261"
+        ],
+        "granularity": "intersection",
+        "hierarchy": {},
+        "latitude": null,
+        "longitude": null,
+        "name": "Nila Market Intersection, Purbachal 300 Feet Road",
+        "normalized_name": "nila market intersection, purbachal 300 feet road",
+        "reason": "Multiple sources specify Nila Market intersection as the crash point."
+      },
+      {
+        "confidence": 0.5,
+        "evidence_ids": [
+          "ev_4868bd0517e733cd"
+        ],
+        "granularity": "area",
+        "hierarchy": {},
+        "latitude": null,
+        "longitude": null,
+        "name": "Purbachal Uposhohor Area, Rupganj",
+        "normalized_name": "purbachal uposhohor area, rupganj",
+        "reason": "One source specifies Purbachal Uposhohor area."
+      }
+    ],
+    "ambiguity_reason": "Multiple mentions place the crash at the Nila Market intersection / 300 Feet Road in Purbachal, Rupganj; gazetteer centroid represents the area, not a precise crash point.",
+    "confidence": 0.68,
+    "display_name": "Purbachal 300 Feet Road, Rupganj",
+    "granularity": "area",
+    "hierarchy": {
+      "anchor": "Purbachal",
+      "country": "Bangladesh",
+      "district": "Narayanganj",
+      "upazila": "Rupganj"
+    },
+    "latitude": 23.8307,
+    "longitude": 90.5452,
+    "method": "cluster_centroid",
+    "supporting_evidence_ids": [
+      "ev_4868bd0517e733cd",
+      "ev_7a9911d957c3b042"
+    ],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "On the early hours of 20 December 2024, a fatal road crash occurred at a police checkpoint on Purbachal 300 Feet Road in Rupganj, Narayanganj, Bangladesh. A passenger car struck a stationary motorcycle carrying three BUET students who were stopped for questioning. The collision killed 22-year-old Muhtasim (Mohtassim) Masud on the spot and injured his two friends, Amit Saha and Mehedi Hasan [ev_7e2b75efeb5007b6, ev_f6979130e8086261]. Multiple news outlets report the car was speeding and recklessly driven; one video headline alleges the accused were intoxicated, but this remains an unconfirmed claim [ev_07a4549765a2d7a1, ev_7a9911d957c3b042]. The crash location is consistently described as the Nila Market intersection on the 300 Feet Road, though broader area references (Purbachal Uposhohor) also appear [ev_850f0b4bcf2418e4, ev_4868bd0517e733cd]. Police at the checkpoint were present; the victim's body was sent to Shaheed Suhrawardy Medical College Hospital for postmortem, and both vehicles were seized [ev_1f834f7777ccf794]. A case was filed under the Road Transport Act 2018 by the victim's father, and three accused were later sent to jail by a Narayanganj court [ev_6f614cdd3f691d5e, ev_23e903df4479a2d7]. Six independent sources cover the incident. Key unresolved issues include the legal status of the intoxication allegation, the precise crash mechanism, and the current condition of the injured students [ev_17797e3df968c79a].",
+  "incident_id": "inc_cluster-001",
+  "independent_source_count": 6,
+  "involved_parties": [
+    "Muhtasim Masud (deceased, 22, BUET CSE student)",
+    "Amit Saha (injured friend)",
+    "Mehedi Hasan (injured friend)",
+    "Mubin (accused driver, named in one report)",
+    "Two other accused (arrested)"
+  ],
+  "later_developments": [
+    "Case filed under Road Transport Act 2018 by victim's father, Masud Mia",
+    "Three accused sent to jail after remand",
+    "Court proceedings ongoing"
+  ],
+  "obstruction": null,
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {
+      "road_safety": {
+        "negative": 2
+      }
+    },
+    "coverage_note": "Two traffic-related negative sentiment expressions about incident accountability and road safety were supplied.",
+    "items": [
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_e5f62af3baefeb2d",
+        "holder": "en.prothomalo.com",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_3bc7b385cab36d28",
+        "source_id": "src_8b602b9fe73a95f5",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_68a6094853599576",
+        "holder": "source audience or participant",
+        "holder_type": "group",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_8234280887af6327",
+        "source_id": "src_02298208b235935d",
+        "target": "incident accountability",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 2,
+    "traffic_relevant_count": 2
+  },
+  "source_ids": [
+    "src_3f199a5a71648754",
+    "src_02298208b235935d",
+    "src_8b602b9fe73a95f5",
+    "src_67f5fd8305b791e7",
+    "src_22bbac43d90432e0",
+    "src_2a54e1ad115b0de3",
+    "src_986f165864da7582"
+  ],
+  "status": "reported",
+  "title": "BUET student killed in motorcycle-car collision at Purbachal police checkpoint",
+  "unresolved_questions": [
+    "Was intoxication a confirmed factor or only an allegation?",
+    "Exact identities and roles of the three accused",
+    "Precise crash mechanism and impact point",
+    "Whether the car was speeding or reckless as legally established",
+    "Current condition and outcomes for injured students"
+  ],
+  "vehicles": [
+    "motorcycle",
+    "passenger_car"
+  ]
+}

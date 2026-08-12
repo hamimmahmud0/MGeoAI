@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_795148ce37222f4b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_795148ce37222f4b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Police allege corporate boss refused blood alcohol tests after Sydney car crash",
+      "source_path": "html/AUS/AUS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3d2e30fa2b831286",
+    "text": "Police allege corporate boss refused blood alcohol tests after Sydney car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5f504934b6bcac92",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5f504934b6bcac92",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-03T04:00:00+10:00",
+      "source_path": "html/AUS/AUS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3d2e30fa2b831286",
+    "text": "2026-06-03T04:00:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f5cd517cbeac17d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f5cd517cbeac17d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A corporate titan is alleged to have crashed his BMW into five cars in Sydney's east, before refusing two alcohol-detecting breath tests. NSW Police allege ...",
+      "source_path": "html/AUS/AUS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3d2e30fa2b831286",
+    "text": "A corporate titan is alleged to have crashed his BMW into five cars in Sydney's east, before refusing two alcohol-detecting breath tests. NSW Police allege ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c3ce7e007d6b36e9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c3ce7e007d6b36e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Australian Broadcasting Corporation",
+      "source_path": "html/AUS/AUS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3d2e30fa2b831286",
+    "text": "Publisher: Australian Broadcasting Corporation",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed028b6bab0b8e06",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ed028b6bab0b8e06",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.abc.net.au/news/2026-06-03/tpg-capital-boss-joel-thickins-sydney-bmw-crash/106754848",
+      "source_path": "html/AUS/AUS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3d2e30fa2b831286",
+    "text": "Original source: https://www.abc.net.au/news/2026-06-03/tpg-capital-boss-joel-thickins-sydney-bmw-crash/106754848",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe16dbf42d7f219c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe16dbf42d7f219c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3d2e30fa2b831286",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8418a8697fd3a879",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8418a8697fd3a879",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.abc.net.au/news/2026-06-03/tpg-capital-boss-joel-thickins-sydney-bmw-crash/106754848",
+      "source_path": "html/AUS/AUS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3d2e30fa2b831286",
+    "text": "https://www.abc.net.au/news/2026-06-03/tpg-capital-boss-joel-thickins-sydney-bmw-crash/106754848",
+    "url": null
+  }
+]

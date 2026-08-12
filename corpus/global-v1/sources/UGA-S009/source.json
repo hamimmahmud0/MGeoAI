@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "UGA-S009",
+  "country_code": "UGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "dw",
+  "canonical_url": "https://www.dw.com/en/uganda-dozens-killed-in-highway-bus-collision/a-74452693",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dw.com/en/uganda-dozens-killed-in-highway-bus-collision/a-74452693",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Uganda%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "fcc38a6721c0739de9f8220db72dfe2ebbdbe44e389c7d4a94ebb668034bc889",
+      "size_bytes": 941,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus accident",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Kampala",
+  "captured_at": "2026-08-11T21:55:58.323780Z",
+  "published_at": "2025-10-22T02:42:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dw.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-UGA-S009"
+}

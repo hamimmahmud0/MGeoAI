@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S006",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Daily Star",
+  "canonical_url": "https://www.thedailystar.net/news/asia/india/news/36-dead-india-bus-crash-3744391",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thedailystar.net/news/asia/india/news/36-dead-india-bus-crash-3744391",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22India%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "903f4352c493aabf275bcf60eae82218c4cfbc2fc3bba238bd8b4a74da69eee2",
+      "size_bytes": 930,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:55:02.405966+06:00",
+  "published_at": "2024-11-04T11:39:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thedailystar.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S006"
+}

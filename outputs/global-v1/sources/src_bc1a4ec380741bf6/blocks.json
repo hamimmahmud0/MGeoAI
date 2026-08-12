@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_142517bfba1a3765",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_142517bfba1a3765",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Death toll in Ethiopia road accident rises to 71",
+      "source_path": "html/ETH/ETH-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bc1a4ec380741bf6",
+    "text": "Death toll in Ethiopia road accident rises to 71",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_010ac3ddf5e163aa",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_010ac3ddf5e163aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-30T01:49:00+03:00",
+      "source_path": "html/ETH/ETH-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bc1a4ec380741bf6",
+    "text": "2024-12-30T01:49:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b364a3a83731336f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b364a3a83731336f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nairobi: The death toll from a road accident in southern Ethiopia has risen to at least 71, according to a local police official. In a ...",
+      "source_path": "html/ETH/ETH-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bc1a4ec380741bf6",
+    "text": "Nairobi: The death toll from a road accident in southern Ethiopia has risen to at least 71, according to a local police official. In a ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8da785f675a554c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8da785f675a554c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Deccan Chronicle",
+      "source_path": "html/ETH/ETH-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bc1a4ec380741bf6",
+    "text": "Publisher: Deccan Chronicle",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e93013edf5d60d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e93013edf5d60d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.deccanchronicle.com/world/death-toll-in-ethiopia-road-accident-rises-to-71-local-official-1850655",
+      "source_path": "html/ETH/ETH-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bc1a4ec380741bf6",
+    "text": "Original source: https://www.deccanchronicle.com/world/death-toll-in-ethiopia-road-accident-rises-to-71-local-official-1850655",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f7a81ce015fe85cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f7a81ce015fe85cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bc1a4ec380741bf6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3b0b3b0116587b99",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3b0b3b0116587b99",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.deccanchronicle.com/world/death-toll-in-ethiopia-road-accident-rises-to-71-local-official-1850655",
+      "source_path": "html/ETH/ETH-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bc1a4ec380741bf6",
+    "text": "https://www.deccanchronicle.com/world/death-toll-in-ethiopia-road-accident-rises-to-71-local-official-1850655",
+    "url": null
+  }
+]

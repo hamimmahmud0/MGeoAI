@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_09d63ebf59ea1e09",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_09d63ebf59ea1e09",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "URGENTE: Futbolista de Universidad de Chile protagoniza accidente de tránsito",
+      "source_path": "html/CHL/CHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e392b8507963e16b",
+    "text": "URGENTE: Futbolista de Universidad de Chile protagoniza accidente de tránsito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_981d66047b87de4a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_981d66047b87de4a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-01T03:00:00-04:00",
+      "source_path": "html/CHL/CHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e392b8507963e16b",
+    "text": "2026-06-01T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_77681f49afc7510d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_77681f49afc7510d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bolavip.com",
+      "source_path": "html/CHL/CHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e392b8507963e16b",
+    "text": "Publisher: bolavip.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e772259b4532e5b6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e772259b4532e5b6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bolavip.com/cl/udechile/urgente-futbolista-de-universidad-de-chile-protagoniza-accidente-de-transito",
+      "source_path": "html/CHL/CHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e392b8507963e16b",
+    "text": "Original source: https://bolavip.com/cl/udechile/urgente-futbolista-de-universidad-de-chile-protagoniza-accidente-de-transito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f6b4f821cb63eabc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f6b4f821cb63eabc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e392b8507963e16b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_79954e5a6bccce1b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_79954e5a6bccce1b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bolavip.com/cl/udechile/urgente-futbolista-de-universidad-de-chile-protagoniza-accidente-de-transito",
+      "source_path": "html/CHL/CHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e392b8507963e16b",
+    "text": "https://bolavip.com/cl/udechile/urgente-futbolista-de-universidad-de-chile-protagoniza-accidente-de-transito",
+    "url": null
+  }
+]

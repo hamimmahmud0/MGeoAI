@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ITA-S005",
+  "country_code": "ITA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "facebook.com",
+  "canonical_url": "https://www.facebook.com/RaiNews/videos/un-gravissimo-incidente-stradale-sulla-statale-79-ternana-nel-tratto-che-collega/1626298889122989/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.facebook.com/RaiNews/videos/un-gravissimo-incidente-stradale-sulla-statale-79-ternana-nel-tratto-che-collega/1626298889122989/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=IT%3Ait&gl=IT&hl=it&q=%28%22incidente+stradale%22+OR+%22scontro+tra+veicoli%22+OR+%22incidente+automobilistico%22+OR+%22incidente+autobus%22%29+%28morto+OR+morti+OR+ferito+OR+feriti%29+%22Italia%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4434b9e1fc4bb1fddc302a51ae24fdd57efb2351d8dee84b2093a7017d050090",
+      "size_bytes": 1564,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "it"
+  ],
+  "traffic_keywords": [
+    "incidente stradale",
+    "scontro tra veicoli",
+    "incidente automobilistico",
+    "incidente autobus"
+  ],
+  "timezone": "Europe/Rome",
+  "captured_at": "2026-08-11T22:01:14Z",
+  "published_at": "2026-08-02T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "facebook.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ITA-S005"
+}

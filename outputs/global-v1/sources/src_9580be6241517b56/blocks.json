@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2bac5b6fa786273a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2bac5b6fa786273a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus cae al río Ambato y deja dos fallecidos y tres heridos",
+      "source_path": "html/ECU/ECU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9580be6241517b56",
+    "text": "Bus cae al río Ambato y deja dos fallecidos y tres heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_28c54c83ca956c96",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_28c54c83ca956c96",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-08T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9580be6241517b56",
+    "text": "2026-07-08T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ed94cbc1970794c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ed94cbc1970794c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Comercio",
+      "source_path": "html/ECU/ECU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9580be6241517b56",
+    "text": "Publisher: El Comercio",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0a9c09284554e35b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0a9c09284554e35b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.elcomercio.com/actualidad/ecuador/bus-cae-rio-ambato-deja-dos-fallecidos-tres-heridos/",
+      "source_path": "html/ECU/ECU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9580be6241517b56",
+    "text": "Original source: https://www.elcomercio.com/actualidad/ecuador/bus-cae-rio-ambato-deja-dos-fallecidos-tres-heridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_de69b93bb4a0a9db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_de69b93bb4a0a9db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9580be6241517b56",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e80aefcf0ec2b1af",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e80aefcf0ec2b1af",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.elcomercio.com/actualidad/ecuador/bus-cae-rio-ambato-deja-dos-fallecidos-tres-heridos/",
+      "source_path": "html/ECU/ECU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9580be6241517b56",
+    "text": "https://www.elcomercio.com/actualidad/ecuador/bus-cae-rio-ambato-deja-dos-fallecidos-tres-heridos/",
+    "url": null
+  }
+]

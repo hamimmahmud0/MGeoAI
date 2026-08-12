@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3c024f88a3dfd68f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3c024f88a3dfd68f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Delhi Motor Accident Claims Tribunal denies compensation to 8-yr-old injured in 2023 accident | Latest News Delhi",
+      "source_path": "html/GBR/GBR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9d168cf9d546ff01",
+    "text": "Delhi Motor Accident Claims Tribunal denies compensation to 8-yr-old injured in 2023 accident | Latest News Delhi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50571aa3a5c8a854",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_50571aa3a5c8a854",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-20T08:00:00+01:00",
+      "source_path": "html/GBR/GBR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9d168cf9d546ff01",
+    "text": "2026-05-20T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd3c1eaecbab699f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd3c1eaecbab699f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hindustan Times",
+      "source_path": "html/GBR/GBR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9d168cf9d546ff01",
+    "text": "Publisher: Hindustan Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b727f85e45738a13",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b727f85e45738a13",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hindustantimes.com/cities/delhi-news/delhi-motor-accident-claims-tribunal-denies-compensation-to-8-yr-old-injured-in-2023-accident-101779281085315.html",
+      "source_path": "html/GBR/GBR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9d168cf9d546ff01",
+    "text": "Original source: https://www.hindustantimes.com/cities/delhi-news/delhi-motor-accident-claims-tribunal-denies-compensation-to-8-yr-old-injured-in-2023-accident-101779281085315.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_da271cdef42b4891",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_da271cdef42b4891",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9d168cf9d546ff01",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_64fb633eb3a3993c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_64fb633eb3a3993c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hindustantimes.com/cities/delhi-news/delhi-motor-accident-claims-tribunal-denies-compensation-to-8-yr-old-injured-in-2023-accident-101779281085315.html",
+      "source_path": "html/GBR/GBR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9d168cf9d546ff01",
+    "text": "https://www.hindustantimes.com/cities/delhi-news/delhi-motor-accident-claims-tribunal-denies-compensation-to-8-yr-old-injured-in-2023-accident-101779281085315.html",
+    "url": null
+  }
+]

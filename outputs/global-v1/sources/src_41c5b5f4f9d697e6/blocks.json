@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_56c51286eade0f10",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_56c51286eade0f10",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Mann i 70-årene omkom i tragisk ulykke i Salangen i Troms",
+      "source_path": "html/NOR/NOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41c5b5f4f9d697e6",
+    "text": "Mann i 70-årene omkom i tragisk ulykke i Salangen i Troms",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2573848f5e0a92d6",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2573848f5e0a92d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-29T09:00:00+01:00",
+      "source_path": "html/NOR/NOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41c5b5f4f9d697e6",
+    "text": "2025-12-29T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3ccd87dfa4ea91d1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3ccd87dfa4ea91d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Mann i 70-årene omkom i tragisk ulykke i Salangen i Troms Mistet livet mens han forsøkte å hjelpe en medtrafikant som hadde kjørt av veien.",
+      "source_path": "html/NOR/NOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41c5b5f4f9d697e6",
+    "text": "Mann i 70-årene omkom i tragisk ulykke i Salangen i Troms Mistet livet mens han forsøkte å hjelpe en medtrafikant som hadde kjørt av veien.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7aa2716052027702",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7aa2716052027702",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftenposten",
+      "source_path": "html/NOR/NOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41c5b5f4f9d697e6",
+    "text": "Publisher: Aftenposten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cddd02c9c995f6db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cddd02c9c995f6db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftenposten.no/norge/i/Wvb3AK/mann-i-70-aarene-omkom-i-tragisk-ulykke-i-salangen-i-troms",
+      "source_path": "html/NOR/NOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41c5b5f4f9d697e6",
+    "text": "Original source: https://www.aftenposten.no/norge/i/Wvb3AK/mann-i-70-aarene-omkom-i-tragisk-ulykke-i-salangen-i-troms",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_066bb201da492e20",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_066bb201da492e20",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41c5b5f4f9d697e6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_00db3dadba68df2a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_00db3dadba68df2a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftenposten.no/norge/i/Wvb3AK/mann-i-70-aarene-omkom-i-tragisk-ulykke-i-salangen-i-troms",
+      "source_path": "html/NOR/NOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_41c5b5f4f9d697e6",
+    "text": "https://www.aftenposten.no/norge/i/Wvb3AK/mann-i-70-aarene-omkom-i-tragisk-ulykke-i-salangen-i-troms",
+    "url": null
+  }
+]

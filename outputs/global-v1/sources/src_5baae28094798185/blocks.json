@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c1b472cdd7e3b94b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c1b472cdd7e3b94b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "All-Ireland-winning Donegal football star James McHugh killed in crash",
+      "source_path": "html/IRL/IRL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5baae28094798185",
+    "text": "All-Ireland-winning Donegal football star James McHugh killed in crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_72224ac08a87da67",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_72224ac08a87da67",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T09:29:48+01:00",
+      "source_path": "html/IRL/IRL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5baae28094798185",
+    "text": "2026-08-11T09:29:48+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aacb145e238b9ed8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aacb145e238b9ed8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Irish Times",
+      "source_path": "html/IRL/IRL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5baae28094798185",
+    "text": "Publisher: The Irish Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4f99fc18621c175f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4f99fc18621c175f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.irishtimes.com/ireland/2026/08/10/man-60s-dies-in-co-cavan-road-crash/",
+      "source_path": "html/IRL/IRL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5baae28094798185",
+    "text": "Original source: https://www.irishtimes.com/ireland/2026/08/10/man-60s-dies-in-co-cavan-road-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0708340971f4685c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0708340971f4685c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5baae28094798185",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_44e23443be696f9d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_44e23443be696f9d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.irishtimes.com/ireland/2026/08/10/man-60s-dies-in-co-cavan-road-crash/",
+      "source_path": "html/IRL/IRL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5baae28094798185",
+    "text": "https://www.irishtimes.com/ireland/2026/08/10/man-60s-dies-in-co-cavan-road-crash/",
+    "url": null
+  }
+]

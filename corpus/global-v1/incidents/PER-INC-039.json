@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "curation_only": true,
+  "curation_incident_id": "PER-INC-039",
+  "country_code": "PER",
+  "source_ids": [
+    "PER-S001",
+    "PER-S002"
+  ],
+  "label": "reviewed_same_incident",
+  "review_method": "automated",
+  "reviewed_by": [
+    "automated-title-date-entity-pair-v1"
+  ],
+  "reviewed_at": "2026-08-12T05:30:19.837239Z",
+  "note": "Automated multi-source candidate key 'incident_f5c1a351d8529b20354e'; distinct domains and matching feed metadata. Human confirmation should use each original URL."
+}

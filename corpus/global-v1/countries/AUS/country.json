@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "AUS",
+  "name": "Australia",
+  "languages": [
+    "en"
+  ],
+  "timezones": [
+    "Australia/Sydney"
+  ],
+  "target_sources": 12
+}

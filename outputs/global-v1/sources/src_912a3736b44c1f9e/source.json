@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8f002ea8ed00b1d4b93d0681da828e8a1e502a749d13a1b6657d674a9c746c58",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "citizen digital",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-23T08:00:00Z",
+  "publisher": "Citizen Digital",
+  "schema_version": "1.0.0",
+  "source_id": "src_912a3736b44c1f9e",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-01-23T08:00:00+00:00",
+    "source_info_hash": "ec14e08f0824e28f",
+    "source_info_path": "html/KEN/KEN-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://citizen.digital/article/emotions-as-three-us-based-siblings-perish-in-a-road-accident-in-kenya-n376233",
+  "timezone": "Africa/Nairobi",
+  "title": "Emotions as three US-based siblings perish in a road accident in Kenya"
+}

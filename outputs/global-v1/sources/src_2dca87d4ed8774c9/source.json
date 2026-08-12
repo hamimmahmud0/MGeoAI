@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6aa7c74f593e0a621b85ed4c81b7a7a5e6b3ea772449ae0822cd0a088e5842ee",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "kenyans.co.ke",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-13T08:00:00Z",
+  "publisher": "Kenyans.co.ke",
+  "schema_version": "1.0.0",
+  "source_id": "src_2dca87d4ed8774c9",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2025-12-13T08:00:00+00:00",
+    "source_info_hash": "609ec9ecb34c0d19",
+    "source_info_path": "html/KEN/KEN-S008/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.kenyans.co.ke/news/119031-driver-ill-fated-bus-head-crash-killed-cyrus-jirongo-speaks",
+  "timezone": "Africa/Nairobi",
+  "title": "Driver of Bus Involved in Collision with Jirongo's Car Narrates Moments Before Crash"
+}

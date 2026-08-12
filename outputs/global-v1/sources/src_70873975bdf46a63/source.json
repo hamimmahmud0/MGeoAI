@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "fc74ed0481481428f865d45505e7c94c785d95466bd10a22100db54cdc6d0104",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "associated press",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MEX/MEX-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-08T16:17:32Z",
+  "publisher": "Associated Press",
+  "schema_version": "1.0.0",
+  "source_id": "src_70873975bdf46a63",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-09-08T16:17:32+00:00",
+    "source_info_hash": "eead111cfd77f384",
+    "source_info_path": "html/MEX/MEX-S001/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://apnews.com/article/train-bus-crash-deadly-mexico-city-5576772165c16fd1f2c35460845a81e8",
+  "timezone": "America/Mexico_City",
+  "title": "Freight train slams into a bus outside Mexico City and kills at least 10 people"
+}

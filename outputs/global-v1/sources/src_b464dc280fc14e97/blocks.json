@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_96c729e49acc5f9b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_96c729e49acc5f9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Schulausflug in Oberbayern: Verletzte nach Busunfall nicht mehr in akuter Lebensgefahr",
+      "source_path": "html/DEU/DEU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b464dc280fc14e97",
+    "text": "Schulausflug in Oberbayern: Verletzte nach Busunfall nicht mehr in akuter Lebensgefahr",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d9685c0330e0fec",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8d9685c0330e0fec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-10T09:00:00+02:00",
+      "source_path": "html/DEU/DEU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b464dc280fc14e97",
+    "text": "2026-06-10T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c17a4fff07aa5d24",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c17a4fff07aa5d24",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: RP Online",
+      "source_path": "html/DEU/DEU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b464dc280fc14e97",
+    "text": "Publisher: RP Online",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_186e3ffe2c6fc3e9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_186e3ffe2c6fc3e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://rp-online.de/panorama/deutschland/busunfall-oberbayern-verletzte-nicht-mehr-in-akuter-lebensgefahr_aid-149715803",
+      "source_path": "html/DEU/DEU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b464dc280fc14e97",
+    "text": "Original source: https://rp-online.de/panorama/deutschland/busunfall-oberbayern-verletzte-nicht-mehr-in-akuter-lebensgefahr_aid-149715803",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6060a9cb5441d804",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6060a9cb5441d804",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b464dc280fc14e97",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cee25fa5ab9ea1bd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cee25fa5ab9ea1bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://rp-online.de/panorama/deutschland/busunfall-oberbayern-verletzte-nicht-mehr-in-akuter-lebensgefahr_aid-149715803",
+      "source_path": "html/DEU/DEU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b464dc280fc14e97",
+    "text": "https://rp-online.de/panorama/deutschland/busunfall-oberbayern-verletzte-nicht-mehr-in-akuter-lebensgefahr_aid-149715803",
+    "url": null
+  }
+]

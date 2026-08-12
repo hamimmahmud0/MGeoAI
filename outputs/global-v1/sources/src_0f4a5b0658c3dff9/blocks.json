@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c8cf558f1568fe1a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c8cf558f1568fe1a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Singapore missionary dies in traffic accident in Türkiye",
+      "source_path": "html/TUR/TUR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f4a5b0658c3dff9",
+    "text": "Singapore missionary dies in traffic accident in Türkiye",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0f1540d54f1fdc02",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0f1540d54f1fdc02",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-11-16T13:29:00+03:00",
+      "source_path": "html/TUR/TUR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f4a5b0658c3dff9",
+    "text": "2023-11-16T13:29:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a58ad807d330b192",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a58ad807d330b192",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "SINGAPORE: A Singapore missionary who was on a teaching trip died on Wednesday (Nov 15) after a traffic accident in Istanbul, Türkiye. Mr Joseph Chean ...",
+      "source_path": "html/TUR/TUR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f4a5b0658c3dff9",
+    "text": "SINGAPORE: A Singapore missionary who was on a teaching trip died on Wednesday (Nov 15) after a traffic accident in Istanbul, Türkiye. Mr Joseph Chean ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b6d53034dcc8041",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0b6d53034dcc8041",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Channel NewsAsia Singapore",
+      "source_path": "html/TUR/TUR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f4a5b0658c3dff9",
+    "text": "Publisher: Channel NewsAsia Singapore",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7fdfb2f18a6be8ff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7fdfb2f18a6be8ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.channelnewsasia.com/singapore/singapore-missionary-joseph-chean-dies-road-accident-istanbul-turkiye-3925201",
+      "source_path": "html/TUR/TUR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f4a5b0658c3dff9",
+    "text": "Original source: https://www.channelnewsasia.com/singapore/singapore-missionary-joseph-chean-dies-road-accident-istanbul-turkiye-3925201",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30e42e9918aaa6c0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30e42e9918aaa6c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f4a5b0658c3dff9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_762e23709f64a716",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_762e23709f64a716",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.channelnewsasia.com/singapore/singapore-missionary-joseph-chean-dies-road-accident-istanbul-turkiye-3925201",
+      "source_path": "html/TUR/TUR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f4a5b0658c3dff9",
+    "text": "https://www.channelnewsasia.com/singapore/singapore-missionary-joseph-chean-dies-road-accident-istanbul-turkiye-3925201",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b463dd54f698df60",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b463dd54f698df60",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Accidente de tránsito en el occidente de México deja 9 fallecidos y 10 heridos, cuatro de ellos estadounidenses",
+      "source_path": "html/MEX/MEX-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5d6520968135f2f",
+    "text": "Accidente de tránsito en el occidente de México deja 9 fallecidos y 10 heridos, cuatro de ellos estadounidenses",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_411d3991b8726d71",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_411d3991b8726d71",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-12T01:00:00-06:00",
+      "source_path": "html/MEX/MEX-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5d6520968135f2f",
+    "text": "2026-07-12T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_38a6f7006b36b998",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_38a6f7006b36b998",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: examedia.com.ar",
+      "source_path": "html/MEX/MEX-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5d6520968135f2f",
+    "text": "Publisher: examedia.com.ar",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee5fc50ad833d974",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee5fc50ad833d974",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.examedia.com.ar/portada/post/87471250",
+      "source_path": "html/MEX/MEX-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5d6520968135f2f",
+    "text": "Original source: https://www.examedia.com.ar/portada/post/87471250",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4e77f0632e9eb90",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a4e77f0632e9eb90",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5d6520968135f2f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2bd71966c5f01c94",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2bd71966c5f01c94",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.examedia.com.ar/portada/post/87471250",
+      "source_path": "html/MEX/MEX-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5d6520968135f2f",
+    "text": "https://www.examedia.com.ar/portada/post/87471250",
+    "url": null
+  }
+]

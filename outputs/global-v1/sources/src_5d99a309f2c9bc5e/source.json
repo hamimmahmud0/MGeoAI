@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7b52a345680fee9c75a1fbb183ee5cc793a17b7307d6e6db359df4f5d1f90cdf",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "island",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-30T05:40:00Z",
+  "publisher": "Island",
+  "schema_version": "1.0.0",
+  "source_id": "src_5d99a309f2c9bc5e",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2025-06-30T05:40:00+00:00",
+    "source_info_hash": "53bf203357ffc8bf",
+    "source_info_path": "html/TZA/TZA-S009/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://island.lk/at-least-38-people-killed-in-tanzania-bus-collision-subsequent-fire/",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "At least 38 people killed in Tanzania bus collision, subsequent fire"
+}

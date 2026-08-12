@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "13e3e0ff5bebe9fb8cd930fdf3c5d32c73d4c463eb327102a1c81fc196abb344",
+  "country": "Portugal",
+  "country_code": "PRT",
+  "dependency_group": "correio da manhã",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/PRT/PRT-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-31T07:00:00Z",
+  "publisher": "Correio da Manhã",
+  "schema_version": "1.0.0",
+  "source_id": "src_0fcb8023eaff4546",
+  "source_metadata": {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-05-31T07:00:00+00:00",
+    "source_info_hash": "8e64d2f631c4c5b1",
+    "source_info_path": "html/PRT/PRT-S005/SOURCE_INFO.md",
+    "timezone": "Europe/Lisbon",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente rodoviário",
+      "acidente de viação",
+      "colisão de veículos",
+      "acidente de autocarro"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.cmjornal.pt/mundo/detalhe/pelo-menos-oito-mortos-e-33-feridos-em-acidente-de-autocarro-na-turquia-bebe-de-nove-meses-entre-as-vitimas-mortais",
+  "timezone": "Europe/Lisbon",
+  "title": "Pelo menos oito mortos e 33 feridos em acidente de autocarro na Turquia. Bebé de nove meses entre as vítimas mortais"
+}

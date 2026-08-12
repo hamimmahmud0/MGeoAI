@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "cb0ba5a8adfb8b349c2a93b8c0c2fd0acd169f912cab6fb8a030b8c4ed9c55ea",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "nieuws365",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-26T07:00:00Z",
+  "publisher": "Nieuws365",
+  "schema_version": "1.0.0",
+  "source_id": "src_b22dbb63455a8bab",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-05-26T07:00:00+00:00",
+    "source_info_hash": "b3f0b917a7126310",
+    "source_info_path": "html/BEL/BEL-S001/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nieuws365.be/binnenland/schoolbus-aangereden-door-trein-meerdere-gewonden-persoon-gereanimeerd",
+  "timezone": "Europe/Brussels",
+  "title": "Meerdere doden na tragisch ongeval met minibusje en trein"
+}

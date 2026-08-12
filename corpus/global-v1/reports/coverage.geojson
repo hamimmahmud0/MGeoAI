@@ -1,0 +1,1026 @@
+{
+  "type": "FeatureCollection",
+  "name": "MGeoAI collection-country source coverage; not incident locations",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          53.8478,
+          23.4241
+        ]
+      },
+      "properties": {
+        "iso2": "AE",
+        "iso3": "ARE",
+        "country_name": "United Arab Emirates",
+        "primary_timezone": "Asia/Dubai",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6167,
+          -38.4161
+        ]
+      },
+      "properties": {
+        "iso2": "AR",
+        "iso3": "ARG",
+        "country_name": "Argentina",
+        "primary_timezone": "America/Argentina/Buenos_Aires",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          133.7751,
+          -25.2744
+        ]
+      },
+      "properties": {
+        "iso2": "AU",
+        "iso3": "AUS",
+        "country_name": "Australia",
+        "primary_timezone": "Australia/Sydney",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4699,
+          50.5039
+        ]
+      },
+      "properties": {
+        "iso2": "BE",
+        "iso3": "BEL",
+        "country_name": "Belgium",
+        "primary_timezone": "Europe/Brussels",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3563,
+          23.685
+        ]
+      },
+      "properties": {
+        "iso2": "BD",
+        "iso3": "BGD",
+        "country_name": "Bangladesh",
+        "primary_timezone": "Asia/Dhaka",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.9253,
+          -14.235
+        ]
+      },
+      "properties": {
+        "iso2": "BR",
+        "iso3": "BRA",
+        "country_name": "Brazil",
+        "primary_timezone": "America/Sao_Paulo",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.3468,
+          56.1304
+        ]
+      },
+      "properties": {
+        "iso2": "CA",
+        "iso3": "CAN",
+        "country_name": "Canada",
+        "primary_timezone": "America/Toronto",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -71.543,
+          -35.6751
+        ]
+      },
+      "properties": {
+        "iso2": "CL",
+        "iso3": "CHL",
+        "country_name": "Chile",
+        "primary_timezone": "America/Santiago",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.2973,
+          4.5709
+        ]
+      },
+      "properties": {
+        "iso2": "CO",
+        "iso3": "COL",
+        "country_name": "Colombia",
+        "primary_timezone": "America/Bogota",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7534,
+          9.7489
+        ]
+      },
+      "properties": {
+        "iso2": "CR",
+        "iso3": "CRI",
+        "country_name": "Costa Rica",
+        "primary_timezone": "America/Costa_Rica",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          10.4515,
+          51.1657
+        ]
+      },
+      "properties": {
+        "iso2": "DE",
+        "iso3": "DEU",
+        "country_name": "Germany",
+        "primary_timezone": "Europe/Berlin",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -78.1834,
+          -1.8312
+        ]
+      },
+      "properties": {
+        "iso2": "EC",
+        "iso3": "ECU",
+        "country_name": "Ecuador",
+        "primary_timezone": "America/Guayaquil",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.8025,
+          26.8206
+        ]
+      },
+      "properties": {
+        "iso2": "EG",
+        "iso3": "EGY",
+        "country_name": "Egypt",
+        "primary_timezone": "Africa/Cairo",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7492,
+          40.4637
+        ]
+      },
+      "properties": {
+        "iso2": "ES",
+        "iso3": "ESP",
+        "country_name": "Spain",
+        "primary_timezone": "Europe/Madrid",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          40.4897,
+          9.145
+        ]
+      },
+      "properties": {
+        "iso2": "ET",
+        "iso3": "ETH",
+        "country_name": "Ethiopia",
+        "primary_timezone": "Africa/Addis_Ababa",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.2137,
+          46.2276
+        ]
+      },
+      "properties": {
+        "iso2": "FR",
+        "iso3": "FRA",
+        "country_name": "France",
+        "primary_timezone": "Europe/Paris",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.436,
+          55.3781
+        ]
+      },
+      "properties": {
+        "iso2": "GB",
+        "iso3": "GBR",
+        "country_name": "United Kingdom",
+        "primary_timezone": "Europe/London",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.0232,
+          7.9465
+        ]
+      },
+      "properties": {
+        "iso2": "GH",
+        "iso3": "GHA",
+        "country_name": "Ghana",
+        "primary_timezone": "Africa/Accra",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9213,
+          -0.7893
+        ]
+      },
+      "properties": {
+        "iso2": "ID",
+        "iso3": "IDN",
+        "country_name": "Indonesia",
+        "primary_timezone": "Asia/Jakarta",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.9629,
+          20.5937
+        ]
+      },
+      "properties": {
+        "iso2": "IN",
+        "iso3": "IND",
+        "country_name": "India",
+        "primary_timezone": "Asia/Kolkata",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.6921,
+          53.1424
+        ]
+      },
+      "properties": {
+        "iso2": "IE",
+        "iso3": "IRL",
+        "country_name": "Ireland",
+        "primary_timezone": "Europe/Dublin",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5674,
+          41.8719
+        ]
+      },
+      "properties": {
+        "iso2": "IT",
+        "iso3": "ITA",
+        "country_name": "Italy",
+        "primary_timezone": "Europe/Rome",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.2384,
+          30.5852
+        ]
+      },
+      "properties": {
+        "iso2": "JO",
+        "iso3": "JOR",
+        "country_name": "Jordan",
+        "primary_timezone": "Asia/Amman",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          138.2529,
+          36.2048
+        ]
+      },
+      "properties": {
+        "iso2": "JP",
+        "iso3": "JPN",
+        "country_name": "Japan",
+        "primary_timezone": "Asia/Tokyo",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.9062,
+          -0.0236
+        ]
+      },
+      "properties": {
+        "iso2": "KE",
+        "iso3": "KEN",
+        "country_name": "Kenya",
+        "primary_timezone": "Africa/Nairobi",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.7669,
+          35.9078
+        ]
+      },
+      "properties": {
+        "iso2": "KR",
+        "iso3": "KOR",
+        "country_name": "South Korea",
+        "primary_timezone": "Asia/Seoul",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.7718,
+          7.8731
+        ]
+      },
+      "properties": {
+        "iso2": "LK",
+        "iso3": "LKA",
+        "country_name": "Sri Lanka",
+        "primary_timezone": "Asia/Colombo",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -7.0926,
+          31.7917
+        ]
+      },
+      "properties": {
+        "iso2": "MA",
+        "iso3": "MAR",
+        "country_name": "Morocco",
+        "primary_timezone": "Africa/Casablanca",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.5528,
+          23.6345
+        ]
+      },
+      "properties": {
+        "iso2": "MX",
+        "iso3": "MEX",
+        "country_name": "Mexico",
+        "primary_timezone": "America/Mexico_City",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.9758,
+          4.2105
+        ]
+      },
+      "properties": {
+        "iso2": "MY",
+        "iso3": "MYS",
+        "country_name": "Malaysia",
+        "primary_timezone": "Asia/Kuala_Lumpur",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.6753,
+          9.082
+        ]
+      },
+      "properties": {
+        "iso2": "NG",
+        "iso3": "NGA",
+        "country_name": "Nigeria",
+        "primary_timezone": "Africa/Lagos",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          5.2913,
+          52.1326
+        ]
+      },
+      "properties": {
+        "iso2": "NL",
+        "iso3": "NLD",
+        "country_name": "Netherlands",
+        "primary_timezone": "Europe/Amsterdam",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          8.4689,
+          60.472
+        ]
+      },
+      "properties": {
+        "iso2": "NO",
+        "iso3": "NOR",
+        "country_name": "Norway",
+        "primary_timezone": "Europe/Oslo",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.124,
+          28.3949
+        ]
+      },
+      "properties": {
+        "iso2": "NP",
+        "iso3": "NPL",
+        "country_name": "Nepal",
+        "primary_timezone": "Asia/Kathmandu",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          174.886,
+          -40.9006
+        ]
+      },
+      "properties": {
+        "iso2": "NZ",
+        "iso3": "NZL",
+        "country_name": "New Zealand",
+        "primary_timezone": "Pacific/Auckland",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.3451,
+          30.3753
+        ]
+      },
+      "properties": {
+        "iso2": "PK",
+        "iso3": "PAK",
+        "country_name": "Pakistan",
+        "primary_timezone": "Asia/Karachi",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.0152,
+          -9.19
+        ]
+      },
+      "properties": {
+        "iso2": "PE",
+        "iso3": "PER",
+        "country_name": "Peru",
+        "primary_timezone": "America/Lima",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.774,
+          12.8797
+        ]
+      },
+      "properties": {
+        "iso2": "PH",
+        "iso3": "PHL",
+        "country_name": "Philippines",
+        "primary_timezone": "Asia/Manila",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1451,
+          51.9194
+        ]
+      },
+      "properties": {
+        "iso2": "PL",
+        "iso3": "POL",
+        "country_name": "Poland",
+        "primary_timezone": "Europe/Warsaw",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -8.2245,
+          39.3999
+        ]
+      },
+      "properties": {
+        "iso2": "PT",
+        "iso3": "PRT",
+        "country_name": "Portugal",
+        "primary_timezone": "Europe/Lisbon",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          45.0792,
+          23.8859
+        ]
+      },
+      "properties": {
+        "iso2": "SA",
+        "iso3": "SAU",
+        "country_name": "Saudi Arabia",
+        "primary_timezone": "Asia/Riyadh",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8198,
+          1.3521
+        ]
+      },
+      "properties": {
+        "iso2": "SG",
+        "iso3": "SGP",
+        "country_name": "Singapore",
+        "primary_timezone": "Asia/Singapore",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6435,
+          60.1282
+        ]
+      },
+      "properties": {
+        "iso2": "SE",
+        "iso3": "SWE",
+        "country_name": "Sweden",
+        "primary_timezone": "Europe/Stockholm",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.9925,
+          15.87
+        ]
+      },
+      "properties": {
+        "iso2": "TH",
+        "iso3": "THA",
+        "country_name": "Thailand",
+        "primary_timezone": "Asia/Bangkok",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.5375,
+          33.8869
+        ]
+      },
+      "properties": {
+        "iso2": "TN",
+        "iso3": "TUN",
+        "country_name": "Tunisia",
+        "primary_timezone": "Africa/Tunis",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          35.2433,
+          38.9637
+        ]
+      },
+      "properties": {
+        "iso2": "TR",
+        "iso3": "TUR",
+        "country_name": "Turkey",
+        "primary_timezone": "Europe/Istanbul",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.8888,
+          -6.369
+        ]
+      },
+      "properties": {
+        "iso2": "TZ",
+        "iso3": "TZA",
+        "country_name": "Tanzania",
+        "primary_timezone": "Africa/Dar_es_Salaam",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.2903,
+          1.3733
+        ]
+      },
+      "properties": {
+        "iso2": "UG",
+        "iso3": "UGA",
+        "country_name": "Uganda",
+        "primary_timezone": "Africa/Kampala",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.5795,
+          39.8283
+        ]
+      },
+      "properties": {
+        "iso2": "US",
+        "iso3": "USA",
+        "country_name": "United States",
+        "primary_timezone": "America/Chicago",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.2772,
+          14.0583
+        ]
+      },
+      "properties": {
+        "iso2": "VN",
+        "iso3": "VNM",
+        "country_name": "Vietnam",
+        "primary_timezone": "Asia/Ho_Chi_Minh",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          22.9375,
+          -30.5595
+        ]
+      },
+      "properties": {
+        "iso2": "ZA",
+        "iso3": "ZAF",
+        "country_name": "South Africa",
+        "primary_timezone": "Africa/Johannesburg",
+        "geometry_role": "collection_country_coverage_centroid",
+        "is_incident_location": false,
+        "accepted_sources": 10,
+        "reviewed_multi_source_incidents": 1
+      }
+    }
+  ]
+}

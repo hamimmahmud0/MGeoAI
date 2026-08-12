@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d445377706cf807e49bab341eea2cca56e1eea9bcf011cd807f6e914c8955253",
+  "country": "Netherlands",
+  "country_code": "NLD",
+  "dependency_group": "112 nederland",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "local_path": "html/NLD/NLD-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-03T07:00:00Z",
+  "publisher": "112 Nederland",
+  "schema_version": "1.0.0",
+  "source_id": "src_415eb2ec37b562b0",
+  "source_metadata": {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "languages": [
+      "nl",
+      "en"
+    ],
+    "published_at": "2026-06-03T07:00:00+00:00",
+    "source_info_hash": "9f5f0e447e2cdedf",
+    "source_info_path": "html/NLD/NLD-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Amsterdam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "auto-ongeluk",
+      "botsing voertuigen",
+      "busongeluk"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://112nederland.nl/2026/06/03/video/bestuurder-36-bij-dodelijk-ongeval-met-fietser-25-onder-invloed-van-drugs/",
+  "timezone": "Europe/Amsterdam",
+  "title": "Bestuurder (36) bij dodelijk ongeval met fietser (25) onder invloed van drugs"
+}

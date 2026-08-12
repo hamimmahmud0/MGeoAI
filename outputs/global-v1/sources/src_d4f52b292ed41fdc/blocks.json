@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c18194c2cd8866cb",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c18194c2cd8866cb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Most expensive car crash in Bangladesh as Rolls-Royce collides with road divider",
+      "source_path": "html/BGD/BGD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4f52b292ed41fdc",
+    "text": "Most expensive car crash in Bangladesh as Rolls-Royce collides with road divider",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0dcc31c44de28e25",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0dcc31c44de28e25",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-07-20T10:53:00+06:00",
+      "source_path": "html/BGD/BGD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4f52b292ed41fdc",
+    "text": "2025-07-20T10:53:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5bd8a79e2310f377",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5bd8a79e2310f377",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "RUPGANJ: A serious car crash occurred on 19 July 2025, when a Rolls-Royce collided with a road divider on the 300 Feet road in the ...",
+      "source_path": "html/BGD/BGD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4f52b292ed41fdc",
+    "text": "RUPGANJ: A serious car crash occurred on 19 July 2025, when a Rolls-Royce collided with a road divider on the 300 Feet road in the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1a2757b69925892f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1a2757b69925892f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Pakistan Today",
+      "source_path": "html/BGD/BGD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4f52b292ed41fdc",
+    "text": "Publisher: Pakistan Today",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_77cdd41d47a4efad",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_77cdd41d47a4efad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.pakistantoday.com.pk/2025/07/20/most-expensive-car-crash-in-bangladesh-as-rolls-royce-collides-with-road-divider",
+      "source_path": "html/BGD/BGD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4f52b292ed41fdc",
+    "text": "Original source: https://www.pakistantoday.com.pk/2025/07/20/most-expensive-car-crash-in-bangladesh-as-rolls-royce-collides-with-road-divider",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8592adef23c2be7f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8592adef23c2be7f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4f52b292ed41fdc",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b1f7ed31e97028d5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b1f7ed31e97028d5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.pakistantoday.com.pk/2025/07/20/most-expensive-car-crash-in-bangladesh-as-rolls-royce-collides-with-road-divider",
+      "source_path": "html/BGD/BGD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d4f52b292ed41fdc",
+    "text": "https://www.pakistantoday.com.pk/2025/07/20/most-expensive-car-crash-in-bangladesh-as-rolls-royce-collides-with-road-divider",
+    "url": null
+  }
+]

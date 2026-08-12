@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f9cd70e37f9ca1d2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f9cd70e37f9ca1d2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "58 killed in road accident in south Pakistan",
+      "source_path": "html/PAK/PAK-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ef0d9296e9ccf91",
+    "text": "58 killed in road accident in south Pakistan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_528f06d2182fc56a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_528f06d2182fc56a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2014-11-10T21:00:00+05:00",
+      "source_path": "html/PAK/PAK-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ef0d9296e9ccf91",
+    "text": "2014-11-10T21:00:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1d7e68bedf1ce623",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1d7e68bedf1ce623",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A head-on collision between a passenger bus and a truck on a highway in southern Pakistan killed 58 people on Tuesday, police said. The collision ...",
+      "source_path": "html/PAK/PAK-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ef0d9296e9ccf91",
+    "text": "A head-on collision between a passenger bus and a truck on a highway in southern Pakistan killed 58 people on Tuesday, police said. The collision ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_41a76953ca66ed02",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_41a76953ca66ed02",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Daily Star",
+      "source_path": "html/PAK/PAK-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ef0d9296e9ccf91",
+    "text": "Publisher: The Daily Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_19fe55099fcc50f2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_19fe55099fcc50f2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thedailystar.net/58-killed-in-road-accident-in-south-pakistan-49788",
+      "source_path": "html/PAK/PAK-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ef0d9296e9ccf91",
+    "text": "Original source: https://www.thedailystar.net/58-killed-in-road-accident-in-south-pakistan-49788",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2ae0a20c1991d326",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2ae0a20c1991d326",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ef0d9296e9ccf91",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4259e2e042da0d0b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4259e2e042da0d0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thedailystar.net/58-killed-in-road-accident-in-south-pakistan-49788",
+      "source_path": "html/PAK/PAK-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ef0d9296e9ccf91",
+    "text": "https://www.thedailystar.net/58-killed-in-road-accident-in-south-pakistan-49788",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9fd51d63cf58a70b39dc55970e532acb3c97929d1c69e97903433a43ab988eee",
+  "country": "United Arab Emirates",
+  "country_code": "ARE",
+  "dependency_group": "the free press journal",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/ARE/ARE-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-08T09:36:00Z",
+  "publisher": "The Free Press Journal",
+  "schema_version": "1.0.0",
+  "source_id": "src_b58af8779411b4c2",
+  "source_metadata": {
+    "country": "United Arab Emirates",
+    "country_code": "ARE",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-08T09:36:00+00:00",
+    "source_info_hash": "482ac4d10f2f8b01",
+    "source_info_path": "html/ARE/ARE-S005/SOURCE_INFO.md",
+    "timezone": "Asia/Dubai",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث مروري",
+      "حادث سير",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.freepressjournal.in/world/dubai-road-accident-several-indian-workers-killed-after-minibus-collides-with-truck-on-emirates-road",
+  "timezone": "Asia/Dubai",
+  "title": "Dubai Road Accident: Several Indian Workers Killed After Minibus Collides With Truck On Emirates Road"
+}

@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9f7567dca3b88c96e9483e2620c2c42e264be23cc1e97e45fcb9ebe67f5b7555",
+  "country": "South Africa",
+  "country_code": "ZAF",
+  "dependency_group": "2oceansvibe news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "local_path": "html/ZAF/ZAF-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-13T07:00:00Z",
+  "publisher": "2oceansvibe News",
+  "schema_version": "1.0.0",
+  "source_id": "src_499712670f61488b",
+  "source_metadata": {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "languages": [
+      "en",
+      "zu",
+      "xh",
+      "af"
+    ],
+    "published_at": "2026-05-13T07:00:00+00:00",
+    "source_info_hash": "b371b11ba4be7613",
+    "source_info_path": "html/ZAF/ZAF-S003/SOURCE_INFO.md",
+    "timezone": "Africa/Johannesburg",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "taxi crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.2oceansvibe.com/world/south-africa/triple-tragedy-as-woman-and-baby-killed-by-health-ministers-vehicle-after-husband-died-in-earlier-crash/",
+  "timezone": "Africa/Johannesburg",
+  "title": "Triple Tragedy As Woman And Baby Killed By Health Minister’s Vehicle After Husband Died In Earlier Crash"
+}

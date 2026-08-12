@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6579429a794fa5ff",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6579429a794fa5ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Haute-Savoie : un gendarme tué dans un accident de la route à Fessy et deux militaires blessés en marge du G7",
+      "source_path": "html/FRA/FRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_60a6be2d97120e79",
+    "text": "Haute-Savoie : un gendarme tué dans un accident de la route à Fessy et deux militaires blessés en marge du G7",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_67584f01f66e8466",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_67584f01f66e8466",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_60a6be2d97120e79",
+    "text": "2026-06-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_521ae78d1f2edc54",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_521ae78d1f2edc54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ici.fr",
+      "source_path": "html/FRA/FRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_60a6be2d97120e79",
+    "text": "Publisher: ici.fr",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8f33a3be9c9dbfa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8f33a3be9c9dbfa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/fessy/haute-savoie-un-gendarme-tue-et-deux-blesses-dans-un-accident-a-fessy-7670517",
+      "source_path": "html/FRA/FRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_60a6be2d97120e79",
+    "text": "Original source: https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/fessy/haute-savoie-un-gendarme-tue-et-deux-blesses-dans-un-accident-a-fessy-7670517",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c974ea566ae4b055",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c974ea566ae4b055",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_60a6be2d97120e79",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e29c5e1904449a94",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e29c5e1904449a94",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/fessy/haute-savoie-un-gendarme-tue-et-deux-blesses-dans-un-accident-a-fessy-7670517",
+      "source_path": "html/FRA/FRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_60a6be2d97120e79",
+    "text": "https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/fessy/haute-savoie-un-gendarme-tue-et-deux-blesses-dans-un-accident-a-fessy-7670517",
+    "url": null
+  }
+]

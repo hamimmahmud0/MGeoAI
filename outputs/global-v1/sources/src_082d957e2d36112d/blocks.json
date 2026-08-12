@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6f965ff8e5e88631",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6f965ff8e5e88631",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladesh’s most expensive car crash: Rolls-Royce smashes into a divider",
+      "source_path": "html/BGD/BGD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_082d957e2d36112d",
+    "text": "Bangladesh’s most expensive car crash: Rolls-Royce smashes into a divider",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9f7655d6c0e3f931",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9f7655d6c0e3f931",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-07-21T05:57:00+06:00",
+      "source_path": "html/BGD/BGD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_082d957e2d36112d",
+    "text": "2025-07-21T05:57:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b813840549107a8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8b813840549107a8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A major road accident caught the interest of social media when an ultra-luxury Rolls-Royce crashed into a divider in Bangladesh. Initial reports have stated that ...",
+      "source_path": "html/BGD/BGD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_082d957e2d36112d",
+    "text": "A major road accident caught the interest of social media when an ultra-luxury Rolls-Royce crashed into a divider in Bangladesh. Initial reports have stated that ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c0a58aabe15a6b5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2c0a58aabe15a6b5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Financial Express",
+      "source_path": "html/BGD/BGD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_082d957e2d36112d",
+    "text": "Publisher: The Financial Express",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d9644ce0a4a111e8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d9644ce0a4a111e8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.financialexpress.com/auto/car-news/bangladeshs-most-expensive-car-crash-rolls-royce-smashes-into-a-divider/3921551/",
+      "source_path": "html/BGD/BGD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_082d957e2d36112d",
+    "text": "Original source: https://www.financialexpress.com/auto/car-news/bangladeshs-most-expensive-car-crash-rolls-royce-smashes-into-a-divider/3921551/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8af918fd5351458f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8af918fd5351458f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_082d957e2d36112d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_885ad9d09a37b21b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_885ad9d09a37b21b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.financialexpress.com/auto/car-news/bangladeshs-most-expensive-car-crash-rolls-royce-smashes-into-a-divider/3921551/",
+      "source_path": "html/BGD/BGD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_082d957e2d36112d",
+    "text": "https://www.financialexpress.com/auto/car-news/bangladeshs-most-expensive-car-crash-rolls-royce-smashes-into-a-divider/3921551/",
+    "url": null
+  }
+]

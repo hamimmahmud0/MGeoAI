@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a16e96e9c618a095",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a16e96e9c618a095",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "送迎中の幼稚園バス事故で男性運転手死亡 園児9人と女性教諭搬送",
+      "source_path": "html/JPN/JPN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0d6ff57e130574f",
+    "text": "送迎中の幼稚園バス事故で男性運転手死亡 園児9人と女性教諭搬送",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1b172451ba67425d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1b172451ba67425d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-29T13:52:00+09:00",
+      "source_path": "html/JPN/JPN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0d6ff57e130574f",
+    "text": "2025-09-29T13:52:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_296d757d77c1ddb7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_296d757d77c1ddb7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A kindergarten bus driver died, while nine children and a teacher were taken to hospital with minor injuries.",
+      "source_path": "html/JPN/JPN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0d6ff57e130574f",
+    "text": "A kindergarten bus driver died, while nine children and a teacher were taken to hospital with minor injuries.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9102d407c9085bfb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9102d407c9085bfb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: FNN Prime Online",
+      "source_path": "html/JPN/JPN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0d6ff57e130574f",
+    "text": "Publisher: FNN Prime Online",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e267d6fe1322852",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e267d6fe1322852",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.fnn.jp/articles/FujiTV/938120",
+      "source_path": "html/JPN/JPN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0d6ff57e130574f",
+    "text": "Original source: https://www.fnn.jp/articles/FujiTV/938120",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a518747b03e852b8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a518747b03e852b8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0d6ff57e130574f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

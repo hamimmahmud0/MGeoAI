@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "386fb5ff7bd175663a4914f2ce509089b57ea4eb68d0a02140a7b3f3848355fb",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "xinhua",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-03-29T07:00:00Z",
+  "publisher": "Xinhua",
+  "schema_version": "1.0.0",
+  "source_id": "src_aa502ed8df09e503",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-03-29T07:00:00+00:00",
+    "source_info_hash": "d6adf0f77153699b",
+    "source_info_path": "html/KEN/KEN-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://english.news.cn/20260329/e5f8d0f062a04395a3641953ea096211/c.html",
+  "timezone": "Africa/Nairobi",
+  "title": "At least 15 killed in road accident in central Kenya"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_461914dbdeffa554",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_461914dbdeffa554",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Egypt bus crash: Two dead and 36 injured as bus carrying foreigners crashes",
+      "source_path": "html/EGY/EGY-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f570ae56efeb56ca",
+    "text": "Egypt bus crash: Two dead and 36 injured as bus carrying foreigners crashes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_882b355c83917d7c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_882b355c83917d7c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-11T02:15:00+02:00",
+      "source_path": "html/EGY/EGY-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f570ae56efeb56ca",
+    "text": "2025-11-11T02:15:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_61b5980a7f208a74",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_61b5980a7f208a74",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "08:15, Tue, Nov 11, 2025 Updated: 08:18, Tue, Nov 11, 2025 Two people have died and 36 have been injured after a bus full of ...",
+      "source_path": "html/EGY/EGY-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f570ae56efeb56ca",
+    "text": "08:15, Tue, Nov 11, 2025 Updated: 08:18, Tue, Nov 11, 2025 Two people have died and 36 have been injured after a bus full of ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6972e5dba4905c56",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6972e5dba4905c56",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Daily Express",
+      "source_path": "html/EGY/EGY-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f570ae56efeb56ca",
+    "text": "Publisher: Daily Express",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d7421f32fd863c61",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d7421f32fd863c61",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.express.co.uk/news/world/2132305/egypt-bus-crash-two-dead",
+      "source_path": "html/EGY/EGY-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f570ae56efeb56ca",
+    "text": "Original source: https://www.express.co.uk/news/world/2132305/egypt-bus-crash-two-dead",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_592fe71f78aabb58",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_592fe71f78aabb58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/EGY/EGY-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f570ae56efeb56ca",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8dabbdf6ab0046c4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8dabbdf6ab0046c4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.express.co.uk/news/world/2132305/egypt-bus-crash-two-dead",
+      "source_path": "html/EGY/EGY-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f570ae56efeb56ca",
+    "text": "https://www.express.co.uk/news/world/2132305/egypt-bus-crash-two-dead",
+    "url": null
+  }
+]

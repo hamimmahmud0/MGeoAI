@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "NPL",
+  "name": "Nepal",
+  "languages": [
+    "ne",
+    "en"
+  ],
+  "timezones": [
+    "Asia/Kathmandu"
+  ],
+  "target_sources": 12
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5d0669b4a8e3dfe7412a753aaa09365d8f8c4f0c7742a817cd4900043fff702e",
+  "country": "New Zealand",
+  "country_code": "NZL",
+  "dependency_group": "newstalk zb",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NZL/NZL-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-06T00:04:00Z",
+  "publisher": "Newstalk ZB",
+  "schema_version": "1.0.0",
+  "source_id": "src_2196f5c3c03b3dcf",
+  "source_metadata": {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-06T00:04:00+00:00",
+    "source_info_hash": "7c34dd98cd647fd1",
+    "source_info_path": "html/NZL/NZL-S005/SOURCE_INFO.md",
+    "timezone": "Pacific/Auckland",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "state highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.newstalkzb.co.nz/news/national/auckland-traffic-chaos-separate-crashes-block-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/",
+  "timezone": "Pacific/Auckland",
+  "title": "One dead as Auckland highways crashes cause traffic chaos"
+}

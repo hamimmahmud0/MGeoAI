@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1b7eec311b0f99fc",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1b7eec311b0f99fc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dos muertos y 15 heridos deja accidente de bus en la vía Cuenca-Azogues",
+      "source_path": "html/ECU/ECU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e96cb931107d3ee2",
+    "text": "Dos muertos y 15 heridos deja accidente de bus en la vía Cuenca-Azogues",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_658863b662ccab94",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_658863b662ccab94",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-18T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e96cb931107d3ee2",
+    "text": "2026-07-18T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ac613cbb5f9298c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ac613cbb5f9298c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: eltelegrafo.com.ec",
+      "source_path": "html/ECU/ECU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e96cb931107d3ee2",
+    "text": "Publisher: eltelegrafo.com.ec",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7a6414d3821881bd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7a6414d3821881bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.eltelegrafo.com.ec/noticias/nacionales/210/dos-muertos-y-15-heridos-deja-accidente-de-bus-en-la-via-cuenca-azogues",
+      "source_path": "html/ECU/ECU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e96cb931107d3ee2",
+    "text": "Original source: https://www.eltelegrafo.com.ec/noticias/nacionales/210/dos-muertos-y-15-heridos-deja-accidente-de-bus-en-la-via-cuenca-azogues",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5c0d56adbc61422c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5c0d56adbc61422c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e96cb931107d3ee2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e89a0206d7d6e02f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e89a0206d7d6e02f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.eltelegrafo.com.ec/noticias/nacionales/210/dos-muertos-y-15-heridos-deja-accidente-de-bus-en-la-via-cuenca-azogues",
+      "source_path": "html/ECU/ECU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e96cb931107d3ee2",
+    "text": "https://www.eltelegrafo.com.ec/noticias/nacionales/210/dos-muertos-y-15-heridos-deja-accidente-de-bus-en-la-via-cuenca-azogues",
+    "url": null
+  }
+]

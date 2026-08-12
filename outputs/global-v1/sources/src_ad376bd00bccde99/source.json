@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "08ce860bcbcc1726efbed45c18f85edd199792107159a24aa54e4d8c32f7c9b2",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "gp.se",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-03-09T07:00:00Z",
+  "publisher": "gp.se",
+  "schema_version": "1.0.0",
+  "source_id": "src_ad376bd00bccde99",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2026-03-09T07:00:00+00:00",
+    "source_info_hash": "3e377458fad51f6e",
+    "source_info_path": "html/SWE/SWE-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.gp.se/nyheter/sverige/bil-fattade-eld-man-dod-efter-trafikolycka.9d893280-d90f-5297-8904-c412d65a1219",
+  "timezone": "Europe/Stockholm",
+  "title": "Bil fattade eld – man död efter trafikolycka"
+}

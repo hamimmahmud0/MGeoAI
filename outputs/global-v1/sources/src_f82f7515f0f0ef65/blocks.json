@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_18cf2458df602cc1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_18cf2458df602cc1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Charges to be laid after schoolboy cyclists hit, dog killed in Auckland",
+      "source_path": "html/NZL/NZL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f82f7515f0f0ef65",
+    "text": "Charges to be laid after schoolboy cyclists hit, dog killed in Auckland",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fb15652017d927dc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_fb15652017d927dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-05T02:37:00+12:00",
+      "source_path": "html/NZL/NZL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f82f7515f0f0ef65",
+    "text": "2026-08-05T02:37:00+12:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6798bd217f0470e5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6798bd217f0470e5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A person has been arrested after reports a stolen car hit a group of cyclists in Auckland, with five people hurt and a dog killed. ...",
+      "source_path": "html/NZL/NZL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f82f7515f0f0ef65",
+    "text": "A person has been arrested after reports a stolen car hit a group of cyclists in Auckland, with five people hurt and a dog killed. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9ecfb3227b5e115",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9ecfb3227b5e115",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Otago Daily Times",
+      "source_path": "html/NZL/NZL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f82f7515f0f0ef65",
+    "text": "Publisher: Otago Daily Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3435dfb285f94dab",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3435dfb285f94dab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.odt.co.nz/news/national/person-in-custody-three-in-hospital-after-serious-auckland-incident-llttzdx8",
+      "source_path": "html/NZL/NZL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f82f7515f0f0ef65",
+    "text": "Original source: https://www.odt.co.nz/news/national/person-in-custody-three-in-hospital-after-serious-auckland-incident-llttzdx8",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0c39b94e3fb69a2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e0c39b94e3fb69a2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NZL/NZL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f82f7515f0f0ef65",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9bd6e103e295494e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9bd6e103e295494e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.odt.co.nz/news/national/person-in-custody-three-in-hospital-after-serious-auckland-incident-llttzdx8",
+      "source_path": "html/NZL/NZL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f82f7515f0f0ef65",
+    "text": "https://www.odt.co.nz/news/national/person-in-custody-three-in-hospital-after-serious-auckland-incident-llttzdx8",
+    "url": null
+  }
+]

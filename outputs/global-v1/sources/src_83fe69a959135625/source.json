@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "15a8e1621501a8e7b205f51bc2a68c0c016fa3e5ac1e2344782c6fd19e2faf47",
+  "country": "Italy",
+  "country_code": "ITA",
+  "dependency_group": "rainews",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "it"
+  ],
+  "local_path": "html/ITA/ITA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-19T07:00:00Z",
+  "publisher": "RaiNews",
+  "schema_version": "1.0.0",
+  "source_id": "src_83fe69a959135625",
+  "source_metadata": {
+    "country": "Italy",
+    "country_code": "ITA",
+    "languages": [
+      "it"
+    ],
+    "published_at": "2026-06-19T07:00:00+00:00",
+    "source_info_hash": "f4f9dc9633b2e88e",
+    "source_info_path": "html/ITA/ITA-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Rome",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "incidente stradale",
+      "scontro tra veicoli",
+      "incidente automobilistico",
+      "incidente autobus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.rainews.it/articoli/2026/06/una-bimba-di-4-anni-muore-in-un-incidente-stradale-due-feriti-ancora-da-stabilire-la-dinamica-2d859fcd-6394-4559-8531-fed7a0190046.html",
+  "timezone": "Europe/Rome",
+  "title": "Una bimba di 4 anni muore in un incidente stradale, due feriti. Ancora da stabilire la dinamica"
+}

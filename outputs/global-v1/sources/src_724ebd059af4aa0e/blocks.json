@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_21d657c789557133",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_21d657c789557133",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Sete membros de time de basquete morrem em acidente de ônibus no Ceará; dezenas ficam feridos",
+      "source_path": "html/BRA/BRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_724ebd059af4aa0e",
+    "text": "Sete membros de time de basquete morrem em acidente de ônibus no Ceará; dezenas ficam feridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b2d9723708df23c0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b2d9723708df23c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-15T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_724ebd059af4aa0e",
+    "text": "2026-06-15T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b6d63c54fbd662f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2b6d63c54fbd662f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Diamante Online",
+      "source_path": "html/BRA/BRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_724ebd059af4aa0e",
+    "text": "Publisher: Diamante Online",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5dedd8f5661b3ced",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5dedd8f5661b3ced",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.diamanteonline.com.br/noticia/brasil/2026/06/15/sete-membros-de-time-de-basquete-morrem-em-acidente-de-onibus-no-ceara-dezenas-ficam-feridos/49856.html",
+      "source_path": "html/BRA/BRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_724ebd059af4aa0e",
+    "text": "Original source: https://www.diamanteonline.com.br/noticia/brasil/2026/06/15/sete-membros-de-time-de-basquete-morrem-em-acidente-de-onibus-no-ceara-dezenas-ficam-feridos/49856.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6ad62c12d6e11204",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6ad62c12d6e11204",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_724ebd059af4aa0e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_241f46c2c4e77d69",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_241f46c2c4e77d69",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.diamanteonline.com.br/noticia/brasil/2026/06/15/sete-membros-de-time-de-basquete-morrem-em-acidente-de-onibus-no-ceara-dezenas-ficam-feridos/49856.html",
+      "source_path": "html/BRA/BRA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_724ebd059af4aa0e",
+    "text": "https://www.diamanteonline.com.br/noticia/brasil/2026/06/15/sete-membros-de-time-de-basquete-morrem-em-acidente-de-onibus-no-ceara-dezenas-ficam-feridos/49856.html",
+    "url": null
+  }
+]

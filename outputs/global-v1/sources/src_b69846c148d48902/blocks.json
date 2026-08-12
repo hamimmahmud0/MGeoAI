@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ab53d110d3df7c4a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ab53d110d3df7c4a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Terrifying Footage Captures the Moment a Car Went Airborne and Crashed Into a Bus",
+      "source_path": "html/AUS/AUS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b69846c148d48902",
+    "text": "Terrifying Footage Captures the Moment a Car Went Airborne and Crashed Into a Bus",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1146d2fcf1ef9367",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1146d2fcf1ef9367",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-02T15:50:00+10:00",
+      "source_path": "html/AUS/AUS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b69846c148d48902",
+    "text": "2026-08-02T15:50:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_13948ca6a9c0cf6c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_13948ca6a9c0cf6c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "You’re standing on the street watching a car go flying down the road towards a bus. As you wait for the car to slam on ...",
+      "source_path": "html/AUS/AUS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b69846c148d48902",
+    "text": "You’re standing on the street watching a car go flying down the road towards a bus. As you wait for the car to slam on ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ab5adf021647ace9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ab5adf021647ace9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yahoo",
+      "source_path": "html/AUS/AUS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b69846c148d48902",
+    "text": "Publisher: Yahoo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_04d065fa506c65a3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_04d065fa506c65a3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.yahoo.com/news/world/articles/terrifying-footage-captures-moment-car-125001017.html",
+      "source_path": "html/AUS/AUS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b69846c148d48902",
+    "text": "Original source: https://www.yahoo.com/news/world/articles/terrifying-footage-captures-moment-car-125001017.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b7575efb398a44c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0b7575efb398a44c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b69846c148d48902",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dbc8e0c96c1485af",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dbc8e0c96c1485af",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.yahoo.com/news/world/articles/terrifying-footage-captures-moment-car-125001017.html",
+      "source_path": "html/AUS/AUS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b69846c148d48902",
+    "text": "https://www.yahoo.com/news/world/articles/terrifying-footage-captures-moment-car-125001017.html",
+    "url": null
+  }
+]

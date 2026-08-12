@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "768607d34750e1e375589347b799d88125121cb639be0ade92736c555cdd9139",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "polsatnews.pl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-02-19T08:00:00Z",
+  "publisher": "PolsatNews.pl",
+  "schema_version": "1.0.0",
+  "source_id": "src_b20022becf73e8ff",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-02-19T08:00:00+00:00",
+    "source_info_hash": "6d75f75847c4fb6a",
+    "source_info_path": "html/POL/POL-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.polsatnews.pl/wiadomosc/2026-02-19/taksowka-zmiazdzona-przez-ciezarowke-w-delhi-nie-zyje-polski-steward/",
+  "timezone": "Europe/Warsaw",
+  "title": "Polak zginął w wypadku drogowym. Tragedia w Indiach"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5ce6b948e8a40c7b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5ce6b948e8a40c7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Cavan: Woman dies and child injured in two-vehicle collision",
+      "source_path": "html/IRL/IRL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb03509882877e9d",
+    "text": "Cavan: Woman dies and child injured in two-vehicle collision",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3f4dec453b14a948",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3f4dec453b14a948",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-25T08:00:00+01:00",
+      "source_path": "html/IRL/IRL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb03509882877e9d",
+    "text": "2026-07-25T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_940cd6e5b735d956",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_940cd6e5b735d956",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: BBC",
+      "source_path": "html/IRL/IRL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb03509882877e9d",
+    "text": "Publisher: BBC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9072f3d1a20d5447",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9072f3d1a20d5447",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bbc.co.uk/news/articles/cx2j0r92j0eo",
+      "source_path": "html/IRL/IRL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb03509882877e9d",
+    "text": "Original source: https://www.bbc.co.uk/news/articles/cx2j0r92j0eo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2ca3d599506b7395",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2ca3d599506b7395",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb03509882877e9d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84ad281c1cc733af",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84ad281c1cc733af",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bbc.co.uk/news/articles/cx2j0r92j0eo",
+      "source_path": "html/IRL/IRL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cb03509882877e9d",
+    "text": "https://www.bbc.co.uk/news/articles/cx2j0r92j0eo",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "39a92a675f45e9fdb3bc142b844ad4aea7d2852d1e355661845d9e1b50ecf9cb",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "الشرق الأوسط",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-08-20T21:52:00Z",
+  "publisher": "الشرق الأوسط",
+  "schema_version": "1.0.0",
+  "source_id": "src_e7a03b87d8c764b2",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2022-08-20T21:52:00+00:00",
+    "source_info_hash": "f0f0071ef8bd74f2",
+    "source_info_path": "html/TUR/TUR-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://english.aawsat.com/home/article/3828161/scores-killed-and-injured-2-t%C3%BCrkiye-road-accidents",
+  "timezone": "Europe/Istanbul",
+  "title": "Scores Killed and Injured in 2 Türkiye Road Accidents"
+}

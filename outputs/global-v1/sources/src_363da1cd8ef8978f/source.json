@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "511189b5a59f25e483cc1a3833e7721f3aa49da9f61b9f29859ad941fca8785f",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "la prensa - noticias de nicaragua y el mundo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-25T07:00:00Z",
+  "publisher": "La Prensa - Noticias de Nicaragua y el mundo",
+  "schema_version": "1.0.0",
+  "source_id": "src_363da1cd8ef8978f",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-25T07:00:00+00:00",
+    "source_info_hash": "1eb38d4bed64d209",
+    "source_info_path": "html/CRI/CRI-S007/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.laprensani.com/2026/07/25/sucesos/3746360-dos-muertos-choque-patrulla-policial-testigos-oficial-responsable",
+  "timezone": "America/Costa_Rica",
+  "title": "Dos muertos en choque con patrulla policial; testigos señalan al oficial como responsable"
+}

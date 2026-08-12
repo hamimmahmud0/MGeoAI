@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "bfca667e1a0251cdaadef1d52dac0764c8ced8459293f5577f6e02e362e03d84",
+  "country": "South Africa",
+  "country_code": "ZAF",
+  "dependency_group": "enca",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "local_path": "html/ZAF/ZAF-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-20T08:00:00Z",
+  "publisher": "eNCA",
+  "schema_version": "1.0.0",
+  "source_id": "src_6b30cfd5cb7bc817",
+  "source_metadata": {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "languages": [
+      "en",
+      "zu",
+      "xh",
+      "af"
+    ],
+    "published_at": "2026-01-20T08:00:00+00:00",
+    "source_info_hash": "eaa47564e7cb2db9",
+    "source_info_path": "html/ZAF/ZAF-S001/SOURCE_INFO.md",
+    "timezone": "Africa/Johannesburg",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "taxi crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.enca.com/news-top-stories/deadly-vaal-crash-sparks-scholar-transport-safety-outcry",
+  "timezone": "Africa/Johannesburg",
+  "title": "Deadly Vaal crash sparks scholar transport safety outcry"
+}

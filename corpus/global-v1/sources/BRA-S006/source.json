@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BRA-S006",
+  "country_code": "BRA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Diamante Online",
+  "canonical_url": "https://www.diamanteonline.com.br/noticia/brasil/2026/06/15/sete-membros-de-time-de-basquete-morrem-em-acidente-de-onibus-no-ceara-dezenas-ficam-feridos/49856.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.diamanteonline.com.br/noticia/brasil/2026/06/15/sete-membros-de-time-de-basquete-morrem-em-acidente-de-onibus-no-ceara-dezenas-ficam-feridos/49856.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=BR%3Apt-419&gl=BR&hl=pt-BR&q=%28%22acidente+de+tr%C3%A2nsito%22+OR+%22acidente+rodovi%C3%A1rio%22+OR+%22colis%C3%A3o+de+ve%C3%ADculos%22+OR+%22acidente+de+%C3%B4nibus%22%29+%28morto+OR+mortos+OR+ferido+OR+feridos%29+%22Brasil%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0ed64d15d0386af5f7fffdd6313315059b92a71bee313719031d69c5328b54e7",
+      "size_bytes": 1246,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "pt"
+  ],
+  "traffic_keywords": [
+    "acidente de trânsito",
+    "acidente rodoviário",
+    "colisão de veículos",
+    "acidente de ônibus"
+  ],
+  "timezone": "America/Sao_Paulo",
+  "captured_at": "2026-08-11T21:57:47Z",
+  "published_at": "2026-06-15T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "diamanteonline.com.br",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BRA-S006"
+}

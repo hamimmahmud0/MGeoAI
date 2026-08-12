@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NLD-S003",
+  "country_code": "NLD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NOS",
+  "canonical_url": "https://nos.nl/artikel/2625043-drie-gewonden-bij-ongeval-met-vier-voertuigen-op-a12-bij-duitse-grens",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://nos.nl/artikel/2625043-drie-gewonden-bij-ongeval-met-vier-voertuigen-op-a12-bij-duitse-grens",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NL%3Anl&gl=NL&hl=nl-NL&q=%28verkeersongeluk+OR+dodelijk+ongeval+OR+botsing%29+Nederland+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0043c1a2da346711ebb277e0805e7c68b12f27ffb7889fdd18ecf912e1961653",
+      "size_bytes": 1041,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "traffic_keywords": [
+    "verkeersongeval",
+    "auto-ongeluk",
+    "botsing voertuigen",
+    "busongeluk"
+  ],
+  "timezone": "Europe/Amsterdam",
+  "captured_at": "2026-08-11T21:36:54.672553Z",
+  "published_at": "2026-07-31T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nos.nl",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NLD-S003"
+}

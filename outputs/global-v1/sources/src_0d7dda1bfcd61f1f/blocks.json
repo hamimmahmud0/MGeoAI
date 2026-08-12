@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_96e66bab0364fd07",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_96e66bab0364fd07",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Philippines' Duterte 'in Good Hands' after Motorcycle Accident",
+      "source_path": "html/PHL/PHL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d7dda1bfcd61f1f",
+    "text": "Philippines' Duterte 'in Good Hands' after Motorcycle Accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7c4f75863fd0129a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7c4f75863fd0129a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-10-18T08:30:00+08:00",
+      "source_path": "html/PHL/PHL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d7dda1bfcd61f1f",
+    "text": "2019-10-18T08:30:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d0712cda66314923",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d0712cda66314923",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "TEMPO.CO, Manila - The Philippines' President Rodrigo Duterte was slightly injured in a fall from a motorcycle on the grounds of his residence, aides said ...",
+      "source_path": "html/PHL/PHL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d7dda1bfcd61f1f",
+    "text": "TEMPO.CO, Manila - The Philippines' President Rodrigo Duterte was slightly injured in a fall from a motorcycle on the grounds of his residence, aides said ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e6c0e21525189b7d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e6c0e21525189b7d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Tempo",
+      "source_path": "html/PHL/PHL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d7dda1bfcd61f1f",
+    "text": "Publisher: Tempo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e59fd99f3c0a405",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e59fd99f3c0a405",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://en.tempo.co/read/1261159/philippines-duterte-in-good-hands-after-motorcycle-accident",
+      "source_path": "html/PHL/PHL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d7dda1bfcd61f1f",
+    "text": "Original source: https://en.tempo.co/read/1261159/philippines-duterte-in-good-hands-after-motorcycle-accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9559fb0492a074d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9559fb0492a074d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d7dda1bfcd61f1f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cab1546c00c58602",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cab1546c00c58602",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://en.tempo.co/read/1261159/philippines-duterte-in-good-hands-after-motorcycle-accident",
+      "source_path": "html/PHL/PHL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d7dda1bfcd61f1f",
+    "text": "https://en.tempo.co/read/1261159/philippines-duterte-in-good-hands-after-motorcycle-accident",
+    "url": null
+  }
+]

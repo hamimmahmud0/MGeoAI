@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f339abce5865b5ba73cb0c89607e33f6f84ab8b865cf8ee8bb9754601f7a8fb6",
+  "country": "Peru",
+  "country_code": "PER",
+  "dependency_group": "el universo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/PER/PER-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-09T00:44:00Z",
+  "publisher": "El Universo",
+  "schema_version": "1.0.0",
+  "source_id": "src_74d241692c753de1",
+  "source_metadata": {
+    "country": "Peru",
+    "country_code": "PER",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-09T00:44:00+00:00",
+    "source_info_hash": "eb86acd1f0035eee",
+    "source_info_path": "html/PER/PER-S008/SOURCE_INFO.md",
+    "timezone": "America/Lima",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente carretero",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+  "timezone": "America/Lima",
+  "title": "Al menos 13 muertos y cuatro heridos en accidente de tránsito registrado en Perú"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARE-S002",
+  "country_code": "ARE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Daily Star",
+  "canonical_url": "https://www.thedailystar.net/news/bangladesh/accidents-fires/news/bangladeshi-expat-killed-uae-road-accident-3087361",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thedailystar.net/news/bangladesh/accidents-fires/news/bangladeshi-expat-killed-uae-road-accident-3087361",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22UAE%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "7d45c395db9b972b7d77b923b4b590f73f69521c180ce9f3fec55b58ed274fb6",
+      "size_bytes": 1051,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dubai",
+  "captured_at": "2026-08-12T03:40:58.642857+06:00",
+  "published_at": "2022-08-03T11:01:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thedailystar.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARE-S002"
+}

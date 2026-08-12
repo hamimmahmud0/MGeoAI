@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NGA-S001",
+  "country_code": "NGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "ESPN",
+  "canonical_url": "https://www.espn.com/soccer/story/_/id/47549811/anthony-joshua-shares-tribute-friends-killed-nigeria-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.espn.com/soccer/story/_/id/47549811/anthony-joshua-shares-tribute-friends-killed-nigeria-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NG%3Aen&gl=NG&hl=en-NG&q=%28road+crash+OR+traffic+accident+OR+collision%29+Nigeria+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "a75d56cbbe930b22225ee66c07ac107cc1265276b15d61d6a4c31c08ac9fd6ff",
+      "size_bytes": 1063,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus crash",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Lagos",
+  "captured_at": "2026-08-11T21:48:28.207646Z",
+  "published_at": "2026-01-08T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "espn.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NGA-S001"
+}

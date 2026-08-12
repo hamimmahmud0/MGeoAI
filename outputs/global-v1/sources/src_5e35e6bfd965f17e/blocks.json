@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1c176af1da433b7b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1c176af1da433b7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Scores Killed as Two PSVs Collide Head-On in Early Morning Crash",
+      "source_path": "html/KEN/KEN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e35e6bfd965f17e",
+    "text": "Scores Killed as Two PSVs Collide Head-On in Early Morning Crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1e86b344c0b3f0a5",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1e86b344c0b3f0a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-05T11:00:00+03:00",
+      "source_path": "html/KEN/KEN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e35e6bfd965f17e",
+    "text": "2026-01-05T11:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b0448b297be66e5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6b0448b297be66e5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Several people have lost their lives, while others were left with serious injuries after an early morning crash along the Nairobi- Nakuru highway.",
+      "source_path": "html/KEN/KEN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e35e6bfd965f17e",
+    "text": "Several people have lost their lives, while others were left with serious injuries after an early morning crash along the Nairobi- Nakuru highway.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d75a9f9bb257aee7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d75a9f9bb257aee7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Kenyans.co.ke",
+      "source_path": "html/KEN/KEN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e35e6bfd965f17e",
+    "text": "Publisher: Kenyans.co.ke",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_45f7f3c6dd70fa25",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_45f7f3c6dd70fa25",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.kenyans.co.ke/news/119527-scores-feared-dead-accident-karai-along-nairobi-nakuru-highway",
+      "source_path": "html/KEN/KEN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e35e6bfd965f17e",
+    "text": "Original source: https://www.kenyans.co.ke/news/119527-scores-feared-dead-accident-karai-along-nairobi-nakuru-highway",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_421cede283d3a2ee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_421cede283d3a2ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e35e6bfd965f17e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_53d3fe60923e7ad9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_53d3fe60923e7ad9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.kenyans.co.ke/news/119527-scores-feared-dead-accident-karai-along-nairobi-nakuru-highway",
+      "source_path": "html/KEN/KEN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e35e6bfd965f17e",
+    "text": "https://www.kenyans.co.ke/news/119527-scores-feared-dead-accident-karai-along-nairobi-nakuru-highway",
+    "url": null
+  }
+]

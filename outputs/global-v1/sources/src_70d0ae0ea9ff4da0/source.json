@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "48b42528253d392e07328725f7d426916d0c54d251fd5ecea291eb2555d77952",
+  "country": "South Korea",
+  "country_code": "KOR",
+  "dependency_group": "조선일보",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/KOR/KOR-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-10T06:38:00Z",
+  "publisher": "조선일보",
+  "schema_version": "1.0.0",
+  "source_id": "src_70d0ae0ea9ff4da0",
+  "source_metadata": {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-10T06:38:00+00:00",
+    "source_info_hash": "bc562b6e235258ab",
+    "source_info_path": "html/KOR/KOR-S006/SOURCE_INFO.md",
+    "timezone": "Asia/Seoul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "교통사고",
+      "차량 충돌",
+      "버스 사고",
+      "고속도로 사고"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://biz.chosun.com/en/en-society/2026/07/10/QUYB36B5LVEFJNZDIHFD34OW7U/",
+  "timezone": "Asia/Seoul",
+  "title": "Drunk driver in South Korea kills motorcyclist, gets 12-year sentence"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KOR-S002",
+  "country_code": "KOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "scmp.com",
+  "canonical_url": "https://www.scmp.com/news/asia/east-asia/article/3332908/south-koreas-deadly-bucheon-crash-prompts-calls-tougher-rules-older-drivers",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3332908/south-koreas-deadly-bucheon-crash-prompts-calls-tougher-rules-older-drivers",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Korea%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e9eacd3f33610d75529038db225d6ae26515b6a791d0b2c914df6d394b10373a",
+      "size_bytes": 1180,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "교통사고",
+    "차량 충돌",
+    "버스 사고",
+    "고속도로 사고"
+  ],
+  "timezone": "Asia/Seoul",
+  "captured_at": "2026-08-12T03:40:13.455049+06:00",
+  "published_at": "2025-11-15T04:28:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "scmp.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KOR-S002"
+}

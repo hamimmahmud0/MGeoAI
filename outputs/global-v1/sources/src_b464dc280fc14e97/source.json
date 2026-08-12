@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d26c603620743563704af7c735cf9d2e3b3362678b575e68a73ee9c5dbbb2d88",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "rp online",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-10T07:00:00Z",
+  "publisher": "RP Online",
+  "schema_version": "1.0.0",
+  "source_id": "src_b464dc280fc14e97",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-06-10T07:00:00+00:00",
+    "source_info_hash": "a8a0b1df1f9067a8",
+    "source_info_path": "html/DEU/DEU-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://rp-online.de/panorama/deutschland/busunfall-oberbayern-verletzte-nicht-mehr-in-akuter-lebensgefahr_aid-149715803",
+  "timezone": "Europe/Berlin",
+  "title": "Schulausflug in Oberbayern: Verletzte nach Busunfall nicht mehr in akuter Lebensgefahr"
+}

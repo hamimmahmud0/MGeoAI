@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "06c787af0b51990ab33b02c9ef94a2c322ee4e588bc113e1283cf4b0bd82b7f3",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "aftenposten",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-29T08:00:00Z",
+  "publisher": "Aftenposten",
+  "schema_version": "1.0.0",
+  "source_id": "src_41c5b5f4f9d697e6",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2025-12-29T08:00:00+00:00",
+    "source_info_hash": "73093d2203d905bb",
+    "source_info_path": "html/NOR/NOR-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aftenposten.no/norge/i/Wvb3AK/mann-i-70-aarene-omkom-i-tragisk-ulykke-i-salangen-i-troms",
+  "timezone": "Europe/Oslo",
+  "title": "Mann i 70-årene omkom i tragisk ulykke i Salangen i Troms"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cef956202f8400f3",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cef956202f8400f3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "16-year-old girl dead, 5 other teens hurt after single-car crash on Columbus Boulevard in South Philadelphia",
+      "source_path": "html/USA/USA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2923f613ff39828b",
+    "text": "16-year-old girl dead, 5 other teens hurt after single-car crash on Columbus Boulevard in South Philadelphia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6ba341ea43e8dad1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6ba341ea43e8dad1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-24T02:00:00-05:00",
+      "source_path": "html/USA/USA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2923f613ff39828b",
+    "text": "2026-07-24T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_87c5ce65499c23ab",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_87c5ce65499c23ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 6abc.com",
+      "source_path": "html/USA/USA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2923f613ff39828b",
+    "text": "Publisher: 6abc.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5904b7cbc36d2432",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5904b7cbc36d2432",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://6abc.com/post/1-dead-5-hurt-single-car-crash-columbus-boulevard-south-philadelphia/19567461/",
+      "source_path": "html/USA/USA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2923f613ff39828b",
+    "text": "Original source: https://6abc.com/post/1-dead-5-hurt-single-car-crash-columbus-boulevard-south-philadelphia/19567461/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_833314a809a18eb7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_833314a809a18eb7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2923f613ff39828b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4e0b2183c6498424",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4e0b2183c6498424",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://6abc.com/post/1-dead-5-hurt-single-car-crash-columbus-boulevard-south-philadelphia/19567461/",
+      "source_path": "html/USA/USA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2923f613ff39828b",
+    "text": "https://6abc.com/post/1-dead-5-hurt-single-car-crash-columbus-boulevard-south-philadelphia/19567461/",
+    "url": null
+  }
+]

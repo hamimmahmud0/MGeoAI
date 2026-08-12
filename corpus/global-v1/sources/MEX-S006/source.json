@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MEX-S006",
+  "country_code": "MEX",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "El Universo",
+  "canonical_url": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=MX%3Aes-419&gl=MX&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22accidente+carretero%22+OR+%22choque+vehicular%22+OR+%22colisi%C3%B3n+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22M%C3%A9xico%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "528decca81e84ad1639628737f7bd4c9ebb24485e2d4a6f81e9a95a56ee4e802",
+      "size_bytes": 1122,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "accidente carretero",
+    "choque vehicular",
+    "colisión vial"
+  ],
+  "timezone": "America/Mexico_City",
+  "captured_at": "2026-08-11T21:57:46Z",
+  "published_at": "2026-08-09T00:44:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "eluniverso.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MEX-S006"
+}

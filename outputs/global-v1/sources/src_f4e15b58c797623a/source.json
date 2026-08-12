@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f56c66bcd54fcbfe2081086f17a01a5bdb2d521ba63c9ded3534d103ade9ed4d",
+  "country": "Sri Lanka",
+  "country_code": "LKA",
+  "dependency_group": "news first",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/LKA/LKA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-11T04:42:00Z",
+  "publisher": "News First",
+  "schema_version": "1.0.0",
+  "source_id": "src_f4e15b58c797623a",
+  "source_metadata": {
+    "country": "Sri Lanka",
+    "country_code": "LKA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-11T04:42:00+00:00",
+    "source_info_hash": "5fe887d99fb3a534",
+    "source_info_path": "html/LKA/LKA-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Colombo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "මාර්ග අනතුර",
+      "சாலை விபத்து",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://english.newsfirst.lk/2026/08/11/13-injured-in-medawachchiya-bus-crash",
+  "timezone": "Asia/Colombo",
+  "title": "13 Injured in Medawachchiya Bus Crash"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "CHL",
+  "name": "Chile",
+  "languages": [
+    "es"
+  ],
+  "timezones": [
+    "America/Santiago"
+  ],
+  "target_sources": 12
+}

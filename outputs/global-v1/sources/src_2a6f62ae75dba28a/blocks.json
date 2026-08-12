@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a517945a06dd181f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a517945a06dd181f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "7 killed, 15 injured after ambulance collides with three-wheeled motorcycle in S. Tanzania",
+      "source_path": "html/TZA/TZA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2a6f62ae75dba28a",
+    "text": "7 killed, 15 injured after ambulance collides with three-wheeled motorcycle in S. Tanzania",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0048dd4668a6c85c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0048dd4668a6c85c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-04-18T20:00:00+03:00",
+      "source_path": "html/TZA/TZA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2a6f62ae75dba28a",
+    "text": "2025-04-18T20:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8166ba905084cbda",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8166ba905084cbda",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "DAR ES SALAAM, April 19 (Xinhua) -- At least seven people were killed and 15 others injured on Saturday after an ambulance collided with a ...",
+      "source_path": "html/TZA/TZA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2a6f62ae75dba28a",
+    "text": "DAR ES SALAAM, April 19 (Xinhua) -- At least seven people were killed and 15 others injured on Saturday after an ambulance collided with a ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_06c3268a8e5e18d5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_06c3268a8e5e18d5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: China Internet Information Center",
+      "source_path": "html/TZA/TZA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2a6f62ae75dba28a",
+    "text": "Publisher: China Internet Information Center",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eaf6ef5621ffed79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eaf6ef5621ffed79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2025-04/19/content_117834027.htm",
+      "source_path": "html/TZA/TZA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2a6f62ae75dba28a",
+    "text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2025-04/19/content_117834027.htm",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fb042c784167b502",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fb042c784167b502",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2a6f62ae75dba28a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7bbeefe974f01d6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a7bbeefe974f01d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.china.org.cn/world/Off_the_Wire/2025-04/19/content_117834027.htm",
+      "source_path": "html/TZA/TZA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2a6f62ae75dba28a",
+    "text": "https://www.china.org.cn/world/Off_the_Wire/2025-04/19/content_117834027.htm",
+    "url": null
+  }
+]

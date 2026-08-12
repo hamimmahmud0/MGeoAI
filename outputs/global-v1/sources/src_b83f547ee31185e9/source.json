@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9aceab921ca9ad83a63c7b6e99c0f876140cd06db7125c5a437dcff489778f15",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "yonhap news agency",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2023-06-11T16:05:00Z",
+  "publisher": "Yonhap News Agency",
+  "schema_version": "1.0.0",
+  "source_id": "src_b83f547ee31185e9",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2023-06-11T16:05:00+00:00",
+    "source_info_hash": "0878f0a01dc5972b",
+    "source_info_path": "html/VNM/VNM-S005/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://en.yna.co.kr/view/AEN20230611003600315",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "22 S. Korean nationals wounded in bus accident near Hanoi"
+}

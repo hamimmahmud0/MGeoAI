@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5be0e4accd73d9f9bbea6a2b80247b042f0290aca6d231ab95b7f62924253c50",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "cnn brasil",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-01T07:00:00Z",
+  "publisher": "CNN Brasil",
+  "schema_version": "1.0.0",
+  "source_id": "src_5e136dc344c0c1d6",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-07-01T07:00:00+00:00",
+    "source_info_hash": "3d66408f3cdf1300",
+    "source_info_path": "html/BRA/BRA-S004/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.cnnbrasil.com.br/internacional/acidente-de-onibus-na-espanha-deixa-feridos/",
+  "timezone": "America/Sao_Paulo",
+  "title": "Acidente de ônibus na Espanha deixa ao menos 44 feridos"
+}

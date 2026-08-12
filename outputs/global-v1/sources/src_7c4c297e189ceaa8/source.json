@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "65c66fb2a036148a29f569824501069edb8f6d7e3efaa3b5a08540a2ad07d04d",
+  "country": "Indonesia",
+  "country_code": "IDN",
+  "dependency_group": "manilatimes",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IDN/IDN-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-05-12T09:25:00Z",
+  "publisher": "manilatimes",
+  "schema_version": "1.0.0",
+  "source_id": "src_7c4c297e189ceaa8",
+  "source_metadata": {
+    "country": "Indonesia",
+    "country_code": "IDN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-05-12T09:25:00+00:00",
+    "source_info_hash": "6ed9095e0232f9df",
+    "source_info_path": "html/IDN/IDN-S007/SOURCE_INFO.md",
+    "timezone": "Asia/Jakarta",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kecelakaan lalu lintas",
+      "tabrakan kendaraan",
+      "kecelakaan bus",
+      "kecelakaan jalan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.manilatimes.net/2024/05/13/world/asia-oceania/11-killed-in-indonesia-road-accident/1945949",
+  "timezone": "Asia/Jakarta",
+  "title": "11 killed in Indonesia road accident"
+}

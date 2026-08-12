@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NPL-S006",
+  "country_code": "NPL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "India.com",
+  "canonical_url": "https://www.india.com/news/india/nepal-bus-accident-mea-expresses-condolences-over-indian-nationals-deaths-issues-helpline-numbers-7189699/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.india.com/news/india/nepal-bus-accident-mea-expresses-condolences-over-indian-nationals-deaths-issues-helpline-numbers-7189699/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Nepal%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "68d11a8e106c642c2f85234cf340b6eeade12e9881070d166e0230da2c189a20",
+      "size_bytes": 1244,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "सडक दुर्घटना",
+    "बस दुर्घटना",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kathmandu",
+  "captured_at": "2026-08-12T03:55:02.409873+06:00",
+  "published_at": "2024-08-23T18:48:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "india.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NPL-S006"
+}

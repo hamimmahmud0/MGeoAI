@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "44f3f97e5263d346ec91abbd29ababc9774e5cd2b1306856aee27eb318eea316",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "de último minuto",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-22T07:00:00Z",
+  "publisher": "De Último Minuto",
+  "schema_version": "1.0.0",
+  "source_id": "src_484ca1ed7a684a08",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-22T07:00:00+00:00",
+    "source_info_hash": "c8f2644f6fd4af1f",
+    "source_info_path": "html/CRI/CRI-S003/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://deultimominuto.net/nacionales/joven-muere-y-dos-menores-resultan-heridos-en-accidente-de-transito-en-el-seibo/",
+  "timezone": "America/Costa_Rica",
+  "title": "Joven muere y dos menores resultan heridos en accidente de tránsito en El Seibo"
+}

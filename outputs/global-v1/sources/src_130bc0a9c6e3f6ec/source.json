@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4215803be620f15caf988523f662e36282490090e43e0b5048440110d0f7bd48",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "the nightly",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-03T20:48:00Z",
+  "publisher": "The Nightly",
+  "schema_version": "1.0.0",
+  "source_id": "src_130bc0a9c6e3f6ec",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-03T20:48:00+00:00",
+    "source_info_hash": "60ed532d4b283c80",
+    "source_info_path": "html/AUS/AUS-S001/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://thenightly.com.au/australia/queensland/brisbane-bus-crash-footage-car-becomes-airborne-before-smashing-into-bus-in-dramatic-new-cctv-c-22673160",
+  "timezone": "Australia/Sydney",
+  "title": "Brisbane bus crash footage: Car becomes airborne before smashing into bus in dramatic new CCTV"
+}

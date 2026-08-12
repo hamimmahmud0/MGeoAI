@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_7102a5f55ce54034",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_7102a5f55ce54034",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nine injured in northern Sydney as public bus crashes into medical centre at Ryde",
+      "source_path": "html/AUS/AUS-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fd83d7f69eb5a9b4",
+    "text": "Nine injured in northern Sydney as public bus crashes into medical centre at Ryde",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eeaf89169d52e338",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_eeaf89169d52e338",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-29T06:19:00+11:00",
+      "source_path": "html/AUS/AUS-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fd83d7f69eb5a9b4",
+    "text": "2025-12-29T06:19:00+11:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ca24446aab4cd6c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ca24446aab4cd6c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Seven bus passengers and the bus driver were injured when the bus and a car collided on Lane Cove Rd at North Ryde, sending the ...",
+      "source_path": "html/AUS/AUS-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fd83d7f69eb5a9b4",
+    "text": "Seven bus passengers and the bus driver were injured when the bus and a car collided on Lane Cove Rd at North Ryde, sending the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8656350c19019980",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8656350c19019980",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 7NEWS Australia",
+      "source_path": "html/AUS/AUS-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fd83d7f69eb5a9b4",
+    "text": "Publisher: 7NEWS Australia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_55f3ab1b8060d9a0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_55f3ab1b8060d9a0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://7news.com.au/news/nine-injured-in-northern-sydney-as-public-bus-crashes-into-medical-centre-at-ryde-c-21147946",
+      "source_path": "html/AUS/AUS-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fd83d7f69eb5a9b4",
+    "text": "Original source: https://7news.com.au/news/nine-injured-in-northern-sydney-as-public-bus-crashes-into-medical-centre-at-ryde-c-21147946",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e63632a5cedd177",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e63632a5cedd177",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fd83d7f69eb5a9b4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09408e57826abe77",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09408e57826abe77",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://7news.com.au/news/nine-injured-in-northern-sydney-as-public-bus-crashes-into-medical-centre-at-ryde-c-21147946",
+      "source_path": "html/AUS/AUS-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fd83d7f69eb5a9b4",
+    "text": "https://7news.com.au/news/nine-injured-in-northern-sydney-as-public-bus-crashes-into-medical-centre-at-ryde-c-21147946",
+    "url": null
+  }
+]

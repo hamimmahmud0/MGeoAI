@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6e7a076a5b68160b0573933c82d61de57bd52fb030692c1601b4e270d9da8939",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "bdnews24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-07-18T16:01:00Z",
+  "publisher": "bdnews24",
+  "schema_version": "1.0.0",
+  "source_id": "src_f9e68f35577136f8",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2019-07-18T16:01:00+00:00",
+    "source_info_hash": "3f0a4781776f9c75",
+    "source_info_path": "html/TUR/TUR-S001/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/bangladesh/bangladeshis-reportedly-among-15-killed-in-turkey-migrant-bus-crash",
+  "timezone": "Europe/Istanbul",
+  "title": "Bangladeshis reportedly among 15 killed in Turkey migrant bus crash"
+}

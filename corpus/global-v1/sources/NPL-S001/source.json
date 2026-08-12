@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NPL-S001",
+  "country_code": "NPL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "India.com",
+  "canonical_url": "https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Nepal%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "007bd512fb0398c202bb64799e3b7401cbcd9ca3cf92a7cb0004689d3fcdb9d1",
+      "size_bytes": 1236,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "सडक दुर्घटना",
+    "बस दुर्घटना",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kathmandu",
+  "captured_at": "2026-08-12T03:55:02.409883+06:00",
+  "published_at": "2024-08-23T05:55:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "india.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NPL-S001"
+}

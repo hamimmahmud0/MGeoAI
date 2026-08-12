@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "52ba53b4337bbf3cad89c0f4b19d48541c151be0f7ab75700025cba1b9539e93",
+  "country": "South Korea",
+  "country_code": "KOR",
+  "dependency_group": "the korea times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/KOR/KOR-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-11-15T04:00:00Z",
+  "publisher": "The Korea Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_80cd31c098d3b58d",
+  "source_metadata": {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-11-15T04:00:00+00:00",
+    "source_info_hash": "f36ee50b043bbc2c",
+    "source_info_path": "html/KOR/KOR-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Seoul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "교통사고",
+      "차량 충돌",
+      "버스 사고",
+      "고속도로 사고"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.koreatimes.co.kr/southkorea/society/20251115/bucheon-crash-renews-debate-on-older-drivers",
+  "timezone": "Asia/Seoul",
+  "title": "Bucheon crash renews debate on older drivers"
+}

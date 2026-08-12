@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CHL-S009",
+  "country_code": "CHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "La Tercera",
+  "canonical_url": "https://www.latercera.com/nacional/noticia/un-fallecido-y-tres-heridos-deja-accidente-de-transito-en-maipu/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.latercera.com/nacional/noticia/un-fallecido-y-tres-heridos-deja-accidente-de-transito-en-maipu/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CL%3Aes-419&gl=CL&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22colisi%C3%B3n+vial%22+OR+%22accidente+carretero%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Chile%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "fd10ddededb94bb6c0ec524ba421b87ed775a82c8101a8eb2dd3f49dc6a868c4",
+      "size_bytes": 983,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "colisión vial",
+    "accidente carretero"
+  ],
+  "timezone": "America/Santiago",
+  "captured_at": "2026-08-11T21:50:49Z",
+  "published_at": "2026-05-24T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "latercera.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CHL-S009"
+}

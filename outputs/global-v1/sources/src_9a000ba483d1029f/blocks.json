@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ade1e9d5fdf808bd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ade1e9d5fdf808bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "9 killed in Sylhet bus crash, 5-member probe committee formed",
+      "source_path": "html/BGD/BGD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9a000ba483d1029f",
+    "text": "9 killed in Sylhet bus crash, 5-member probe committee formed",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_62c44a808ae6eed7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_62c44a808ae6eed7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T16:58:00+06:00",
+      "source_path": "html/BGD/BGD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9a000ba483d1029f",
+    "text": "2026-08-08T16:58:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9836ba97fc1e90b8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9836ba97fc1e90b8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The committee has five working days to determine the cause of yesterday's head-on collision, with speeding and driver fatigue among the preliminary possibilities.",
+      "source_path": "html/BGD/BGD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9a000ba483d1029f",
+    "text": "The committee has five working days to determine the cause of yesterday's head-on collision, with speeding and driver fatigue among the preliminary possibilities.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4b84ded9be1a11e9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4b84ded9be1a11e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Business Standard",
+      "source_path": "html/BGD/BGD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9a000ba483d1029f",
+    "text": "Publisher: The Business Standard",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a82902eba7adaa8d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a82902eba7adaa8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.tbsnews.net/bangladesh/9-killed-sylhet-bus-crash-5-member-probe-committee-formed-1509656",
+      "source_path": "html/BGD/BGD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9a000ba483d1029f",
+    "text": "Original source: https://www.tbsnews.net/bangladesh/9-killed-sylhet-bus-crash-5-member-probe-committee-formed-1509656",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_64c3949e40c7a1de",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_64c3949e40c7a1de",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9a000ba483d1029f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3012a6a8602b7e62",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3012a6a8602b7e62",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.tbsnews.net/bangladesh/9-killed-sylhet-bus-crash-5-member-probe-committee-formed-1509656",
+      "source_path": "html/BGD/BGD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9a000ba483d1029f",
+    "text": "https://www.tbsnews.net/bangladesh/9-killed-sylhet-bus-crash-5-member-probe-committee-formed-1509656",
+    "url": null
+  }
+]

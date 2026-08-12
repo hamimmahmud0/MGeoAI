@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_79fc0b9193909017",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_79fc0b9193909017",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladeshi student dies in road accident in South Korea",
+      "source_path": "html/KOR/KOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9799661f37add316",
+    "text": "Bangladeshi student dies in road accident in South Korea",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f353edc88e1fa87e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f353edc88e1fa87e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-18T15:29:00+09:00",
+      "source_path": "html/KOR/KOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9799661f37add316",
+    "text": "2026-05-18T15:29:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2900f831df6991cf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2900f831df6991cf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A Bangladeshi student has been killed in a road accident in South Korea’s Yongin City. The deceased, identified as Mahmud Hasan, 24, hailed from Narsingdi ...",
+      "source_path": "html/KOR/KOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9799661f37add316",
+    "text": "A Bangladeshi student has been killed in a road accident in South Korea’s Yongin City. The deceased, identified as Mahmud Hasan, 24, hailed from Narsingdi ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d462044cc1e7e0b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7d462044cc1e7e0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/KOR/KOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9799661f37add316",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cef68a88cc736935",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cef68a88cc736935",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/diaspora/2afacaeb0751",
+      "source_path": "html/KOR/KOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9799661f37add316",
+    "text": "Original source: https://bdnews24.com/diaspora/2afacaeb0751",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_63d7869fc03c2fe9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_63d7869fc03c2fe9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9799661f37add316",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

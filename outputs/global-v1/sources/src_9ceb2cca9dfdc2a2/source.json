@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "11e3f33ffa5d718057392dcb448dc16d6b02164b96aa7ddd81c0b1aadc161d5a",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "aci digital",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-22T07:00:00Z",
+  "publisher": "ACI Digital",
+  "schema_version": "1.0.0",
+  "source_id": "src_9ceb2cca9dfdc2a2",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-06-22T07:00:00+00:00",
+    "source_info_hash": "b166634eb78b2101",
+    "source_info_path": "html/BRA/BRA-S003/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.acidigital.com/noticia/68605/papa-reza-por-atletas-de-basquete-mortos-em-acidente-de-onibus-no-ceara",
+  "timezone": "America/Sao_Paulo",
+  "title": "Papa reza por atletas de basquete mortos em acidente de ônibus no Ceará"
+}

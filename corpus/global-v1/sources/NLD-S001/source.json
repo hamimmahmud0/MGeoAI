@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NLD-S001",
+  "country_code": "NLD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NOS",
+  "canonical_url": "https://nos.nl/artikel/2624762-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17-bij-moerdijk",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://nos.nl/artikel/2624762-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17-bij-moerdijk",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.google.com/search?q=%22Dode+en+gewonden%22+%22drie+vrachtwagens%22+%22A17%22+Moerdijk",
+      "label": "Discovery record (direct_web_search_manual_pair)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "020000bb2930e329f92227f4ce76bdf00b2b82d91bde9a2b2e18bf06b05ce2ed",
+      "size_bytes": 1027,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nl"
+  ],
+  "traffic_keywords": [
+    "verkeersongeval",
+    "auto-ongeluk",
+    "botsing voertuigen",
+    "busongeluk"
+  ],
+  "timezone": "Europe/Amsterdam",
+  "captured_at": "2026-08-12T05:15:00Z",
+  "published_at": "2026-07-28T18:06:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nos.nl",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NLD-S001"
+}

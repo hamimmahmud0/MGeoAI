@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S007",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The New Zealand Herald",
+  "canonical_url": "https://www.nzherald.co.nz/nz/auckland/auckland-bus-accident-mayor-wayne-brown-desley-simpson-pay-tribute-to-dead-bus-driver/53TDARP4ZZCENFA4U5PAC2C5IY/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nzherald.co.nz/nz/auckland/auckland-bus-accident-mayor-wayne-brown-desley-simpson-pay-tribute-to-dead-bus-driver/53TDARP4ZZCENFA4U5PAC2C5IY/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ee52d9e4ad0b7d5f6aa16e4fc040ef395dd42b9008046e63e5df94e0e8e1dcc5",
+      "size_bytes": 1239,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:32.304058+06:00",
+  "published_at": "2025-10-23T10:36:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nzherald.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S007"
+}

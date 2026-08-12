@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a593ca54232f745ba3bceabe8fff7ecbbfcb4f6d4bc90a7681d2d0d3ac87e8aa",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "el tiempo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/MEX/MEX-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-06T07:00:00Z",
+  "publisher": "El Tiempo",
+  "schema_version": "1.0.0",
+  "source_id": "src_c3c3e9138776fb4f",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-06T07:00:00+00:00",
+    "source_info_hash": "04896baa037afa64",
+    "source_info_path": "html/MEX/MEX-S005/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.eltiempo.com/mundo/latinoamerica/grave-accidente-de-transito-en-bolivia-tras-la-caida-de-bus-a-un-barranco-que-dejo-a-menores-de-edad-muertos-y-varios-heridos-esto-se-sabe-3569379",
+  "timezone": "America/Mexico_City",
+  "title": "Grave accidente de tránsito en Bolivia tras la caída de bus a un barranco que dejó a menores de edad muertos y varios heridos: esto se sabe"
+}

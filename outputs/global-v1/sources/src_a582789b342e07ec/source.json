@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "eb0f61dce7fbc4d7c3c71058ed93bae87a11e1a4d986ea68b372e211c33f6ac3",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "la nación",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-17T07:00:00Z",
+  "publisher": "La Nación",
+  "schema_version": "1.0.0",
+  "source_id": "src_a582789b342e07ec",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-17T07:00:00+00:00",
+    "source_info_hash": "05ffd2695a385012",
+    "source_info_path": "html/ARG/ARG-S009/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.lanacion.com.ar/sociedad/murio-una-argentina-de-26-anos-tras-un-accidente-de-transito-en-una-ruta-de-australia-nid16052026/",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "Murió una argentina de 26 años tras un accidente de tránsito en una ruta de Australia"
+}

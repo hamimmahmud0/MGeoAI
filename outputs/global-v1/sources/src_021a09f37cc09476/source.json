@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "301e1544a86277f642322d70b75f95b8bf4f90103734199ed5959dede7b692ec",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "international press digital",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/JPN/JPN-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-29T00:00:00Z",
+  "publisher": "International Press Digital",
+  "schema_version": "1.0.0",
+  "source_id": "src_021a09f37cc09476",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2025-09-29T00:00:00+00:00",
+    "source_info_hash": "8a51e40a0059417d",
+    "source_info_path": "html/JPN/JPN-S005/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://internationalpress.jp/2025/09/29/chiba-muere-conductor-de-autobus-escolar-tras-chocar-contra-una-casa/",
+  "timezone": "Asia/Tokyo",
+  "title": "Chiba: Muere conductor de autobús escolar tras chocar contra una casa"
+}

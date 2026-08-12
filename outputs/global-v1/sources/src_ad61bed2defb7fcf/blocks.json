@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_125a26e54acfc87e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_125a26e54acfc87e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tragiczny wypadek w Ząbkach na DW631. Siła uderzenia rozerwała audi na pół",
+      "source_path": "html/POL/POL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad61bed2defb7fcf",
+    "text": "Tragiczny wypadek w Ząbkach na DW631. Siła uderzenia rozerwała audi na pół",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac935470edaa2b14",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ac935470edaa2b14",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-07T09:00:00+02:00",
+      "source_path": "html/POL/POL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad61bed2defb7fcf",
+    "text": "2026-06-07T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c29c96bf7d81e754",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c29c96bf7d81e754",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Są ofiary Dwie osoby zmarły, a trzecia pozostaje w stanie krytycznym po dramatycznym wypadku, do którego doszło w sobotni wieczór w podwarszawskich Ząbkach.",
+      "source_path": "html/POL/POL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad61bed2defb7fcf",
+    "text": "Są ofiary Dwie osoby zmarły, a trzecia pozostaje w stanie krytycznym po dramatycznym wypadku, do którego doszło w sobotni wieczór w podwarszawskich Ząbkach.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b7205de25a8d9ef4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b7205de25a8d9ef4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Fakt",
+      "source_path": "html/POL/POL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad61bed2defb7fcf",
+    "text": "Publisher: Fakt",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a5cfe3be4c1ea1ef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a5cfe3be4c1ea1ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.fakt.pl/wydarzenia/polska/warszawa/wypadek-w-zabkach-audi-rozerwane-na-pol-dwie-ofiary-smiertelne/vt59n66",
+      "source_path": "html/POL/POL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad61bed2defb7fcf",
+    "text": "Original source: https://www.fakt.pl/wydarzenia/polska/warszawa/wypadek-w-zabkach-audi-rozerwane-na-pol-dwie-ofiary-smiertelne/vt59n66",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d4e04b16a28738ac",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d4e04b16a28738ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad61bed2defb7fcf",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f42f0ac7be20ed4c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f42f0ac7be20ed4c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.fakt.pl/wydarzenia/polska/warszawa/wypadek-w-zabkach-audi-rozerwane-na-pol-dwie-ofiary-smiertelne/vt59n66",
+      "source_path": "html/POL/POL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad61bed2defb7fcf",
+    "text": "https://www.fakt.pl/wydarzenia/polska/warszawa/wypadek-w-zabkach-audi-rozerwane-na-pol-dwie-ofiary-smiertelne/vt59n66",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4bf6f3904a17e631",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4bf6f3904a17e631",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nepal Bus Accident: MEA Expresses Condolences Over Indian Nationals’ Deaths, Issues Helpline Numbers",
+      "source_path": "html/NPL/NPL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_427e7637aadb2cae",
+    "text": "Nepal Bus Accident: MEA Expresses Condolences Over Indian Nationals’ Deaths, Issues Helpline Numbers",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_65eddf87b4f0b0f2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_65eddf87b4f0b0f2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-08-24T00:33:00+05:45",
+      "source_path": "html/NPL/NPL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_427e7637aadb2cae",
+    "text": "2024-08-24T00:33:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e2a3812ed9ad5b8d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e2a3812ed9ad5b8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "New Delhi: The Ministry of External Affairs expressed deep sorrow over the deaths of Indian nationals in a road accident in Nepal’s Tanahun district on ...",
+      "source_path": "html/NPL/NPL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_427e7637aadb2cae",
+    "text": "New Delhi: The Ministry of External Affairs expressed deep sorrow over the deaths of Indian nationals in a road accident in Nepal’s Tanahun district on ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_076b1ca82887281a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_076b1ca82887281a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: India.com",
+      "source_path": "html/NPL/NPL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_427e7637aadb2cae",
+    "text": "Publisher: India.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e4700b13ef56a7b4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e4700b13ef56a7b4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.india.com/news/india/nepal-bus-accident-mea-expresses-condolences-over-indian-nationals-deaths-issues-helpline-numbers-7189699/",
+      "source_path": "html/NPL/NPL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_427e7637aadb2cae",
+    "text": "Original source: https://www.india.com/news/india/nepal-bus-accident-mea-expresses-condolences-over-indian-nationals-deaths-issues-helpline-numbers-7189699/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8f0f91b84f966bf2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8f0f91b84f966bf2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_427e7637aadb2cae",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bd6996c607515294",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bd6996c607515294",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.india.com/news/india/nepal-bus-accident-mea-expresses-condolences-over-indian-nationals-deaths-issues-helpline-numbers-7189699/",
+      "source_path": "html/NPL/NPL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_427e7637aadb2cae",
+    "text": "https://www.india.com/news/india/nepal-bus-accident-mea-expresses-condolences-over-indian-nationals-deaths-issues-helpline-numbers-7189699/",
+    "url": null
+  }
+]

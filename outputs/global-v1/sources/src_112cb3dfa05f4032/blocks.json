@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c408d529645344ab",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c408d529645344ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Horror crash between bus and car on Sydney’s M2 motorway leaves four in serious condition",
+      "source_path": "html/AUS/AUS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_112cb3dfa05f4032",
+    "text": "Horror crash between bus and car on Sydney’s M2 motorway leaves four in serious condition",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_011c05c0d82485d0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_011c05c0d82485d0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-21T11:54:00+10:00",
+      "source_path": "html/AUS/AUS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_112cb3dfa05f4032",
+    "text": "2025-09-21T11:54:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a64c046232bed8aa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a64c046232bed8aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Eleven people have been hospitalised, including two children, after a serious crash between a bus and car on the M2 motorway in Sydney’s north. Four ...",
+      "source_path": "html/AUS/AUS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_112cb3dfa05f4032",
+    "text": "Eleven people have been hospitalised, including two children, after a serious crash between a bus and car on the M2 motorway in Sydney’s north. Four ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_36bfdd9e730ba886",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_36bfdd9e730ba886",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 7NEWS Australia",
+      "source_path": "html/AUS/AUS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_112cb3dfa05f4032",
+    "text": "Publisher: 7NEWS Australia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef90ac8f1d853bfd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ef90ac8f1d853bfd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://7news.com.au/news/serious-bus-crash-on-m2-motorway-leaves-four-in-serious-condition-c-20095486",
+      "source_path": "html/AUS/AUS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_112cb3dfa05f4032",
+    "text": "Original source: https://7news.com.au/news/serious-bus-crash-on-m2-motorway-leaves-four-in-serious-condition-c-20095486",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe256245f47faf92",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe256245f47faf92",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_112cb3dfa05f4032",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aee2d4586edca39d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aee2d4586edca39d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://7news.com.au/news/serious-bus-crash-on-m2-motorway-leaves-four-in-serious-condition-c-20095486",
+      "source_path": "html/AUS/AUS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_112cb3dfa05f4032",
+    "text": "https://7news.com.au/news/serious-bus-crash-on-m2-motorway-leaves-four-in-serious-condition-c-20095486",
+    "url": null
+  }
+]

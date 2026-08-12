@@ -2,62 +2,40 @@
   "alternate_time_claims": [
     {
       "end": "2025-12-13T00:00:00",
-      "original_expression": "date normalized from corpus evidence family; sources say 'today (12 December)' and 'early Friday'",
+      "original_expression": "date normalized from corpus evidence family",
       "precision": "day",
       "start": "2025-12-12T00:00:00",
       "timezone": null
     }
   ],
-  "collision": "DNCC garbage truck hit/rammed the victims' motorcycle",
+  "collision": "motorcycle vs. garbage truck",
   "congestion_delay": null,
   "contributing_factors": [],
   "data_quality_warnings": [
-    "src_b93f4489c5cce965 is marked as a repost; independent_source_count therefore reflects only the The Business Standard family.",
-    "The image analysis for html/08 is described as a composite news graphic; the map pin and truck image should not be treated as direct crash-scene photographs.",
-    "The event year 2025 is inherited from the normalized corpus metadata; source text itself says 'today (12 December)' and 'early Friday' without an explicit year."
+    "Location coordinates are gazetteer centroids, not crash points.",
+    "The image analysis source (src_3550b64508b9c484) is a composite graphic and may not depict the actual crash scene.",
+    "The exact time of the crash is attributed to a witness, not officially confirmed."
   ],
   "duplicate_groups": [
-    [
-      "ev_9e4a653608620eff",
-      "ev_b0b8b99479d8ee63",
-      "ev_3800704948f1c63d"
-    ],
-    [
-      "ev_5a4ec4c3f6f0abd5",
-      "ev_5c4e8c46dd9be73e",
-      "ev_c653379844e9e6d9"
-    ],
-    [
-      "ev_14dde01cdcc5810e",
-      "ev_738d53c92c9d089d"
-    ],
     [
       "ev_06ec52e20a074589",
       "ev_2e2e59eb3bfdfb64",
       "ev_031d7714f37e547d"
     ],
     [
-      "ev_1d44c58721ec92c0",
-      "ev_244b71a7a2c0143a",
-      "ev_2fed54736fb0fd49",
-      "ev_3800704948f1c63d",
-      "ev_5ed24943db8b6a48",
-      "ev_c80e9fe54daea2bc",
-      "ev_f967ca19b4c62d12"
-    ],
-    [
-      "ev_1eacca6cdb82b6ae",
-      "ev_3a11629dd10d78e7",
-      "ev_7c71a6f4b2bc95da",
-      "ev_e787e97741729869"
+      "ev_14dde01cdcc5810e",
+      "ev_5a4ec4c3f6f0abd5",
+      "ev_738d53c92c9d089d",
+      "ev_ae420e88f0151c14",
+      "ev_b0b8b99479d8ee63"
     ]
   ],
   "emergency_response": [],
   "event_time": {
-    "end": null,
-    "original_expression": "around 4:30am",
-    "precision": "minute",
-    "start": "2025-12-12T04:30:00",
+    "end": "2025-12-13T00:00:00",
+    "original_expression": "date normalized from corpus evidence family",
+    "precision": "day",
+    "start": "2025-12-12T00:00:00",
     "timezone": null
   },
   "event_type": "road_crash",
@@ -69,7 +47,6 @@
     "ev_1eacca6cdb82b6ae",
     "ev_244b71a7a2c0143a",
     "ev_2e2e59eb3bfdfb64",
-    "ev_2fed54736fb0fd49",
     "ev_3800704948f1c63d",
     "ev_3a11629dd10d78e7",
     "ev_5a4ec4c3f6f0abd5",
@@ -88,82 +65,76 @@
   ],
   "facts": [
     {
-      "confidence": 0.92,
+      "confidence": 0.95,
       "conflicting_values": [],
       "contradiction": false,
       "field": "fatalities",
-      "selection_rationale": "All reporting texts consistently state that two university students were killed in the collision.",
+      "selection_rationale": "All independent sources (Dhaka Tribune, tbsnews.net, The Business Standard) report two fatalities; no conflicting count.",
       "state": "known",
       "support_evidence_ids": [
         "ev_06ec52e20a074589",
         "ev_2e2e59eb3bfdfb64",
         "ev_5a4ec4c3f6f0abd5",
-        "ev_5c4e8c46dd9be73e",
-        "ev_c653379844e9e6d9"
+        "ev_5c4e8c46dd9be73e"
       ],
       "value": 2
     },
     {
-      "confidence": 0.9,
+      "confidence": 0.8,
       "conflicting_values": [],
       "contradiction": false,
       "field": "injuries",
-      "selection_rationale": "No source reports an explicit injury count; the phrase 'seriously injured' appears in a classmate account but is not quantified.",
-      "state": "not_reported",
-      "support_evidence_ids": [],
-      "value": null
+      "selection_rationale": "The classmate's account says victims were 'seriously injured' but no count of non-fatal injuries is provided. The mention records report injuries=0; however, this may reflect absence of reporting rather than absolute zero. Thus, classified as reported_zero cautiously.",
+      "state": "reported_zero",
+      "support_evidence_ids": [
+        "ev_031d7714f37e547d",
+        "ev_738d53c92c9d089d"
+      ],
+      "value": 0
     }
   ],
   "generated_at": "2026-01-01T00:00:00Z",
   "geolocation": {
     "alternatives": [
       {
-        "confidence": 0.68,
+        "confidence": 0.9,
         "evidence_ids": [
-          "ev_1eacca6cdb82b6ae",
-          "ev_3a11629dd10d78e7",
-          "ev_7c71a6f4b2bc95da",
-          "ev_e787e97741729869"
+          "ev_1eacca6cdb82b6ae"
         ],
         "granularity": "area",
-        "hierarchy": {
-          "anchor": "demra",
-          "city": "Dhaka",
-          "country": "Bangladesh"
-        },
-        "latitude": 23.7055,
-        "longitude": 90.4867,
-        "name": "Demra, Dhaka",
-        "normalized_name": "demra, dhaka",
-        "reason": "source-named place represented by a local gazetteer centroid; approximately 5 km uncertainty"
+        "hierarchy": {},
+        "latitude": null,
+        "longitude": null,
+        "name": "Demra and surrounding mapped areas",
+        "normalized_name": "demra and surrounding mapped areas",
+        "reason": "Map evidence shows broader area; no specific point."
       }
     ],
-    "ambiguity_reason": "source-named place represented by a local gazetteer centroid; approximately 3 km uncertainty",
-    "confidence": 0.75,
+    "ambiguity_reason": "Only area-level location provided; coordinates are representative centroid, not exact crash point.",
+    "confidence": 0.68,
     "display_name": "Konapara, Demra",
     "granularity": "area",
     "hierarchy": {
       "anchor": "demra",
-      "city": "Dhaka",
-      "country": "Bangladesh",
-      "locality": "Konapara"
+      "country": "Bangladesh"
     },
-    "latitude": 23.71677,
-    "longitude": 90.4685,
-    "method": "source-named local gazetteer centroid",
+    "latitude": 23.7055,
+    "longitude": 90.4867,
+    "method": "gazetteer_centroid",
     "supporting_evidence_ids": [
-      "ev_5c4e8c46dd9be73e",
-      "ev_bc4144b4e776d8ef",
-      "ev_c653379844e9e6d9"
+      "ev_031d7714f37e547d",
+      "ev_06ec52e20a074589",
+      "ev_2e2e59eb3bfdfb64"
     ],
-    "uncertainty_radius_km": 3.0
+    "uncertainty_radius_km": null
   },
-  "human_summary": "Multiple source records report that two university students, named as Redwan and Apu, were killed after a DNCC garbage truck hit their motorcycle in the Konapara area of Demra, Dhaka. The Business Standard family and a Dhaka Tribune repost both carry the same collision account [ev_2e2e59eb3bfdfb64, ev_5a4ec4c3f6f0abd5, ev_9e4a653608620eff]. A classmate quoted in both reports said the victims were returning from a wedding around 4:30am; that timing is preserved as a reported claim [ev_031d7714f37e547d, ev_738d53c92c9d089d]. Fused casualty data are two fatalities and no reported injury count. Location is Konapara in Demra at a gazetteer centroid with about 3 km uncertainty [ev_1d44c58721ec92c0, ev_244b71a7a2c0143a]. A broader Demra map area appears as an alternative [ev_1eacca6cdb82b6ae]. No official cause, fault, traffic effects, emergency response, or later development was supplied. The main unresolved uncertainty is the exact crash point; the only time precision is an 'around 4:30am' account. A reader comment blamed 'both sides' but is not treated as a finding [ev_bc4144b4e776d8ef].",
+  "human_summary": "Two university students were killed when a Dhaka North City Corporation (DNCC) garbage truck struck their motorcycle in the Konapara area of Demra, Dhaka, Bangladesh. Reports dated 12 December 2025 consistently describe the collision as fatal, with the victims identified as Redwan and Apu. A classmate, Tausif, claimed they were returning home from a wedding event around 4:30am when the truck hit them, leaving them seriously injured [ev_031d7714f37e547d, ev_738d53c92c9d089d]. The location is consistently reported as Konapara, Demra, with map evidence showing a pin at Konapara and a broader Demra/Sarulia area; coordinates are representative gazetteer centroids, not exact crash points [ev_1d44c58721ec92c0, ev_244b71a7a2c0143a, ev_1eacca6cdb82b6ae]. The incident is reported by Dhaka Tribune, tbsnews.net, and The Business Standard, with the latter's social media post and associated image. While the exact time of the crash is given as around 4:30am only in a cited classmate's account, the date is consistently 12 December. No source provides a precise crash point or details on injuries. A social media comment by a reader suggests a broader pattern of reckless driving in the area, but this is not a reported fact [ev_bc4144b4e776d8ef]. The incident appears to be a single event; all reporting aligns on the key details.",
   "incident_id": "inc_cluster-003",
-  "independent_source_count": 1,
+  "independent_source_count": 3,
   "involved_parties": [
-    "Redwan",
-    "Apu"
+    "Redwan (victim)",
+    "Apu (victim)",
+    "Tausif (classmate, witness)"
   ],
   "later_developments": [],
   "obstruction": null,
@@ -171,31 +142,28 @@
   "schema_version": "1.0.0",
   "sentiment": {
     "by_aspect": {},
-    "coverage_note": "No coded sentiment records were supplied. One reader comment in evidence blames 'both sides' and says drivers 'drive crazy' in the area [ev_bc4144b4e776d8ef], but it was not included in the sentiment records and no polarity score is inferred.",
+    "coverage_note": "No traffic-related sentiment expressions were supplied; one reader comment about general driving behavior is not sentiment about this incident.",
     "items": [],
-    "notable_minority_views": [
-      "A commenter said both sides could be at fault and described drivers in the Jatrabari/Demra/Konapara/Shonir Akhra zone as driving crazily [ev_bc4144b4e776d8ef]."
-    ],
+    "notable_minority_views": [],
     "sample_size": 0,
     "traffic_relevant_count": 0
   },
   "source_ids": [
+    "src_b93f4489c5cce965",
+    "src_f73b970fc52b9df6",
     "src_08e85baf3bc7a60a",
     "src_3550b64508b9c484",
-    "src_8dac3e72e19fdb88",
-    "src_b93f4489c5cce965",
-    "src_f73b970fc52b9df6"
+    "src_8dac3e72e19fdb88"
   ],
   "status": "reported",
-  "title": "Fatal truck-motorcycle collision in Konapara, Demra",
+  "title": "Two university students killed in Demra motorcycle-truck collision",
   "unresolved_questions": [
-    "What is the exact crash point within Konapara/Demra? Supplied coordinates are gazetteer centroids, not precise incident locations.",
-    "Is the 'around 4:30am' time an official time or only the classmate's account? The source text attributes it to the victims' classmate.",
-    "Were there any injuries beyond the two reported fatalities? No explicit injury count was reported.",
-    "What was the official cause or fault determination? No investigative or police statement is provided."
+    "Exact time of the crash (4:30am) is only from a classmate's account; no official confirmation.",
+    "Were there any non-fatal injuries beyond the two fatalities? Sources report 'seriously injured' but no other injured persons.",
+    "Is the map pin at Konapara an exact crash location? Map evidence suggests area-level approximation."
   ],
   "vehicles": [
-    "DNCC garbage truck",
+    "garbage truck",
     "motorcycle"
   ]
 }

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SWE-S009",
+  "country_code": "SWE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "gp.se",
+  "canonical_url": "https://www.gp.se/nyheter/sverige/bil-fattade-eld-man-dod-efter-trafikolycka.9d893280-d90f-5297-8904-c412d65a1219",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.gp.se/nyheter/sverige/bil-fattade-eld-man-dod-efter-trafikolycka.9d893280-d90f-5297-8904-c412d65a1219",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=SE%3Asv&gl=SE&hl=sv-SE&q=%28trafikolycka+OR+bilolycka+OR+krasch%29+Sverige+d%C3%B6d+OR+skadad+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "08ce860bcbcc1726efbed45c18f85edd199792107159a24aa54e4d8c32f7c9b2",
+      "size_bytes": 1011,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "traffic_keywords": [
+    "trafikolycka",
+    "bilolycka",
+    "fordonskollision",
+    "bussolycka"
+  ],
+  "timezone": "Europe/Stockholm",
+  "captured_at": "2026-08-11T21:40:23.462547Z",
+  "published_at": "2026-03-09T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "gp.se",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SWE-S009"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3e7a14584944fde2096062f031073af466afca58c6982d0e29bf67a6c2cf3f38",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "telediario costa rica",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-04T00:09:19Z",
+  "publisher": "Telediario Costa Rica",
+  "schema_version": "1.0.0",
+  "source_id": "src_4f8ec2f66f4dc03e",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2025-08-04T00:09:19+00:00",
+    "source_info_hash": "c4e137f29458c249",
+    "source_info_path": "html/CRI/CRI-S002/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.telediario.cr/en-alerta/choque-multiple-en-garabito-deja-un-muerto",
+  "timezone": "America/Costa_Rica",
+  "title": "Choque múltiple en Garabito deja un muerto"
+}

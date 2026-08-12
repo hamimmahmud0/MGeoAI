@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ECU",
+  "name": "Ecuador",
+  "languages": [
+    "es"
+  ],
+  "timezones": [
+    "America/Guayaquil"
+  ],
+  "target_sources": 12
+}

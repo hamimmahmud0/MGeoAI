@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "BEL",
+  "name": "Belgium",
+  "languages": [
+    "nl",
+    "fr",
+    "de"
+  ],
+  "timezones": [
+    "Europe/Brussels"
+  ],
+  "target_sources": 12
+}

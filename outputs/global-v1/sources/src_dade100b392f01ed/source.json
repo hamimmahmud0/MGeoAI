@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d75f2fcb3f370ce0f2722ded6d707d815deb7a8850e3fafcf1f980a55a5c3ff7",
+  "country": "Sri Lanka",
+  "country_code": "LKA",
+  "dependency_group": "hiru news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/LKA/LKA-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-27T07:19:00Z",
+  "publisher": "Hiru News",
+  "schema_version": "1.0.0",
+  "source_id": "src_dade100b392f01ed",
+  "source_metadata": {
+    "country": "Sri Lanka",
+    "country_code": "LKA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-27T07:19:00+00:00",
+    "source_info_hash": "0c6b40ff22b64165",
+    "source_info_path": "html/LKA/LKA-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Colombo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "මාර්ග අනතුර",
+      "சாலை விபத்து",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hirunews.lk/goldfmnews/479879/female-three-wheeler-driver-killed-in-bus-collision",
+  "timezone": "Asia/Colombo",
+  "title": "Female three-wheeler driver killed in bus collision"
+}

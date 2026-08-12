@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4ef7c4e2c5fcc009",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4ef7c4e2c5fcc009",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "More than 70 killed in Ethiopia road accident",
+      "source_path": "html/ETH/ETH-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfe463d1b2737efc",
+    "text": "More than 70 killed in Ethiopia road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e28ee1877972c258",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e28ee1877972c258",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-30T13:12:00+03:00",
+      "source_path": "html/ETH/ETH-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfe463d1b2737efc",
+    "text": "2024-12-30T13:12:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2002ae121978df65",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2002ae121978df65",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The death toll from a road accident in southern Ethiopia has risen to at least 71 after a vehicle carrying a wedding party veered into ...",
+      "source_path": "html/ETH/ETH-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfe463d1b2737efc",
+    "text": "The death toll from a road accident in southern Ethiopia has risen to at least 71 after a vehicle carrying a wedding party veered into ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34b70e08fc33f468",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34b70e08fc33f468",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Digital Journal",
+      "source_path": "html/ETH/ETH-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfe463d1b2737efc",
+    "text": "Publisher: Digital Journal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b0c116613b6e8529",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b0c116613b6e8529",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.digitaljournal.com/article/more-than-70-killed-in-ethiopia-road-accident/",
+      "source_path": "html/ETH/ETH-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfe463d1b2737efc",
+    "text": "Original source: https://www.digitaljournal.com/article/more-than-70-killed-in-ethiopia-road-accident/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4187b47710757c84",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4187b47710757c84",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfe463d1b2737efc",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_edaf205a4c274458",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_edaf205a4c274458",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.digitaljournal.com/article/more-than-70-killed-in-ethiopia-road-accident/",
+      "source_path": "html/ETH/ETH-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dfe463d1b2737efc",
+    "text": "https://www.digitaljournal.com/article/more-than-70-killed-in-ethiopia-road-accident/",
+    "url": null
+  }
+]

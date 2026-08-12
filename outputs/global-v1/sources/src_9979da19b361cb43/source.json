@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "71a178eef0307996c5827426eba213a7ddecb92f352a65ee2a11682e1afdb4bd",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "the star",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-08T08:10:00Z",
+  "publisher": "The Star",
+  "schema_version": "1.0.0",
+  "source_id": "src_9979da19b361cb43",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-04-08T08:10:00+00:00",
+    "source_info_hash": "7b57324131b303d6",
+    "source_info_path": "html/VNM/VNM-S006/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/08/british-teen-dies-after-road-trip-accident-in-vietnam-parents-donate-her-organs-to-help-save-others",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "British teen dies after road trip accident in Vietnam; parents donate her organs to help save others"
+}

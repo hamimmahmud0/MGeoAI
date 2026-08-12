@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "84d1bd143b06f78a2c47d75d4df97c17b8ac1c2ac06bdd7666ff81ecf94fe1f6",
+  "country": "Morocco",
+  "country_code": "MAR",
+  "dependency_group": "china internet information center",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "local_path": "html/MAR/MAR-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-03-04T16:00:00Z",
+  "publisher": "China Internet Information Center",
+  "schema_version": "1.0.0",
+  "source_id": "src_67a253542276570f",
+  "source_metadata": {
+    "country": "Morocco",
+    "country_code": "MAR",
+    "languages": [
+      "ar",
+      "fr",
+      "ber"
+    ],
+    "published_at": "2024-03-04T16:00:00+00:00",
+    "source_info_hash": "671c2afc86cf5ac4",
+    "source_info_path": "html/MAR/MAR-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Casablanca",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "تصادم مركبات",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.china.org.cn/world/Off_the_Wire/2024-03/05/content_117035501.htm",
+  "timezone": "Africa/Casablanca",
+  "title": "6 killed, 18 injured in traffic accident in Morocco"
+}

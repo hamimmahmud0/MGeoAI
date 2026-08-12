@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8c58a27f3ce90714",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8c58a27f3ce90714",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dos fallecidos y siete heridos en accidente de tránsito en La Libertad",
+      "source_path": "html/PER/PER-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_674c75f4803c616e",
+    "text": "Dos fallecidos y siete heridos en accidente de tránsito en La Libertad",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ec97209c4eee2eb5",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ec97209c4eee2eb5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-29T02:00:00-05:00",
+      "source_path": "html/PER/PER-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_674c75f4803c616e",
+    "text": "2026-05-29T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_778a84d6f573f28d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_778a84d6f573f28d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Diario Correo",
+      "source_path": "html/PER/PER-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_674c75f4803c616e",
+    "text": "Publisher: Diario Correo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98621bbff41990fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98621bbff41990fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://diariocorreo.pe/edicion/la-libertad/dos-fallecidos-y-siete-heridos-en-accidente-de-transito-en-la-libertad-peru-noticia/",
+      "source_path": "html/PER/PER-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_674c75f4803c616e",
+    "text": "Original source: https://diariocorreo.pe/edicion/la-libertad/dos-fallecidos-y-siete-heridos-en-accidente-de-transito-en-la-libertad-peru-noticia/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_39985d80d80b065e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_39985d80d80b065e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_674c75f4803c616e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf8f6744deba6c94",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bf8f6744deba6c94",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://diariocorreo.pe/edicion/la-libertad/dos-fallecidos-y-siete-heridos-en-accidente-de-transito-en-la-libertad-peru-noticia/",
+      "source_path": "html/PER/PER-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_674c75f4803c616e",
+    "text": "https://diariocorreo.pe/edicion/la-libertad/dos-fallecidos-y-siete-heridos-en-accidente-de-transito-en-la-libertad-peru-noticia/",
+    "url": null
+  }
+]

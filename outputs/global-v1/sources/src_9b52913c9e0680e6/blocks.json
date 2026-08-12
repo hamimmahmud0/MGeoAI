@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b633e796ab950440",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b633e796ab950440",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "12 killed in 2 crashes within 12 hours in South Africa's Eastern Cape",
+      "source_path": "html/ZAF/ZAF-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9b52913c9e0680e6",
+    "text": "12 killed in 2 crashes within 12 hours in South Africa's Eastern Cape",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba37b3320403f88e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ba37b3320403f88e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-06T09:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9b52913c9e0680e6",
+    "text": "2026-05-06T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_24a21fb769d7e743",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_24a21fb769d7e743",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Twelve people were killed and 21 others injured in two separate road accidents within 12 hours on Monday in South Africa's Eastern Cape Province, authorities ...",
+      "source_path": "html/ZAF/ZAF-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9b52913c9e0680e6",
+    "text": "Twelve people were killed and 21 others injured in two separate road accidents within 12 hours on Monday in South Africa's Eastern Cape Province, authorities ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_53f036d1958d4add",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_53f036d1958d4add",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Xinhua",
+      "source_path": "html/ZAF/ZAF-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9b52913c9e0680e6",
+    "text": "Publisher: Xinhua",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_08fa4ff9d7884494",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_08fa4ff9d7884494",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://english.news.cn/20260506/766ecc93eb99417cbf6eb02f76d03a99/c.html",
+      "source_path": "html/ZAF/ZAF-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9b52913c9e0680e6",
+    "text": "Original source: https://english.news.cn/20260506/766ecc93eb99417cbf6eb02f76d03a99/c.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_82202ee9ceff193d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_82202ee9ceff193d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9b52913c9e0680e6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bed4cf5a7f979827",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bed4cf5a7f979827",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://english.news.cn/20260506/766ecc93eb99417cbf6eb02f76d03a99/c.html",
+      "source_path": "html/ZAF/ZAF-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9b52913c9e0680e6",
+    "text": "https://english.news.cn/20260506/766ecc93eb99417cbf6eb02f76d03a99/c.html",
+    "url": null
+  }
+]

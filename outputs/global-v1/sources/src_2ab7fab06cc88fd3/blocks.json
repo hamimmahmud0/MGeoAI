@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f7c61f16dd1a1125",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f7c61f16dd1a1125",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Al menos 13 muertos y cuatro heridos en accidente de tránsito registrado en Perú",
+      "source_path": "html/ECU/ECU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2ab7fab06cc88fd3",
+    "text": "Al menos 13 muertos y cuatro heridos en accidente de tránsito registrado en Perú",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_396791bba8a36911",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_396791bba8a36911",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T19:44:00-05:00",
+      "source_path": "html/ECU/ECU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2ab7fab06cc88fd3",
+    "text": "2026-08-08T19:44:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ff79209dc6dcf840",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ff79209dc6dcf840",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Universo",
+      "source_path": "html/ECU/ECU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2ab7fab06cc88fd3",
+    "text": "Publisher: El Universo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c572ee6e626fea8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1c572ee6e626fea8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+      "source_path": "html/ECU/ECU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2ab7fab06cc88fd3",
+    "text": "Original source: https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2598c1c2c1c76d47",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2598c1c2c1c76d47",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2ab7fab06cc88fd3",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6fec26ee5df85255",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6fec26ee5df85255",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+      "source_path": "html/ECU/ECU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2ab7fab06cc88fd3",
+    "text": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+    "url": null
+  }
+]

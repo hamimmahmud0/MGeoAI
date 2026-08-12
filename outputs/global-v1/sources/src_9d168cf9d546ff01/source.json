@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1b78ff1c1cae59fb794bfbb054d0f8545faa6bc3ae7165b427f7f485abd041ed",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "hindustan times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-20T07:00:00Z",
+  "publisher": "Hindustan Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_9d168cf9d546ff01",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-20T07:00:00+00:00",
+    "source_info_hash": "f1279014fb76c0ca",
+    "source_info_path": "html/GBR/GBR-S007/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hindustantimes.com/cities/delhi-news/delhi-motor-accident-claims-tribunal-denies-compensation-to-8-yr-old-injured-in-2023-accident-101779281085315.html",
+  "timezone": "Europe/London",
+  "title": "Delhi Motor Accident Claims Tribunal denies compensation to 8-yr-old injured in 2023 accident | Latest News Delhi"
+}

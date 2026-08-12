@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "fd10ddededb94bb6c0ec524ba421b87ed775a82c8101a8eb2dd3f49dc6a868c4",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "la tercera",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-24T07:00:00Z",
+  "publisher": "La Tercera",
+  "schema_version": "1.0.0",
+  "source_id": "src_63d2b90340b78ea9",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-24T07:00:00+00:00",
+    "source_info_hash": "91b3d0abc16c79f4",
+    "source_info_path": "html/CHL/CHL-S009/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.latercera.com/nacional/noticia/un-fallecido-y-tres-heridos-deja-accidente-de-transito-en-maipu/",
+  "timezone": "America/Santiago",
+  "title": "Un fallecido y tres heridos deja accidente de tránsito en Maipú"
+}

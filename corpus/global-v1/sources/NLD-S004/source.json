@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NLD-S004",
+  "country_code": "NLD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NU",
+  "canonical_url": "https://www.nu.nl/binnenland/6404674/dode-en-gewonden-bij-zwaar-ongeval-met-drie-vrachtwagens-op-a17.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nu.nl/binnenland/6404674/dode-en-gewonden-bij-zwaar-ongeval-met-drie-vrachtwagens-op-a17.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NL%3Anl&gl=NL&hl=nl-NL&q=%28verkeersongeluk+OR+dodelijk+ongeval+OR+botsing%29+Nederland+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "38f72c75c61803486edb247e4bbb90924b0ed0d9b10ecd50d421c8cc6006bbde",
+      "size_bytes": 981,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "traffic_keywords": [
+    "verkeersongeval",
+    "auto-ongeluk",
+    "botsing voertuigen",
+    "busongeluk"
+  ],
+  "timezone": "Europe/Amsterdam",
+  "captured_at": "2026-08-11T21:36:54.672553Z",
+  "published_at": "2026-07-28T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nu.nl",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NLD-S004"
+}

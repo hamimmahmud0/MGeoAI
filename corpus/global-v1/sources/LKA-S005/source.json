@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "LKA-S005",
+  "country_code": "LKA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Hiru News",
+  "canonical_url": "https://www.hirunews.lk/goldfmnews/374513/fatal-collision-on-chilaw-colombo-road-leaves-one-dead-15-injured",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.hirunews.lk/goldfmnews/374513/fatal-collision-on-chilaw-colombo-road-leaves-one-dead-15-injured",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Colombo%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "91129ae06cacafc651db34c4b98fe5a13a2774d41f6488d1adc0a021576799e1",
+      "size_bytes": 1075,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "මාර්ග අනතුර",
+    "சாலை விபத்து",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Colombo",
+  "captured_at": "2026-08-12T03:39:56.355671+06:00",
+  "published_at": "2024-07-04T04:06:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "hirunews.lk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-LKA-S005"
+}

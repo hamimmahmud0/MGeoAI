@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e79683511d3ea86e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e79683511d3ea86e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Teen girl fighting life-threatening injuries after horror motorway crash",
+      "source_path": "html/GBR/GBR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8a01af9dc91d6fb",
+    "text": "Teen girl fighting life-threatening injuries after horror motorway crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_442b788ab0a07bac",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_442b788ab0a07bac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-29T08:00:00+01:00",
+      "source_path": "html/GBR/GBR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8a01af9dc91d6fb",
+    "text": "2026-06-29T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f0a060226a12cc7e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f0a060226a12cc7e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Mirror",
+      "source_path": "html/GBR/GBR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8a01af9dc91d6fb",
+    "text": "Publisher: The Mirror",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c84dae6b51abbe9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c84dae6b51abbe9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.mirror.co.uk/news/uk-news/teen-girl-car-crash-scotland-37360421",
+      "source_path": "html/GBR/GBR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8a01af9dc91d6fb",
+    "text": "Original source: https://www.mirror.co.uk/news/uk-news/teen-girl-car-crash-scotland-37360421",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a87a45d3b25005fd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a87a45d3b25005fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8a01af9dc91d6fb",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6af1452e8983a588",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6af1452e8983a588",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.mirror.co.uk/news/uk-news/teen-girl-car-crash-scotland-37360421",
+      "source_path": "html/GBR/GBR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8a01af9dc91d6fb",
+    "text": "https://www.mirror.co.uk/news/uk-news/teen-girl-car-crash-scotland-37360421",
+    "url": null
+  }
+]

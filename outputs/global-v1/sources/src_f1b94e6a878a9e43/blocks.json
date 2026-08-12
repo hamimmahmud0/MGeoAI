@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_213313c328e2eba2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_213313c328e2eba2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Pakistan bus accidents kill at least 34, authorities say",
+      "source_path": "html/PAK/PAK-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f1b94e6a878a9e43",
+    "text": "Pakistan bus accidents kill at least 34, authorities say",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d4db50231199adb",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8d4db50231199adb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-08-25T12:36:00+05:00",
+      "source_path": "html/PAK/PAK-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f1b94e6a878a9e43",
+    "text": "2024-08-25T12:36:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ce9018c36bab2761",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ce9018c36bab2761",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two bus accidents in northeast and southwest Pakistan killed at least 34 people on Sunday, the authorities said. Twelve pilgrims died on the Makran Coastal ...",
+      "source_path": "html/PAK/PAK-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f1b94e6a878a9e43",
+    "text": "Two bus accidents in northeast and southwest Pakistan killed at least 34 people on Sunday, the authorities said. Twelve pilgrims died on the Makran Coastal ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_56122a0d83626c0e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_56122a0d83626c0e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/PAK/PAK-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f1b94e6a878a9e43",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_68a5da1ddeae8e5c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_68a5da1ddeae8e5c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/world/0e65f8c35c10",
+      "source_path": "html/PAK/PAK-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f1b94e6a878a9e43",
+    "text": "Original source: https://bdnews24.com/world/0e65f8c35c10",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df7c35add4fee1f0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df7c35add4fee1f0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f1b94e6a878a9e43",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

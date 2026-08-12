@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ac0f07949f6e5c24",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ac0f07949f6e5c24",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Morocco bus crash kills 17",
+      "source_path": "html/MAR/MAR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b35d501fd56614c",
+    "text": "Morocco bus crash kills 17",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf5f0f9cd7eb0786",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_bf5f0f9cd7eb0786",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-12-02T13:09:00+01:00",
+      "source_path": "html/MAR/MAR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b35d501fd56614c",
+    "text": "2019-12-02T13:09:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_183f741196715719",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_183f741196715719",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus crash in northern Morocco killed 17 people as the vehicle overturned, the health ministry said Monday, in the second such accident in North ...",
+      "source_path": "html/MAR/MAR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b35d501fd56614c",
+    "text": "A bus crash in northern Morocco killed 17 people as the vehicle overturned, the health ministry said Monday, in the second such accident in North ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a0cf1eec4f25a794",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a0cf1eec4f25a794",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/MAR/MAR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b35d501fd56614c",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b457661dac0fd6e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0b457661dac0fd6e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/194994/morocco-bus-crash-kills-17",
+      "source_path": "html/MAR/MAR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b35d501fd56614c",
+    "text": "Original source: https://www.dhakatribune.com/world/194994/morocco-bus-crash-kills-17",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ec024fdac16e0001",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ec024fdac16e0001",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b35d501fd56614c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e72a7ea9658d0e21",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e72a7ea9658d0e21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/194994/morocco-bus-crash-kills-17",
+      "source_path": "html/MAR/MAR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b35d501fd56614c",
+    "text": "https://www.dhakatribune.com/world/194994/morocco-bus-crash-kills-17",
+    "url": null
+  }
+]

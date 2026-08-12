@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_99850a699a5adff0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_99850a699a5adff0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "15 dead and 31 injured in Al-Adasiya pilgrim-bus and truck collision",
+      "source_path": "html/JOR/JOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7f72b54b4cbe36d",
+    "text": "15 dead and 31 injured in Al-Adasiya pilgrim-bus and truck collision",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b2e0adab2f25e319",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b2e0adab2f25e319",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2013-03-16T09:00:00+03:00",
+      "source_path": "html/JOR/JOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7f72b54b4cbe36d",
+    "text": "2013-03-16T09:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_694dbfe99d034878",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_694dbfe99d034878",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus carrying Palestinian Umrah pilgrims collided with a truck in Al-Adasiya, Jordan, killing 15 people and injuring dozens.",
+      "source_path": "html/JOR/JOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7f72b54b4cbe36d",
+    "text": "A bus carrying Palestinian Umrah pilgrims collided with a truck in Al-Adasiya, Jordan, killing 15 people and injuring dozens.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09d2f2e30e60b73f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09d2f2e30e60b73f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Gerasa News",
+      "source_path": "html/JOR/JOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7f72b54b4cbe36d",
+    "text": "Publisher: Gerasa News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aaa9bf117db6f937",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aaa9bf117db6f937",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.gerasanews.com/article/102068",
+      "source_path": "html/JOR/JOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7f72b54b4cbe36d",
+    "text": "Original source: https://www.gerasanews.com/article/102068",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a5b0968b4cbb38bb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a5b0968b4cbb38bb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7f72b54b4cbe36d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

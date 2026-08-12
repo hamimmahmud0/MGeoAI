@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3007f2f6cb752dcb4c5b95f6aad022db40ac768df93056f8560ad8714e941d4c",
+  "country": "United Arab Emirates",
+  "country_code": "ARE",
+  "dependency_group": "bdnews24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/ARE/ARE-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2015-09-02T18:01:00Z",
+  "publisher": "bdnews24",
+  "schema_version": "1.0.0",
+  "source_id": "src_db713cd0d811e067",
+  "source_metadata": {
+    "country": "United Arab Emirates",
+    "country_code": "ARE",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2015-09-02T18:01:00+00:00",
+    "source_info_hash": "de0bac9eb9d291e1",
+    "source_info_path": "html/ARE/ARE-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Dubai",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث مروري",
+      "حادث سير",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/bangladesh/road-accident-in-united-arab-emirates-kills-three-bangladeshis-injures-two-more",
+  "timezone": "Asia/Dubai",
+  "title": "Road accident in United Arab Emirates kills three Bangladeshis, injures two more"
+}

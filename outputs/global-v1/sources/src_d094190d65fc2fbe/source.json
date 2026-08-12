@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ea9e0dd20b4b0bbebb46fb6c82cd54e04c502109abbefbafa0cae0855f79c752",
+  "country": "New Zealand",
+  "country_code": "NZL",
+  "dependency_group": "the new zealand herald",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NZL/NZL-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-03-31T11:17:00Z",
+  "publisher": "The New Zealand Herald",
+  "schema_version": "1.0.0",
+  "source_id": "src_d094190d65fc2fbe",
+  "source_metadata": {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-03-31T11:17:00+00:00",
+    "source_info_hash": "89cd1cf8d479ece3",
+    "source_info_path": "html/NZL/NZL-S009/SOURCE_INFO.md",
+    "timezone": "Pacific/Auckland",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "state highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nzherald.co.nz/nz/auckland/two-car-crash-on-aucklands-upper-harbour-motorway-triggers-delays-heavy-congestion/FDNGVFPOP5ECRF7F46C3JDP6FQ/",
+  "timezone": "Pacific/Auckland",
+  "title": "Two-car crash on Auckland’s Upper Harbour Motorway triggers delays, heavy congestion"
+}

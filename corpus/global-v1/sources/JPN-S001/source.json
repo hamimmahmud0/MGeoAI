@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S001",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Chiba Nippo",
+  "canonical_url": "https://www.chibanippo.co.jp/articles/1504265",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.chibanippo.co.jp/articles/1504265",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Kamagaya+kindergarten+shuttle+bus+crash+September+2025",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ccea162de856e8389da322606a65ec0535d52b0888843df2c64ab1e7674c5bd2",
+      "size_bytes": 903,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ja"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:45:11.987428+06:00",
+  "published_at": "2025-09-29T11:45:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "chibanippo.co.jp",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S001"
+}

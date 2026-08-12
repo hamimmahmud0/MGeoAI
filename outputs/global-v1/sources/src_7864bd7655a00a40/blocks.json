@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_14312e50da30ff21",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_14312e50da30ff21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Truck rampage in Bucheon kills two, injures 19",
+      "source_path": "html/KOR/KOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7864bd7655a00a40",
+    "text": "Truck rampage in Bucheon kills two, injures 19",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50627aea180de4e4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_50627aea180de4e4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-15T09:00:00+09:00",
+      "source_path": "html/KOR/KOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7864bd7655a00a40",
+    "text": "2025-11-15T09:00:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b8b531ed3b565723",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b8b531ed3b565723",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A truck drove through Jeil Market in Bucheon, killing two people and injuring nineteen.",
+      "source_path": "html/KOR/KOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7864bd7655a00a40",
+    "text": "A truck drove through Jeil Market in Bucheon, killing two people and injuring nineteen.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e165e8dbc5b305e9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e165e8dbc5b305e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Dong-A Ilbo",
+      "source_path": "html/KOR/KOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7864bd7655a00a40",
+    "text": "Publisher: The Dong-A Ilbo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee44fedd3941efe7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee44fedd3941efe7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.donga.com/en/article/all/20251115/5962330/1",
+      "source_path": "html/KOR/KOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7864bd7655a00a40",
+    "text": "Original source: https://www.donga.com/en/article/all/20251115/5962330/1",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e45f4a53c4bdd676",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e45f4a53c4bdd676",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7864bd7655a00a40",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e38396513b52f28b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e38396513b52f28b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.donga.com/en/article/all/20251115/5962330/1",
+      "source_path": "html/KOR/KOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7864bd7655a00a40",
+    "text": "https://www.donga.com/en/article/all/20251115/5962330/1",
+    "url": null
+  }
+]

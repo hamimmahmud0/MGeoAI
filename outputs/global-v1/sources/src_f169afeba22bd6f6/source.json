@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "24b99635cbac08592b5e81adf6be59c7294b8026abc9b52a20d30caa7ef380f0",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "just news bd",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-07T18:31:00Z",
+  "publisher": "Just News BD",
+  "schema_version": "1.0.0",
+  "source_id": "src_f169afeba22bd6f6",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-07T18:31:00+00:00",
+    "source_info_hash": "956ecb8dac1a1598",
+    "source_info_path": "html/BGD/BGD-S006/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.justnewsbd.com/en/bangladesh/news/31298",
+  "timezone": "Asia/Dhaka",
+  "title": "Road accidents claim 16 lives in Sylhet, Bogura"
+}

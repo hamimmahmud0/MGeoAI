@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CAN-S007",
+  "country_code": "CAN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "larongeNOW",
+  "canonical_url": "https://larongenow.com/2026/07/19/saskatchewan-roughrider-linebacker-jayden-dalke-dead-after-car-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://larongenow.com/2026/07/19/saskatchewan-roughrider-linebacker-jayden-dalke-dead-after-car-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CA%3Aen&gl=CA&hl=en-CA&q=%28%22traffic+collision%22+OR+%22highway+crash%22+OR+%22car+crash%22+OR+%22road+accident%22%29+%28killed+OR+dead+OR+injured%29+%22Canada%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "5d2215b94227eedc39ba795b467d45467cb923553de38b5d6f980e43149271df",
+      "size_bytes": 980,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "highway crash",
+    "accident de la route"
+  ],
+  "timezone": "America/Toronto",
+  "captured_at": "2026-08-11T21:57:04Z",
+  "published_at": "2026-07-19T20:35:43Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "larongenow.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CAN-S007"
+}

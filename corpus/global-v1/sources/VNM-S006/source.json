@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S006",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Star",
+  "canonical_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/08/british-teen-dies-after-road-trip-accident-in-vietnam-parents-donate-her-organs-to-help-save-others",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/04/08/british-teen-dies-after-road-trip-accident-in-vietnam-parents-donate-her-organs-to-help-save-others",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Vietnam%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "71a178eef0307996c5827426eba213a7ddecb92f352a65ee2a11682e1afdb4bd",
+      "size_bytes": 1294,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:38:06.154936+06:00",
+  "published_at": "2026-04-08T08:10:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thestar.com.my",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S006"
+}

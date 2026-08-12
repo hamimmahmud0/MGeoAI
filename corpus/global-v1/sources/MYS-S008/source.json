@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MYS-S008",
+  "country_code": "MYS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/asia/387981/3-bangladeshis-killed-2-others-injured-in",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/asia/387981/3-bangladeshis-killed-2-others-injured-in",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Malaysia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "42da69f904c8a5c5dc6db141bcc4b4cee9e96d8465183b64b1da3b71b3c57b67",
+      "size_bytes": 1010,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kemalangan jalan raya",
+    "nahas jalan raya",
+    "kemalangan bas",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "captured_at": "2026-08-12T03:55:02.412956+06:00",
+  "published_at": "2025-08-02T04:41:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MYS-S008"
+}

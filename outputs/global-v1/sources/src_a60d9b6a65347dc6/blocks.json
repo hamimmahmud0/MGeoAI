@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a146b75cbed0fc55",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a146b75cbed0fc55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "3 Bangladeshis killed, 2 others injured in Malaysia road crash",
+      "source_path": "html/MYS/MYS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a60d9b6a65347dc6",
+    "text": "3 Bangladeshis killed, 2 others injured in Malaysia road crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a5dae1136479b209",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a5dae1136479b209",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-02T12:41:00+08:00",
+      "source_path": "html/MYS/MYS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a60d9b6a65347dc6",
+    "text": "2025-08-02T12:41:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c992dc204024139",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c992dc204024139",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three Bangladeshi men were killed and two others injured after a multi-purpose vehicle they were in skidded off the road at East Coast Highway (LPT) ...",
+      "source_path": "html/MYS/MYS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a60d9b6a65347dc6",
+    "text": "Three Bangladeshi men were killed and two others injured after a multi-purpose vehicle they were in skidded off the road at East Coast Highway (LPT) ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_94de1fa11e86d080",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_94de1fa11e86d080",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/MYS/MYS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a60d9b6a65347dc6",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7a0523da5404f0de",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7a0523da5404f0de",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/asia/387981/3-bangladeshis-killed-2-others-injured-in",
+      "source_path": "html/MYS/MYS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a60d9b6a65347dc6",
+    "text": "Original source: https://www.dhakatribune.com/world/asia/387981/3-bangladeshis-killed-2-others-injured-in",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd176e52bc9c9c89",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd176e52bc9c9c89",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a60d9b6a65347dc6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_47d31b29f67aca06",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_47d31b29f67aca06",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/asia/387981/3-bangladeshis-killed-2-others-injured-in",
+      "source_path": "html/MYS/MYS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a60d9b6a65347dc6",
+    "text": "https://www.dhakatribune.com/world/asia/387981/3-bangladeshis-killed-2-others-injured-in",
+    "url": null
+  }
+]

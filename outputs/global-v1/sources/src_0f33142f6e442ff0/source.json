@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5662c39ab1d735489e6dc5f4e0f695d245b2bfa84433f16a3c3628ae5ab77306",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "gva",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-26T07:00:00Z",
+  "publisher": "GVA",
+  "schema_version": "1.0.0",
+  "source_id": "src_0f33142f6e442ff0",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-05-26T07:00:00+00:00",
+    "source_info_hash": "7e5bc5a7c014bf35",
+    "source_info_path": "html/BEL/BEL-S005/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.gva.be/binnenland/na-dodelijke-crash-met-trein-kwam-schoolbus-op-de-oprit-van-paul-terecht-wat-er-met-die-vier-mensen-is-gebeurd-is-niet-te-vatten/153353760.html",
+  "timezone": "Europe/Brussels",
+  "title": "Na dodelijke crash met trein kwam schoolbus op de oprit van Paul terecht: “Wat er met die vier mensen is gebeurd, is niet te vatten”"
+}

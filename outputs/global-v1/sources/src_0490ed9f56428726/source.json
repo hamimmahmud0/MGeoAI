@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4d798eb25d813947c4ebfc5e33fbabf309f691f8d0f180cf03355e9a111ba855",
+  "country": "South Korea",
+  "country_code": "KOR",
+  "dependency_group": "asia one",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/KOR/KOR-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-15T22:57:00Z",
+  "publisher": "Asia One",
+  "schema_version": "1.0.0",
+  "source_id": "src_0490ed9f56428726",
+  "source_metadata": {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-01-15T22:57:00+00:00",
+    "source_info_hash": "39b06fd09829156d",
+    "source_info_path": "html/KOR/KOR-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Seoul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "교통사고",
+      "차량 충돌",
+      "버스 사고",
+      "고속도로 사고"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.asiaone.com/asia/bus-crashes-building-south-korea-several-feared-injured-media-reports",
+  "timezone": "Asia/Seoul",
+  "title": "Bus crashes into building in South Korea, several feared injured, media reports"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "DEU-S002",
+  "country_code": "DEU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Tagesschau / Bayerischer Rundfunk",
+  "canonical_url": "https://www.tagesschau.de/inland/regional/bayern/br-grosse-trauer-nach-busunfall-schwerverletzte-ausser-lebensgefahr-104.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.tagesschau.de/inland/regional/bayern/br-grosse-trauer-nach-busunfall-schwerverletzte-ausser-lebensgefahr-104.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Hebertshausen+Busunfall+10+Juni+2026",
+      "label": "Discovery record (web_search_direct_access_check)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e6fe2d282c4472aa90a3b6cd7bc42579b9938d57e227db4ff5395fc9656ee1a7",
+      "size_bytes": 1109,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "traffic_keywords": [
+    "Verkehrsunfall",
+    "Autounfall",
+    "Busunfall",
+    "Zusammenstoß"
+  ],
+  "timezone": "Europe/Berlin",
+  "captured_at": "2026-08-12T00:00:00Z",
+  "published_at": "2026-06-11T12:53:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "tagesschau.de",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-DEU-S002"
+}

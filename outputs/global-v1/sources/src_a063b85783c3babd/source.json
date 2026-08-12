@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1546cda60d38d8759ac519bd5d2901ca5312175509146c23a0c2bd15d2cc2dbb",
+  "country": "Italy",
+  "country_code": "ITA",
+  "dependency_group": "giornale di brescia",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "it"
+  ],
+  "local_path": "html/ITA/ITA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-05T07:00:00Z",
+  "publisher": "Giornale di Brescia",
+  "schema_version": "1.0.0",
+  "source_id": "src_a063b85783c3babd",
+  "source_metadata": {
+    "country": "Italy",
+    "country_code": "ITA",
+    "languages": [
+      "it"
+    ],
+    "published_at": "2026-07-05T07:00:00+00:00",
+    "source_info_hash": "7f4d73b260b65cfc",
+    "source_info_path": "html/ITA/ITA-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Rome",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "incidente stradale",
+      "scontro tra veicoli",
+      "incidente automobilistico",
+      "incidente autobus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.giornaledibrescia.it/italia-e-estero/incidente-stradale-nellalessandrino-un-morto-e-un-ferito-fnlusou0",
+  "timezone": "Europe/Rome",
+  "title": "Incidente stradale nell'Alessandrino, un morto e un ferito"
+}

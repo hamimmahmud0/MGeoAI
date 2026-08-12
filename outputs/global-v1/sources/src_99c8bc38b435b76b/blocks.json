@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_575731cee300e379",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_575731cee300e379",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Unlicensed minors cause scooter crash in Incheon, exposing Korea's regulatory gaps",
+      "source_path": "html/KOR/KOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99c8bc38b435b76b",
+    "text": "Unlicensed minors cause scooter crash in Incheon, exposing Korea's regulatory gaps",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b52d19b126d226ff",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b52d19b126d226ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-10-27T23:00:00+09:00",
+      "source_path": "html/KOR/KOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99c8bc38b435b76b",
+    "text": "2025-10-27T23:00:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_14ed23b68da02a30",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_14ed23b68da02a30",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Public anger is growing after two middle school students driving an electric kick scooter without a license hit a woman in her 30s who was ...",
+      "source_path": "html/KOR/KOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99c8bc38b435b76b",
+    "text": "Public anger is growing after two middle school students driving an electric kick scooter without a license hit a woman in her 30s who was ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1512149ea1a1e8f1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1512149ea1a1e8f1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 조선일보",
+      "source_path": "html/KOR/KOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99c8bc38b435b76b",
+    "text": "Publisher: 조선일보",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b6b9a7f42e66ff96",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b6b9a7f42e66ff96",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://biz.chosun.com/en/en-it/2025/10/28/QQHAC64HQZFQNF2TO2LJTUYDOM/",
+      "source_path": "html/KOR/KOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99c8bc38b435b76b",
+    "text": "Original source: https://biz.chosun.com/en/en-it/2025/10/28/QQHAC64HQZFQNF2TO2LJTUYDOM/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f397cd30d350d4f7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f397cd30d350d4f7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99c8bc38b435b76b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_96a22feb632bea4e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_96a22feb632bea4e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://biz.chosun.com/en/en-it/2025/10/28/QQHAC64HQZFQNF2TO2LJTUYDOM/",
+      "source_path": "html/KOR/KOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99c8bc38b435b76b",
+    "text": "https://biz.chosun.com/en/en-it/2025/10/28/QQHAC64HQZFQNF2TO2LJTUYDOM/",
+    "url": null
+  }
+]

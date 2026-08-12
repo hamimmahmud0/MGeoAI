@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ECU-S009",
+  "country_code": "ECU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "El Universo",
+  "canonical_url": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.eluniverso.com/noticias/internacional/al-menos-13-muertos-y-cuatro-heridos-en-accidente-de-transito-registrado-en-peru-nota/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=EC%3Aes-419&gl=EC&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22siniestro+vial%22+OR+%22choque+vehicular%22+OR+%22accidente+de+bus%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Ecuador%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "f339abce5865b5ba73cb0c89607e33f6f84ab8b865cf8ee8bb9754601f7a8fb6",
+      "size_bytes": 1122,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "siniestro vial",
+    "choque vehicular",
+    "accidente de bus"
+  ],
+  "timezone": "America/Guayaquil",
+  "captured_at": "2026-08-11T21:57:50Z",
+  "published_at": "2026-08-09T00:44:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "eluniverso.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ECU-S009"
+}

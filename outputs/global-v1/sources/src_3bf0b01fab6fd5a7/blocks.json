@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2eaa1a5ca44b68eb",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2eaa1a5ca44b68eb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Oikonomou morto in un incidente stradale: l'ex difensore di Bologna, Samp e Bari aveva 33 anni",
+      "source_path": "html/ITA/ITA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3bf0b01fab6fd5a7",
+    "text": "Oikonomou morto in un incidente stradale: l'ex difensore di Bologna, Samp e Bari aveva 33 anni",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02c586e6b8feb935",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_02c586e6b8feb935",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-01T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3bf0b01fab6fd5a7",
+    "text": "2026-06-01T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2fc27fbba9854b64",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2fc27fbba9854b64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Corriere della Sera",
+      "source_path": "html/ITA/ITA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3bf0b01fab6fd5a7",
+    "text": "Publisher: Corriere della Sera",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef7b88a968a0b233",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ef7b88a968a0b233",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.corriere.it/sport/calcio/26_giugno_01/marios-oikonomou-morto-incidente-d14fae47-f65b-4f14-86fe-9a5b8ba54xlk.shtml",
+      "source_path": "html/ITA/ITA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3bf0b01fab6fd5a7",
+    "text": "Original source: https://www.corriere.it/sport/calcio/26_giugno_01/marios-oikonomou-morto-incidente-d14fae47-f65b-4f14-86fe-9a5b8ba54xlk.shtml",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4515289851f727cb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4515289851f727cb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3bf0b01fab6fd5a7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_97bbccf20e84f919",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_97bbccf20e84f919",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.corriere.it/sport/calcio/26_giugno_01/marios-oikonomou-morto-incidente-d14fae47-f65b-4f14-86fe-9a5b8ba54xlk.shtml",
+      "source_path": "html/ITA/ITA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3bf0b01fab6fd5a7",
+    "text": "https://www.corriere.it/sport/calcio/26_giugno_01/marios-oikonomou-morto-incidente-d14fae47-f65b-4f14-86fe-9a5b8ba54xlk.shtml",
+    "url": null
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "GBR",
+  "name": "United Kingdom",
+  "languages": [
+    "en"
+  ],
+  "timezones": [
+    "Europe/London"
+  ],
+  "target_sources": 12
+}

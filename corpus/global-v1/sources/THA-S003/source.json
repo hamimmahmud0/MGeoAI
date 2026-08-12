@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S003",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Yahoo News Canada",
+  "canonical_url": "https://ca.news.yahoo.com/six-myanmar-migrant-workers-killed-thailand-bus-crash-055146003.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://ca.news.yahoo.com/six-myanmar-migrant-workers-killed-thailand-bus-crash-055146003.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "50a0785af1d4c0863919e0c0887183dde4ccf4d18c20494989c2636ec19ad04f",
+      "size_bytes": 1011,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:51.200801+06:00",
+  "published_at": "2018-04-09T22:51:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ca.news.yahoo.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S003"
+}

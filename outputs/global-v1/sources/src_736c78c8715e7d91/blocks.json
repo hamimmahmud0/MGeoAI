@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_316ac678e4fa3b74",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_316ac678e4fa3b74",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Incidente in corso Europa: morto il motociclista 67enne",
+      "source_path": "html/ITA/ITA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_736c78c8715e7d91",
+    "text": "Incidente in corso Europa: morto il motociclista 67enne",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_97d181f1247bb3ab",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_97d181f1247bb3ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-15T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_736c78c8715e7d91",
+    "text": "2026-06-15T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4fcdfc9a40578081",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4fcdfc9a40578081",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: GenovaToday",
+      "source_path": "html/ITA/ITA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_736c78c8715e7d91",
+    "text": "Publisher: GenovaToday",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d06a474d1c68525b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d06a474d1c68525b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.genovatoday.it/cronaca/incidente-stradale/morto-67enne-ferito-incidente-corso-europa.html",
+      "source_path": "html/ITA/ITA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_736c78c8715e7d91",
+    "text": "Original source: https://www.genovatoday.it/cronaca/incidente-stradale/morto-67enne-ferito-incidente-corso-europa.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4f8023d18280dc2a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4f8023d18280dc2a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_736c78c8715e7d91",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9c414532a1a40760",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9c414532a1a40760",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.genovatoday.it/cronaca/incidente-stradale/morto-67enne-ferito-incidente-corso-europa.html",
+      "source_path": "html/ITA/ITA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_736c78c8715e7d91",
+    "text": "https://www.genovatoday.it/cronaca/incidente-stradale/morto-67enne-ferito-incidente-corso-europa.html",
+    "url": null
+  }
+]

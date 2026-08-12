@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_054565907c38da4e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_054565907c38da4e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Drie gewonden bij ongeval met vier voertuigen op A12 bij Duitse grens",
+      "source_path": "html/NLD/NLD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbfbafa7eaf1c82b",
+    "text": "Drie gewonden bij ongeval met vier voertuigen op A12 bij Duitse grens",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6914303c925ed12e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6914303c925ed12e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-31T09:00:00+02:00",
+      "source_path": "html/NLD/NLD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbfbafa7eaf1c82b",
+    "text": "2026-07-31T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9aa598712a5f29d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9aa598712a5f29d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Drie gewonden bij ongeval met vier voertuigen op A12 bij Duitse grens Op de snelweg A12 bij Babberich bij de Duitse grens is vanochtend een ...",
+      "source_path": "html/NLD/NLD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbfbafa7eaf1c82b",
+    "text": "Drie gewonden bij ongeval met vier voertuigen op A12 bij Duitse grens Op de snelweg A12 bij Babberich bij de Duitse grens is vanochtend een ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8fcdce06adf9559b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8fcdce06adf9559b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NOS",
+      "source_path": "html/NLD/NLD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbfbafa7eaf1c82b",
+    "text": "Publisher: NOS",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_18e658e8c42658ff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_18e658e8c42658ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://nos.nl/artikel/2625043-drie-gewonden-bij-ongeval-met-vier-voertuigen-op-a12-bij-duitse-grens",
+      "source_path": "html/NLD/NLD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbfbafa7eaf1c82b",
+    "text": "Original source: https://nos.nl/artikel/2625043-drie-gewonden-bij-ongeval-met-vier-voertuigen-op-a12-bij-duitse-grens",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1fedd8ba791eefe0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1fedd8ba791eefe0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbfbafa7eaf1c82b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_45a31875f1420562",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_45a31875f1420562",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://nos.nl/artikel/2625043-drie-gewonden-bij-ongeval-met-vier-voertuigen-op-a12-bij-duitse-grens",
+      "source_path": "html/NLD/NLD-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbfbafa7eaf1c82b",
+    "text": "https://nos.nl/artikel/2625043-drie-gewonden-bij-ongeval-met-vier-voertuigen-op-a12-bij-duitse-grens",
+    "url": null
+  }
+]

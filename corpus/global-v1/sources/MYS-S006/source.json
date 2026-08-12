@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MYS-S006",
+  "country_code": "MYS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Bangkok Post",
+  "canonical_url": "https://www.bangkokpost.com/world/3045447/at-least-15-die-in-malaysia-bus-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bangkokpost.com/world/3045447/at-least-15-die-in-malaysia-bus-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Malaysia%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "93881752de628096bbf6a29e22df8eff5771fec9dccb2f57956f50efee65abe4",
+      "size_bytes": 935,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kemalangan jalan raya",
+    "nahas jalan raya",
+    "kemalangan bas",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "captured_at": "2026-08-12T03:55:02.413126+06:00",
+  "published_at": "2025-06-09T07:42:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bangkokpost.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MYS-S006"
+}

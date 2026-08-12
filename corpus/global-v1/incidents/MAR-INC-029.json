@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "curation_only": true,
+  "curation_incident_id": "MAR-INC-029",
+  "country_code": "MAR",
+  "source_ids": [
+    "MAR-S001",
+    "MAR-S002"
+  ],
+  "label": "reviewed_same_incident",
+  "review_method": "automated",
+  "reviewed_by": [
+    "automated-title-date-entity-pair-v1"
+  ],
+  "reviewed_at": "2026-08-12T05:30:19.837239Z",
+  "note": "Automated multi-source candidate key 'gb-pair-ma-170ac37de85a'; distinct domains and matching feed metadata. Human confirmation should use each original URL."
+}

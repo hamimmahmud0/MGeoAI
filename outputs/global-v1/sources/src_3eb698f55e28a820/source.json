@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "89d1101f905aafbf7188d3be4f1239b93bf6f03daa4a94714872f3c2bd30ba34",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "australian broadcasting corporation",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-22T18:07:00Z",
+  "publisher": "Australian Broadcasting Corporation",
+  "schema_version": "1.0.0",
+  "source_id": "src_3eb698f55e28a820",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-22T18:07:00+00:00",
+    "source_info_hash": "64c6129804e9bd43",
+    "source_info_path": "html/AUS/AUS-S006/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.abc.net.au/news/2026-05-23/police-investigate-sans-souci-triple-fatal-crash/106714104",
+  "timezone": "Australia/Sydney",
+  "title": "Police investigate triple fatal road crash in Sans Souci, southern Sydney"
+}

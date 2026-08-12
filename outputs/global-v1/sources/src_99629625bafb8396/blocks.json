@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d5e14298aebc614d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d5e14298aebc614d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "8 killed in bus crash in southern Türkiye",
+      "source_path": "html/TUR/TUR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99629625bafb8396",
+    "text": "8 killed in bus crash in southern Türkiye",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_243424a5823d3e46",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_243424a5823d3e46",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-01T16:44:00+03:00",
+      "source_path": "html/TUR/TUR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99629625bafb8396",
+    "text": "2026-02-01T16:44:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_60701f91e18f2621",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_60701f91e18f2621",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Rescuers work at the site of a bus crash in southern Türkiye's Antalya province, Feb. 1, 2026. (Mustafa Kaya/Handout via Xinhua) ANKARA, Feb. 1 (Xinhua) ...",
+      "source_path": "html/TUR/TUR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99629625bafb8396",
+    "text": "Rescuers work at the site of a bus crash in southern Türkiye's Antalya province, Feb. 1, 2026. (Mustafa Kaya/Handout via Xinhua) ANKARA, Feb. 1 (Xinhua) ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_585c073270ee638c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_585c073270ee638c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Xinhua",
+      "source_path": "html/TUR/TUR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99629625bafb8396",
+    "text": "Publisher: Xinhua",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_66511860797c592b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_66511860797c592b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: http://www.chinaview.cn/20260201/f7d7de8f100b42a1af8a4800d9e462e1/c.html",
+      "source_path": "html/TUR/TUR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99629625bafb8396",
+    "text": "Original source: http://www.chinaview.cn/20260201/f7d7de8f100b42a1af8a4800d9e462e1/c.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_67998bc5d9d028f4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_67998bc5d9d028f4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99629625bafb8396",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2146599d7abfd12f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2146599d7abfd12f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "http://www.chinaview.cn/20260201/f7d7de8f100b42a1af8a4800d9e462e1/c.html",
+      "source_path": "html/TUR/TUR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_99629625bafb8396",
+    "text": "http://www.chinaview.cn/20260201/f7d7de8f100b42a1af8a4800d9e462e1/c.html",
+    "url": null
+  }
+]

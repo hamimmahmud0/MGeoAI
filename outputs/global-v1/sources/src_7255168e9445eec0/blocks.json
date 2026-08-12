@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f2d68f853e895efb",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f2d68f853e895efb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tres muertos en un siniestro de tránsito en Pomasqui, norte de Quito",
+      "source_path": "html/ECU/ECU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7255168e9445eec0",
+    "text": "Tres muertos en un siniestro de tránsito en Pomasqui, norte de Quito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2865704a41636e68",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2865704a41636e68",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-11T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7255168e9445eec0",
+    "text": "2026-07-11T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a6f406973ef263c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a6f406973ef263c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ecuavisa",
+      "source_path": "html/ECU/ECU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7255168e9445eec0",
+    "text": "Publisher: Ecuavisa",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f85cef736940985d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f85cef736940985d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ecuavisa.com/quito/tres-muertos-siniestro-transito-pomasqui-quito-20260711-0008.html",
+      "source_path": "html/ECU/ECU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7255168e9445eec0",
+    "text": "Original source: https://www.ecuavisa.com/quito/tres-muertos-siniestro-transito-pomasqui-quito-20260711-0008.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c3b6cbf4721d1b96",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c3b6cbf4721d1b96",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7255168e9445eec0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba4ce8d8e867cd19",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba4ce8d8e867cd19",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ecuavisa.com/quito/tres-muertos-siniestro-transito-pomasqui-quito-20260711-0008.html",
+      "source_path": "html/ECU/ECU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7255168e9445eec0",
+    "text": "https://www.ecuavisa.com/quito/tres-muertos-siniestro-transito-pomasqui-quito-20260711-0008.html",
+    "url": null
+  }
+]

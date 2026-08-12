@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "603804cd9c8444c318a786c62ff1d921d388637fe2f73b66d38672010e429362",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "la patria",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-19T04:56:01Z",
+  "publisher": "La Patria",
+  "schema_version": "1.0.0",
+  "source_id": "src_77b40a2d9ca9f13b",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-19T04:56:01+00:00",
+    "source_info_hash": "edd77a0f7ec46ebd",
+    "source_info_path": "html/COL/COL-S003/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://archivo.lapatria.com/tags/accidente-de-transito?page=95&qt-qt_3_lomas=1",
+  "timezone": "America/Bogota",
+  "title": "accidente de tránsito"
+}

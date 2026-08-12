@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "72cc79c6af840d36c49d2c26bb94a09ebe0e549c4537a475c7171da047012314",
+  "country": "New Zealand",
+  "country_code": "NZL",
+  "dependency_group": "newstalk zb",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NZL/NZL-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-12-31T01:28:00Z",
+  "publisher": "Newstalk ZB",
+  "schema_version": "1.0.0",
+  "source_id": "src_3b72c7649920b41f",
+  "source_metadata": {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2022-12-31T01:28:00+00:00",
+    "source_info_hash": "1637f90a1e9ffef7",
+    "source_info_path": "html/NZL/NZL-S004/SOURCE_INFO.md",
+    "timezone": "Pacific/Auckland",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "state highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.newstalkzb.co.nz/news/auckland/two-crashes-overnight-close-an-auckland-road-after-two-killed-another-hospitalised/",
+  "timezone": "Pacific/Auckland",
+  "title": "Two dead, another hospitalised after two crashes on same Auckland road"
+}

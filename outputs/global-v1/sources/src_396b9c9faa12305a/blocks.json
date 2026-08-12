@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0437765109022392",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0437765109022392",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tragic multi-vehicle collision claims 46 lives in Uganda",
+      "source_path": "html/UGA/UGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_396b9c9faa12305a",
+    "text": "Tragic multi-vehicle collision claims 46 lives in Uganda",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f7ba7b354fb76ff3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f7ba7b354fb76ff3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-10-22T00:53:00+03:00",
+      "source_path": "html/UGA/UGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_396b9c9faa12305a",
+    "text": "2025-10-22T00:53:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b0bd9996c666dc08",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b0bd9996c666dc08",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The initial death toll of 63 was later revised after several unconscious survivors were mistakenly counted among the dead. ALBAWABA- At least 46 people were ...",
+      "source_path": "html/UGA/UGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_396b9c9faa12305a",
+    "text": "The initial death toll of 63 was later revised after several unconscious survivors were mistakenly counted among the dead. ALBAWABA- At least 46 people were ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57f4f751cac2f972",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_57f4f751cac2f972",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Al Bawaba News",
+      "source_path": "html/UGA/UGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_396b9c9faa12305a",
+    "text": "Publisher: Al Bawaba News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f707bb233dc921ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f707bb233dc921ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.albawaba.com/news/tragic-multi-vehicle-collision-claims-46-1615108",
+      "source_path": "html/UGA/UGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_396b9c9faa12305a",
+    "text": "Original source: https://www.albawaba.com/news/tragic-multi-vehicle-collision-claims-46-1615108",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1bb5db01ca70c5f5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1bb5db01ca70c5f5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_396b9c9faa12305a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4ba4e4ee8b1e1b76",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4ba4e4ee8b1e1b76",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.albawaba.com/news/tragic-multi-vehicle-collision-claims-46-1615108",
+      "source_path": "html/UGA/UGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_396b9c9faa12305a",
+    "text": "https://www.albawaba.com/news/tragic-multi-vehicle-collision-claims-46-1615108",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_59f85d73ea361a5f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_59f85d73ea361a5f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Major Deegan Expressway 3-car crash leaves 2 injured in Mott Haven, Bronx",
+      "source_path": "html/USA/USA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_460621160f1f7377",
+    "text": "Major Deegan Expressway 3-car crash leaves 2 injured in Mott Haven, Bronx",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ca20d3d6e15bbe0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9ca20d3d6e15bbe0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T13:21:55-05:00",
+      "source_path": "html/USA/USA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_460621160f1f7377",
+    "text": "2026-08-08T13:21:55-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8e6d489e75bf474c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8e6d489e75bf474c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ABC7 New York",
+      "source_path": "html/USA/USA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_460621160f1f7377",
+    "text": "Publisher: ABC7 New York",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_519e12bfd820a57f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_519e12bfd820a57f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://abc7ny.com/post/major-deegan-expressway-3-car-crash-leaves-2-injured-mott-haven-bronx/19647549/",
+      "source_path": "html/USA/USA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_460621160f1f7377",
+    "text": "Original source: https://abc7ny.com/post/major-deegan-expressway-3-car-crash-leaves-2-injured-mott-haven-bronx/19647549/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_285e2fb8e1b6ea79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_285e2fb8e1b6ea79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_460621160f1f7377",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_451d119ec225cfc8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_451d119ec225cfc8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://abc7ny.com/post/major-deegan-expressway-3-car-crash-leaves-2-injured-mott-haven-bronx/19647549/",
+      "source_path": "html/USA/USA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_460621160f1f7377",
+    "text": "https://abc7ny.com/post/major-deegan-expressway-3-car-crash-leaves-2-injured-mott-haven-bronx/19647549/",
+    "url": null
+  }
+]

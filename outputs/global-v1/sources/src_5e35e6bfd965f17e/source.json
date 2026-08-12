@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "830392e0e360c58bea1509d15ffc0b50f7ab2b9e6e3413bc64c84f79a423332f",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "kenyans.co.ke",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-05T08:00:00Z",
+  "publisher": "Kenyans.co.ke",
+  "schema_version": "1.0.0",
+  "source_id": "src_5e35e6bfd965f17e",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-01-05T08:00:00+00:00",
+    "source_info_hash": "2e67bc5a9509dc6e",
+    "source_info_path": "html/KEN/KEN-S009/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.kenyans.co.ke/news/119527-scores-feared-dead-accident-karai-along-nairobi-nakuru-highway",
+  "timezone": "Africa/Nairobi",
+  "title": "Scores Killed as Two PSVs Collide Head-On in Early Morning Crash"
+}

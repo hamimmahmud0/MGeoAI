@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IDN-S007",
+  "country_code": "IDN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "manilatimes",
+  "canonical_url": "https://www.manilatimes.net/2024/05/13/world/asia-oceania/11-killed-in-indonesia-road-accident/1945949",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.manilatimes.net/2024/05/13/world/asia-oceania/11-killed-in-indonesia-road-accident/1945949",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Indonesia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "65c66fb2a036148a29f569824501069edb8f6d7e3efaa3b5a08540a2ad07d04d",
+      "size_bytes": 1007,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kecelakaan lalu lintas",
+    "tabrakan kendaraan",
+    "kecelakaan bus",
+    "kecelakaan jalan"
+  ],
+  "timezone": "Asia/Jakarta",
+  "captured_at": "2026-08-12T03:55:02.411356+06:00",
+  "published_at": "2024-05-12T09:25:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "manilatimes.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IDN-S007"
+}

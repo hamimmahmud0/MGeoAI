@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PHL-S006",
+  "country_code": "PHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Gulf News",
+  "canonical_url": "https://gulfnews.com/world/asia/philippines/duterte-is-slightly-injured-in-motorcycle-accident-in-philippines-1.1571330393847",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://gulfnews.com/world/asia/philippines/duterte-is-slightly-injured-in-motorcycle-accident-in-philippines-1.1571330393847",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Philippines%22+motorcycle+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "b84c6978afbc7a019b0004b3b8b77d3cf5158a28a7600eaf7777146f68d785bf",
+      "size_bytes": 1146,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "banggaan ng sasakyan"
+  ],
+  "timezone": "Asia/Manila",
+  "captured_at": "2026-08-12T03:38:02.422045+06:00",
+  "published_at": "2019-10-17T13:37:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "gulfnews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PHL-S006"
+}

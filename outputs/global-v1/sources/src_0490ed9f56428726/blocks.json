@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ef3bcad910c673ac",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ef3bcad910c673ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus crashes into building in South Korea, several feared injured, media reports",
+      "source_path": "html/KOR/KOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0490ed9f56428726",
+    "text": "Bus crashes into building in South Korea, several feared injured, media reports",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9ee7406a7f44e8d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f9ee7406a7f44e8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-16T07:57:00+09:00",
+      "source_path": "html/KOR/KOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0490ed9f56428726",
+    "text": "2026-01-16T07:57:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1d7ac415a3a3e2a5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1d7ac415a3a3e2a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "SEOUL — A bus crashed into a building in South Korea's capital Seoul on Friday (Jan 16) and several people are feared injured, including one ...",
+      "source_path": "html/KOR/KOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0490ed9f56428726",
+    "text": "SEOUL — A bus crashed into a building in South Korea's capital Seoul on Friday (Jan 16) and several people are feared injured, including one ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c3200edcc4f2624",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c3200edcc4f2624",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Asia One",
+      "source_path": "html/KOR/KOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0490ed9f56428726",
+    "text": "Publisher: Asia One",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_adbbecff25d89155",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_adbbecff25d89155",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.asiaone.com/asia/bus-crashes-building-south-korea-several-feared-injured-media-reports",
+      "source_path": "html/KOR/KOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0490ed9f56428726",
+    "text": "Original source: https://www.asiaone.com/asia/bus-crashes-building-south-korea-several-feared-injured-media-reports",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3d84e6b8b7bf266c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3d84e6b8b7bf266c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0490ed9f56428726",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b83d5015326931a4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b83d5015326931a4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.asiaone.com/asia/bus-crashes-building-south-korea-several-feared-injured-media-reports",
+      "source_path": "html/KOR/KOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0490ed9f56428726",
+    "text": "https://www.asiaone.com/asia/bus-crashes-building-south-korea-several-feared-injured-media-reports",
+    "url": null
+  }
+]

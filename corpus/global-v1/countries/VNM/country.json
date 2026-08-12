@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "VNM",
+  "name": "Vietnam",
+  "languages": [
+    "vi"
+  ],
+  "timezones": [
+    "Asia/Ho_Chi_Minh"
+  ],
+  "target_sources": 12
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a177547f4a44ae0eee8911e47bbbeef3c59fc0c4a5f7543bcb31da2eda02ee31",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "the financial express",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-07-20T23:57:00Z",
+  "publisher": "The Financial Express",
+  "schema_version": "1.0.0",
+  "source_id": "src_082d957e2d36112d",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-07-20T23:57:00+00:00",
+    "source_info_hash": "30bced52a2082116",
+    "source_info_path": "html/BGD/BGD-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.financialexpress.com/auto/car-news/bangladeshs-most-expensive-car-crash-rolls-royce-smashes-into-a-divider/3921551/",
+  "timezone": "Asia/Dhaka",
+  "title": "Bangladesh’s most expensive car crash: Rolls-Royce smashes into a divider"
+}

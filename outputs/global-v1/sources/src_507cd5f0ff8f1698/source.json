@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a1f092f3fdc01bc7a509a2d1bef3c3e13efee1cc8b54dfa0ae0f601a72294af7",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "asaaseradio.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-12T07:00:00Z",
+  "publisher": "asaaseradio.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_507cd5f0ff8f1698",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-05-12T07:00:00+00:00",
+    "source_info_hash": "3f4a2c92fb612b5c",
+    "source_info_path": "html/GHA/GHA-S003/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://asaaseradio.com/three-killed-15-injured-in-accra-kumasi-highway-crash/",
+  "timezone": "Africa/Accra",
+  "title": "Three killed, 15 injured in Accra-Kumasi highway crash"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ETH-S002",
+  "country_code": "ETH",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Yahoo",
+  "canonical_url": "https://www.yahoo.com/news/articles/least-28-killed-ethiopia-bus-082124492.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.yahoo.com/news/articles/least-28-killed-ethiopia-bus-082124492.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Ethiopia%22+wedding+bus+river+crash+killed&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "c32f7263f27de18e2e8c56a0d25443e529dba4b762f6cb6c0f8870d2d5b57e51",
+      "size_bytes": 957,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "am",
+    "en",
+    "om"
+  ],
+  "traffic_keywords": [
+    "የመንገድ አደጋ",
+    "የትራፊክ አደጋ",
+    "road accident",
+    "traffic crash"
+  ],
+  "timezone": "Africa/Addis_Ababa",
+  "captured_at": "2026-08-11T21:56:25.776723Z",
+  "published_at": "2026-06-15T01:21:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "yahoo.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ETH-S002"
+}

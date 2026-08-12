@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ab1616138c35513ac0887243862aa5c115b4372bdf39738afa5dca03591644a4",
+  "country": "Italy",
+  "country_code": "ITA",
+  "dependency_group": "genovatoday",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "it"
+  ],
+  "local_path": "html/ITA/ITA-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-15T07:00:00Z",
+  "publisher": "GenovaToday",
+  "schema_version": "1.0.0",
+  "source_id": "src_736c78c8715e7d91",
+  "source_metadata": {
+    "country": "Italy",
+    "country_code": "ITA",
+    "languages": [
+      "it"
+    ],
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "source_info_hash": "0d868e66aef593d5",
+    "source_info_path": "html/ITA/ITA-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Rome",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "incidente stradale",
+      "scontro tra veicoli",
+      "incidente automobilistico",
+      "incidente autobus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.genovatoday.it/cronaca/incidente-stradale/morto-67enne-ferito-incidente-corso-europa.html",
+  "timezone": "Europe/Rome",
+  "title": "Incidente in corso Europa: morto il motociclista 67enne"
+}

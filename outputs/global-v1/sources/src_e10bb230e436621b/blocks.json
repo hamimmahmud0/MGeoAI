@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ac6a605e2043f9f8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ac6a605e2043f9f8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Another Bangladeshi dies in Saudi Arabia road crash",
+      "source_path": "html/SAU/SAU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e10bb230e436621b",
+    "text": "Another Bangladeshi dies in Saudi Arabia road crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_876c3205d2f145d3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_876c3205d2f145d3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2014-10-23T19:42:00+03:00",
+      "source_path": "html/SAU/SAU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e10bb230e436621b",
+    "text": "2014-10-23T19:42:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09422bba7e4a1e57",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09422bba7e4a1e57",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Family said Masud Rana was injured when the goods-laden truck he was driving from Riyadh to Dammam collided with a covered van at around 10pm ...",
+      "source_path": "html/SAU/SAU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e10bb230e436621b",
+    "text": "Family said Masud Rana was injured when the goods-laden truck he was driving from Riyadh to Dammam collided with a covered van at around 10pm ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_926c76c51ac8daef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_926c76c51ac8daef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/SAU/SAU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e10bb230e436621b",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c059fc2c9f41d438",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c059fc2c9f41d438",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/another-bangladeshi-dies-in-saudi-arabia-road-crash",
+      "source_path": "html/SAU/SAU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e10bb230e436621b",
+    "text": "Original source: https://bdnews24.com/bangladesh/another-bangladeshi-dies-in-saudi-arabia-road-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6555b5e4b2364d78",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6555b5e4b2364d78",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e10bb230e436621b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1db3fed9d8204c59",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1db3fed9d8204c59",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bdnews24.com/bangladesh/another-bangladeshi-dies-in-saudi-arabia-road-crash",
+      "source_path": "html/SAU/SAU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e10bb230e436621b",
+    "text": "https://bdnews24.com/bangladesh/another-bangladeshi-dies-in-saudi-arabia-road-crash",
+    "url": null
+  }
+]

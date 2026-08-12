@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ba8c08f29142b397",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ba8c08f29142b397",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladeshis among 12 killed in Turkey migrant bus crash",
+      "source_path": "html/TUR/TUR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00b182403a32cf63",
+    "text": "Bangladeshis among 12 killed in Turkey migrant bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a9c11ab19685f995",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a9c11ab19685f995",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2021-07-11T11:27:00+03:00",
+      "source_path": "html/TUR/TUR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00b182403a32cf63",
+    "text": "2021-07-11T11:27:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a518d1a40b4553cf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a518d1a40b4553cf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus carrying Bangladeshi, Pakistani and and Afghan migrants crashed in eastern Turkey early on Sunday, killing at least 12 people and injuring 26 others ...",
+      "source_path": "html/TUR/TUR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00b182403a32cf63",
+    "text": "A bus carrying Bangladeshi, Pakistani and and Afghan migrants crashed in eastern Turkey early on Sunday, killing at least 12 people and injuring 26 others ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a5ebbd2ea2faf485",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a5ebbd2ea2faf485",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/TUR/TUR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00b182403a32cf63",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1ee1fef574bac280",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1ee1fef574bac280",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/252119/bangladeshis-among-12-killed-in-turkey-migrant-bus",
+      "source_path": "html/TUR/TUR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00b182403a32cf63",
+    "text": "Original source: https://www.dhakatribune.com/world/252119/bangladeshis-among-12-killed-in-turkey-migrant-bus",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d84d97aab3f84bf2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d84d97aab3f84bf2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00b182403a32cf63",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7b6268b572b4fa60",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7b6268b572b4fa60",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/252119/bangladeshis-among-12-killed-in-turkey-migrant-bus",
+      "source_path": "html/TUR/TUR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00b182403a32cf63",
+    "text": "https://www.dhakatribune.com/world/252119/bangladeshis-among-12-killed-in-turkey-migrant-bus",
+    "url": null
+  }
+]

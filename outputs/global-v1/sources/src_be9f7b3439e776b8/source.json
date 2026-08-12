@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "fc69b84fa1b60c10efff187436d5f8da58092e25193838f3ec2c89dd58527a99",
+  "country": "Singapore",
+  "country_code": "SGP",
+  "dependency_group": "international business times singapore",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SGP/SGP-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-07T07:20:00Z",
+  "publisher": "International Business Times Singapore",
+  "schema_version": "1.0.0",
+  "source_id": "src_be9f7b3439e776b8",
+  "source_metadata": {
+    "country": "Singapore",
+    "country_code": "SGP",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-07T07:20:00+00:00",
+    "source_info_hash": "5b8de61a744ea649",
+    "source_info_path": "html/SGP/SGP-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Singapore",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "traffic accident",
+      "road collision",
+      "vehicle crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ibtimes.sg/singapore-25-year-old-woman-hospitalized-after-car-mounts-pedestrian-walkway-near-mandarin-gallery-91703",
+  "timezone": "Asia/Singapore",
+  "title": "Singapore: 25-Year-Old Woman Hospitalized After Car Mounts Pedestrian Walkway Near Mandarin Gallery on Orchard Road"
+}

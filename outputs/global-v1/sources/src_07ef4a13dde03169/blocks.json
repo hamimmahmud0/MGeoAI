@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_220d0263406f8dc4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_220d0263406f8dc4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One killed in fatal south Nanaimo highway crash",
+      "source_path": "html/CAN/CAN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07ef4a13dde03169",
+    "text": "One killed in fatal south Nanaimo highway crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9b452abdd08a26a7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9b452abdd08a26a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-22T03:00:00-04:00",
+      "source_path": "html/CAN/CAN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07ef4a13dde03169",
+    "text": "2026-06-22T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3faed2d46639c732",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3faed2d46639c732",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NanaimoNewsNOW",
+      "source_path": "html/CAN/CAN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07ef4a13dde03169",
+    "text": "Publisher: NanaimoNewsNOW",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_60267f80479b1315",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_60267f80479b1315",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://nanaimonewsnow.com/2026/06/22/one-killed-in-fatal-south-nanaimo-highway-crash/",
+      "source_path": "html/CAN/CAN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07ef4a13dde03169",
+    "text": "Original source: https://nanaimonewsnow.com/2026/06/22/one-killed-in-fatal-south-nanaimo-highway-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90ef9438f738d5d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_90ef9438f738d5d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07ef4a13dde03169",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e595d221bc63559b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e595d221bc63559b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://nanaimonewsnow.com/2026/06/22/one-killed-in-fatal-south-nanaimo-highway-crash/",
+      "source_path": "html/CAN/CAN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07ef4a13dde03169",
+    "text": "https://nanaimonewsnow.com/2026/06/22/one-killed-in-fatal-south-nanaimo-highway-crash/",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "AUS-S007",
+  "country_code": "AUS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Australian Broadcasting Corporation",
+  "canonical_url": "https://www.abc.net.au/news/2026-06-03/tpg-capital-boss-joel-thickins-sydney-bmw-crash/106754848",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.abc.net.au/news/2026-06-03/tpg-capital-boss-joel-thickins-sydney-bmw-crash/106754848",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Sydney%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "fb89dfde6c788ac4b556f742479c2ad8eb69d330730df7d00785fe050a8bb792",
+      "size_bytes": 1102,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Australia/Sydney",
+  "captured_at": "2026-08-12T03:49:09.703010+06:00",
+  "published_at": "2026-06-02T18:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "abc.net.au",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-AUS-S007"
+}

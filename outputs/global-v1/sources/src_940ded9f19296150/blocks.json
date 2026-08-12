@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b62906bcfe9c2a7a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b62906bcfe9c2a7a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Protesta en vía de Santa Lucía por accidente de tránsito que dejó cinco heridos",
+      "source_path": "html/ECU/ECU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_940ded9f19296150",
+    "text": "Protesta en vía de Santa Lucía por accidente de tránsito que dejó cinco heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_975de70903230b8d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_975de70903230b8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-07T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_940ded9f19296150",
+    "text": "2026-07-07T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0413c848f5d0bf1b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0413c848f5d0bf1b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: expreso.ec",
+      "source_path": "html/ECU/ECU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_940ded9f19296150",
+    "text": "Publisher: expreso.ec",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef730309b71df1b2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ef730309b71df1b2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.expreso.ec/ecuador/protesta-via-santa-lucia-accidente-transito-dejo-cinco-heridos-288438.html",
+      "source_path": "html/ECU/ECU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_940ded9f19296150",
+    "text": "Original source: https://www.expreso.ec/ecuador/protesta-via-santa-lucia-accidente-transito-dejo-cinco-heridos-288438.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bb62e4abe6f1837",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4bb62e4abe6f1837",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_940ded9f19296150",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c31751f9393f9748",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c31751f9393f9748",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.expreso.ec/ecuador/protesta-via-santa-lucia-accidente-transito-dejo-cinco-heridos-288438.html",
+      "source_path": "html/ECU/ECU-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_940ded9f19296150",
+    "text": "https://www.expreso.ec/ecuador/protesta-via-santa-lucia-accidente-transito-dejo-cinco-heridos-288438.html",
+    "url": null
+  }
+]

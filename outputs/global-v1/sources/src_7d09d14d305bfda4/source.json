@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "72abe818df1ea8921f2dc6387c8f3f7b05624a4a691090101ebf858710121e72",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "expressen",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2023-11-08T08:00:00Z",
+  "publisher": "Expressen",
+  "schema_version": "1.0.0",
+  "source_id": "src_7d09d14d305bfda4",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2023-11-08T08:00:00+00:00",
+    "source_info_hash": "d9aee0e14fd1a020",
+    "source_info_path": "html/SWE/SWE-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.expressen.se/nyheter/sverige/aldre-kvinna-dod-i-trafikolycka/",
+  "timezone": "Europe/Stockholm",
+  "title": "Äldre kvinna död i trafikolycka i Rimbo"
+}

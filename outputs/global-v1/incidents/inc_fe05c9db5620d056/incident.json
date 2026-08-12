@@ -1,0 +1,94 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-08T18:31:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-07T18:31:00",
+    "timezone": "Asia/Dhaka"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_02e1248ad077ecae",
+    "ev_c37dc0ef53c92868"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_02e1248ad077ecae",
+        "ev_c37dc0ef53c92868"
+      ],
+      "value": 16
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-08-07T18:31:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Coordinates represent a named-area centroid, not the exact crash point.",
+    "confidence": 0.55,
+    "display_name": "Bogura District, Bangladesh",
+    "granularity": "district",
+    "hierarchy": {
+      "anchor": "bogura",
+      "country": "Bangladesh",
+      "district": "Bogura"
+    },
+    "latitude": 24.8465,
+    "longitude": 89.3773,
+    "method": "local_gazetteer_centroid",
+    "supporting_evidence_ids": [
+      "ev_02e1248ad077ecae",
+      "ev_c37dc0ef53c92868"
+    ],
+    "uncertainty_radius_km": 35.0
+  },
+  "human_summary": "The fused record concerns this reported incident: Bus crash involving labourers in Sherpur, Bogura. The reported date is August 7, 2026, retained at day precision. Reports identify the location as Bogura District, Bangladesh; fusion retains it at district precision with 55% location confidence. The reconciled casualty assessment records 16 reported fatalities and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 2 cited evidence item(s). Important location limitation: Coordinates represent a named-area centroid, not the exact crash point, with an approximate 35 km uncertainty radius. Representative decisive evidence: [ev_02e1248ad077ecae] [ev_c37dc0ef53c92868].",
+  "incident_id": "inc_fe05c9db5620d056",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_d3b07a44b03e8eb2",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_f169afeba22bd6f6"
+  ],
+  "status": "reported",
+  "title": "Bus crash involving labourers in Sherpur, Bogura",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

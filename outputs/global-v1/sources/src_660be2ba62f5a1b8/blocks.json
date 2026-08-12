@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_fc3c10c4750ee1c2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_fc3c10c4750ee1c2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Exitosa Noticias. . 🔴🔵 #ExitosaDeportes⚽⚽ | Un accidente de tránsito dejó como saldo, al menos, cinco personas heridas en el Parque Universitario, en el Cercado de Lima. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movistar: 34 SD - 734 HD 🌐 exitosanoticias.p",
+      "source_path": "html/PER/PER-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_660be2ba62f5a1b8",
+    "text": "Exitosa Noticias. . 🔴🔵 #ExitosaDeportes⚽⚽ | Un accidente de tránsito dejó como saldo, al menos, cinco personas heridas en el Parque Universitario, en el Cercado de Lima. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movistar: 34 SD - 734 HD 🌐 exitosanoticias.p",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b45757afeba07143",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b45757afeba07143",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-27T02:00:00-05:00",
+      "source_path": "html/PER/PER-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_660be2ba62f5a1b8",
+    "text": "2026-06-27T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b9fdd24d50686ca6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b9fdd24d50686ca6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Exitosa Noticias. . 🔴🔵 #ExitosaDeportes⚽⚽ | Un accidente de tránsito dejó como saldo, al menos, cinco personas heridas en el Parque Universitario, en el Cercado ...",
+      "source_path": "html/PER/PER-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_660be2ba62f5a1b8",
+    "text": "Exitosa Noticias. . 🔴🔵 #ExitosaDeportes⚽⚽ | Un accidente de tránsito dejó como saldo, al menos, cinco personas heridas en el Parque Universitario, en el Cercado ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ff97bdbfd1905da",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ff97bdbfd1905da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: facebook.com",
+      "source_path": "html/PER/PER-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_660be2ba62f5a1b8",
+    "text": "Publisher: facebook.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_64b2318ffc08d98c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_64b2318ffc08d98c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.facebook.com/Exitosanoticias/videos/-exitosadeportes-un-accidente-de-tr%C3%A1nsito-dej%C3%B3-como-saldo-al-menos-cinco-persona/1032347469259199/",
+      "source_path": "html/PER/PER-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_660be2ba62f5a1b8",
+    "text": "Original source: https://www.facebook.com/Exitosanoticias/videos/-exitosadeportes-un-accidente-de-tr%C3%A1nsito-dej%C3%B3-como-saldo-al-menos-cinco-persona/1032347469259199/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ab289aa84f2bcce7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ab289aa84f2bcce7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_660be2ba62f5a1b8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8f87a29c6a792c03",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8f87a29c6a792c03",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.facebook.com/Exitosanoticias/videos/-exitosadeportes-un-accidente-de-tr%C3%A1nsito-dej%C3%B3-como-saldo-al-menos-cinco-persona/1032347469259199/",
+      "source_path": "html/PER/PER-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_660be2ba62f5a1b8",
+    "text": "https://www.facebook.com/Exitosanoticias/videos/-exitosadeportes-un-accidente-de-tr%C3%A1nsito-dej%C3%B3-como-saldo-al-menos-cinco-persona/1032347469259199/",
+    "url": null
+  }
+]

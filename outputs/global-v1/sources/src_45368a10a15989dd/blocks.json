@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2095e936ac8a2c5b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2095e936ac8a2c5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "38 killed, 28 injured in Tanzania bus collision",
+      "source_path": "html/TZA/TZA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45368a10a15989dd",
+    "text": "38 killed, 28 injured in Tanzania bus collision",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9c3f0dbef603e5fc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9c3f0dbef603e5fc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-29T13:56:00+03:00",
+      "source_path": "html/TZA/TZA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45368a10a15989dd",
+    "text": "2025-06-29T13:56:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f36c2fecd0af1f6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f36c2fecd0af1f6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 38 people were killed and 28 others injured after a passenger bus collided head-on with a minibus and caught fire in the northern ...",
+      "source_path": "html/TZA/TZA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45368a10a15989dd",
+    "text": "At least 38 people were killed and 28 others injured after a passenger bus collided head-on with a minibus and caught fire in the northern ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5a65702bda871f94",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5a65702bda871f94",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Anadolu Ajansi",
+      "source_path": "html/TZA/TZA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45368a10a15989dd",
+    "text": "Publisher: Anadolu Ajansi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_56e9f58e29b1182a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_56e9f58e29b1182a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aa.com.tr/en/africa/38-killed-28-injured-in-tanzania-bus-collision/3616963",
+      "source_path": "html/TZA/TZA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45368a10a15989dd",
+    "text": "Original source: https://www.aa.com.tr/en/africa/38-killed-28-injured-in-tanzania-bus-collision/3616963",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6a0023359d520a54",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6a0023359d520a54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45368a10a15989dd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_25e6382568c27e4a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_25e6382568c27e4a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aa.com.tr/en/africa/38-killed-28-injured-in-tanzania-bus-collision/3616963",
+      "source_path": "html/TZA/TZA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45368a10a15989dd",
+    "text": "https://www.aa.com.tr/en/africa/38-killed-28-injured-in-tanzania-bus-collision/3616963",
+    "url": null
+  }
+]

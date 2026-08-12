@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0726dda8b27f1c18e4f45ab00fd25d4873813cacdb31db2422db99ea5369eb08",
+  "country": "India",
+  "country_code": "IND",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IND/IND-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-10-02T10:13:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_9731bd55c2f6c8a0",
+  "source_metadata": {
+    "country": "India",
+    "country_code": "IND",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2022-10-02T10:13:00+00:00",
+    "source_info_hash": "95d85bba0fd7b4bb",
+    "source_info_path": "html/IND/IND-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Kolkata",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "सड़क दुर्घटना",
+      "बस दुर्घटना"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/south-asia/277643/27-dead-in-india-road-accident",
+  "timezone": "Asia/Kolkata",
+  "title": "27 dead in India road accident"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d2baab93fed1abf9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d2baab93fed1abf9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dubai bus crash kills 17, including 12 Indians",
+      "source_path": "html/ARE/ARE-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2090c42455c70f4",
+    "text": "Dubai bus crash kills 17, including 12 Indians",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fdccd043e68ae16c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_fdccd043e68ae16c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-06-07T20:12:00+04:00",
+      "source_path": "html/ARE/ARE-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2090c42455c70f4",
+    "text": "2019-06-07T20:12:00+04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f3a2dbc5e109c334",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f3a2dbc5e109c334",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Twelve Indians were among 17 people who were killed in Dubai when their bus crashed into a road sign after entering a restricted lane, police ...",
+      "source_path": "html/ARE/ARE-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2090c42455c70f4",
+    "text": "Twelve Indians were among 17 people who were killed in Dubai when their bus crashed into a road sign after entering a restricted lane, police ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30a89f77a39b2c38",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30a89f77a39b2c38",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/ARE/ARE-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2090c42455c70f4",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02828220240f4ec2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_02828220240f4ec2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/middle-east/178855/dubai-bus-crash-kills-17-including-12-indians",
+      "source_path": "html/ARE/ARE-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2090c42455c70f4",
+    "text": "Original source: https://www.dhakatribune.com/world/middle-east/178855/dubai-bus-crash-kills-17-including-12-indians",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3cff6902b70bf215",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3cff6902b70bf215",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARE/ARE-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2090c42455c70f4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_66f3d4089be0db0f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_66f3d4089be0db0f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/middle-east/178855/dubai-bus-crash-kills-17-including-12-indians",
+      "source_path": "html/ARE/ARE-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e2090c42455c70f4",
+    "text": "https://www.dhakatribune.com/world/middle-east/178855/dubai-bus-crash-kills-17-including-12-indians",
+    "url": null
+  }
+]

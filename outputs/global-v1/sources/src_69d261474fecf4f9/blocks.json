@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_06e67e2237d469ea",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_06e67e2237d469ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two siblings killed in Karachi road accident as protesters torch dumpers",
+      "source_path": "html/PAK/PAK-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69d261474fecf4f9",
+    "text": "Two siblings killed in Karachi road accident as protesters torch dumpers",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d8c0c476d1b50da4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d8c0c476d1b50da4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-10T00:12:00+05:00",
+      "source_path": "html/PAK/PAK-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69d261474fecf4f9",
+    "text": "2025-08-10T00:12:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0907a5b0503f1c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e0907a5b0503f1c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "KARACHI: Two siblings were killed and their father injured in a road accident involving a dumper truck on Karachi’s Rashid Minhas Road near Lucky One ...",
+      "source_path": "html/PAK/PAK-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69d261474fecf4f9",
+    "text": "KARACHI: Two siblings were killed and their father injured in a road accident involving a dumper truck on Karachi’s Rashid Minhas Road near Lucky One ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d876c667cd10e97",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8d876c667cd10e97",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Pakistan Today",
+      "source_path": "html/PAK/PAK-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69d261474fecf4f9",
+    "text": "Publisher: Pakistan Today",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_74d650d67bfe9a51",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_74d650d67bfe9a51",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.pakistantoday.com.pk/2025/08/10/two-siblings-killed-in-karachi-road-accident-as-protesters-torch-dumpers",
+      "source_path": "html/PAK/PAK-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69d261474fecf4f9",
+    "text": "Original source: https://www.pakistantoday.com.pk/2025/08/10/two-siblings-killed-in-karachi-road-accident-as-protesters-torch-dumpers",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48b06ec64c1fb78d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48b06ec64c1fb78d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69d261474fecf4f9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_32b2824e984f2d3b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_32b2824e984f2d3b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.pakistantoday.com.pk/2025/08/10/two-siblings-killed-in-karachi-road-accident-as-protesters-torch-dumpers",
+      "source_path": "html/PAK/PAK-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69d261474fecf4f9",
+    "text": "https://www.pakistantoday.com.pk/2025/08/10/two-siblings-killed-in-karachi-road-accident-as-protesters-torch-dumpers",
+    "url": null
+  }
+]

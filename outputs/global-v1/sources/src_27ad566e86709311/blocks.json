@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_91fecfc63c7bbbbe",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_91fecfc63c7bbbbe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Cuatro muertos por un choque múltiple en la Ruta Nacional 12",
+      "source_path": "html/ARG/ARG-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_27ad566e86709311",
+    "text": "Cuatro muertos por un choque múltiple en la Ruta Nacional 12",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bfb4a2ace2d4740",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4bfb4a2ace2d4740",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-08T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_27ad566e86709311",
+    "text": "2026-06-08T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1a3e1b37b9bfcd8b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1a3e1b37b9bfcd8b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Litoral",
+      "source_path": "html/ARG/ARG-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_27ad566e86709311",
+    "text": "Publisher: El Litoral",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_212decefab0507d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_212decefab0507d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ellitoral.com/sucesos/choque-camioneta-autovia-heridos-rios-accidente-investigacion_0_2IFEDkteaA.html",
+      "source_path": "html/ARG/ARG-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_27ad566e86709311",
+    "text": "Original source: https://www.ellitoral.com/sucesos/choque-camioneta-autovia-heridos-rios-accidente-investigacion_0_2IFEDkteaA.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c113f8171f86d437",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c113f8171f86d437",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_27ad566e86709311",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_614445bb0c70f7e6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_614445bb0c70f7e6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ellitoral.com/sucesos/choque-camioneta-autovia-heridos-rios-accidente-investigacion_0_2IFEDkteaA.html",
+      "source_path": "html/ARG/ARG-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_27ad566e86709311",
+    "text": "https://www.ellitoral.com/sucesos/choque-camioneta-autovia-heridos-rios-accidente-investigacion_0_2IFEDkteaA.html",
+    "url": null
+  }
+]

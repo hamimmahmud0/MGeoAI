@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0daafe5f3dfd7ea116de597ca42e07485f897cfde91733d28385a0d4036ce15d",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "وكالة الأناضول",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/JOR/JOR-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2013-03-16T03:57:00Z",
+  "publisher": "وكالة الأناضول",
+  "schema_version": "1.0.0",
+  "source_id": "src_8b7125d989ac4646",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2013-03-16T03:57:00+00:00",
+    "source_info_hash": "270327b9bfa8f2bb",
+    "source_info_path": "html/JOR/JOR-S005/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aa.com.tr/ar/archive/مصرع-15-معتمرًا-فلسطينيًا-في-حادث-مروري-بالأردن-محدث/264793",
+  "timezone": "Asia/Amman",
+  "title": "مصرع 15 معتمرًا فلسطينيًا في حادث مروري بالأردن (محدث)"
+}

@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "dcdc875c1988e7805f5448bacf7a39c99bcb1ae3e08df3d67878067a2d5c3dd1",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "guardian.ng",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-10T07:00:00Z",
+  "publisher": "guardian.ng",
+  "schema_version": "1.0.0",
+  "source_id": "src_752e228761153551",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2026-06-10T07:00:00+00:00",
+    "source_info_hash": "f3936e489d1b41dd",
+    "source_info_path": "html/NGA/NGA-S010/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://guardian.ng/news/nigeria/metro/commercial-bus-driver-killed-in-multiple-auto-crash-in-lagos/",
+  "timezone": "Africa/Lagos",
+  "title": "Commercial bus driver killed in multiple auto crash in Lagos"
+}

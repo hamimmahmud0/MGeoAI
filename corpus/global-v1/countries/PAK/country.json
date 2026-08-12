@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "PAK",
+  "name": "Pakistan",
+  "languages": [
+    "ur",
+    "en"
+  ],
+  "timezones": [
+    "Asia/Karachi"
+  ],
+  "target_sources": 12
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "USA-S007",
+  "country_code": "USA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "ABC7 Chicago",
+  "canonical_url": "https://abc7chicago.com/post/chicago-car-crash-person-killed-2-critically-injured-94-fire-officials-say/19609119/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://abc7chicago.com/post/chicago-car-crash-person-killed-2-critically-injured-94-fire-officials-say/19609119/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%28%22traffic+crash%22+OR+%22highway+crash%22+OR+%22car+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "be50b470ffe50073378d346f27e8b2d3ebc84b0969823564ac7fbbf8e87934d1",
+      "size_bytes": 1198,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "vehicle collision",
+    "highway crash"
+  ],
+  "timezone": "America/Chicago",
+  "captured_at": "2026-08-11T21:38:28Z",
+  "published_at": "2026-07-31T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "abc7chicago.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-USA-S007"
+}

@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d1c35c5574c0c8c4e518a11547c54a06ba9bb22fde12d1217ba5e76f9e1da292",
+  "country": "Ethiopia",
+  "country_code": "ETH",
+  "dependency_group": "new haven register",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "am",
+    "en",
+    "om"
+  ],
+  "local_path": "html/ETH/ETH-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-15T06:21:00Z",
+  "publisher": "New Haven Register",
+  "schema_version": "1.0.0",
+  "source_id": "src_024380068477ef85",
+  "source_metadata": {
+    "country": "Ethiopia",
+    "country_code": "ETH",
+    "languages": [
+      "am",
+      "en",
+      "om"
+    ],
+    "published_at": "2026-06-15T06:21:00+00:00",
+    "source_info_hash": "172fc9b20a44d7c1",
+    "source_info_path": "html/ETH/ETH-S010/SOURCE_INFO.md",
+    "timezone": "Africa/Addis_Ababa",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "የመንገድ አደጋ",
+      "የትራፊክ አደጋ",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nhregister.com/news/world/article/at-least-31-dead-after-bus-crashes-in-ethiopia-22305575.php",
+  "timezone": "Africa/Addis_Ababa",
+  "title": "At least 31 dead after bus crashes in Ethiopia"
+}

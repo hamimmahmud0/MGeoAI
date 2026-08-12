@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S002",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Hindustan Times",
+  "canonical_url": "https://www.hindustantimes.com/world-news/vietnam-sleeper-bus-crash-dead-injured-hanoi-da-nang-101753473827987.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.hindustantimes.com/world-news/vietnam-sleeper-bus-crash-dead-injured-hanoi-da-nang-101753473827987.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Vietnam%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0ff5689cd381ceb987290d8b44b16816ad2e6d145909a215543c6c0144a56acf",
+      "size_bytes": 1063,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:38:06.155454+06:00",
+  "published_at": "2025-07-25T13:17:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "hindustantimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S002"
+}

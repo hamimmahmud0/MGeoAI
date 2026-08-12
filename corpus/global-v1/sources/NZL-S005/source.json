@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S005",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Newstalk ZB",
+  "canonical_url": "https://www.newstalkzb.co.nz/news/national/auckland-traffic-chaos-separate-crashes-block-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.newstalkzb.co.nz/news/national/auckland-traffic-chaos-separate-crashes-block-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "5d0669b4a8e3dfe7412a753aaa09365d8f8c4f0c7742a817cd4900043fff702e",
+      "size_bytes": 1246,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:31.582053+06:00",
+  "published_at": "2025-05-06T00:04:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "newstalkzb.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S005"
+}

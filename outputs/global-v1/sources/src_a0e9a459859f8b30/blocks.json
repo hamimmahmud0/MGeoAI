@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_53597e3c4e7cebf3",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_53597e3c4e7cebf3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Papa Leão XIV manifesta solidariedade às famílias dos sete jovens de Juazeiro mortos em acidente de ônibus em Tauá",
+      "source_path": "html/BRA/BRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0e9a459859f8b30",
+    "text": "Papa Leão XIV manifesta solidariedade às famílias dos sete jovens de Juazeiro mortos em acidente de ônibus em Tauá",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b1b1a223e20e6b4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2b1b1a223e20e6b4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-22T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0e9a459859f8b30",
+    "text": "2026-06-22T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bb83ec7825291594",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bb83ec7825291594",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Leia Sempre Brasil",
+      "source_path": "html/BRA/BRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0e9a459859f8b30",
+    "text": "Publisher: Leia Sempre Brasil",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5647ddd9baf3e55a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5647ddd9baf3e55a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://leiasemprebrasil.com.br/2026/06/22/papa-leao-xiv-manifesta-solidariedade-as-familias-dos-sete-jovens-de-juazeiro-mortos-em-acidente-de-onibus-em-taua/",
+      "source_path": "html/BRA/BRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0e9a459859f8b30",
+    "text": "Original source: https://leiasemprebrasil.com.br/2026/06/22/papa-leao-xiv-manifesta-solidariedade-as-familias-dos-sete-jovens-de-juazeiro-mortos-em-acidente-de-onibus-em-taua/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d0c2bd37022c75db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d0c2bd37022c75db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0e9a459859f8b30",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8ad1ee19bd8b5c45",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8ad1ee19bd8b5c45",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://leiasemprebrasil.com.br/2026/06/22/papa-leao-xiv-manifesta-solidariedade-as-familias-dos-sete-jovens-de-juazeiro-mortos-em-acidente-de-onibus-em-taua/",
+      "source_path": "html/BRA/BRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a0e9a459859f8b30",
+    "text": "https://leiasemprebrasil.com.br/2026/06/22/papa-leao-xiv-manifesta-solidariedade-as-familias-dos-sete-jovens-de-juazeiro-mortos-em-acidente-de-onibus-em-taua/",
+    "url": null
+  }
+]

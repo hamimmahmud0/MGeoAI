@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "774080faac4ed22a53a1859a432804a3cd328607b078f512393194bb315c933c",
+  "country": "Thailand",
+  "country_code": "THA",
+  "dependency_group": "arutz sheva",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/THA/THA-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-10T10:47:00Z",
+  "publisher": "Arutz Sheva",
+  "schema_version": "1.0.0",
+  "source_id": "src_c1cb44f16da56beb",
+  "source_metadata": {
+    "country": "Thailand",
+    "country_code": "THA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-01-10T10:47:00+00:00",
+    "source_info_hash": "952edacc7e9af3aa",
+    "source_info_path": "html/THA/THA-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Bangkok",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "อุบัติเหตุทางถนน",
+      "รถชน",
+      "รถบัสชน",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.israelnationalnews.com/news/420674",
+  "timezone": "Asia/Bangkok",
+  "title": "Six Israelis injured in Thailand road accident"
+}

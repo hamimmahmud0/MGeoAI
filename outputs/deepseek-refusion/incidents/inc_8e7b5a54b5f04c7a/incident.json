@@ -1,0 +1,135 @@
+{
+  "alternate_time_claims": [],
+  "collision": "Head-on collision between bus and dump truck",
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "Only one source provided; independence unknown.",
+    "Event time precision unknown; only day and approximate hour given.",
+    "Injury count is reported as 'at least 15'.",
+    "Sentiment data absent."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": null,
+    "original_expression": "মঙ্গলবার সকাল আটটার দিকে",
+    "precision": "unknown",
+    "start": null,
+    "timezone": null
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_1b947473ee96b996"
+  ],
+  "facts": [
+    {
+      "confidence": 0.82,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Directly reported as three fatalities by the only source.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_1b947473ee96b996"
+      ],
+      "value": 3
+    },
+    {
+      "confidence": 0.82,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Report states at least 15 injured.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_1b947473ee96b996"
+      ],
+      "value": 15
+    },
+    {
+      "confidence": 0.82,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "vehicles_involved",
+      "selection_rationale": "Explicitly mentioned in the collision description.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_1b947473ee96b996"
+      ],
+      "value": [
+        "bus",
+        "sand-laden dump truck"
+      ]
+    }
+  ],
+  "generated_at": "2025-04-10T00:00:00Z",
+  "geolocation": {
+    "alternatives": [
+      {
+        "confidence": 0.68,
+        "evidence_ids": [
+          "ev_1b947473ee96b996"
+        ],
+        "granularity": "area",
+        "hierarchy": {
+          "anchor": "baniacho_shahrasti",
+          "country": "Bangladesh",
+          "district": "Chandpur",
+          "locality": "Baniacho",
+          "upazila": "Shahrasti"
+        },
+        "latitude": 23.253908,
+        "longitude": 90.968507,
+        "name": "Baniacho, Shahrasti, Chandpur",
+        "normalized_name": "baniacho, shahrasti, chandpur",
+        "reason": "local gazetteer centroid; not a rooftop crash coordinate"
+      }
+    ],
+    "ambiguity_reason": null,
+    "confidence": 0.68,
+    "display_name": "Baniacho, Shahrasti, Chandpur",
+    "granularity": "area",
+    "hierarchy": {},
+    "latitude": 23.253908,
+    "longitude": 90.968507,
+    "method": "gazetteer_centroid",
+    "supporting_evidence_ids": [
+      "ev_1b947473ee96b996"
+    ],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "On Tuesday morning around 8:00, a head-on collision occurred between a passenger bus and a sand-laden dump truck on the Chandpur-Cumilla regional highway in Baniacho, Shahrasti, Chandpur, Bangladesh. The crash resulted in three fatalities and at least 15 injuries, as reported by Prothom Alo [ev_1b947473ee96b996]. The location is an area-level gazetteer centroid, not an exact crash point. The event time is approximate to the hour, with no specific minute provided. Only one independent source covers the incident, so corroboration is limited. The exact cause of the crash and the condition of the injured have not been disclosed. No sentiment or traffic effect information was supplied.",
+  "incident_id": "inc_8e7b5a54b5f04c7a",
+  "independent_source_count": 1,
+  "involved_parties": [
+    "bus",
+    "sand-laden dump truck"
+  ],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_4a0f8a0ea6cf4c0b"
+  ],
+  "status": "reported",
+  "title": "Head-on Collision Between Bus and Sand-laden Dump Truck in Baniacho, Shahrasti, Chandpur",
+  "unresolved_questions": [
+    "What is the exact time (minutes) of the accident?",
+    "Were there any additional victims or details about injuries?",
+    "What caused the head-on collision (e.g., overtaking, speeding)?"
+  ],
+  "vehicles": [
+    "bus",
+    "sand-laden dump truck"
+  ]
+}

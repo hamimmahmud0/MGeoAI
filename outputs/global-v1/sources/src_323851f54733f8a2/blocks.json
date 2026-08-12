@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3368412c169f8201",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3368412c169f8201",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fatal collision on Chilaw-Colombo road leaves one dead, 15 injured",
+      "source_path": "html/LKA/LKA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_323851f54733f8a2",
+    "text": "Fatal collision on Chilaw-Colombo road leaves one dead, 15 injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba557e7ac5fd7de3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ba557e7ac5fd7de3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-07-04T09:36:00+05:30",
+      "source_path": "html/LKA/LKA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_323851f54733f8a2",
+    "text": "2024-07-04T09:36:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_68679fd46885d14a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_68679fd46885d14a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Madampe, 4 July 2024 – A tragic accident occurred this morning on the Chilaw-Colombo main road in the Irattakulama area, resulting in one fatality and ...",
+      "source_path": "html/LKA/LKA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_323851f54733f8a2",
+    "text": "Madampe, 4 July 2024 – A tragic accident occurred this morning on the Chilaw-Colombo main road in the Irattakulama area, resulting in one fatality and ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_700bea7731cd1751",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_700bea7731cd1751",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hiru News",
+      "source_path": "html/LKA/LKA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_323851f54733f8a2",
+    "text": "Publisher: Hiru News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed909ba3d974ca4b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ed909ba3d974ca4b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hirunews.lk/goldfmnews/374513/fatal-collision-on-chilaw-colombo-road-leaves-one-dead-15-injured",
+      "source_path": "html/LKA/LKA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_323851f54733f8a2",
+    "text": "Original source: https://www.hirunews.lk/goldfmnews/374513/fatal-collision-on-chilaw-colombo-road-leaves-one-dead-15-injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b0fb78a6b53b68be",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b0fb78a6b53b68be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/LKA/LKA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_323851f54733f8a2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9bbf9755700f5653",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9bbf9755700f5653",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hirunews.lk/goldfmnews/374513/fatal-collision-on-chilaw-colombo-road-leaves-one-dead-15-injured",
+      "source_path": "html/LKA/LKA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_323851f54733f8a2",
+    "text": "https://www.hirunews.lk/goldfmnews/374513/fatal-collision-on-chilaw-colombo-road-leaves-one-dead-15-injured",
+    "url": null
+  }
+]

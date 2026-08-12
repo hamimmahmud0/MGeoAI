@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e7ef51925222524d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e7ef51925222524d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "幼稚園バスが住宅突っ込む、千葉 運転手死亡、園児6人軽傷",
+      "source_path": "html/JPN/JPN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_63d6c8acdc9d9cde",
+    "text": "幼稚園バスが住宅突っ込む、千葉 運転手死亡、園児6人軽傷",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe554d90f8c45c54",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_fe554d90f8c45c54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-29T09:00:00+09:00",
+      "source_path": "html/JPN/JPN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_63d6c8acdc9d9cde",
+    "text": "2025-09-29T09:00:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90d86374511cdbde",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_90d86374511cdbde",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A kindergarten bus crashed into a house in Chiba; its driver died and six children had minor injuries.",
+      "source_path": "html/JPN/JPN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_63d6c8acdc9d9cde",
+    "text": "A kindergarten bus crashed into a house in Chiba; its driver died and six children had minor injuries.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_904974391333f6dd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_904974391333f6dd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NEWSjp",
+      "source_path": "html/JPN/JPN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_63d6c8acdc9d9cde",
+    "text": "Publisher: NEWSjp",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_12dae3b8d598736d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_12dae3b8d598736d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://news.jp/i/1345223545197806318",
+      "source_path": "html/JPN/JPN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_63d6c8acdc9d9cde",
+    "text": "Original source: https://news.jp/i/1345223545197806318",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0f353304097fd248",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0f353304097fd248",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_63d6c8acdc9d9cde",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

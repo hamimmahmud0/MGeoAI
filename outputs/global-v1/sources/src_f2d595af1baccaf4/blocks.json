@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_74c361b0bd5038df",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_74c361b0bd5038df",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Thailand Train Crash | At Least 8 Dead, 25 Injured in Cargo Train-Bus Crash In Thailand",
+      "source_path": "html/THA/THA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2d595af1baccaf4",
+    "text": "Thailand Train Crash | At Least 8 Dead, 25 Injured in Cargo Train-Bus Crash In Thailand",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_36dd47302c1658aa",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_36dd47302c1658aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-16T01:04:00+07:00",
+      "source_path": "html/THA/THA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2d595af1baccaf4",
+    "text": "2026-05-16T01:04:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c62650c74ee712ec",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c62650c74ee712ec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A train crashed into a public bus on Saturday in Thailand's capital, Bangkok, with casualties feared. Thai news reported that the crash happened in late ...",
+      "source_path": "html/THA/THA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2d595af1baccaf4",
+    "text": "A train crashed into a public bus on Saturday in Thailand's capital, Bangkok, with casualties feared. Thai news reported that the crash happened in late ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d477cc20dd01518d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d477cc20dd01518d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NDTV",
+      "source_path": "html/THA/THA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2d595af1baccaf4",
+    "text": "Publisher: NDTV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2978b6225b2cb3e2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2978b6225b2cb3e2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ndtv.com/video/thailand-train-crash-at-least-8-dead-25-injured-in-cargo-train-bus-crash-in-thailand-1100095",
+      "source_path": "html/THA/THA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2d595af1baccaf4",
+    "text": "Original source: https://www.ndtv.com/video/thailand-train-crash-at-least-8-dead-25-injured-in-cargo-train-bus-crash-in-thailand-1100095",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a3fe30046a7c42f2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a3fe30046a7c42f2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2d595af1baccaf4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8575f627ef2f4bde",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8575f627ef2f4bde",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ndtv.com/video/thailand-train-crash-at-least-8-dead-25-injured-in-cargo-train-bus-crash-in-thailand-1100095",
+      "source_path": "html/THA/THA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2d595af1baccaf4",
+    "text": "https://www.ndtv.com/video/thailand-train-crash-at-least-8-dead-25-injured-in-cargo-train-bus-crash-in-thailand-1100095",
+    "url": null
+  }
+]

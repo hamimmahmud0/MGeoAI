@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "13f3bcce0ae80299a1521b44eb216cea77ed5e53a40f4d0a4d7f98969b012a4f",
+  "country": "Canada",
+  "country_code": "CAN",
+  "dependency_group": "nanaimonewsnow",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/CAN/CAN-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-22T07:00:00Z",
+  "publisher": "NanaimoNewsNOW",
+  "schema_version": "1.0.0",
+  "source_id": "src_07ef4a13dde03169",
+  "source_metadata": {
+    "country": "Canada",
+    "country_code": "CAN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-22T07:00:00+00:00",
+    "source_info_hash": "9b68cbca276fec94",
+    "source_info_path": "html/CAN/CAN-S008/SOURCE_INFO.md",
+    "timezone": "America/Toronto",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "highway crash",
+      "accident de la route"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://nanaimonewsnow.com/2026/06/22/one-killed-in-fatal-south-nanaimo-highway-crash/",
+  "timezone": "America/Toronto",
+  "title": "One killed in fatal south Nanaimo highway crash"
+}

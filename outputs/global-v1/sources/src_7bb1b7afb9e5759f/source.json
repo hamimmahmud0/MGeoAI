@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "edbd2f19f67ff46e49742ac845c50ca8d978dbe7190ee013b13fd872c53a5c02",
+  "country": "Thailand",
+  "country_code": "THA",
+  "dependency_group": "daily times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/THA/THA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-16T15:30:00Z",
+  "publisher": "Daily Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_7bb1b7afb9e5759f",
+  "source_metadata": {
+    "country": "Thailand",
+    "country_code": "THA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-16T15:30:00+00:00",
+    "source_info_hash": "c683df0b51fc205b",
+    "source_info_path": "html/THA/THA-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Bangkok",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "อุบัติเหตุทางถนน",
+      "รถชน",
+      "รถบัสชน",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://dailytimes.com.pk/1494492/train-bus-crash-leaves-multiple-dead-in-thailand/",
+  "timezone": "Asia/Bangkok",
+  "title": "Train-bus crash leaves multiple dead in Thailand"
+}

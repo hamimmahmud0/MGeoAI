@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ZAF-S002",
+  "country_code": "ZAF",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Mail & Guardian",
+  "canonical_url": "https://mg.co.za/news/south-africa/2026-01-19-updated-thirteen-pupils-killed-in-vaal-scholar-transport-vehicle-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://mg.co.za/news/south-africa/2026-01-19-updated-thirteen-pupils-killed-in-vaal-scholar-transport-vehicle-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=ZA%3Aen&gl=ZA&hl=en-ZA&q=%28road+crash+OR+traffic+accident+OR+collision%29+South+Africa+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4b4f2a991454d76a2945808b7730f49a2128899acd6d33e1a040963b7ff83256",
+      "size_bytes": 1090,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "taxi crash",
+    "bus accident"
+  ],
+  "timezone": "Africa/Johannesburg",
+  "captured_at": "2026-08-11T21:46:58.787169Z",
+  "published_at": "2026-01-19T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "mg.co.za",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ZAF-S002"
+}

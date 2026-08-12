@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_75ff560dcbaebb7a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_75ff560dcbaebb7a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nine killed in two-bus collision in Sylhet",
+      "source_path": "html/BGD/BGD-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4d82b7e87ecfc5fa",
+    "text": "Nine killed in two-bus collision in Sylhet",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_21c6e558c71fc2a3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_21c6e558c71fc2a3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-07T16:10:00+06:00",
+      "source_path": "html/BGD/BGD-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4d82b7e87ecfc5fa",
+    "text": "2026-08-07T16:10:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6d3d9fa4030cd545",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6d3d9fa4030cd545",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least eight people were killed and around 25 others injured in a head-on collision between two buses in Sylhet's Osmaninagar upazila on Friday morning. ...",
+      "source_path": "html/BGD/BGD-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4d82b7e87ecfc5fa",
+    "text": "At least eight people were killed and around 25 others injured in a head-on collision between two buses in Sylhet's Osmaninagar upazila on Friday morning. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_06f41309176726b5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_06f41309176726b5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/BGD/BGD-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4d82b7e87ecfc5fa",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ab77e4b0431e9ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ab77e4b0431e9ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/bangladesh/nation/416901/8-killed-25-injured-in-head-on-bus-collision-in",
+      "source_path": "html/BGD/BGD-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4d82b7e87ecfc5fa",
+    "text": "Original source: https://www.dhakatribune.com/bangladesh/nation/416901/8-killed-25-injured-in-head-on-bus-collision-in",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c1ede3b16af2ed03",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c1ede3b16af2ed03",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4d82b7e87ecfc5fa",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ad5855ce4184adf6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ad5855ce4184adf6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/bangladesh/nation/416901/8-killed-25-injured-in-head-on-bus-collision-in",
+      "source_path": "html/BGD/BGD-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4d82b7e87ecfc5fa",
+    "text": "https://www.dhakatribune.com/bangladesh/nation/416901/8-killed-25-injured-in-head-on-bus-collision-in",
+    "url": null
+  }
+]

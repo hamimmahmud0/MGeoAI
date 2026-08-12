@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_06969bc48ef3bc4f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_06969bc48ef3bc4f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tren en Atlacomulco embiste a autobús de pasajeros; reportan muertos y lesionados",
+      "source_path": "html/MEX/MEX-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_25cd2ced3df3470b",
+    "text": "Tren en Atlacomulco embiste a autobús de pasajeros; reportan muertos y lesionados",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99b6500c1c1d1de2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_99b6500c1c1d1de2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-08T10:00:00-06:00",
+      "source_path": "html/MEX/MEX-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_25cd2ced3df3470b",
+    "text": "2025-09-08T10:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6f26c1e191de51d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6f26c1e191de51d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un tren embistió un autobús de pasajeros en Atlacomulco el 8 de septiembre; el reporte inicial registró al menos ocho muertos y 45 lesionados.",
+      "source_path": "html/MEX/MEX-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_25cd2ced3df3470b",
+    "text": "Un tren embistió un autobús de pasajeros en Atlacomulco el 8 de septiembre; el reporte inicial registró al menos ocho muertos y 45 lesionados.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_08308c0a39d7d874",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_08308c0a39d7d874",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Universal",
+      "source_path": "html/MEX/MEX-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_25cd2ced3df3470b",
+    "text": "Publisher: El Universal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_defee8185cea6032",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_defee8185cea6032",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.eluniversal.com.mx/metropoli/tren-en-atlacomulco-embiste-a-autobus-de-pasajeros-reportan-al-menos-8-muertos-y-45-lesionados/",
+      "source_path": "html/MEX/MEX-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_25cd2ced3df3470b",
+    "text": "Original source: https://www.eluniversal.com.mx/metropoli/tren-en-atlacomulco-embiste-a-autobus-de-pasajeros-reportan-al-menos-8-muertos-y-45-lesionados/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4b74da4d092ca8f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a4b74da4d092ca8f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_25cd2ced3df3470b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef7fec7481c0da12",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ef7fec7481c0da12",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.eluniversal.com.mx/metropoli/tren-en-atlacomulco-embiste-a-autobus-de-pasajeros-reportan-al-menos-8-muertos-y-45-lesionados/",
+      "source_path": "html/MEX/MEX-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_25cd2ced3df3470b",
+    "text": "https://www.eluniversal.com.mx/metropoli/tren-en-atlacomulco-embiste-a-autobus-de-pasajeros-reportan-al-menos-8-muertos-y-45-lesionados/",
+    "url": null
+  }
+]

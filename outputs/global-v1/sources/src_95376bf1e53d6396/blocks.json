@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_889217f083bb87ec",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_889217f083bb87ec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One Killed in Mwingi Highway Crash Involving Ambasa Coach Bus",
+      "source_path": "html/KEN/KEN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_95376bf1e53d6396",
+    "text": "One Killed in Mwingi Highway Crash Involving Ambasa Coach Bus",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2a0fe09af61af01e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2a0fe09af61af01e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-24T10:00:00+03:00",
+      "source_path": "html/KEN/KEN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_95376bf1e53d6396",
+    "text": "2026-06-24T10:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_66953396674ac44d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_66953396674ac44d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Kenya, June 24, 2026 - One person has been confirmed dead following a road accident along the Garissa–Nairobi highway in Mwingi involving an Ambasa Coach ...",
+      "source_path": "html/KEN/KEN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_95376bf1e53d6396",
+    "text": "Kenya, June 24, 2026 - One person has been confirmed dead following a road accident along the Garissa–Nairobi highway in Mwingi involving an Ambasa Coach ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b943a3a4a93661ab",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b943a3a4a93661ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dawan Africa",
+      "source_path": "html/KEN/KEN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_95376bf1e53d6396",
+    "text": "Publisher: Dawan Africa",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7963e459947e1e9d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7963e459947e1e9d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dawan.africa/news/one-killed-in-mwingi-highway-crash-involving-ambasa-coach-bus",
+      "source_path": "html/KEN/KEN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_95376bf1e53d6396",
+    "text": "Original source: https://www.dawan.africa/news/one-killed-in-mwingi-highway-crash-involving-ambasa-coach-bus",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ddc4c307c673bbca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ddc4c307c673bbca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_95376bf1e53d6396",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a4a155374e80b6a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3a4a155374e80b6a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dawan.africa/news/one-killed-in-mwingi-highway-crash-involving-ambasa-coach-bus",
+      "source_path": "html/KEN/KEN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_95376bf1e53d6396",
+    "text": "https://www.dawan.africa/news/one-killed-in-mwingi-highway-crash-involving-ambasa-coach-bus",
+    "url": null
+  }
+]

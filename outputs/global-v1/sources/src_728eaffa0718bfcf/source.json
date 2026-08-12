@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1957432138239865ff7c8facb3c64f06350b452644de799aea1d881214bd751f",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "diario la página",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-02T07:00:00Z",
+  "publisher": "Diario La Página",
+  "schema_version": "1.0.0",
+  "source_id": "src_728eaffa0718bfcf",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-02T07:00:00+00:00",
+    "source_info_hash": "f41b469d8698c29a",
+    "source_info_path": "html/CRI/CRI-S006/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://lapagina.com.sv/nacionales/cruz-verde-atiende-a-conductor-herido-en-accidente-de-transito-en-san-martin/",
+  "timezone": "America/Costa_Rica",
+  "title": "Cruz Verde atiende a conductor herido en accidente de tránsito en San Martín"
+}

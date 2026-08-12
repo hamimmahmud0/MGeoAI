@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1f346bdb13a3fdd6382bf20d0f212090661685d4adbee2ea91de245cbdf205d6",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "la montagne",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-13T07:00:00Z",
+  "publisher": "La Montagne",
+  "schema_version": "1.0.0",
+  "source_id": "src_26f5690b09a94723",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-06-13T07:00:00+00:00",
+    "source_info_hash": "c9994f96f671b7af",
+    "source_info_path": "html/FRA/FRA-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.lamontagne.fr/france-monde/faits-divers/securisation-du-g7-un-gendarme-decede-deux-blesses-dans-un-accident-de-la-route-en-haute-savoie_15003527/",
+  "timezone": "Europe/Paris",
+  "title": "Sécurisation du G7 : un gendarme décédé, deux blessés dans un accident de la route en Haute-Savoie"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "CRI",
+  "name": "Costa Rica",
+  "languages": [
+    "es"
+  ],
+  "timezones": [
+    "America/Costa_Rica"
+  ],
+  "target_sources": 12
+}

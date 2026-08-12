@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f1fa2dcad6286d18ed84fdebaaf1c02287ef4301f524915fa740aae6a03cd61c",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "aftenposten",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-29T08:00:00Z",
+  "publisher": "Aftenposten",
+  "schema_version": "1.0.0",
+  "source_id": "src_ef905bda8119ed45",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2026-01-29T08:00:00+00:00",
+    "source_info_hash": "6ce0f8e0e2ed9a5d",
+    "source_info_path": "html/NOR/NOR-S001/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aftenposten.no/norge/i/JOEvj4/en-person-omkom-i-trafikkulykke-paa-jaeren",
+  "timezone": "Europe/Oslo",
+  "title": "Én person omkom i trafikkulykke på Jæren"
+}

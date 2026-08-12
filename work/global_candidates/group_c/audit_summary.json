@@ -1,0 +1,34 @@
+{
+  "audited_selection_count": 170,
+  "countries": 17,
+  "eligible_counts": {
+    "AE": 18,
+    "AU": 15,
+    "BD": 12,
+    "ID": 12,
+    "IN": 15,
+    "JP": 12,
+    "KR": 12,
+    "LK": 13,
+    "MY": 14,
+    "NP": 16,
+    "NZ": 15,
+    "PH": 12,
+    "PK": 17,
+    "SA": 13,
+    "SG": 12,
+    "TH": 12,
+    "VN": 12
+  },
+  "minimum_eligible_count": 12,
+  "notes": [
+    "Every accepted title/excerpt was manually reviewed for incident-country relevance.",
+    "All pairs were reviewed against title, publication date, entities, and direct links.",
+    "Quality-rejected discovery leads remain in candidates.jsonl with an ineligible status."
+  ],
+  "pair_count": 17,
+  "pair_member_count": 34,
+  "quality_rejections_applied": 74,
+  "result": "pass",
+  "selection_method": "traffic_fusion.corpus.build._select_candidates, 10 per country"
+}

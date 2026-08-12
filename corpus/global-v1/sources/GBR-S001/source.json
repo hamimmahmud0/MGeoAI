@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "GBR-S001",
+  "country_code": "GBR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "BBC News",
+  "canonical_url": "https://www.bbc.com/news/articles/c80prrgepzeo",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bbc.com/news/articles/c80prrgepzeo",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=M5+crash+three+killed+May+30+2025+Gloucestershire",
+      "label": "Discovery record (web_search_direct_access_check)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ad92e3b022154db9105c2fe992c6dac0f2e5c00aebbd749f034caf6c6f19a02e",
+      "size_bytes": 828,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "motorway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Europe/London",
+  "captured_at": "2026-08-12T00:00:00Z",
+  "published_at": "2025-06-18T00:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bbc.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-GBR-S001"
+}

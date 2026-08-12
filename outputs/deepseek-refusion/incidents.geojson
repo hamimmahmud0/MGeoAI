@@ -3,120 +3,24 @@
     {
       "geometry": {
         "coordinates": [
-          90.484744,
-          23.834106
+          90.5452,
+          23.8307
         ],
         "type": "Point"
       },
-      "id": "cluster-001",
-      "properties": {
-        "confidence": 0.75,
-        "event_start": "2024-12-20T03:00:00+06:00",
-        "event_type": "road_crash",
-        "granularity": "area",
-        "incident_id": "cluster-001",
-        "location_name": "Nila Market intersection, Purbachal 300 Feet Road, Rupganj",
-        "sentiment_count": 2,
-        "source_count": 4,
-        "status": "reported",
-        "title": "Fatal crash at Nila Market checkpoint in Purbachal kills BUET student Muhtasim Masud",
-        "uncertainty_radius_km": 3.0
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          90.393642,
-          23.917957
-        ],
-        "type": "Point"
-      },
-      "id": "inc_cluster_002",
-      "properties": {
-        "confidence": 0.75,
-        "event_start": "2026-08-09T00:00:00",
-        "event_type": "road_crash",
-        "granularity": "road_segment",
-        "incident_id": "inc_cluster_002",
-        "location_name": "Asia Pump area, Tongi, Gazipur",
-        "sentiment_count": 7,
-        "source_count": 2,
-        "status": "reported",
-        "title": "Road crash death of student sparks three-hour Dhaka-Mymensingh Highway blockade in Tongi",
-        "uncertainty_radius_km": 1.0
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          90.4685,
-          23.71677
-        ],
-        "type": "Point"
-      },
-      "id": "inc_cluster-003",
-      "properties": {
-        "confidence": 0.75,
-        "event_start": "2025-12-12T04:30:00",
-        "event_type": "road_crash",
-        "granularity": "area",
-        "incident_id": "inc_cluster-003",
-        "location_name": "Konapara, Demra",
-        "sentiment_count": 0,
-        "source_count": 1,
-        "status": "reported",
-        "title": "Fatal truck-motorcycle collision in Konapara, Demra",
-        "uncertainty_radius_km": 3.0
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          89.333249,
-          24.858327
-        ],
-        "type": "Point"
-      },
-      "id": "inc_cluster_005",
-      "properties": {
-        "confidence": 0.75,
-        "event_start": "2026-08-07T00:00:00+00:00",
-        "event_type": "road_crash",
-        "granularity": "area",
-        "incident_id": "inc_cluster_005",
-        "location_name": "Erulia Bazar, Bogura Sadar, Bogura",
-        "sentiment_count": 1,
-        "source_count": 2,
-        "status": "reported",
-        "title": "Seven killed in bus crash near Erulia Bazar, Bogura",
-        "uncertainty_radius_km": 3.0
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          91.7417,
-          24.7063
-        ],
-        "type": "Point"
-      },
-      "id": "inc_cluster-006",
+      "id": "inc_cluster-001",
       "properties": {
         "confidence": 0.68,
-        "event_start": "2026-08-07T07:30:00+06:00",
+        "event_start": "2024-12-19T20:00:00+00:00",
         "event_type": "road_crash",
         "granularity": "area",
-        "incident_id": "inc_cluster-006",
-        "location_name": "Kashikapan, Osmaninagar, Sylhet",
-        "sentiment_count": 1,
-        "source_count": 2,
+        "incident_id": "inc_cluster-001",
+        "location_name": "Purbachal 300 Feet Road, Rupganj",
+        "sentiment_count": 2,
+        "source_count": 6,
         "status": "reported",
-        "title": "Two passenger buses collide on Dhaka–Sylhet highway in Kashikapan, Osmaninagar, Sylhet",
-        "uncertainty_radius_km": 3.0
+        "title": "BUET student killed in motorcycle-car collision at Purbachal police checkpoint",
+        "uncertainty_radius_km": null
       },
       "type": "Feature"
     },
@@ -128,19 +32,139 @@
         ],
         "type": "Point"
       },
-      "id": "cluster-007",
+      "id": "cluster-002",
       "properties": {
         "confidence": 0.68,
         "event_start": "2026-08-09T00:00:00",
         "event_type": "road_crash",
         "granularity": "city",
-        "incident_id": "cluster-007",
+        "incident_id": "cluster-002",
         "location_name": "Tongi, Gazipur",
-        "sentiment_count": 6,
+        "sentiment_count": 13,
+        "source_count": 2,
+        "status": "resolved",
+        "title": "Road crash in Tongi, Gazipur; student Yasin killed",
+        "uncertainty_radius_km": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          90.4867,
+          23.7055
+        ],
+        "type": "Point"
+      },
+      "id": "inc_cluster-003",
+      "properties": {
+        "confidence": 0.68,
+        "event_start": "2025-12-12T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_cluster-003",
+        "location_name": "Konapara, Demra",
+        "sentiment_count": 0,
+        "source_count": 3,
+        "status": "reported",
+        "title": "Two university students killed in Demra motorcycle-truck collision",
+        "uncertainty_radius_km": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          91.7417,
+          24.7063
+        ],
+        "type": "Point"
+      },
+      "id": "inc_cluster-005_fused",
+      "properties": {
+        "confidence": 0.68,
+        "event_start": "2026-08-07T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_cluster-005_fused",
+        "location_name": "Kashikapan, Osmaninagar, Sylhet",
+        "sentiment_count": 1,
+        "source_count": 2,
+        "status": "reported",
+        "title": "Two buses collide on Dhaka–Sylhet highway in Sylhet, multiple casualties",
+        "uncertainty_radius_km": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          89.417,
+          24.675
+        ],
+        "type": "Point"
+      },
+      "id": "inc_6f8b2c1a0e7d4f9a",
+      "properties": {
+        "confidence": 0.68,
+        "event_start": "2026-08-07T00:00:00",
+        "event_type": "road_crash",
+        "granularity": "city",
+        "incident_id": "inc_6f8b2c1a0e7d4f9a",
+        "location_name": "Sherpur, Bogura",
+        "sentiment_count": 1,
+        "source_count": 2,
+        "status": "reported",
+        "title": "Fatal bus crash in Bogura kills seven",
+        "uncertainty_radius_km": 10.0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          90.968507,
+          23.253908
+        ],
+        "type": "Point"
+      },
+      "id": "inc_8e7b5a54b5f04c7a",
+      "properties": {
+        "confidence": 0.68,
+        "event_start": null,
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_8e7b5a54b5f04c7a",
+        "location_name": "Baniacho, Shahrasti, Chandpur",
+        "sentiment_count": 0,
         "source_count": 1,
         "status": "reported",
-        "title": "Road crash in Gazipur kills student",
-        "uncertainty_radius_km": 12.0
+        "title": "Head-on Collision Between Bus and Sand-laden Dump Truck in Baniacho, Shahrasti, Chandpur",
+        "uncertainty_radius_km": null
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          90.968507,
+          23.253908
+        ],
+        "type": "Point"
+      },
+      "id": "inc_cluster-008",
+      "properties": {
+        "confidence": 0.45,
+        "event_start": null,
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_cluster-008",
+        "location_name": "Baniacho, Shahrasti, Chandpur",
+        "sentiment_count": 0,
+        "source_count": 1,
+        "status": "uncertain",
+        "title": "Possible vehicle collision or structural incident reported in Baniacho, Shahrasti, Chandpur",
+        "uncertainty_radius_km": null
       },
       "type": "Feature"
     }

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2ce1b9aa79366f65",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2ce1b9aa79366f65",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Uganda road crash involving several vehicles kills 46",
+      "source_path": "html/UGA/UGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e762bee4850f3855",
+    "text": "Uganda road crash involving several vehicles kills 46",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_72daec0b5ada3dc4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_72daec0b5ada3dc4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-10-22T06:52:00+03:00",
+      "source_path": "html/UGA/UGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e762bee4850f3855",
+    "text": "2025-10-22T06:52:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a413d1c0382d117",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9a413d1c0382d117",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A fatal road accident in Uganda involving multiple vehicles, including buses, killed 46 people, police said on Wednesday, citing details obtained from hospitals. “At the ...",
+      "source_path": "html/UGA/UGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e762bee4850f3855",
+    "text": "A fatal road accident in Uganda involving multiple vehicles, including buses, killed 46 people, police said on Wednesday, citing details obtained from hospitals. “At the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_239b32130e9bbf3e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_239b32130e9bbf3e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Anadolu Ajansi",
+      "source_path": "html/UGA/UGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e762bee4850f3855",
+    "text": "Publisher: Anadolu Ajansi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1208c5ce02117366",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1208c5ce02117366",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aa.com.tr/en/africa/uganda-road-crash-involving-several-vehicles-kills-46/3723369",
+      "source_path": "html/UGA/UGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e762bee4850f3855",
+    "text": "Original source: https://www.aa.com.tr/en/africa/uganda-road-crash-involving-several-vehicles-kills-46/3723369",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b143322bdf2a0cd7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b143322bdf2a0cd7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e762bee4850f3855",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d94832ce732cecfd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d94832ce732cecfd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aa.com.tr/en/africa/uganda-road-crash-involving-several-vehicles-kills-46/3723369",
+      "source_path": "html/UGA/UGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e762bee4850f3855",
+    "text": "https://www.aa.com.tr/en/africa/uganda-road-crash-involving-several-vehicles-kills-46/3723369",
+    "url": null
+  }
+]

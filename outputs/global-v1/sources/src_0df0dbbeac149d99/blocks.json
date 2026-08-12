@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bf8b15c63835d089",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bf8b15c63835d089",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three elderly people hospitalised after two-vehicle head-on crash on Sydney Harbour Bridge",
+      "source_path": "html/AUS/AUS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0df0dbbeac149d99",
+    "text": "Three elderly people hospitalised after two-vehicle head-on crash on Sydney Harbour Bridge",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_192e44f3e28af79a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_192e44f3e28af79a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-04T08:01:00+10:00",
+      "source_path": "html/AUS/AUS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0df0dbbeac149d99",
+    "text": "2026-08-04T08:01:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_034b0f6e3a711560",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_034b0f6e3a711560",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three elderly people have been hospitalised after a head-on crash involving two vehicles on Sydney’s iconic Harbour Bridge. Emergency services were called to the bridge ...",
+      "source_path": "html/AUS/AUS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0df0dbbeac149d99",
+    "text": "Three elderly people have been hospitalised after a head-on crash involving two vehicles on Sydney’s iconic Harbour Bridge. Emergency services were called to the bridge ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_866a5bffc5fc091d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_866a5bffc5fc091d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 7NEWS Australia",
+      "source_path": "html/AUS/AUS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0df0dbbeac149d99",
+    "text": "Publisher: 7NEWS Australia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8f7581598c1a3554",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8f7581598c1a3554",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://7news.com.au/news/traffic-at-standstill-after-two-vehicle-head-on-crash-on-sydney-harbour-bridge-c-22673728",
+      "source_path": "html/AUS/AUS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0df0dbbeac149d99",
+    "text": "Original source: https://7news.com.au/news/traffic-at-standstill-after-two-vehicle-head-on-crash-on-sydney-harbour-bridge-c-22673728",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3bd3dc045b8003d9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3bd3dc045b8003d9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0df0dbbeac149d99",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_96bdaa1eff2f9d06",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_96bdaa1eff2f9d06",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://7news.com.au/news/traffic-at-standstill-after-two-vehicle-head-on-crash-on-sydney-harbour-bridge-c-22673728",
+      "source_path": "html/AUS/AUS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0df0dbbeac149d99",
+    "text": "https://7news.com.au/news/traffic-at-standstill-after-two-vehicle-head-on-crash-on-sydney-harbour-bridge-c-22673728",
+    "url": null
+  }
+]

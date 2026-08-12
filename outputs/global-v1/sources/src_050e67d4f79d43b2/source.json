@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "75b0b5e881a1de33a907e2545a9eec1a8ff2acc01f66cbded5eb12c0ac4066fa",
+  "country": "United Arab Emirates",
+  "country_code": "ARE",
+  "dependency_group": "khaleej times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/ARE/ARE-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-10T11:25:00Z",
+  "publisher": "Khaleej Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_050e67d4f79d43b2",
+  "source_metadata": {
+    "country": "United Arab Emirates",
+    "country_code": "ARE",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-09-10T11:25:00+00:00",
+    "source_info_hash": "957f5a7ff8b0c639",
+    "source_info_path": "html/ARE/ARE-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Dubai",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث مروري",
+      "حادث سير",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.khaleejtimes.com/uae/dubai-motorcyclist-dies?amp=1",
+  "timezone": "Asia/Dubai",
+  "title": "Dubai: Motorcyclist dies on Sheikh Zayed Road after crashing into truck"
+}

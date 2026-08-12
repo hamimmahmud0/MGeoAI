@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_48d6795f81794fe1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_48d6795f81794fe1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Explosión tras choque de vehículos en Estambul deja tres heridos",
+      "source_path": "html/ECU/ECU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4696f6bb468fe36",
+    "text": "Explosión tras choque de vehículos en Estambul deja tres heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_974588026dbf8eb3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_974588026dbf8eb3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-15T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4696f6bb468fe36",
+    "text": "2026-06-15T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e25c809f0230d2ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e25c809f0230d2ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ecuador Comunicación",
+      "source_path": "html/ECU/ECU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4696f6bb468fe36",
+    "text": "Publisher: Ecuador Comunicación",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dfb56f308857dea5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dfb56f308857dea5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://ecuadorcomunicacion.com/explosion-tras-choque-de-vehiculos-en-estambul-deja-tres-heridos",
+      "source_path": "html/ECU/ECU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4696f6bb468fe36",
+    "text": "Original source: https://ecuadorcomunicacion.com/explosion-tras-choque-de-vehiculos-en-estambul-deja-tres-heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e3235179e0838af3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e3235179e0838af3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4696f6bb468fe36",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c146efa92b6574bd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c146efa92b6574bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://ecuadorcomunicacion.com/explosion-tras-choque-de-vehiculos-en-estambul-deja-tres-heridos",
+      "source_path": "html/ECU/ECU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4696f6bb468fe36",
+    "text": "https://ecuadorcomunicacion.com/explosion-tras-choque-de-vehiculos-en-estambul-deja-tres-heridos",
+    "url": null
+  }
+]

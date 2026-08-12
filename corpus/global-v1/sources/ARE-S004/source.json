@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARE-S004",
+  "country_code": "ARE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/middle-east/178855/dubai-bus-crash-kills-17-including-12-indians",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/middle-east/178855/dubai-bus-crash-kills-17-including-12-indians",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Dubai%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "544f84947aa4427e555e2fc801b7378726f500ebc43a5b9720ec36620a32c425",
+      "size_bytes": 1004,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dubai",
+  "captured_at": "2026-08-12T03:48:54.371765+06:00",
+  "published_at": "2019-06-07T16:12:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARE-S004"
+}

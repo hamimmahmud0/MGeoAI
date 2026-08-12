@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b5985c45291ba54d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b5985c45291ba54d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fuerte accidente en la vía Barranquilla – Cartagena deja 19 heridos",
+      "source_path": "html/COL/COL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f36858c0ac7fa19c",
+    "text": "Fuerte accidente en la vía Barranquilla – Cartagena deja 19 heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba3dda228b2237db",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ba3dda228b2237db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-19T02:00:00-05:00",
+      "source_path": "html/COL/COL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f36858c0ac7fa19c",
+    "text": "2026-05-19T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0881ce4b0f72c4b2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0881ce4b0f72c4b2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: caracol.com.co",
+      "source_path": "html/COL/COL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f36858c0ac7fa19c",
+    "text": "Publisher: caracol.com.co",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_94945fa4558fdce6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_94945fa4558fdce6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://caracol.com.co/2026/05/19/fuerte-accidente-en-la-via-barranquilla-cartagena-deja-19-heridos/",
+      "source_path": "html/COL/COL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f36858c0ac7fa19c",
+    "text": "Original source: https://caracol.com.co/2026/05/19/fuerte-accidente-en-la-via-barranquilla-cartagena-deja-19-heridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_899090b49ce3324e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_899090b49ce3324e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f36858c0ac7fa19c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f5b64f19c99ff073",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f5b64f19c99ff073",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://caracol.com.co/2026/05/19/fuerte-accidente-en-la-via-barranquilla-cartagena-deja-19-heridos/",
+      "source_path": "html/COL/COL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f36858c0ac7fa19c",
+    "text": "https://caracol.com.co/2026/05/19/fuerte-accidente-en-la-via-barranquilla-cartagena-deja-19-heridos/",
+    "url": null
+  }
+]

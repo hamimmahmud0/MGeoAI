@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9c348dfd85f28f26aa2938f83ca9a33586a294dc1fc5f75ffa02f0f98787d232",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "graphic online",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-02T07:00:00Z",
+  "publisher": "Graphic Online",
+  "schema_version": "1.0.0",
+  "source_id": "src_f48d913a9be2b902",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-06-02T07:00:00+00:00",
+    "source_info_hash": "733b0df42f255f71",
+    "source_info_path": "html/GHA/GHA-S002/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.graphic.com.gh/news/general-news/fifteen-dead-25-injured-in-head-on-collision-at-peki-tsame.html",
+  "timezone": "Africa/Accra",
+  "title": "15 dead, 25 injured in head-on collision at Peki-Tsame"
+}

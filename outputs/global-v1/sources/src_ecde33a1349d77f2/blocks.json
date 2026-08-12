@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f01ada36e4b96af0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f01ada36e4b96af0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Passenger bus crash in Indonesia kills at least 16 people, official says",
+      "source_path": "html/IDN/IDN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ecde33a1349d77f2",
+    "text": "Passenger bus crash in Indonesia kills at least 16 people, official says",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_70ba2949147ec4ec",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_70ba2949147ec4ec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-22T05:39:00+07:00",
+      "source_path": "html/IDN/IDN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ecde33a1349d77f2",
+    "text": "2025-12-22T05:39:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9271a24c664671ca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9271a24c664671ca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A passenger bus crash killed at least 16 people on Indonesia’s main island of Java just after midnight Monday, officials said.",
+      "source_path": "html/IDN/IDN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ecde33a1349d77f2",
+    "text": "A passenger bus crash killed at least 16 people on Indonesia’s main island of Java just after midnight Monday, officials said.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3637b50fe96f714a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3637b50fe96f714a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Associated Press News",
+      "source_path": "html/IDN/IDN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ecde33a1349d77f2",
+    "text": "Publisher: Associated Press News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b8797b383125379",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2b8797b383125379",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://apnews.com/video/passenger-bus-crash-in-indonesia-kills-at-least-16-people-official-says-35af1a5f1e274571babe553ce67ca704",
+      "source_path": "html/IDN/IDN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ecde33a1349d77f2",
+    "text": "Original source: https://apnews.com/video/passenger-bus-crash-in-indonesia-kills-at-least-16-people-official-says-35af1a5f1e274571babe553ce67ca704",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_716e6de76d862030",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_716e6de76d862030",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ecde33a1349d77f2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a2655e5ea8a95ebd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a2655e5ea8a95ebd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://apnews.com/video/passenger-bus-crash-in-indonesia-kills-at-least-16-people-official-says-35af1a5f1e274571babe553ce67ca704",
+      "source_path": "html/IDN/IDN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ecde33a1349d77f2",
+    "text": "https://apnews.com/video/passenger-bus-crash-in-indonesia-kills-at-least-16-people-official-says-35af1a5f1e274571babe553ce67ca704",
+    "url": null
+  }
+]

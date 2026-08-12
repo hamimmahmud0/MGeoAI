@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_edcb88764370f93f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_edcb88764370f93f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Provinciebestuur vroeg al voor het dodelijk ongeval in Buggenhout om chauffeur van de rit te halen",
+      "source_path": "html/BEL/BEL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_189517d5914f55d5",
+    "text": "Provinciebestuur vroeg al voor het dodelijk ongeval in Buggenhout om chauffeur van de rit te halen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_46615c827a8a97c8",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_46615c827a8a97c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-01T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_189517d5914f55d5",
+    "text": "2026-06-01T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cbdd976e16afeb8c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cbdd976e16afeb8c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "“U kunt er zeker van zijn dat alle meldingen bij de busfirma’s terechtkomen.",
+      "source_path": "html/BEL/BEL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_189517d5914f55d5",
+    "text": "“U kunt er zeker van zijn dat alle meldingen bij de busfirma’s terechtkomen.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e4bcc0d549f91ca0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e4bcc0d549f91ca0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: De Morgen",
+      "source_path": "html/BEL/BEL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_189517d5914f55d5",
+    "text": "Publisher: De Morgen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88aa5a98eca83644",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88aa5a98eca83644",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.demorgen.be/snelnieuws/provinciebestuur-vroeg-al-voor-het-dodelijk-ongeval-in-buggenhout-om-chauffeur-van-de-rit-te-halen~b32b0c3d/",
+      "source_path": "html/BEL/BEL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_189517d5914f55d5",
+    "text": "Original source: https://www.demorgen.be/snelnieuws/provinciebestuur-vroeg-al-voor-het-dodelijk-ongeval-in-buggenhout-om-chauffeur-van-de-rit-te-halen~b32b0c3d/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a98c625b5da4cd64",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a98c625b5da4cd64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_189517d5914f55d5",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e00f286c7969fce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e00f286c7969fce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.demorgen.be/snelnieuws/provinciebestuur-vroeg-al-voor-het-dodelijk-ongeval-in-buggenhout-om-chauffeur-van-de-rit-te-halen~b32b0c3d/",
+      "source_path": "html/BEL/BEL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_189517d5914f55d5",
+    "text": "https://www.demorgen.be/snelnieuws/provinciebestuur-vroeg-al-voor-het-dodelijk-ongeval-in-buggenhout-om-chauffeur-van-de-rit-te-halen~b32b0c3d/",
+    "url": null
+  }
+]

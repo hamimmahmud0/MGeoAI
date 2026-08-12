@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "KOR",
+  "name": "South Korea",
+  "languages": [
+    "ko"
+  ],
+  "timezones": [
+    "Asia/Seoul"
+  ],
+  "target_sources": 12
+}

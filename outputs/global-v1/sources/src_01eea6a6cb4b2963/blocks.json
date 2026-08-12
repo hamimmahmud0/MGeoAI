@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3469681e92ede8ab",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3469681e92ede8ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Malaysia bus crash kills at least 15, mostly students",
+      "source_path": "html/MYS/MYS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01eea6a6cb4b2963",
+    "text": "Malaysia bus crash kills at least 15, mostly students",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_20f8808b74073930",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_20f8808b74073930",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-09T12:45:00+08:00",
+      "source_path": "html/MYS/MYS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01eea6a6cb4b2963",
+    "text": "2025-06-09T12:45:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fda052ce961941f9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fda052ce961941f9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The accident is the deadliest in more than a decade on Malaysia's hazardous roads This handout photo taken and released by Perak's Fire and Rescue ...",
+      "source_path": "html/MYS/MYS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01eea6a6cb4b2963",
+    "text": "The accident is the deadliest in more than a decade on Malaysia's hazardous roads This handout photo taken and released by Perak's Fire and Rescue ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6d85d4b44de7af40",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6d85d4b44de7af40",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Gulf News",
+      "source_path": "html/MYS/MYS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01eea6a6cb4b2963",
+    "text": "Publisher: Gulf News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aba642641ddc3d6d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aba642641ddc3d6d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://gulfnews.com/world/asia/malaysia-bus-crash-kills-at-least-15-mostly-students-1.500156807",
+      "source_path": "html/MYS/MYS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01eea6a6cb4b2963",
+    "text": "Original source: https://gulfnews.com/world/asia/malaysia-bus-crash-kills-at-least-15-mostly-students-1.500156807",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_19f8f987f5397af9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_19f8f987f5397af9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01eea6a6cb4b2963",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_351a189ce98fc728",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_351a189ce98fc728",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://gulfnews.com/world/asia/malaysia-bus-crash-kills-at-least-15-mostly-students-1.500156807",
+      "source_path": "html/MYS/MYS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01eea6a6cb4b2963",
+    "text": "https://gulfnews.com/world/asia/malaysia-bus-crash-kills-at-least-15-mostly-students-1.500156807",
+    "url": null
+  }
+]

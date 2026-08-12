@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "TZA",
+  "name": "Tanzania",
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "timezones": [
+    "Africa/Dar_es_Salaam"
+  ],
+  "target_sources": 12
+}

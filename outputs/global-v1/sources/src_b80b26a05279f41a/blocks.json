@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4f7055a95ebd18b8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4f7055a95ebd18b8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Cuatro fallecidos y seis heridos graves en un accidente de tráfico en Castellón",
+      "source_path": "html/ESP/ESP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b80b26a05279f41a",
+    "text": "Cuatro fallecidos y seis heridos graves en un accidente de tráfico en Castellón",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40e6c31fe4cc1c05",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_40e6c31fe4cc1c05",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-29T09:00:00+02:00",
+      "source_path": "html/ESP/ESP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b80b26a05279f41a",
+    "text": "2026-06-29T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_924d3acb8573bd7c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_924d3acb8573bd7c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Confidencial",
+      "source_path": "html/ESP/ESP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b80b26a05279f41a",
+    "text": "Publisher: El Confidencial",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2fb3a6bd263aee35",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2fb3a6bd263aee35",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.elconfidencial.com/espana/comunidad-valenciana/2026-06-28/accidente-trafico-castellon-fallecidos-1tps_4379936/",
+      "source_path": "html/ESP/ESP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b80b26a05279f41a",
+    "text": "Original source: https://www.elconfidencial.com/espana/comunidad-valenciana/2026-06-28/accidente-trafico-castellon-fallecidos-1tps_4379936/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6058879354ecfc62",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6058879354ecfc62",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ESP/ESP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b80b26a05279f41a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_efe4820228c09f12",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_efe4820228c09f12",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-06-28/accidente-trafico-castellon-fallecidos-1tps_4379936/",
+      "source_path": "html/ESP/ESP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b80b26a05279f41a",
+    "text": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-06-28/accidente-trafico-castellon-fallecidos-1tps_4379936/",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0298e7f2abddb9043e69cffb2946b2f867b58394a09d556595c5eaf05ab8aaee",
+  "country": "Peru",
+  "country_code": "PER",
+  "dependency_group": "city tv",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/PER/PER-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T07:00:00Z",
+  "publisher": "City Tv",
+  "schema_version": "1.0.0",
+  "source_id": "src_321bda93a21546c6",
+  "source_metadata": {
+    "country": "Peru",
+    "country_code": "PER",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-08T07:00:00+00:00",
+    "source_info_hash": "f7587e4d538bbab5",
+    "source_info_path": "html/PER/PER-S001/SOURCE_INFO.md",
+    "timezone": "America/Lima",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente carretero",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://citytv.eltiempo.com/fotos-y-videos/video-y-multimedia/tragedia-vial-en-peru-13-muertos-tras-choque-entre-minivan-y-trailer-en-cusco_94180",
+  "timezone": "America/Lima",
+  "title": "Tragedia vial en Perú: 13 muertos tras choque entre miniván y tráiler en Cusco"
+}

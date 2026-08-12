@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3ae7ea433a05988cfe9376c83db7335e9b476ef1910b1272b51577508bbf3443",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "yahoo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-02T05:50:00Z",
+  "publisher": "Yahoo",
+  "schema_version": "1.0.0",
+  "source_id": "src_b69846c148d48902",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-02T05:50:00+00:00",
+    "source_info_hash": "3fe0e54b0fa0143a",
+    "source_info_path": "html/AUS/AUS-S002/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.yahoo.com/news/world/articles/terrifying-footage-captures-moment-car-125001017.html",
+  "timezone": "Australia/Sydney",
+  "title": "Terrifying Footage Captures the Moment a Car Went Airborne and Crashed Into a Bus"
+}

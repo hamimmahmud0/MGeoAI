@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SGP-S003",
+  "country_code": "SGP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "AsiaOne",
+  "canonical_url": "https://www.asiaone.com/singapore/choa-chu-kang-lorry-van-accident-bus-diverted",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.asiaone.com/singapore/choa-chu-kang-lorry-van-accident-bus-diverted",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Singapore%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "dd69550b39f0f58a869f4940885a16305aacd79b09d5a80756412feb6d15c07b",
+      "size_bytes": 971,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "traffic accident",
+    "road collision",
+    "vehicle crash",
+    "bus accident"
+  ],
+  "timezone": "Asia/Singapore",
+  "captured_at": "2026-08-12T03:37:44.991228+06:00",
+  "published_at": "2026-08-10T18:36:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "asiaone.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SGP-S003"
+}

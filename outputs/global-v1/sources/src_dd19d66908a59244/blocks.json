@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_27bd75e35fd4526a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_27bd75e35fd4526a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua stable after car accident in Nigeria which killed two of his team members",
+      "source_path": "html/NGA/NGA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd19d66908a59244",
+    "text": "Anthony Joshua stable after car accident in Nigeria which killed two of his team members",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8c0b022648dc5a5d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8c0b022648dc5a5d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-31T09:00:00+01:00",
+      "source_path": "html/NGA/NGA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd19d66908a59244",
+    "text": "2025-12-31T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aca68fe6d5838a9a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aca68fe6d5838a9a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One of your browser extensions seems to be blocking the video player from loading.",
+      "source_path": "html/NGA/NGA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd19d66908a59244",
+    "text": "One of your browser extensions seems to be blocking the video player from loading.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d6ba97ee117ba52b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d6ba97ee117ba52b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: France 24",
+      "source_path": "html/NGA/NGA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd19d66908a59244",
+    "text": "Publisher: France 24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f34cf5b69e63e71f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f34cf5b69e63e71f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.france24.com/en/video/20251231-anthony-joshua-stable-after-car-accident-in-nigeria-which-killed-two-of-his-team-members",
+      "source_path": "html/NGA/NGA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd19d66908a59244",
+    "text": "Original source: https://www.france24.com/en/video/20251231-anthony-joshua-stable-after-car-accident-in-nigeria-which-killed-two-of-his-team-members",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8573d903c3de1247",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8573d903c3de1247",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd19d66908a59244",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e439e0a0b9848371",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e439e0a0b9848371",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.france24.com/en/video/20251231-anthony-joshua-stable-after-car-accident-in-nigeria-which-killed-two-of-his-team-members",
+      "source_path": "html/NGA/NGA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd19d66908a59244",
+    "text": "https://www.france24.com/en/video/20251231-anthony-joshua-stable-after-car-accident-in-nigeria-which-killed-two-of-his-team-members",
+    "url": null
+  }
+]

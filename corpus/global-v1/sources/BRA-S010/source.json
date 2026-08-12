@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BRA-S010",
+  "country_code": "BRA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "ge",
+  "canonical_url": "https://ge.globo.com/basquete/noticia/2026/06/15/acidente-de-onibus-no-ceara-mata-sete-integrantes-de-time-de-basquete-entidades-se-solidarizam.ghtml",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://ge.globo.com/basquete/noticia/2026/06/15/acidente-de-onibus-no-ceara-mata-sete-integrantes-de-time-de-basquete-entidades-se-solidarizam.ghtml",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=BR%3Apt-419&gl=BR&hl=pt-BR&q=%28%22acidente+de+tr%C3%A2nsito%22+OR+%22acidente+rodovi%C3%A1rio%22+OR+%22colis%C3%A3o+de+ve%C3%ADculos%22+OR+%22acidente+de+%C3%B4nibus%22%29+%28morto+OR+mortos+OR+ferido+OR+feridos%29+%22Brasil%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "9e902ece386d42b42050c14da4d5a7680655e10d787794bb9955ccf64e0262f9",
+      "size_bytes": 1197,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "pt"
+  ],
+  "traffic_keywords": [
+    "acidente de trânsito",
+    "acidente rodoviário",
+    "colisão de veículos",
+    "acidente de ônibus"
+  ],
+  "timezone": "America/Sao_Paulo",
+  "captured_at": "2026-08-11T21:57:47Z",
+  "published_at": "2026-06-15T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ge.globo.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BRA-S010"
+}

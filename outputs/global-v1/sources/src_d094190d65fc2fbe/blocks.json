@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2c40e0dfbf4f9cd3",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2c40e0dfbf4f9cd3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two-car crash on Auckland’s Upper Harbour Motorway triggers delays, heavy congestion",
+      "source_path": "html/NZL/NZL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d094190d65fc2fbe",
+    "text": "Two-car crash on Auckland’s Upper Harbour Motorway triggers delays, heavy congestion",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9febf6175d9d9730",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9febf6175d9d9730",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-01T00:17:00+13:00",
+      "source_path": "html/NZL/NZL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d094190d65fc2fbe",
+    "text": "2026-04-01T00:17:00+13:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1af959089429d009",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1af959089429d009",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "NZTA is warning motorists of major delays travelling eastbound on State Highway 18 between the North Shore and West Auckland. Photo / NZTA Traffic is ...",
+      "source_path": "html/NZL/NZL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d094190d65fc2fbe",
+    "text": "NZTA is warning motorists of major delays travelling eastbound on State Highway 18 between the North Shore and West Auckland. Photo / NZTA Traffic is ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_beeb3f9463fcbaa9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_beeb3f9463fcbaa9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The New Zealand Herald",
+      "source_path": "html/NZL/NZL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d094190d65fc2fbe",
+    "text": "Publisher: The New Zealand Herald",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_67ca7890f7eaee49",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_67ca7890f7eaee49",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.nzherald.co.nz/nz/auckland/two-car-crash-on-aucklands-upper-harbour-motorway-triggers-delays-heavy-congestion/FDNGVFPOP5ECRF7F46C3JDP6FQ/",
+      "source_path": "html/NZL/NZL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d094190d65fc2fbe",
+    "text": "Original source: https://www.nzherald.co.nz/nz/auckland/two-car-crash-on-aucklands-upper-harbour-motorway-triggers-delays-heavy-congestion/FDNGVFPOP5ECRF7F46C3JDP6FQ/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c57e0e0cc326fdb8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c57e0e0cc326fdb8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NZL/NZL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d094190d65fc2fbe",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_acd5fe832d460d84",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_acd5fe832d460d84",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.nzherald.co.nz/nz/auckland/two-car-crash-on-aucklands-upper-harbour-motorway-triggers-delays-heavy-congestion/FDNGVFPOP5ECRF7F46C3JDP6FQ/",
+      "source_path": "html/NZL/NZL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d094190d65fc2fbe",
+    "text": "https://www.nzherald.co.nz/nz/auckland/two-car-crash-on-aucklands-upper-harbour-motorway-triggers-delays-heavy-congestion/FDNGVFPOP5ECRF7F46C3JDP6FQ/",
+    "url": null
+  }
+]

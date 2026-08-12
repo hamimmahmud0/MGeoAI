@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f7c51c35a5008a92672deb73e24501d42d96f6c7c379948052cd3f1b0b90e4a2",
+  "country": "Ireland",
+  "country_code": "IRL",
+  "dependency_group": "irish mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IRL/IRL-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-18T07:00:00Z",
+  "publisher": "Irish Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_da452d7160aa921f",
+  "source_metadata": {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-18T07:00:00+00:00",
+    "source_info_hash": "a153a7eca89f265e",
+    "source_info_path": "html/IRL/IRL-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Dublin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "road crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.irishmirror.ie/news/irish-news/one-dead-after-two-vehicle-37170077",
+  "timezone": "Europe/Dublin",
+  "title": "One dead after two-vehicle road traffic collision in Omagh"
+}

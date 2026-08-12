@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_017b2f64ae4d1eba",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_017b2f64ae4d1eba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "West Jordan Man Dies Trapped Under Car After Rollover at Busy Intersection",
+      "source_path": "html/JOR/JOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69f7c23f07f423ee",
+    "text": "West Jordan Man Dies Trapped Under Car After Rollover at Busy Intersection",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f61fd6ebe1e9b185",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f61fd6ebe1e9b185",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T16:36:00+03:00",
+      "source_path": "html/JOR/JOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69f7c23f07f423ee",
+    "text": "2026-08-10T16:36:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_42566fd0aaaa15e0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_42566fd0aaaa15e0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A West Jordan man died after being pinned under his own rolled vehicle. Bystanders tried to help, but it was too late.",
+      "source_path": "html/JOR/JOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69f7c23f07f423ee",
+    "text": "A West Jordan man died after being pinned under his own rolled vehicle. Bystanders tried to help, but it was too late.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4d68ae47b9019f69",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4d68ae47b9019f69",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hoodline",
+      "source_path": "html/JOR/JOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69f7c23f07f423ee",
+    "text": "Publisher: Hoodline",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4c3685f7ba59dd7f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4c3685f7ba59dd7f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://hoodline.com/2026/08/west-jordan-man-dies-trapped-under-car-after-rollover-at-busy-intersection/",
+      "source_path": "html/JOR/JOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69f7c23f07f423ee",
+    "text": "Original source: https://hoodline.com/2026/08/west-jordan-man-dies-trapped-under-car-after-rollover-at-busy-intersection/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f912a568132707e9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f912a568132707e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69f7c23f07f423ee",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30fa11f888904d16",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30fa11f888904d16",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://hoodline.com/2026/08/west-jordan-man-dies-trapped-under-car-after-rollover-at-busy-intersection/",
+      "source_path": "html/JOR/JOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69f7c23f07f423ee",
+    "text": "https://hoodline.com/2026/08/west-jordan-man-dies-trapped-under-car-after-rollover-at-busy-intersection/",
+    "url": null
+  }
+]

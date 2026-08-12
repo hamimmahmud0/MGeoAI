@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MYS-S005",
+  "country_code": "MYS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "AsiaOne",
+  "canonical_url": "https://www.asiaone.com/singapore/singaporean-motorcyclist-dies-crash-mpv-johor",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.asiaone.com/singapore/singaporean-motorcyclist-dies-crash-mpv-johor",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Malaysia%22+motorcycle+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "050e71dc8f6cd1c8590f2024f2dc1ec59b80898e38728d0a7b9695a3eb3ebb3e",
+      "size_bytes": 1028,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kemalangan jalan raya",
+    "nahas jalan raya",
+    "kemalangan bas",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "captured_at": "2026-08-12T03:55:02.413074+06:00",
+  "published_at": "2026-08-02T19:36:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "asiaone.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MYS-S005"
+}

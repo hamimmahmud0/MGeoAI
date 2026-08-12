@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4fe94521e3e24a1acff011afc331e8440960cd172743af9607b7d8430c642e6d",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "hbvl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-26T07:00:00Z",
+  "publisher": "HBVL",
+  "schema_version": "1.0.0",
+  "source_id": "src_f8ecc1cb57bae2f6",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-05-26T07:00:00+00:00",
+    "source_info_hash": "ddc8436a553cfc1d",
+    "source_info_path": "html/BEL/BEL-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hbvl.be/binnenland/negen-inzittenden-in-busje-gesloten-overweg-en-trein-die-nog-probeerde-te-remmen-dit-weten-we-over-het-dodelijke-ongeval-in-buggenhout/153337136.html",
+  "timezone": "Europe/Brussels",
+  "title": "Negen inzittenden in busje, gesloten overweg en trein die nog probeerde te remmen: dit weten we over het dodelijke ongeval in Buggenhout"
+}

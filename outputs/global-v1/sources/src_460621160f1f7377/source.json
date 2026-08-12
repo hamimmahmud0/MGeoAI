@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3df03d2cafbd0ac9375b8a7e8f82323a810409c7c75eadefc8d167d2085ad5ba",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "abc7 new york",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T18:21:55Z",
+  "publisher": "ABC7 New York",
+  "schema_version": "1.0.0",
+  "source_id": "src_460621160f1f7377",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-08T18:21:55+00:00",
+    "source_info_hash": "0b06dd5e515ec70f",
+    "source_info_path": "html/USA/USA-S008/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://abc7ny.com/post/major-deegan-expressway-3-car-crash-leaves-2-injured-mott-haven-bronx/19647549/",
+  "timezone": "America/Chicago",
+  "title": "Major Deegan Expressway 3-car crash leaves 2 injured in Mott Haven, Bronx"
+}

@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b229beb1a60deb42966b5d720c77e9135308f33cf3ba7835cbb21b6150226384",
+  "country": "Uganda",
+  "country_code": "UGA",
+  "dependency_group": "allafrica",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "local_path": "html/UGA/UGA-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-17T00:43:00Z",
+  "publisher": "AllAfrica",
+  "schema_version": "1.0.0",
+  "source_id": "src_0113fb1fd66aff1f",
+  "source_metadata": {
+    "country": "Uganda",
+    "country_code": "UGA",
+    "languages": [
+      "en",
+      "sw",
+      "lg"
+    ],
+    "published_at": "2026-07-17T00:43:00+00:00",
+    "source_info_hash": "b223fb64391e8015",
+    "source_info_path": "html/UGA/UGA-S006/SOURCE_INFO.md",
+    "timezone": "Africa/Kampala",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus accident",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://allafrica.com/view/group/main/main/id/00097472.html",
+  "timezone": "Africa/Kampala",
+  "title": "School Bus Crash Kills 23 Pupils in Uganda"
+}

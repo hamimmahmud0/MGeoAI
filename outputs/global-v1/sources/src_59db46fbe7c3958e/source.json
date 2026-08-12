@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6b00a95a08f96351b1b16d7fa37491bb8a7043a7befa2b8584502622e4241950",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "munsif news 24x7",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-10T06:36:40Z",
+  "publisher": "Munsif News 24x7",
+  "schema_version": "1.0.0",
+  "source_id": "src_59db46fbe7c3958e",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-10T06:36:40+00:00",
+    "source_info_hash": "074f20b63ff377a7",
+    "source_info_path": "html/GBR/GBR-S010/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://munsifdaily.com/drunk-driver-causes-horror-crash-in-hyderabad-army-jawan-killed/",
+  "timezone": "Europe/London",
+  "title": "Drunk Driver Causes Horror Crash in Hyderabad, Army Jawan Killed"
+}

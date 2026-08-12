@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "85fddef66a3cb895e20632fe4a096f8c47de099a71d26a2552260966ef3563bc",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "毎日新聞",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/JPN/JPN-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-19T21:32:00Z",
+  "publisher": "毎日新聞",
+  "schema_version": "1.0.0",
+  "source_id": "src_e50e36fbb28d0d01",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-19T21:32:00+00:00",
+    "source_info_hash": "692b4afb6f8e4656",
+    "source_info_path": "html/JPN/JPN-S006/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://mainichi.jp/english/articles/20260720/p2g/00m/0na/010000c",
+  "timezone": "Asia/Tokyo",
+  "title": "2 die in highway collision in western Japan, wrong-way driving suspected"
+}

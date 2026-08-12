@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_69e691749ceda5b7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_69e691749ceda5b7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "El emotivo homenaje de la Guardia Civil de Navarra a los 5 policías forales muertos en accidente de tráfico",
+      "source_path": "html/ESP/ESP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_031122902dff2b7d",
+    "text": "El emotivo homenaje de la Guardia Civil de Navarra a los 5 policías forales muertos en accidente de tráfico",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_215c9059886e666f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_215c9059886e666f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-03T09:00:00+02:00",
+      "source_path": "html/ESP/ESP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_031122902dff2b7d",
+    "text": "2026-06-03T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_25d3ab0513134711",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_25d3ab0513134711",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Debate",
+      "source_path": "html/ESP/ESP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_031122902dff2b7d",
+    "text": "Publisher: El Debate",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b0d83388dca93ae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6b0d83388dca93ae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.eldebate.com/espana/20260603/emotivo-homenaje-guardia-civil-navarra-5-policias-forales-muertos-accidente-trafico_424723.html",
+      "source_path": "html/ESP/ESP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_031122902dff2b7d",
+    "text": "Original source: https://www.eldebate.com/espana/20260603/emotivo-homenaje-guardia-civil-navarra-5-policias-forales-muertos-accidente-trafico_424723.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_020a8869ba5de342",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_020a8869ba5de342",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ESP/ESP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_031122902dff2b7d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98dc134bca62e1ca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98dc134bca62e1ca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.eldebate.com/espana/20260603/emotivo-homenaje-guardia-civil-navarra-5-policias-forales-muertos-accidente-trafico_424723.html",
+      "source_path": "html/ESP/ESP-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_031122902dff2b7d",
+    "text": "https://www.eldebate.com/espana/20260603/emotivo-homenaje-guardia-civil-navarra-5-policias-forales-muertos-accidente-trafico_424723.html",
+    "url": null
+  }
+]

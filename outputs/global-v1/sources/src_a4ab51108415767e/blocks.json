@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_945f4fc7c25c758d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_945f4fc7c25c758d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladeshi expat killed in UAE road accident",
+      "source_path": "html/ARE/ARE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4ab51108415767e",
+    "text": "Bangladeshi expat killed in UAE road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d34014c4834357ac",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d34014c4834357ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-08-03T15:01:00+04:00",
+      "source_path": "html/ARE/ARE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4ab51108415767e",
+    "text": "2022-08-03T15:01:00+04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c0eda97ed7a8ee10",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c0eda97ed7a8ee10",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A Bangladeshi expatriate was killed after being hit by a private car in Ajman city of the United Arab Emirates (UAE) on Tuesday night. The ...",
+      "source_path": "html/ARE/ARE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4ab51108415767e",
+    "text": "A Bangladeshi expatriate was killed after being hit by a private car in Ajman city of the United Arab Emirates (UAE) on Tuesday night. The ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5a534fd2c520a127",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5a534fd2c520a127",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Daily Star",
+      "source_path": "html/ARE/ARE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4ab51108415767e",
+    "text": "Publisher: The Daily Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_016a7a615c620b67",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_016a7a615c620b67",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thedailystar.net/news/bangladesh/accidents-fires/news/bangladeshi-expat-killed-uae-road-accident-3087361",
+      "source_path": "html/ARE/ARE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4ab51108415767e",
+    "text": "Original source: https://www.thedailystar.net/news/bangladesh/accidents-fires/news/bangladeshi-expat-killed-uae-road-accident-3087361",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aa9c14f3400c306c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aa9c14f3400c306c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARE/ARE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4ab51108415767e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35e781c9add8bd89",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_35e781c9add8bd89",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thedailystar.net/news/bangladesh/accidents-fires/news/bangladeshi-expat-killed-uae-road-accident-3087361",
+      "source_path": "html/ARE/ARE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4ab51108415767e",
+    "text": "https://www.thedailystar.net/news/bangladesh/accidents-fires/news/bangladeshi-expat-killed-uae-road-accident-3087361",
+    "url": null
+  }
+]

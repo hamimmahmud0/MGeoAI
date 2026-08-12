@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_54e8692b6fe84a76",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_54e8692b6fe84a76",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Türkiye: Six dead and twenty-five injured in bus crash",
+      "source_path": "html/TUR/TUR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d55fd37cbc8cc6cd",
+    "text": "Türkiye: Six dead and twenty-five injured in bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_87eb54c32d2a3bbb",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_87eb54c32d2a3bbb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-10-18T06:00:00+03:00",
+      "source_path": "html/TUR/TUR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d55fd37cbc8cc6cd",
+    "text": "2024-10-18T06:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a10f79389aeba50e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a10f79389aeba50e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Six people were killed and twenty-five injured today in a bus crash in the central Turkish province of Aksaray. Governor Mehmet Ali Kubuzoglu told reporters ...",
+      "source_path": "html/TUR/TUR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d55fd37cbc8cc6cd",
+    "text": "Six people were killed and twenty-five injured today in a bus crash in the central Turkish province of Aksaray. Governor Mehmet Ali Kubuzoglu told reporters ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d68965cc7852ebf2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d68965cc7852ebf2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: protothema.gr",
+      "source_path": "html/TUR/TUR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d55fd37cbc8cc6cd",
+    "text": "Publisher: protothema.gr",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_656d3b143f33207d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_656d3b143f33207d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://en.protothema.gr/2024/10/18/turkiye-six-dead-and-twenty-five-injured-in-bus-crash/",
+      "source_path": "html/TUR/TUR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d55fd37cbc8cc6cd",
+    "text": "Original source: https://en.protothema.gr/2024/10/18/turkiye-six-dead-and-twenty-five-injured-in-bus-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c560bfde976a72c1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c560bfde976a72c1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d55fd37cbc8cc6cd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c01af5f303665a43",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c01af5f303665a43",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://en.protothema.gr/2024/10/18/turkiye-six-dead-and-twenty-five-injured-in-bus-crash/",
+      "source_path": "html/TUR/TUR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d55fd37cbc8cc6cd",
+    "text": "https://en.protothema.gr/2024/10/18/turkiye-six-dead-and-twenty-five-injured-in-bus-crash/",
+    "url": null
+  }
+]

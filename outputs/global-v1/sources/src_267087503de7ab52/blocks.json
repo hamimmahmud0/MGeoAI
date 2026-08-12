@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4585d8023c093714",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4585d8023c093714",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "5 Chinese nationals killed, 8 injured in traffic accident in Indonesia's Bali",
+      "source_path": "html/IDN/IDN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_267087503de7ab52",
+    "text": "5 Chinese nationals killed, 8 injured in traffic accident in Indonesia's Bali",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a64327c0d8bc2c7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9a64327c0d8bc2c7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-14T15:28:00+07:00",
+      "source_path": "html/IDN/IDN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_267087503de7ab52",
+    "text": "2025-11-14T15:28:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bac3006a8d7a3f85",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bac3006a8d7a3f85",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "JAKARTA - Five Chinese nationals were killed and eight others injured early Friday in a single-vehicle traffic accident in Buleleng Regency in northern Bali, Indonesia ...",
+      "source_path": "html/IDN/IDN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_267087503de7ab52",
+    "text": "JAKARTA - Five Chinese nationals were killed and eight others injured early Friday in a single-vehicle traffic accident in Buleleng Regency in northern Bali, Indonesia ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9b8037af4614529",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9b8037af4614529",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 中国日报网",
+      "source_path": "html/IDN/IDN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_267087503de7ab52",
+    "text": "Publisher: 中国日报网",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_36da34277f2dee57",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_36da34277f2dee57",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.chinadaily.com.cn/a/202511/14/WS6916e83ba310d6866eb29922.html",
+      "source_path": "html/IDN/IDN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_267087503de7ab52",
+    "text": "Original source: https://www.chinadaily.com.cn/a/202511/14/WS6916e83ba310d6866eb29922.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50efeccd07bb0903",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_50efeccd07bb0903",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_267087503de7ab52",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_42f1ea4729a70b37",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_42f1ea4729a70b37",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.chinadaily.com.cn/a/202511/14/WS6916e83ba310d6866eb29922.html",
+      "source_path": "html/IDN/IDN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_267087503de7ab52",
+    "text": "https://www.chinadaily.com.cn/a/202511/14/WS6916e83ba310d6866eb29922.html",
+    "url": null
+  }
+]

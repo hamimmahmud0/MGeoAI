@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_30c1678ca0ea3267",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_30c1678ca0ea3267",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Negen inzittenden in busje, gesloten overweg en trein die nog probeerde te remmen: dit weten we over het dodelijke ongeval in Buggenhout",
+      "source_path": "html/BEL/BEL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f8ecc1cb57bae2f6",
+    "text": "Negen inzittenden in busje, gesloten overweg en trein die nog probeerde te remmen: dit weten we over het dodelijke ongeval in Buggenhout",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_15d00ce2085245dc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_15d00ce2085245dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-26T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f8ecc1cb57bae2f6",
+    "text": "2026-05-26T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_58e130b23b00850f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_58e130b23b00850f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Het ongeval gebeurde dinsdagochtend om 8.08 uur op de overweg ter hoogte van de Stationsstraat en de straat Vierhuizen in het Oost-Vlaamse Buggenhout.",
+      "source_path": "html/BEL/BEL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f8ecc1cb57bae2f6",
+    "text": "Het ongeval gebeurde dinsdagochtend om 8.08 uur op de overweg ter hoogte van de Stationsstraat en de straat Vierhuizen in het Oost-Vlaamse Buggenhout.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d834d8f496f76593",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d834d8f496f76593",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: HBVL",
+      "source_path": "html/BEL/BEL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f8ecc1cb57bae2f6",
+    "text": "Publisher: HBVL",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6a488c0c29dbff98",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6a488c0c29dbff98",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hbvl.be/binnenland/negen-inzittenden-in-busje-gesloten-overweg-en-trein-die-nog-probeerde-te-remmen-dit-weten-we-over-het-dodelijke-ongeval-in-buggenhout/153337136.html",
+      "source_path": "html/BEL/BEL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f8ecc1cb57bae2f6",
+    "text": "Original source: https://www.hbvl.be/binnenland/negen-inzittenden-in-busje-gesloten-overweg-en-trein-die-nog-probeerde-te-remmen-dit-weten-we-over-het-dodelijke-ongeval-in-buggenhout/153337136.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d4488ae6074eb79a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d4488ae6074eb79a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f8ecc1cb57bae2f6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_14c28e7bef024f52",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_14c28e7bef024f52",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hbvl.be/binnenland/negen-inzittenden-in-busje-gesloten-overweg-en-trein-die-nog-probeerde-te-remmen-dit-weten-we-over-het-dodelijke-ongeval-in-buggenhout/153337136.html",
+      "source_path": "html/BEL/BEL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f8ecc1cb57bae2f6",
+    "text": "https://www.hbvl.be/binnenland/negen-inzittenden-in-busje-gesloten-overweg-en-trein-die-nog-probeerde-te-remmen-dit-weten-we-over-het-dodelijke-ongeval-in-buggenhout/153337136.html",
+    "url": null
+  }
+]

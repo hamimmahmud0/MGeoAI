@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7231143d9415879c6b3dead6125e51e349b6e744614933ed6b596c56b8b8750c",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "antena3.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-17T07:00:00Z",
+  "publisher": "antena3.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_a3961a77464ece19",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-17T07:00:00+00:00",
+    "source_info_hash": "b78a7d3fa3022f08",
+    "source_info_path": "html/ESP/ESP-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.antena3.com/noticias/sociedad/dos-muertos-colision-frontal-accidente-trafico-porrino-pontevedra_202607176a5a5b4fe9f2e84b5c6e66f0.html",
+  "timezone": "Europe/Madrid",
+  "title": "Dos muertos por una colisión frontal en un accidente de tráfico en O Porriño, Pontevedra"
+}

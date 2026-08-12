@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_45aff9781ea125a6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_45aff9781ea125a6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un gendarme est mort et deux autres ont été blessés dans un accident de la route en Haute-Savoie, dans le cadre de la sécurisation du G7",
+      "source_path": "html/FRA/FRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_077e3d64156ff401",
+    "text": "Un gendarme est mort et deux autres ont été blessés dans un accident de la route en Haute-Savoie, dans le cadre de la sécurisation du G7",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6f732d22f83f2382",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6f732d22f83f2382",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_077e3d64156ff401",
+    "text": "2026-06-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f4a11249e7d744d6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f4a11249e7d744d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un gendarme est mort et deux autres ont été blessés dans un accident de la route en Haute-Savoie, dans le cadre de la sécurisation du ...",
+      "source_path": "html/FRA/FRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_077e3d64156ff401",
+    "text": "Un gendarme est mort et deux autres ont été blessés dans un accident de la route en Haute-Savoie, dans le cadre de la sécurisation du ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b3de2e913824a7bc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b3de2e913824a7bc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: franceinfo",
+      "source_path": "html/FRA/FRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_077e3d64156ff401",
+    "text": "Publisher: franceinfo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_26f84d5824845a0c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_26f84d5824845a0c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.franceinfo.fr/monde/sommet-du-g7/un-gendarme-est-mort-et-deux-autres-ont-ete-blesses-dans-un-accident-de-la-route-en-haute-savoie-dans-le-cadre-de-la-securisation-du-g7_8059148.html",
+      "source_path": "html/FRA/FRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_077e3d64156ff401",
+    "text": "Original source: https://www.franceinfo.fr/monde/sommet-du-g7/un-gendarme-est-mort-et-deux-autres-ont-ete-blesses-dans-un-accident-de-la-route-en-haute-savoie-dans-le-cadre-de-la-securisation-du-g7_8059148.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3341212eac439bbc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3341212eac439bbc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_077e3d64156ff401",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a3e716e9e1aa97da",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a3e716e9e1aa97da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.franceinfo.fr/monde/sommet-du-g7/un-gendarme-est-mort-et-deux-autres-ont-ete-blesses-dans-un-accident-de-la-route-en-haute-savoie-dans-le-cadre-de-la-securisation-du-g7_8059148.html",
+      "source_path": "html/FRA/FRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_077e3d64156ff401",
+    "text": "https://www.franceinfo.fr/monde/sommet-du-g7/un-gendarme-est-mort-et-deux-autres-ont-ete-blesses-dans-un-accident-de-la-route-en-haute-savoie-dans-le-cadre-de-la-securisation-du-g7_8059148.html",
+    "url": null
+  }
+]

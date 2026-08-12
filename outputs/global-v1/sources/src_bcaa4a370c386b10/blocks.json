@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_636f21ca18813825",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_636f21ca18813825",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Civil Security Department member dead in Tipper Truck - Motorcycle collision",
+      "source_path": "html/LKA/LKA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcaa4a370c386b10",
+    "text": "Civil Security Department member dead in Tipper Truck - Motorcycle collision",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b5656c9137a3a36",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0b5656c9137a3a36",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-05T09:02:00+05:30",
+      "source_path": "html/LKA/LKA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcaa4a370c386b10",
+    "text": "2026-08-05T09:02:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2fd71df6b100d6d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2fd71df6b100d6d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Civil Security Department member dead in Tipper Truck - Motorcycle collision. Most visited website in Sri Lanka.",
+      "source_path": "html/LKA/LKA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcaa4a370c386b10",
+    "text": "Civil Security Department member dead in Tipper Truck - Motorcycle collision. Most visited website in Sri Lanka.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f76a0a89c5de04e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f76a0a89c5de04e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hiru News",
+      "source_path": "html/LKA/LKA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcaa4a370c386b10",
+    "text": "Publisher: Hiru News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5046e0b52220d32c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5046e0b52220d32c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hirunews.lk/goldfmnews/481465/civil-security-department-member-dead-in-tipper-truck-motorcycle-collision",
+      "source_path": "html/LKA/LKA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcaa4a370c386b10",
+    "text": "Original source: https://www.hirunews.lk/goldfmnews/481465/civil-security-department-member-dead-in-tipper-truck-motorcycle-collision",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_56ca05529cc39c23",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_56ca05529cc39c23",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/LKA/LKA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcaa4a370c386b10",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fd18341926518760",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fd18341926518760",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hirunews.lk/goldfmnews/481465/civil-security-department-member-dead-in-tipper-truck-motorcycle-collision",
+      "source_path": "html/LKA/LKA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcaa4a370c386b10",
+    "text": "https://www.hirunews.lk/goldfmnews/481465/civil-security-department-member-dead-in-tipper-truck-motorcycle-collision",
+    "url": null
+  }
+]

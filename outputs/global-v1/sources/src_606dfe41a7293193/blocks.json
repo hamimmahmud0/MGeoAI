@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_67e514ab135caca8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_67e514ab135caca8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "En person omkom i trafikkulykke på Jæren",
+      "source_path": "html/NOR/NOR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_606dfe41a7293193",
+    "text": "En person omkom i trafikkulykke på Jæren",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_66dae7268d15c12c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_66dae7268d15c12c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-19T09:00:00+01:00",
+      "source_path": "html/NOR/NOR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_606dfe41a7293193",
+    "text": "2026-01-19T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f7d944c2666b1bd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f7d944c2666b1bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "– En person er bekreftet død i ulykken.",
+      "source_path": "html/NOR/NOR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_606dfe41a7293193",
+    "text": "– En person er bekreftet død i ulykken.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a418d00d950330d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a418d00d950330d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: fvn.no",
+      "source_path": "html/NOR/NOR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_606dfe41a7293193",
+    "text": "Publisher: fvn.no",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8efa8c22c44d8363",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8efa8c22c44d8363",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.fvn.no/norgeogverden/i/Rj9e05/alvorlig-trafikkulykke-paa-time-i-rogaland-luftambulanse-er-paa-vei",
+      "source_path": "html/NOR/NOR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_606dfe41a7293193",
+    "text": "Original source: https://www.fvn.no/norgeogverden/i/Rj9e05/alvorlig-trafikkulykke-paa-time-i-rogaland-luftambulanse-er-paa-vei",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_933944ee56461c73",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_933944ee56461c73",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_606dfe41a7293193",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_87a6991eb27cec70",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_87a6991eb27cec70",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.fvn.no/norgeogverden/i/Rj9e05/alvorlig-trafikkulykke-paa-time-i-rogaland-luftambulanse-er-paa-vei",
+      "source_path": "html/NOR/NOR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_606dfe41a7293193",
+    "text": "https://www.fvn.no/norgeogverden/i/Rj9e05/alvorlig-trafikkulykke-paa-time-i-rogaland-luftambulanse-er-paa-vei",
+    "url": null
+  }
+]

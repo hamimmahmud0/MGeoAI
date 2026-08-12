@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IDN-S004",
+  "country_code": "IDN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Associated Press News",
+  "canonical_url": "https://apnews.com/video/passenger-bus-crash-in-indonesia-kills-at-least-16-people-official-says-35af1a5f1e274571babe553ce67ca704",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://apnews.com/video/passenger-bus-crash-in-indonesia-kills-at-least-16-people-official-says-35af1a5f1e274571babe553ce67ca704",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Indonesia%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "c27bd03fa8f73f1f5173f537318e41428c4716f6df777dc6c4e11f86e29b1052",
+      "size_bytes": 1137,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kecelakaan lalu lintas",
+    "tabrakan kendaraan",
+    "kecelakaan bus",
+    "kecelakaan jalan"
+  ],
+  "timezone": "Asia/Jakarta",
+  "captured_at": "2026-08-12T03:55:02.411440+06:00",
+  "published_at": "2025-12-21T22:39:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "apnews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IDN-S004"
+}

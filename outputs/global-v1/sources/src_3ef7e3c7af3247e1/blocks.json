@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_270c789ce3223b2f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_270c789ce3223b2f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un gravissimo incidente stradale sulla Statale 79 Ternana, nel tratto che collega Rieti e Terni. Secondo le prime ricostruzioni, un camper che viaggiava in direzione Umbria avrebbe improvvisamente invaso la corsia opposta, centrando in pieno un autobus nav",
+      "source_path": "html/ITA/ITA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ef7e3c7af3247e1",
+    "text": "Un gravissimo incidente stradale sulla Statale 79 Ternana, nel tratto che collega Rieti e Terni. Secondo le prime ricostruzioni, un camper che viaggiava in direzione Umbria avrebbe improvvisamente invaso la corsia opposta, centrando in pieno un autobus nav",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1bbdd416a69eb65d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1bbdd416a69eb65d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-02T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ef7e3c7af3247e1",
+    "text": "2026-08-02T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b5ddd82ee54d7634",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b5ddd82ee54d7634",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un gravissimo incidente stradale sulla Statale 79 Ternana, nel tratto che collega Rieti e Terni. Secondo le prime ricostruzioni, un camper che viaggiava in direzione ...",
+      "source_path": "html/ITA/ITA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ef7e3c7af3247e1",
+    "text": "Un gravissimo incidente stradale sulla Statale 79 Ternana, nel tratto che collega Rieti e Terni. Secondo le prime ricostruzioni, un camper che viaggiava in direzione ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2b6c6cd8817e6c7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2b6c6cd8817e6c7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: facebook.com",
+      "source_path": "html/ITA/ITA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ef7e3c7af3247e1",
+    "text": "Publisher: facebook.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30c9b0e3f00334ae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30c9b0e3f00334ae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.facebook.com/RaiNews/videos/un-gravissimo-incidente-stradale-sulla-statale-79-ternana-nel-tratto-che-collega/1626298889122989/",
+      "source_path": "html/ITA/ITA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ef7e3c7af3247e1",
+    "text": "Original source: https://www.facebook.com/RaiNews/videos/un-gravissimo-incidente-stradale-sulla-statale-79-ternana-nel-tratto-che-collega/1626298889122989/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_295c40bac027a110",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_295c40bac027a110",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ef7e3c7af3247e1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4c5269bd85d1f75",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a4c5269bd85d1f75",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.facebook.com/RaiNews/videos/un-gravissimo-incidente-stradale-sulla-statale-79-ternana-nel-tratto-che-collega/1626298889122989/",
+      "source_path": "html/ITA/ITA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ef7e3c7af3247e1",
+    "text": "https://www.facebook.com/RaiNews/videos/un-gravissimo-incidente-stradale-sulla-statale-79-ternana-nel-tratto-che-collega/1626298889122989/",
+    "url": null
+  }
+]

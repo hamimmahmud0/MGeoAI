@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CHL-S006",
+  "country_code": "CHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Cooperativa",
+  "canonical_url": "https://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/octavio-rivero-sufrio-accidente-de-transito-en-la-capital/2026-06-01/143428.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/octavio-rivero-sufrio-accidente-de-transito-en-la-capital/2026-06-01/143428.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CL%3Aes-419&gl=CL&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22colisi%C3%B3n+vial%22+OR+%22accidente+carretero%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Chile%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "cf871ab748ec59d80039608459066bf7b6798d7a16413d5342e485eb6ad77641",
+      "size_bytes": 1104,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "colisión vial",
+    "accidente carretero"
+  ],
+  "timezone": "America/Santiago",
+  "captured_at": "2026-08-11T21:50:49Z",
+  "published_at": "2026-06-01T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "cooperativa.cl",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CHL-S006"
+}

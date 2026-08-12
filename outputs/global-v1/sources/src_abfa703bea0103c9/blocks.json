@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_da3a817ebb13b2dd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_da3a817ebb13b2dd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "South Africa: Seven killed in N12 crash involving Mozambican Toyota sedan and Nissan bakkie near Ogies, Mpumalanga",
+      "source_path": "html/ZAF/ZAF-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_abfa703bea0103c9",
+    "text": "South Africa: Seven killed in N12 crash involving Mozambican Toyota sedan and Nissan bakkie near Ogies, Mpumalanga",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e0ea51db37a8709",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3e0ea51db37a8709",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-09T10:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_abfa703bea0103c9",
+    "text": "2025-12-09T10:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e6ffb1ba2649b436",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e6ffb1ba2649b436",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A horrific road accident on the N12 between Ogies and eMalahleni, in South Africa’s Mpumalanga province, claimed the lives of seven people in the early ...",
+      "source_path": "html/ZAF/ZAF-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_abfa703bea0103c9",
+    "text": "A horrific road accident on the N12 between Ogies and eMalahleni, in South Africa’s Mpumalanga province, claimed the lives of seven people in the early ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3ab9b61bfb43e127",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3ab9b61bfb43e127",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CLUB OF MOZAMBIQUE",
+      "source_path": "html/ZAF/ZAF-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_abfa703bea0103c9",
+    "text": "Publisher: CLUB OF MOZAMBIQUE",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_500489d88827020e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_500489d88827020e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://clubofmozambique.com/news/south-africa-seven-killed-in-n12-crash-involving-mozambican-toyota-sedan-and-nissan-bakkie-near-ogies-mpumalanga/",
+      "source_path": "html/ZAF/ZAF-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_abfa703bea0103c9",
+    "text": "Original source: https://clubofmozambique.com/news/south-africa-seven-killed-in-n12-crash-involving-mozambican-toyota-sedan-and-nissan-bakkie-near-ogies-mpumalanga/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_933cd36ae6c77c82",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_933cd36ae6c77c82",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_abfa703bea0103c9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_03b79429e1845589",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_03b79429e1845589",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://clubofmozambique.com/news/south-africa-seven-killed-in-n12-crash-involving-mozambican-toyota-sedan-and-nissan-bakkie-near-ogies-mpumalanga/",
+      "source_path": "html/ZAF/ZAF-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_abfa703bea0103c9",
+    "text": "https://clubofmozambique.com/news/south-africa-seven-killed-in-n12-crash-involving-mozambican-toyota-sedan-and-nissan-bakkie-near-ogies-mpumalanga/",
+    "url": null
+  }
+]

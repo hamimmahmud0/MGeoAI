@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c2359f6306d460e7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c2359f6306d460e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Pelo menos três mortos e 29 feridos em acidente de viação no centro de Moçambique",
+      "source_path": "html/PRT/PRT-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65435317d8e22b8a",
+    "text": "Pelo menos três mortos e 29 feridos em acidente de viação no centro de Moçambique",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f7cb407dc9a7b99a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f7cb407dc9a7b99a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-12T08:00:00+01:00",
+      "source_path": "html/PRT/PRT-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65435317d8e22b8a",
+    "text": "2026-07-12T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e97e4eaa185543ff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e97e4eaa185543ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: dnoticias.pt",
+      "source_path": "html/PRT/PRT-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65435317d8e22b8a",
+    "text": "Publisher: dnoticias.pt",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_31f2330d5d3e7f1b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_31f2330d5d3e7f1b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dnoticias.pt/2026/7/12/498697-pelo-menos-tres-mortos-e-29-feridos-em-acidente-de-viacao-no-centro-de-mocambique/",
+      "source_path": "html/PRT/PRT-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65435317d8e22b8a",
+    "text": "Original source: https://www.dnoticias.pt/2026/7/12/498697-pelo-menos-tres-mortos-e-29-feridos-em-acidente-de-viacao-no-centro-de-mocambique/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d616a7d44763f4fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d616a7d44763f4fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65435317d8e22b8a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae4c2148e6a4b5e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae4c2148e6a4b5e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dnoticias.pt/2026/7/12/498697-pelo-menos-tres-mortos-e-29-feridos-em-acidente-de-viacao-no-centro-de-mocambique/",
+      "source_path": "html/PRT/PRT-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65435317d8e22b8a",
+    "text": "https://www.dnoticias.pt/2026/7/12/498697-pelo-menos-tres-mortos-e-29-feridos-em-acidente-de-viacao-no-centro-de-mocambique/",
+    "url": null
+  }
+]

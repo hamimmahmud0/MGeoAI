@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f3004247d445d55d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f3004247d445d55d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Meerdere doden na tragisch ongeval met minibusje en trein",
+      "source_path": "html/BEL/BEL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b22dbb63455a8bab",
+    "text": "Meerdere doden na tragisch ongeval met minibusje en trein",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ffc2d65f36f368e3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ffc2d65f36f368e3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-26T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b22dbb63455a8bab",
+    "text": "2026-05-26T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e9c6b9544c6de48b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e9c6b9544c6de48b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Rond 08.08 uur is een minibus van het buitengewoon onderwijs gegrepen door een trein aan de overweg in de straat Vierhuizen.",
+      "source_path": "html/BEL/BEL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b22dbb63455a8bab",
+    "text": "Rond 08.08 uur is een minibus van het buitengewoon onderwijs gegrepen door een trein aan de overweg in de straat Vierhuizen.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3011860a98466447",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3011860a98466447",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Nieuws365",
+      "source_path": "html/BEL/BEL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b22dbb63455a8bab",
+    "text": "Publisher: Nieuws365",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_68927b9758a14e76",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_68927b9758a14e76",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.nieuws365.be/binnenland/schoolbus-aangereden-door-trein-meerdere-gewonden-persoon-gereanimeerd",
+      "source_path": "html/BEL/BEL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b22dbb63455a8bab",
+    "text": "Original source: https://www.nieuws365.be/binnenland/schoolbus-aangereden-door-trein-meerdere-gewonden-persoon-gereanimeerd",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_78f075335d6d21a7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_78f075335d6d21a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b22dbb63455a8bab",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5e7d8064600de396",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5e7d8064600de396",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.nieuws365.be/binnenland/schoolbus-aangereden-door-trein-meerdere-gewonden-persoon-gereanimeerd",
+      "source_path": "html/BEL/BEL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b22dbb63455a8bab",
+    "text": "https://www.nieuws365.be/binnenland/schoolbus-aangereden-door-trein-meerdere-gewonden-persoon-gereanimeerd",
+    "url": null
+  }
+]

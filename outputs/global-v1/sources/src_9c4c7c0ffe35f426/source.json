@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1de16c91b730993e330cc12b978b303521b13f46c9c109fa3e6a53cd1b9a9948",
+  "country": "Italy",
+  "country_code": "ITA",
+  "dependency_group": "il mattino di padova",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "it"
+  ],
+  "local_path": "html/ITA/ITA-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-15T07:00:00Z",
+  "publisher": "Il Mattino di Padova",
+  "schema_version": "1.0.0",
+  "source_id": "src_9c4c7c0ffe35f426",
+  "source_metadata": {
+    "country": "Italy",
+    "country_code": "ITA",
+    "languages": [
+      "it"
+    ],
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "source_info_hash": "a69dad901ae3c3a9",
+    "source_info_path": "html/ITA/ITA-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Rome",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "incidente stradale",
+      "scontro tra veicoli",
+      "incidente automobilistico",
+      "incidente autobus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.mattinopadova.it/italia/incidente-stradale-ad-ancona-morto-un-altro-ragazzo-di-20-anni-uggz54ub",
+  "timezone": "Europe/Rome",
+  "title": "Incidente stradale ad Ancona, morto un altro ragazzo di 20 anni"
+}

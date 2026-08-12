@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BGD-S003",
+  "country_code": "BGD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "bdnews24.com",
+  "canonical_url": "https://bdnews24.com/bangladesh/8232805d583b",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://bdnews24.com/bangladesh/8232805d583b",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Bangladesh%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "dc564b1767b4685d889b007d426482314b257fb4fd8c6ebcddfb9ea7b5e397f4",
+      "size_bytes": 907,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "সড়ক দুর্ঘটনা",
+    "বাস দুর্ঘটনা",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dhaka",
+  "captured_at": "2026-08-12T03:55:02.402699+06:00",
+  "published_at": "2026-08-07T08:02:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bdnews24.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BGD-S003"
+}

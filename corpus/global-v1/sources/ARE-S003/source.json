@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARE-S003",
+  "country_code": "ARE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "bdnews24",
+  "canonical_url": "https://bdnews24.com/bangladesh/road-accident-in-united-arab-emirates-kills-three-bangladeshis-injures-two-more",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://bdnews24.com/bangladesh/road-accident-in-united-arab-emirates-kills-three-bangladeshis-injures-two-more",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22United+Arab+Emirates%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "3007f2f6cb752dcb4c5b95f6aad022db40ac768df93056f8560ad8714e941d4c",
+      "size_bytes": 1143,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dubai",
+  "captured_at": "2026-08-12T03:38:44.452059+06:00",
+  "published_at": "2015-09-02T18:01:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bdnews24.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARE-S003"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "25d8c07a73609f252db44405248884238bb770b1d03130d19e52b99b1684dc09",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "campiña digital",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-13T07:00:00Z",
+  "publisher": "Campiña Digital",
+  "schema_version": "1.0.0",
+  "source_id": "src_356bf2a744017eea",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-13T07:00:00+00:00",
+    "source_info_hash": "ce8f47b59ee2f408",
+    "source_info_path": "html/ESP/ESP-S005/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://campinadigital.me/2026/06/13/un-fallecido-y-dos-heridos-graves-en-un-accidente-de-trafico-en-lora-del-rio/",
+  "timezone": "Europe/Madrid",
+  "title": "Un fallecido y dos heridos graves en un accidente de tráfico en Lora del Río."
+}

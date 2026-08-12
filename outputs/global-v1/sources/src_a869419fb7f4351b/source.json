@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0234adee072ae939db669892e264cc2cfa672697ddc8ce6fbec31b4d8d7cd8ab",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "fox5 vegas",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-11T10:28:38Z",
+  "publisher": "FOX5 Vegas",
+  "schema_version": "1.0.0",
+  "source_id": "src_a869419fb7f4351b",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-11T10:28:38+00:00",
+    "source_info_hash": "944bdb698706e197",
+    "source_info_path": "html/USA/USA-S001/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.fox5vegas.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+  "timezone": "America/Chicago",
+  "title": "2 kids dead, 1 hurt in Henrico car crash"
+}

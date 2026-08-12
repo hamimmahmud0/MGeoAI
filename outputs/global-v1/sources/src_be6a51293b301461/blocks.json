@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6c384d374c7b728a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6c384d374c7b728a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Vans que había salido de Barranquilla hacia Magangué sufrió accidente vial en Sucre: hubo tres muertos",
+      "source_path": "html/COL/COL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be6a51293b301461",
+    "text": "Vans que había salido de Barranquilla hacia Magangué sufrió accidente vial en Sucre: hubo tres muertos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_713ca70767545eb2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_713ca70767545eb2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-28T02:00:00-05:00",
+      "source_path": "html/COL/COL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be6a51293b301461",
+    "text": "2026-05-28T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_94bbf0c844c4200c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_94bbf0c844c4200c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: impactonews.co",
+      "source_path": "html/COL/COL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be6a51293b301461",
+    "text": "Publisher: impactonews.co",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_524b0c4e11422c95",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_524b0c4e11422c95",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://impactonews.co/vans-que-habia-salido-de-barranquilla-hacia-magangue-sufrio-accidente-vial-en-sucre-hubo-tres-muertos/",
+      "source_path": "html/COL/COL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be6a51293b301461",
+    "text": "Original source: https://impactonews.co/vans-que-habia-salido-de-barranquilla-hacia-magangue-sufrio-accidente-vial-en-sucre-hubo-tres-muertos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3b75f9532283c1c3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3b75f9532283c1c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be6a51293b301461",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c51461268b4fc74b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c51461268b4fc74b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://impactonews.co/vans-que-habia-salido-de-barranquilla-hacia-magangue-sufrio-accidente-vial-en-sucre-hubo-tres-muertos/",
+      "source_path": "html/COL/COL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be6a51293b301461",
+    "text": "https://impactonews.co/vans-que-habia-salido-de-barranquilla-hacia-magangue-sufrio-accidente-vial-en-sucre-hubo-tres-muertos/",
+    "url": null
+  }
+]

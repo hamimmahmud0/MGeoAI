@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_40ebccd2505051a2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_40ebccd2505051a2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Sobe para quatro o número de mortos em acidente de ônibus no oeste de Santa Catarina",
+      "source_path": "html/BRA/BRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4a76be1ae05e664",
+    "text": "Sobe para quatro o número de mortos em acidente de ônibus no oeste de Santa Catarina",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8fa4c30fe5778833",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8fa4c30fe5778833",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-16T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4a76be1ae05e664",
+    "text": "2026-07-16T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a61b0115f96a4435",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a61b0115f96a4435",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: GZH",
+      "source_path": "html/BRA/BRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4a76be1ae05e664",
+    "text": "Publisher: GZH",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_777446bc51022c63",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_777446bc51022c63",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://gauchazh.clicrbs.com.br/transito/noticia/2026/07/sobe-para-quatro-o-numero-de-mortos-em-acidente-de-onibus-no-oeste-de-santa-catarina-cmro105w401nz016i7axfq2wz.html",
+      "source_path": "html/BRA/BRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4a76be1ae05e664",
+    "text": "Original source: https://gauchazh.clicrbs.com.br/transito/noticia/2026/07/sobe-para-quatro-o-numero-de-mortos-em-acidente-de-onibus-no-oeste-de-santa-catarina-cmro105w401nz016i7axfq2wz.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9506e4760cc8fcfb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9506e4760cc8fcfb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4a76be1ae05e664",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b1011b1d4362184e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b1011b1d4362184e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://gauchazh.clicrbs.com.br/transito/noticia/2026/07/sobe-para-quatro-o-numero-de-mortos-em-acidente-de-onibus-no-oeste-de-santa-catarina-cmro105w401nz016i7axfq2wz.html",
+      "source_path": "html/BRA/BRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4a76be1ae05e664",
+    "text": "https://gauchazh.clicrbs.com.br/transito/noticia/2026/07/sobe-para-quatro-o-numero-de-mortos-em-acidente-de-onibus-no-oeste-de-santa-catarina-cmro105w401nz016i7axfq2wz.html",
+    "url": null
+  }
+]

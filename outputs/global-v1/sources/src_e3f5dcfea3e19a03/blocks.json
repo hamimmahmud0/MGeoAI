@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8f1ee72d85167e1f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8f1ee72d85167e1f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus carrying pilgrims crashes killing 21 in Sri Lanka",
+      "source_path": "html/LKA/LKA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e3f5dcfea3e19a03",
+    "text": "Bus carrying pilgrims crashes killing 21 in Sri Lanka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fde1b9f6f05161cc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_fde1b9f6f05161cc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-11T16:28:00+05:30",
+      "source_path": "html/LKA/LKA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e3f5dcfea3e19a03",
+    "text": "2025-05-11T16:28:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c1ccb57ab3574b79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c1ccb57ab3574b79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "An overcrowded bus carrying dozens of Buddhist pilgrims plummeted into a precipice in Sri Lanka on Sunday, killing at least 21 and injuring 24, a ...",
+      "source_path": "html/LKA/LKA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e3f5dcfea3e19a03",
+    "text": "An overcrowded bus carrying dozens of Buddhist pilgrims plummeted into a precipice in Sri Lanka on Sunday, killing at least 21 and injuring 24, a ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e1c47a8f159f5c47",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e1c47a8f159f5c47",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/LKA/LKA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e3f5dcfea3e19a03",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0215e6affd490ef3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0215e6affd490ef3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/south-asia/380954/bus-carrying-pilgrims-crashes-killing-21-in-sri",
+      "source_path": "html/LKA/LKA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e3f5dcfea3e19a03",
+    "text": "Original source: https://www.dhakatribune.com/world/south-asia/380954/bus-carrying-pilgrims-crashes-killing-21-in-sri",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5b0555d5a2f48b19",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5b0555d5a2f48b19",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/LKA/LKA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e3f5dcfea3e19a03",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_63face732930a3ae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_63face732930a3ae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/south-asia/380954/bus-carrying-pilgrims-crashes-killing-21-in-sri",
+      "source_path": "html/LKA/LKA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e3f5dcfea3e19a03",
+    "text": "https://www.dhakatribune.com/world/south-asia/380954/bus-carrying-pilgrims-crashes-killing-21-in-sri",
+    "url": null
+  }
+]

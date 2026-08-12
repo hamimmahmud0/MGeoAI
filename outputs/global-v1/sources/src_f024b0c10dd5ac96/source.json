@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "51ca7b047ac0c27b987bc6d46f4d1de527906f2fbbd2ad65bd10b925c049ecc0",
+  "country": "Netherlands",
+  "country_code": "NLD",
+  "dependency_group": "112 nederland",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "local_path": "html/NLD/NLD-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-30T07:00:00Z",
+  "publisher": "112 Nederland",
+  "schema_version": "1.0.0",
+  "source_id": "src_f024b0c10dd5ac96",
+  "source_metadata": {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "languages": [
+      "nl",
+      "en"
+    ],
+    "published_at": "2026-04-30T07:00:00+00:00",
+    "source_info_hash": "ed6cac8c9d83b991",
+    "source_info_path": "html/NLD/NLD-S005/SOURCE_INFO.md",
+    "timezone": "Europe/Amsterdam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "auto-ongeluk",
+      "botsing voertuigen",
+      "busongeluk"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://112nederland.nl/2026/04/30/video/dode-en-gewonde-bij-frontale-botsing/",
+  "timezone": "Europe/Amsterdam",
+  "title": "Dode en gewonde bij frontale botsing"
+}

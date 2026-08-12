@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S003",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Newstalk ZB",
+  "canonical_url": "https://www.newstalkzb.co.nz/news/auckland/crash-on-panmure-s-lagoon-drive-causes-major-delays-one-critically-injured/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.newstalkzb.co.nz/news/auckland/crash-on-panmure-s-lagoon-drive-causes-major-delays-one-critically-injured/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "2383ffd4bf8ed6bda8952e69a9ebabd5eb657928c4927ef99349d68cdd0fad0c",
+      "size_bytes": 1109,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:31.582386+06:00",
+  "published_at": "2026-07-31T02:12:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "newstalkzb.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S003"
+}

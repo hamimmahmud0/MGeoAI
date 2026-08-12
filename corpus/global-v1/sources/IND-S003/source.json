@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S003",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/south-asia/277643/27-dead-in-india-road-accident",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/south-asia/277643/27-dead-in-india-road-accident",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22India%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0726dda8b27f1c18e4f45ab00fd25d4873813cacdb31db2422db99ea5369eb08",
+      "size_bytes": 928,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:55:02.405878+06:00",
+  "published_at": "2022-10-02T10:13:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S003"
+}

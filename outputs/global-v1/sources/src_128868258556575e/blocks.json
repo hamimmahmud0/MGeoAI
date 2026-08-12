@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_13a0b32efde26570",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_13a0b32efde26570",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Egypt coach crash: Two people killed and over 30 injured after bus and truck collide",
+      "source_path": "html/EGY/EGY-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_128868258556575e",
+    "text": "Egypt coach crash: Two people killed and over 30 injured after bus and truck collide",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ec3365ffaaecb005",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ec3365ffaaecb005",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-11T04:03:00+02:00",
+      "source_path": "html/EGY/EGY-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_128868258556575e",
+    "text": "2025-11-11T04:03:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0ed030aba3f0af06",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0ed030aba3f0af06",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two people have sadly lost their lives after a bus carrying tourists crashed into a truck in Egypt. Around 36 people are understood to have ...",
+      "source_path": "html/EGY/EGY-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_128868258556575e",
+    "text": "Two people have sadly lost their lives after a bus carrying tourists crashed into a truck in Egypt. Around 36 people are understood to have ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9b11873c8ec3c8d0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9b11873c8ec3c8d0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Irish Daily Mirror",
+      "source_path": "html/EGY/EGY-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_128868258556575e",
+    "text": "Publisher: Irish Daily Mirror",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4a1e7eb7c579d2c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a4a1e7eb7c579d2c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.irishmirror.ie/news/world-news/egypt-coach-crash-two-people-36225271",
+      "source_path": "html/EGY/EGY-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_128868258556575e",
+    "text": "Original source: https://www.irishmirror.ie/news/world-news/egypt-coach-crash-two-people-36225271",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2d38a110b1ecdea1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2d38a110b1ecdea1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/EGY/EGY-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_128868258556575e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7562f133740cc375",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7562f133740cc375",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.irishmirror.ie/news/world-news/egypt-coach-crash-two-people-36225271",
+      "source_path": "html/EGY/EGY-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_128868258556575e",
+    "text": "https://www.irishmirror.ie/news/world-news/egypt-coach-crash-two-people-36225271",
+    "url": null
+  }
+]

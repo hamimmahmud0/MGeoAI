@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4f6b5752374572c58833b902a8e440be4480548747cfd869f248f2e9b5eba148",
+  "country": "Ireland",
+  "country_code": "IRL",
+  "dependency_group": "irish examiner",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IRL/IRL-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-29T07:00:00Z",
+  "publisher": "Irish Examiner",
+  "schema_version": "1.0.0",
+  "source_id": "src_495d40c685792c08",
+  "source_metadata": {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-29T07:00:00+00:00",
+    "source_info_hash": "ccfeff60c3d16af9",
+    "source_info_path": "html/IRL/IRL-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Dublin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "road crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.irishexaminer.com/news/arid-41887609.html",
+  "timezone": "Europe/Dublin",
+  "title": "Funeral details announced of mother and daughter killed in Cavan road crash"
+}

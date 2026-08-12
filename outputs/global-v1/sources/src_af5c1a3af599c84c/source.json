@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "70a173c1b3b898915a50bb3ef6b62552d0131e4095ab62b85e9e6024e40badc8",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "global times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-08-21T01:35:00Z",
+  "publisher": "Global Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_af5c1a3af599c84c",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2022-08-21T01:35:00+00:00",
+    "source_info_hash": "89ba0ffb4d110e17",
+    "source_info_path": "html/TUR/TUR-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.globaltimes.cn/page/202208/1273454.shtml",
+  "timezone": "Europe/Istanbul",
+  "title": "16 killed in traffic accident in SE Türkiye"
+}

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8e8ecddd0026f2f444e01a1bfe72338da2ab06f200626c7753bc2a95352e8393",
+  "country": "Egypt",
+  "country_code": "EGY",
+  "dependency_group": "ai alarabiya",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/EGY/EGY-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-07-05T02:44:00Z",
+  "publisher": "AI Alarabiya",
+  "schema_version": "1.0.0",
+  "source_id": "src_8e020bce030980f8",
+  "source_metadata": {
+    "country": "Egypt",
+    "country_code": "EGY",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2025-07-05T02:44:00+00:00",
+    "source_info_hash": "6f30917875f1ab01",
+    "source_info_path": "html/EGY/EGY-S009/SOURCE_INFO.md",
+    "timezone": "Africa/Cairo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم سيارات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://english.alarabiya.net/News/middle-east/2025/07/05/nine-dead-in-egypt-road-crash-health-ministry",
+  "timezone": "Africa/Cairo",
+  "title": "Nine dead in Egypt road crash: Health ministry"
+}

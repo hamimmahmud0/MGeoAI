@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_257a949217e142ab",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_257a949217e142ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Six Dead, Several Injured in Nairobi-Mombasa Highway Crash",
+      "source_path": "html/KEN/KEN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48c08e2d87d2d612",
+    "text": "Six Dead, Several Injured in Nairobi-Mombasa Highway Crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48fe787a1101a28d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_48fe787a1101a28d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-03-05T11:00:00+03:00",
+      "source_path": "html/KEN/KEN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48c08e2d87d2d612",
+    "text": "2026-03-05T11:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6c666bb30781e7e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6c666bb30781e7e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Six people have lost their lives following an early morning road accident on the busy Nairobi-Mombasa Highway after the bus they were travelling in got ...",
+      "source_path": "html/KEN/KEN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48c08e2d87d2d612",
+    "text": "Six people have lost their lives following an early morning road accident on the busy Nairobi-Mombasa Highway after the bus they were travelling in got ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d6462b3f3350b52d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d6462b3f3350b52d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Kenyans.co.ke",
+      "source_path": "html/KEN/KEN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48c08e2d87d2d612",
+    "text": "Publisher: Kenyans.co.ke",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8356de9c7c1ad9f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8356de9c7c1ad9f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.kenyans.co.ke/news/121389-six-dead-several-injured-nairobi-mombasa-highway-crash",
+      "source_path": "html/KEN/KEN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48c08e2d87d2d612",
+    "text": "Original source: https://www.kenyans.co.ke/news/121389-six-dead-several-injured-nairobi-mombasa-highway-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_49791cc8706bfbae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_49791cc8706bfbae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48c08e2d87d2d612",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a874397fa7faeb1a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a874397fa7faeb1a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.kenyans.co.ke/news/121389-six-dead-several-injured-nairobi-mombasa-highway-crash",
+      "source_path": "html/KEN/KEN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48c08e2d87d2d612",
+    "text": "https://www.kenyans.co.ke/news/121389-six-dead-several-injured-nairobi-mombasa-highway-crash",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0bfb30df8b3e18f5",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0bfb30df8b3e18f5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "“We hebben meermaals gevraagd om de buschauffeur van die rit te halen”: provinciebestuur trok nog voor het dramatische ongeval aan de alarmbel",
+      "source_path": "html/BEL/BEL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10aeea5600773695",
+    "text": "“We hebben meermaals gevraagd om de buschauffeur van die rit te halen”: provinciebestuur trok nog voor het dramatische ongeval aan de alarmbel",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a789b0e33aee4bb0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a789b0e33aee4bb0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-01T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10aeea5600773695",
+    "text": "2026-06-01T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5bcedd916307f79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5bcedd916307f79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "“We hebben meermaals gevraagd om de buschauffeur van die rit te halen”: provinciebestuur trok nog voor het dramatische ongeval aan de alarmbel “Agressief rijgedrag.",
+      "source_path": "html/BEL/BEL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10aeea5600773695",
+    "text": "“We hebben meermaals gevraagd om de buschauffeur van die rit te halen”: provinciebestuur trok nog voor het dramatische ongeval aan de alarmbel “Agressief rijgedrag.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f764ccbca9cf1783",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f764ccbca9cf1783",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: HLN",
+      "source_path": "html/BEL/BEL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10aeea5600773695",
+    "text": "Publisher: HLN",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9158c1044f7a997",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9158c1044f7a997",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hln.be/binnenland/we-hebben-meermaals-gevraagd-om-de-buschauffeur-van-die-rit-te-halen-provinciebestuur-trok-nog-voor-het-dramatische-ongeval-aan-de-alarmbel~a65fad4f/",
+      "source_path": "html/BEL/BEL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10aeea5600773695",
+    "text": "Original source: https://www.hln.be/binnenland/we-hebben-meermaals-gevraagd-om-de-buschauffeur-van-die-rit-te-halen-provinciebestuur-trok-nog-voor-het-dramatische-ongeval-aan-de-alarmbel~a65fad4f/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f09dcd81df6acecd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f09dcd81df6acecd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10aeea5600773695",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aaf78219937a4a4d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aaf78219937a4a4d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hln.be/binnenland/we-hebben-meermaals-gevraagd-om-de-buschauffeur-van-die-rit-te-halen-provinciebestuur-trok-nog-voor-het-dramatische-ongeval-aan-de-alarmbel~a65fad4f/",
+      "source_path": "html/BEL/BEL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_10aeea5600773695",
+    "text": "https://www.hln.be/binnenland/we-hebben-meermaals-gevraagd-om-de-buschauffeur-van-die-rit-te-halen-provinciebestuur-trok-nog-voor-het-dramatische-ongeval-aan-de-alarmbel~a65fad4f/",
+    "url": null
+  }
+]

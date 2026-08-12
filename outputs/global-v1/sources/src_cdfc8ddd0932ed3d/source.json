@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "80355015443f6d36a6a711b8d9d9e420a9c5f0395a67ecc90a1a4f39240461a8",
+  "country": "Thailand",
+  "country_code": "THA",
+  "dependency_group": "the hindu",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/THA/THA-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-16T05:10:00Z",
+  "publisher": "The Hindu",
+  "schema_version": "1.0.0",
+  "source_id": "src_cdfc8ddd0932ed3d",
+  "source_metadata": {
+    "country": "Thailand",
+    "country_code": "THA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-16T05:10:00+00:00",
+    "source_info_hash": "e45c10a3ef45a443",
+    "source_info_path": "html/THA/THA-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Bangkok",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "อุบัติเหตุทางถนน",
+      "รถชน",
+      "รถบัสชน",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.thehindu.com/news/international/several-killed-injured-in-train-collision-that-sparks-bus-fire-in-thailand-updates/article70986789.ece",
+  "timezone": "Asia/Bangkok",
+  "title": "At least 8 killed, 25 injured in train collision that sparks bus fire in Thailand"
+}

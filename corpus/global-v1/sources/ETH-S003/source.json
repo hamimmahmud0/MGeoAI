@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ETH-S003",
+  "country_code": "ETH",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Daily Post Nigeria",
+  "canonical_url": "https://dailypost.ng/2024/12/30/71-die-in-ethiopia-road-accident/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://dailypost.ng/2024/12/30/71-die-in-ethiopia-road-accident/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Ethiopia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "9f0e1650e1469cc7bc0ee1742bb00e7174a0f193c960e87d1d7c384d48f29b9b",
+      "size_bytes": 893,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "am",
+    "en",
+    "om"
+  ],
+  "traffic_keywords": [
+    "የመንገድ አደጋ",
+    "የትራፊክ አደጋ",
+    "road accident",
+    "traffic crash"
+  ],
+  "timezone": "Africa/Addis_Ababa",
+  "captured_at": "2026-08-11T21:56:25.776723Z",
+  "published_at": "2024-12-29T23:36:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dailypost.ng",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ETH-S003"
+}

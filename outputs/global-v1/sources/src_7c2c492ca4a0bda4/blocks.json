@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_520a179943e2b6fb",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_520a179943e2b6fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "16 Dead, 18 Injured As Passenger Bus Loses Control, Crashes In Indonesia",
+      "source_path": "html/IDN/IDN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c2c492ca4a0bda4",
+    "text": "16 Dead, 18 Injured As Passenger Bus Loses Control, Crashes In Indonesia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e94dfc8d0dc485dc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e94dfc8d0dc485dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-22T03:12:00+07:00",
+      "source_path": "html/IDN/IDN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c2c492ca4a0bda4",
+    "text": "2025-12-22T03:12:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2276e7400a423f1a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2276e7400a423f1a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Police and rescue teams arrived about 40 minutes after the accident. A passenger bus crash killed at least 16 people on Indonesia's main island of ...",
+      "source_path": "html/IDN/IDN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c2c492ca4a0bda4",
+    "text": "Police and rescue teams arrived about 40 minutes after the accident. A passenger bus crash killed at least 16 people on Indonesia's main island of ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9c753aa0fd83ba48",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9c753aa0fd83ba48",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NDTV",
+      "source_path": "html/IDN/IDN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c2c492ca4a0bda4",
+    "text": "Publisher: NDTV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33e6fa5496fae607",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_33e6fa5496fae607",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ndtv.com/world-news/indonesia-bus-crash-16-dead-18-injured-as-passenger-bus-loses-control-crashes-in-indonesia-9862641",
+      "source_path": "html/IDN/IDN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c2c492ca4a0bda4",
+    "text": "Original source: https://www.ndtv.com/world-news/indonesia-bus-crash-16-dead-18-injured-as-passenger-bus-loses-control-crashes-in-indonesia-9862641",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_25390a7dfcc5cf90",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_25390a7dfcc5cf90",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c2c492ca4a0bda4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef0e7fc46bcdbeb5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ef0e7fc46bcdbeb5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ndtv.com/world-news/indonesia-bus-crash-16-dead-18-injured-as-passenger-bus-loses-control-crashes-in-indonesia-9862641",
+      "source_path": "html/IDN/IDN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c2c492ca4a0bda4",
+    "text": "https://www.ndtv.com/world-news/indonesia-bus-crash-16-dead-18-injured-as-passenger-bus-loses-control-crashes-in-indonesia-9862641",
+    "url": null
+  }
+]

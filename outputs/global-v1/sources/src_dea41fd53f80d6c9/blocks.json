@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8e2e82e9463ebb73",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8e2e82e9463ebb73",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Egypt announces EGP 400,000 compensation for families of Ismailia crash victims",
+      "source_path": "html/EGY/EGY-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dea41fd53f80d6c9",
+    "text": "Egypt announces EGP 400,000 compensation for families of Ismailia crash victims",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_138285cb751b8e21",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_138285cb751b8e21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T20:00:00+03:00",
+      "source_path": "html/EGY/EGY-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dea41fd53f80d6c9",
+    "text": "2026-08-10T20:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9aed6a69967c5288",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9aed6a69967c5288",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Families of the 18 workers killed in a road crash in Ismailia will receive EGP 400,000 ($8,000) each, while injured workers will receive urgent assistance ...",
+      "source_path": "html/EGY/EGY-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dea41fd53f80d6c9",
+    "text": "Families of the 18 workers killed in a road crash in Ismailia will receive EGP 400,000 ($8,000) each, while injured workers will receive urgent assistance ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b5929843a504aebe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b5929843a504aebe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ahram Online",
+      "source_path": "html/EGY/EGY-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dea41fd53f80d6c9",
+    "text": "Publisher: Ahram Online",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b0cd2b7827f85191",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b0cd2b7827f85191",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=574465",
+      "source_path": "html/EGY/EGY-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dea41fd53f80d6c9",
+    "text": "Original source: https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=574465",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dcc5e9c7e8317891",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dcc5e9c7e8317891",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/EGY/EGY-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dea41fd53f80d6c9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_18f0d3c333e4c82e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_18f0d3c333e4c82e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=574465",
+      "source_path": "html/EGY/EGY-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dea41fd53f80d6c9",
+    "text": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=574465",
+    "url": null
+  }
+]

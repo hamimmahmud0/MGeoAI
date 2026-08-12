@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "AUS-S009",
+  "country_code": "AUS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "BBC",
+  "canonical_url": "https://www.bbc.co.uk/news/articles/c5yeexndmjpo",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bbc.co.uk/news/articles/c5yeexndmjpo",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Australia%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ecc4def83f143d8871e770f23c88e01b26c5ce3c239b24f78312fb59b4fed809",
+      "size_bytes": 928,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Australia/Sydney",
+  "captured_at": "2026-08-12T03:38:32.880254+06:00",
+  "published_at": "2026-05-27T08:30:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bbc.co.uk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-AUS-S009"
+}

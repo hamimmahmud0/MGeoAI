@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b1c194f11d9c337e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b1c194f11d9c337e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Over 60 Killed In Ethiopia Traffic Accident",
+      "source_path": "html/ETH/ETH-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6694a5cb5d75b911",
+    "text": "Over 60 Killed In Ethiopia Traffic Accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6115e6e8d3bc2a30",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6115e6e8d3bc2a30",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-29T19:00:00+03:00",
+      "source_path": "html/ETH/ETH-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6694a5cb5d75b911",
+    "text": "2024-12-29T19:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_532d9a8e8cf220c9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_532d9a8e8cf220c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "(MENAFN- IANS) Addis Ababa, Dec 30 (IANS) Over 60 people were killed on Sunday in a traffic accident in Ethiopia's Sidama region when a truck ...",
+      "source_path": "html/ETH/ETH-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6694a5cb5d75b911",
+    "text": "(MENAFN- IANS) Addis Ababa, Dec 30 (IANS) Over 60 people were killed on Sunday in a traffic accident in Ethiopia's Sidama region when a truck ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1e7c71a79eecf009",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1e7c71a79eecf009",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Mena FN",
+      "source_path": "html/ETH/ETH-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6694a5cb5d75b911",
+    "text": "Publisher: Mena FN",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc42dbec0e107caa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc42dbec0e107caa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://menafn.com/1109040968/Over-60-Killed-In-Ethiopia-Traffic-Accident",
+      "source_path": "html/ETH/ETH-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6694a5cb5d75b911",
+    "text": "Original source: https://menafn.com/1109040968/Over-60-Killed-In-Ethiopia-Traffic-Accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_598f0bce46231531",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_598f0bce46231531",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6694a5cb5d75b911",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_816c8d28e5e3643b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_816c8d28e5e3643b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://menafn.com/1109040968/Over-60-Killed-In-Ethiopia-Traffic-Accident",
+      "source_path": "html/ETH/ETH-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6694a5cb5d75b911",
+    "text": "https://menafn.com/1109040968/Over-60-Killed-In-Ethiopia-Traffic-Accident",
+    "url": null
+  }
+]

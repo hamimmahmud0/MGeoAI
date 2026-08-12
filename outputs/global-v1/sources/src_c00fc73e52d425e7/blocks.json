@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b6ccbd51b338f227",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b6ccbd51b338f227",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "South Africa's Vanderbijlpark crash: Twelve pupils die after minibus collides with lorry",
+      "source_path": "html/ZAF/ZAF-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c00fc73e52d425e7",
+    "text": "South Africa's Vanderbijlpark crash: Twelve pupils die after minibus collides with lorry",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98400f9057761210",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_98400f9057761210",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-20T10:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c00fc73e52d425e7",
+    "text": "2026-01-20T10:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34b488c0677c2db5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34b488c0677c2db5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Twelve schoolchildren killed after bus collides with lorry in South Africa Twelve school pupils have died in South Africa after the minibus they were travelling ...",
+      "source_path": "html/ZAF/ZAF-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c00fc73e52d425e7",
+    "text": "Twelve schoolchildren killed after bus collides with lorry in South Africa Twelve school pupils have died in South Africa after the minibus they were travelling ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e7f24b6091bcbac3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e7f24b6091bcbac3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: BBC",
+      "source_path": "html/ZAF/ZAF-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c00fc73e52d425e7",
+    "text": "Publisher: BBC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_531ef7800e934f11",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_531ef7800e934f11",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bbc.com/news/articles/cvgdmkxl1mko",
+      "source_path": "html/ZAF/ZAF-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c00fc73e52d425e7",
+    "text": "Original source: https://www.bbc.com/news/articles/cvgdmkxl1mko",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9cdb5bf27387d5dc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9cdb5bf27387d5dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c00fc73e52d425e7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_86d59888284d01e9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_86d59888284d01e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bbc.com/news/articles/cvgdmkxl1mko",
+      "source_path": "html/ZAF/ZAF-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c00fc73e52d425e7",
+    "text": "https://www.bbc.com/news/articles/cvgdmkxl1mko",
+    "url": null
+  }
+]

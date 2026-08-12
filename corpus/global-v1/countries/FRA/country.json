@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "FRA",
+  "name": "France",
+  "languages": [
+    "fr"
+  ],
+  "timezones": [
+    "Europe/Paris"
+  ],
+  "target_sources": 12
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_dc25261f05e901a4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_dc25261f05e901a4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "El insólito accidente de tránsito que marcó las celebraciones en Argentina: atención al registro",
+      "source_path": "html/ARG/ARG-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1558d2da3097756",
+    "text": "El insólito accidente de tránsito que marcó las celebraciones en Argentina: atención al registro",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c4192579813b1b6",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1c4192579813b1b6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-07T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1558d2da3097756",
+    "text": "2026-07-07T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_37ec88dd05f99115",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_37ec88dd05f99115",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ADN Radio",
+      "source_path": "html/ARG/ARG-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1558d2da3097756",
+    "text": "Publisher: ADN Radio",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0726c963454e486",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e0726c963454e486",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.adnradio.cl/2026/07/07/el-insolito-accidente-de-transito-que-marco-las-celebraciones-en-argentina-atencion-al-registro/",
+      "source_path": "html/ARG/ARG-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1558d2da3097756",
+    "text": "Original source: https://www.adnradio.cl/2026/07/07/el-insolito-accidente-de-transito-que-marco-las-celebraciones-en-argentina-atencion-al-registro/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_21fa135cca2cb06e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_21fa135cca2cb06e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1558d2da3097756",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_79b562ef852a8af1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_79b562ef852a8af1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.adnradio.cl/2026/07/07/el-insolito-accidente-de-transito-que-marco-las-celebraciones-en-argentina-atencion-al-registro/",
+      "source_path": "html/ARG/ARG-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1558d2da3097756",
+    "text": "https://www.adnradio.cl/2026/07/07/el-insolito-accidente-de-transito-que-marco-las-celebraciones-en-argentina-atencion-al-registro/",
+    "url": null
+  }
+]

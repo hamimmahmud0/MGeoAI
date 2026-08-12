@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a1a67ec81fabed41",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a1a67ec81fabed41",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Cuatro fallecidos y seis heridos graves en un accidente de tráfico en Castellón",
+      "source_path": "html/ESP/ESP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_72527c676ef201ed",
+    "text": "Cuatro fallecidos y seis heridos graves en un accidente de tráfico en Castellón",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5497cc9cd3074ea8",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5497cc9cd3074ea8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-28T09:00:00+02:00",
+      "source_path": "html/ESP/ESP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_72527c676ef201ed",
+    "text": "2026-06-28T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9cae5ccfa94d336",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9cae5ccfa94d336",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Infobae",
+      "source_path": "html/ESP/ESP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_72527c676ef201ed",
+    "text": "Publisher: Infobae",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d1fb34762249edcc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d1fb34762249edcc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.infobae.com/espana/agencias/2026/06/28/cuatro-fallecidos-y-seis-heridos-graves-en-un-accidente-de-trafico-en-castellon/",
+      "source_path": "html/ESP/ESP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_72527c676ef201ed",
+    "text": "Original source: https://www.infobae.com/espana/agencias/2026/06/28/cuatro-fallecidos-y-seis-heridos-graves-en-un-accidente-de-trafico-en-castellon/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_86290abcec8b1cf2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_86290abcec8b1cf2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ESP/ESP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_72527c676ef201ed",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_44fd1377d67e1e9e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_44fd1377d67e1e9e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.infobae.com/espana/agencias/2026/06/28/cuatro-fallecidos-y-seis-heridos-graves-en-un-accidente-de-trafico-en-castellon/",
+      "source_path": "html/ESP/ESP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_72527c676ef201ed",
+    "text": "https://www.infobae.com/espana/agencias/2026/06/28/cuatro-fallecidos-y-seis-heridos-graves-en-un-accidente-de-trafico-en-castellon/",
+    "url": null
+  }
+]

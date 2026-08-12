@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "db22797052027c1fbe6e9d1a6749801ac7c6babaeaba281aad63368ad261c5fc",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "el vocero de puerto rico",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-17T07:00:00Z",
+  "publisher": "El Vocero de Puerto Rico",
+  "schema_version": "1.0.0",
+  "source_id": "src_baa484938a7718ce",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-17T07:00:00+00:00",
+    "source_info_hash": "3f5dfb31e9888585",
+    "source_info_path": "html/CRI/CRI-S005/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.elvocero.com/ley-y-orden/menor-de-ocho-a-os-resulta-gravemente-herido-en-accidente-de-tr-nsito-en-a/article_b002fe57-c225-46ee-922d-b60e4e016c8f.html",
+  "timezone": "America/Costa_Rica",
+  "title": "Menor de ocho años resulta gravemente herido en accidente de tránsito en Añasco"
+}

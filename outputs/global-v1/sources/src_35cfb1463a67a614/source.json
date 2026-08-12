@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1b724172e5b194c246aa216e5c2b1b0077e4275c1e04a2ae5d2041a0638301a6",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "elpais.com.co",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-27T07:00:00Z",
+  "publisher": "elpais.com.co",
+  "schema_version": "1.0.0",
+  "source_id": "src_35cfb1463a67a614",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-27T07:00:00+00:00",
+    "source_info_hash": "9ad50ac8e7a29688",
+    "source_info_path": "html/COL/COL-S006/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.elpais.com.co/colombia/accidente-de-transito-en-la-via-al-mar-involucra-a-dos-tractocamiones-y-deja-varios-heridos-esto-se-sabe-de-la-emergencia-2724.html",
+  "timezone": "America/Bogota",
+  "title": "Accidente de tránsito en la vía al mar involucra a dos tractocamiones y deja varios heridos; esto se sabe de la emergencia"
+}

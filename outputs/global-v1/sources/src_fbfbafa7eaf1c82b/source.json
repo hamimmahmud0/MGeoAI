@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0043c1a2da346711ebb277e0805e7c68b12f27ffb7889fdd18ecf912e1961653",
+  "country": "Netherlands",
+  "country_code": "NLD",
+  "dependency_group": "nos",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "local_path": "html/NLD/NLD-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-31T07:00:00Z",
+  "publisher": "NOS",
+  "schema_version": "1.0.0",
+  "source_id": "src_fbfbafa7eaf1c82b",
+  "source_metadata": {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "languages": [
+      "nl",
+      "en"
+    ],
+    "published_at": "2026-07-31T07:00:00+00:00",
+    "source_info_hash": "7bdf923de068d937",
+    "source_info_path": "html/NLD/NLD-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Amsterdam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "auto-ongeluk",
+      "botsing voertuigen",
+      "busongeluk"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://nos.nl/artikel/2625043-drie-gewonden-bij-ongeval-met-vier-voertuigen-op-a12-bij-duitse-grens",
+  "timezone": "Europe/Amsterdam",
+  "title": "Drie gewonden bij ongeval met vier voertuigen op A12 bij Duitse grens"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S001",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "bdnews24",
+  "canonical_url": "https://bdnews24.com/bangladesh/bangladeshis-reportedly-among-15-killed-in-turkey-migrant-bus-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://bdnews24.com/bangladesh/bangladeshis-reportedly-among-15-killed-in-turkey-migrant-bus-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Turkey%22+bus+crash+killed&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6e7a076a5b68160b0573933c82d61de57bd52fb030692c1601b4e270d9da8939",
+      "size_bytes": 1034,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2019-07-18T16:01:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bdnews24.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S001"
+}

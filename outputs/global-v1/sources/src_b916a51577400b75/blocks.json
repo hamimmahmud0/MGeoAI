@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_91a2a138355897aa",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_91a2a138355897aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Indian national jailed, fine in Singapore for causing road accident that killed senior NUS law professor",
+      "source_path": "html/SGP/SGP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b916a51577400b75",
+    "text": "Indian national jailed, fine in Singapore for causing road accident that killed senior NUS law professor",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e48a482af6caa67",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7e48a482af6caa67",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-30T04:31:00+08:00",
+      "source_path": "html/SGP/SGP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b916a51577400b75",
+    "text": "2025-08-30T04:31:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f45438f7444eef55",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f45438f7444eef55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "SINGAPORE: An Indian national was sentenced to two years and a month in jail and fined SGD2,000 on Friday by a Singapore court for killing ...",
+      "source_path": "html/SGP/SGP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b916a51577400b75",
+    "text": "SINGAPORE: An Indian national was sentenced to two years and a month in jail and fined SGD2,000 on Friday by a Singapore court for killing ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_184a4ead53d0f3f6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_184a4ead53d0f3f6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The New Indian Express",
+      "source_path": "html/SGP/SGP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b916a51577400b75",
+    "text": "Publisher: The New Indian Express",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9b943e537906b3dc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9b943e537906b3dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.newindianexpress.com/india/2025/Aug/30/indian-national-jailed-fine-in-singapore-for-causing-road-accident-that-killed-senior-nus-law-professor-2",
+      "source_path": "html/SGP/SGP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b916a51577400b75",
+    "text": "Original source: https://www.newindianexpress.com/india/2025/Aug/30/indian-national-jailed-fine-in-singapore-for-causing-road-accident-that-killed-senior-nus-law-professor-2",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3268156b52012e52",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3268156b52012e52",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SGP/SGP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b916a51577400b75",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e05589eef454f323",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e05589eef454f323",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.newindianexpress.com/india/2025/Aug/30/indian-national-jailed-fine-in-singapore-for-causing-road-accident-that-killed-senior-nus-law-professor-2",
+      "source_path": "html/SGP/SGP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b916a51577400b75",
+    "text": "https://www.newindianexpress.com/india/2025/Aug/30/indian-national-jailed-fine-in-singapore-for-causing-road-accident-that-killed-senior-nus-law-professor-2",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CRI-S001",
+  "country_code": "CRI",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "La Nación",
+  "canonical_url": "https://www.nacion.com/sucesos/autobus-colisiona-con-cinco-vehiculos-en-garabito/G6CIYZLBENHIHDEKL3B4OY623U/story/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nacion.com/sucesos/autobus-colisiona-con-cinco-vehiculos-en-garabito/G6CIYZLBENHIHDEKL3B4OY623U/story/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Garabito+bus+five+vehicles+crash+August+3+2025+Costa+Rica",
+      "label": "Discovery record (web_search_direct_access_check)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ed12a57c3ab561309db30599965d677d9012af970664e847597b67d28f5cfbb6",
+      "size_bytes": 1106,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "accidente vial",
+    "colisión en carretera"
+  ],
+  "timezone": "America/Costa_Rica",
+  "captured_at": "2026-08-12T00:00:00Z",
+  "published_at": "2025-08-03T22:28:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nacion.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CRI-S001"
+}

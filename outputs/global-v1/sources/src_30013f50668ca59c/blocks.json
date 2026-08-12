@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bd0d60a5cfc45d4e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bd0d60a5cfc45d4e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Jovens atletas de basquete têm velório coletivo após acidente de ônibus no Ceará: ‘Consternação’",
+      "source_path": "html/BRA/BRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_30013f50668ca59c",
+    "text": "Jovens atletas de basquete têm velório coletivo após acidente de ônibus no Ceará: ‘Consternação’",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6dd76a980d14dae1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6dd76a980d14dae1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-16T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_30013f50668ca59c",
+    "text": "2026-06-16T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f439c0f9f79793ed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f439c0f9f79793ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Estadão",
+      "source_path": "html/BRA/BRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_30013f50668ca59c",
+    "text": "Publisher: Estadão",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99bfc6cf717de818",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_99bfc6cf717de818",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.estadao.com.br/brasil/juazeiro-do-norte-realiza-velorio-coletivo-de-vitimas-de-acidente-com-equipe-de-basquete-npr/",
+      "source_path": "html/BRA/BRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_30013f50668ca59c",
+    "text": "Original source: https://www.estadao.com.br/brasil/juazeiro-do-norte-realiza-velorio-coletivo-de-vitimas-de-acidente-com-equipe-de-basquete-npr/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e8dcb421b2b758ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e8dcb421b2b758ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_30013f50668ca59c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d187241fc3479626",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d187241fc3479626",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.estadao.com.br/brasil/juazeiro-do-norte-realiza-velorio-coletivo-de-vitimas-de-acidente-com-equipe-de-basquete-npr/",
+      "source_path": "html/BRA/BRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_30013f50668ca59c",
+    "text": "https://www.estadao.com.br/brasil/juazeiro-do-norte-realiza-velorio-coletivo-de-vitimas-de-acidente-com-equipe-de-basquete-npr/",
+    "url": null
+  }
+]

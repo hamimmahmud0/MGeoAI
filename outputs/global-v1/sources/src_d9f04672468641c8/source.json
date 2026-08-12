@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "53cdc6bb40133c3f3c0f4dbbe25c07c9ea71013962953e5de0b78f7214f9eba8",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-12-01T12:51:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_d9f04672468641c8",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2019-12-01T12:51:00+00:00",
+    "source_info_hash": "4a2beafacb577c63",
+    "source_info_path": "html/TUN/TUN-S005/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/africa/194907/bus-accident-kills-22-in-tunisia",
+  "timezone": "Africa/Tunis",
+  "title": "Bus accident kills 22 in Tunisia"
+}

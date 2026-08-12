@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_51c338557f85d3fd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_51c338557f85d3fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un fallecido y dos heridos graves en un accidente de tráfico en Lora del Río.",
+      "source_path": "html/ESP/ESP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_356bf2a744017eea",
+    "text": "Un fallecido y dos heridos graves en un accidente de tráfico en Lora del Río.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3d783bf554521497",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3d783bf554521497",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T09:00:00+02:00",
+      "source_path": "html/ESP/ESP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_356bf2a744017eea",
+    "text": "2026-06-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed9b615ec84dfe80",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ed9b615ec84dfe80",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Campiña Digital",
+      "source_path": "html/ESP/ESP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_356bf2a744017eea",
+    "text": "Publisher: Campiña Digital",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0ba759f3e5108296",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0ba759f3e5108296",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://campinadigital.me/2026/06/13/un-fallecido-y-dos-heridos-graves-en-un-accidente-de-trafico-en-lora-del-rio/",
+      "source_path": "html/ESP/ESP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_356bf2a744017eea",
+    "text": "Original source: https://campinadigital.me/2026/06/13/un-fallecido-y-dos-heridos-graves-en-un-accidente-de-trafico-en-lora-del-rio/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b98de75360ae6ec2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b98de75360ae6ec2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ESP/ESP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_356bf2a744017eea",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7bc48bd5c6c4bd3f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7bc48bd5c6c4bd3f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://campinadigital.me/2026/06/13/un-fallecido-y-dos-heridos-graves-en-un-accidente-de-trafico-en-lora-del-rio/",
+      "source_path": "html/ESP/ESP-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_356bf2a744017eea",
+    "text": "https://campinadigital.me/2026/06/13/un-fallecido-y-dos-heridos-graves-en-un-accidente-de-trafico-en-lora-del-rio/",
+    "url": null
+  }
+]

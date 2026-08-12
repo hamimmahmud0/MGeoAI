@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e11a37d1f488d9b419e2502eb33733e66a01e95bd8cead3b87a1ca955d345d9d",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "mena fn",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-10-22T17:00:00Z",
+  "publisher": "Mena FN",
+  "schema_version": "1.0.0",
+  "source_id": "src_83c667e57f088e42",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2024-10-22T17:00:00+00:00",
+    "source_info_hash": "94aba041bedbb259",
+    "source_info_path": "html/TUN/TUN-S010/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://menafn.com/1108809562/Six-Killed-Three-Injured-In-Truck-Car-Collision-In-Tunisia",
+  "timezone": "Africa/Tunis",
+  "title": "Six Killed, Three Injured In Truck-Car Collision In Tunisia"
+}

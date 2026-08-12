@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NLD-S009",
+  "country_code": "NLD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "112 Nederland",
+  "canonical_url": "https://112nederland.nl/2026/06/03/video/bestuurder-36-bij-dodelijk-ongeval-met-fietser-25-onder-invloed-van-drugs/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://112nederland.nl/2026/06/03/video/bestuurder-36-bij-dodelijk-ongeval-met-fietser-25-onder-invloed-van-drugs/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NL%3Anl&gl=NL&hl=nl-NL&q=%28verkeersongeluk+OR+dodelijk+ongeval+OR+botsing%29+Nederland+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "d445377706cf807e49bab341eea2cca56e1eea9bcf011cd807f6e914c8955253",
+      "size_bytes": 1142,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "traffic_keywords": [
+    "verkeersongeval",
+    "auto-ongeluk",
+    "botsing voertuigen",
+    "busongeluk"
+  ],
+  "timezone": "Europe/Amsterdam",
+  "captured_at": "2026-08-11T21:36:54.672553Z",
+  "published_at": "2026-06-03T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "112nederland.nl",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NLD-S009"
+}

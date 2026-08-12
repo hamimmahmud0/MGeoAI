@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a17f77b9c35218fb",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a17f77b9c35218fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Aparatoso accidente en la carretera Barranquilla - Cartagena dejó 19 heridos y bloqueada la vía al Mar",
+      "source_path": "html/COL/COL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9eed457319e91d25",
+    "text": "Aparatoso accidente en la carretera Barranquilla - Cartagena dejó 19 heridos y bloqueada la vía al Mar",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7587b6195d88a3b6",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7587b6195d88a3b6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-19T02:00:00-05:00",
+      "source_path": "html/COL/COL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9eed457319e91d25",
+    "text": "2026-05-19T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b73662530a181464",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b73662530a181464",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La FM",
+      "source_path": "html/COL/COL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9eed457319e91d25",
+    "text": "Publisher: La FM",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7af27fab7181f51d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7af27fab7181f51d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.lafm.com.co/actualidad/accidente-transito-puerto-colombia-19-heridos-399705",
+      "source_path": "html/COL/COL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9eed457319e91d25",
+    "text": "Original source: https://www.lafm.com.co/actualidad/accidente-transito-puerto-colombia-19-heridos-399705",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a8e6a7e8ee464ac",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3a8e6a7e8ee464ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9eed457319e91d25",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac1e3019aa7643d2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ac1e3019aa7643d2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.lafm.com.co/actualidad/accidente-transito-puerto-colombia-19-heridos-399705",
+      "source_path": "html/COL/COL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9eed457319e91d25",
+    "text": "https://www.lafm.com.co/actualidad/accidente-transito-puerto-colombia-19-heridos-399705",
+    "url": null
+  }
+]

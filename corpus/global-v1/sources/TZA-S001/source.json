@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TZA-S001",
+  "country_code": "TZA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Pakistan Today",
+  "canonical_url": "https://www.pakistantoday.com.pk/2025/06/29/bus-crash-blaze-kills-38-in-tanzania",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.pakistantoday.com.pk/2025/06/29/bus-crash-blaze-kills-38-in-tanzania",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Tanzania%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "39b8bb67a9de1aa75e818bd6a0eb0278d760cee3b906702042cfe4fb039bec50",
+      "size_bytes": 920,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "traffic_keywords": [
+    "ajali barabarani",
+    "ajali ya basi",
+    "road accident",
+    "traffic crash"
+  ],
+  "timezone": "Africa/Dar_es_Salaam",
+  "captured_at": "2026-08-11T21:56:10.176606Z",
+  "published_at": "2025-06-29T10:55:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "pakistantoday.com.pk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TZA-S001"
+}

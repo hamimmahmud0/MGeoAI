@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6ee54ba368de36d742935e32bc1c29e1ef02e84ffc15820187f51515f05cd9f9",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "bolavip.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-01T07:00:00Z",
+  "publisher": "bolavip.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_e392b8507963e16b",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "source_info_hash": "fd97ea4fbff7446c",
+    "source_info_path": "html/CHL/CHL-S001/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bolavip.com/cl/udechile/urgente-futbolista-de-universidad-de-chile-protagoniza-accidente-de-transito",
+  "timezone": "America/Santiago",
+  "title": "URGENTE: Futbolista de Universidad de Chile protagoniza accidente de tránsito"
+}

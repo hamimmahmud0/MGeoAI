@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_09942868306b5b3e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_09942868306b5b3e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Singaporean woman killed in car accident in Malaysia",
+      "source_path": "html/MYS/MYS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_452bba40aaa53964",
+    "text": "Singaporean woman killed in car accident in Malaysia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_91de99a72cfe1008",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_91de99a72cfe1008",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-06-30T10:05:00+08:00",
+      "source_path": "html/MYS/MYS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_452bba40aaa53964",
+    "text": "2022-06-30T10:05:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f169a21d5c7d86bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f169a21d5c7d86bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "SINGAPORE - A Singaporean woman on a trip in Malaysia was killed on Wednesday (June 29) after the car she was in skidded and crashed. ...",
+      "source_path": "html/MYS/MYS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_452bba40aaa53964",
+    "text": "SINGAPORE - A Singaporean woman on a trip in Malaysia was killed on Wednesday (June 29) after the car she was in skidded and crashed. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cca9bd4a2da1b054",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cca9bd4a2da1b054",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Straits Times",
+      "source_path": "html/MYS/MYS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_452bba40aaa53964",
+    "text": "Publisher: The Straits Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b3afc250ef86cc98",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b3afc250ef86cc98",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.straitstimes.com/asia/se-asia/singaporean-woman-killed-in-car-accident-in-malaysia",
+      "source_path": "html/MYS/MYS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_452bba40aaa53964",
+    "text": "Original source: https://www.straitstimes.com/asia/se-asia/singaporean-woman-killed-in-car-accident-in-malaysia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6054afa828459e58",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6054afa828459e58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_452bba40aaa53964",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95fab22e50a38a3a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95fab22e50a38a3a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.straitstimes.com/asia/se-asia/singaporean-woman-killed-in-car-accident-in-malaysia",
+      "source_path": "html/MYS/MYS-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_452bba40aaa53964",
+    "text": "https://www.straitstimes.com/asia/se-asia/singaporean-woman-killed-in-car-accident-in-malaysia",
+    "url": null
+  }
+]

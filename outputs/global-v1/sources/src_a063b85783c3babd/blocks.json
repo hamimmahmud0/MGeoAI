@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d9791bf2a800c19a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d9791bf2a800c19a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Incidente stradale nell'Alessandrino, un morto e un ferito",
+      "source_path": "html/ITA/ITA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a063b85783c3babd",
+    "text": "Incidente stradale nell'Alessandrino, un morto e un ferito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33417c8b7e939025",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_33417c8b7e939025",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-05T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a063b85783c3babd",
+    "text": "2026-07-05T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_52330edaf0414eaf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_52330edaf0414eaf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Giornale di Brescia",
+      "source_path": "html/ITA/ITA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a063b85783c3babd",
+    "text": "Publisher: Giornale di Brescia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2737f066e34f546a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2737f066e34f546a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.giornaledibrescia.it/italia-e-estero/incidente-stradale-nellalessandrino-un-morto-e-un-ferito-fnlusou0",
+      "source_path": "html/ITA/ITA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a063b85783c3babd",
+    "text": "Original source: https://www.giornaledibrescia.it/italia-e-estero/incidente-stradale-nellalessandrino-un-morto-e-un-ferito-fnlusou0",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5cd774a1147f9160",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5cd774a1147f9160",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a063b85783c3babd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fc8926845e217784",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fc8926845e217784",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.giornaledibrescia.it/italia-e-estero/incidente-stradale-nellalessandrino-un-morto-e-un-ferito-fnlusou0",
+      "source_path": "html/ITA/ITA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a063b85783c3babd",
+    "text": "https://www.giornaledibrescia.it/italia-e-estero/incidente-stradale-nellalessandrino-un-morto-e-un-ferito-fnlusou0",
+    "url": null
+  }
+]

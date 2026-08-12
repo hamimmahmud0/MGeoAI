@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "dc7a363721ead3db63e672038b463361ab7638675bbb44b431630ae68709977d",
+  "country": "South Africa",
+  "country_code": "ZAF",
+  "dependency_group": "xinhua",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "local_path": "html/ZAF/ZAF-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-06T07:00:00Z",
+  "publisher": "Xinhua",
+  "schema_version": "1.0.0",
+  "source_id": "src_3148ff8825963de1",
+  "source_metadata": {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "languages": [
+      "en",
+      "zu",
+      "xh",
+      "af"
+    ],
+    "published_at": "2026-04-06T07:00:00+00:00",
+    "source_info_hash": "904daa5e2ee71d63",
+    "source_info_path": "html/ZAF/ZAF-S009/SOURCE_INFO.md",
+    "timezone": "Africa/Johannesburg",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "taxi crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://english.news.cn/20260406/cfa56e2c213a4bedb24d5919481505af/c.html",
+  "timezone": "Africa/Johannesburg",
+  "title": "7 killed in road accident in South Africa's Eastern Cape"
+}

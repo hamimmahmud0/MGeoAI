@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2111de03eaaa43314dd48eadf7c20dfbef9616891c286bacd59a30409e3fd2aa",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "primicias",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-13T07:00:00Z",
+  "publisher": "Primicias",
+  "schema_version": "1.0.0",
+  "source_id": "src_cec2633594975d83",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-13T07:00:00+00:00",
+    "source_info_hash": "0c9e99552c4439d9",
+    "source_info_path": "html/ECU/ECU-S001/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.primicias.ec/sucesos/fallecido-heridos-accidente-transito-via-puyo-banos-ecuador-125314/",
+  "timezone": "America/Guayaquil",
+  "title": "Un fallecido y cuatro heridos deja accidente de tránsito en la vía Puyo-Baños"
+}

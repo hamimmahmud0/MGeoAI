@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2e0e7d1d925914b50d7e789ec7185d9d65bc058a854ac998fc16331d6f529e8a",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "yahoo sport australia",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-06-16T22:34:00Z",
+  "publisher": "Yahoo Sport Australia",
+  "schema_version": "1.0.0",
+  "source_id": "src_6e2c660ad9f17dc9",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2019-06-16T22:34:00+00:00",
+    "source_info_hash": "0d15a2fa6faf86e6",
+    "source_info_path": "html/AUS/AUS-S008/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://au.sports.yahoo.com/horrific-footage-shows-motorcycle-flying-after-head-on-crash-053450538.html",
+  "timezone": "Australia/Sydney",
+  "title": "Horrific footage shows motorcyclist flying through air after head-on crash"
+}

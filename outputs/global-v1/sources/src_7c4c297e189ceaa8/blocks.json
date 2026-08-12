@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c710e1533e9c806d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c710e1533e9c806d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "11 killed in Indonesia road accident",
+      "source_path": "html/IDN/IDN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c4c297e189ceaa8",
+    "text": "11 killed in Indonesia road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c36550e420596d23",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c36550e420596d23",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-05-12T16:25:00+07:00",
+      "source_path": "html/IDN/IDN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c4c297e189ceaa8",
+    "text": "2024-05-12T16:25:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48130ed906416d58",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48130ed906416d58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "BANDUNG, Indonesia – A bus full of high school students crashed into a motor vehicle and motor bikes after its brakes reportedly failed in Indonesia's ...",
+      "source_path": "html/IDN/IDN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c4c297e189ceaa8",
+    "text": "BANDUNG, Indonesia – A bus full of high school students crashed into a motor vehicle and motor bikes after its brakes reportedly failed in Indonesia's ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7399bd2b31a97c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a7399bd2b31a97c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: manilatimes",
+      "source_path": "html/IDN/IDN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c4c297e189ceaa8",
+    "text": "Publisher: manilatimes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a8993cdb4c4173d5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a8993cdb4c4173d5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.manilatimes.net/2024/05/13/world/asia-oceania/11-killed-in-indonesia-road-accident/1945949",
+      "source_path": "html/IDN/IDN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c4c297e189ceaa8",
+    "text": "Original source: https://www.manilatimes.net/2024/05/13/world/asia-oceania/11-killed-in-indonesia-road-accident/1945949",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5806243e26d24b6d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5806243e26d24b6d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c4c297e189ceaa8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b626ff53f4b212ca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b626ff53f4b212ca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.manilatimes.net/2024/05/13/world/asia-oceania/11-killed-in-indonesia-road-accident/1945949",
+      "source_path": "html/IDN/IDN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c4c297e189ceaa8",
+    "text": "https://www.manilatimes.net/2024/05/13/world/asia-oceania/11-killed-in-indonesia-road-accident/1945949",
+    "url": null
+  }
+]

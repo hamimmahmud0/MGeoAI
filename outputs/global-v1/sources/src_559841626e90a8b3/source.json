@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "837982e43ba143d013548e219cd5ce059ce56f4de2daee462faf856363d4675f",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "kaernten.orf.at",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-16T07:00:00Z",
+  "publisher": "kaernten.ORF.at",
+  "schema_version": "1.0.0",
+  "source_id": "src_559841626e90a8b3",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-05-16T07:00:00+00:00",
+    "source_info_hash": "b41722e51a9b14e6",
+    "source_info_path": "html/DEU/DEU-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://kaernten.orf.at/stories/3354458/",
+  "timezone": "Europe/Berlin",
+  "title": "Vier Verletzte bei Verkehrsunfall"
+}

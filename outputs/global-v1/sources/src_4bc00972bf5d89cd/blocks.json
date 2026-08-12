@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ee3bdcd514420b78",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ee3bdcd514420b78",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "“We hebben geen ziel meer”: papa, mama en zusje van overleden Arthur (12) in zak en as na ongeval Buggenhout",
+      "source_path": "html/BEL/BEL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4bc00972bf5d89cd",
+    "text": "“We hebben geen ziel meer”: papa, mama en zusje van overleden Arthur (12) in zak en as na ongeval Buggenhout",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3230fd193fa377d3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3230fd193fa377d3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-29T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4bc00972bf5d89cd",
+    "text": "2026-05-29T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b367571b8b02c5c3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b367571b8b02c5c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Het is schitterend weer in Bornem op donderdagmiddag, maar in de achtertuin van het gezin Mherian voelt de zon vooral drukkend aan.",
+      "source_path": "html/BEL/BEL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4bc00972bf5d89cd",
+    "text": "Het is schitterend weer in Bornem op donderdagmiddag, maar in de achtertuin van het gezin Mherian voelt de zon vooral drukkend aan.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_208c2968ae63ad81",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_208c2968ae63ad81",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: HBVL",
+      "source_path": "html/BEL/BEL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4bc00972bf5d89cd",
+    "text": "Publisher: HBVL",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_372d50f9dc3e9451",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_372d50f9dc3e9451",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hbvl.be/regio/antwerpen/we-hebben-geen-ziel-meer-papa-mama-en-zusje-van-overleden-arthur-12-in-zak-en-as-na-ongeval-buggenhout/153911753.html",
+      "source_path": "html/BEL/BEL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4bc00972bf5d89cd",
+    "text": "Original source: https://www.hbvl.be/regio/antwerpen/we-hebben-geen-ziel-meer-papa-mama-en-zusje-van-overleden-arthur-12-in-zak-en-as-na-ongeval-buggenhout/153911753.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_85b217bf13b4fa58",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_85b217bf13b4fa58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4bc00972bf5d89cd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fdb7e24ea9f2b776",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fdb7e24ea9f2b776",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hbvl.be/regio/antwerpen/we-hebben-geen-ziel-meer-papa-mama-en-zusje-van-overleden-arthur-12-in-zak-en-as-na-ongeval-buggenhout/153911753.html",
+      "source_path": "html/BEL/BEL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4bc00972bf5d89cd",
+    "text": "https://www.hbvl.be/regio/antwerpen/we-hebben-geen-ziel-meer-papa-mama-en-zusje-van-overleden-arthur-12-in-zak-en-as-na-ongeval-buggenhout/153911753.html",
+    "url": null
+  }
+]

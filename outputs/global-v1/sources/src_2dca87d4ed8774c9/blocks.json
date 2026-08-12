@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_90faa5fd9692669f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_90faa5fd9692669f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Driver of Bus Involved in Collision with Jirongo's Car Narrates Moments Before Crash",
+      "source_path": "html/KEN/KEN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2dca87d4ed8774c9",
+    "text": "Driver of Bus Involved in Collision with Jirongo's Car Narrates Moments Before Crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cb0d2c2a6f13795e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cb0d2c2a6f13795e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-13T11:00:00+03:00",
+      "source_path": "html/KEN/KEN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2dca87d4ed8774c9",
+    "text": "2025-12-13T11:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9e794e290d22930e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9e794e290d22930e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The driver of the 65-seater bus involved in a head-on collision with former Lugari MP Cyrus Jirongo's vehicle has spoken, revealing the circumstances that led ...",
+      "source_path": "html/KEN/KEN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2dca87d4ed8774c9",
+    "text": "The driver of the 65-seater bus involved in a head-on collision with former Lugari MP Cyrus Jirongo's vehicle has spoken, revealing the circumstances that led ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d888f379c8891ea7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d888f379c8891ea7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Kenyans.co.ke",
+      "source_path": "html/KEN/KEN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2dca87d4ed8774c9",
+    "text": "Publisher: Kenyans.co.ke",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4dfa71ffa992a8c9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4dfa71ffa992a8c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.kenyans.co.ke/news/119031-driver-ill-fated-bus-head-crash-killed-cyrus-jirongo-speaks",
+      "source_path": "html/KEN/KEN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2dca87d4ed8774c9",
+    "text": "Original source: https://www.kenyans.co.ke/news/119031-driver-ill-fated-bus-head-crash-killed-cyrus-jirongo-speaks",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f97ae699029cb958",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f97ae699029cb958",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2dca87d4ed8774c9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57c301af8e8a9bc8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_57c301af8e8a9bc8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.kenyans.co.ke/news/119031-driver-ill-fated-bus-head-crash-killed-cyrus-jirongo-speaks",
+      "source_path": "html/KEN/KEN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2dca87d4ed8774c9",
+    "text": "https://www.kenyans.co.ke/news/119031-driver-ill-fated-bus-head-crash-killed-cyrus-jirongo-speaks",
+    "url": null
+  }
+]

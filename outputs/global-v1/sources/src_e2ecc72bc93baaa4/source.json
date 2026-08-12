@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "cf871ab748ec59d80039608459066bf7b6798d7a16413d5342e485eb6ad77641",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "cooperativa",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-01T07:00:00Z",
+  "publisher": "Cooperativa",
+  "schema_version": "1.0.0",
+  "source_id": "src_e2ecc72bc93baaa4",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "source_info_hash": "3c358fb725aae690",
+    "source_info_path": "html/CHL/CHL-S006/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.cooperativa.cl/noticias/deportes/futbol/universidad-de-chile/octavio-rivero-sufrio-accidente-de-transito-en-la-capital/2026-06-01/143428.html",
+  "timezone": "America/Santiago",
+  "title": "Octavio Rivero sufrió accidente de tránsito en la capital"
+}

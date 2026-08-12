@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0ed64d15d0386af5f7fffdd6313315059b92a71bee313719031d69c5328b54e7",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "diamante online",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-15T07:00:00Z",
+  "publisher": "Diamante Online",
+  "schema_version": "1.0.0",
+  "source_id": "src_724ebd059af4aa0e",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "source_info_hash": "b1e8e960a6f60de2",
+    "source_info_path": "html/BRA/BRA-S006/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.diamanteonline.com.br/noticia/brasil/2026/06/15/sete-membros-de-time-de-basquete-morrem-em-acidente-de-onibus-no-ceara-dezenas-ficam-feridos/49856.html",
+  "timezone": "America/Sao_Paulo",
+  "title": "Sete membros de time de basquete morrem em acidente de ônibus no Ceará; dezenas ficam feridos"
+}

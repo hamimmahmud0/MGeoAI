@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "BGD",
+  "name": "Bangladesh",
+  "languages": [
+    "bn",
+    "en"
+  ],
+  "timezones": [
+    "Asia/Dhaka"
+  ],
+  "target_sources": 12
+}

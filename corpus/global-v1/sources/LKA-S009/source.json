@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "LKA-S009",
+  "country_code": "LKA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Hiru News",
+  "canonical_url": "https://www.hirunews.lk/goldfmnews/481068/18-injured-in-bus-collision-at-kegalle",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.hirunews.lk/goldfmnews/481068/18-injured-in-bus-collision-at-kegalle",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Sri+Lanka%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "691f90aedadbb82630d493e61bc4766d94378967aeb7c21e2c61ad546067b9e2",
+      "size_bytes": 939,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "මාර්ග අනතුර",
+    "சாலை விபத்து",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Colombo",
+  "captured_at": "2026-08-12T03:55:02.408495+06:00",
+  "published_at": "2026-08-03T01:12:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "hirunews.lk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-LKA-S009"
+}

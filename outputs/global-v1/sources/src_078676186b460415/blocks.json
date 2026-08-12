@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3294448e317f1f3b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3294448e317f1f3b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "India bus crash",
+      "source_path": "html/IND/IND-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_078676186b460415",
+    "text": "India bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f86e5b7b2d4311a3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f86e5b7b2d4311a3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2017-07-19T22:30:00+05:30",
+      "source_path": "html/IND/IND-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_078676186b460415",
+    "text": "2017-07-19T22:30:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_11bf313b681eba9a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_11bf313b681eba9a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 28 people are killed after a bus plunges into a deep gorge in a Himalayan region of northern India popular with tourists, police ...",
+      "source_path": "html/IND/IND-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_078676186b460415",
+    "text": "At least 28 people are killed after a bus plunges into a deep gorge in a Himalayan region of northern India popular with tourists, police ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_68df8c2fa4dd9e3a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_68df8c2fa4dd9e3a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Daily Star",
+      "source_path": "html/IND/IND-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_078676186b460415",
+    "text": "Publisher: The Daily Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_be55f37d36134c09",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_be55f37d36134c09",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thedailystar.net/tags/india-bus-crash",
+      "source_path": "html/IND/IND-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_078676186b460415",
+    "text": "Original source: https://www.thedailystar.net/tags/india-bus-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_187ecafdd3f25319",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_187ecafdd3f25319",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_078676186b460415",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_64b40bf4e6ec9e54",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_64b40bf4e6ec9e54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thedailystar.net/tags/india-bus-crash",
+      "source_path": "html/IND/IND-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_078676186b460415",
+    "text": "https://www.thedailystar.net/tags/india-bus-crash",
+    "url": null
+  }
+]

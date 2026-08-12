@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "582a29759d7d2b41236ce5b4878c0e3b84a65a4d53aec1b35d6922519a6e6c71",
+  "country": "Sri Lanka",
+  "country_code": "LKA",
+  "dependency_group": "the daily mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/LKA/LKA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2017-06-23T04:23:00Z",
+  "publisher": "The Daily Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_1c468aaf73c184f3",
+  "source_metadata": {
+    "country": "Sri Lanka",
+    "country_code": "LKA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2017-06-23T04:23:00+00:00",
+    "source_info_hash": "c4e0677e84c3482b",
+    "source_info_path": "html/LKA/LKA-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Colombo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "මාර්ග අනතුර",
+      "சாலை விபத்து",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dailymirror.lk/Breaking-News/Heavy-traffic-on-Colombo-Kandy-road-due-to-accident/108-131492",
+  "timezone": "Asia/Colombo",
+  "title": "Heavy traffic on Colombo- Kandy road due to accident"
+}

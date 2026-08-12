@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7e0d9310778421d639e0a6516f70c447ef0bcbfa25a0e3c7c5450cc1f547c19e",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "examedia.com.ar",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/MEX/MEX-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-12T07:00:00Z",
+  "publisher": "examedia.com.ar",
+  "schema_version": "1.0.0",
+  "source_id": "src_c5d6520968135f2f",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-12T07:00:00+00:00",
+    "source_info_hash": "b00d348304f4a830",
+    "source_info_path": "html/MEX/MEX-S007/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.examedia.com.ar/portada/post/87471250",
+  "timezone": "America/Mexico_City",
+  "title": "Accidente de tránsito en el occidente de México deja 9 fallecidos y 10 heridos, cuatro de ellos estadounidenses"
+}

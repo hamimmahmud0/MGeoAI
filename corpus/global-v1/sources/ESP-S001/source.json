@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ESP-S001",
+  "country_code": "ESP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "El Confidencial",
+  "canonical_url": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-06-28/accidente-trafico-castellon-fallecidos-1tps_4379936/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-06-28/accidente-trafico-castellon-fallecidos-1tps_4379936/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=ES%3Aes&gl=ES&hl=es&q=%28%22accidente+de+tr%C3%A1fico%22+OR+%22accidente+de+carretera%22+OR+%22choque+de+veh%C3%ADculos%22+OR+%22colisi%C3%B3n+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Espa%C3%B1a%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "a1cec981515bead675dbf1bb31b4b2625e10969f338cd0183d629cf3a7144bd1",
+      "size_bytes": 1081,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tráfico",
+    "accidente de carretera",
+    "choque de vehículos",
+    "colisión vial"
+  ],
+  "timezone": "Europe/Madrid",
+  "captured_at": "2026-08-11T22:00:18Z",
+  "published_at": "2026-06-29T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "elconfidencial.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ESP-S001"
+}

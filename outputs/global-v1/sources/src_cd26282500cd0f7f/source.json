@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "70b7ecbda8fab5b691babac3814b7ec5f07dd4d303283758f7a19b9c3f6d365a",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "hln",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-18T07:00:00Z",
+  "publisher": "HLN",
+  "schema_version": "1.0.0",
+  "source_id": "src_cd26282500cd0f7f",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-06-18T07:00:00+00:00",
+    "source_info_hash": "de804ed60b5d81d9",
+    "source_info_path": "html/BEL/BEL-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hln.be/boom/a12-ter-hoogte-van-boom-volledig-afgesloten-richting-brussel-na-ongeval~a6de1a97/",
+  "timezone": "Europe/Brussels",
+  "title": "A12 ter hoogte van Boom volledig afgesloten richting Brussel na ongeval"
+}

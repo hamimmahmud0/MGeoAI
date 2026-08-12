@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_208e092c3d1cc869",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_208e092c3d1cc869",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dubai: Motorcyclist dies on Sheikh Zayed Road after crashing into truck",
+      "source_path": "html/ARE/ARE-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_050e67d4f79d43b2",
+    "text": "Dubai: Motorcyclist dies on Sheikh Zayed Road after crashing into truck",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bcf61bf7ce4c374f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_bcf61bf7ce4c374f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-10T15:25:00+04:00",
+      "source_path": "html/ARE/ARE-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_050e67d4f79d43b2",
+    "text": "2025-09-10T15:25:00+04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e649e39096a1096a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e649e39096a1096a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A rider died after crashing into a stationary truck near Arabian Ranches Bridge on Sheikh Zayed Road.",
+      "source_path": "html/ARE/ARE-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_050e67d4f79d43b2",
+    "text": "A rider died after crashing into a stationary truck near Arabian Ranches Bridge on Sheikh Zayed Road.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40b6d952aaef625e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_40b6d952aaef625e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Khaleej Times",
+      "source_path": "html/ARE/ARE-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_050e67d4f79d43b2",
+    "text": "Publisher: Khaleej Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_96423a58d390a200",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_96423a58d390a200",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.khaleejtimes.com/uae/dubai-motorcyclist-dies?amp=1",
+      "source_path": "html/ARE/ARE-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_050e67d4f79d43b2",
+    "text": "Original source: https://www.khaleejtimes.com/uae/dubai-motorcyclist-dies?amp=1",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_082f495751371cde",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_082f495751371cde",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARE/ARE-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_050e67d4f79d43b2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eef3c64e5e340cfc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eef3c64e5e340cfc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.khaleejtimes.com/uae/dubai-motorcyclist-dies?amp=1",
+      "source_path": "html/ARE/ARE-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_050e67d4f79d43b2",
+    "text": "https://www.khaleejtimes.com/uae/dubai-motorcyclist-dies?amp=1",
+    "url": null
+  }
+]

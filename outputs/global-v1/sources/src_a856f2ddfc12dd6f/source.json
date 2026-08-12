@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b29687d074ab57a62719ae75cbfecd18a18ab44c85df8355420e6c4933f68620",
+  "country": "Indonesia",
+  "country_code": "IDN",
+  "dependency_group": "scmp.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IDN/IDN-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-05-16T05:00:00Z",
+  "publisher": "scmp.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_a856f2ddfc12dd6f",
+  "source_metadata": {
+    "country": "Indonesia",
+    "country_code": "IDN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-05-16T05:00:00+00:00",
+    "source_info_hash": "ee21e903d9fb9957",
+    "source_info_path": "html/IDN/IDN-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Jakarta",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kecelakaan lalu lintas",
+      "tabrakan kendaraan",
+      "kecelakaan bus",
+      "kecelakaan jalan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.scmp.com/week-asia/people/article/3262828/indonesias-woeful-road-safety-under-spotlight-after-fatal-bus-crash-exposes-negligence",
+  "timezone": "Asia/Jakarta",
+  "title": "Indonesia’s woeful road safety under spotlight after fatal bus crash exposes negligence"
+}

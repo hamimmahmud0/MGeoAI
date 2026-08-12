@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "24e63f6c95a60ff3bdc46d45b3441449dd8976c3160c6dff324fd9805d9999e9",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "xinhuanet",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/JPN/JPN-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-02T15:49:00Z",
+  "publisher": "Xinhuanet",
+  "schema_version": "1.0.0",
+  "source_id": "src_d8a2bd6d31a62324",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-02T15:49:00+00:00",
+    "source_info_hash": "24836f10bf0847d2",
+    "source_info_path": "html/JPN/JPN-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "http://www.chinaview.cn/20260802/5dcf141ddfd240cf81151540d5ce997d/c.html",
+  "timezone": "Asia/Tokyo",
+  "title": "1 killed, 2 critically injured in head-on vehicle collision near Tokyo"
+}

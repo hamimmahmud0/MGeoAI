@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S009",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NDTV",
+  "canonical_url": "https://www.ndtv.com/video/thailand-train-crash-at-least-8-dead-25-injured-in-cargo-train-bus-crash-in-thailand-1100095",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.ndtv.com/video/thailand-train-crash-at-least-8-dead-25-injured-in-cargo-train-bus-crash-in-thailand-1100095",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "8b45d81e90643ebf2418a85a766a2bd1c6babe0f12dec6db3259fb524f961f9e",
+      "size_bytes": 1153,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:51.199416+06:00",
+  "published_at": "2026-05-15T18:04:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ndtv.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S009"
+}

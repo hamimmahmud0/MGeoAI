@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ee5a27ad8c3f626abe96c0aba5cf9cd66bfd4b206c3bfd927f34c2c67c493745",
+  "country": "Nepal",
+  "country_code": "NPL",
+  "dependency_group": "the new york times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NPL/NPL-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-08-24T03:24:00Z",
+  "publisher": "The New York Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_ab3b037cac177f53",
+  "source_metadata": {
+    "country": "Nepal",
+    "country_code": "NPL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-08-24T03:24:00+00:00",
+    "source_info_hash": "2e062753b8ac8395",
+    "source_info_path": "html/NPL/NPL-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Kathmandu",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "सडक दुर्घटना",
+      "बस दुर्घटना",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nytimes.com/2024/08/24/world/asia/nepal-deadly-bus-crash.html",
+  "timezone": "Asia/Kathmandu",
+  "title": "Busload of Indian Tourists in Nepal Plunges Into River, Killing at Least 27"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_27517f37662dd917",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_27517f37662dd917",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "1 killed, 2 critically injured in head-on vehicle collision near Tokyo",
+      "source_path": "html/JPN/JPN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d8a2bd6d31a62324",
+    "text": "1 killed, 2 critically injured in head-on vehicle collision near Tokyo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c38336efdec4e86b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c38336efdec4e86b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T00:49:00+09:00",
+      "source_path": "html/JPN/JPN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d8a2bd6d31a62324",
+    "text": "2026-08-03T00:49:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f5cf567f22485770",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f5cf567f22485770",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A head-on collision between two passenger vehicles in Japan's Chiba Prefecture, east of Tokyo, on Sunday left one person dead, two others critically injured, and ...",
+      "source_path": "html/JPN/JPN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d8a2bd6d31a62324",
+    "text": "A head-on collision between two passenger vehicles in Japan's Chiba Prefecture, east of Tokyo, on Sunday left one person dead, two others critically injured, and ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7f81d744e4508568",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7f81d744e4508568",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Xinhuanet",
+      "source_path": "html/JPN/JPN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d8a2bd6d31a62324",
+    "text": "Publisher: Xinhuanet",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fce0ff6b85dd0397",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fce0ff6b85dd0397",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: http://www.chinaview.cn/20260802/5dcf141ddfd240cf81151540d5ce997d/c.html",
+      "source_path": "html/JPN/JPN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d8a2bd6d31a62324",
+    "text": "Original source: http://www.chinaview.cn/20260802/5dcf141ddfd240cf81151540d5ce997d/c.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9fe713d9935b772",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9fe713d9935b772",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d8a2bd6d31a62324",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d709948858afc5c5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d709948858afc5c5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "http://www.chinaview.cn/20260802/5dcf141ddfd240cf81151540d5ce997d/c.html",
+      "source_path": "html/JPN/JPN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d8a2bd6d31a62324",
+    "text": "http://www.chinaview.cn/20260802/5dcf141ddfd240cf81151540d5ce997d/c.html",
+    "url": null
+  }
+]

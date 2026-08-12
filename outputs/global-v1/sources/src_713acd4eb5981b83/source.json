@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "96ec38c71bb56479ce74900dad8bce38e998aa19d2339d14b1114cf2a81ac299",
+  "country": "Morocco",
+  "country_code": "MAR",
+  "dependency_group": "digital journal",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "local_path": "html/MAR/MAR-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2015-04-10T09:10:00Z",
+  "publisher": "Digital Journal",
+  "schema_version": "1.0.0",
+  "source_id": "src_713acd4eb5981b83",
+  "source_metadata": {
+    "country": "Morocco",
+    "country_code": "MAR",
+    "languages": [
+      "ar",
+      "fr",
+      "ber"
+    ],
+    "published_at": "2015-04-10T09:10:00+00:00",
+    "source_info_hash": "547199874bdde04b",
+    "source_info_path": "html/MAR/MAR-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Casablanca",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "تصادم مركبات",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.digitaljournal.com/article/morocco-bus-crash-kills-33-mostly-school-athletes/",
+  "timezone": "Africa/Casablanca",
+  "title": "Morocco bus crash kills 33, mostly school athletes"
+}

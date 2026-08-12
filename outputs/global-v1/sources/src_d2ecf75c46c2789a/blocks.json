@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6fe8f060f9c60e2f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6fe8f060f9c60e2f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "UPDATED: Thirteen pupils killed in Vaal scholar transport vehicle crash",
+      "source_path": "html/ZAF/ZAF-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2ecf75c46c2789a",
+    "text": "UPDATED: Thirteen pupils killed in Vaal scholar transport vehicle crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b92c4e130cb741a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8b92c4e130cb741a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-19T10:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2ecf75c46c2789a",
+    "text": "2026-01-19T10:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e5261c9c02babe2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2e5261c9c02babe2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Thirteen pupils died on Monday in a crash involving a scholar transport vehicle in Vanderbijlpark, south of Johannesburg.",
+      "source_path": "html/ZAF/ZAF-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2ecf75c46c2789a",
+    "text": "Thirteen pupils died on Monday in a crash involving a scholar transport vehicle in Vanderbijlpark, south of Johannesburg.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9bb40ddbd60d2f77",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9bb40ddbd60d2f77",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Mail & Guardian",
+      "source_path": "html/ZAF/ZAF-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2ecf75c46c2789a",
+    "text": "Publisher: Mail & Guardian",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48dbe93be44266ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48dbe93be44266ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://mg.co.za/news/south-africa/2026-01-19-updated-thirteen-pupils-killed-in-vaal-scholar-transport-vehicle-crash/",
+      "source_path": "html/ZAF/ZAF-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2ecf75c46c2789a",
+    "text": "Original source: https://mg.co.za/news/south-africa/2026-01-19-updated-thirteen-pupils-killed-in-vaal-scholar-transport-vehicle-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17041ba25cb58bc2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17041ba25cb58bc2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2ecf75c46c2789a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1451f699f6d0d2ca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1451f699f6d0d2ca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://mg.co.za/news/south-africa/2026-01-19-updated-thirteen-pupils-killed-in-vaal-scholar-transport-vehicle-crash/",
+      "source_path": "html/ZAF/ZAF-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2ecf75c46c2789a",
+    "text": "https://mg.co.za/news/south-africa/2026-01-19-updated-thirteen-pupils-killed-in-vaal-scholar-transport-vehicle-crash/",
+    "url": null
+  }
+]

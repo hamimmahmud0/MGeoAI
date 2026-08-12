@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_72199b5b12a91678",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_72199b5b12a91678",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Philippines: Ten killed, 37 injured as bus rams vehicles at toll gate",
+      "source_path": "html/PHL/PHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fcc8e672d73943c6",
+    "text": "Philippines: Ten killed, 37 injured as bus rams vehicles at toll gate",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7bb4283f057490c3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7bb4283f057490c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-01T18:02:00+08:00",
+      "source_path": "html/PHL/PHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fcc8e672d73943c6",
+    "text": "2025-05-01T18:02:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ec4f354f328ed92b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ec4f354f328ed92b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Ten people were killed and another 37 injured when a bus ploughed into vehicles waiting at a toll gate in the northern Philippines on Thursday ...",
+      "source_path": "html/PHL/PHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fcc8e672d73943c6",
+    "text": "Ten people were killed and another 37 injured when a bus ploughed into vehicles waiting at a toll gate in the northern Philippines on Thursday ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_658af994ecbdd76d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_658af994ecbdd76d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Khaleej Times",
+      "source_path": "html/PHL/PHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fcc8e672d73943c6",
+    "text": "Publisher: Khaleej Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98bd0916cb264ba6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98bd0916cb264ba6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.khaleejtimes.com/world/asia/philippines-bus-accident-toll-deaths-injuries-labour-day",
+      "source_path": "html/PHL/PHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fcc8e672d73943c6",
+    "text": "Original source: https://www.khaleejtimes.com/world/asia/philippines-bus-accident-toll-deaths-injuries-labour-day",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_247c203a101c729d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_247c203a101c729d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fcc8e672d73943c6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d0c029f7be18b296",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d0c029f7be18b296",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.khaleejtimes.com/world/asia/philippines-bus-accident-toll-deaths-injuries-labour-day",
+      "source_path": "html/PHL/PHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fcc8e672d73943c6",
+    "text": "https://www.khaleejtimes.com/world/asia/philippines-bus-accident-toll-deaths-injuries-labour-day",
+    "url": null
+  }
+]

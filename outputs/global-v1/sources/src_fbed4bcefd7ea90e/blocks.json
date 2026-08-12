@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_652c6a07e25cb3b1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_652c6a07e25cb3b1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Crack de Universidad de Chile protagoniza accidente de tránsito",
+      "source_path": "html/CHL/CHL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbed4bcefd7ea90e",
+    "text": "Crack de Universidad de Chile protagoniza accidente de tránsito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b70dbfa70da07da",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6b70dbfa70da07da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-01T03:00:00-04:00",
+      "source_path": "html/CHL/CHL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbed4bcefd7ea90e",
+    "text": "2026-06-01T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d9864fe448b9266b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d9864fe448b9266b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Magia Azul",
+      "source_path": "html/CHL/CHL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbed4bcefd7ea90e",
+    "text": "Publisher: La Magia Azul",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_270787d8d855f0c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_270787d8d855f0c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.lamagiaazul.cl/destacadas-portada/crack-de-universidad-de-chile-protagoniza-accidente-de-transito/",
+      "source_path": "html/CHL/CHL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbed4bcefd7ea90e",
+    "text": "Original source: https://www.lamagiaazul.cl/destacadas-portada/crack-de-universidad-de-chile-protagoniza-accidente-de-transito/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b6edd4814a5375b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6b6edd4814a5375b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbed4bcefd7ea90e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b445fb4a06660bbb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b445fb4a06660bbb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.lamagiaazul.cl/destacadas-portada/crack-de-universidad-de-chile-protagoniza-accidente-de-transito/",
+      "source_path": "html/CHL/CHL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fbed4bcefd7ea90e",
+    "text": "https://www.lamagiaazul.cl/destacadas-portada/crack-de-universidad-de-chile-protagoniza-accidente-de-transito/",
+    "url": null
+  }
+]

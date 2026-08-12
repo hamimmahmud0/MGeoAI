@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6e1f99fa6c0cf9bad2125c442fe55a15518e653c8b05a777bd9285059ad7b804",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "bergens tidende",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-03-24T07:00:00Z",
+  "publisher": "Bergens Tidende",
+  "schema_version": "1.0.0",
+  "source_id": "src_24f1b7e7b8c47bd2",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2024-03-24T07:00:00+00:00",
+    "source_info_hash": "20fb3c06747aacaa",
+    "source_info_path": "html/NOR/NOR-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bt.no/innenriks/i/l37o8M/en-person-omkom-i-trafikkulykke-i-krageroe-i-norge",
+  "timezone": "Europe/Oslo",
+  "title": "Tenåring omkom i trafikkulykke i Kragerø"
+}

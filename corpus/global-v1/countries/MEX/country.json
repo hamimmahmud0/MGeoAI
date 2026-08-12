@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "MEX",
+  "name": "Mexico",
+  "languages": [
+    "es"
+  ],
+  "timezones": [
+    "America/Mexico_City"
+  ],
+  "target_sources": 12
+}

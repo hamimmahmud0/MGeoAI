@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5ca7fb202c9bdfac",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5ca7fb202c9bdfac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Trece Muertos por el choque entre una miniván con un tráiler al sur de Perú",
+      "source_path": "html/PER/PER-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ce62a8d8d4e36009",
+    "text": "Trece Muertos por el choque entre una miniván con un tráiler al sur de Perú",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_44a451baddc33a0b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_44a451baddc33a0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T20:41:04-05:00",
+      "source_path": "html/PER/PER-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ce62a8d8d4e36009",
+    "text": "2026-08-08T20:41:04-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_83f2fd1ea85a563d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_83f2fd1ea85a563d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CRÍTICA",
+      "source_path": "html/PER/PER-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ce62a8d8d4e36009",
+    "text": "Publisher: CRÍTICA",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a1a819a8629ad92c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a1a819a8629ad92c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.critica.com.pa/mundo/trece-muertos-por-el-choque-entre-una-minivan-con-un-trailer-al-sur-de-peru-514280",
+      "source_path": "html/PER/PER-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ce62a8d8d4e36009",
+    "text": "Original source: https://www.critica.com.pa/mundo/trece-muertos-por-el-choque-entre-una-minivan-con-un-trailer-al-sur-de-peru-514280",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cc04b63a73495641",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cc04b63a73495641",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ce62a8d8d4e36009",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c9aa28005c0bb113",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c9aa28005c0bb113",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.critica.com.pa/mundo/trece-muertos-por-el-choque-entre-una-minivan-con-un-trailer-al-sur-de-peru-514280",
+      "source_path": "html/PER/PER-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ce62a8d8d4e36009",
+    "text": "https://www.critica.com.pa/mundo/trece-muertos-por-el-choque-entre-una-minivan-con-un-trailer-al-sur-de-peru-514280",
+    "url": null
+  }
+]

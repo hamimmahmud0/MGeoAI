@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SAU-S002",
+  "country_code": "SAU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/asia/307748/eight-bangladeshis-killed-18-injured-in-saudi-bus",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/asia/307748/eight-bangladeshis-killed-18-injured-in-saudi-bus",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Saudi+Arabia%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "90c1c0f2d11a1df1914e7ad7687476d5f5e6319cf31a25a3d57131e7232b4612",
+      "size_bytes": 1017,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "تصادم مركبات",
+    "road accident"
+  ],
+  "timezone": "Asia/Riyadh",
+  "captured_at": "2026-08-12T03:38:52.350764+06:00",
+  "published_at": "2023-03-28T15:17:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SAU-S002"
+}

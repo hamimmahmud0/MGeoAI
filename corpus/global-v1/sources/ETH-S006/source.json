@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ETH-S006",
+  "country_code": "ETH",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Free Malaysia Today",
+  "canonical_url": "https://www.freemalaysiatoday.com/category/world/2024/12/30/66-dead-after-road-accident-in-ethiopia",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.freemalaysiatoday.com/category/world/2024/12/30/66-dead-after-road-accident-in-ethiopia",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Ethiopia%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "bc8ab30f2e69245f0bf33d94418477139e64d8a3606ca2ec1a7e081b36dadd80",
+      "size_bytes": 996,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "am",
+    "en",
+    "om"
+  ],
+  "traffic_keywords": [
+    "የመንገድ አደጋ",
+    "የትራፊክ አደጋ",
+    "road accident",
+    "traffic crash"
+  ],
+  "timezone": "Africa/Addis_Ababa",
+  "captured_at": "2026-08-11T21:56:25.776723Z",
+  "published_at": "2024-12-29T14:34:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "freemalaysiatoday.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ETH-S006"
+}

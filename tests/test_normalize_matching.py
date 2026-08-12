@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from traffic_fusion.config import Settings
-from traffic_fusion.matching import build_clusters, score_pair
+from traffic_fusion.matching import build_clusters, candidate_pairs, score_pair
 from traffic_fusion.models import (
     EvidenceItem,
     IncidentMention,
@@ -209,6 +209,7 @@ def test_unmapped_reports_from_different_countries_trigger_hard_guard() -> None:
     features = score_pair(left, right, Settings())
     assert features.hard_guard == "source-assigned incident countries conflict"
     assert features.total_score == 0
+    assert candidate_pairs([left, right], Settings()) == []
 
 
 def test_different_specific_locations_trigger_hard_guard() -> None:

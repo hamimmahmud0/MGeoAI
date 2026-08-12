@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8e2eecc8cbe4cd9a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8e2eecc8cbe4cd9a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Peki-Tsame road crash claims 15 lives, 25 injured",
+      "source_path": "html/GHA/GHA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e80b17e427f3cb2",
+    "text": "Peki-Tsame road crash claims 15 lives, 25 injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6fae14dcb0d881ad",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6fae14dcb0d881ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-03T07:00:00+00:00",
+      "source_path": "html/GHA/GHA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e80b17e427f3cb2",
+    "text": "2026-06-03T07:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a5be323faa2b9541",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a5be323faa2b9541",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fifteen people have died and 25 others sustained various injuries following a head-on collision at Peki-Tsame in the Oti Region in the early hours of ...",
+      "source_path": "html/GHA/GHA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e80b17e427f3cb2",
+    "text": "Fifteen people have died and 25 others sustained various injuries following a head-on collision at Peki-Tsame in the Oti Region in the early hours of ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_956959cebb2b2b16",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_956959cebb2b2b16",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ghanaian Times",
+      "source_path": "html/GHA/GHA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e80b17e427f3cb2",
+    "text": "Publisher: Ghanaian Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_55e09ea660edad4e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_55e09ea660edad4e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://ghanaiantimes.com.gh/peki-tsame-road-crash-claims-15-lives-25-injured/",
+      "source_path": "html/GHA/GHA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e80b17e427f3cb2",
+    "text": "Original source: https://ghanaiantimes.com.gh/peki-tsame-road-crash-claims-15-lives-25-injured/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_634df27d54f64fc0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_634df27d54f64fc0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e80b17e427f3cb2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8210cad009d3e5d9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8210cad009d3e5d9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://ghanaiantimes.com.gh/peki-tsame-road-crash-claims-15-lives-25-injured/",
+      "source_path": "html/GHA/GHA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e80b17e427f3cb2",
+    "text": "https://ghanaiantimes.com.gh/peki-tsame-road-crash-claims-15-lives-25-injured/",
+    "url": null
+  }
+]

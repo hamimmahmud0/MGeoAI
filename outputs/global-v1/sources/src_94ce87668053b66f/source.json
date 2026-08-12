@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b060474342a3edc5a6ae2c1788d1640b4c81f6e55dc3ed7b57cddc67a2df8923",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "vrt",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-26T07:00:00Z",
+  "publisher": "VRT",
+  "schema_version": "1.0.0",
+  "source_id": "src_94ce87668053b66f",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-05-26T07:00:00+00:00",
+    "source_info_hash": "c4fb3b22f3e59f64",
+    "source_info_path": "html/BEL/BEL-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.vrt.be/nwsnwsnws/nl/post/2026/05/26/buggenhoutongeval/",
+  "timezone": "Europe/Brussels",
+  "title": "Meerdere doden na botsing schoolbus en trein in Buggenhout: dit weten we al"
+}

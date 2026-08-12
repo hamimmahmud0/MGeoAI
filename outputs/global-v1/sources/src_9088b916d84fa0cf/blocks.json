@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_961ee6b988e0fa21",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_961ee6b988e0fa21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Malaysia highway crash kills three Bangladeshi workers, injures two",
+      "source_path": "html/MYS/MYS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9088b916d84fa0cf",
+    "text": "Malaysia highway crash kills three Bangladeshi workers, injures two",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_46162065c2e8523c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_46162065c2e8523c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-02T16:13:00+08:00",
+      "source_path": "html/MYS/MYS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9088b916d84fa0cf",
+    "text": "2025-08-02T16:13:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bd4a8d32207f85e5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bd4a8d32207f85e5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three Bangladeshi migrant workers have been killed and two others wounded in a highway crash in Malaysia's Pahang state. The incident occurred on the East ...",
+      "source_path": "html/MYS/MYS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9088b916d84fa0cf",
+    "text": "Three Bangladeshi migrant workers have been killed and two others wounded in a highway crash in Malaysia's Pahang state. The incident occurred on the East ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3f81e78bd46dff05",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3f81e78bd46dff05",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/MYS/MYS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9088b916d84fa0cf",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95ca7c8e61145319",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95ca7c8e61145319",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/8584bb3713b6",
+      "source_path": "html/MYS/MYS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9088b916d84fa0cf",
+    "text": "Original source: https://bdnews24.com/bangladesh/8584bb3713b6",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fb2d373411c2a5bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fb2d373411c2a5bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9088b916d84fa0cf",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

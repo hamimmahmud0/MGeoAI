@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IDN-S010",
+  "country_code": "IDN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "scmp.com",
+  "canonical_url": "https://www.scmp.com/week-asia/people/article/3262828/indonesias-woeful-road-safety-under-spotlight-after-fatal-bus-crash-exposes-negligence",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.scmp.com/week-asia/people/article/3262828/indonesias-woeful-road-safety-under-spotlight-after-fatal-bus-crash-exposes-negligence",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Indonesia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "b29687d074ab57a62719ae75cbfecd18a18ab44c85df8355420e6c4933f68620",
+      "size_bytes": 1221,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kecelakaan lalu lintas",
+    "tabrakan kendaraan",
+    "kecelakaan bus",
+    "kecelakaan jalan"
+  ],
+  "timezone": "Asia/Jakarta",
+  "captured_at": "2026-08-12T03:55:02.411228+06:00",
+  "published_at": "2024-05-16T05:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "scmp.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IDN-S010"
+}

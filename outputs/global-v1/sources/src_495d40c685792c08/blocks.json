@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8d82b6d994732eaa",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8d82b6d994732eaa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Funeral details announced of mother and daughter killed in Cavan road crash",
+      "source_path": "html/IRL/IRL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_495d40c685792c08",
+    "text": "Funeral details announced of mother and daughter killed in Cavan road crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b632e0ec7da9e6fa",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b632e0ec7da9e6fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-29T08:00:00+01:00",
+      "source_path": "html/IRL/IRL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_495d40c685792c08",
+    "text": "2026-07-29T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fcdbeb9c6deb8bab",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fcdbeb9c6deb8bab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Irish Examiner",
+      "source_path": "html/IRL/IRL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_495d40c685792c08",
+    "text": "Publisher: Irish Examiner",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3794e109b681745d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3794e109b681745d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.irishexaminer.com/news/arid-41887609.html",
+      "source_path": "html/IRL/IRL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_495d40c685792c08",
+    "text": "Original source: https://www.irishexaminer.com/news/arid-41887609.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f4c48b4760d5d9e2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f4c48b4760d5d9e2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_495d40c685792c08",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3b5f6aadfd85f072",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3b5f6aadfd85f072",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.irishexaminer.com/news/arid-41887609.html",
+      "source_path": "html/IRL/IRL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_495d40c685792c08",
+    "text": "https://www.irishexaminer.com/news/arid-41887609.html",
+    "url": null
+  }
+]

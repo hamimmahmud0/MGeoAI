@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "be91eb46410eed28aee720e5e6d49eea3fe15c4d8dbbf4dd6e727860c80a4a65",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "citinewsroom.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-16T07:00:00Z",
+  "publisher": "CitiNewsroom.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_f91d35dfb3988309",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-07-16T07:00:00+00:00",
+    "source_info_hash": "f7017e0880c9d617",
+    "source_info_path": "html/GHA/GHA-S005/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.citinewsroom.com/2026/07/odumase-13-feared-dead-several-injured-in-kumasi-accra-highway-crash/",
+  "timezone": "Africa/Accra",
+  "title": "Odumase: 13 feared dead, several injured in Kumasi-Accra highway crash"
+}

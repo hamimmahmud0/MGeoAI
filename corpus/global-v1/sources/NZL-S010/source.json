@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S010",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Otago Daily Times",
+  "canonical_url": "https://www.odt.co.nz/news/national/person-in-custody-three-in-hospital-after-serious-auckland-incident-llttzdx8",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.odt.co.nz/news/national/person-in-custody-three-in-hospital-after-serious-auckland-incident-llttzdx8",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "9d3ff9c25c4271f4a5df8cbeb37fc7cca77484690ae9b23332d69c62d2467d25",
+      "size_bytes": 1086,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:30.898088+06:00",
+  "published_at": "2026-08-04T14:37:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "odt.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S010"
+}

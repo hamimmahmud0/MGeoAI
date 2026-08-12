@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_22f1b16c180ed6dc",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_22f1b16c180ed6dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Motorcyclist dead after crash with car in West Jordan",
+      "source_path": "html/JOR/JOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5b35872f8289193b",
+    "text": "Motorcyclist dead after crash with car in West Jordan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4f6fd9674916bb86",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4f6fd9674916bb86",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-04T00:24:00+03:00",
+      "source_path": "html/JOR/JOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5b35872f8289193b",
+    "text": "2026-05-04T00:24:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98a51a214b608e09",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98a51a214b608e09",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Add Yahoo as a preferred source to see more of our stories on Google. A motorcyclist was pronounced dead on scene on Sunday night after ...",
+      "source_path": "html/JOR/JOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5b35872f8289193b",
+    "text": "Add Yahoo as a preferred source to see more of our stories on Google. A motorcyclist was pronounced dead on scene on Sunday night after ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc06e02d612b4c5c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc06e02d612b4c5c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yahoo",
+      "source_path": "html/JOR/JOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5b35872f8289193b",
+    "text": "Publisher: Yahoo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b453e98e67690cf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0b453e98e67690cf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.yahoo.com/news/videos/motorcyclist-dead-crash-car-west-042418533.html",
+      "source_path": "html/JOR/JOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5b35872f8289193b",
+    "text": "Original source: https://www.yahoo.com/news/videos/motorcyclist-dead-crash-car-west-042418533.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_141bd1ab967f480a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_141bd1ab967f480a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5b35872f8289193b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_294d33b4a0c93509",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_294d33b4a0c93509",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.yahoo.com/news/videos/motorcyclist-dead-crash-car-west-042418533.html",
+      "source_path": "html/JOR/JOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5b35872f8289193b",
+    "text": "https://www.yahoo.com/news/videos/motorcyclist-dead-crash-car-west-042418533.html",
+    "url": null
+  }
+]

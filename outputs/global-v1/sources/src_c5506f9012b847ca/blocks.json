@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_31e9821358cfd2a6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_31e9821358cfd2a6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Road accident in southern Philippines results in 2 deaths, 3 injuries",
+      "source_path": "html/PHL/PHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5506f9012b847ca",
+    "text": "Road accident in southern Philippines results in 2 deaths, 3 injuries",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f0562b2fe7435430",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f0562b2fe7435430",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-07-23T10:30:00+08:00",
+      "source_path": "html/PHL/PHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5506f9012b847ca",
+    "text": "2024-07-23T10:30:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2ed9713856fdac9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2ed9713856fdac9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "(MENAFN) On Monday afternoon, a tragic accident in Maguindanao del Sur province, southern Philippines, resulted in the deaths of a 25-year-old farmer and his six-year-old ...",
+      "source_path": "html/PHL/PHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5506f9012b847ca",
+    "text": "(MENAFN) On Monday afternoon, a tragic accident in Maguindanao del Sur province, southern Philippines, resulted in the deaths of a 25-year-old farmer and his six-year-old ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c685f7e8aebcf845",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c685f7e8aebcf845",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Mena FN",
+      "source_path": "html/PHL/PHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5506f9012b847ca",
+    "text": "Publisher: Mena FN",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aeb25a0b81ad467c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aeb25a0b81ad467c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://menafn.com/1108471748/Road-accident-in-southern-Philippines-results-in-2-deaths-3-injuries",
+      "source_path": "html/PHL/PHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5506f9012b847ca",
+    "text": "Original source: https://menafn.com/1108471748/Road-accident-in-southern-Philippines-results-in-2-deaths-3-injuries",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c30e42a5d8390596",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c30e42a5d8390596",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5506f9012b847ca",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7328fbac2191a55",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a7328fbac2191a55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://menafn.com/1108471748/Road-accident-in-southern-Philippines-results-in-2-deaths-3-injuries",
+      "source_path": "html/PHL/PHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c5506f9012b847ca",
+    "text": "https://menafn.com/1108471748/Road-accident-in-southern-Philippines-results-in-2-deaths-3-injuries",
+    "url": null
+  }
+]

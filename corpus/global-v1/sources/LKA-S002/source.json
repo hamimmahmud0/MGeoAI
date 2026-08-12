@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "LKA-S002",
+  "country_code": "LKA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Straits Times",
+  "canonical_url": "https://www.straitstimes.com/asia/south-asia/bus-carrying-pilgrims-crashes-killing-15-in-sri-lanka",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.straitstimes.com/asia/south-asia/bus-carrying-pilgrims-crashes-killing-15-in-sri-lanka",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=bus+pilgrims+killing+21+Sri+Lanka+May+2025",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6b19920c5f334375754f6a4313359f6b2bdfafb086c898616c89415e7aa7b461",
+      "size_bytes": 981,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "මාර්ග අනතුර",
+    "சாலை விபத்து",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Colombo",
+  "captured_at": "2026-08-12T03:42:58.150228+06:00",
+  "published_at": "2025-05-11T07:50:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "straitstimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-LKA-S002"
+}

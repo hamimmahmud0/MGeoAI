@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ca21cd572831e75605cf7f23033c2c9a81b7d99cc2097bb2c75c488f3e155eda",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "bbc",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-20T08:00:00Z",
+  "publisher": "BBC",
+  "schema_version": "1.0.0",
+  "source_id": "src_80cb7dcb46a1077a",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2026-01-20T08:00:00+00:00",
+    "source_info_hash": "6082518776d30960",
+    "source_info_path": "html/NGA/NGA-S005/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bbc.com/news/articles/cew8jxze027o",
+  "timezone": "Africa/Lagos",
+  "title": "Anthony Joshua's driver appears in court after crash that killed two"
+}

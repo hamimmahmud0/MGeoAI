@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUN-S010",
+  "country_code": "TUN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Mena FN",
+  "canonical_url": "https://menafn.com/1108809562/Six-Killed-Three-Injured-In-Truck-Car-Collision-In-Tunisia",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://menafn.com/1108809562/Six-Killed-Three-Injured-In-Truck-Car-Collision-In-Tunisia",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Tunisia%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e11a37d1f488d9b419e2502eb33733e66a01e95bd8cead3b87a1ca955d345d9d",
+      "size_bytes": 1007,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "حادث مروري",
+    "accident de la route",
+    "collision routière"
+  ],
+  "timezone": "Africa/Tunis",
+  "captured_at": "2026-08-11T21:57:02.921237Z",
+  "published_at": "2024-10-22T17:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "menafn.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUN-S010"
+}

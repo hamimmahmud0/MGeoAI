@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_23192b45689a6767",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_23192b45689a6767",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Coroner's office IDs motorcyclist killed in Tehachapi traffic collision",
+      "source_path": "html/GBR/GBR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd0c59f2c47cf6fd",
+    "text": "Coroner's office IDs motorcyclist killed in Tehachapi traffic collision",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c6376b57ca3cdfbb",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c6376b57ca3cdfbb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-22T08:00:00+01:00",
+      "source_path": "html/GBR/GBR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd0c59f2c47cf6fd",
+    "text": "2026-06-22T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33c1e72bbaccf520",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_33c1e72bbaccf520",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Bakersfield.com",
+      "source_path": "html/GBR/GBR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd0c59f2c47cf6fd",
+    "text": "Publisher: Bakersfield.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8211c17cfa11dc63",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8211c17cfa11dc63",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bakersfield.com/news/coroners-office-ids-motorcyclist-killed-in-tehachapi-traffic-collision/article_12f8a168-4ff9-4566-a707-a95e9fd2526c.html",
+      "source_path": "html/GBR/GBR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd0c59f2c47cf6fd",
+    "text": "Original source: https://www.bakersfield.com/news/coroners-office-ids-motorcyclist-killed-in-tehachapi-traffic-collision/article_12f8a168-4ff9-4566-a707-a95e9fd2526c.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7a1bd6d833ed6a68",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7a1bd6d833ed6a68",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd0c59f2c47cf6fd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b5df2161e05046a8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b5df2161e05046a8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bakersfield.com/news/coroners-office-ids-motorcyclist-killed-in-tehachapi-traffic-collision/article_12f8a168-4ff9-4566-a707-a95e9fd2526c.html",
+      "source_path": "html/GBR/GBR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd0c59f2c47cf6fd",
+    "text": "https://www.bakersfield.com/news/coroners-office-ids-motorcyclist-killed-in-tehachapi-traffic-collision/article_12f8a168-4ff9-4566-a707-a95e9fd2526c.html",
+    "url": null
+  }
+]

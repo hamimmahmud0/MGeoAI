@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "362c573264864e0c1e1add4b6ab36de0c91ecdb19e7301e3eaa597a58646c425",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "la magia azul",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-01T07:00:00Z",
+  "publisher": "La Magia Azul",
+  "schema_version": "1.0.0",
+  "source_id": "src_fbed4bcefd7ea90e",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "source_info_hash": "b48353d5bf852732",
+    "source_info_path": "html/CHL/CHL-S002/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.lamagiaazul.cl/destacadas-portada/crack-de-universidad-de-chile-protagoniza-accidente-de-transito/",
+  "timezone": "America/Santiago",
+  "title": "Crack de Universidad de Chile protagoniza accidente de tránsito"
+}

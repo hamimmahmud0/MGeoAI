@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9a994c7e3e61c3376a3c2182b39ea220dfb376b1ebe594ec49aeb24aeb220af7",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "laopinion.co",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-28T07:00:00Z",
+  "publisher": "laopinion.co",
+  "schema_version": "1.0.0",
+  "source_id": "src_312dd3f9526879a7",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-28T07:00:00+00:00",
+    "source_info_hash": "6e9b36e16c584a8f",
+    "source_info_path": "html/COL/COL-S010/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://laopinion.co/judicial/conductor-se-dio-la-fuga-tras-accidente-de-transito-que-dejo-dos-jovenes-muertos-en-cucuta",
+  "timezone": "America/Bogota",
+  "title": "Conductor se dio a la fuga tras accidente de tránsito que dejó dos jóvenes muertos en Cúcuta"
+}

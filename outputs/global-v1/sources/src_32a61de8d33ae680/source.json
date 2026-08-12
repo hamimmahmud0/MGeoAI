@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a82de7614c1e0dadd11316d543778e95362025ca02b6c0950f710a570d28e146",
+  "country": "Saudi Arabia",
+  "country_code": "SAU",
+  "dependency_group": "bdnews24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SAU/SAU-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-05-02T15:18:00Z",
+  "publisher": "bdnews24",
+  "schema_version": "1.0.0",
+  "source_id": "src_32a61de8d33ae680",
+  "source_metadata": {
+    "country": "Saudi Arabia",
+    "country_code": "SAU",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2019-05-02T15:18:00+00:00",
+    "source_info_hash": "a7590c03db157567",
+    "source_info_path": "html/SAU/SAU-S005/SOURCE_INFO.md",
+    "timezone": "Asia/Riyadh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث مروري",
+      "حادث سير",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/bangladesh/at-least-10-bangladeshis-killed-in-saudi-arabia-car-crash",
+  "timezone": "Asia/Riyadh",
+  "title": "At least 10 Bangladeshis killed in Saudi Arabia car crash"
+}

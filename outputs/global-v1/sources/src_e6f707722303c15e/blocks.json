@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4553b207b95d5585",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4553b207b95d5585",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Road Accident Kills 11 in Northwestern Türkiye",
+      "source_path": "html/TUR/TUR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e6f707722303c15e",
+    "text": "Road Accident Kills 11 in Northwestern Türkiye",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eece9543a1641abd",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_eece9543a1641abd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-12-28T01:46:00+03:00",
+      "source_path": "html/TUR/TUR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e6f707722303c15e",
+    "text": "2023-12-28T01:46:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99c05e48f9865e4f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_99c05e48f9865e4f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Eleven people were killed and more than 50 injured in a road accident in northwestern Türkiye on Thursday, local media reported. The crash involved seven ...",
+      "source_path": "html/TUR/TUR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e6f707722303c15e",
+    "text": "Eleven people were killed and more than 50 injured in a road accident in northwestern Türkiye on Thursday, local media reported. The crash involved seven ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_66880a279654b72e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_66880a279654b72e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: الشرق الأوسط",
+      "source_path": "html/TUR/TUR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e6f707722303c15e",
+    "text": "Publisher: الشرق الأوسط",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a0bc5ee876e5dcc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3a0bc5ee876e5dcc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://english.aawsat.com/world/4754906-road-accident-kills-11-northwestern-t%C3%BCrkiye",
+      "source_path": "html/TUR/TUR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e6f707722303c15e",
+    "text": "Original source: https://english.aawsat.com/world/4754906-road-accident-kills-11-northwestern-t%C3%BCrkiye",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b3f84a035158096f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b3f84a035158096f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e6f707722303c15e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_97dda6b04f6fb3e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_97dda6b04f6fb3e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://english.aawsat.com/world/4754906-road-accident-kills-11-northwestern-t%C3%BCrkiye",
+      "source_path": "html/TUR/TUR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e6f707722303c15e",
+    "text": "https://english.aawsat.com/world/4754906-road-accident-kills-11-northwestern-t%C3%BCrkiye",
+    "url": null
+  }
+]

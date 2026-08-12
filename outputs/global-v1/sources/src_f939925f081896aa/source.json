@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "429e1ba6cdd3a1de9425181cb31baceb9384497f7b03b1039cdada86caaea0ac",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "abc",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-09T16:22:49Z",
+  "publisher": "ABC",
+  "schema_version": "1.0.0",
+  "source_id": "src_f939925f081896aa",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-09T16:22:49+00:00",
+    "source_info_hash": "994e4bd4d969b35f",
+    "source_info_path": "html/ESP/ESP-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.abc.es/sevilla/provincia/utrera/colision-dos-coches-deja-dos-muertos-a394-20260809182223-nts.html",
+  "timezone": "Europe/Madrid",
+  "title": "Dos muertos en un accidente de tráfico en la A-394 a la altura de Utrera"
+}

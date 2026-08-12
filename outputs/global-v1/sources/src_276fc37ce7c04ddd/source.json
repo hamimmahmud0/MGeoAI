@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f54a2bb61b1a7e30dae48f38671712c884667d6d74b4bb1eb99c4d69cf2c5bdd",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "la teja",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-17T07:00:00Z",
+  "publisher": "La Teja",
+  "schema_version": "1.0.0",
+  "source_id": "src_276fc37ce7c04ddd",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-17T07:00:00+00:00",
+    "source_info_hash": "41714b568e939dae",
+    "source_info_path": "html/CRI/CRI-S008/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.lateja.cr/sucesos/tragico-accidente-de-transito-termino-con-incendio/KFG6PD5VVBFZTD565BX4PCLS6M/story/",
+  "timezone": "America/Costa_Rica",
+  "title": "Trágico accidente de tránsito terminó con incendio y dos muertos en Guanacaste"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S001",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Deccan Herald",
+  "canonical_url": "https://www.deccanherald.com/world/asia/at-least-eight-dead-25-injured-in-train-collision-that-sparks-bus-fire-in-thailand-4005325",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.deccanherald.com/world/asia/at-least-eight-dead-25-injured-in-train-collision-that-sparks-bus-fire-in-thailand-4005325",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "d6e22cac086b769470ff3d6ade2751d3526eeb4bea870d903bc4edd1e2a98800",
+      "size_bytes": 1180,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:51.198539+06:00",
+  "published_at": "2026-05-15T15:41:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "deccanherald.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S001"
+}

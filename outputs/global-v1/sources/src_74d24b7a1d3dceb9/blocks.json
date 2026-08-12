@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1a3a3d74f7a76b75",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1a3a3d74f7a76b75",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fatal Peki-Tsame road crash claims 15 lives, 25 injured",
+      "source_path": "html/GHA/GHA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_74d24b7a1d3dceb9",
+    "text": "Fatal Peki-Tsame road crash claims 15 lives, 25 injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1566328fb1c3fdab",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1566328fb1c3fdab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-02T07:00:00+00:00",
+      "source_path": "html/GHA/GHA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_74d24b7a1d3dceb9",
+    "text": "2026-06-02T07:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84434870d458f58c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84434870d458f58c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Firefighters from the Peki Fire Station of the Ghana National Fire Service (GNFS) responded swiftly to a fatal head-on collision involving a Mercedes-Benz container truck ...",
+      "source_path": "html/GHA/GHA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_74d24b7a1d3dceb9",
+    "text": "Firefighters from the Peki Fire Station of the Ghana National Fire Service (GNFS) responded swiftly to a fatal head-on collision involving a Mercedes-Benz container truck ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e9328009383d0845",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e9328009383d0845",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ghanaian Times",
+      "source_path": "html/GHA/GHA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_74d24b7a1d3dceb9",
+    "text": "Publisher: Ghanaian Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0d46dd099c4be2b8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0d46dd099c4be2b8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://ghanaiantimes.com.gh/fatal-peki-tsame-road-crash-claims-15-lives-25-injured/",
+      "source_path": "html/GHA/GHA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_74d24b7a1d3dceb9",
+    "text": "Original source: https://ghanaiantimes.com.gh/fatal-peki-tsame-road-crash-claims-15-lives-25-injured/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d258500c4c0067b8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d258500c4c0067b8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_74d24b7a1d3dceb9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b867bc78276000a2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b867bc78276000a2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://ghanaiantimes.com.gh/fatal-peki-tsame-road-crash-claims-15-lives-25-injured/",
+      "source_path": "html/GHA/GHA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_74d24b7a1d3dceb9",
+    "text": "https://ghanaiantimes.com.gh/fatal-peki-tsame-road-crash-claims-15-lives-25-injured/",
+    "url": null
+  }
+]

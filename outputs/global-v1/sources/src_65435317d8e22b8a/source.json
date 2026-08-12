@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "826b261e009726ea20ebd178e4759a265388ace86af80fb420c7d36037c4d800",
+  "country": "Portugal",
+  "country_code": "PRT",
+  "dependency_group": "dnoticias.pt",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/PRT/PRT-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-12T07:00:00Z",
+  "publisher": "dnoticias.pt",
+  "schema_version": "1.0.0",
+  "source_id": "src_65435317d8e22b8a",
+  "source_metadata": {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-07-12T07:00:00+00:00",
+    "source_info_hash": "d1c92e28eb99a6db",
+    "source_info_path": "html/PRT/PRT-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Lisbon",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente rodoviário",
+      "acidente de viação",
+      "colisão de veículos",
+      "acidente de autocarro"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dnoticias.pt/2026/7/12/498697-pelo-menos-tres-mortos-e-29-feridos-em-acidente-de-viacao-no-centro-de-mocambique/",
+  "timezone": "Europe/Lisbon",
+  "title": "Pelo menos três mortos e 29 feridos em acidente de viação no centro de Moçambique"
+}

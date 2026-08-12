@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S004",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Hindustan Times",
+  "canonical_url": "https://www.hindustantimes.com/india-news/five-dead-in-rajasthan-after-car-truck-collision-as-driver-dozes-off-101771067175478.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.hindustantimes.com/india-news/five-dead-in-rajasthan-after-car-truck-collision-as-driver-dozes-off-101771067175478.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22India%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "f086142655191b24231a8781d917cd37e65e129c7dadf230497cedd6eedaba03",
+      "size_bytes": 1155,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:55:02.405989+06:00",
+  "published_at": "2026-02-14T04:40:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "hindustantimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S004"
+}

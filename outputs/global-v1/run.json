@@ -1,0 +1,15 @@
+{
+  "completed_at": "2026-08-12T05:30:39.850808Z",
+  "evidence_items": 2887,
+  "incidents": 441,
+  "input_files": 510,
+  "mentions": 511,
+  "mode": "recorded",
+  "model": "recorded-fixture-v2",
+  "provider": "recorded",
+  "run_id": "run_bb83a490649b2e15",
+  "sources": 510,
+  "started_at": "2026-08-12T05:30:33.094460Z",
+  "status": "completed",
+  "warnings": []
+}

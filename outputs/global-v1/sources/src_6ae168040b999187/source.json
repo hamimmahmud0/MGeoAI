@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "76059f330a62f2a002f7d1cb6d6849c92141c45f2a37d5a6a9b0d09c9c917c61",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "the independent",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-31T20:07:00Z",
+  "publisher": "The Independent",
+  "schema_version": "1.0.0",
+  "source_id": "src_6ae168040b999187",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-31T20:07:00+00:00",
+    "source_info_hash": "7669b2b2e2078bcd",
+    "source_info_path": "html/GBR/GBR-S002/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.the-independent.com/news/uk/home-news/m5-crash-deaths-road-closure-traffic-gloucestershire-latest-b2761179.html",
+  "timezone": "Europe/London",
+  "title": "Teenager and two adults killed in M5 crash as child fights for life"
+}

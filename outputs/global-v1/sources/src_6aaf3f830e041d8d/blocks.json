@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_30beceb355356f14",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_30beceb355356f14",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Cinco muertos y 11 lesionados en un accidente carretero en San José Iturbide",
+      "source_path": "html/MEX/MEX-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6aaf3f830e041d8d",
+    "text": "Cinco muertos y 11 lesionados en un accidente carretero en San José Iturbide",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_20d89fb92416acf0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_20d89fb92416acf0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T01:00:00-06:00",
+      "source_path": "html/MEX/MEX-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6aaf3f830e041d8d",
+    "text": "2026-06-13T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_19a5bcd1dbcb02cc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_19a5bcd1dbcb02cc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Silla Rota",
+      "source_path": "html/MEX/MEX-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6aaf3f830e041d8d",
+    "text": "Publisher: La Silla Rota",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e63c2ac18cb8d754",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e63c2ac18cb8d754",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://lasillarota.com/guanajuato/estado/2026/6/13/cinco-muertos-11-lesionados-en-un-accidente-carretero-en-san-jose-iturbide-514538.html",
+      "source_path": "html/MEX/MEX-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6aaf3f830e041d8d",
+    "text": "Original source: https://lasillarota.com/guanajuato/estado/2026/6/13/cinco-muertos-11-lesionados-en-un-accidente-carretero-en-san-jose-iturbide-514538.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c4eacacecb605e0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1c4eacacecb605e0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6aaf3f830e041d8d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d925f55b291e1c34",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d925f55b291e1c34",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://lasillarota.com/guanajuato/estado/2026/6/13/cinco-muertos-11-lesionados-en-un-accidente-carretero-en-san-jose-iturbide-514538.html",
+      "source_path": "html/MEX/MEX-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6aaf3f830e041d8d",
+    "text": "https://lasillarota.com/guanajuato/estado/2026/6/13/cinco-muertos-11-lesionados-en-un-accidente-carretero-en-san-jose-iturbide-514538.html",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1d554276f5cb3c55",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1d554276f5cb3c55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Haveri Bus Accident Leaves One Dead, Over 20 Injured On NH-48",
+      "source_path": "html/IND/IND-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85f34e4c5a99e893",
+    "text": "Haveri Bus Accident Leaves One Dead, Over 20 Injured On NH-48",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a449baad76bf036e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a449baad76bf036e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T03:36:00+05:30",
+      "source_path": "html/IND/IND-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85f34e4c5a99e893",
+    "text": "2026-08-10T03:36:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f3f94604ab8c2dc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f3f94604ab8c2dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A private bus travelling from Goa to Bengaluru overturned on National Highway 48 near Haveri after the driver allegedly lost control while drowsy. Eighteen-year-old passenger ...",
+      "source_path": "html/IND/IND-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85f34e4c5a99e893",
+    "text": "A private bus travelling from Goa to Bengaluru overturned on National Highway 48 near Haveri after the driver allegedly lost control while drowsy. Eighteen-year-old passenger ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34b46e7aca3bde7e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34b46e7aca3bde7e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Hans India",
+      "source_path": "html/IND/IND-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85f34e4c5a99e893",
+    "text": "Publisher: The Hans India",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c5d764dc651554f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c5d764dc651554f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thehansindia.com/karnataka/haveri-bus-accident-leaves-one-dead-over-20-injured-on-nh-48-1107537",
+      "source_path": "html/IND/IND-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85f34e4c5a99e893",
+    "text": "Original source: https://www.thehansindia.com/karnataka/haveri-bus-accident-leaves-one-dead-over-20-injured-on-nh-48-1107537",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4d961482d247f2e0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4d961482d247f2e0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85f34e4c5a99e893",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_83b598eba5dc4ded",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_83b598eba5dc4ded",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thehansindia.com/karnataka/haveri-bus-accident-leaves-one-dead-over-20-injured-on-nh-48-1107537",
+      "source_path": "html/IND/IND-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85f34e4c5a99e893",
+    "text": "https://www.thehansindia.com/karnataka/haveri-bus-accident-leaves-one-dead-over-20-injured-on-nh-48-1107537",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MYS-S003",
+  "country_code": "MYS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Asia One",
+  "canonical_url": "https://www.asiaone.com/malaysia/multi-vehicle-crash-9km-traffic-jam-malaysia-expressway",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.asiaone.com/malaysia/multi-vehicle-crash-9km-traffic-jam-malaysia-expressway",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Malaysia%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "58b3e645ba58ed906a1a1c640cd12c043526e5f2ae84fbc961eb8f0d81aa9457",
+      "size_bytes": 1070,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kemalangan jalan raya",
+    "nahas jalan raya",
+    "kemalangan bas",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "captured_at": "2026-08-12T03:55:02.413055+06:00",
+  "published_at": "2026-06-22T19:13:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "asiaone.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MYS-S003"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "afd61a4cce329e9fe63b5235ceb148f097c4f196f43eeb17424aa313f6e8b67c",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "infobae",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-28T07:00:00Z",
+  "publisher": "Infobae",
+  "schema_version": "1.0.0",
+  "source_id": "src_72527c676ef201ed",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-28T07:00:00+00:00",
+    "source_info_hash": "d0799fceca46c2e6",
+    "source_info_path": "html/ESP/ESP-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.infobae.com/espana/agencias/2026/06/28/cuatro-fallecidos-y-seis-heridos-graves-en-un-accidente-de-trafico-en-castellon/",
+  "timezone": "Europe/Madrid",
+  "title": "Cuatro fallecidos y seis heridos graves en un accidente de tráfico en Castellón"
+}

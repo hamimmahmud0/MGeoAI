@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0bfdf9fd1a0ed3f4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0bfdf9fd1a0ed3f4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Five killed in car-truck collision on Kota–Jaipur highway in Rajasthan",
+      "source_path": "html/IND/IND-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ebcde337103085fd",
+    "text": "Five killed in car-truck collision on Kota–Jaipur highway in Rajasthan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e399c7f429b0658a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e399c7f429b0658a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-14T10:10:00+05:30",
+      "source_path": "html/IND/IND-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ebcde337103085fd",
+    "text": "2026-02-14T10:10:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_65ed8598d65076b3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_65ed8598d65076b3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Five people were killed after a car collided with a truck in the Chaksu area in Jaipur district in Rajasthan on Saturday morning, police said. ...",
+      "source_path": "html/IND/IND-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ebcde337103085fd",
+    "text": "Five people were killed after a car collided with a truck in the Chaksu area in Jaipur district in Rajasthan on Saturday morning, police said. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e607d316e1d29c14",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e607d316e1d29c14",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hindustan Times",
+      "source_path": "html/IND/IND-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ebcde337103085fd",
+    "text": "Publisher: Hindustan Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cd3bcb1efe2bd1ec",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cd3bcb1efe2bd1ec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hindustantimes.com/india-news/five-dead-in-rajasthan-after-car-truck-collision-as-driver-dozes-off-101771067175478.html",
+      "source_path": "html/IND/IND-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ebcde337103085fd",
+    "text": "Original source: https://www.hindustantimes.com/india-news/five-dead-in-rajasthan-after-car-truck-collision-as-driver-dozes-off-101771067175478.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_20ae46765c9b91c2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_20ae46765c9b91c2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ebcde337103085fd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fd100f34839675d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fd100f34839675d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hindustantimes.com/india-news/five-dead-in-rajasthan-after-car-truck-collision-as-driver-dozes-off-101771067175478.html",
+      "source_path": "html/IND/IND-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ebcde337103085fd",
+    "text": "https://www.hindustantimes.com/india-news/five-dead-in-rajasthan-after-car-truck-collision-as-driver-dozes-off-101771067175478.html",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9cc5a09413ddf188cdf399d0fc216f4415c6ad5dcd1f1775ccb39634dfc499d5",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "blekinge läns tidning",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-27T08:00:00Z",
+  "publisher": "Blekinge Läns Tidning",
+  "schema_version": "1.0.0",
+  "source_id": "src_5cc54860bbc3100a",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2025-12-27T08:00:00+00:00",
+    "source_info_hash": "c15921a0318f854f",
+    "source_info_path": "html/SWE/SWE-S005/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.blt.se/sverige/kvinna-dod-i-trafikolycka-i-borgholm/",
+  "timezone": "Europe/Stockholm",
+  "title": "Kvinna död i trafikolycka i Borgholm"
+}

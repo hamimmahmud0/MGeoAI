@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "42c20166ca7fb7957e7dcdf605ca6271d929a2633f5324478ed029b2bd756ff1",
+  "country": "India",
+  "country_code": "IND",
+  "dependency_group": "sada elbalad english",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IND/IND-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2023-05-30T11:29:00Z",
+  "publisher": "Sada Elbalad English",
+  "schema_version": "1.0.0",
+  "source_id": "src_683006ac7ea2f01c",
+  "source_metadata": {
+    "country": "India",
+    "country_code": "IND",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2023-05-30T11:29:00+00:00",
+    "source_info_hash": "5a14dc2470a68092",
+    "source_info_path": "html/IND/IND-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Kolkata",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "सड़क दुर्घटना",
+      "बस दुर्घटना"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://see.news/india-at-least-10-killed-55-injured-as-bus-carrying-hindu-pilgrims-falls-into-gorge",
+  "timezone": "Asia/Kolkata",
+  "title": "India: At least 10 killed, 55 injured as bus carrying Hindu pilgrims falls into gorge"
+}

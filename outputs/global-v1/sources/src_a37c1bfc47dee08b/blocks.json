@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_deb7b22bc75044aa",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_deb7b22bc75044aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 29 schoolchildren killed in Tanzania bus crash",
+      "source_path": "html/TZA/TZA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a37c1bfc47dee08b",
+    "text": "At least 29 schoolchildren killed in Tanzania bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_720ccd9f0019b2ed",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_720ccd9f0019b2ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2017-05-06T12:00:00+03:00",
+      "source_path": "html/TZA/TZA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a37c1bfc47dee08b",
+    "text": "2017-05-06T12:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5cc083f64e87f0d1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5cc083f64e87f0d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 29 final year primary school pupils were killed in a bus crash in northern Tanzania on Saturday, along with two teachers and the ...",
+      "source_path": "html/TZA/TZA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a37c1bfc47dee08b",
+    "text": "At least 29 final year primary school pupils were killed in a bus crash in northern Tanzania on Saturday, along with two teachers and the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca78b80b5eea86d4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ca78b80b5eea86d4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Digital Journal",
+      "source_path": "html/TZA/TZA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a37c1bfc47dee08b",
+    "text": "Publisher: Digital Journal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1308e473348e8fe5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1308e473348e8fe5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.digitaljournal.com/article/at-least-29-schoolchildren-killed-in-tanzania-bus-crash/",
+      "source_path": "html/TZA/TZA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a37c1bfc47dee08b",
+    "text": "Original source: https://www.digitaljournal.com/article/at-least-29-schoolchildren-killed-in-tanzania-bus-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30fa6a1124a28140",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30fa6a1124a28140",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a37c1bfc47dee08b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9cfac9643e792970",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9cfac9643e792970",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.digitaljournal.com/article/at-least-29-schoolchildren-killed-in-tanzania-bus-crash/",
+      "source_path": "html/TZA/TZA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a37c1bfc47dee08b",
+    "text": "https://www.digitaljournal.com/article/at-least-29-schoolchildren-killed-in-tanzania-bus-crash/",
+    "url": null
+  }
+]

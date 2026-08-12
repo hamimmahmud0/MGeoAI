@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "664476129043447159651bfcdedea808216014eb4036c08485f46466c82845e4",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "la fm",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-19T07:00:00Z",
+  "publisher": "La FM",
+  "schema_version": "1.0.0",
+  "source_id": "src_9eed457319e91d25",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-19T07:00:00+00:00",
+    "source_info_hash": "5a7546725095d92b",
+    "source_info_path": "html/COL/COL-S009/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.lafm.com.co/actualidad/accidente-transito-puerto-colombia-19-heridos-399705",
+  "timezone": "America/Bogota",
+  "title": "Aparatoso accidente en la carretera Barranquilla - Cartagena dejó 19 heridos y bloqueada la vía al Mar"
+}

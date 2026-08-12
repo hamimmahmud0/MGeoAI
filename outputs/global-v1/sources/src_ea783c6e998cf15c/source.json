@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1f1d834c88e1eaaf61e9fa9e82c867f93113f864f5bfc45cb3a4079eb7361de1",
+  "country": "Saudi Arabia",
+  "country_code": "SAU",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SAU/SAU-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-10-14T11:57:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_ea783c6e998cf15c",
+  "source_metadata": {
+    "country": "Saudi Arabia",
+    "country_code": "SAU",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-10-14T11:57:00+00:00",
+    "source_info_hash": "5e9e4f44e216914b",
+    "source_info_path": "html/SAU/SAU-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Riyadh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث مروري",
+      "حادث سير",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/bangladesh/361868/bangladeshi-youth-killed-in-road-accident-in-saudi",
+  "timezone": "Asia/Riyadh",
+  "title": "Bangladeshi youth killed in road accident in Saudi Arabia"
+}

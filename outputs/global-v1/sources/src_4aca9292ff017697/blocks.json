@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c0cc50792e3ec04f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c0cc50792e3ec04f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "1 killed, 10 injured in road accidents in Jordan",
+      "source_path": "html/JOR/JOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4aca9292ff017697",
+    "text": "1 killed, 10 injured in road accidents in Jordan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_55217a4123a5de37",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_55217a4123a5de37",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-07-10T07:12:00+03:00",
+      "source_path": "html/JOR/JOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4aca9292ff017697",
+    "text": "2025-07-10T07:12:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a122f220ae1913a8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a122f220ae1913a8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "ALBAWABA - Jordan's First Lieutenant Duaa Al-Habahbeh addressed the radio and said that the police had dealt with two road accidents on Wednesday.She ad ...",
+      "source_path": "html/JOR/JOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4aca9292ff017697",
+    "text": "ALBAWABA - Jordan's First Lieutenant Duaa Al-Habahbeh addressed the radio and said that the police had dealt with two road accidents on Wednesday.She ad ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e8eb91cce85b1d13",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e8eb91cce85b1d13",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Al Bawaba",
+      "source_path": "html/JOR/JOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4aca9292ff017697",
+    "text": "Publisher: Al Bawaba",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b2497a03d85ad456",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b2497a03d85ad456",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.albawaba.com/news/1-killed-10-injured-road-accidents-1608430",
+      "source_path": "html/JOR/JOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4aca9292ff017697",
+    "text": "Original source: https://www.albawaba.com/news/1-killed-10-injured-road-accidents-1608430",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b4f524c4dd380e1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8b4f524c4dd380e1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4aca9292ff017697",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ddc3dc39b94f6315",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ddc3dc39b94f6315",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.albawaba.com/news/1-killed-10-injured-road-accidents-1608430",
+      "source_path": "html/JOR/JOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4aca9292ff017697",
+    "text": "https://www.albawaba.com/news/1-killed-10-injured-road-accidents-1608430",
+    "url": null
+  }
+]

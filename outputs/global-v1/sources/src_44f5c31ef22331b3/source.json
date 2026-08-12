@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e72cb5242c9a28fc45091af6f0744271bc8460432f44d505bd624b9feae06b44",
+  "country": "Nepal",
+  "country_code": "NPL",
+  "dependency_group": "anadolu ajansi",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NPL/NPL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-02-23T06:25:00Z",
+  "publisher": "Anadolu Ajansi",
+  "schema_version": "1.0.0",
+  "source_id": "src_44f5c31ef22331b3",
+  "source_metadata": {
+    "country": "Nepal",
+    "country_code": "NPL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-02-23T06:25:00+00:00",
+    "source_info_hash": "686d1e7716de4dde",
+    "source_info_path": "html/NPL/NPL-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Kathmandu",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "सडक दुर्घटना",
+      "बस दुर्घटना",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aa.com.tr/en/asia-pacific/death-toll-climbs-to-19-in-nepal-bus-accident-25-others-injured/3837784",
+  "timezone": "Asia/Kathmandu",
+  "title": "Death toll climbs to 19 in Nepal bus accident, 25 others injured"
+}

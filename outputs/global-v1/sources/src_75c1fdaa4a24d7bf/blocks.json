@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6b0fb8e7262472a7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6b0fb8e7262472a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three killed in traffic accident in Ha Noi",
+      "source_path": "html/VNM/VNM-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_75c1fdaa4a24d7bf",
+    "text": "Three killed in traffic accident in Ha Noi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_de4fa399f0aa3373",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_de4fa399f0aa3373",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-21T07:00:00+07:00",
+      "source_path": "html/VNM/VNM-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_75c1fdaa4a24d7bf",
+    "text": "2026-04-21T07:00:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_723a47956f944af9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_723a47956f944af9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three people were killed in a road traffic collision in Ha Noi.",
+      "source_path": "html/VNM/VNM-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_75c1fdaa4a24d7bf",
+    "text": "Three people were killed in a road traffic collision in Ha Noi.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e37348d8459b928d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e37348d8459b928d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Vietnam News",
+      "source_path": "html/VNM/VNM-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_75c1fdaa4a24d7bf",
+    "text": "Publisher: Vietnam News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_53d4b3051f747203",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_53d4b3051f747203",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://vietnamnews.vn/society/1723195/three-killed-in-traffic-accident-in-ha-noi.html",
+      "source_path": "html/VNM/VNM-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_75c1fdaa4a24d7bf",
+    "text": "Original source: https://vietnamnews.vn/society/1723195/three-killed-in-traffic-accident-in-ha-noi.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6d98603dcc293f8c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6d98603dcc293f8c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_75c1fdaa4a24d7bf",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_14b6867e427a2d28",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_14b6867e427a2d28",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://vietnamnews.vn/society/1723195/three-killed-in-traffic-accident-in-ha-noi.html",
+      "source_path": "html/VNM/VNM-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_75c1fdaa4a24d7bf",
+    "text": "https://vietnamnews.vn/society/1723195/three-killed-in-traffic-accident-in-ha-noi.html",
+    "url": null
+  }
+]

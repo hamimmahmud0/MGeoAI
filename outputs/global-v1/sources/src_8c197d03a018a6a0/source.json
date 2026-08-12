@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8de6e4861c3614f4e75b4604ea2fe27f6729fee7b4c8022cd8cbc7b4d69eac04",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "presseportal",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-24T07:00:00Z",
+  "publisher": "Presseportal",
+  "schema_version": "1.0.0",
+  "source_id": "src_8c197d03a018a6a0",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-07-24T07:00:00+00:00",
+    "source_info_hash": "b4b364df71d35630",
+    "source_info_path": "html/DEU/DEU-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.presseportal.de/blaulicht/pm/108747/6320798",
+  "timezone": "Europe/Berlin",
+  "title": "POL-NB: Vierjähriger Junge bei Verkehrsunfall in Glowe verletzt"
+}

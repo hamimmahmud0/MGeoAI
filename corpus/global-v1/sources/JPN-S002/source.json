@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S002",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "MustShareNews",
+  "canonical_url": "https://mustsharenews.com/kindergarten-bus-crashes/amp/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://mustsharenews.com/kindergarten-bus-crashes/amp/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=kindergarten+bus+Chiba+killing+driver",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "61e8d171917bcaa02db40a3403366556b3e55e69e7658d638283bb136623e2e8",
+      "size_bytes": 884,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:42:59.506919+06:00",
+  "published_at": "2025-09-30T08:33:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "mustsharenews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S002"
+}

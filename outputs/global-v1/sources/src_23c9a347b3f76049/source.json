@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ddd56939bb3e802624df6549ebb9e33a41b5a829f4b80ed013b1de0eb4df3f67",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "fakt",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-17T07:00:00Z",
+  "publisher": "Fakt",
+  "schema_version": "1.0.0",
+  "source_id": "src_23c9a347b3f76049",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-04-17T07:00:00+00:00",
+    "source_info_hash": "b8f55dbba1dfb4d7",
+    "source_info_path": "html/POL/POL-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.fakt.pl/wydarzenia/polska/poznan/poznan-kierowca-zginal-w-wypadku-na-s11-auto-zniknelo-w-scianie/tvp2kd9",
+  "timezone": "Europe/Warsaw",
+  "title": "Kierowca zginął w wypadku na S11 pod Poznaniem. Z auta nic nie zostało"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c9da38b4aeb1f576",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c9da38b4aeb1f576",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Number of Bangladeshi pilgrims who died in Saudi bus accident climbs to 18",
+      "source_path": "html/SAU/SAU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d9ffe7a8b5b441b",
+    "text": "Number of Bangladeshi pilgrims who died in Saudi bus accident climbs to 18",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4ae45c735885b477",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4ae45c735885b477",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-03-29T09:52:00+03:00",
+      "source_path": "html/SAU/SAU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d9ffe7a8b5b441b",
+    "text": "2023-03-29T09:52:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50118a61bbe7b08d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_50118a61bbe7b08d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Another six Bangladeshi nationals have been identified among the 22 Umrah pilgrims who died in a fiery bus crash in Saudi Arabia's southwestern Asir province ...",
+      "source_path": "html/SAU/SAU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d9ffe7a8b5b441b",
+    "text": "Another six Bangladeshi nationals have been identified among the 22 Umrah pilgrims who died in a fiery bus crash in Saudi Arabia's southwestern Asir province ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2eb7de2f6519f607",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2eb7de2f6519f607",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/SAU/SAU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d9ffe7a8b5b441b",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e8f7ed6f7124d529",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e8f7ed6f7124d529",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/m9u7qpmyz1",
+      "source_path": "html/SAU/SAU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d9ffe7a8b5b441b",
+    "text": "Original source: https://bdnews24.com/bangladesh/m9u7qpmyz1",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9ccbf02f31db285",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9ccbf02f31db285",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d9ffe7a8b5b441b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

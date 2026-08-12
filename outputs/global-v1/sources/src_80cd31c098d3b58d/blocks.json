@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_989419f454a12d32",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_989419f454a12d32",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bucheon crash renews debate on older drivers",
+      "source_path": "html/KOR/KOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80cd31c098d3b58d",
+    "text": "Bucheon crash renews debate on older drivers",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6bebd57c915c8797",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6bebd57c915c8797",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-15T13:00:00+09:00",
+      "source_path": "html/KOR/KOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80cd31c098d3b58d",
+    "text": "2025-11-15T13:00:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_103ac93cb6de0717",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_103ac93cb6de0717",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At Jeil Market in Bucheon, Gyeonggi Province, few anticipated the moment Thursday a 1-ton truck would surge into the crowd, killing two people and leaving ...",
+      "source_path": "html/KOR/KOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80cd31c098d3b58d",
+    "text": "At Jeil Market in Bucheon, Gyeonggi Province, few anticipated the moment Thursday a 1-ton truck would surge into the crowd, killing two people and leaving ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a01d7873722f7ce1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a01d7873722f7ce1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Korea Times",
+      "source_path": "html/KOR/KOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80cd31c098d3b58d",
+    "text": "Publisher: The Korea Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4aeae4f52e210f29",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4aeae4f52e210f29",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.koreatimes.co.kr/southkorea/society/20251115/bucheon-crash-renews-debate-on-older-drivers",
+      "source_path": "html/KOR/KOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80cd31c098d3b58d",
+    "text": "Original source: https://www.koreatimes.co.kr/southkorea/society/20251115/bucheon-crash-renews-debate-on-older-drivers",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3ed4f1e3a1d9f2e9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3ed4f1e3a1d9f2e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80cd31c098d3b58d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_22976f25de73fa03",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_22976f25de73fa03",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.koreatimes.co.kr/southkorea/society/20251115/bucheon-crash-renews-debate-on-older-drivers",
+      "source_path": "html/KOR/KOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80cd31c098d3b58d",
+    "text": "https://www.koreatimes.co.kr/southkorea/society/20251115/bucheon-crash-renews-debate-on-older-drivers",
+    "url": null
+  }
+]

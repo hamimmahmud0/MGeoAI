@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_702a8537ad417192",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_702a8537ad417192",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Horrific footage shows motorcyclist flying through air after head-on crash",
+      "source_path": "html/AUS/AUS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c660ad9f17dc9",
+    "text": "Horrific footage shows motorcyclist flying through air after head-on crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_078db5bb8fc24e05",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_078db5bb8fc24e05",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-06-17T08:34:00+10:00",
+      "source_path": "html/AUS/AUS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c660ad9f17dc9",
+    "text": "2019-06-17T08:34:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6a441d8c51b043fd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6a441d8c51b043fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Shocking dashcam footage of a motorcycle accident in northern Sydney has appeared online after the rider was airlifted to hospital. The incident happened on the ...",
+      "source_path": "html/AUS/AUS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c660ad9f17dc9",
+    "text": "Shocking dashcam footage of a motorcycle accident in northern Sydney has appeared online after the rider was airlifted to hospital. The incident happened on the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cea5a7edc56b6d76",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cea5a7edc56b6d76",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yahoo Sport Australia",
+      "source_path": "html/AUS/AUS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c660ad9f17dc9",
+    "text": "Publisher: Yahoo Sport Australia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_72dec8ccc02c0a79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_72dec8ccc02c0a79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://au.sports.yahoo.com/horrific-footage-shows-motorcycle-flying-after-head-on-crash-053450538.html",
+      "source_path": "html/AUS/AUS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c660ad9f17dc9",
+    "text": "Original source: https://au.sports.yahoo.com/horrific-footage-shows-motorcycle-flying-after-head-on-crash-053450538.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8fafc963d758e0ee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8fafc963d758e0ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c660ad9f17dc9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef5aee806da18512",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ef5aee806da18512",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://au.sports.yahoo.com/horrific-footage-shows-motorcycle-flying-after-head-on-crash-053450538.html",
+      "source_path": "html/AUS/AUS-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c660ad9f17dc9",
+    "text": "https://au.sports.yahoo.com/horrific-footage-shows-motorcycle-flying-after-head-on-crash-053450538.html",
+    "url": null
+  }
+]

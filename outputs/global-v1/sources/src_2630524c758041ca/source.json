@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b216b11f034f33bea29062ee40ab425b1299a396c4e19caed505363556382744",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "kcra",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-21T07:00:00Z",
+  "publisher": "KCRA",
+  "schema_version": "1.0.0",
+  "source_id": "src_2630524c758041ca",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-21T07:00:00+00:00",
+    "source_info_hash": "328d0498d3317cff",
+    "source_info_path": "html/USA/USA-S009/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.kcra.com/article/kaylee-hottle-maryland-car-crash-dead-18/73209929",
+  "timezone": "America/Chicago",
+  "title": "‘Godzilla vs. Kong’ child star dead at 18 following Maryland car crash"
+}

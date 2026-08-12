@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "GHA-S007",
+  "country_code": "GHA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Ghanaian Times",
+  "canonical_url": "https://ghanaiantimes.com.gh/fatal-peki-tsame-road-crash-claims-15-lives-25-injured/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://ghanaiantimes.com.gh/fatal-peki-tsame-road-crash-claims-15-lives-25-injured/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=GH%3Aen&gl=GH&hl=en-GH&q=%28road+crash+OR+traffic+accident+OR+collision%29+Ghana+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "a5f150df90e922e8f220fd70d0dfb81ede3da9aa8d87839a243b7e5b697d0e38",
+      "size_bytes": 1007,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "vehicle crash"
+  ],
+  "timezone": "Africa/Accra",
+  "captured_at": "2026-08-11T21:51:32.732472Z",
+  "published_at": "2026-06-02T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ghanaiantimes.com.gh",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-GHA-S007"
+}

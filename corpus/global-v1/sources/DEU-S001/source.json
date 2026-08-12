@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "DEU-S001",
+  "country_code": "DEU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Bayerisches Rotes Kreuz",
+  "canonical_url": "https://www.brk.de/aktuell/presse/meldung/grosseinsatz-nach-tragischem-busunglueck.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.brk.de/aktuell/presse/meldung/grosseinsatz-nach-tragischem-busunglueck.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Hebertshausen+Busunfall+10+Juni+2026",
+      "label": "Discovery record (web_search_direct_access_check)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "df387a046bc3c57d6293e325d98cb6b6ac8f1b4ddc19284e322d28feb7464ace",
+      "size_bytes": 1018,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "traffic_keywords": [
+    "Verkehrsunfall",
+    "Autounfall",
+    "Busunfall",
+    "Zusammenstoß"
+  ],
+  "timezone": "Europe/Berlin",
+  "captured_at": "2026-08-12T00:00:00Z",
+  "published_at": "2026-06-10T00:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "brk.de",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-DEU-S001"
+}

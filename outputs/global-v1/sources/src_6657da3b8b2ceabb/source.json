@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1c2c606261dee7ffefea7aaaaec0e7e38b7e8cabee780b69836ffdfdbbb7fb25",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "expressen",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-22T07:00:00Z",
+  "publisher": "Expressen",
+  "schema_version": "1.0.0",
+  "source_id": "src_6657da3b8b2ceabb",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2026-07-22T07:00:00+00:00",
+    "source_info_hash": "b830e0c4f7a21f36",
+    "source_info_path": "html/SWE/SWE-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.expressen.se/nyheter/sverige/ratsits-vd-dod-i-trafikolycka-pa-mallorca/",
+  "timezone": "Europe/Stockholm",
+  "title": "Ratsits vd Thony Wissmar död i trafikolycka på Mallorca."
+}

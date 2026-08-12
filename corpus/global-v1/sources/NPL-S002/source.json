@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NPL-S002",
+  "country_code": "NPL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The New York Times",
+  "canonical_url": "https://www.nytimes.com/2024/08/24/world/asia/nepal-deadly-bus-crash.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nytimes.com/2024/08/24/world/asia/nepal-deadly-bus-crash.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Nepal%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ee5a27ad8c3f626abe96c0aba5cf9cd66bfd4b206c3bfd927f34c2c67c493745",
+      "size_bytes": 999,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "सडक दुर्घटना",
+    "बस दुर्घटना",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kathmandu",
+  "captured_at": "2026-08-12T03:55:02.409922+06:00",
+  "published_at": "2024-08-24T03:24:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nytimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NPL-S002"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c34bea156c755600",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c34bea156c755600",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus crash blaze kills 38 in Tanzania",
+      "source_path": "html/TZA/TZA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80fafc39f680b9fe",
+    "text": "Bus crash blaze kills 38 in Tanzania",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8972409a84b3b466",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8972409a84b3b466",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-29T15:38:00+03:00",
+      "source_path": "html/TZA/TZA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80fafc39f680b9fe",
+    "text": "2025-06-29T15:38:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57f7f26826a7e685",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_57f7f26826a7e685",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A collision between a bus and minibus in Tanzania has killed 38 people after both vehicles were set on fire by the crash, the presidency ...",
+      "source_path": "html/TZA/TZA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80fafc39f680b9fe",
+    "text": "A collision between a bus and minibus in Tanzania has killed 38 people after both vehicles were set on fire by the crash, the presidency ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c91c97ed939264d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c91c97ed939264d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Daily Star",
+      "source_path": "html/TZA/TZA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80fafc39f680b9fe",
+    "text": "Publisher: The Daily Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba2c04533bcbd067",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba2c04533bcbd067",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thedailystar.net/news/world/news/bus-crash-blaze-kills-38-tanzania-3928846",
+      "source_path": "html/TZA/TZA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80fafc39f680b9fe",
+    "text": "Original source: https://www.thedailystar.net/news/world/news/bus-crash-blaze-kills-38-tanzania-3928846",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7dae6066cc360283",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7dae6066cc360283",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80fafc39f680b9fe",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4906a08f7053dd30",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4906a08f7053dd30",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thedailystar.net/news/world/news/bus-crash-blaze-kills-38-tanzania-3928846",
+      "source_path": "html/TZA/TZA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80fafc39f680b9fe",
+    "text": "https://www.thedailystar.net/news/world/news/bus-crash-blaze-kills-38-tanzania-3928846",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5158f990c7e6f84f52afdaffb2e4d4085d8e3511da329dd19d706fd9cb50ea4f",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "outre-mer la 1ère",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-06T07:00:00Z",
+  "publisher": "Outre-mer La 1ère",
+  "schema_version": "1.0.0",
+  "source_id": "src_3aa46896fb6a7999",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-06-06T07:00:00+00:00",
+    "source_info_hash": "ffc378540c77dd20",
+    "source_info_path": "html/FRA/FRA-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://la1ere.franceinfo.fr/nouvellecaledonie/deux-morts-dans-un-accident-de-la-route-a-ouvea-1708156.html",
+  "timezone": "Europe/Paris",
+  "title": "Deux morts dans un accident de la route à Ouvéa"
+}

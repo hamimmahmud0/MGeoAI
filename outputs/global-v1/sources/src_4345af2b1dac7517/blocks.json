@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4a937f980640984a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4a937f980640984a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 10 killed, dozens injured in Philippines road crash",
+      "source_path": "html/PHL/PHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4345af2b1dac7517",
+    "text": "At least 10 killed, dozens injured in Philippines road crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_850e49f57419a36a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_850e49f57419a36a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-01T23:12:00+08:00",
+      "source_path": "html/PHL/PHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4345af2b1dac7517",
+    "text": "2025-05-01T23:12:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c9bc4eb7ec08fb08",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c9bc4eb7ec08fb08",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Police said the bus driver fell asleep at the wheel, causing a pile-up on the Subic-Clark-Tarlac expressway north of Manila. (Philippine Red Cross pic) At ...",
+      "source_path": "html/PHL/PHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4345af2b1dac7517",
+    "text": "Police said the bus driver fell asleep at the wheel, causing a pile-up on the Subic-Clark-Tarlac expressway north of Manila. (Philippine Red Cross pic) At ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88a568f9b21b980b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88a568f9b21b980b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Free Malaysia Today",
+      "source_path": "html/PHL/PHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4345af2b1dac7517",
+    "text": "Publisher: Free Malaysia Today",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17534ac98c2e99ac",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17534ac98c2e99ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.freemalaysiatoday.com/category/world/2025/05/01/at-least-10-killed-dozens-injured-in-philippines-road-crash",
+      "source_path": "html/PHL/PHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4345af2b1dac7517",
+    "text": "Original source: https://www.freemalaysiatoday.com/category/world/2025/05/01/at-least-10-killed-dozens-injured-in-philippines-road-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a944b46eb01998c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a944b46eb01998c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4345af2b1dac7517",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fc1259d957ce75c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fc1259d957ce75c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.freemalaysiatoday.com/category/world/2025/05/01/at-least-10-killed-dozens-injured-in-philippines-road-crash",
+      "source_path": "html/PHL/PHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4345af2b1dac7517",
+    "text": "https://www.freemalaysiatoday.com/category/world/2025/05/01/at-least-10-killed-dozens-injured-in-philippines-road-crash",
+    "url": null
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1f8b4daf0cfcdc0252eb241cc258b40ad2fc405765835466d69addd34ccc4a9d",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "bbc",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-31T08:00:00Z",
+  "publisher": "BBC",
+  "schema_version": "1.0.0",
+  "source_id": "src_e8b528533ab33db6",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2025-12-31T08:00:00+00:00",
+    "source_info_hash": "6cfaaa962c0f6717",
+    "source_info_path": "html/NGA/NGA-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bbc.com/news/articles/c5yvdw77j04o",
+  "timezone": "Africa/Lagos",
+  "title": "Anthony Joshua discharged from hospital after Nigeria car crash"
+}

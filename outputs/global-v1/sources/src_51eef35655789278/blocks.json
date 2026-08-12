@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_dba0abdd60ae0944",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_dba0abdd60ae0944",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Choque vehicular que causó un incendio en Ecuador deja 10 muertos",
+      "source_path": "html/ECU/ECU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_51eef35655789278",
+    "text": "Choque vehicular que causó un incendio en Ecuador deja 10 muertos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_85e0dd8e37afa8c0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_85e0dd8e37afa8c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-14T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_51eef35655789278",
+    "text": "2026-06-14T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_49acd61537538ad0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_49acd61537538ad0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: elespectador.com",
+      "source_path": "html/ECU/ECU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_51eef35655789278",
+    "text": "Publisher: elespectador.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d34b6db9ccf13234",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d34b6db9ccf13234",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.elespectador.com/mundo/america/choque-vehicular-que-causo-un-incendio-en-ecuador-deja-10-muertos/",
+      "source_path": "html/ECU/ECU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_51eef35655789278",
+    "text": "Original source: https://www.elespectador.com/mundo/america/choque-vehicular-que-causo-un-incendio-en-ecuador-deja-10-muertos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dc21b7ff4823c970",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dc21b7ff4823c970",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_51eef35655789278",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_befcf0428947dc20",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_befcf0428947dc20",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.elespectador.com/mundo/america/choque-vehicular-que-causo-un-incendio-en-ecuador-deja-10-muertos/",
+      "source_path": "html/ECU/ECU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_51eef35655789278",
+    "text": "https://www.elespectador.com/mundo/america/choque-vehicular-que-causo-un-incendio-en-ecuador-deja-10-muertos/",
+    "url": null
+  }
+]

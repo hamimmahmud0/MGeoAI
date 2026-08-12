@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9dd43e6104f9c30f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9dd43e6104f9c30f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Trágico accidente de tránsito terminó con incendio y dos muertos en Guanacaste",
+      "source_path": "html/CRI/CRI-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_276fc37ce7c04ddd",
+    "text": "Trágico accidente de tránsito terminó con incendio y dos muertos en Guanacaste",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cf5df16a4f8dd366",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cf5df16a4f8dd366",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-17T01:00:00-06:00",
+      "source_path": "html/CRI/CRI-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_276fc37ce7c04ddd",
+    "text": "2026-05-17T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_941c6bf778bb7422",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_941c6bf778bb7422",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Teja",
+      "source_path": "html/CRI/CRI-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_276fc37ce7c04ddd",
+    "text": "Publisher: La Teja",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae846019ca9fd9db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae846019ca9fd9db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.lateja.cr/sucesos/tragico-accidente-de-transito-termino-con-incendio/KFG6PD5VVBFZTD565BX4PCLS6M/story/",
+      "source_path": "html/CRI/CRI-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_276fc37ce7c04ddd",
+    "text": "Original source: https://www.lateja.cr/sucesos/tragico-accidente-de-transito-termino-con-incendio/KFG6PD5VVBFZTD565BX4PCLS6M/story/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2afdbf78b550c45a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2afdbf78b550c45a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_276fc37ce7c04ddd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_492c9340c56d1144",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_492c9340c56d1144",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.lateja.cr/sucesos/tragico-accidente-de-transito-termino-con-incendio/KFG6PD5VVBFZTD565BX4PCLS6M/story/",
+      "source_path": "html/CRI/CRI-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_276fc37ce7c04ddd",
+    "text": "https://www.lateja.cr/sucesos/tragico-accidente-de-transito-termino-con-incendio/KFG6PD5VVBFZTD565BX4PCLS6M/story/",
+    "url": null
+  }
+]

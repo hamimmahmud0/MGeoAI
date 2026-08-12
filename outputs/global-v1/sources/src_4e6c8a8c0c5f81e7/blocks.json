@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cac06ab1d47029aa",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cac06ab1d47029aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Man dies following traffic accident in Hougang",
+      "source_path": "html/SGP/SGP-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4e6c8a8c0c5f81e7",
+    "text": "Man dies following traffic accident in Hougang",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_179e3d2de9bb3b38",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_179e3d2de9bb3b38",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T00:14:00+08:00",
+      "source_path": "html/SGP/SGP-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4e6c8a8c0c5f81e7",
+    "text": "2026-08-08T00:14:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_204ff6dfc95dd668",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_204ff6dfc95dd668",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "It was believed that the car had skidded on its own, the police said. Read more at straitstimes.com. Read more at straitstimes.com.",
+      "source_path": "html/SGP/SGP-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4e6c8a8c0c5f81e7",
+    "text": "It was believed that the car had skidded on its own, the police said. Read more at straitstimes.com. Read more at straitstimes.com.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae779dff091258a7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae779dff091258a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Straits Times",
+      "source_path": "html/SGP/SGP-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4e6c8a8c0c5f81e7",
+    "text": "Publisher: The Straits Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f7752d8eca6d226",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f7752d8eca6d226",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.straitstimes.com/singapore/man-dies-following-traffic-accident-in-hougang",
+      "source_path": "html/SGP/SGP-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4e6c8a8c0c5f81e7",
+    "text": "Original source: https://www.straitstimes.com/singapore/man-dies-following-traffic-accident-in-hougang",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b8f5eeac76d57902",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b8f5eeac76d57902",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SGP/SGP-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4e6c8a8c0c5f81e7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d331d97aca5d16de",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d331d97aca5d16de",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.straitstimes.com/singapore/man-dies-following-traffic-accident-in-hougang",
+      "source_path": "html/SGP/SGP-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4e6c8a8c0c5f81e7",
+    "text": "https://www.straitstimes.com/singapore/man-dies-following-traffic-accident-in-hougang",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "85559b7a5d4abfba5f1982ba3b1016546f1fe2982e8d2604488a5fd2b0afcf98",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "al bawaba news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2004-11-01T18:00:00Z",
+  "publisher": "Al Bawaba News",
+  "schema_version": "1.0.0",
+  "source_id": "src_0098fe4390f5c6f5",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2004-11-01T18:00:00+00:00",
+    "source_info_hash": "b4abe599025775ea",
+    "source_info_path": "html/TUN/TUN-S003/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.albawaba.com/news/12-people-die-series-traffic-accidents-tunisia",
+  "timezone": "Africa/Tunis",
+  "title": "12 people die in a series of traffic accidents in Tunisia"
+}

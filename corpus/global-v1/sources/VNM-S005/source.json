@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S005",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Yonhap News Agency",
+  "canonical_url": "https://en.yna.co.kr/view/AEN20230611003600315",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://en.yna.co.kr/view/AEN20230611003600315",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Hanoi%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "9aceab921ca9ad83a63c7b6e99c0f876140cd06db7125c5a437dcff489778f15",
+      "size_bytes": 864,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:49:46.126437+06:00",
+  "published_at": "2023-06-11T16:05:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "en.yna.co.kr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S005"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_78f1eed45e699d21",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_78f1eed45e699d21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Accidente de tránsito mantiene cerrada parcialmente la Vía al Mar: hay múltiples heridos",
+      "source_path": "html/COL/COL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_52d84d4775fc5394",
+    "text": "Accidente de tránsito mantiene cerrada parcialmente la Vía al Mar: hay múltiples heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_302403c463b6a2a6",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_302403c463b6a2a6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-19T02:00:00-05:00",
+      "source_path": "html/COL/COL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_52d84d4775fc5394",
+    "text": "2026-05-19T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1dcff6c2d332e373",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1dcff6c2d332e373",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ELHERALDO.CO",
+      "source_path": "html/COL/COL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_52d84d4775fc5394",
+    "text": "Publisher: ELHERALDO.CO",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e89b24e1baaf5452",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e89b24e1baaf5452",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.elheraldo.co/judicial/2026/05/19/accidente-de-transito-mantiene-cerrada-parcialmente-la-via-al-mar-hay-multiples-heridos/",
+      "source_path": "html/COL/COL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_52d84d4775fc5394",
+    "text": "Original source: https://www.elheraldo.co/judicial/2026/05/19/accidente-de-transito-mantiene-cerrada-parcialmente-la-via-al-mar-hay-multiples-heridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_83784616f2fc62c9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_83784616f2fc62c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_52d84d4775fc5394",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_75f8d91b7dcc0e41",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_75f8d91b7dcc0e41",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.elheraldo.co/judicial/2026/05/19/accidente-de-transito-mantiene-cerrada-parcialmente-la-via-al-mar-hay-multiples-heridos/",
+      "source_path": "html/COL/COL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_52d84d4775fc5394",
+    "text": "https://www.elheraldo.co/judicial/2026/05/19/accidente-de-transito-mantiene-cerrada-parcialmente-la-via-al-mar-hay-multiples-heridos/",
+    "url": null
+  }
+]

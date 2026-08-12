@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6576f3eda8c4801994bfcb848d6501ec490e5c2b72c615e9e812b6d8db2fa397",
+  "country": "Thailand",
+  "country_code": "THA",
+  "dependency_group": "eturbonews",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/THA/THA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2023-12-17T19:58:00Z",
+  "publisher": "eturbonews",
+  "schema_version": "1.0.0",
+  "source_id": "src_94ae39a960134c11",
+  "source_metadata": {
+    "country": "Thailand",
+    "country_code": "THA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2023-12-17T19:58:00+00:00",
+    "source_info_hash": "3242a6e546214324",
+    "source_info_path": "html/THA/THA-S007/SOURCE_INFO.md",
+    "timezone": "Asia/Bangkok",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "อุบัติเหตุทางถนน",
+      "รถชน",
+      "รถบัสชน",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://eturbonews.com/ghanaian-tourist-kills-one-thailand-road-accident/",
+  "timezone": "Asia/Bangkok",
+  "title": "Ghanaian Tourist Kills One in Thailand Road Accident"
+}

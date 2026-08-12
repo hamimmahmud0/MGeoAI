@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b4807762ae453e6d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b4807762ae453e6d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un mort et quatre blessés après un grave accident de la route impliquant deux véhicules en Vendée",
+      "source_path": "html/FRA/FRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e747d4f13854d5b",
+    "text": "Un mort et quatre blessés après un grave accident de la route impliquant deux véhicules en Vendée",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_703762298bc04584",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_703762298bc04584",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-02T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e747d4f13854d5b",
+    "text": "2026-08-02T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f708867953d8736",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f708867953d8736",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: France 3 Régions",
+      "source_path": "html/FRA/FRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e747d4f13854d5b",
+    "text": "Publisher: France 3 Régions",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f7fe4d9cdbe0129e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f7fe4d9cdbe0129e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://france3-regions.franceinfo.fr/pays-de-la-loire/vendee/la-roche-sur-yon/un-mort-et-quatre-blesses-apres-un-grave-accident-de-la-route-impliquant-deux-vehicules-en-vendee-3395656.html",
+      "source_path": "html/FRA/FRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e747d4f13854d5b",
+    "text": "Original source: https://france3-regions.franceinfo.fr/pays-de-la-loire/vendee/la-roche-sur-yon/un-mort-et-quatre-blesses-apres-un-grave-accident-de-la-route-impliquant-deux-vehicules-en-vendee-3395656.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cce98b38cbe5eba0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cce98b38cbe5eba0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e747d4f13854d5b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7afa7a102c5da864",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7afa7a102c5da864",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://france3-regions.franceinfo.fr/pays-de-la-loire/vendee/la-roche-sur-yon/un-mort-et-quatre-blesses-apres-un-grave-accident-de-la-route-impliquant-deux-vehicules-en-vendee-3395656.html",
+      "source_path": "html/FRA/FRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e747d4f13854d5b",
+    "text": "https://france3-regions.franceinfo.fr/pays-de-la-loire/vendee/la-roche-sur-yon/un-mort-et-quatre-blesses-apres-un-grave-accident-de-la-route-impliquant-deux-vehicules-en-vendee-3395656.html",
+    "url": null
+  }
+]

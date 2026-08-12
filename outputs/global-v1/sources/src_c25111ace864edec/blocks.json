@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_48c37f4191721e05",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_48c37f4191721e05",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tragic accident in Philippines: 17 killed as van engulfed in flames after collision with cargo truck",
+      "source_path": "html/PHL/PHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c25111ace864edec",
+    "text": "Tragic accident in Philippines: 17 killed as van engulfed in flames after collision with cargo truck",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_070a1d5b47e4ef2e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_070a1d5b47e4ef2e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-03-25T21:55:00+08:00",
+      "source_path": "html/PHL/PHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c25111ace864edec",
+    "text": "2024-03-25T21:55:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d525247d5f894a9d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d525247d5f894a9d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three other people were injured by the midday collision on the accident-prone road Add as a preferred source on Google Deadly road accidents are common ...",
+      "source_path": "html/PHL/PHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c25111ace864edec",
+    "text": "Three other people were injured by the midday collision on the accident-prone road Add as a preferred source on Google Deadly road accidents are common ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cbb67e1ec651156d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cbb67e1ec651156d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Gulf News",
+      "source_path": "html/PHL/PHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c25111ace864edec",
+    "text": "Publisher: Gulf News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8b3a7bbf1bbaa56",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8b3a7bbf1bbaa56",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://gulfnews.com/world/asia/philippines/tragic-accident-in-philippines-17-killed-as-van-engulfed-in-flames-after-collision-with-cargo-truck-1.1711385618880",
+      "source_path": "html/PHL/PHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c25111ace864edec",
+    "text": "Original source: https://gulfnews.com/world/asia/philippines/tragic-accident-in-philippines-17-killed-as-van-engulfed-in-flames-after-collision-with-cargo-truck-1.1711385618880",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd12c41fc0efb1ed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd12c41fc0efb1ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c25111ace864edec",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae6913e04293d293",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae6913e04293d293",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://gulfnews.com/world/asia/philippines/tragic-accident-in-philippines-17-killed-as-van-engulfed-in-flames-after-collision-with-cargo-truck-1.1711385618880",
+      "source_path": "html/PHL/PHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c25111ace864edec",
+    "text": "https://gulfnews.com/world/asia/philippines/tragic-accident-in-philippines-17-killed-as-van-engulfed-in-flames-after-collision-with-cargo-truck-1.1711385618880",
+    "url": null
+  }
+]

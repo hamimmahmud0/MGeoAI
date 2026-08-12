@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c93928e96ca58f3919682c33e60845269bc2a680ce0b2accd2c74ed752c4e0b4",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "elheraldo.co",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-19T07:00:00Z",
+  "publisher": "ELHERALDO.CO",
+  "schema_version": "1.0.0",
+  "source_id": "src_52d84d4775fc5394",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-19T07:00:00+00:00",
+    "source_info_hash": "914fedef50fef406",
+    "source_info_path": "html/COL/COL-S005/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.elheraldo.co/judicial/2026/05/19/accidente-de-transito-mantiene-cerrada-parcialmente-la-via-al-mar-hay-multiples-heridos/",
+  "timezone": "America/Bogota",
+  "title": "Accidente de tránsito mantiene cerrada parcialmente la Vía al Mar: hay múltiples heridos"
+}

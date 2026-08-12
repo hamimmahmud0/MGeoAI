@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "UGA-S002",
+  "country_code": "UGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Yahoo News UK",
+  "canonical_url": "https://uk.news.yahoo.com/uganda-halts-school-trips-bus-150900306.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://uk.news.yahoo.com/uganda-halts-school-trips-bus-150900306.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Uganda%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "13ff2a2347d051c0e2f8a10bf614369a4ea948e1d7e613c40dc1cbed42616143",
+      "size_bytes": 932,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus accident",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Kampala",
+  "captured_at": "2026-08-11T21:55:58.323780Z",
+  "published_at": "2026-07-17T08:09:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "uk.news.yahoo.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-UGA-S002"
+}

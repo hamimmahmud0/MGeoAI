@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3f4c86ab51f0119b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3f4c86ab51f0119b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Indonesia bus crash kills 16, rescuer says",
+      "source_path": "html/IDN/IDN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5013111f9009d650",
+    "text": "Indonesia bus crash kills 16, rescuer says",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a860f3acd26a72ee",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a860f3acd26a72ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-22T12:32:00+07:00",
+      "source_path": "html/IDN/IDN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5013111f9009d650",
+    "text": "2025-12-22T12:32:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fd819a4af397fdea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fd819a4af397fdea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "This handout picture from Indonesia’s National Search and Rescue Agency (BASARNAS) taken and released on December 22, 2025 shows rescuers attending to a victim of ...",
+      "source_path": "html/IDN/IDN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5013111f9009d650",
+    "text": "This handout picture from Indonesia’s National Search and Rescue Agency (BASARNAS) taken and released on December 22, 2025 shows rescuers attending to a victim of ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e11ba88dd4198dd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3e11ba88dd4198dd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Philippine Daily Inquirer",
+      "source_path": "html/IDN/IDN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5013111f9009d650",
+    "text": "Publisher: Philippine Daily Inquirer",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_46b9fafb1d78af61",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_46b9fafb1d78af61",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://globalnation.inquirer.net/303133/indonesia-bus-crash-kills-16-rescuer-says",
+      "source_path": "html/IDN/IDN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5013111f9009d650",
+    "text": "Original source: https://globalnation.inquirer.net/303133/indonesia-bus-crash-kills-16-rescuer-says",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2537c3575d5054fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2537c3575d5054fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5013111f9009d650",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2fcfa3157974893f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2fcfa3157974893f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://globalnation.inquirer.net/303133/indonesia-bus-crash-kills-16-rescuer-says",
+      "source_path": "html/IDN/IDN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5013111f9009d650",
+    "text": "https://globalnation.inquirer.net/303133/indonesia-bus-crash-kills-16-rescuer-says",
+    "url": null
+  }
+]

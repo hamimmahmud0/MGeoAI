@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ae5e79326676b509db5e6c983c56cec473832a70414fbf7c7756776cc5729a8c",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2021-07-11T08:27:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_00b182403a32cf63",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2021-07-11T08:27:00+00:00",
+    "source_info_hash": "54be68663d27018c",
+    "source_info_path": "html/TUR/TUR-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/252119/bangladeshis-among-12-killed-in-turkey-migrant-bus",
+  "timezone": "Europe/Istanbul",
+  "title": "Bangladeshis among 12 killed in Turkey migrant bus crash"
+}

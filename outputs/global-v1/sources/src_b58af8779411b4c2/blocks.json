@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_528b3801ae200f0a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_528b3801ae200f0a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dubai Road Accident: Several Indian Workers Killed After Minibus Collides With Truck On Emirates Road",
+      "source_path": "html/ARE/ARE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b58af8779411b4c2",
+    "text": "Dubai Road Accident: Several Indian Workers Killed After Minibus Collides With Truck On Emirates Road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_994df9c554c45367",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_994df9c554c45367",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-08T13:36:00+04:00",
+      "source_path": "html/ARE/ARE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b58af8779411b4c2",
+    "text": "2026-06-08T13:36:00+04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_11fe062fb737d438",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_11fe062fb737d438",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dubai: Several Indian workers were killed on Monday when a minibus collided with a truck that had stopped in the middle of a road in ...",
+      "source_path": "html/ARE/ARE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b58af8779411b4c2",
+    "text": "Dubai: Several Indian workers were killed on Monday when a minibus collided with a truck that had stopped in the middle of a road in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d3d5fc41210a4e8d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d3d5fc41210a4e8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Free Press Journal",
+      "source_path": "html/ARE/ARE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b58af8779411b4c2",
+    "text": "Publisher: The Free Press Journal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3cb230272d20c0b3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3cb230272d20c0b3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.freepressjournal.in/world/dubai-road-accident-several-indian-workers-killed-after-minibus-collides-with-truck-on-emirates-road",
+      "source_path": "html/ARE/ARE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b58af8779411b4c2",
+    "text": "Original source: https://www.freepressjournal.in/world/dubai-road-accident-several-indian-workers-killed-after-minibus-collides-with-truck-on-emirates-road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0dd41c47138fe1b2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0dd41c47138fe1b2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARE/ARE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b58af8779411b4c2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_51c453ae1eca501d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_51c453ae1eca501d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.freepressjournal.in/world/dubai-road-accident-several-indian-workers-killed-after-minibus-collides-with-truck-on-emirates-road",
+      "source_path": "html/ARE/ARE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b58af8779411b4c2",
+    "text": "https://www.freepressjournal.in/world/dubai-road-accident-several-indian-workers-killed-after-minibus-collides-with-truck-on-emirates-road",
+    "url": null
+  }
+]

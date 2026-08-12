@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3b0a07a8d9c280bf71fddd4a59bf54e1960506b7edd7de2f0c491f7c660d8d39",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "el periódico de aragón",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-02T07:00:00Z",
+  "publisher": "El Periódico de Aragón",
+  "schema_version": "1.0.0",
+  "source_id": "src_57aa4edee1913152",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-02T07:00:00+00:00",
+    "source_info_hash": "6778d0b0bdde88f3",
+    "source_info_path": "html/ESP/ESP-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.elperiodicodearagon.com/sucesos/sucesos-aragon/2026/06/02/muere-matrimonio-bebe-accidente-trafico-130945380.html",
+  "timezone": "Europe/Madrid",
+  "title": "Muere un hombre de 47 años, una joven de 17 y un bebé en un accidente de tráfico en Agón (Zaragoza)"
+}

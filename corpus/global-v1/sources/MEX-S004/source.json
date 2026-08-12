@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MEX-S004",
+  "country_code": "MEX",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Diario del Yaqui",
+  "canonical_url": "https://diariodelyaqui.mx/sonora/camionazo-en-empalme-deja-un-muerto-y-varios-heridos/140429",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://diariodelyaqui.mx/sonora/camionazo-en-empalme-deja-un-muerto-y-varios-heridos/140429",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=MX%3Aes-419&gl=MX&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22accidente+carretero%22+OR+%22choque+vehicular%22+OR+%22colisi%C3%B3n+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22M%C3%A9xico%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ec8be631e3b5bf731cadddc0195cd605408f9c926b2584a26c2e848d845b1cc0",
+      "size_bytes": 905,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "accidente carretero",
+    "choque vehicular",
+    "colisión vial"
+  ],
+  "timezone": "America/Mexico_City",
+  "captured_at": "2026-08-11T21:57:46Z",
+  "published_at": "2026-08-04T15:33:38Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "diariodelyaqui.mx",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MEX-S004"
+}

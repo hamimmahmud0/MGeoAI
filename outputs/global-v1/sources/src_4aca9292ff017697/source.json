@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "970f45ef1bfaa30e6b7f1c6914eac12314b32c8c6144006275719bc0f04edf0e",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "al bawaba",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/JOR/JOR-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-07-10T04:12:00Z",
+  "publisher": "Al Bawaba",
+  "schema_version": "1.0.0",
+  "source_id": "src_4aca9292ff017697",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2025-07-10T04:12:00+00:00",
+    "source_info_hash": "51c07cbb713caa14",
+    "source_info_path": "html/JOR/JOR-S006/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.albawaba.com/news/1-killed-10-injured-road-accidents-1608430",
+  "timezone": "Asia/Amman",
+  "title": "1 killed, 10 injured in road accidents in Jordan"
+}

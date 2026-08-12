@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2467414980082015",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2467414980082015",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three killed, 15 injured in Accra-Kumasi highway crash",
+      "source_path": "html/GHA/GHA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_507cd5f0ff8f1698",
+    "text": "Three killed, 15 injured in Accra-Kumasi highway crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6af12376cbbbd1a1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6af12376cbbbd1a1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-12T07:00:00+00:00",
+      "source_path": "html/GHA/GHA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_507cd5f0ff8f1698",
+    "text": "2026-05-12T07:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d5ce434582c71821",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d5ce434582c71821",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three people were killed and 15 others injured after a Mitsubishi 4×4 vehicle collided with a Sprinter bus on the Accra-Kumasi Highway at Konongo Three ...",
+      "source_path": "html/GHA/GHA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_507cd5f0ff8f1698",
+    "text": "Three people were killed and 15 others injured after a Mitsubishi 4×4 vehicle collided with a Sprinter bus on the Accra-Kumasi Highway at Konongo Three ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_915ec906a0211506",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_915ec906a0211506",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: asaaseradio.com",
+      "source_path": "html/GHA/GHA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_507cd5f0ff8f1698",
+    "text": "Publisher: asaaseradio.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c66a0af30c9af763",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c66a0af30c9af763",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://asaaseradio.com/three-killed-15-injured-in-accra-kumasi-highway-crash/",
+      "source_path": "html/GHA/GHA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_507cd5f0ff8f1698",
+    "text": "Original source: https://asaaseradio.com/three-killed-15-injured-in-accra-kumasi-highway-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3bbeda02fd241ade",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3bbeda02fd241ade",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_507cd5f0ff8f1698",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cb575a53fe97b782",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cb575a53fe97b782",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://asaaseradio.com/three-killed-15-injured-in-accra-kumasi-highway-crash/",
+      "source_path": "html/GHA/GHA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_507cd5f0ff8f1698",
+    "text": "https://asaaseradio.com/three-killed-15-injured-in-accra-kumasi-highway-crash/",
+    "url": null
+  }
+]

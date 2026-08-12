@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "IND",
+  "name": "India",
+  "languages": [
+    "en",
+    "hi"
+  ],
+  "timezones": [
+    "Asia/Kolkata"
+  ],
+  "target_sources": 12
+}

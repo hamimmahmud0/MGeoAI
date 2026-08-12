@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "570a058d800c1d6f43278540c4c48b72b6e66a366d936b96e6ef05ce3bb9ee2a",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "correio braziliense",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-21T07:00:00Z",
+  "publisher": "Correio Braziliense",
+  "schema_version": "1.0.0",
+  "source_id": "src_fa2c16d6b3d22cd8",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-06-21T07:00:00+00:00",
+    "source_info_hash": "294d8589ff5e16fb",
+    "source_info_path": "html/BRA/BRA-S005/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.correiobraziliense.com.br/brasil/2026/06/7445497-papa-leao-xiv-presta-solidariedade-a-jovens-mortos-em-acidente-no-ceara.html",
+  "timezone": "America/Sao_Paulo",
+  "title": "Papa Leão XIV presta solidariedade a jovens mortos em acidente no Ceará"
+}

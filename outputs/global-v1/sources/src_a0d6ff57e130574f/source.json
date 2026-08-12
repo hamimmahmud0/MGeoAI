@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "307c99d6f40caa1dd435dad82ea51164aa759d78ec57a669c91ad60f9be6bf66",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "fnn prime online",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ja"
+  ],
+  "local_path": "html/JPN/JPN-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-29T04:52:00Z",
+  "publisher": "FNN Prime Online",
+  "schema_version": "1.0.0",
+  "source_id": "src_a0d6ff57e130574f",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "ja"
+    ],
+    "published_at": "2025-09-29T04:52:00+00:00",
+    "source_info_hash": "3c17346ac8e9b4aa",
+    "source_info_path": "html/JPN/JPN-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.fnn.jp/articles/FujiTV/938120",
+  "timezone": "Asia/Tokyo",
+  "title": "送迎中の幼稚園バス事故で男性運転手死亡 園児9人と女性教諭搬送"
+}

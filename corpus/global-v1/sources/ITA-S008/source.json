@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ITA-S008",
+  "country_code": "ITA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Leggo.it",
+  "canonical_url": "https://www.leggo.it/italia/cronache/28_giugno_2026_taranto_incidente_stradale_famiglia_papa_morto_feriti_chi_sono-9620007.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.leggo.it/italia/cronache/28_giugno_2026_taranto_incidente_stradale_famiglia_papa_morto_feriti_chi_sono-9620007.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=IT%3Ait&gl=IT&hl=it&q=%28%22incidente+stradale%22+OR+%22scontro+tra+veicoli%22+OR+%22incidente+automobilistico%22+OR+%22incidente+autobus%22%29+%28morto+OR+morti+OR+ferito+OR+feriti%29+%22Italia%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0ea17173a7633eb36887726ff859d634768c8e1c690ff6318bfe33a48957a47c",
+      "size_bytes": 1023,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "it"
+  ],
+  "traffic_keywords": [
+    "incidente stradale",
+    "scontro tra veicoli",
+    "incidente automobilistico",
+    "incidente autobus"
+  ],
+  "timezone": "Europe/Rome",
+  "captured_at": "2026-08-11T22:01:14Z",
+  "published_at": "2026-06-28T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "leggo.it",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ITA-S008"
+}

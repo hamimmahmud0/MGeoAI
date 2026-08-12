@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SAU-S010",
+  "country_code": "SAU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/south-asia/396641/saudi-arabia-bus-crash-42-indian-umrah-pilgrims",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/south-asia/396641/saudi-arabia-bus-crash-42-indian-umrah-pilgrims",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Saudi+Arabia%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "95e9dc1590d2e6c36468a14d1efb5ce230947d189b829171fd2d706352461c86",
+      "size_bytes": 1062,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "تصادم مركبات",
+    "road accident"
+  ],
+  "timezone": "Asia/Riyadh",
+  "captured_at": "2026-08-12T03:38:52.348381+06:00",
+  "published_at": "2025-11-17T12:08:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SAU-S010"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f81f5586079600c9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f81f5586079600c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Road accident in United Arab Emirates kills three Bangladeshis, injures two more",
+      "source_path": "html/ARE/ARE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db713cd0d811e067",
+    "text": "Road accident in United Arab Emirates kills three Bangladeshis, injures two more",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d1e7fdea5571276",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7d1e7fdea5571276",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2015-09-02T22:01:00+04:00",
+      "source_path": "html/ARE/ARE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db713cd0d811e067",
+    "text": "2015-09-02T22:01:00+04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d07e18cf1c9ee502",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d07e18cf1c9ee502",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The deceased have been identified as Farhad Hossain of Chittagong’s Hathazari and ‘Aktar’ and ‘Ilias’ of Raozan. The injured are ‘Belal’ and ‘Saiful’. The accident ...",
+      "source_path": "html/ARE/ARE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db713cd0d811e067",
+    "text": "The deceased have been identified as Farhad Hossain of Chittagong’s Hathazari and ‘Aktar’ and ‘Ilias’ of Raozan. The injured are ‘Belal’ and ‘Saiful’. The accident ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88233ad25c895a7c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88233ad25c895a7c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/ARE/ARE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db713cd0d811e067",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fbdf3809e6539f4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0fbdf3809e6539f4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/road-accident-in-united-arab-emirates-kills-three-bangladeshis-injures-two-more",
+      "source_path": "html/ARE/ARE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db713cd0d811e067",
+    "text": "Original source: https://bdnews24.com/bangladesh/road-accident-in-united-arab-emirates-kills-three-bangladeshis-injures-two-more",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dee03170f8790558",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dee03170f8790558",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARE/ARE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db713cd0d811e067",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d036b5c3b72e1b12",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d036b5c3b72e1b12",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bdnews24.com/bangladesh/road-accident-in-united-arab-emirates-kills-three-bangladeshis-injures-two-more",
+      "source_path": "html/ARE/ARE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db713cd0d811e067",
+    "text": "https://bdnews24.com/bangladesh/road-accident-in-united-arab-emirates-kills-three-bangladeshis-injures-two-more",
+    "url": null
+  }
+]

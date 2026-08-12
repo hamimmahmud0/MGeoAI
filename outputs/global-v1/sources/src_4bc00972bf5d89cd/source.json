@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "845a4e430f93fd0d6fcbfa1874e4f5c4562fec88280be7872bd2b787ea6edd93",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "hbvl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-29T07:00:00Z",
+  "publisher": "HBVL",
+  "schema_version": "1.0.0",
+  "source_id": "src_4bc00972bf5d89cd",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-05-29T07:00:00+00:00",
+    "source_info_hash": "3c2b14ca995e082e",
+    "source_info_path": "html/BEL/BEL-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hbvl.be/regio/antwerpen/we-hebben-geen-ziel-meer-papa-mama-en-zusje-van-overleden-arthur-12-in-zak-en-as-na-ongeval-buggenhout/153911753.html",
+  "timezone": "Europe/Brussels",
+  "title": "“We hebben geen ziel meer”: papa, mama en zusje van overleden Arthur (12) in zak en as na ongeval Buggenhout"
+}

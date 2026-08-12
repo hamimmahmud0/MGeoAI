@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2e1002d8d94174143a112fb71c4ec15993985da829570a55339c8b634da4fe1d",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "diario1",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/MEX/MEX-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-10T22:30:02Z",
+  "publisher": "Diario1",
+  "schema_version": "1.0.0",
+  "source_id": "src_3ec5ddbb9eb7977d",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-10T22:30:02+00:00",
+    "source_info_hash": "83f113a79240e578",
+    "source_info_path": "html/MEX/MEX-S003/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://diario1.com/nacionales/2026/08/un-muerto-y-dos-lesionados-por-accidente-de-transito-en-san-miguel/",
+  "timezone": "America/Mexico_City",
+  "title": "Un muerto y dos lesionados por accidente de tránsito en San Miguel"
+}

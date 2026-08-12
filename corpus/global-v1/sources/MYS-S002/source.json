@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MYS-S002",
+  "country_code": "MYS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Hindu",
+  "canonical_url": "https://www.thehindu.com/news/international/malaysia-bus-crash-kills-at-least-15-mostly-university-students/article69673814.ece",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thehindu.com/news/international/malaysia-bus-crash-kills-at-least-15-mostly-university-students/article69673814.ece",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Malaysia%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "731f2bd3dc7c568ef46989897fbb0396db43c824be238547fcaa53df18d3e5e9",
+      "size_bytes": 1124,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kemalangan jalan raya",
+    "nahas jalan raya",
+    "kemalangan bas",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "captured_at": "2026-08-12T03:55:02.412969+06:00",
+  "published_at": "2025-06-08T23:45:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thehindu.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MYS-S002"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bde3d991bc625295",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bde3d991bc625295",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Ung mann omkommet i trafikkulykke på E18 i Nordre Follo",
+      "source_path": "html/NOR/NOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_571615eb099a9430",
+    "text": "Ung mann omkommet i trafikkulykke på E18 i Nordre Follo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6c200c061321db8c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6c200c061321db8c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-06T09:00:00+02:00",
+      "source_path": "html/NOR/NOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_571615eb099a9430",
+    "text": "2026-05-06T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d4b5a7c743dffc36",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d4b5a7c743dffc36",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Ung mann omkommet i trafikkulykke på E18 i Nordre Follo Politiet melder om en alvorlig trafikkulykke mellom personbil og lastebil ved Kråkstad.",
+      "source_path": "html/NOR/NOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_571615eb099a9430",
+    "text": "Ung mann omkommet i trafikkulykke på E18 i Nordre Follo Politiet melder om en alvorlig trafikkulykke mellom personbil og lastebil ved Kråkstad.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_580ab72bbe10e921",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_580ab72bbe10e921",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftenposten",
+      "source_path": "html/NOR/NOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_571615eb099a9430",
+    "text": "Publisher: Aftenposten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c363d4d047500642",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c363d4d047500642",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftenposten.no/norge/i/wrR6m4/ung-mann-omkommet-i-trafikkulykke-paa-e18-i-nordre-follo",
+      "source_path": "html/NOR/NOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_571615eb099a9430",
+    "text": "Original source: https://www.aftenposten.no/norge/i/wrR6m4/ung-mann-omkommet-i-trafikkulykke-paa-e18-i-nordre-follo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0227400283814fc9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0227400283814fc9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_571615eb099a9430",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5edc637f8434d38e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5edc637f8434d38e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftenposten.no/norge/i/wrR6m4/ung-mann-omkommet-i-trafikkulykke-paa-e18-i-nordre-follo",
+      "source_path": "html/NOR/NOR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_571615eb099a9430",
+    "text": "https://www.aftenposten.no/norge/i/wrR6m4/ung-mann-omkommet-i-trafikkulykke-paa-e18-i-nordre-follo",
+    "url": null
+  }
+]

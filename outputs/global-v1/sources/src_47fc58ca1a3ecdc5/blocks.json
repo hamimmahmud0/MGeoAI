@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_33a13ba0fcf67b23",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_33a13ba0fcf67b23",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Uganda police say at least 14 people killed in collision between truck and taxi van",
+      "source_path": "html/UGA/UGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47fc58ca1a3ecdc5",
+    "text": "Uganda police say at least 14 people killed in collision between truck and taxi van",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a09263ded37d8018",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a09263ded37d8018",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-04T03:12:00+03:00",
+      "source_path": "html/UGA/UGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47fc58ca1a3ecdc5",
+    "text": "2026-08-04T03:12:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99fa394b36b05d54",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_99fa394b36b05d54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Police in Uganda say at least 14 people have been killed in an accident on a highway when a passenger van operating as a commuter ...",
+      "source_path": "html/UGA/UGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47fc58ca1a3ecdc5",
+    "text": "Police in Uganda say at least 14 people have been killed in an accident on a highway when a passenger van operating as a commuter ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35d899e433a0a403",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_35d899e433a0a403",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Associated Press News",
+      "source_path": "html/UGA/UGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47fc58ca1a3ecdc5",
+    "text": "Publisher: Associated Press News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02bdb6c7abc36c10",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_02bdb6c7abc36c10",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://apnews.com/article/uganda-road-crash-kamunga-kalungu-123c6df4420b2fc667e6e7b720a760a0",
+      "source_path": "html/UGA/UGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47fc58ca1a3ecdc5",
+    "text": "Original source: https://apnews.com/article/uganda-road-crash-kamunga-kalungu-123c6df4420b2fc667e6e7b720a760a0",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fae7f38870b8b82f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fae7f38870b8b82f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47fc58ca1a3ecdc5",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a543bda395733b25",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a543bda395733b25",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://apnews.com/article/uganda-road-crash-kamunga-kalungu-123c6df4420b2fc667e6e7b720a760a0",
+      "source_path": "html/UGA/UGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47fc58ca1a3ecdc5",
+    "text": "https://apnews.com/article/uganda-road-crash-kamunga-kalungu-123c6df4420b2fc667e6e7b720a760a0",
+    "url": null
+  }
+]

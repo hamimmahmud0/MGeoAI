@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4afb14b197512383",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4afb14b197512383",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "'Head-on' Uganda bus collision kills 46, police revise toll down",
+      "source_path": "html/UGA/UGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45722e5e96f6dd3e",
+    "text": "'Head-on' Uganda bus collision kills 46, police revise toll down",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_15b1535093b811b3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_15b1535093b811b3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-10-22T04:50:00+03:00",
+      "source_path": "html/UGA/UGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45722e5e96f6dd3e",
+    "text": "2025-10-22T04:50:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_39262dd3ab007f64",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_39262dd3ab007f64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two buses collided on a major highway in Uganda early on Wednesday, killing 46 people and injuring several others, police said, lowering the death tol ...",
+      "source_path": "html/UGA/UGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45722e5e96f6dd3e",
+    "text": "Two buses collided on a major highway in Uganda early on Wednesday, killing 46 people and injuring several others, police said, lowering the death tol ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_de01308c49488ed6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_de01308c49488ed6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Jacaranda FM",
+      "source_path": "html/UGA/UGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45722e5e96f6dd3e",
+    "text": "Publisher: Jacaranda FM",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b4a51a47d977ace1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b4a51a47d977ace1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.jacarandafm.com/news/news/uganda-bus-collision-kills-46-police-revise-toll-down/",
+      "source_path": "html/UGA/UGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45722e5e96f6dd3e",
+    "text": "Original source: https://www.jacarandafm.com/news/news/uganda-bus-collision-kills-46-police-revise-toll-down/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_58c3cc41248b1808",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_58c3cc41248b1808",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45722e5e96f6dd3e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6e42f303e747ce33",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6e42f303e747ce33",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.jacarandafm.com/news/news/uganda-bus-collision-kills-46-police-revise-toll-down/",
+      "source_path": "html/UGA/UGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45722e5e96f6dd3e",
+    "text": "https://www.jacarandafm.com/news/news/uganda-bus-collision-kills-46-police-revise-toll-down/",
+    "url": null
+  }
+]

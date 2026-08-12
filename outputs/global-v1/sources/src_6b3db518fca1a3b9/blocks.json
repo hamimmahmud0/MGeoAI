@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3512fc2362c0a74b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3512fc2362c0a74b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Puno: accidente de tránsito deja 4 fallecidos y 13 heridos en carretera Juliaca-Arequipa",
+      "source_path": "html/PER/PER-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b3db518fca1a3b9",
+    "text": "Puno: accidente de tránsito deja 4 fallecidos y 13 heridos en carretera Juliaca-Arequipa",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca043aaed7e65ef7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ca043aaed7e65ef7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-04T02:00:00-05:00",
+      "source_path": "html/PER/PER-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b3db518fca1a3b9",
+    "text": "2026-07-04T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c5f6c69a5b238405",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c5f6c69a5b238405",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Agencia Andina",
+      "source_path": "html/PER/PER-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b3db518fca1a3b9",
+    "text": "Publisher: Agencia Andina",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c29d3ec41443dca4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c29d3ec41443dca4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://andina.pe/agencia/noticia-puno-accidente-transito-deja-4-fallecidos-y-13-heridos-carretera-juliacaarequipa-1082304.aspx",
+      "source_path": "html/PER/PER-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b3db518fca1a3b9",
+    "text": "Original source: https://andina.pe/agencia/noticia-puno-accidente-transito-deja-4-fallecidos-y-13-heridos-carretera-juliacaarequipa-1082304.aspx",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a6dbe35266220b8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9a6dbe35266220b8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b3db518fca1a3b9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_31384c81a00f7a95",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_31384c81a00f7a95",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://andina.pe/agencia/noticia-puno-accidente-transito-deja-4-fallecidos-y-13-heridos-carretera-juliacaarequipa-1082304.aspx",
+      "source_path": "html/PER/PER-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b3db518fca1a3b9",
+    "text": "https://andina.pe/agencia/noticia-puno-accidente-transito-deja-4-fallecidos-y-13-heridos-carretera-juliacaarequipa-1082304.aspx",
+    "url": null
+  }
+]

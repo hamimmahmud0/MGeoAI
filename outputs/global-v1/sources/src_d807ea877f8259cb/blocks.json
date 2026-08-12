@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_68aac51b6fbeb32d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_68aac51b6fbeb32d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dode en gewonden bij ongeval met drie vrachtwagens op A17",
+      "source_path": "html/NLD/NLD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d807ea877f8259cb",
+    "text": "Dode en gewonden bij ongeval met drie vrachtwagens op A17",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6e49fdbd695da21e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6e49fdbd695da21e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-28T19:41:00+02:00",
+      "source_path": "html/NLD/NLD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d807ea877f8259cb",
+    "text": "2026-07-28T19:41:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_01815e590acaad1f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_01815e590acaad1f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A three-truck collision on the A17 at Moerdijk killed one person and left two occupants trapped before responders freed them.",
+      "source_path": "html/NLD/NLD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d807ea877f8259cb",
+    "text": "A three-truck collision on the A17 at Moerdijk killed one person and left two occupants trapped before responders freed them.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d707d9284d031bd2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d707d9284d031bd2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Reformatorisch Dagblad",
+      "source_path": "html/NLD/NLD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d807ea877f8259cb",
+    "text": "Publisher: Reformatorisch Dagblad",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a6cb21b17084e257",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a6cb21b17084e257",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.rd.nl/artikel/1157757-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17",
+      "source_path": "html/NLD/NLD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d807ea877f8259cb",
+    "text": "Original source: https://www.rd.nl/artikel/1157757-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_046bf91c2212ec64",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_046bf91c2212ec64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d807ea877f8259cb",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c433176b6538eef7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c433176b6538eef7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.rd.nl/artikel/1157757-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17",
+      "source_path": "html/NLD/NLD-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d807ea877f8259cb",
+    "text": "https://www.rd.nl/artikel/1157757-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17",
+    "url": null
+  }
+]

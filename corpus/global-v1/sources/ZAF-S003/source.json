@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ZAF-S003",
+  "country_code": "ZAF",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "2oceansvibe News",
+  "canonical_url": "https://www.2oceansvibe.com/world/south-africa/triple-tragedy-as-woman-and-baby-killed-by-health-ministers-vehicle-after-husband-died-in-earlier-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.2oceansvibe.com/world/south-africa/triple-tragedy-as-woman-and-baby-killed-by-health-ministers-vehicle-after-husband-died-in-earlier-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=ZA%3Aen&gl=ZA&hl=en-ZA&q=%28road+crash+OR+traffic+accident+OR+collision%29+South+Africa+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "9f7567dca3b88c96e9483e2620c2c42e264be23cc1e97e45fcb9ebe67f5b7555",
+      "size_bytes": 1292,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "taxi crash",
+    "bus accident"
+  ],
+  "timezone": "Africa/Johannesburg",
+  "captured_at": "2026-08-11T21:46:58.787169Z",
+  "published_at": "2026-05-13T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "2oceansvibe.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ZAF-S003"
+}

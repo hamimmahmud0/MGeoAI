@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PAK-S002",
+  "country_code": "PAK",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dawn",
+  "canonical_url": "https://www.dawn.com/news/1836392/28-dead-22-injured-as-quetta-bound-bus-falls-into-ravine-in-balochistans-washuk",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dawn.com/news/1836392/28-dead-22-injured-as-quetta-bound-bus-falls-into-ravine-in-balochistans-washuk",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=28+dead%2C+22+injured+as+Quetta-bound+bus+falls+into+ravine+in+Balochistan%E2%80%99s+Washuk",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "70eb0fa5e45667a8b7cf8387a39399870e4b92c1d1eea0e00f9992c910731e1d",
+      "size_bytes": 1065,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "ٹریفک حادثہ",
+    "سڑک حادثہ",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Karachi",
+  "captured_at": "2026-08-12T03:54:22.729692+06:00",
+  "published_at": "2024-05-29T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dawn.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PAK-S002"
+}

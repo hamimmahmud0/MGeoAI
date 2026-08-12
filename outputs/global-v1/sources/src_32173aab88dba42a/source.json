@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d8fc22943f466cbd147586dae2d80afa2ff626d7f45cdb9f3480e1348fba3cb9",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "gulf daily news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-08-20T17:00:00Z",
+  "publisher": "Gulf Daily News",
+  "schema_version": "1.0.0",
+  "source_id": "src_32173aab88dba42a",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2024-08-20T17:00:00+00:00",
+    "source_info_hash": "8df7edf871702ff2",
+    "source_info_path": "html/TUR/TUR-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.gdnonline.com/Details/1330825/Saudi-math-teacher-killed-in-motorcycle-accident-in-T%C3%BCrkiye",
+  "timezone": "Europe/Istanbul",
+  "title": "Saudi math teacher killed in motorcycle accident in Türkiye"
+}

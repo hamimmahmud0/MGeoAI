@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "COL-S007",
+  "country_code": "COL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "eltiempo.com",
+  "canonical_url": "https://www.eltiempo.com/videos-eltiempo/caos-en-usme-furgon-sin-frenos-causo-grave-accidente-de-transito-3563994",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.eltiempo.com/videos-eltiempo/caos-en-usme-furgon-sin-frenos-causo-grave-accidente-de-transito-3563994",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CO%3Aes-419&gl=CO&hl=es-419&q=%28%22accidente+vial%22+OR+%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22siniestro+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Colombia%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "65e0ea02a85c18eb3fd389cd628c785a37ec6c96701aea7950c59e7154b5b4f2",
+      "size_bytes": 1012,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente vial",
+    "accidente de tránsito",
+    "choque vehicular",
+    "siniestro vial"
+  ],
+  "timezone": "America/Bogota",
+  "captured_at": "2026-08-11T21:51:46Z",
+  "published_at": "2026-06-12T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "eltiempo.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-COL-S007"
+}

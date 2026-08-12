@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2d9691b711c56f8d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2d9691b711c56f8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Deux morts dans un accident de la route à Ouvéa",
+      "source_path": "html/FRA/FRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3aa46896fb6a7999",
+    "text": "Deux morts dans un accident de la route à Ouvéa",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5a4e9dfc30678f9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e5a4e9dfc30678f9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-06T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3aa46896fb6a7999",
+    "text": "2026-06-06T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5658b0f2e3b16742",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5658b0f2e3b16742",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Outre-mer La 1ère",
+      "source_path": "html/FRA/FRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3aa46896fb6a7999",
+    "text": "Publisher: Outre-mer La 1ère",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d3ac26557dd88085",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d3ac26557dd88085",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://la1ere.franceinfo.fr/nouvellecaledonie/deux-morts-dans-un-accident-de-la-route-a-ouvea-1708156.html",
+      "source_path": "html/FRA/FRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3aa46896fb6a7999",
+    "text": "Original source: https://la1ere.franceinfo.fr/nouvellecaledonie/deux-morts-dans-un-accident-de-la-route-a-ouvea-1708156.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cdd336e44c652fdf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cdd336e44c652fdf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3aa46896fb6a7999",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98f0c481aec3cdce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98f0c481aec3cdce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://la1ere.franceinfo.fr/nouvellecaledonie/deux-morts-dans-un-accident-de-la-route-a-ouvea-1708156.html",
+      "source_path": "html/FRA/FRA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3aa46896fb6a7999",
+    "text": "https://la1ere.franceinfo.fr/nouvellecaledonie/deux-morts-dans-un-accident-de-la-route-a-ouvea-1708156.html",
+    "url": null
+  }
+]

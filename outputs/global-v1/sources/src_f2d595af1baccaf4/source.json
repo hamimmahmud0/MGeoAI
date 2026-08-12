@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8b45d81e90643ebf2418a85a766a2bd1c6babe0f12dec6db3259fb524f961f9e",
+  "country": "Thailand",
+  "country_code": "THA",
+  "dependency_group": "ndtv",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/THA/THA-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-15T18:04:00Z",
+  "publisher": "NDTV",
+  "schema_version": "1.0.0",
+  "source_id": "src_f2d595af1baccaf4",
+  "source_metadata": {
+    "country": "Thailand",
+    "country_code": "THA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-15T18:04:00+00:00",
+    "source_info_hash": "a8d845fcb476bdba",
+    "source_info_path": "html/THA/THA-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Bangkok",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "อุบัติเหตุทางถนน",
+      "รถชน",
+      "รถบัสชน",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ndtv.com/video/thailand-train-crash-at-least-8-dead-25-injured-in-cargo-train-bus-crash-in-thailand-1100095",
+  "timezone": "Asia/Bangkok",
+  "title": "Thailand Train Crash | At Least 8 Dead, 25 Injured in Cargo Train-Bus Crash In Thailand"
+}

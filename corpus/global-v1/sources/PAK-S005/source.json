@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PAK-S005",
+  "country_code": "PAK",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/south-asia/347813/pakistan-bus-crash-kills-27",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/south-asia/347813/pakistan-bus-crash-kills-27",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Pakistan%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "8be7216fc58c545850d9b797d3d16360016622017e5b6c584e2a9dcf68d1cc41",
+      "size_bytes": 912,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "ٹریفک حادثہ",
+    "سڑک حادثہ",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Karachi",
+  "captured_at": "2026-08-12T03:55:02.407593+06:00",
+  "published_at": "2024-05-29T07:40:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PAK-S005"
+}

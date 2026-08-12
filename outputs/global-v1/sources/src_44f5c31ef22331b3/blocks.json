@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e08586abc57303f2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e08586abc57303f2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Death toll climbs to 19 in Nepal bus accident, 25 others injured",
+      "source_path": "html/NPL/NPL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44f5c31ef22331b3",
+    "text": "Death toll climbs to 19 in Nepal bus accident, 25 others injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2a19df3c3d913d74",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2a19df3c3d913d74",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-23T12:10:00+05:45",
+      "source_path": "html/NPL/NPL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44f5c31ef22331b3",
+    "text": "2026-02-23T12:10:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b5ffe6b347f133f1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b5ffe6b347f133f1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The death toll in a bus accident in Nepal has climbed to 19, with a foreign national among the deceased. The bus, traveling from Pokhara ...",
+      "source_path": "html/NPL/NPL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44f5c31ef22331b3",
+    "text": "The death toll in a bus accident in Nepal has climbed to 19, with a foreign national among the deceased. The bus, traveling from Pokhara ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4117737821bc83ed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4117737821bc83ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Anadolu Ajansi",
+      "source_path": "html/NPL/NPL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44f5c31ef22331b3",
+    "text": "Publisher: Anadolu Ajansi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ab0ce004804eebd3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ab0ce004804eebd3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aa.com.tr/en/asia-pacific/death-toll-climbs-to-19-in-nepal-bus-accident-25-others-injured/3837784",
+      "source_path": "html/NPL/NPL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44f5c31ef22331b3",
+    "text": "Original source: https://www.aa.com.tr/en/asia-pacific/death-toll-climbs-to-19-in-nepal-bus-accident-25-others-injured/3837784",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8fe1bc3dd33edc02",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8fe1bc3dd33edc02",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44f5c31ef22331b3",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae17672a719604f0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae17672a719604f0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aa.com.tr/en/asia-pacific/death-toll-climbs-to-19-in-nepal-bus-accident-25-others-injured/3837784",
+      "source_path": "html/NPL/NPL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44f5c31ef22331b3",
+    "text": "https://www.aa.com.tr/en/asia-pacific/death-toll-climbs-to-19-in-nepal-bus-accident-25-others-injured/3837784",
+    "url": null
+  }
+]

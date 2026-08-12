@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "36cbb7945675c896411a11c66515528fc662d6482d0887a38ed655d01b783e1b",
+  "country": "Morocco",
+  "country_code": "MAR",
+  "dependency_group": "arutz sheva",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "local_path": "html/MAR/MAR-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-04T17:00:00Z",
+  "publisher": "Arutz Sheva",
+  "schema_version": "1.0.0",
+  "source_id": "src_fc8b8b0c04d5bec2",
+  "source_metadata": {
+    "country": "Morocco",
+    "country_code": "MAR",
+    "languages": [
+      "ar",
+      "fr",
+      "ber"
+    ],
+    "published_at": "2026-07-04T17:00:00+00:00",
+    "source_info_hash": "224eeedf0d2b8575",
+    "source_info_path": "html/MAR/MAR-S001/SOURCE_INFO.md",
+    "timezone": "Africa/Casablanca",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "تصادم مركبات",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.israelnationalnews.com/flashes/646759",
+  "timezone": "Africa/Casablanca",
+  "title": "Report: Five Israelis killed in Morocco car accident"
+}

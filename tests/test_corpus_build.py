@@ -57,6 +57,10 @@ def test_builds_production_quota_corpus_with_links_and_coverage(tmp_path: Path) 
         links = list(csv.DictReader(handle))
     assert len(links) == 510
     assert all(row["manual_verification_url"].startswith("https://") for row in links)
+    assert all(row["title"] for row in links)
+    assert {row["event_country_status"] for row in links} == {
+        "not_verified_collection_country_only"
+    }
     coverage = Path(result.coverage_geojson).read_text(encoding="utf-8")
     assert '"is_incident_location": false' in coverage
     assert "collection-country source coverage" in coverage

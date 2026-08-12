@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "94987f8ae8bbcba147ab3be8eb3c6bf9329dd01675f093fdf570aa70a2855f29",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "aftenposten",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-06T07:00:00Z",
+  "publisher": "Aftenposten",
+  "schema_version": "1.0.0",
+  "source_id": "src_571615eb099a9430",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2026-05-06T07:00:00+00:00",
+    "source_info_hash": "b70d5be15c6ea1a8",
+    "source_info_path": "html/NOR/NOR-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aftenposten.no/norge/i/wrR6m4/ung-mann-omkommet-i-trafikkulykke-paa-e18-i-nordre-follo",
+  "timezone": "Europe/Oslo",
+  "title": "Ung mann omkommet i trafikkulykke på E18 i Nordre Follo"
+}

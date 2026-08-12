@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "24be5e7a197af3ef19461d6d369bf5bd83a4a594c95c119cca86d97a599a11d7",
+  "country": "Thailand",
+  "country_code": "THA",
+  "dependency_group": "pattaya mail",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/THA/THA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-29T19:53:00Z",
+  "publisher": "Pattaya Mail",
+  "schema_version": "1.0.0",
+  "source_id": "src_1b002eead82e3b3a",
+  "source_metadata": {
+    "country": "Thailand",
+    "country_code": "THA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-29T19:53:00+00:00",
+    "source_info_hash": "571a85dde38bd94b",
+    "source_info_path": "html/THA/THA-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Bangkok",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "อุบัติเหตุทางถนน",
+      "รถชน",
+      "รถบัสชน",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.pattayamail.com/news/tour-bus-crashes-into-car-before-plunging-into-roadside-canal-in-korat-559336",
+  "timezone": "Asia/Bangkok",
+  "title": "Tour bus crashes into car before plunging into roadside canal in Korat"
+}

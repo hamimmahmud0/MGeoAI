@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7032fd30f355e4c51aad642acf54290de1f68353699aba6cf8ca15eda7634e93",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "the-star.co.ke",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-03-05T08:00:00Z",
+  "publisher": "the-star.co.ke",
+  "schema_version": "1.0.0",
+  "source_id": "src_64264a80c44a269a",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-03-05T08:00:00+00:00",
+    "source_info_hash": "4e1cf636b6e92131",
+    "source_info_path": "html/KEN/KEN-S002/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.the-star.co.ke/news/2026-03-05-six-dead-in-head-on-collision-on-nairobi-mombasa-highway",
+  "timezone": "Africa/Nairobi",
+  "title": "Six dead in bus–trailer head-on collision on Nairobi–Mombasa Highway"
+}

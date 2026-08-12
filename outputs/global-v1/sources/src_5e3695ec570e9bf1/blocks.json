@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4c21850164ee8887",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4c21850164ee8887",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Oscar-winning musician Glen Hansard killed in crash",
+      "source_path": "html/GBR/GBR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e3695ec570e9bf1",
+    "text": "Oscar-winning musician Glen Hansard killed in crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7bd6543f9b73616",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a7bd6543f9b73616",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-29T13:14:25+01:00",
+      "source_path": "html/GBR/GBR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e3695ec570e9bf1",
+    "text": "2026-07-29T13:14:25+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95644783149910b1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95644783149910b1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: aapnews.aap.com.au",
+      "source_path": "html/GBR/GBR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e3695ec570e9bf1",
+    "text": "Publisher: aapnews.aap.com.au",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0d9f9ff97d9dc800",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0d9f9ff97d9dc800",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://aapnews.aap.com.au/news/oscar-winning-musician-glen-hansard-killed-in-crash",
+      "source_path": "html/GBR/GBR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e3695ec570e9bf1",
+    "text": "Original source: https://aapnews.aap.com.au/news/oscar-winning-musician-glen-hansard-killed-in-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5a57a770f50169d1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5a57a770f50169d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e3695ec570e9bf1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02890f395e686dd2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_02890f395e686dd2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://aapnews.aap.com.au/news/oscar-winning-musician-glen-hansard-killed-in-crash",
+      "source_path": "html/GBR/GBR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e3695ec570e9bf1",
+    "text": "https://aapnews.aap.com.au/news/oscar-winning-musician-glen-hansard-killed-in-crash",
+    "url": null
+  }
+]

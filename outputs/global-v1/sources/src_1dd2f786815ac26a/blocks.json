@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a6d433299c0ab352",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a6d433299c0ab352",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Deux jeunes hommes sont morts dans un accident de voiture dans les Hautes-Alpes, trois passagers blessés",
+      "source_path": "html/FRA/FRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1dd2f786815ac26a",
+    "text": "Deux jeunes hommes sont morts dans un accident de voiture dans les Hautes-Alpes, trois passagers blessés",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_55b94479e1268791",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_55b94479e1268791",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-19T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1dd2f786815ac26a",
+    "text": "2026-07-19T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e08bcc0213ab6762",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e08bcc0213ab6762",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: France 3 Régions",
+      "source_path": "html/FRA/FRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1dd2f786815ac26a",
+    "text": "Publisher: France 3 Régions",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d46293a176f83f52",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d46293a176f83f52",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/hautes-alpes/gap/deux-jeunes-hommes-sont-morts-dans-un-accident-de-voiture-dans-les-hautes-alpes-trois-passagers-blesses-3388753.html",
+      "source_path": "html/FRA/FRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1dd2f786815ac26a",
+    "text": "Original source: https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/hautes-alpes/gap/deux-jeunes-hommes-sont-morts-dans-un-accident-de-voiture-dans-les-hautes-alpes-trois-passagers-blesses-3388753.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88c9956109bf9271",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88c9956109bf9271",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1dd2f786815ac26a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_06e332610d147739",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_06e332610d147739",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/hautes-alpes/gap/deux-jeunes-hommes-sont-morts-dans-un-accident-de-voiture-dans-les-hautes-alpes-trois-passagers-blesses-3388753.html",
+      "source_path": "html/FRA/FRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1dd2f786815ac26a",
+    "text": "https://france3-regions.franceinfo.fr/provence-alpes-cote-d-azur/hautes-alpes/gap/deux-jeunes-hommes-sont-morts-dans-un-accident-de-voiture-dans-les-hautes-alpes-trois-passagers-blesses-3388753.html",
+    "url": null
+  }
+]

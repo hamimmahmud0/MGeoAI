@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S006",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "毎日新聞",
+  "canonical_url": "https://mainichi.jp/english/articles/20260720/p2g/00m/0na/010000c",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://mainichi.jp/english/articles/20260720/p2g/00m/0na/010000c",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Japan%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "85fddef66a3cb895e20632fe4a096f8c47de099a71d26a2552260966ef3563bc",
+      "size_bytes": 963,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:38:18.248159+06:00",
+  "published_at": "2026-07-19T21:32:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "mainichi.jp",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S006"
+}

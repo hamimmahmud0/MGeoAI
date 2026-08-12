@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SGP-S007",
+  "country_code": "SGP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The New Indian Express",
+  "canonical_url": "https://www.newindianexpress.com/india/2025/Aug/30/indian-national-jailed-fine-in-singapore-for-causing-road-accident-that-killed-senior-nus-law-professor-2",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.newindianexpress.com/india/2025/Aug/30/indian-national-jailed-fine-in-singapore-for-causing-road-accident-that-killed-senior-nus-law-professor-2",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Singapore%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "58e56a0de8a5629313f3df6a09039e8f7100d6a5c4af1cfc539f3a61285ad2bf",
+      "size_bytes": 1297,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "traffic accident",
+    "road collision",
+    "vehicle crash",
+    "bus accident"
+  ],
+  "timezone": "Asia/Singapore",
+  "captured_at": "2026-08-12T03:55:02.414250+06:00",
+  "published_at": "2025-08-29T20:31:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "newindianexpress.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SGP-S007"
+}

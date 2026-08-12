@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d7b5ed308beb07a8df85b6533894e265be25978ca5ee3000e047d30be19365ae",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-31T05:12:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_499b8806a4a246c6",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-31T05:12:00+00:00",
+    "source_info_hash": "7baf80198eafea27",
+    "source_info_path": "html/BGD/BGD-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/bangladesh/nation/416401/two-tourists-killed-as-motorcycle-plunges-into",
+  "timezone": "Asia/Dhaka",
+  "title": "Two tourists killed as motorcycle plunges into ditch in Bandarban"
+}

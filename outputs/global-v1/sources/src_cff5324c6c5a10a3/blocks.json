@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9c3aaf580ebb1da9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9c3aaf580ebb1da9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Indian student killed in road accident near Chicago in US",
+      "source_path": "html/GBR/GBR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cff5324c6c5a10a3",
+    "text": "Indian student killed in road accident near Chicago in US",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e12d4f1e860dd198",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e12d4f1e860dd198",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-18T08:00:00+01:00",
+      "source_path": "html/GBR/GBR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cff5324c6c5a10a3",
+    "text": "2026-05-18T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eb40677718b7e9f7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eb40677718b7e9f7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Economic Times",
+      "source_path": "html/GBR/GBR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cff5324c6c5a10a3",
+    "text": "Publisher: The Economic Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac7c2e93fa9cedb6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ac7c2e93fa9cedb6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://economictimes.indiatimes.com/nri/latest-updates/indian-student-killed-in-road-accident-near-chicago-in-us/articleshow/131166454.cms?from=mdr",
+      "source_path": "html/GBR/GBR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cff5324c6c5a10a3",
+    "text": "Original source: https://economictimes.indiatimes.com/nri/latest-updates/indian-student-killed-in-road-accident-near-chicago-in-us/articleshow/131166454.cms?from=mdr",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_66adf0d78df548d5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_66adf0d78df548d5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cff5324c6c5a10a3",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a41099d1981082d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a41099d1981082d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://economictimes.indiatimes.com/nri/latest-updates/indian-student-killed-in-road-accident-near-chicago-in-us/articleshow/131166454.cms?from=mdr",
+      "source_path": "html/GBR/GBR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cff5324c6c5a10a3",
+    "text": "https://economictimes.indiatimes.com/nri/latest-updates/indian-student-killed-in-road-accident-near-chicago-in-us/articleshow/131166454.cms?from=mdr",
+    "url": null
+  }
+]

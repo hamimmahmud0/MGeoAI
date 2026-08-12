@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_db7427b5368becd0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_db7427b5368becd0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "10 killed as bus veers off road, overturns in Vietnam",
+      "source_path": "html/VNM/VNM-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_280970cee87fe6b4",
+    "text": "10 killed as bus veers off road, overturns in Vietnam",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5645e492f411bfad",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5645e492f411bfad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-07-25T20:17:00+07:00",
+      "source_path": "html/VNM/VNM-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_280970cee87fe6b4",
+    "text": "2025-07-25T20:17:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b32a1cc41a4d049",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0b32a1cc41a4d049",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus crash in central Vietnam killed 10 people early Friday, the government said, a week after dozens were killed in a boat accident in ...",
+      "source_path": "html/VNM/VNM-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_280970cee87fe6b4",
+    "text": "A bus crash in central Vietnam killed 10 people early Friday, the government said, a week after dozens were killed in a boat accident in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a0f5c475be78d92",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a0f5c475be78d92",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hindustan Times",
+      "source_path": "html/VNM/VNM-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_280970cee87fe6b4",
+    "text": "Publisher: Hindustan Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2c74cd3ad642c88",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2c74cd3ad642c88",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hindustantimes.com/world-news/vietnam-sleeper-bus-crash-dead-injured-hanoi-da-nang-101753473827987.html",
+      "source_path": "html/VNM/VNM-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_280970cee87fe6b4",
+    "text": "Original source: https://www.hindustantimes.com/world-news/vietnam-sleeper-bus-crash-dead-injured-hanoi-da-nang-101753473827987.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f55c90505ba44fdc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f55c90505ba44fdc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_280970cee87fe6b4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_22e64d7eb77783fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_22e64d7eb77783fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hindustantimes.com/world-news/vietnam-sleeper-bus-crash-dead-injured-hanoi-da-nang-101753473827987.html",
+      "source_path": "html/VNM/VNM-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_280970cee87fe6b4",
+    "text": "https://www.hindustantimes.com/world-news/vietnam-sleeper-bus-crash-dead-injured-hanoi-da-nang-101753473827987.html",
+    "url": null
+  }
+]

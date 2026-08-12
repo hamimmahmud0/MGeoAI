@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a43167fd541e7e59",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a43167fd541e7e59",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "More than a dozen dead in multiple car crashes",
+      "source_path": "html/ZAF/ZAF-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0501eeefea4796f8",
+    "text": "More than a dozen dead in multiple car crashes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5140775d56ceba0f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5140775d56ceba0f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-19T09:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0501eeefea4796f8",
+    "text": "2026-07-19T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40a9029ccafea266",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_40a9029ccafea266",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "JOHANNESBURG - Nineteen people died in three separate accidents around the country on Saturday.",
+      "source_path": "html/ZAF/ZAF-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0501eeefea4796f8",
+    "text": "JOHANNESBURG - Nineteen people died in three separate accidents around the country on Saturday.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c00071c0d99e6745",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c00071c0d99e6745",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: eNCA",
+      "source_path": "html/ZAF/ZAF-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0501eeefea4796f8",
+    "text": "Publisher: eNCA",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df0a212bff044415",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df0a212bff044415",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.enca.com/news-top-stories/more-dozen-dead-multiple-car-crashes",
+      "source_path": "html/ZAF/ZAF-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0501eeefea4796f8",
+    "text": "Original source: https://www.enca.com/news-top-stories/more-dozen-dead-multiple-car-crashes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17e4ba8437fe3022",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17e4ba8437fe3022",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0501eeefea4796f8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4b180e0578307111",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4b180e0578307111",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.enca.com/news-top-stories/more-dozen-dead-multiple-car-crashes",
+      "source_path": "html/ZAF/ZAF-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0501eeefea4796f8",
+    "text": "https://www.enca.com/news-top-stories/more-dozen-dead-multiple-car-crashes",
+    "url": null
+  }
+]

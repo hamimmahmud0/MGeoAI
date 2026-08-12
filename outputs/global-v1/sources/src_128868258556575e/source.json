@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "aaab05885e77592404a1260147e9dc8107997e1a0b8952456e8eae79dca67664",
+  "country": "Egypt",
+  "country_code": "EGY",
+  "dependency_group": "irish daily mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/EGY/EGY-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-11-11T02:03:00Z",
+  "publisher": "Irish Daily Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_128868258556575e",
+  "source_metadata": {
+    "country": "Egypt",
+    "country_code": "EGY",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2025-11-11T02:03:00+00:00",
+    "source_info_hash": "aafa438f5586d023",
+    "source_info_path": "html/EGY/EGY-S001/SOURCE_INFO.md",
+    "timezone": "Africa/Cairo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم سيارات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.irishmirror.ie/news/world-news/egypt-coach-crash-two-people-36225271",
+  "timezone": "Africa/Cairo",
+  "title": "Egypt coach crash: Two people killed and over 30 injured after bus and truck collide"
+}

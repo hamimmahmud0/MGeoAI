@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BGD-S005",
+  "country_code": "BGD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/bangladesh/nation/416901/8-killed-25-injured-in-head-on-bus-collision-in",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/bangladesh/nation/416901/8-killed-25-injured-in-head-on-bus-collision-in",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Bangladesh%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "25075136b0335351caccd6310c7657fc2957662d6cbf56422842ea99ef4a704a",
+      "size_bytes": 1020,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "সড়ক দুর্ঘটনা",
+    "বাস দুর্ঘটনা",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dhaka",
+  "captured_at": "2026-08-12T03:55:02.402676+06:00",
+  "published_at": "2026-08-07T10:10:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BGD-S005"
+}

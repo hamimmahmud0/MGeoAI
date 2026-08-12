@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "70eb0fa5e45667a8b7cf8387a39399870e4b92c1d1eea0e00f9992c910731e1d",
+  "country": "Pakistan",
+  "country_code": "PAK",
+  "dependency_group": "dawn",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PAK/PAK-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-05-29T07:00:00Z",
+  "publisher": "Dawn",
+  "schema_version": "1.0.0",
+  "source_id": "src_a24a1dcd1c045bd1",
+  "source_metadata": {
+    "country": "Pakistan",
+    "country_code": "PAK",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-05-29T07:00:00+00:00",
+    "source_info_hash": "034d12145ac08926",
+    "source_info_path": "html/PAK/PAK-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Karachi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ٹریفک حادثہ",
+      "سڑک حادثہ",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dawn.com/news/1836392/28-dead-22-injured-as-quetta-bound-bus-falls-into-ravine-in-balochistans-washuk",
+  "timezone": "Asia/Karachi",
+  "title": "28 dead, 22 injured as Quetta-bound bus falls into ravine in Balochistan’s Washuk"
+}

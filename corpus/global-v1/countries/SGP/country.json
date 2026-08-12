@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "SGP",
+  "name": "Singapore",
+  "languages": [
+    "en",
+    "ms",
+    "zh",
+    "ta"
+  ],
+  "timezones": [
+    "Asia/Singapore"
+  ],
+  "target_sources": 12
+}

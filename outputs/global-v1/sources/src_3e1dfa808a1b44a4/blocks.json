@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d9ca02a6ff379680",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d9ca02a6ff379680",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "12 killed in Indonesia highway accident",
+      "source_path": "html/IDN/IDN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e1dfa808a1b44a4",
+    "text": "12 killed in Indonesia highway accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c5f134b2049136a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2c5f134b2049136a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-04-08T10:46:00+07:00",
+      "source_path": "html/IDN/IDN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e1dfa808a1b44a4",
+    "text": "2024-04-08T10:46:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_293e75547aa0918c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_293e75547aa0918c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 12 people were killed in a highway accident in West Java province of Indonesia on Monday, police said. Another two were injured in ...",
+      "source_path": "html/IDN/IDN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e1dfa808a1b44a4",
+    "text": "At least 12 people were killed in a highway accident in West Java province of Indonesia on Monday, police said. Another two were injured in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4e126c238222cafb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4e126c238222cafb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Anadolu Ajansi",
+      "source_path": "html/IDN/IDN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e1dfa808a1b44a4",
+    "text": "Publisher: Anadolu Ajansi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9928cce21dac99d9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9928cce21dac99d9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aa.com.tr/en/asia-pacific/12-killed-in-indonesia-highway-accident/3186166",
+      "source_path": "html/IDN/IDN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e1dfa808a1b44a4",
+    "text": "Original source: https://www.aa.com.tr/en/asia-pacific/12-killed-in-indonesia-highway-accident/3186166",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e4bcfa17e171529d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e4bcfa17e171529d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e1dfa808a1b44a4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc1eb1f579187a0c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc1eb1f579187a0c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aa.com.tr/en/asia-pacific/12-killed-in-indonesia-highway-accident/3186166",
+      "source_path": "html/IDN/IDN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3e1dfa808a1b44a4",
+    "text": "https://www.aa.com.tr/en/asia-pacific/12-killed-in-indonesia-highway-accident/3186166",
+    "url": null
+  }
+]

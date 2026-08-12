@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_941535c83ccfbd07",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_941535c83ccfbd07",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Truck crashes into market, killing 2, injuring 18",
+      "source_path": "html/KOR/KOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a7ad7fb42a52273e",
+    "text": "Truck crashes into market, killing 2, injuring 18",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4ecf7b970e9b9691",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4ecf7b970e9b9691",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-13T14:34:00+09:00",
+      "source_path": "html/KOR/KOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a7ad7fb42a52273e",
+    "text": "2025-11-13T14:34:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_330183cbb58cd698",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_330183cbb58cd698",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A truck crashed into Jeil Market in Bucheon, killing two people and injuring eighteen.",
+      "source_path": "html/KOR/KOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a7ad7fb42a52273e",
+    "text": "A truck crashed into Jeil Market in Bucheon, killing two people and injuring eighteen.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_851d62bb1bdd4925",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_851d62bb1bdd4925",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yonhap News Agency",
+      "source_path": "html/KOR/KOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a7ad7fb42a52273e",
+    "text": "Publisher: Yonhap News Agency",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fcc64905aab98189",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fcc64905aab98189",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://en.yna.co.kr/view/AEN20251113007000315",
+      "source_path": "html/KOR/KOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a7ad7fb42a52273e",
+    "text": "Original source: https://en.yna.co.kr/view/AEN20251113007000315",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5cef27fd38e16301",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5cef27fd38e16301",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a7ad7fb42a52273e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c3128ce6955444a6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c3128ce6955444a6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://en.yna.co.kr/view/AEN20251113007000315",
+      "source_path": "html/KOR/KOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a7ad7fb42a52273e",
+    "text": "https://en.yna.co.kr/view/AEN20251113007000315",
+    "url": null
+  }
+]

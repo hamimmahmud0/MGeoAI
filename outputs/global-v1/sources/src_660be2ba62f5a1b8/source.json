@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b22eac4c42a64250b515cbafef356c699c56f42558b01b48d848b6419e161e68",
+  "country": "Peru",
+  "country_code": "PER",
+  "dependency_group": "facebook.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/PER/PER-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-27T07:00:00Z",
+  "publisher": "facebook.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_660be2ba62f5a1b8",
+  "source_metadata": {
+    "country": "Peru",
+    "country_code": "PER",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-27T07:00:00+00:00",
+    "source_info_hash": "d3d9c457bb78dea0",
+    "source_info_path": "html/PER/PER-S009/SOURCE_INFO.md",
+    "timezone": "America/Lima",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente carretero",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.facebook.com/Exitosanoticias/videos/-exitosadeportes-un-accidente-de-tr%C3%A1nsito-dej%C3%B3-como-saldo-al-menos-cinco-persona/1032347469259199/",
+  "timezone": "America/Lima",
+  "title": "Exitosa Noticias. . 🔴🔵 #ExitosaDeportes⚽⚽ | Un accidente de tránsito dejó como saldo, al menos, cinco personas heridas en el Parque Universitario, en el Cercado de Lima. 📻 95.5 FM 📡 6.1 señal digital abierta 📺 Movistar: 34 SD - 734 HD 🌐 exitosanoticias.p"
+}

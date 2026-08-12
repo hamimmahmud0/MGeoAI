@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S004",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Newstalk ZB",
+  "canonical_url": "https://www.newstalkzb.co.nz/news/auckland/two-crashes-overnight-close-an-auckland-road-after-two-killed-another-hospitalised/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.newstalkzb.co.nz/news/auckland/two-crashes-overnight-close-an-auckland-road-after-two-killed-another-hospitalised/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "72cc79c6af840d36c49d2c26bb94a09ebe0e549c4537a475c7171da047012314",
+      "size_bytes": 1141,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:30.898260+06:00",
+  "published_at": "2022-12-31T01:28:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "newstalkzb.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S004"
+}

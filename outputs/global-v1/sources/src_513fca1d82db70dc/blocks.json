@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_7bef3f3e80c7c0bf",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_7bef3f3e80c7c0bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "15 foreigners injured in road crash in northern Vietnam",
+      "source_path": "html/VNM/VNM-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_513fca1d82db70dc",
+    "text": "15 foreigners injured in road crash in northern Vietnam",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_60a97ff504e097d7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_60a97ff504e097d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-11-04T06:40:00+07:00",
+      "source_path": "html/VNM/VNM-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_513fca1d82db70dc",
+    "text": "2022-11-04T06:40:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bfab2e88c9d3bafd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bfab2e88c9d3bafd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "15 foreigners and two Vietnamese were injured when a bus carrying them crashed into a car and a motorbike in the northern province of Hoa ...",
+      "source_path": "html/VNM/VNM-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_513fca1d82db70dc",
+    "text": "15 foreigners and two Vietnamese were injured when a bus carrying them crashed into a car and a motorbike in the northern province of Hoa ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_38c098eb416cd759",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_38c098eb416cd759",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: VN Express",
+      "source_path": "html/VNM/VNM-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_513fca1d82db70dc",
+    "text": "Publisher: VN Express",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4decb58ac2fdc03b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4decb58ac2fdc03b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://e.vnexpress.net/news/news/15-foreigners-injured-in-road-crash-in-northern-vietnam-4532381.html",
+      "source_path": "html/VNM/VNM-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_513fca1d82db70dc",
+    "text": "Original source: https://e.vnexpress.net/news/news/15-foreigners-injured-in-road-crash-in-northern-vietnam-4532381.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf3f4f83c4b31b8f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bf3f4f83c4b31b8f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_513fca1d82db70dc",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cf173f180eba1b32",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cf173f180eba1b32",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://e.vnexpress.net/news/news/15-foreigners-injured-in-road-crash-in-northern-vietnam-4532381.html",
+      "source_path": "html/VNM/VNM-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_513fca1d82db70dc",
+    "text": "https://e.vnexpress.net/news/news/15-foreigners-injured-in-road-crash-in-northern-vietnam-4532381.html",
+    "url": null
+  }
+]

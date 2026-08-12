@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_840eb5da4f2019da",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_840eb5da4f2019da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Ten dead, dozens injured in Philippines bus crash",
+      "source_path": "html/PHL/PHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7498cee2e1533346",
+    "text": "Ten dead, dozens injured in Philippines bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d5fd346cc7ebe23b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d5fd346cc7ebe23b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-02T19:49:00+08:00",
+      "source_path": "html/PHL/PHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7498cee2e1533346",
+    "text": "2025-05-02T19:49:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34ca153ae5cb1e61",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34ca153ae5cb1e61",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "BBC - Ten people have been killed and more than 30 injured after a bus hit several vehicles at a toll gate on one of ...",
+      "source_path": "html/PHL/PHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7498cee2e1533346",
+    "text": "BBC - Ten people have been killed and more than 30 injured after a bus hit several vehicles at a toll gate on one of ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02dac4685708ef81",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_02dac4685708ef81",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Daily Mirror",
+      "source_path": "html/PHL/PHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7498cee2e1533346",
+    "text": "Publisher: The Daily Mirror",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ce298087532050ff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ce298087532050ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dailymirror.lk/breaking-news/Ten-dead-dozens-injured-in-Philippines-bus-crash/108-307942",
+      "source_path": "html/PHL/PHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7498cee2e1533346",
+    "text": "Original source: https://www.dailymirror.lk/breaking-news/Ten-dead-dozens-injured-in-Philippines-bus-crash/108-307942",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae791e5f984c1435",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae791e5f984c1435",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7498cee2e1533346",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_156a6bf388783925",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_156a6bf388783925",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dailymirror.lk/breaking-news/Ten-dead-dozens-injured-in-Philippines-bus-crash/108-307942",
+      "source_path": "html/PHL/PHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7498cee2e1533346",
+    "text": "https://www.dailymirror.lk/breaking-news/Ten-dead-dozens-injured-in-Philippines-bus-crash/108-307942",
+    "url": null
+  }
+]

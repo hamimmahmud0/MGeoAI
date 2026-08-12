@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PAK-S009",
+  "country_code": "PAK",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Pakistan Today",
+  "canonical_url": "https://www.pakistantoday.com.pk/2026/06/18/minor-girl-dies-in-motorcycle-accident",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.pakistantoday.com.pk/2026/06/18/minor-girl-dies-in-motorcycle-accident",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Pakistan%22+motorcycle+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "1ffb1f091435e44df3b0327acc264e2d091540b46f016f6204cfcada4fed8c08",
+      "size_bytes": 948,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "ٹریفک حادثہ",
+    "سڑک حادثہ",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Karachi",
+  "captured_at": "2026-08-12T03:55:02.407649+06:00",
+  "published_at": "2026-06-17T23:55:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "pakistantoday.com.pk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PAK-S009"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ccefe61c3af737d0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ccefe61c3af737d0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 31 dead after bus crashes in Ethiopia",
+      "source_path": "html/ETH/ETH-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_024380068477ef85",
+    "text": "At least 31 dead after bus crashes in Ethiopia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e8db84ddb485c536",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e8db84ddb485c536",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-15T09:21:00+03:00",
+      "source_path": "html/ETH/ETH-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_024380068477ef85",
+    "text": "2026-06-15T09:21:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_63c5f9ad88e7cdc0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_63c5f9ad88e7cdc0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "ADDIS ABABA, Ethiopia (AP) — Police in Ethiopia say at least 31 people are dead and dozens more injured after a bus crash in the ...",
+      "source_path": "html/ETH/ETH-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_024380068477ef85",
+    "text": "ADDIS ABABA, Ethiopia (AP) — Police in Ethiopia say at least 31 people are dead and dozens more injured after a bus crash in the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_421eb6b2c405c643",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_421eb6b2c405c643",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: New Haven Register",
+      "source_path": "html/ETH/ETH-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_024380068477ef85",
+    "text": "Publisher: New Haven Register",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e84a1b9b9e978fdb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e84a1b9b9e978fdb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.nhregister.com/news/world/article/at-least-31-dead-after-bus-crashes-in-ethiopia-22305575.php",
+      "source_path": "html/ETH/ETH-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_024380068477ef85",
+    "text": "Original source: https://www.nhregister.com/news/world/article/at-least-31-dead-after-bus-crashes-in-ethiopia-22305575.php",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ce7755c6583433e5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ce7755c6583433e5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_024380068477ef85",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba2daa199b8a8e9e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba2daa199b8a8e9e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.nhregister.com/news/world/article/at-least-31-dead-after-bus-crashes-in-ethiopia-22305575.php",
+      "source_path": "html/ETH/ETH-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_024380068477ef85",
+    "text": "https://www.nhregister.com/news/world/article/at-least-31-dead-after-bus-crashes-in-ethiopia-22305575.php",
+    "url": null
+  }
+]

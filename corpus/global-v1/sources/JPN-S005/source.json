@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S005",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "International Press Digital",
+  "canonical_url": "https://internationalpress.jp/2025/09/29/chiba-muere-conductor-de-autobus-escolar-tras-chocar-contra-una-casa/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://internationalpress.jp/2025/09/29/chiba-muere-conductor-de-autobus-escolar-tras-chocar-contra-una-casa/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Kamagaya+kindergarten+shuttle+bus+crash+September+2025",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "301e1544a86277f642322d70b75f95b8bf4f90103734199ed5959dede7b692ec",
+      "size_bytes": 1033,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:45:18.430218+06:00",
+  "published_at": "2025-09-29T00:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "internationalpress.jp",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S005"
+}

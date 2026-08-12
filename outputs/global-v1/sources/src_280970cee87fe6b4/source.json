@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0ff5689cd381ceb987290d8b44b16816ad2e6d145909a215543c6c0144a56acf",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "hindustan times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-07-25T13:17:00Z",
+  "publisher": "Hindustan Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_280970cee87fe6b4",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-07-25T13:17:00+00:00",
+    "source_info_hash": "e3e0fa3f998064b5",
+    "source_info_path": "html/VNM/VNM-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hindustantimes.com/world-news/vietnam-sleeper-bus-crash-dead-injured-hanoi-da-nang-101753473827987.html",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "10 killed as bus veers off road, overturns in Vietnam"
+}

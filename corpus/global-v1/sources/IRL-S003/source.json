@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IRL-S003",
+  "country_code": "IRL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "BBC",
+  "canonical_url": "https://www.bbc.co.uk/news/articles/cx2j0r92j0eo",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bbc.co.uk/news/articles/cx2j0r92j0eo",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=IE%3Aen&gl=IE&hl=en-IE&q=%28%22road+accident%22+OR+%22traffic+collision%22+OR+%22road+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+%22Ireland%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "a3a63888beba9a99227f1cdbb29c2858cb63c02c3575403798bda5124445a7c5",
+      "size_bytes": 784,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "road crash",
+    "vehicle collision"
+  ],
+  "timezone": "Europe/Dublin",
+  "captured_at": "2026-08-11T21:58:27Z",
+  "published_at": "2026-07-25T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bbc.co.uk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IRL-S003"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "acf6e4d25112cb31e3330a38e1063c6d2d923fcb0fa1c9fbdd1be0ef080abf37",
+  "country": "Ireland",
+  "country_code": "IRL",
+  "dependency_group": "extra.ie",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IRL/IRL-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-11T06:06:51Z",
+  "publisher": "Extra.ie",
+  "schema_version": "1.0.0",
+  "source_id": "src_074264b452b4a9b9",
+  "source_metadata": {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-11T06:06:51+00:00",
+    "source_info_hash": "93ed605c0ea1f5fb",
+    "source_info_path": "html/IRL/IRL-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Dublin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "road crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://extra.ie/2026/08/11/news/irish-news/donegal-all-ireland-winner-cavan-crash",
+  "timezone": "Europe/Dublin",
+  "title": "Former Donegal All-Ireland winner dies in tragic Cavan road crash"
+}

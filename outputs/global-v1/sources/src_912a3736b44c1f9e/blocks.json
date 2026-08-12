@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8cd6cd71fdb40c35",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8cd6cd71fdb40c35",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Emotions as three US-based siblings perish in a road accident in Kenya",
+      "source_path": "html/KEN/KEN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_912a3736b44c1f9e",
+    "text": "Emotions as three US-based siblings perish in a road accident in Kenya",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1d2e36aea1cee76d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1d2e36aea1cee76d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-23T11:00:00+03:00",
+      "source_path": "html/KEN/KEN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_912a3736b44c1f9e",
+    "text": "2026-01-23T11:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dcf95ad5c69fda2e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dcf95ad5c69fda2e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Emotions as three US-based siblings perish in a road accident in Kenya Audio By Vocalize The siblings, Emmanuel DeLeon (13), Kairu Winkelpeck (6) and Njeri ...",
+      "source_path": "html/KEN/KEN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_912a3736b44c1f9e",
+    "text": "Emotions as three US-based siblings perish in a road accident in Kenya Audio By Vocalize The siblings, Emmanuel DeLeon (13), Kairu Winkelpeck (6) and Njeri ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9de2106442ae3c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9de2106442ae3c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Citizen Digital",
+      "source_path": "html/KEN/KEN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_912a3736b44c1f9e",
+    "text": "Publisher: Citizen Digital",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cb8cf3dd04026da4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cb8cf3dd04026da4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://citizen.digital/article/emotions-as-three-us-based-siblings-perish-in-a-road-accident-in-kenya-n376233",
+      "source_path": "html/KEN/KEN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_912a3736b44c1f9e",
+    "text": "Original source: https://citizen.digital/article/emotions-as-three-us-based-siblings-perish-in-a-road-accident-in-kenya-n376233",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_43d1068938ed7205",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_43d1068938ed7205",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_912a3736b44c1f9e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_814d0bb6328c084a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_814d0bb6328c084a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://citizen.digital/article/emotions-as-three-us-based-siblings-perish-in-a-road-accident-in-kenya-n376233",
+      "source_path": "html/KEN/KEN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_912a3736b44c1f9e",
+    "text": "https://citizen.digital/article/emotions-as-three-us-based-siblings-perish-in-a-road-accident-in-kenya-n376233",
+    "url": null
+  }
+]

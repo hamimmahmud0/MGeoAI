@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S009",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Gulf Daily News",
+  "canonical_url": "https://www.gdnonline.com/Details/1330825/Saudi-math-teacher-killed-in-motorcycle-accident-in-T%C3%BCrkiye",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.gdnonline.com/Details/1330825/Saudi-math-teacher-killed-in-motorcycle-accident-in-T%C3%BCrkiye",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22T%C3%BCrkiye%22+motorcycle+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "d8fc22943f466cbd147586dae2d80afa2ff626d7f45cdb9f3480e1348fba3cb9",
+      "size_bytes": 1071,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2024-08-20T17:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "gdnonline.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S009"
+}

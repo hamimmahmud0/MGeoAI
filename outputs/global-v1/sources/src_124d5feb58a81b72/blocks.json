@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c1e4de71ff80d972",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c1e4de71ff80d972",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two Brit tourists dead & two others injured after car flips in Morocco horror crash",
+      "source_path": "html/MAR/MAR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_124d5feb58a81b72",
+    "text": "Two Brit tourists dead & two others injured after car flips in Morocco horror crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a252b7ae172bfbac",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a252b7ae172bfbac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-05T05:43:00+01:00",
+      "source_path": "html/MAR/MAR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_124d5feb58a81b72",
+    "text": "2025-05-05T05:43:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b2417a5d347df52",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2b2417a5d347df52",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two British tourists have tragically died following a freak crash which saw their vehicle topple over onto its roof in Morocco. Emergency services raced to ...",
+      "source_path": "html/MAR/MAR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_124d5feb58a81b72",
+    "text": "Two British tourists have tragically died following a freak crash which saw their vehicle topple over onto its roof in Morocco. Emergency services raced to ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6530fce92e70ac14",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6530fce92e70ac14",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Mirror",
+      "source_path": "html/MAR/MAR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_124d5feb58a81b72",
+    "text": "Publisher: The Mirror",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8523dd0bbf207873",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8523dd0bbf207873",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.mirror.co.uk/news/world-news/breaking-two-brit-tourists-dead-35171166",
+      "source_path": "html/MAR/MAR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_124d5feb58a81b72",
+    "text": "Original source: https://www.mirror.co.uk/news/world-news/breaking-two-brit-tourists-dead-35171166",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fbc4cb6abe102ded",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fbc4cb6abe102ded",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_124d5feb58a81b72",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe1633d102f0b87d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe1633d102f0b87d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.mirror.co.uk/news/world-news/breaking-two-brit-tourists-dead-35171166",
+      "source_path": "html/MAR/MAR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_124d5feb58a81b72",
+    "text": "https://www.mirror.co.uk/news/world-news/breaking-two-brit-tourists-dead-35171166",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c934c8c5256a5af1fa526a68c10a0424f794bfaa0b2a0f84ce53f1777be74df8",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "france 3 régions",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-02T07:00:00Z",
+  "publisher": "France 3 Régions",
+  "schema_version": "1.0.0",
+  "source_id": "src_3e747d4f13854d5b",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-08-02T07:00:00+00:00",
+    "source_info_hash": "c433f06fb3af6bdf",
+    "source_info_path": "html/FRA/FRA-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://france3-regions.franceinfo.fr/pays-de-la-loire/vendee/la-roche-sur-yon/un-mort-et-quatre-blesses-apres-un-grave-accident-de-la-route-impliquant-deux-vehicules-en-vendee-3395656.html",
+  "timezone": "Europe/Paris",
+  "title": "Un mort et quatre blessés après un grave accident de la route impliquant deux véhicules en Vendée"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e8df31baff606b1b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e8df31baff606b1b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Family prepares to bury 5 children killed in devastating Ontario crash",
+      "source_path": "html/CAN/CAN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a84f4899b5bcf480",
+    "text": "Family prepares to bury 5 children killed in devastating Ontario crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f32165ef4786ed8e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f32165ef4786ed8e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-19T03:00:00-04:00",
+      "source_path": "html/CAN/CAN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a84f4899b5bcf480",
+    "text": "2026-06-19T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e5401e4578efb7a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e5401e4578efb7a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Global News",
+      "source_path": "html/CAN/CAN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a84f4899b5bcf480",
+    "text": "Publisher: Global News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee3e9b538e3b3483",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee3e9b538e3b3483",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://globalnews.ca/news/11914093/funeral-mapleton-children-crash/",
+      "source_path": "html/CAN/CAN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a84f4899b5bcf480",
+    "text": "Original source: https://globalnews.ca/news/11914093/funeral-mapleton-children-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bd0f685ac158a5c0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bd0f685ac158a5c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a84f4899b5bcf480",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_efe4acf08f0775ad",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_efe4acf08f0775ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://globalnews.ca/news/11914093/funeral-mapleton-children-crash/",
+      "source_path": "html/CAN/CAN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a84f4899b5bcf480",
+    "text": "https://globalnews.ca/news/11914093/funeral-mapleton-children-crash/",
+    "url": null
+  }
+]

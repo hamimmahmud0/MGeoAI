@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "UGA-S007",
+  "country_code": "UGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Associated Press News",
+  "canonical_url": "https://apnews.com/article/uganda-road-crash-kamunga-kalungu-123c6df4420b2fc667e6e7b720a760a0",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://apnews.com/article/uganda-road-crash-kamunga-kalungu-123c6df4420b2fc667e6e7b720a760a0",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Uganda%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "47a0ee043a2445a164c6a5f8fb69ac397b32aff831795e49466d1d6731aae82f",
+      "size_bytes": 1056,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus accident",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Kampala",
+  "captured_at": "2026-08-11T21:55:58.323780Z",
+  "published_at": "2026-08-04T00:12:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "apnews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-UGA-S007"
+}

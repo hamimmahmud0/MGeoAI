@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "cdfdf39b07811659f90940e5918a144c86087238df74cb99935c77fa33e5335f",
+  "country": "Indonesia",
+  "country_code": "IDN",
+  "dependency_group": "ndtv",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IDN/IDN-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-21T20:12:00Z",
+  "publisher": "NDTV",
+  "schema_version": "1.0.0",
+  "source_id": "src_7c2c492ca4a0bda4",
+  "source_metadata": {
+    "country": "Indonesia",
+    "country_code": "IDN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-12-21T20:12:00+00:00",
+    "source_info_hash": "f4b2199f3dec9bb2",
+    "source_info_path": "html/IDN/IDN-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Jakarta",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kecelakaan lalu lintas",
+      "tabrakan kendaraan",
+      "kecelakaan bus",
+      "kecelakaan jalan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ndtv.com/world-news/indonesia-bus-crash-16-dead-18-injured-as-passenger-bus-loses-control-crashes-in-indonesia-9862641",
+  "timezone": "Asia/Jakarta",
+  "title": "16 Dead, 18 Injured As Passenger Bus Loses Control, Crashes In Indonesia"
+}

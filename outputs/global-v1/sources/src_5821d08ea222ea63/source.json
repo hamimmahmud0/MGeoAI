@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ed12a57c3ab561309db30599965d677d9012af970664e847597b67d28f5cfbb6",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "la nación",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-03T22:28:00Z",
+  "publisher": "La Nación",
+  "schema_version": "1.0.0",
+  "source_id": "src_5821d08ea222ea63",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2025-08-03T22:28:00+00:00",
+    "source_info_hash": "f4b5511baae5ebd4",
+    "source_info_path": "html/CRI/CRI-S001/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nacion.com/sucesos/autobus-colisiona-con-cinco-vehiculos-en-garabito/G6CIYZLBENHIHDEKL3B4OY623U/story/",
+  "timezone": "America/Costa_Rica",
+  "title": "Bus colisiona con 5 vehículos en Jacó; Cruz Roja confirma un fallecido"
+}

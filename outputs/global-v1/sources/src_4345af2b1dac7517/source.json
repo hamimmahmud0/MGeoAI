@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "09a42bdd6232a6e30050d27d20a25b7cffb5e6fd5ebfc0d8e74d8db85abbd323",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "free malaysia today",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-01T15:12:00Z",
+  "publisher": "Free Malaysia Today",
+  "schema_version": "1.0.0",
+  "source_id": "src_4345af2b1dac7517",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-01T15:12:00+00:00",
+    "source_info_hash": "e1ce6c7cb778e1ec",
+    "source_info_path": "html/PHL/PHL-S005/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.freemalaysiatoday.com/category/world/2025/05/01/at-least-10-killed-dozens-injured-in-philippines-road-crash",
+  "timezone": "Asia/Manila",
+  "title": "At least 10 killed, dozens injured in Philippines road crash"
+}

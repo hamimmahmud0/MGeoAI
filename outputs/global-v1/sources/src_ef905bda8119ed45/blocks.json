@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f1e4ea67fdf1c88d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f1e4ea67fdf1c88d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Én person omkom i trafikkulykke på Jæren",
+      "source_path": "html/NOR/NOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef905bda8119ed45",
+    "text": "Én person omkom i trafikkulykke på Jæren",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a0a4923e552d082e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a0a4923e552d082e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-29T09:00:00+01:00",
+      "source_path": "html/NOR/NOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef905bda8119ed45",
+    "text": "2026-01-29T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f274f414c8f72560",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f274f414c8f72560",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Én person omkom i trafikkulykke på Jæren En lastebil og to personbiler kolliderte.",
+      "source_path": "html/NOR/NOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef905bda8119ed45",
+    "text": "Én person omkom i trafikkulykke på Jæren En lastebil og to personbiler kolliderte.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e48e05be092fddd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0e48e05be092fddd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftenposten",
+      "source_path": "html/NOR/NOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef905bda8119ed45",
+    "text": "Publisher: Aftenposten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cff62063e933ea1f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cff62063e933ea1f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftenposten.no/norge/i/JOEvj4/en-person-omkom-i-trafikkulykke-paa-jaeren",
+      "source_path": "html/NOR/NOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef905bda8119ed45",
+    "text": "Original source: https://www.aftenposten.no/norge/i/JOEvj4/en-person-omkom-i-trafikkulykke-paa-jaeren",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b8370f13d19a9f39",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b8370f13d19a9f39",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef905bda8119ed45",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_398fc9ec59317ce9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_398fc9ec59317ce9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftenposten.no/norge/i/JOEvj4/en-person-omkom-i-trafikkulykke-paa-jaeren",
+      "source_path": "html/NOR/NOR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef905bda8119ed45",
+    "text": "https://www.aftenposten.no/norge/i/JOEvj4/en-person-omkom-i-trafikkulykke-paa-jaeren",
+    "url": null
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "KEN",
+  "name": "Kenya",
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "timezones": [
+    "Africa/Nairobi"
+  ],
+  "target_sources": 12
+}

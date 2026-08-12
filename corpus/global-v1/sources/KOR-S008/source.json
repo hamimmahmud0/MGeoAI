@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KOR-S008",
+  "country_code": "KOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Dong-A Ilbo",
+  "canonical_url": "https://www.donga.com/en/article/all/20251115/5962330/1",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.donga.com/en/article/all/20251115/5962330/1",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Truck+rampage+in+Bucheon+kills+two%2C+injures+19",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "287539f6f67999529d46dd6b5a32017a25d77c9bbfb379ec33b615b729c73e07",
+      "size_bytes": 816,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "교통사고",
+    "차량 충돌",
+    "버스 사고",
+    "고속도로 사고"
+  ],
+  "timezone": "Asia/Seoul",
+  "captured_at": "2026-08-12T03:51:07.440762+06:00",
+  "published_at": "2025-11-15T00:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "donga.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KOR-S008"
+}

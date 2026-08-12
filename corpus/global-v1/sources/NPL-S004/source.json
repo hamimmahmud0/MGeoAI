@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NPL-S004",
+  "country_code": "NPL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/bangladesh/bangladesh-others/87190/atleast-47-dead-in-nepal-bus-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/bangladesh/bangladesh-others/87190/atleast-47-dead-in-nepal-bus-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Nepal%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "2ac767b2cb8bd2329fa5a414f35c8726967187af155b4846ab0511f77aa6cbd2",
+      "size_bytes": 968,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "सडक दुर्घटना",
+    "बस दुर्घटना",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kathmandu",
+  "captured_at": "2026-08-12T03:55:02.409942+06:00",
+  "published_at": "2014-11-24T11:21:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NPL-S004"
+}

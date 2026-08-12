@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b6812667532fe020",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b6812667532fe020",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "POL-NB: Vierjähriger Junge bei Verkehrsunfall in Glowe verletzt",
+      "source_path": "html/DEU/DEU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c197d03a018a6a0",
+    "text": "POL-NB: Vierjähriger Junge bei Verkehrsunfall in Glowe verletzt",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_66a7ba95a7e2dcb2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_66a7ba95a7e2dcb2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-24T09:00:00+02:00",
+      "source_path": "html/DEU/DEU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c197d03a018a6a0",
+    "text": "2026-07-24T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_883b8b17f60ee664",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_883b8b17f60ee664",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Presseportal",
+      "source_path": "html/DEU/DEU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c197d03a018a6a0",
+    "text": "Publisher: Presseportal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a6ca3052de94c2e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3a6ca3052de94c2e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.presseportal.de/blaulicht/pm/108747/6320798",
+      "source_path": "html/DEU/DEU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c197d03a018a6a0",
+    "text": "Original source: https://www.presseportal.de/blaulicht/pm/108747/6320798",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cdb30f42e143c898",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cdb30f42e143c898",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c197d03a018a6a0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9f3b76b6db62d57",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9f3b76b6db62d57",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.presseportal.de/blaulicht/pm/108747/6320798",
+      "source_path": "html/DEU/DEU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c197d03a018a6a0",
+    "text": "https://www.presseportal.de/blaulicht/pm/108747/6320798",
+    "url": null
+  }
+]

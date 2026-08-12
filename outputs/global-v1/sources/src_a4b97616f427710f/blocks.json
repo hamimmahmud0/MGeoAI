@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_25aa0d66db23adf3",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_25aa0d66db23adf3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Duterte is slightly injured in motorcycle accident in Philippines",
+      "source_path": "html/PHL/PHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b97616f427710f",
+    "text": "Duterte is slightly injured in motorcycle accident in Philippines",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_723bf9dc31ef31ef",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_723bf9dc31ef31ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-10-17T21:37:00+08:00",
+      "source_path": "html/PHL/PHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b97616f427710f",
+    "text": "2019-10-17T21:37:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a2283597c0d447ac",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a2283597c0d447ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "\"The president was reaching for his shoe when he fell off his motorcycle\" Manila: President Rodrigo Duterte of the Philippines suffered bruises after falling off ...",
+      "source_path": "html/PHL/PHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b97616f427710f",
+    "text": "\"The president was reaching for his shoe when he fell off his motorcycle\" Manila: President Rodrigo Duterte of the Philippines suffered bruises after falling off ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f412e476fa2e3020",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f412e476fa2e3020",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Gulf News",
+      "source_path": "html/PHL/PHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b97616f427710f",
+    "text": "Publisher: Gulf News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_77b3fae11be779e6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_77b3fae11be779e6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://gulfnews.com/world/asia/philippines/duterte-is-slightly-injured-in-motorcycle-accident-in-philippines-1.1571330393847",
+      "source_path": "html/PHL/PHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b97616f427710f",
+    "text": "Original source: https://gulfnews.com/world/asia/philippines/duterte-is-slightly-injured-in-motorcycle-accident-in-philippines-1.1571330393847",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f79519d4bc71dcf9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f79519d4bc71dcf9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b97616f427710f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95fad88b3f6aa0c1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95fad88b3f6aa0c1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://gulfnews.com/world/asia/philippines/duterte-is-slightly-injured-in-motorcycle-accident-in-philippines-1.1571330393847",
+      "source_path": "html/PHL/PHL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b97616f427710f",
+    "text": "https://gulfnews.com/world/asia/philippines/duterte-is-slightly-injured-in-motorcycle-accident-in-philippines-1.1571330393847",
+    "url": null
+  }
+]

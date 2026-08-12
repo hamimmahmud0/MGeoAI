@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4459e009201c721d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4459e009201c721d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Chiba: Muere conductor de autobús escolar tras chocar contra una casa",
+      "source_path": "html/JPN/JPN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_021a09f37cc09476",
+    "text": "Chiba: Muere conductor de autobús escolar tras chocar contra una casa",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9b73678713ffd117",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9b73678713ffd117",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-29T09:00:00+09:00",
+      "source_path": "html/JPN/JPN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_021a09f37cc09476",
+    "text": "2025-09-29T09:00:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a8cb382a1c81d46d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a8cb382a1c81d46d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A school-bus driver died after crashing into a house in Minami-Kamagaya, Chiba.",
+      "source_path": "html/JPN/JPN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_021a09f37cc09476",
+    "text": "A school-bus driver died after crashing into a house in Minami-Kamagaya, Chiba.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f684d6bef7acd584",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f684d6bef7acd584",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: International Press Digital",
+      "source_path": "html/JPN/JPN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_021a09f37cc09476",
+    "text": "Publisher: International Press Digital",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_38ecf46521ee4a1e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_38ecf46521ee4a1e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://internationalpress.jp/2025/09/29/chiba-muere-conductor-de-autobus-escolar-tras-chocar-contra-una-casa/",
+      "source_path": "html/JPN/JPN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_021a09f37cc09476",
+    "text": "Original source: https://internationalpress.jp/2025/09/29/chiba-muere-conductor-de-autobus-escolar-tras-chocar-contra-una-casa/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0eb696b3f81ae4ec",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0eb696b3f81ae4ec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_021a09f37cc09476",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17f33b08b60f66ae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17f33b08b60f66ae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://internationalpress.jp/2025/09/29/chiba-muere-conductor-de-autobus-escolar-tras-chocar-contra-una-casa/",
+      "source_path": "html/JPN/JPN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_021a09f37cc09476",
+    "text": "https://internationalpress.jp/2025/09/29/chiba-muere-conductor-de-autobus-escolar-tras-chocar-contra-una-casa/",
+    "url": null
+  }
+]

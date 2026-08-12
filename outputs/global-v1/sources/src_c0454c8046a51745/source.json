@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "229c16cd570ee574e4c954874b9d69511b39362e6f3650ddf879cc13d169960e",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "citinewsroom.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-02T07:00:00Z",
+  "publisher": "CitiNewsroom.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_c0454c8046a51745",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-06-02T07:00:00+00:00",
+    "source_info_hash": "06615cd31c0be017",
+    "source_info_path": "html/GHA/GHA-S001/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.citinewsroom.com/2026/06/15-killed-25-injured-in-peki-tsame-highway-crash/",
+  "timezone": "Africa/Accra",
+  "title": "15 killed, 25 injured in Peki–Tsame crash"
+}

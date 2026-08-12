@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8a97fd2f07034de1382396e6c42aa720f933e2ae368041a28d3884311968350e",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "7news australia",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-03T22:01:00Z",
+  "publisher": "7NEWS Australia",
+  "schema_version": "1.0.0",
+  "source_id": "src_0df0dbbeac149d99",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-03T22:01:00+00:00",
+    "source_info_hash": "b43eb6f3dbcce09f",
+    "source_info_path": "html/AUS/AUS-S005/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://7news.com.au/news/traffic-at-standstill-after-two-vehicle-head-on-crash-on-sydney-harbour-bridge-c-22673728",
+  "timezone": "Australia/Sydney",
+  "title": "Three elderly people hospitalised after two-vehicle head-on crash on Sydney Harbour Bridge"
+}

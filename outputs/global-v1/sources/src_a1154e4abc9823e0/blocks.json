@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2899d5c06eccd831",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2899d5c06eccd831",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Driver prosecuted in Vietnam's Ha Giang Loop crash that killed British teen",
+      "source_path": "html/VNM/VNM-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1154e4abc9823e0",
+    "text": "Driver prosecuted in Vietnam's Ha Giang Loop crash that killed British teen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30e5e9b8aa2a4c9e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_30e5e9b8aa2a4c9e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-28T16:29:00+07:00",
+      "source_path": "html/VNM/VNM-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1154e4abc9823e0",
+    "text": "2026-05-28T16:29:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_01a60fb28e66c075",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_01a60fb28e66c075",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tuyen Quang Police reads the arrest order against Sung Seo Chinh (black shirt). - Photo courtesy of the police HANOI: Police in the northern mountainous ...",
+      "source_path": "html/VNM/VNM-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1154e4abc9823e0",
+    "text": "Tuyen Quang Police reads the arrest order against Sung Seo Chinh (black shirt). - Photo courtesy of the police HANOI: Police in the northern mountainous ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dcf69d6d290d9610",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dcf69d6d290d9610",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Star",
+      "source_path": "html/VNM/VNM-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1154e4abc9823e0",
+    "text": "Publisher: The Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_021cbfe40d28bc17",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_021cbfe40d28bc17",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/28/driver-prosecuted-in-vietnam039s-ha-giang-loop-crash-that-killed-british-teen",
+      "source_path": "html/VNM/VNM-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1154e4abc9823e0",
+    "text": "Original source: https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/28/driver-prosecuted-in-vietnam039s-ha-giang-loop-crash-that-killed-british-teen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dccab099570f6223",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dccab099570f6223",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1154e4abc9823e0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_42ad1577e044f340",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_42ad1577e044f340",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/28/driver-prosecuted-in-vietnam039s-ha-giang-loop-crash-that-killed-british-teen",
+      "source_path": "html/VNM/VNM-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1154e4abc9823e0",
+    "text": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/28/driver-prosecuted-in-vietnam039s-ha-giang-loop-crash-that-killed-british-teen",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_7b060935d8388abd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_7b060935d8388abd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Svensk man död i bilolycka på Irland – skulle mörda",
+      "source_path": "html/SWE/SWE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_848449079854c413",
+    "text": "Svensk man död i bilolycka på Irland – skulle mörda",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_60c34545d6a6d686",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_60c34545d6a6d686",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T09:00:00+02:00",
+      "source_path": "html/SWE/SWE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_848449079854c413",
+    "text": "2026-06-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4b301ec4ed4c1e70",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4b301ec4ed4c1e70",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "En svensk man har dött i en bilolycka på Irland, skriver irländska medier.",
+      "source_path": "html/SWE/SWE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_848449079854c413",
+    "text": "En svensk man har dött i en bilolycka på Irland, skriver irländska medier.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_267156f533b39ee5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_267156f533b39ee5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Expressen",
+      "source_path": "html/SWE/SWE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_848449079854c413",
+    "text": "Publisher: Expressen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_385e86b35a2c33ec",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_385e86b35a2c33ec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.expressen.se/nyheter/krim/svensk-man-dod-i-bilolycka-pa-irland-skulle-morda/",
+      "source_path": "html/SWE/SWE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_848449079854c413",
+    "text": "Original source: https://www.expressen.se/nyheter/krim/svensk-man-dod-i-bilolycka-pa-irland-skulle-morda/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e22ac7b1fd58858b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e22ac7b1fd58858b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SWE/SWE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_848449079854c413",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a949deb87ddc8347",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a949deb87ddc8347",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.expressen.se/nyheter/krim/svensk-man-dod-i-bilolycka-pa-irland-skulle-morda/",
+      "source_path": "html/SWE/SWE-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_848449079854c413",
+    "text": "https://www.expressen.se/nyheter/krim/svensk-man-dod-i-bilolycka-pa-irland-skulle-morda/",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S007",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Mirror",
+  "canonical_url": "https://www.mirror.co.uk/news/world-news/breaking-tokyo-crash-carnage-car-35212231",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.mirror.co.uk/news/world-news/breaking-tokyo-crash-carnage-car-35212231",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Tokyo%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "b23526748ea58360b6e2a3bcb24eb614563fafadbca5c161cef2c9402eb86fd3",
+      "size_bytes": 1032,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:50:00.682333+06:00",
+  "published_at": "2025-11-24T01:14:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "mirror.co.uk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S007"
+}

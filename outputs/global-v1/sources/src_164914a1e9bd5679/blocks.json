@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c6a7b522fb418dc2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c6a7b522fb418dc2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "25-year-old woman injured after car crashes into pedestrian walkway in Orchard Road",
+      "source_path": "html/SGP/SGP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_164914a1e9bd5679",
+    "text": "25-year-old woman injured after car crashes into pedestrian walkway in Orchard Road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57bd0f489f2b2b6f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_57bd0f489f2b2b6f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-06T12:55:00+08:00",
+      "source_path": "html/SGP/SGP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_164914a1e9bd5679",
+    "text": "2026-08-06T12:55:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5c83d2c1761f7fd8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5c83d2c1761f7fd8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A 25-year-old woman was hospitalised after a car crashed into a pedestrian walkway in Singapore's Orchard Road. Read more at straitstimes.com. Read more at straitstimes.com.",
+      "source_path": "html/SGP/SGP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_164914a1e9bd5679",
+    "text": "A 25-year-old woman was hospitalised after a car crashed into a pedestrian walkway in Singapore's Orchard Road. Read more at straitstimes.com. Read more at straitstimes.com.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cccdd87726ce4e03",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cccdd87726ce4e03",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Straits Times",
+      "source_path": "html/SGP/SGP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_164914a1e9bd5679",
+    "text": "Publisher: The Straits Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dfc5e02ee96d8d13",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dfc5e02ee96d8d13",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.straitstimes.com/singapore/25-year-old-woman-injured-after-car-crashes-into-pedestrian-walkway-in-orchard-road",
+      "source_path": "html/SGP/SGP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_164914a1e9bd5679",
+    "text": "Original source: https://www.straitstimes.com/singapore/25-year-old-woman-injured-after-car-crashes-into-pedestrian-walkway-in-orchard-road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bd26ad09a171ff46",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bd26ad09a171ff46",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SGP/SGP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_164914a1e9bd5679",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99ac86d43c197a28",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_99ac86d43c197a28",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.straitstimes.com/singapore/25-year-old-woman-injured-after-car-crashes-into-pedestrian-walkway-in-orchard-road",
+      "source_path": "html/SGP/SGP-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_164914a1e9bd5679",
+    "text": "https://www.straitstimes.com/singapore/25-year-old-woman-injured-after-car-crashes-into-pedestrian-walkway-in-orchard-road",
+    "url": null
+  }
+]

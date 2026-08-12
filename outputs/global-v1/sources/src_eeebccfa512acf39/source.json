@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ad92e3b022154db9105c2fe992c6dac0f2e5c00aebbd749f034caf6c6f19a02e",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "bbc news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-18T00:00:00Z",
+  "publisher": "BBC News",
+  "schema_version": "1.0.0",
+  "source_id": "src_eeebccfa512acf39",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-06-18T00:00:00+00:00",
+    "source_info_hash": "c5e7b82b91d8b5ca",
+    "source_info_path": "html/GBR/GBR-S001/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bbc.com/news/articles/c80prrgepzeo",
+  "timezone": "Europe/London",
+  "title": "M5 crash victims named as inquest opens"
+}

@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a257ac0621c92fca78a17953c69b6cbb4c741500f427bba909caaaf2b9a902c6",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "aftenposten",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-06T07:00:00Z",
+  "publisher": "Aftenposten",
+  "schema_version": "1.0.0",
+  "source_id": "src_44ec714e99be57ea",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2026-07-06T07:00:00+00:00",
+    "source_info_hash": "dc775dd32a3750d3",
+    "source_info_path": "html/NOR/NOR-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aftenposten.no/norge/i/j0kB2q/kollisjon-mellom-bobil-og-personbil",
+  "timezone": "Europe/Oslo",
+  "title": "Kollisjon mellom bobil og personbil"
+}

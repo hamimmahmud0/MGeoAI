@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "50837d7711b9aefd9cb9bfb4e1efd162707c73f278fee1bedc9a9afdfb1d4a14",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "el mundo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-28T07:00:00Z",
+  "publisher": "El Mundo",
+  "schema_version": "1.0.0",
+  "source_id": "src_d838ea1d5f857697",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-28T07:00:00+00:00",
+    "source_info_hash": "ffdd71ea138fe82b",
+    "source_info_path": "html/ESP/ESP-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.elmundo.es/comunidad-valenciana/2026/06/28/6a40da5be85ecee64b8b4597.html",
+  "timezone": "Europe/Madrid",
+  "title": "Cuatro muertos y seis heridos graves en un accidente de tráfico en Castellón"
+}

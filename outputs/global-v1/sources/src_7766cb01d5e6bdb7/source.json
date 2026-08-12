@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ba873e1ceda3e5f97dc13dcf1ddb197f27e0537e7184d9831d020b59114ef80b",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "outre-mer la 1ère",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-15T07:00:00Z",
+  "publisher": "Outre-mer La 1ère",
+  "schema_version": "1.0.0",
+  "source_id": "src_7766cb01d5e6bdb7",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-07-15T07:00:00+00:00",
+    "source_info_hash": "9aa1694080c53a1d",
+    "source_info_path": "html/FRA/FRA-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://la1ere.franceinfo.fr/guyane/un-mort-et-trois-blesses-dans-un-accident-de-la-route-a-iracoubo-1720129.html",
+  "timezone": "Europe/Paris",
+  "title": "Un mort et trois blessés dans un accident de la route à Iracoubo"
+}

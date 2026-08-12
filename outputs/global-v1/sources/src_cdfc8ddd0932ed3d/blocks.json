@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0254392cb218c9bd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0254392cb218c9bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 8 killed, 25 injured in train collision that sparks bus fire in Thailand",
+      "source_path": "html/THA/THA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cdfc8ddd0932ed3d",
+    "text": "At least 8 killed, 25 injured in train collision that sparks bus fire in Thailand",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_93e295d241c02777",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_93e295d241c02777",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-16T12:10:00+07:00",
+      "source_path": "html/THA/THA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cdfc8ddd0932ed3d",
+    "text": "2026-05-16T12:10:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cc9fb08f3cffa9d6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cc9fb08f3cffa9d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least eight people were killed and 25 ‌others injured after a train collision ⁠triggered a fire that engulfed a public bus in ‌Bangkok on ...",
+      "source_path": "html/THA/THA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cdfc8ddd0932ed3d",
+    "text": "At least eight people were killed and 25 ‌others injured after a train collision ⁠triggered a fire that engulfed a public bus in ‌Bangkok on ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf1d8ade5b7e7c99",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bf1d8ade5b7e7c99",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Hindu",
+      "source_path": "html/THA/THA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cdfc8ddd0932ed3d",
+    "text": "Publisher: The Hindu",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e7e8b2808e958bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2e7e8b2808e958bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thehindu.com/news/international/several-killed-injured-in-train-collision-that-sparks-bus-fire-in-thailand-updates/article70986789.ece",
+      "source_path": "html/THA/THA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cdfc8ddd0932ed3d",
+    "text": "Original source: https://www.thehindu.com/news/international/several-killed-injured-in-train-collision-that-sparks-bus-fire-in-thailand-updates/article70986789.ece",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e9b16e6c0f1e4413",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e9b16e6c0f1e4413",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cdfc8ddd0932ed3d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cbcf69b46d094f08",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cbcf69b46d094f08",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thehindu.com/news/international/several-killed-injured-in-train-collision-that-sparks-bus-fire-in-thailand-updates/article70986789.ece",
+      "source_path": "html/THA/THA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cdfc8ddd0932ed3d",
+    "text": "https://www.thehindu.com/news/international/several-killed-injured-in-train-collision-that-sparks-bus-fire-in-thailand-updates/article70986789.ece",
+    "url": null
+  }
+]

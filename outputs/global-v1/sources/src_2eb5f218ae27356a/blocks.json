@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9438a56ac182fb14",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9438a56ac182fb14",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Indonesia drag car race crash kills eight: police",
+      "source_path": "html/IDN/IDN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eb5f218ae27356a",
+    "text": "Indonesia drag car race crash kills eight: police",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e788077001dae00",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0e788077001dae00",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T16:23:00+07:00",
+      "source_path": "html/IDN/IDN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eb5f218ae27356a",
+    "text": "2026-08-10T16:23:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9639536e8b0a7c44",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9639536e8b0a7c44",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "JAKARTA, Aug 10, 2026 (BSS/AFP) - A drag car veered out of control and crashed into spectators at a weekend race in Indonesia, killing eight ...",
+      "source_path": "html/IDN/IDN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eb5f218ae27356a",
+    "text": "JAKARTA, Aug 10, 2026 (BSS/AFP) - A drag car veered out of control and crashed into spectators at a weekend race in Indonesia, killing eight ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_96b0ca71ad5f6c0a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_96b0ca71ad5f6c0a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Bangladesh Sangsbad Sangstha",
+      "source_path": "html/IDN/IDN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eb5f218ae27356a",
+    "text": "Publisher: Bangladesh Sangsbad Sangstha",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bafb0ea9fabe485",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4bafb0ea9fabe485",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bssnews.net/international/413323",
+      "source_path": "html/IDN/IDN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eb5f218ae27356a",
+    "text": "Original source: https://www.bssnews.net/international/413323",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd1fa8d0d301bc31",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd1fa8d0d301bc31",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eb5f218ae27356a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

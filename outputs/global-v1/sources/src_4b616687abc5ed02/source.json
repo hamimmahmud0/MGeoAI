@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "eb6b8a78de351e18ca872536a48b346960f6c3b2e1ebe6f11ad12944984f289f",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "the economic times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-06T07:54:46Z",
+  "publisher": "The Economic Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_4b616687abc5ed02",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-06T07:54:46+00:00",
+    "source_info_hash": "046b3a8a176a8580",
+    "source_info_path": "html/GBR/GBR-S005/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://economictimes.indiatimes.com/news/india/atiq-ahmeds-son-aaban-killed-in-jhansi-road-accident/articleshow/132990159.cms?from=mdr",
+  "timezone": "Europe/London",
+  "title": "Atiq Ahmed’s son Aaban killed in Jhansi road accident"
+}

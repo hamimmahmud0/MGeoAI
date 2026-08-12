@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_78201294493fd78f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_78201294493fd78f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Acidente de viação em Cabo Ledo causa 28 feridos",
+      "source_path": "html/PRT/PRT-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0942d3d1f0bf28c9",
+    "text": "Acidente de viação em Cabo Ledo causa 28 feridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_11c7b900a150a777",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_11c7b900a150a777",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T08:00:00+01:00",
+      "source_path": "html/PRT/PRT-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0942d3d1f0bf28c9",
+    "text": "2026-08-08T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_46ce82b823407511",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_46ce82b823407511",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Jornal de Angola",
+      "source_path": "html/PRT/PRT-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0942d3d1f0bf28c9",
+    "text": "Publisher: Jornal de Angola",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_21a0ba2a76527a0f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_21a0ba2a76527a0f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://jornaldeangola.ao/noticias/3/sociedade/682796/acidente-de-viacao-em-cabo-ledo-causa-28-feridos",
+      "source_path": "html/PRT/PRT-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0942d3d1f0bf28c9",
+    "text": "Original source: https://jornaldeangola.ao/noticias/3/sociedade/682796/acidente-de-viacao-em-cabo-ledo-causa-28-feridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c58225d980418cf1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c58225d980418cf1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0942d3d1f0bf28c9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6fa06b37362bb5ff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6fa06b37362bb5ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://jornaldeangola.ao/noticias/3/sociedade/682796/acidente-de-viacao-em-cabo-ledo-causa-28-feridos",
+      "source_path": "html/PRT/PRT-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0942d3d1f0bf28c9",
+    "text": "https://jornaldeangola.ao/noticias/3/sociedade/682796/acidente-de-viacao-em-cabo-ledo-causa-28-feridos",
+    "url": null
+  }
+]

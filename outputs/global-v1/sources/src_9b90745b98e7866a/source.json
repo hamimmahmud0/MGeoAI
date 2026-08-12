@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2cf596cdfc0c9272d57bb0e79453275ef0d768c4fb4187f3e49446f77e1f0cab",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "nacion.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-25T07:00:00Z",
+  "publisher": "nacion.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_9b90745b98e7866a",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-25T07:00:00+00:00",
+    "source_info_hash": "5d6867fe31654f4b",
+    "source_info_path": "html/CRI/CRI-S010/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nacion.com/sucesos/violento-choque-en-lindora-deja-un-joven-muerto-y/TNZJZ2R2RZFATIBQCMGSBOEYIY/story/",
+  "timezone": "America/Costa_Rica",
+  "title": "Violento choque en Lindora deja un joven muerto y otros cinco en estado crítico"
+}

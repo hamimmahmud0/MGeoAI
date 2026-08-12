@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3c47e67e11a859f8d2a4745f0c6fa0beafd7ff54da58e4f703a337b202dfbef4",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "pakistan today",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-07-20T04:53:00Z",
+  "publisher": "Pakistan Today",
+  "schema_version": "1.0.0",
+  "source_id": "src_d4f52b292ed41fdc",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-07-20T04:53:00+00:00",
+    "source_info_hash": "d4640739c681508e",
+    "source_info_path": "html/BGD/BGD-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.pakistantoday.com.pk/2025/07/20/most-expensive-car-crash-in-bangladesh-as-rolls-royce-collides-with-road-divider",
+  "timezone": "Asia/Dhaka",
+  "title": "Most expensive car crash in Bangladesh as Rolls-Royce collides with road divider"
+}

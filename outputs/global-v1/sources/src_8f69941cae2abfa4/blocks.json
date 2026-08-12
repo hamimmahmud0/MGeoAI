@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f8e807c1d70896ac",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f8e807c1d70896ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Person omkom i trafikkulykke i Sør-Varanger",
+      "source_path": "html/NOR/NOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8f69941cae2abfa4",
+    "text": "Person omkom i trafikkulykke i Sør-Varanger",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a856b07dae2f2ba0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a856b07dae2f2ba0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-21T09:00:00+02:00",
+      "source_path": "html/NOR/NOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8f69941cae2abfa4",
+    "text": "2026-07-21T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_69c9445ab7d0ce4b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_69c9445ab7d0ce4b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Person omkom i trafikkulykke i Sør-Varanger En person mistet livet da to biler kolliderte i Pasvik i Sør-Varanger i Finnmark tirsdag.",
+      "source_path": "html/NOR/NOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8f69941cae2abfa4",
+    "text": "Person omkom i trafikkulykke i Sør-Varanger En person mistet livet da to biler kolliderte i Pasvik i Sør-Varanger i Finnmark tirsdag.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_117b625fb90881f1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_117b625fb90881f1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftenposten",
+      "source_path": "html/NOR/NOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8f69941cae2abfa4",
+    "text": "Publisher: Aftenposten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d0b543c37b2f9ced",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d0b543c37b2f9ced",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftenposten.no/norge/i/M7dxGm/person-omkom-i-trafikkulykke-i-soer-varanger",
+      "source_path": "html/NOR/NOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8f69941cae2abfa4",
+    "text": "Original source: https://www.aftenposten.no/norge/i/M7dxGm/person-omkom-i-trafikkulykke-i-soer-varanger",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2ada8abca9059f41",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2ada8abca9059f41",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8f69941cae2abfa4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_699e77ee0d902785",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_699e77ee0d902785",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftenposten.no/norge/i/M7dxGm/person-omkom-i-trafikkulykke-i-soer-varanger",
+      "source_path": "html/NOR/NOR-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8f69941cae2abfa4",
+    "text": "https://www.aftenposten.no/norge/i/M7dxGm/person-omkom-i-trafikkulykke-i-soer-varanger",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3a57f8a934f9f2b895a661d6d88f8b3788616efb0acf0cd3f11d757fd04f63b0",
+  "country": "Singapore",
+  "country_code": "SGP",
+  "dependency_group": "the straits times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SGP/SGP-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-04T09:54:00Z",
+  "publisher": "The Straits Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_4cee88e9d8a3d887",
+  "source_metadata": {
+    "country": "Singapore",
+    "country_code": "SGP",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-04T09:54:00+00:00",
+    "source_info_hash": "e51ae87f4fe516d0",
+    "source_info_path": "html/SGP/SGP-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Singapore",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "traffic accident",
+      "road collision",
+      "vehicle crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.straitstimes.com/singapore/four-people-taken-to-hospital-one-unconscious-after-accident-on-sle",
+  "timezone": "Asia/Singapore",
+  "title": "Four people taken to hospital, one unconscious, after accident on SLE"
+}

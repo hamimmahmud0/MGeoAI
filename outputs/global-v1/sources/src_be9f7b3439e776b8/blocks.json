@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8e4aa676b2040015",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8e4aa676b2040015",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Singapore: 25-Year-Old Woman Hospitalized After Car Mounts Pedestrian Walkway Near Mandarin Gallery on Orchard Road",
+      "source_path": "html/SGP/SGP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be9f7b3439e776b8",
+    "text": "Singapore: 25-Year-Old Woman Hospitalized After Car Mounts Pedestrian Walkway Near Mandarin Gallery on Orchard Road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bcb3dfd8cc86afa6",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_bcb3dfd8cc86afa6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-07T15:20:00+08:00",
+      "source_path": "html/SGP/SGP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be9f7b3439e776b8",
+    "text": "2026-08-07T15:20:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_07e441744b64df93",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_07e441744b64df93",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The injured woman, who was a pedestrian at the time of the crash, was conscious when she was taken to Raffles Hospital for medical treatment.",
+      "source_path": "html/SGP/SGP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be9f7b3439e776b8",
+    "text": "The injured woman, who was a pedestrian at the time of the crash, was conscious when she was taken to Raffles Hospital for medical treatment.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4b3b36860b3efa23",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4b3b36860b3efa23",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: International Business Times Singapore",
+      "source_path": "html/SGP/SGP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be9f7b3439e776b8",
+    "text": "Publisher: International Business Times Singapore",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_170c9adc1545b1d1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_170c9adc1545b1d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ibtimes.sg/singapore-25-year-old-woman-hospitalized-after-car-mounts-pedestrian-walkway-near-mandarin-gallery-91703",
+      "source_path": "html/SGP/SGP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be9f7b3439e776b8",
+    "text": "Original source: https://www.ibtimes.sg/singapore-25-year-old-woman-hospitalized-after-car-mounts-pedestrian-walkway-near-mandarin-gallery-91703",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48ec5447553295e8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48ec5447553295e8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SGP/SGP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be9f7b3439e776b8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e815bfc26802b0ef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e815bfc26802b0ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ibtimes.sg/singapore-25-year-old-woman-hospitalized-after-car-mounts-pedestrian-walkway-near-mandarin-gallery-91703",
+      "source_path": "html/SGP/SGP-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be9f7b3439e776b8",
+    "text": "https://www.ibtimes.sg/singapore-25-year-old-woman-hospitalized-after-car-mounts-pedestrian-walkway-near-mandarin-gallery-91703",
+    "url": null
+  }
+]

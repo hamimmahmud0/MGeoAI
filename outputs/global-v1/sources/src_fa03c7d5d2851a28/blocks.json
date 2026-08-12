@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c661587fdaf60422",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c661587fdaf60422",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Accidente de tránsito en Punta del Este, hay heridos",
+      "source_path": "html/ARG/ARG-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa03c7d5d2851a28",
+    "text": "Accidente de tránsito en Punta del Este, hay heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6addfed72cd64885",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6addfed72cd64885",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-21T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa03c7d5d2851a28",
+    "text": "2026-05-21T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c8b4a72d064c2ee9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c8b4a72d064c2ee9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Cadena del Mar",
+      "source_path": "html/ARG/ARG-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa03c7d5d2851a28",
+    "text": "Publisher: Cadena del Mar",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fac2f55491d5ad3a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fac2f55491d5ad3a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://cadenadelmar.uy/local/accidente-de-transito-en-punta-del-este-hay-heridos-4478",
+      "source_path": "html/ARG/ARG-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa03c7d5d2851a28",
+    "text": "Original source: https://cadenadelmar.uy/local/accidente-de-transito-en-punta-del-este-hay-heridos-4478",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b6004d48b314a846",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b6004d48b314a846",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa03c7d5d2851a28",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88899e4018946e06",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88899e4018946e06",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://cadenadelmar.uy/local/accidente-de-transito-en-punta-del-este-hay-heridos-4478",
+      "source_path": "html/ARG/ARG-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa03c7d5d2851a28",
+    "text": "https://cadenadelmar.uy/local/accidente-de-transito-en-punta-del-este-hay-heridos-4478",
+    "url": null
+  }
+]

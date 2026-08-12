@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_aad63e34a3c845ee",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_aad63e34a3c845ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Police investigate triple fatal road crash in Sans Souci, southern Sydney",
+      "source_path": "html/AUS/AUS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3eb698f55e28a820",
+    "text": "Police investigate triple fatal road crash in Sans Souci, southern Sydney",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_19b018bde722a111",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_19b018bde722a111",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-23T04:07:00+10:00",
+      "source_path": "html/AUS/AUS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3eb698f55e28a820",
+    "text": "2026-05-23T04:07:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_11f0d2852ef7e10c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_11f0d2852ef7e10c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three people have died in a car crash in Sydney's south, with police attempting to conduct a welfare check at one of the victim's homes ...",
+      "source_path": "html/AUS/AUS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3eb698f55e28a820",
+    "text": "Three people have died in a car crash in Sydney's south, with police attempting to conduct a welfare check at one of the victim's homes ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5d52cb92d47899f5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5d52cb92d47899f5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Australian Broadcasting Corporation",
+      "source_path": "html/AUS/AUS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3eb698f55e28a820",
+    "text": "Publisher: Australian Broadcasting Corporation",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d4e572056fccfa8a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d4e572056fccfa8a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.abc.net.au/news/2026-05-23/police-investigate-sans-souci-triple-fatal-crash/106714104",
+      "source_path": "html/AUS/AUS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3eb698f55e28a820",
+    "text": "Original source: https://www.abc.net.au/news/2026-05-23/police-investigate-sans-souci-triple-fatal-crash/106714104",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_22cd3e0cf118f724",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_22cd3e0cf118f724",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3eb698f55e28a820",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_396dcac2aef68b15",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_396dcac2aef68b15",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.abc.net.au/news/2026-05-23/police-investigate-sans-souci-triple-fatal-crash/106714104",
+      "source_path": "html/AUS/AUS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3eb698f55e28a820",
+    "text": "https://www.abc.net.au/news/2026-05-23/police-investigate-sans-souci-triple-fatal-crash/106714104",
+    "url": null
+  }
+]

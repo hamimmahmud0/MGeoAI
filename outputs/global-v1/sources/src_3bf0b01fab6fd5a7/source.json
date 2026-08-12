@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ef6cddc4215632229e436aa8d0f881d8ed678cb6a5c2cf754da40f6e6874b265",
+  "country": "Italy",
+  "country_code": "ITA",
+  "dependency_group": "corriere della sera",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "it"
+  ],
+  "local_path": "html/ITA/ITA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-01T07:00:00Z",
+  "publisher": "Corriere della Sera",
+  "schema_version": "1.0.0",
+  "source_id": "src_3bf0b01fab6fd5a7",
+  "source_metadata": {
+    "country": "Italy",
+    "country_code": "ITA",
+    "languages": [
+      "it"
+    ],
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "source_info_hash": "cd5f96807c4f135e",
+    "source_info_path": "html/ITA/ITA-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Rome",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "incidente stradale",
+      "scontro tra veicoli",
+      "incidente automobilistico",
+      "incidente autobus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.corriere.it/sport/calcio/26_giugno_01/marios-oikonomou-morto-incidente-d14fae47-f65b-4f14-86fe-9a5b8ba54xlk.shtml",
+  "timezone": "Europe/Rome",
+  "title": "Oikonomou morto in un incidente stradale: l'ex difensore di Bologna, Samp e Bari aveva 33 anni"
+}

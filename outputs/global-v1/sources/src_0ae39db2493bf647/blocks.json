@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bd53df7ba36e7cf4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bd53df7ba36e7cf4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Five Tzfat residents killed in car accident in Morocco",
+      "source_path": "html/MAR/MAR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0ae39db2493bf647",
+    "text": "Five Tzfat residents killed in car accident in Morocco",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b1c421aa6d4867a3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b1c421aa6d4867a3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-06T07:53:00+01:00",
+      "source_path": "html/MAR/MAR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0ae39db2493bf647",
+    "text": "2024-12-06T07:53:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_487a3558184bc71f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_487a3558184bc71f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Five Israelis were killed Friday in a traffic accident in Morocco. Later in the day, it was cleared for publication that five were residents of ...",
+      "source_path": "html/MAR/MAR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0ae39db2493bf647",
+    "text": "Five Israelis were killed Friday in a traffic accident in Morocco. Later in the day, it was cleared for publication that five were residents of ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f4180c69b4a9eed7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f4180c69b4a9eed7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Arutz Sheva",
+      "source_path": "html/MAR/MAR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0ae39db2493bf647",
+    "text": "Publisher: Arutz Sheva",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1971c8c0d6f90e89",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1971c8c0d6f90e89",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.israelnationalnews.com/news/400334",
+      "source_path": "html/MAR/MAR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0ae39db2493bf647",
+    "text": "Original source: https://www.israelnationalnews.com/news/400334",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48d114cd73397b7b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48d114cd73397b7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0ae39db2493bf647",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9f832c128f247bd0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9f832c128f247bd0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.israelnationalnews.com/news/400334",
+      "source_path": "html/MAR/MAR-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0ae39db2493bf647",
+    "text": "https://www.israelnationalnews.com/news/400334",
+    "url": null
+  }
+]

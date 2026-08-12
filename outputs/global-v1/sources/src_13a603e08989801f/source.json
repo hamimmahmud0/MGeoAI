@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0b60ab0713985b357c6401da9f5b62359cba8166b20b0c8bf71418b277587eb2",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "blogdosilvalima.com.br",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-22T07:00:00Z",
+  "publisher": "blogdosilvalima.com.br",
+  "schema_version": "1.0.0",
+  "source_id": "src_13a603e08989801f",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-06-22T07:00:00+00:00",
+    "source_info_hash": "1d91b621134fadc7",
+    "source_info_path": "html/BRA/BRA-S001/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://blogdosilvalima.com.br/papa-leao-xiv-homenageia-jovens-mortos-em-acidente-de-onibus-em-taua-ce/",
+  "timezone": "America/Sao_Paulo",
+  "title": "Papa Leão XIV homenageia jovens mortos em acidente de ônibus em Tauá (CE)"
+}

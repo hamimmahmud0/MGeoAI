@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0c683530e32346d7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0c683530e32346d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tour bus crashes into car before plunging into roadside canal in Korat",
+      "source_path": "html/THA/THA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b002eead82e3b3a",
+    "text": "Tour bus crashes into car before plunging into roadside canal in Korat",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f5587447c79ffd84",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f5587447c79ffd84",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-30T02:53:00+07:00",
+      "source_path": "html/THA/THA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b002eead82e3b3a",
+    "text": "2026-07-30T02:53:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_318fba34d89073ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_318fba34d89073ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A tour bus carrying 41 passengers collided with a car before both vehicles lost control and plunged into a roadside drainage canal along Mittraphap Road ...",
+      "source_path": "html/THA/THA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b002eead82e3b3a",
+    "text": "A tour bus carrying 41 passengers collided with a car before both vehicles lost control and plunged into a roadside drainage canal along Mittraphap Road ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a3e26bdc5b2fb28",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3a3e26bdc5b2fb28",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Pattaya Mail",
+      "source_path": "html/THA/THA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b002eead82e3b3a",
+    "text": "Publisher: Pattaya Mail",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_36148ff87bc2f99e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_36148ff87bc2f99e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.pattayamail.com/news/tour-bus-crashes-into-car-before-plunging-into-roadside-canal-in-korat-559336",
+      "source_path": "html/THA/THA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b002eead82e3b3a",
+    "text": "Original source: https://www.pattayamail.com/news/tour-bus-crashes-into-car-before-plunging-into-roadside-canal-in-korat-559336",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ad180d2d9c3de8f0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ad180d2d9c3de8f0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b002eead82e3b3a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d497af4d2e173563",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d497af4d2e173563",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.pattayamail.com/news/tour-bus-crashes-into-car-before-plunging-into-roadside-canal-in-korat-559336",
+      "source_path": "html/THA/THA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b002eead82e3b3a",
+    "text": "https://www.pattayamail.com/news/tour-bus-crashes-into-car-before-plunging-into-roadside-canal-in-korat-559336",
+    "url": null
+  }
+]

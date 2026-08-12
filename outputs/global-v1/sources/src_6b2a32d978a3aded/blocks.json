@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a347c3e04cc3b7b9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a347c3e04cc3b7b9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Thailand mourns national karate coach killed in crash days after SEA Games victories",
+      "source_path": "html/THA/THA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b2a32d978a3aded",
+    "text": "Thailand mourns national karate coach killed in crash days after SEA Games victories",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6fa2d90f0aeef7e7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6fa2d90f0aeef7e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-17T08:48:00+07:00",
+      "source_path": "html/THA/THA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b2a32d978a3aded",
+    "text": "2025-12-17T08:48:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6cef121a1d0448e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6cef121a1d0448e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Thailand's sports community is mourning the death of national karate coach Kanokporn Donsumran, who was killed in a road accident just days after she helped ...",
+      "source_path": "html/THA/THA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b2a32d978a3aded",
+    "text": "Thailand's sports community is mourning the death of national karate coach Kanokporn Donsumran, who was killed in a road accident just days after she helped ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_42d422901d936be2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_42d422901d936be2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: VN Express",
+      "source_path": "html/THA/THA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b2a32d978a3aded",
+    "text": "Publisher: VN Express",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_626688d860affa55",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_626688d860affa55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://e.vnexpress.net/news/news/traffic/thailand-mourns-national-karate-coach-killed-in-crash-days-after-sea-games-victories-4995369.html",
+      "source_path": "html/THA/THA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b2a32d978a3aded",
+    "text": "Original source: https://e.vnexpress.net/news/news/traffic/thailand-mourns-national-karate-coach-killed-in-crash-days-after-sea-games-victories-4995369.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f59be0cc7bd20ae9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f59be0cc7bd20ae9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b2a32d978a3aded",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bd904bfe03c1e888",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bd904bfe03c1e888",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://e.vnexpress.net/news/news/traffic/thailand-mourns-national-karate-coach-killed-in-crash-days-after-sea-games-victories-4995369.html",
+      "source_path": "html/THA/THA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6b2a32d978a3aded",
+    "text": "https://e.vnexpress.net/news/news/traffic/thailand-mourns-national-karate-coach-killed-in-crash-days-after-sea-games-victories-4995369.html",
+    "url": null
+  }
+]

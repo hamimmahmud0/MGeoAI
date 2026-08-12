@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d9f4cd0329e97274",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d9f4cd0329e97274",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Wypadek polskich turystów w Indiach. Lokalne media ujawniają szczegóły",
+      "source_path": "html/POL/POL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca8eb69303bd62e6",
+    "text": "Wypadek polskich turystów w Indiach. Lokalne media ujawniają szczegóły",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b413004038f6a4d1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b413004038f6a4d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-18T09:00:00+01:00",
+      "source_path": "html/POL/POL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca8eb69303bd62e6",
+    "text": "2026-02-18T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_801c919dfad1eef4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_801c919dfad1eef4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Michał nie żyje, Agnieszka była hospitalizowana Tragiczny finał wycieczki Polaków do Indii.",
+      "source_path": "html/POL/POL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca8eb69303bd62e6",
+    "text": "Michał nie żyje, Agnieszka była hospitalizowana Tragiczny finał wycieczki Polaków do Indii.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_16fd4600a2f853eb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_16fd4600a2f853eb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Fakt",
+      "source_path": "html/POL/POL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca8eb69303bd62e6",
+    "text": "Publisher: Fakt",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_11ff78f6bbcd05c5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_11ff78f6bbcd05c5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.fakt.pl/wydarzenia/swiat/indie-tragiczny-wypadek-polskich-turystow-on-nie-zyje-ona-w-ciezkim-stanie/zkvef5j",
+      "source_path": "html/POL/POL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca8eb69303bd62e6",
+    "text": "Original source: https://www.fakt.pl/wydarzenia/swiat/indie-tragiczny-wypadek-polskich-turystow-on-nie-zyje-ona-w-ciezkim-stanie/zkvef5j",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30d6af0e858a4442",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30d6af0e858a4442",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca8eb69303bd62e6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e6d63539884662e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0e6d63539884662e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.fakt.pl/wydarzenia/swiat/indie-tragiczny-wypadek-polskich-turystow-on-nie-zyje-ona-w-ciezkim-stanie/zkvef5j",
+      "source_path": "html/POL/POL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ca8eb69303bd62e6",
+    "text": "https://www.fakt.pl/wydarzenia/swiat/indie-tragiczny-wypadek-polskich-turystow-on-nie-zyje-ona-w-ciezkim-stanie/zkvef5j",
+    "url": null
+  }
+]

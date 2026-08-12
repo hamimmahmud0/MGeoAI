@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5cbfab5ca5ae92d8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5cbfab5ca5ae92d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Teenager and two adults killed in M5 crash as child fights for life",
+      "source_path": "html/GBR/GBR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ae168040b999187",
+    "text": "Teenager and two adults killed in M5 crash as child fights for life",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5ff5ce5d3323e75d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5ff5ce5d3323e75d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-31T21:07:00+01:00",
+      "source_path": "html/GBR/GBR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ae168040b999187",
+    "text": "2025-05-31T21:07:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e2c2fd662890a01",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0e2c2fd662890a01",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A teenager and two adults died when a white BMW left the northbound M5 in South Gloucestershire on 30 May; a second child was critically ...",
+      "source_path": "html/GBR/GBR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ae168040b999187",
+    "text": "A teenager and two adults died when a white BMW left the northbound M5 in South Gloucestershire on 30 May; a second child was critically ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cd51cd2626c6c06d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cd51cd2626c6c06d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Independent",
+      "source_path": "html/GBR/GBR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ae168040b999187",
+    "text": "Publisher: The Independent",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_07807e77fddc1165",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_07807e77fddc1165",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.the-independent.com/news/uk/home-news/m5-crash-deaths-road-closure-traffic-gloucestershire-latest-b2761179.html",
+      "source_path": "html/GBR/GBR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ae168040b999187",
+    "text": "Original source: https://www.the-independent.com/news/uk/home-news/m5-crash-deaths-road-closure-traffic-gloucestershire-latest-b2761179.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0440952a6d34a798",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0440952a6d34a798",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ae168040b999187",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee8348f41b660bcb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee8348f41b660bcb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.the-independent.com/news/uk/home-news/m5-crash-deaths-road-closure-traffic-gloucestershire-latest-b2761179.html",
+      "source_path": "html/GBR/GBR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6ae168040b999187",
+    "text": "https://www.the-independent.com/news/uk/home-news/m5-crash-deaths-road-closure-traffic-gloucestershire-latest-b2761179.html",
+    "url": null
+  }
+]

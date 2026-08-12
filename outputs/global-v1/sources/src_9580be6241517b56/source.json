@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c785616d07720d575cba1422fd6ca836f457213c63e2f3d0ab60e68608827ad1",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "el comercio",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-08T07:00:00Z",
+  "publisher": "El Comercio",
+  "schema_version": "1.0.0",
+  "source_id": "src_9580be6241517b56",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-08T07:00:00+00:00",
+    "source_info_hash": "efbe7326716c2bf5",
+    "source_info_path": "html/ECU/ECU-S005/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.elcomercio.com/actualidad/ecuador/bus-cae-rio-ambato-deja-dos-fallecidos-tres-heridos/",
+  "timezone": "America/Guayaquil",
+  "title": "Bus cae al río Ambato y deja dos fallecidos y tres heridos"
+}

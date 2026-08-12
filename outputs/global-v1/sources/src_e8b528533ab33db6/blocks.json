@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9cd4e257f59e4954",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9cd4e257f59e4954",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua discharged from hospital after Nigeria car crash",
+      "source_path": "html/NGA/NGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8b528533ab33db6",
+    "text": "Anthony Joshua discharged from hospital after Nigeria car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed02f65ec0f63a07",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ed02f65ec0f63a07",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-31T09:00:00+01:00",
+      "source_path": "html/NGA/NGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8b528533ab33db6",
+    "text": "2025-12-31T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_20d891e21adfaa9a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_20d891e21adfaa9a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua discharged from hospital after Nigeria car crash British heavyweight boxer Anthony Joshua has been discharged from hospital in Nigeria days after a fatal ...",
+      "source_path": "html/NGA/NGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8b528533ab33db6",
+    "text": "Anthony Joshua discharged from hospital after Nigeria car crash British heavyweight boxer Anthony Joshua has been discharged from hospital in Nigeria days after a fatal ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84346b850910eec7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84346b850910eec7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: BBC",
+      "source_path": "html/NGA/NGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8b528533ab33db6",
+    "text": "Publisher: BBC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dfbc34e3fb8bd0d3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dfbc34e3fb8bd0d3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bbc.com/news/articles/c5yvdw77j04o",
+      "source_path": "html/NGA/NGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8b528533ab33db6",
+    "text": "Original source: https://www.bbc.com/news/articles/c5yvdw77j04o",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_05bfbcf6d331f729",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_05bfbcf6d331f729",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8b528533ab33db6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5b7e385735e6b58",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5b7e385735e6b58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bbc.com/news/articles/c5yvdw77j04o",
+      "source_path": "html/NGA/NGA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e8b528533ab33db6",
+    "text": "https://www.bbc.com/news/articles/c5yvdw77j04o",
+    "url": null
+  }
+]

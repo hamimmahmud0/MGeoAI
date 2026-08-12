@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9e493ad4dc2e03e4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9e493ad4dc2e03e4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Six Israelis injured in Thailand road accident",
+      "source_path": "html/THA/THA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c1cb44f16da56beb",
+    "text": "Six Israelis injured in Thailand road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_64548a91a1029fec",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_64548a91a1029fec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-10T17:47:00+07:00",
+      "source_path": "html/THA/THA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c1cb44f16da56beb",
+    "text": "2026-01-10T17:47:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f76b6e7dac979347",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f76b6e7dac979347",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Six Israelis were injured Saturday in a road accident in Chiang Mai in northern Thailand. One of the victims is in critical condition and is ...",
+      "source_path": "html/THA/THA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c1cb44f16da56beb",
+    "text": "Six Israelis were injured Saturday in a road accident in Chiang Mai in northern Thailand. One of the victims is in critical condition and is ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c7ac62409a489687",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c7ac62409a489687",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Arutz Sheva",
+      "source_path": "html/THA/THA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c1cb44f16da56beb",
+    "text": "Publisher: Arutz Sheva",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c710746adf1c3c23",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c710746adf1c3c23",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.israelnationalnews.com/news/420674",
+      "source_path": "html/THA/THA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c1cb44f16da56beb",
+    "text": "Original source: https://www.israelnationalnews.com/news/420674",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e06e780943f1d4d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e06e780943f1d4d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c1cb44f16da56beb",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e2ee88521c09d2a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2e2ee88521c09d2a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.israelnationalnews.com/news/420674",
+      "source_path": "html/THA/THA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c1cb44f16da56beb",
+    "text": "https://www.israelnationalnews.com/news/420674",
+    "url": null
+  }
+]

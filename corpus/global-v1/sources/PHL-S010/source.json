@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PHL-S010",
+  "country_code": "PHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Mena FN",
+  "canonical_url": "https://menafn.com/1108471748/Road-accident-in-southern-Philippines-results-in-2-deaths-3-injuries",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://menafn.com/1108471748/Road-accident-in-southern-Philippines-results-in-2-deaths-3-injuries",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Philippines%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "2f11ab2f38c3a589434ad2b74710ea4c04db667060f4ca7d6f7562321f72a89f",
+      "size_bytes": 1070,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "banggaan ng sasakyan"
+  ],
+  "timezone": "Asia/Manila",
+  "captured_at": "2026-08-12T03:37:59.692846+06:00",
+  "published_at": "2024-07-23T02:30:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "menafn.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PHL-S010"
+}

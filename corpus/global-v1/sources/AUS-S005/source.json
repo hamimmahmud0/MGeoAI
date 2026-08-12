@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "AUS-S005",
+  "country_code": "AUS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "7NEWS Australia",
+  "canonical_url": "https://7news.com.au/news/traffic-at-standstill-after-two-vehicle-head-on-crash-on-sydney-harbour-bridge-c-22673728",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://7news.com.au/news/traffic-at-standstill-after-two-vehicle-head-on-crash-on-sydney-harbour-bridge-c-22673728",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Sydney%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "8a97fd2f07034de1382396e6c42aa720f933e2ae368041a28d3884311968350e",
+      "size_bytes": 1171,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Australia/Sydney",
+  "captured_at": "2026-08-12T03:49:08.264018+06:00",
+  "published_at": "2026-08-03T22:01:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "7news.com.au",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-AUS-S005"
+}

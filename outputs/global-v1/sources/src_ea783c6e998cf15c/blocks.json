@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cc2370b3dca2ce79",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cc2370b3dca2ce79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladeshi youth killed in road accident in Saudi Arabia",
+      "source_path": "html/SAU/SAU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ea783c6e998cf15c",
+    "text": "Bangladeshi youth killed in road accident in Saudi Arabia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_504c66cad851830b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_504c66cad851830b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-10-14T14:57:00+03:00",
+      "source_path": "html/SAU/SAU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ea783c6e998cf15c",
+    "text": "2024-10-14T14:57:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3f59f093b77edf96",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3f59f093b77edf96",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A Bangladeshi expatriate has been killed in a road accident in Saudi Arabia. The incident occurred on Sunday morning in the city of Abha. The ...",
+      "source_path": "html/SAU/SAU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ea783c6e998cf15c",
+    "text": "A Bangladeshi expatriate has been killed in a road accident in Saudi Arabia. The incident occurred on Sunday morning in the city of Abha. The ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d1f45ac7664b37ae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d1f45ac7664b37ae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/SAU/SAU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ea783c6e998cf15c",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2226c3d1a15febbe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2226c3d1a15febbe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/bangladesh/361868/bangladeshi-youth-killed-in-road-accident-in-saudi",
+      "source_path": "html/SAU/SAU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ea783c6e998cf15c",
+    "text": "Original source: https://www.dhakatribune.com/bangladesh/361868/bangladeshi-youth-killed-in-road-accident-in-saudi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_61e2192b9eec25be",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_61e2192b9eec25be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ea783c6e998cf15c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_74d551715cae8f1b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_74d551715cae8f1b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/bangladesh/361868/bangladeshi-youth-killed-in-road-accident-in-saudi",
+      "source_path": "html/SAU/SAU-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ea783c6e998cf15c",
+    "text": "https://www.dhakatribune.com/bangladesh/361868/bangladeshi-youth-killed-in-road-accident-in-saudi",
+    "url": null
+  }
+]

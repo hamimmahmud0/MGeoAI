@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "88c6d084c577d9dd93391590916b9bffacb07da38360a1299b6ac6b9ecd490d7",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "el litoral",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-08T07:00:00Z",
+  "publisher": "El Litoral",
+  "schema_version": "1.0.0",
+  "source_id": "src_27ad566e86709311",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-08T07:00:00+00:00",
+    "source_info_hash": "27fa21410244e3e5",
+    "source_info_path": "html/ARG/ARG-S007/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ellitoral.com/sucesos/choque-camioneta-autovia-heridos-rios-accidente-investigacion_0_2IFEDkteaA.html",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "Cuatro muertos por un choque múltiple en la Ruta Nacional 12"
+}

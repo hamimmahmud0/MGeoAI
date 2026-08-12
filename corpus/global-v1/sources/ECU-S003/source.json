@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ECU-S003",
+  "country_code": "ECU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Ecuador Comunicación",
+  "canonical_url": "https://ecuadorcomunicacion.com/explosion-tras-choque-de-vehiculos-en-estambul-deja-tres-heridos",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://ecuadorcomunicacion.com/explosion-tras-choque-de-vehiculos-en-estambul-deja-tres-heridos",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=EC%3Aes-419&gl=EC&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22siniestro+vial%22+OR+%22choque+vehicular%22+OR+%22accidente+de+bus%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Ecuador%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "22f68544d745fc4f6f39fbcbfda276ae3aa920a23d7813d4b027b72da7824b7b",
+      "size_bytes": 964,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "siniestro vial",
+    "choque vehicular",
+    "accidente de bus"
+  ],
+  "timezone": "America/Guayaquil",
+  "captured_at": "2026-08-11T21:57:50Z",
+  "published_at": "2026-06-15T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ecuadorcomunicacion.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ECU-S003"
+}

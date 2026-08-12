@@ -1,0 +1,106 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-12T10:28:38",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-11T10:28:38",
+    "timezone": "America/Chicago"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_09ffc8e44471c4b4",
+    "ev_1662c82179fbb069",
+    "ev_62e96f8e956c5644",
+    "ev_b0550a3528295f1e",
+    "ev_b4d08e05cdfd358c",
+    "ev_c48ac2344cabf985",
+    "ev_d9d22dd2742aefbb",
+    "ev_fa5707c884ff9dfe",
+    "ev_fb95a7d348bd66ee",
+    "ev_fd7db15796621117"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.7100000000000001,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_09ffc8e44471c4b4",
+        "ev_1662c82179fbb069",
+        "ev_62e96f8e956c5644",
+        "ev_b0550a3528295f1e",
+        "ev_b4d08e05cdfd358c",
+        "ev_c48ac2344cabf985",
+        "ev_d9d22dd2742aefbb",
+        "ev_fa5707c884ff9dfe",
+        "ev_fb95a7d348bd66ee",
+        "ev_fd7db15796621117"
+      ],
+      "value": 1
+    }
+  ],
+  "generated_at": "2026-08-11T10:28:38Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "No incident-location evidence survived normalization",
+    "confidence": 0.0,
+    "display_name": null,
+    "granularity": "unknown",
+    "hierarchy": {},
+    "latitude": null,
+    "longitude": null,
+    "method": "unresolved",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Reported traffic incident with unresolved location. The reported date is August 11, 2026, retained at day precision. The incident location remains unresolved in the supplied evidence. The reconciled casualty assessment records fatalities not reported and 1 reported injury. Identified vehicles or road users include car. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: No incident-location evidence survived normalization. Representative decisive evidence: [ev_09ffc8e44471c4b4] [ev_1662c82179fbb069] [ev_62e96f8e956c5644].",
+  "incident_id": "inc_eb2f7829069e519c",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_223170dece4eb2f4",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_a869419fb7f4351b",
+    "src_e78cdf16d7a02417"
+  ],
+  "status": "reported",
+  "title": "Reported traffic incident with unresolved location",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "car"
+  ]
+}

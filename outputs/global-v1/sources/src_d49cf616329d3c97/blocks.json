@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c8a86d7917599aea",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c8a86d7917599aea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "鎌ケ谷市の幼稚園送迎バスが衝突、運転手死亡",
+      "source_path": "html/JPN/JPN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d49cf616329d3c97",
+    "text": "鎌ケ谷市の幼稚園送迎バスが衝突、運転手死亡",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30c7a1226b93188f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_30c7a1226b93188f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-30T09:00:00+09:00",
+      "source_path": "html/JPN/JPN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d49cf616329d3c97",
+    "text": "2025-09-30T09:00:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c56c7828a9f7f022",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c56c7828a9f7f022",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A kindergarten shuttle bus collided in Kamagaya; the driver died.",
+      "source_path": "html/JPN/JPN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d49cf616329d3c97",
+    "text": "A kindergarten shuttle bus collided in Kamagaya; the driver died.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_179e0c5edeea9ada",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_179e0c5edeea9ada",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NOVAIST",
+      "source_path": "html/JPN/JPN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d49cf616329d3c97",
+    "text": "Publisher: NOVAIST",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1e9ace6ce8252799",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1e9ace6ce8252799",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://novaist.jp/articles/kamagaya-preschool-bus-crash/",
+      "source_path": "html/JPN/JPN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d49cf616329d3c97",
+    "text": "Original source: https://novaist.jp/articles/kamagaya-preschool-bus-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_74916ef5d497f217",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_74916ef5d497f217",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d49cf616329d3c97",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c3403f815b849465",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c3403f815b849465",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://novaist.jp/articles/kamagaya-preschool-bus-crash/",
+      "source_path": "html/JPN/JPN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d49cf616329d3c97",
+    "text": "https://novaist.jp/articles/kamagaya-preschool-bus-crash/",
+    "url": null
+  }
+]

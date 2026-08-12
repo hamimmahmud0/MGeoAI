@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S010",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Pattaya Mail",
+  "canonical_url": "https://www.pattayamail.com/news/tour-bus-crashes-into-car-before-plunging-into-roadside-canal-in-korat-559336",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.pattayamail.com/news/tour-bus-crashes-into-car-before-plunging-into-roadside-canal-in-korat-559336",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "24be5e7a197af3ef19461d6d369bf5bd83a4a594c95c119cca86d97a599a11d7",
+      "size_bytes": 1095,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:51.199775+06:00",
+  "published_at": "2026-07-29T19:53:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "pattayamail.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S010"
+}

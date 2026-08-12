@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S009",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "TV Asahi News",
+  "canonical_url": "https://news.tv-asahi.co.jp/news_society/articles/000456289.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://news.tv-asahi.co.jp/news_society/articles/000456289.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Kamagaya+kindergarten+shuttle+bus+crash+September+2025",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "3bc360edc8b13b1f7950d984e8fc3adfe8126cfc5517d8384b71dca34012b271",
+      "size_bytes": 977,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ja"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:45:16.844374+06:00",
+  "published_at": "2025-09-29T03:54:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "news.tv-asahi.co.jp",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S009"
+}

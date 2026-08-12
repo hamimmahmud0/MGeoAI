@@ -1,15 +1,15 @@
 {
-  "completed_at": "2026-08-11T21:12:59.521551Z",
-  "evidence_items": 196,
-  "incidents": 8,
-  "input_files": 21,
-  "mentions": 22,
+  "completed_at": "2026-08-12T04:29:26.508127Z",
+  "evidence_items": 219,
+  "incidents": 9,
+  "input_files": 23,
+  "mentions": 23,
   "mode": "live",
   "model": "deepseek-v4-flash",
   "provider": "deepseek",
-  "run_id": "run_dde278980e7f2a96",
-  "sources": 21,
-  "started_at": "2026-08-11T20:39:35.810224Z",
+  "run_id": "run_04b4a0d9cd832312",
+  "sources": 23,
+  "started_at": "2026-08-12T04:25:24.973040Z",
   "status": "completed",
   "warnings": []
 }

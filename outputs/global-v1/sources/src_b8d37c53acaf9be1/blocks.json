@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5a1f0560480c0424",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5a1f0560480c0424",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Hanoi truck driver arrested for dragging schoolgirl to death after crash",
+      "source_path": "html/VNM/VNM-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b8d37c53acaf9be1",
+    "text": "Hanoi truck driver arrested for dragging schoolgirl to death after crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e37f5158a2f002c2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e37f5158a2f002c2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-14T00:00:00+07:00",
+      "source_path": "html/VNM/VNM-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b8d37c53acaf9be1",
+    "text": "2025-09-14T00:00:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4b2ef783993d4f68",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4b2ef783993d4f68",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A 15-year-old girl was fatally dragged by a truck in Hanoi. The driver admitted he wanted her dead to evade financial responsibility. Hanoi police have ...",
+      "source_path": "html/VNM/VNM-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b8d37c53acaf9be1",
+    "text": "A 15-year-old girl was fatally dragged by a truck in Hanoi. The driver admitted he wanted her dead to evade financial responsibility. Hanoi police have ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dada2af1ad6b3d28",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dada2af1ad6b3d28",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: VietNamNet",
+      "source_path": "html/VNM/VNM-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b8d37c53acaf9be1",
+    "text": "Publisher: VietNamNet",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_68ea1cbf1106900f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_68ea1cbf1106900f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://vietnamnet.vn/en/hanoi-truck-driver-arrested-for-dragging-schoolgirl-to-death-after-crash-2442474.html",
+      "source_path": "html/VNM/VNM-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b8d37c53acaf9be1",
+    "text": "Original source: https://vietnamnet.vn/en/hanoi-truck-driver-arrested-for-dragging-schoolgirl-to-death-after-crash-2442474.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4135848bb795e014",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4135848bb795e014",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b8d37c53acaf9be1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a117a5445da07c75",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a117a5445da07c75",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://vietnamnet.vn/en/hanoi-truck-driver-arrested-for-dragging-schoolgirl-to-death-after-crash-2442474.html",
+      "source_path": "html/VNM/VNM-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b8d37c53acaf9be1",
+    "text": "https://vietnamnet.vn/en/hanoi-truck-driver-arrested-for-dragging-schoolgirl-to-death-after-crash-2442474.html",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cfe2bbddbac73d1d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cfe2bbddbac73d1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Acidente rodoviário provoca um morto e dois feridos na Madeira",
+      "source_path": "html/PRT/PRT-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d7caa646f8c7067c",
+    "text": "Acidente rodoviário provoca um morto e dois feridos na Madeira",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_62162a00e4b29522",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_62162a00e4b29522",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T22:54:27+01:00",
+      "source_path": "html/PRT/PRT-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d7caa646f8c7067c",
+    "text": "2026-08-03T22:54:27+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cc59e49fb61e204e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cc59e49fb61e204e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Notícias ao Minuto",
+      "source_path": "html/PRT/PRT-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d7caa646f8c7067c",
+    "text": "Publisher: Notícias ao Minuto",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35076a1293456b0b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_35076a1293456b0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.noticiasaominuto.com:2087/pais/3031709/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira",
+      "source_path": "html/PRT/PRT-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d7caa646f8c7067c",
+    "text": "Original source: https://www.noticiasaominuto.com:2087/pais/3031709/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34f2b8451234480e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34f2b8451234480e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d7caa646f8c7067c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_80b5524c30d273c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_80b5524c30d273c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.noticiasaominuto.com:2087/pais/3031709/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira",
+      "source_path": "html/PRT/PRT-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d7caa646f8c7067c",
+    "text": "https://www.noticiasaominuto.com:2087/pais/3031709/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira",
+    "url": null
+  }
+]

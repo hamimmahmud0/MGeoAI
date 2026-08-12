@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c1fa4d173d1e74f2697776db88906a75acfa9ce8dfeb80b0745ed69c76a918f6",
+  "country": "Morocco",
+  "country_code": "MAR",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "local_path": "html/MAR/MAR-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-08-17T13:57:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_db3a40b3e76171c2",
+  "source_metadata": {
+    "country": "Morocco",
+    "country_code": "MAR",
+    "languages": [
+      "ar",
+      "fr",
+      "ber"
+    ],
+    "published_at": "2022-08-17T13:57:00+00:00",
+    "source_info_hash": "b3b9f65323af78b7",
+    "source_info_path": "html/MAR/MAR-S006/SOURCE_INFO.md",
+    "timezone": "Africa/Casablanca",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "تصادم مركبات",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/africa/275694/morocco-bus-crash-leaves-15-dead-scores-injured",
+  "timezone": "Africa/Casablanca",
+  "title": "Morocco bus crash leaves 15 dead, scores injured"
+}

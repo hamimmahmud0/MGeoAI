@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "25075136b0335351caccd6310c7657fc2957662d6cbf56422842ea99ef4a704a",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-07T10:10:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_4d82b7e87ecfc5fa",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-07T10:10:00+00:00",
+    "source_info_hash": "1eb17200828315dd",
+    "source_info_path": "html/BGD/BGD-S005/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/bangladesh/nation/416901/8-killed-25-injured-in-head-on-bus-collision-in",
+  "timezone": "Asia/Dhaka",
+  "title": "Nine killed in two-bus collision in Sylhet"
+}

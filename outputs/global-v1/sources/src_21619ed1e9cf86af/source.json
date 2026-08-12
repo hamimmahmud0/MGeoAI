@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0d13e1f7ae8f84ea3dff2f3d048a042b453fc3055ba7c6ec2c2dba8d3e3408bf",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "canal 9 bío bío televisión",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-23T07:00:00Z",
+  "publisher": "Canal 9 Bío Bío Televisión",
+  "schema_version": "1.0.0",
+  "source_id": "src_21619ed1e9cf86af",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-23T07:00:00+00:00",
+    "source_info_hash": "4561411d8edc545f",
+    "source_info_path": "html/CHL/CHL-S005/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.canal9.cl/episodios/2026/05/23/fatal-accidente-en-ruta-5-sur-en-gorbea-dejo-un-muerto-y-dos-personas-atrapadas-en-furgon-siniestrado",
+  "timezone": "America/Santiago",
+  "title": "Fatal accidente en Ruta 5 Sur en Gorbea dejó un muerto y un lesionado"
+}

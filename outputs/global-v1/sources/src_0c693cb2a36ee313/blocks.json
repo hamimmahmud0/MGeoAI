@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_34a9dbf7fa70cf2c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_34a9dbf7fa70cf2c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Professor among six killed in separate road accidents across Karachi",
+      "source_path": "html/PAK/PAK-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0c693cb2a36ee313",
+    "text": "Professor among six killed in separate road accidents across Karachi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aa0c256771d22ebf",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_aa0c256771d22ebf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-01T18:39:00+05:00",
+      "source_path": "html/PAK/PAK-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0c693cb2a36ee313",
+    "text": "2025-06-01T18:39:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5605b484fa27db9b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5605b484fa27db9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "KARACHI: At least six people, including a government college assistant professor, were killed and one woman injured in multiple road accidents reported across Karachi on ...",
+      "source_path": "html/PAK/PAK-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0c693cb2a36ee313",
+    "text": "KARACHI: At least six people, including a government college assistant professor, were killed and one woman injured in multiple road accidents reported across Karachi on ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5606fa6383552ca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5606fa6383552ca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Pakistan Today",
+      "source_path": "html/PAK/PAK-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0c693cb2a36ee313",
+    "text": "Publisher: Pakistan Today",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ddcf50b0d88ec39",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ddcf50b0d88ec39",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.pakistantoday.com.pk/2025/06/02/professor-among-six-killed-in-separate-road-accidents-across-karachi",
+      "source_path": "html/PAK/PAK-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0c693cb2a36ee313",
+    "text": "Original source: https://www.pakistantoday.com.pk/2025/06/02/professor-among-six-killed-in-separate-road-accidents-across-karachi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_635af1dd5ac04df0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_635af1dd5ac04df0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0c693cb2a36ee313",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b0929f31c572d7d1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b0929f31c572d7d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.pakistantoday.com.pk/2025/06/02/professor-among-six-killed-in-separate-road-accidents-across-karachi",
+      "source_path": "html/PAK/PAK-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0c693cb2a36ee313",
+    "text": "https://www.pakistantoday.com.pk/2025/06/02/professor-among-six-killed-in-separate-road-accidents-across-karachi",
+    "url": null
+  }
+]

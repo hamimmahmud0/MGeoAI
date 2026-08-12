@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_609837ddaf4ab071",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_609837ddaf4ab071",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus carrying pilgrims crashes, killing 21 in Sri Lanka",
+      "source_path": "html/LKA/LKA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08105ad5fde73288",
+    "text": "Bus carrying pilgrims crashes, killing 21 in Sri Lanka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f987ec6c32708b4c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f987ec6c32708b4c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-11T13:20:00+05:30",
+      "source_path": "html/LKA/LKA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08105ad5fde73288",
+    "text": "2025-05-11T13:20:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_135183eb3a018b75",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_135183eb3a018b75",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "An overcrowded pilgrim bus left a cliffside road in Sri Lanka, killing 21 people and injuring passengers.",
+      "source_path": "html/LKA/LKA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08105ad5fde73288",
+    "text": "An overcrowded pilgrim bus left a cliffside road in Sri Lanka, killing 21 people and injuring passengers.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4fe078568b109a3f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4fe078568b109a3f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Straits Times",
+      "source_path": "html/LKA/LKA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08105ad5fde73288",
+    "text": "Publisher: The Straits Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_82deb59c5fe721a3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_82deb59c5fe721a3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.straitstimes.com/asia/south-asia/bus-carrying-pilgrims-crashes-killing-15-in-sri-lanka",
+      "source_path": "html/LKA/LKA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08105ad5fde73288",
+    "text": "Original source: https://www.straitstimes.com/asia/south-asia/bus-carrying-pilgrims-crashes-killing-15-in-sri-lanka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b15007c7ea459704",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b15007c7ea459704",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/LKA/LKA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08105ad5fde73288",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_afa710a96ed55d0c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_afa710a96ed55d0c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.straitstimes.com/asia/south-asia/bus-carrying-pilgrims-crashes-killing-15-in-sri-lanka",
+      "source_path": "html/LKA/LKA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_08105ad5fde73288",
+    "text": "https://www.straitstimes.com/asia/south-asia/bus-carrying-pilgrims-crashes-killing-15-in-sri-lanka",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "883c273be9fef75cc8465c1accfdf1cb8ba04fca65a9fe47370e25c2b61c34a1",
+  "country": "Malaysia",
+  "country_code": "MYS",
+  "dependency_group": "ndtv",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MYS/MYS-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-09T02:39:00Z",
+  "publisher": "NDTV",
+  "schema_version": "1.0.0",
+  "source_id": "src_18eb8b85d9a7a19d",
+  "source_metadata": {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-06-09T02:39:00+00:00",
+    "source_info_hash": "5055f3e0919a7042",
+    "source_info_path": "html/MYS/MYS-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Kuala_Lumpur",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kemalangan jalan raya",
+      "nahas jalan raya",
+      "kemalangan bas",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ndtv.com/world-news/malaysia-bus-crash-kills-15-mostly-students-8623969",
+  "timezone": "Asia/Kuala_Lumpur",
+  "title": "Malaysia Bus Crash Kills 15, Mostly Students"
+}

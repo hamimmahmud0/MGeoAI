@@ -1,0 +1,147 @@
+{
+  "alternate_time_claims": [],
+  "collision": "Head-on collision between two buses",
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "Time precision is day-level though evidence mentions specific times"
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-08T00:00:00",
+    "original_expression": "7 August 2026; around 7:00am; around 7:30am",
+    "precision": "day",
+    "start": "2026-08-07T00:00:00",
+    "timezone": "Asia/Dhaka"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_189d525e6f97c130",
+    "ev_6e66ceecc047e881",
+    "ev_80bb0d4e8bc0bb7e",
+    "ev_851244544886379c",
+    "ev_8675a512af387063",
+    "ev_99685340cfb96e6d",
+    "ev_a50c19158fca4347",
+    "ev_c78334d8553e64e3",
+    "ev_e7e4274f75924b4d",
+    "ev_f4f6bf3ae3a5ae94"
+  ],
+  "facts": [
+    {
+      "confidence": 0.6,
+      "conflicting_values": [
+        8,
+        9
+      ],
+      "contradiction": true,
+      "field": "fatalities",
+      "selection_rationale": "Prothom Alo reports 8 killed; The Daily Star reports 9. No reconciliation possible; selected first as more conservative.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_a50c19158fca4347",
+        "ev_c78334d8553e64e3"
+      ],
+      "value": 8
+    },
+    {
+      "confidence": 0.6,
+      "conflicting_values": [
+        25,
+        24
+      ],
+      "contradiction": true,
+      "field": "injuries",
+      "selection_rationale": "Prothom Alo reports at least 25 injured; The Daily Star reports at least 24 injured. Selected first due to higher detail elsewhere.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_a50c19158fca4347"
+      ],
+      "value": 25
+    }
+  ],
+  "generated_at": "2026-08-07T00:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Area-level centroid; exact crash point not specified",
+    "confidence": 0.68,
+    "display_name": "Kashikapan, Osmaninagar, Sylhet",
+    "granularity": "area",
+    "hierarchy": {
+      "anchor": "sylhet",
+      "country": "Bangladesh"
+    },
+    "latitude": 24.7063,
+    "longitude": 91.7417,
+    "method": "gazetteer centroid",
+    "supporting_evidence_ids": [
+      "ev_189d525e6f97c130",
+      "ev_6e66ceecc047e881",
+      "ev_80bb0d4e8bc0bb7e",
+      "ev_99685340cfb96e6d",
+      "ev_a50c19158fca4347",
+      "ev_c78334d8553e64e3",
+      "ev_851244544886379c",
+      "ev_8675a512af387063",
+      "ev_e7e4274f75924b4d",
+      "ev_f4f6bf3ae3a5ae94"
+    ],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "On 7 August 2026, two passenger buses collided head-on in the Kashikapan area on the Dhaka–Sylhet highway in Osmaninagar, Sylhet, Bangladesh. A Sylhet-bound Bengal Paribahan bus and a Dhaka-bound Unique Paribahan bus were involved; police and eyewitnesses attribute the collision to the Bengal bus veering into the wrong lane while overtaking a pickup [ev_99685340cfb96e6d, ev_e7e4274f75924b4d]. Reports say the Unique bus fell into a roadside ditch, and the crash was captured on video [ev_c78334d8553e64e3, ev_8675a512af387063]. Casualty counts conflict: Prothom Alo reports eight killed and at least 25 injured [ev_a50c19158fca4347], while The Daily Star reports nine killed and at least 24 injured [ev_f4f6bf3ae3a5ae94]. All reported fatalities were passengers on the Unique bus [ev_c78334d8553e64e3, ev_f4f6bf3ae3a5ae94]. Time reports also vary, with one source citing around 7:00am and another around 7:30am [ev_8675a512af387063, ev_a50c19158fca4347]. The day-level precision is used due to cluster conventions. A survivor, Faruk Miah, was interviewed [ev_851244544886379c]. Two independent news sources, Prothom Alo English and The Daily Star, cover the event. The identities of casualties were not initially known [ev_189d525e6f97c130]. Main unresolved question is the exact death toll, with official confirmation pending.",
+  "incident_id": "inc_cluster-005_fused",
+  "independent_source_count": 2,
+  "involved_parties": [
+    "Unique Paribahan",
+    "Bengal Paribahan"
+  ],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {
+      "road_safety": {
+        "negative": 1
+      }
+    },
+    "coverage_note": "One traffic-related sentiment expression supplied, aspect-specific.",
+    "items": [
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_3c2f6e349cdbbcef",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_64f3b6560f2086d6",
+        "source_id": "src_dfdb7ca9eb9e785d",
+        "target": "incident accountability",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 1,
+    "traffic_relevant_count": 1
+  },
+  "source_ids": [
+    "src_34358089c6fb35c0",
+    "src_dfdb7ca9eb9e785d"
+  ],
+  "status": "reported",
+  "title": "Two buses collide on Dhaka–Sylhet highway in Sylhet, multiple casualties",
+  "unresolved_questions": [
+    "Exact number of fatalities is uncertain: 8 vs 9",
+    "Exact time of accident: around 7:00am vs around 7:30am"
+  ],
+  "vehicles": [
+    "bus",
+    "truck",
+    "motorcycle",
+    "car"
+  ]
+}

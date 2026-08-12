@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CAN-S005",
+  "country_code": "CAN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Edmonton Journal",
+  "canonical_url": "https://edmontonjournal.com/news/local-news/alberta-highway-crash-edmonton-canada-correctional-officer",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://edmontonjournal.com/news/local-news/alberta-highway-crash-edmonton-canada-correctional-officer",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CA%3Aen&gl=CA&hl=en-CA&q=%28%22traffic+collision%22+OR+%22highway+crash%22+OR+%22car+crash%22+OR+%22road+accident%22%29+%28killed+OR+dead+OR+injured%29+%22Canada%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "132e9b40ac4750143afa28b62f6bf141054248bd24d6271604d333f762766113",
+      "size_bytes": 1142,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "highway crash",
+    "accident de la route"
+  ],
+  "timezone": "America/Toronto",
+  "captured_at": "2026-08-11T21:57:04Z",
+  "published_at": "2026-08-11T11:05:19Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "edmontonjournal.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CAN-S005"
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BEL-S006",
+  "country_code": "BEL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "HBVL",
+  "canonical_url": "https://www.hbvl.be/binnenland/brusselse-ring-weer-vrij-na-dodelijk-ongeval-trucker-54-overleeft-crash-tegen-vangrail-niet/26338042.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.hbvl.be/binnenland/brusselse-ring-weer-vrij-na-dodelijk-ongeval-trucker-54-overleeft-crash-tegen-vangrail-niet/26338042.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=BE%3Anl&gl=BE&hl=nl-BE&q=%28verkeersongeluk+OR+dodelijk+ongeval+OR+accident+de+la+route%29+Belgi%C3%AB+OR+Belgique+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "36be065b5f34a4556ef1af0be47221befb6eeef4d6782441a7abfbad145d44ca",
+      "size_bytes": 1175,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "traffic_keywords": [
+    "verkeersongeval",
+    "accident de la route",
+    "botsing voertuigen",
+    "collision routière"
+  ],
+  "timezone": "Europe/Brussels",
+  "captured_at": "2026-08-11T21:38:35.007367Z",
+  "published_at": "2024-06-05T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "hbvl.be",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BEL-S006"
+}

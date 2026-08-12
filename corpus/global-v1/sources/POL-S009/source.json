@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "POL-S009",
+  "country_code": "POL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "radiopik.pl",
+  "canonical_url": "https://www.radiopik.pl/2,138086,smiertelny-wypadek-rowerzystki-w-inowroclawiu-45-latka-zginela-potracona-na-pasach",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.radiopik.pl/2,138086,smiertelny-wypadek-rowerzystki-w-inowroclawiu-45-latka-zginela-potracona-na-pasach",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=PL%3Apl&gl=PL&hl=pl-PL&q=%28wypadek+drogowy+OR+zderzenie+OR+wypadek+samochodowy%29+Polska+zgin%C4%85%C5%82+OR+ranni+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "db043d498070203ffa6705839fb58b43b13e54df2c9f177a42fa0d32789bf631",
+      "size_bytes": 1046,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "pl"
+  ],
+  "traffic_keywords": [
+    "wypadek drogowy",
+    "zderzenie pojazdów",
+    "wypadek samochodowy",
+    "wypadek autobusu"
+  ],
+  "timezone": "Europe/Warsaw",
+  "captured_at": "2026-08-11T21:45:18.478649Z",
+  "published_at": "2026-04-22T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "radiopik.pl",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-POL-S009"
+}

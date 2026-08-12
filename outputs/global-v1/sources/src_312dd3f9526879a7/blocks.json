@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_33031b44c1cb7fa6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_33031b44c1cb7fa6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Conductor se dio a la fuga tras accidente de tránsito que dejó dos jóvenes muertos en Cúcuta",
+      "source_path": "html/COL/COL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_312dd3f9526879a7",
+    "text": "Conductor se dio a la fuga tras accidente de tránsito que dejó dos jóvenes muertos en Cúcuta",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_571be812f8a86116",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_571be812f8a86116",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-28T02:00:00-05:00",
+      "source_path": "html/COL/COL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_312dd3f9526879a7",
+    "text": "2026-06-28T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c68451628a91921",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2c68451628a91921",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: laopinion.co",
+      "source_path": "html/COL/COL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_312dd3f9526879a7",
+    "text": "Publisher: laopinion.co",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0c65e51657df7590",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0c65e51657df7590",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://laopinion.co/judicial/conductor-se-dio-la-fuga-tras-accidente-de-transito-que-dejo-dos-jovenes-muertos-en-cucuta",
+      "source_path": "html/COL/COL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_312dd3f9526879a7",
+    "text": "Original source: https://laopinion.co/judicial/conductor-se-dio-la-fuga-tras-accidente-de-transito-que-dejo-dos-jovenes-muertos-en-cucuta",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d53aa7d5fe41c6fb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d53aa7d5fe41c6fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_312dd3f9526879a7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cf216a83846a716c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cf216a83846a716c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://laopinion.co/judicial/conductor-se-dio-la-fuga-tras-accidente-de-transito-que-dejo-dos-jovenes-muertos-en-cucuta",
+      "source_path": "html/COL/COL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_312dd3f9526879a7",
+    "text": "https://laopinion.co/judicial/conductor-se-dio-la-fuga-tras-accidente-de-transito-que-dejo-dos-jovenes-muertos-en-cucuta",
+    "url": null
+  }
+]

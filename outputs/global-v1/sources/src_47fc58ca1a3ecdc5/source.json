@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "47a0ee043a2445a164c6a5f8fb69ac397b32aff831795e49466d1d6731aae82f",
+  "country": "Uganda",
+  "country_code": "UGA",
+  "dependency_group": "associated press news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "local_path": "html/UGA/UGA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-04T00:12:00Z",
+  "publisher": "Associated Press News",
+  "schema_version": "1.0.0",
+  "source_id": "src_47fc58ca1a3ecdc5",
+  "source_metadata": {
+    "country": "Uganda",
+    "country_code": "UGA",
+    "languages": [
+      "en",
+      "sw",
+      "lg"
+    ],
+    "published_at": "2026-08-04T00:12:00+00:00",
+    "source_info_hash": "7e0d70a8c4363851",
+    "source_info_path": "html/UGA/UGA-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Kampala",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus accident",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://apnews.com/article/uganda-road-crash-kamunga-kalungu-123c6df4420b2fc667e6e7b720a760a0",
+  "timezone": "Africa/Kampala",
+  "title": "Uganda police say at least 14 people killed in collision between truck and taxi van"
+}

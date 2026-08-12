@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2f7a493c3bac1f44",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2f7a493c3bac1f44",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "1 dead and 10 injured after kindergarten bus crashes into house in Japan",
+      "source_path": "html/JPN/JPN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_989a21d8712b8681",
+    "text": "1 dead and 10 injured after kindergarten bus crashes into house in Japan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2a2019d13d5cc2be",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2a2019d13d5cc2be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-30T17:33:00+09:00",
+      "source_path": "html/JPN/JPN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_989a21d8712b8681",
+    "text": "2025-09-30T17:33:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_944d885d1df65818",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_944d885d1df65818",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A kindergarten shuttle bus crashed into a house in Chiba; its driver died and ten occupants were injured.",
+      "source_path": "html/JPN/JPN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_989a21d8712b8681",
+    "text": "A kindergarten shuttle bus crashed into a house in Chiba; its driver died and ten occupants were injured.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f082f2797a2b3e9b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f082f2797a2b3e9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: MustShareNews",
+      "source_path": "html/JPN/JPN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_989a21d8712b8681",
+    "text": "Publisher: MustShareNews",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f4138b5f5cb5b3bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f4138b5f5cb5b3bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://mustsharenews.com/kindergarten-bus-crashes/amp/",
+      "source_path": "html/JPN/JPN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_989a21d8712b8681",
+    "text": "Original source: https://mustsharenews.com/kindergarten-bus-crashes/amp/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a90f92d33bf59247",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a90f92d33bf59247",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_989a21d8712b8681",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e387d1e473574152",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e387d1e473574152",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://mustsharenews.com/kindergarten-bus-crashes/amp/",
+      "source_path": "html/JPN/JPN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_989a21d8712b8681",
+    "text": "https://mustsharenews.com/kindergarten-bus-crashes/amp/",
+    "url": null
+  }
+]

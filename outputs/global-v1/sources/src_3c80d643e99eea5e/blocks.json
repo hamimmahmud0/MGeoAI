@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_126523c6c500e19c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_126523c6c500e19c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Große Trauer nach Busunfall bei Hebertshausen",
+      "source_path": "html/DEU/DEU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c80d643e99eea5e",
+    "text": "Große Trauer nach Busunfall bei Hebertshausen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_213e6cd2a8fcdc91",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_213e6cd2a8fcdc91",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-11T14:53:00+02:00",
+      "source_path": "html/DEU/DEU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c80d643e99eea5e",
+    "text": "2026-06-11T14:53:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2d3e2b9572521775",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2d3e2b9572521775",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bei Hebertshausen kollidierten ein Reisebus mit Schulkindern und ein Linienbus; ein siebenjähriger Junge starb und zahlreiche Menschen wurden verletzt.",
+      "source_path": "html/DEU/DEU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c80d643e99eea5e",
+    "text": "Bei Hebertshausen kollidierten ein Reisebus mit Schulkindern und ein Linienbus; ein siebenjähriger Junge starb und zahlreiche Menschen wurden verletzt.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_96b8d6137a0c689c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_96b8d6137a0c689c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Tagesschau / Bayerischer Rundfunk",
+      "source_path": "html/DEU/DEU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c80d643e99eea5e",
+    "text": "Publisher: Tagesschau / Bayerischer Rundfunk",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_059a69f933bd1c06",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_059a69f933bd1c06",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.tagesschau.de/inland/regional/bayern/br-grosse-trauer-nach-busunfall-schwerverletzte-ausser-lebensgefahr-104.html",
+      "source_path": "html/DEU/DEU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c80d643e99eea5e",
+    "text": "Original source: https://www.tagesschau.de/inland/regional/bayern/br-grosse-trauer-nach-busunfall-schwerverletzte-ausser-lebensgefahr-104.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88ccfdb03be8d9d6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88ccfdb03be8d9d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c80d643e99eea5e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35503bd6e9864d78",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_35503bd6e9864d78",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.tagesschau.de/inland/regional/bayern/br-grosse-trauer-nach-busunfall-schwerverletzte-ausser-lebensgefahr-104.html",
+      "source_path": "html/DEU/DEU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c80d643e99eea5e",
+    "text": "https://www.tagesschau.de/inland/regional/bayern/br-grosse-trauer-nach-busunfall-schwerverletzte-ausser-lebensgefahr-104.html",
+    "url": null
+  }
+]

@@ -187,10 +187,13 @@ scraping are not implemented.
 
 ## International corpus and visualization
 
-`corpus/global-v1` is the canonical reviewed metadata/excerpt corpus. It keeps
+`corpus/global-v1` is the canonical validated metadata/excerpt seed corpus. It keeps
 the publisher URL for every source, SHA-256 hashes each committed payload,
 records access/review decisions, and separates curation-only multi-source labels
-from model input. To check quotas and reproduce the pipeline input:
+from model input. The current snapshot contains 51 collection-country groups, 510
+sources, and 53 automated distinct-domain multi-source candidates. These are
+automated screening results, not human confirmation of incident truth, event country,
+or upstream editorial independence. To check quotas and reproduce the pipeline input:
 
 ```bash
 mgeoai corpus-validate --corpus-dir corpus/global-v1
@@ -208,9 +211,16 @@ mgeoai serve --data-dir outputs/global-v1 --host 127.0.0.1 --port 8000
 The dashboard's **Global coverage** view displays source counts at conservative
 country centroids. Those markers are collection-country coverage symbols and are
 explicitly not incident coordinates. The **Overview** map continues to use only
-source-grounded incident geolocation. Direct links for manual checking are in
+source-grounded incident geolocation. Direct links, article titles, discovery links,
+and pair keys for manual checking are in
 `corpus/global-v1/reports/source_links.csv`, and the country/quota table is in
 `corpus/global-v1/reports/countries.md`.
+
+Best-effort social discovery is retained separately under
+`work/global_candidates/group_social/`. It contains public Bluesky AppView metadata
+for eight countries, stores no media or full thread capture, and is excluded from the
+accepted corpus until a human verifies event location, authorship, and source
+independence.
 
 Generated data is ignored under `outputs/<run>/`:
 

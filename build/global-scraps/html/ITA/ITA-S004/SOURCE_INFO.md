@@ -1,0 +1,15 @@
+---
+languages: ["it"]
+timezone: "Europe/Rome"
+country: "Italy"
+country_code: "ITA"
+traffic_incident: true
+traffic_keywords: ["incidente stradale", "scontro tra veicoli", "incidente automobilistico", "incidente autobus"]
+published_at: "2026-06-01T07:00:00+00:00"
+---
+Source name: Corriere della Sera
+News link: https://www.corriere.it/sport/calcio/26_giugno_01/marios-oikonomou-morto-incidente-d14fae47-f65b-4f14-86fe-9a5b8ba54xlk.shtml
+Corpus source ID: ITA-S004
+Payload SHA-256: ef6cddc4215632229e436aa8d0f881d8ed678cb6a5c2cf754da40f6e6874b265
+Verification link (original): https://www.corriere.it/sport/calcio/26_giugno_01/marios-oikonomou-morto-incidente-d14fae47-f65b-4f14-86fe-9a5b8ba54xlk.shtml
+Verification link (manual): https://news.google.com/rss/search?ceid=IT%3Ait&gl=IT&hl=it&q=%28%22incidente+stradale%22+OR+%22scontro+tra+veicoli%22+OR+%22incidente+automobilistico%22+OR+%22incidente+autobus%22%29+%28morto+OR+morti+OR+ferito+OR+feriti%29+%22Italia%22+when%3A90d

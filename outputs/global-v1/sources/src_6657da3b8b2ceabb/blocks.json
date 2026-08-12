@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ded9391b4546ede4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ded9391b4546ede4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Ratsits vd Thony Wissmar död i trafikolycka på Mallorca.",
+      "source_path": "html/SWE/SWE-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6657da3b8b2ceabb",
+    "text": "Ratsits vd Thony Wissmar död i trafikolycka på Mallorca.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c9bd28531dab72b7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c9bd28531dab72b7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-22T09:00:00+02:00",
+      "source_path": "html/SWE/SWE-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6657da3b8b2ceabb",
+    "text": "2026-07-22T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1473b58b71e121ab",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1473b58b71e121ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Det var i söndags som olyckan inträffade i Capdepera, på svenskparadiset Mallorca.",
+      "source_path": "html/SWE/SWE-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6657da3b8b2ceabb",
+    "text": "Det var i söndags som olyckan inträffade i Capdepera, på svenskparadiset Mallorca.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0f3250eb98491ac4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0f3250eb98491ac4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Expressen",
+      "source_path": "html/SWE/SWE-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6657da3b8b2ceabb",
+    "text": "Publisher: Expressen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b16eb1b040f57d44",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b16eb1b040f57d44",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.expressen.se/nyheter/sverige/ratsits-vd-dod-i-trafikolycka-pa-mallorca/",
+      "source_path": "html/SWE/SWE-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6657da3b8b2ceabb",
+    "text": "Original source: https://www.expressen.se/nyheter/sverige/ratsits-vd-dod-i-trafikolycka-pa-mallorca/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c1ee34f387344c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c1ee34f387344c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SWE/SWE-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6657da3b8b2ceabb",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_884dbc84d8d5e8da",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_884dbc84d8d5e8da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.expressen.se/nyheter/sverige/ratsits-vd-dod-i-trafikolycka-pa-mallorca/",
+      "source_path": "html/SWE/SWE-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6657da3b8b2ceabb",
+    "text": "https://www.expressen.se/nyheter/sverige/ratsits-vd-dod-i-trafikolycka-pa-mallorca/",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2b026d5f29cb14da",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2b026d5f29cb14da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "'Important intersection ahead': RCMP investigations begin into Alberta triple fatal highway crash near Edmonton",
+      "source_path": "html/CAN/CAN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dce2cb43b8b5a56c",
+    "text": "'Important intersection ahead': RCMP investigations begin into Alberta triple fatal highway crash near Edmonton",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e553e50c14a58867",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e553e50c14a58867",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T07:05:19-04:00",
+      "source_path": "html/CAN/CAN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dce2cb43b8b5a56c",
+    "text": "2026-08-11T07:05:19-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e478d5ad0e96c019",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e478d5ad0e96c019",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Edmonton Journal",
+      "source_path": "html/CAN/CAN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dce2cb43b8b5a56c",
+    "text": "Publisher: Edmonton Journal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e063033127bdfb6c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e063033127bdfb6c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://edmontonjournal.com/news/local-news/alberta-highway-crash-edmonton-canada-correctional-officer",
+      "source_path": "html/CAN/CAN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dce2cb43b8b5a56c",
+    "text": "Original source: https://edmontonjournal.com/news/local-news/alberta-highway-crash-edmonton-canada-correctional-officer",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40eadd81a2058ff1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_40eadd81a2058ff1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dce2cb43b8b5a56c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4b4137df31671a9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a4b4137df31671a9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://edmontonjournal.com/news/local-news/alberta-highway-crash-edmonton-canada-correctional-officer",
+      "source_path": "html/CAN/CAN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dce2cb43b8b5a56c",
+    "text": "https://edmontonjournal.com/news/local-news/alberta-highway-crash-edmonton-canada-correctional-officer",
+    "url": null
+  }
+]

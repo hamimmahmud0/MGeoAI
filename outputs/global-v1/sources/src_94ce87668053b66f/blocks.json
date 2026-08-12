@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5443b138be97f8a5",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5443b138be97f8a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Meerdere doden na botsing schoolbus en trein in Buggenhout: dit weten we al",
+      "source_path": "html/BEL/BEL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ce87668053b66f",
+    "text": "Meerdere doden na botsing schoolbus en trein in Buggenhout: dit weten we al",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7fb60578510a7959",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7fb60578510a7959",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-26T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ce87668053b66f",
+    "text": "2026-05-26T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a7ad83dea024efd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a7ad83dea024efd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Meerdere doden na botsing schoolbus en trein in Buggenhout: dit weten we al UPDATE: Er zijn 4 dodelijke slachtoffers: een leerling van 12 jaar, een ...",
+      "source_path": "html/BEL/BEL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ce87668053b66f",
+    "text": "Meerdere doden na botsing schoolbus en trein in Buggenhout: dit weten we al UPDATE: Er zijn 4 dodelijke slachtoffers: een leerling van 12 jaar, een ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_62f67d52d8128f55",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_62f67d52d8128f55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: VRT",
+      "source_path": "html/BEL/BEL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ce87668053b66f",
+    "text": "Publisher: VRT",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_665b4c72444160b0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_665b4c72444160b0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.vrt.be/nwsnwsnws/nl/post/2026/05/26/buggenhoutongeval/",
+      "source_path": "html/BEL/BEL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ce87668053b66f",
+    "text": "Original source: https://www.vrt.be/nwsnwsnws/nl/post/2026/05/26/buggenhoutongeval/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fb9cb688a1d4391f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fb9cb688a1d4391f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ce87668053b66f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_665cc842709a9beb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_665cc842709a9beb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.vrt.be/nwsnwsnws/nl/post/2026/05/26/buggenhoutongeval/",
+      "source_path": "html/BEL/BEL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ce87668053b66f",
+    "text": "https://www.vrt.be/nwsnwsnws/nl/post/2026/05/26/buggenhoutongeval/",
+    "url": null
+  }
+]

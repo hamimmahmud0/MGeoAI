@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "be50b470ffe50073378d346f27e8b2d3ebc84b0969823564ac7fbbf8e87934d1",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "abc7 chicago",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-31T07:00:00Z",
+  "publisher": "ABC7 Chicago",
+  "schema_version": "1.0.0",
+  "source_id": "src_c51c849ad8f0dd6a",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-31T07:00:00+00:00",
+    "source_info_hash": "5bdec6388e63af9f",
+    "source_info_path": "html/USA/USA-S007/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://abc7chicago.com/post/chicago-car-crash-person-killed-2-critically-injured-94-fire-officials-say/19609119/",
+  "timezone": "America/Chicago",
+  "title": "Chicago car crash: Person killed, 2 critically injured in crash involving wrong-way driver on I-94 near 55th Street, officials say"
+}

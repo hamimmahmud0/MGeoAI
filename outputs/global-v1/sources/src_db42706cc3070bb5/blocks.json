@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a37670760a1daa58",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a37670760a1daa58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 31 dead after Ethiopia bus crash",
+      "source_path": "html/ETH/ETH-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db42706cc3070bb5",
+    "text": "At least 31 dead after Ethiopia bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fd0eae97f179555a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_fd0eae97f179555a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-14T20:00:00+03:00",
+      "source_path": "html/ETH/ETH-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db42706cc3070bb5",
+    "text": "2026-06-14T20:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_afc7caceb9c172ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_afc7caceb9c172ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least ‌31 people have died and 33 others were injured after a bus ‌plunged into a ravine in Ethiopia, police said. The bus, which ...",
+      "source_path": "html/ETH/ETH-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db42706cc3070bb5",
+    "text": "At least ‌31 people have died and 33 others were injured after a bus ‌plunged into a ravine in Ethiopia, police said. The bus, which ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9fc6270c2dcec271",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9fc6270c2dcec271",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Sky",
+      "source_path": "html/ETH/ETH-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db42706cc3070bb5",
+    "text": "Publisher: Sky",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d6f49912bbcf0930",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d6f49912bbcf0930",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://news.sky.com/story/at-least-28-dead-after-ethiopia-bus-crash-13554255",
+      "source_path": "html/ETH/ETH-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db42706cc3070bb5",
+    "text": "Original source: https://news.sky.com/story/at-least-28-dead-after-ethiopia-bus-crash-13554255",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba4780eb7372cc0b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba4780eb7372cc0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db42706cc3070bb5",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7a5380e16278d4b3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7a5380e16278d4b3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://news.sky.com/story/at-least-28-dead-after-ethiopia-bus-crash-13554255",
+      "source_path": "html/ETH/ETH-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db42706cc3070bb5",
+    "text": "https://news.sky.com/story/at-least-28-dead-after-ethiopia-bus-crash-13554255",
+    "url": null
+  }
+]

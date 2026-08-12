@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "65e0ea02a85c18eb3fd389cd628c785a37ec6c96701aea7950c59e7154b5b4f2",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "eltiempo.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-12T07:00:00Z",
+  "publisher": "eltiempo.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_d009a9f813e38689",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-12T07:00:00+00:00",
+    "source_info_hash": "33b4b3d5f97a5206",
+    "source_info_path": "html/COL/COL-S007/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.eltiempo.com/videos-eltiempo/caos-en-usme-furgon-sin-frenos-causo-grave-accidente-de-transito-3563994",
+  "timezone": "America/Bogota",
+  "title": "Caos en Usme: furgón sin frenos causó grave accidente de tránsito"
+}

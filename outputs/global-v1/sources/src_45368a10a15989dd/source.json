@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "862a176d9d45e70ab89df3dbce461becbeb52d35c0e86bb99a181f36d5398fd0",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "anadolu ajansi",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-29T10:56:00Z",
+  "publisher": "Anadolu Ajansi",
+  "schema_version": "1.0.0",
+  "source_id": "src_45368a10a15989dd",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2025-06-29T10:56:00+00:00",
+    "source_info_hash": "3883d5eddeaa0d2b",
+    "source_info_path": "html/TZA/TZA-S003/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aa.com.tr/en/africa/38-killed-28-injured-in-tanzania-bus-collision/3616963",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "38 killed, 28 injured in Tanzania bus collision"
+}

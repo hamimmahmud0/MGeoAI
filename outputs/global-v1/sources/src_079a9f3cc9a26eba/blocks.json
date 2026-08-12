@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c20a3e93f69e0cbc",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c20a3e93f69e0cbc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 15 die in Malaysia bus crash",
+      "source_path": "html/MYS/MYS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_079a9f3cc9a26eba",
+    "text": "At least 15 die in Malaysia bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_29655a2f34a8c04f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_29655a2f34a8c04f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-09T15:42:00+08:00",
+      "source_path": "html/MYS/MYS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_079a9f3cc9a26eba",
+    "text": "2025-06-09T15:42:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eb3a495db6bca1e3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eb3a495db6bca1e3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A tragic accident in northern Malaysia has left at least 15 people dead, AFP reported, after a bus carrying university students collided with a minivan ...",
+      "source_path": "html/MYS/MYS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_079a9f3cc9a26eba",
+    "text": "A tragic accident in northern Malaysia has left at least 15 people dead, AFP reported, after a bus carrying university students collided with a minivan ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8a57ddba86f81a44",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8a57ddba86f81a44",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Bangkok Post",
+      "source_path": "html/MYS/MYS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_079a9f3cc9a26eba",
+    "text": "Publisher: Bangkok Post",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1fd3f74786ed7ce9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1fd3f74786ed7ce9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bangkokpost.com/world/3045447/at-least-15-die-in-malaysia-bus-crash",
+      "source_path": "html/MYS/MYS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_079a9f3cc9a26eba",
+    "text": "Original source: https://www.bangkokpost.com/world/3045447/at-least-15-die-in-malaysia-bus-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a5f953349a7ebce0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a5f953349a7ebce0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_079a9f3cc9a26eba",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3823f5052b0efcc0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3823f5052b0efcc0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bangkokpost.com/world/3045447/at-least-15-die-in-malaysia-bus-crash",
+      "source_path": "html/MYS/MYS-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_079a9f3cc9a26eba",
+    "text": "https://www.bangkokpost.com/world/3045447/at-least-15-die-in-malaysia-bus-crash",
+    "url": null
+  }
+]

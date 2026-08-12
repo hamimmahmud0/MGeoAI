@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_906acd65e99c3237",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_906acd65e99c3237",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "3 of a Bangladeshi family killed in Saudi Arabia road crash",
+      "source_path": "html/SAU/SAU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d620a7aa9f3040e1",
+    "text": "3 of a Bangladeshi family killed in Saudi Arabia road crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_75be24eb488a2c54",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_75be24eb488a2c54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-08-06T16:06:00+03:00",
+      "source_path": "html/SAU/SAU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d620a7aa9f3040e1",
+    "text": "2023-08-06T16:06:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_256d4353fc5426bc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_256d4353fc5426bc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three members of a family from Bangladesh have been killed in a road crash in Saudi Arabia’s Dammam while they were returning after performing Umrah. ...",
+      "source_path": "html/SAU/SAU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d620a7aa9f3040e1",
+    "text": "Three members of a family from Bangladesh have been killed in a road crash in Saudi Arabia’s Dammam while they were returning after performing Umrah. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09a381f38748539f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09a381f38748539f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/SAU/SAU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d620a7aa9f3040e1",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_79f85ad8cff3f108",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_79f85ad8cff3f108",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/bangladesh/foreign-affairs/321782/3-of-a-bangladeshi-family-killed-in-saudi-arabia",
+      "source_path": "html/SAU/SAU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d620a7aa9f3040e1",
+    "text": "Original source: https://www.dhakatribune.com/bangladesh/foreign-affairs/321782/3-of-a-bangladeshi-family-killed-in-saudi-arabia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98c22ca1f194eddd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98c22ca1f194eddd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d620a7aa9f3040e1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_679bc150e4a01c3d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_679bc150e4a01c3d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/bangladesh/foreign-affairs/321782/3-of-a-bangladeshi-family-killed-in-saudi-arabia",
+      "source_path": "html/SAU/SAU-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d620a7aa9f3040e1",
+    "text": "https://www.dhakatribune.com/bangladesh/foreign-affairs/321782/3-of-a-bangladeshi-family-killed-in-saudi-arabia",
+    "url": null
+  }
+]

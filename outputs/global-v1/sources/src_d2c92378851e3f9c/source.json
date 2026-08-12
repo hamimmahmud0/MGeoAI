@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "25bb243f54f8a8bbc3b990603c5c76943d5f29422b93b54318fedd42477fb270",
+  "country": "Costa Rica",
+  "country_code": "CRI",
+  "dependency_group": "diario extra",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CRI/CRI-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-29T07:00:00Z",
+  "publisher": "Diario Extra",
+  "schema_version": "1.0.0",
+  "source_id": "src_d2c92378851e3f9c",
+  "source_metadata": {
+    "country": "Costa Rica",
+    "country_code": "CRI",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-29T07:00:00+00:00",
+    "source_info_hash": "a5b418368b7e7e86",
+    "source_info_path": "html/CRI/CRI-S004/SOURCE_INFO.md",
+    "timezone": "America/Costa_Rica",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente vial",
+      "colisión en carretera"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.diarioextra.com/noticia/diputado-del-pln-resulta-herido-tras-accidente-de-transito/",
+  "timezone": "America/Costa_Rica",
+  "title": "Diputado del PLN resulta herido tras aparatoso accidente de tránsito"
+}

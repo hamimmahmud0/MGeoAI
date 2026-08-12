@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "50a0785af1d4c0863919e0c0887183dde4ccf4d18c20494989c2636ec19ad04f",
+  "country": "Thailand",
+  "country_code": "THA",
+  "dependency_group": "yahoo news canada",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/THA/THA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2018-04-09T22:51:00Z",
+  "publisher": "Yahoo News Canada",
+  "schema_version": "1.0.0",
+  "source_id": "src_590d0cb7c1eba836",
+  "source_metadata": {
+    "country": "Thailand",
+    "country_code": "THA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2018-04-09T22:51:00+00:00",
+    "source_info_hash": "578d3059dbd10f29",
+    "source_info_path": "html/THA/THA-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Bangkok",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "อุบัติเหตุทางถนน",
+      "รถชน",
+      "รถบัสชน",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://ca.news.yahoo.com/six-myanmar-migrant-workers-killed-thailand-bus-crash-055146003.html",
+  "timezone": "Asia/Bangkok",
+  "title": "Six Myanmar migrant workers killed in Thailand bus crash"
+}

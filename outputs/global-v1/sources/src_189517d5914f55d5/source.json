@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5f1896cc9df192b7e0e228389c3d48191ed6c48fde96f087ed0370c09b104670",
+  "country": "Belgium",
+  "country_code": "BEL",
+  "dependency_group": "de morgen",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "local_path": "html/BEL/BEL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-01T07:00:00Z",
+  "publisher": "De Morgen",
+  "schema_version": "1.0.0",
+  "source_id": "src_189517d5914f55d5",
+  "source_metadata": {
+    "country": "Belgium",
+    "country_code": "BEL",
+    "languages": [
+      "nl",
+      "fr",
+      "de",
+      "en"
+    ],
+    "published_at": "2026-06-01T07:00:00+00:00",
+    "source_info_hash": "50445e41802b2370",
+    "source_info_path": "html/BEL/BEL-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Brussels",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "accident de la route",
+      "botsing voertuigen",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.demorgen.be/snelnieuws/provinciebestuur-vroeg-al-voor-het-dodelijk-ongeval-in-buggenhout-om-chauffeur-van-de-rit-te-halen~b32b0c3d/",
+  "timezone": "Europe/Brussels",
+  "title": "Provinciebestuur vroeg al voor het dodelijk ongeval in Buggenhout om chauffeur van de rit te halen"
+}

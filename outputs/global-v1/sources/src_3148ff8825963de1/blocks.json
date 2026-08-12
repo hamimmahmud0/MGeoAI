@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_02ff85a10527c34f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_02ff85a10527c34f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "7 killed in road accident in South Africa's Eastern Cape",
+      "source_path": "html/ZAF/ZAF-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3148ff8825963de1",
+    "text": "7 killed in road accident in South Africa's Eastern Cape",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2d168079784a9f4a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2d168079784a9f4a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-06T09:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3148ff8825963de1",
+    "text": "2026-04-06T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ecf1260e58ada20",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ecf1260e58ada20",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "This photo taken on April 5, 2026 shows an accident involving a mini-SUV and a truck in Gqeberha, Eastern Cape, South Africa.",
+      "source_path": "html/ZAF/ZAF-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3148ff8825963de1",
+    "text": "This photo taken on April 5, 2026 shows an accident involving a mini-SUV and a truck in Gqeberha, Eastern Cape, South Africa.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_03fa79410f5e41f9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_03fa79410f5e41f9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Xinhua",
+      "source_path": "html/ZAF/ZAF-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3148ff8825963de1",
+    "text": "Publisher: Xinhua",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_691aeaf38fa83364",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_691aeaf38fa83364",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://english.news.cn/20260406/cfa56e2c213a4bedb24d5919481505af/c.html",
+      "source_path": "html/ZAF/ZAF-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3148ff8825963de1",
+    "text": "Original source: https://english.news.cn/20260406/cfa56e2c213a4bedb24d5919481505af/c.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a0f19da62e6b7932",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a0f19da62e6b7932",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3148ff8825963de1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7cbbb27cee159e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a7cbbb27cee159e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://english.news.cn/20260406/cfa56e2c213a4bedb24d5919481505af/c.html",
+      "source_path": "html/ZAF/ZAF-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3148ff8825963de1",
+    "text": "https://english.news.cn/20260406/cfa56e2c213a4bedb24d5919481505af/c.html",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d1c94ae03cf5af1d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d1c94ae03cf5af1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Person død etter trafikkulykke på Sunnmøre",
+      "source_path": "html/NOR/NOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f141fc92344e1126",
+    "text": "Person død etter trafikkulykke på Sunnmøre",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0430849d8e211273",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0430849d8e211273",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-04-22T09:00:00+02:00",
+      "source_path": "html/NOR/NOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f141fc92344e1126",
+    "text": "2025-04-22T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a4bf901d96094bf8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a4bf901d96094bf8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Person død etter trafikkulykke på Sunnmøre Én person omkom i en trafikkulykke mellom en personbil og en lastebil på E39 i Sula utenfor Ålesund tirsdag.",
+      "source_path": "html/NOR/NOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f141fc92344e1126",
+    "text": "Person død etter trafikkulykke på Sunnmøre Én person omkom i en trafikkulykke mellom en personbil og en lastebil på E39 i Sula utenfor Ålesund tirsdag.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_76a94b905904e415",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_76a94b905904e415",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftenposten",
+      "source_path": "html/NOR/NOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f141fc92344e1126",
+    "text": "Publisher: Aftenposten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_56095df6d7b61dbf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_56095df6d7b61dbf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftenposten.no/norge/i/PpGg0z/person-doed-etter-trafikkulykke-paa-sunnmoere",
+      "source_path": "html/NOR/NOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f141fc92344e1126",
+    "text": "Original source: https://www.aftenposten.no/norge/i/PpGg0z/person-doed-etter-trafikkulykke-paa-sunnmoere",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_81947b83056d3c72",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_81947b83056d3c72",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f141fc92344e1126",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_77747dbf60f9a4f4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_77747dbf60f9a4f4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftenposten.no/norge/i/PpGg0z/person-doed-etter-trafikkulykke-paa-sunnmoere",
+      "source_path": "html/NOR/NOR-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f141fc92344e1126",
+    "text": "https://www.aftenposten.no/norge/i/PpGg0z/person-doed-etter-trafikkulykke-paa-sunnmoere",
+    "url": null
+  }
+]

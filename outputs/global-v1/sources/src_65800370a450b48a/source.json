@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "213385313954b00b2c95021f0c589bd4ec3c05777858bb357b526f01b9502756",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "allgäuer zeitung",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-03T07:00:00Z",
+  "publisher": "Allgäuer Zeitung",
+  "schema_version": "1.0.0",
+  "source_id": "src_65800370a450b48a",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-06-03T07:00:00+00:00",
+    "source_info_hash": "1a8a206a71ddaa07",
+    "source_info_path": "html/DEU/DEU-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.allgaeuer-zeitung.de/oesterreich/unfall-heute-bei-reutte-3-6-2026-auf-prallt-auf-fernpass-strasse-b179-gegen-lkw-und-wagen-zwei-verletzte-114372060",
+  "timezone": "Europe/Berlin",
+  "title": "Auto gerät auf Fernpassstraße auf die Gegenfahrbahn: Zusammenstoß"
+}

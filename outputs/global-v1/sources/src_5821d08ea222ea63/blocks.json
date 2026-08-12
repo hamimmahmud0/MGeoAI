@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_eca26b629099bbe8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_eca26b629099bbe8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus colisiona con 5 vehículos en Jacó; Cruz Roja confirma un fallecido",
+      "source_path": "html/CRI/CRI-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5821d08ea222ea63",
+    "text": "Bus colisiona con 5 vehículos en Jacó; Cruz Roja confirma un fallecido",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_347db0a3efc89113",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_347db0a3efc89113",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-03T16:28:00-06:00",
+      "source_path": "html/CRI/CRI-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5821d08ea222ea63",
+    "text": "2025-08-03T16:28:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30cbc92c38d44449",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30cbc92c38d44449",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "El accidente ocurrió el 3 de agosto cerca de Villa Caletas, Jacó, cuando un autobús colisionó con cinco vehículos; Cruz Roja confirmó un fallecido.",
+      "source_path": "html/CRI/CRI-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5821d08ea222ea63",
+    "text": "El accidente ocurrió el 3 de agosto cerca de Villa Caletas, Jacó, cuando un autobús colisionó con cinco vehículos; Cruz Roja confirmó un fallecido.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_625b5e2485d2e676",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_625b5e2485d2e676",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Nación",
+      "source_path": "html/CRI/CRI-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5821d08ea222ea63",
+    "text": "Publisher: La Nación",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a6c9c50b5371d16",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a6c9c50b5371d16",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.nacion.com/sucesos/autobus-colisiona-con-cinco-vehiculos-en-garabito/G6CIYZLBENHIHDEKL3B4OY623U/story/",
+      "source_path": "html/CRI/CRI-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5821d08ea222ea63",
+    "text": "Original source: https://www.nacion.com/sucesos/autobus-colisiona-con-cinco-vehiculos-en-garabito/G6CIYZLBENHIHDEKL3B4OY623U/story/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e71f01628e8ebe38",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e71f01628e8ebe38",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5821d08ea222ea63",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_89850c256c85c1d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_89850c256c85c1d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.nacion.com/sucesos/autobus-colisiona-con-cinco-vehiculos-en-garabito/G6CIYZLBENHIHDEKL3B4OY623U/story/",
+      "source_path": "html/CRI/CRI-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5821d08ea222ea63",
+    "text": "https://www.nacion.com/sucesos/autobus-colisiona-con-cinco-vehiculos-en-garabito/G6CIYZLBENHIHDEKL3B4OY623U/story/",
+    "url": null
+  }
+]

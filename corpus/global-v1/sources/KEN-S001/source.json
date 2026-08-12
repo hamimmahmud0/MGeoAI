@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KEN-S001",
+  "country_code": "KEN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Kenyans.co.ke",
+  "canonical_url": "https://www.kenyans.co.ke/news/121389-six-dead-several-injured-nairobi-mombasa-highway-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.kenyans.co.ke/news/121389-six-dead-several-injured-nairobi-mombasa-highway-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=KE%3Aen&gl=KE&hl=en-KE&q=%28road+crash+OR+traffic+accident+OR+collision%29+Kenya+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "48d881e183d99c1559130a78cb00aca041c538baad160241dc28676dd02412e2",
+      "size_bytes": 1017,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "ajali barabarani",
+    "bus crash"
+  ],
+  "timezone": "Africa/Nairobi",
+  "captured_at": "2026-08-11T21:49:45.077385Z",
+  "published_at": "2026-03-05T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "kenyans.co.ke",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KEN-S001"
+}

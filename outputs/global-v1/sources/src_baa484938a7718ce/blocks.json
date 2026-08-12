@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6ee9a08f3314d001",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6ee9a08f3314d001",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Menor de ocho años resulta gravemente herido en accidente de tránsito en Añasco",
+      "source_path": "html/CRI/CRI-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_baa484938a7718ce",
+    "text": "Menor de ocho años resulta gravemente herido en accidente de tránsito en Añasco",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_db673735c17b2f30",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_db673735c17b2f30",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-17T01:00:00-06:00",
+      "source_path": "html/CRI/CRI-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_baa484938a7718ce",
+    "text": "2026-05-17T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_70540232b55e5eb9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_70540232b55e5eb9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Vocero de Puerto Rico",
+      "source_path": "html/CRI/CRI-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_baa484938a7718ce",
+    "text": "Publisher: El Vocero de Puerto Rico",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_59c17624d6efa707",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_59c17624d6efa707",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.elvocero.com/ley-y-orden/menor-de-ocho-a-os-resulta-gravemente-herido-en-accidente-de-tr-nsito-en-a/article_b002fe57-c225-46ee-922d-b60e4e016c8f.html",
+      "source_path": "html/CRI/CRI-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_baa484938a7718ce",
+    "text": "Original source: https://www.elvocero.com/ley-y-orden/menor-de-ocho-a-os-resulta-gravemente-herido-en-accidente-de-tr-nsito-en-a/article_b002fe57-c225-46ee-922d-b60e4e016c8f.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e9bf8d984ea9272",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2e9bf8d984ea9272",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_baa484938a7718ce",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9e801db76b4cbc75",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9e801db76b4cbc75",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.elvocero.com/ley-y-orden/menor-de-ocho-a-os-resulta-gravemente-herido-en-accidente-de-tr-nsito-en-a/article_b002fe57-c225-46ee-922d-b60e4e016c8f.html",
+      "source_path": "html/CRI/CRI-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_baa484938a7718ce",
+    "text": "https://www.elvocero.com/ley-y-orden/menor-de-ocho-a-os-resulta-gravemente-herido-en-accidente-de-tr-nsito-en-a/article_b002fe57-c225-46ee-922d-b60e4e016c8f.html",
+    "url": null
+  }
+]

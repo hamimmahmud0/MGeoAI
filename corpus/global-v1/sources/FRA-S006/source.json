@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "FRA-S006",
+  "country_code": "FRA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "ici.fr",
+  "canonical_url": "https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/fessy/haute-savoie-un-gendarme-tue-et-deux-blesses-dans-un-accident-a-fessy-7670517",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.ici.fr/auvergne-rhone-alpes/haute-savoie-74/fessy/haute-savoie-un-gendarme-tue-et-deux-blesses-dans-un-accident-a-fessy-7670517",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=FR%3Afr&gl=FR&hl=fr&q=%28%22accident+de+la+route%22+OR+%22collision+routi%C3%A8re%22+OR+%22accident+de+voiture%22+OR+%22accident+de+bus%22%29+%28mort+OR+morts+OR+bless%C3%A9+OR+bless%C3%A9s%29+%22France%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "520bd3e04bfbc5973fa8a967f30fce74ee17ad77cd859e9a39cc6202ca05f59f",
+      "size_bytes": 1216,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "fr"
+  ],
+  "traffic_keywords": [
+    "accident de la route",
+    "collision routière",
+    "accident de voiture",
+    "accident de bus"
+  ],
+  "timezone": "Europe/Paris",
+  "captured_at": "2026-08-11T21:58:49Z",
+  "published_at": "2026-06-13T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ici.fr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-FRA-S006"
+}

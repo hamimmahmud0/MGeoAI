@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a1cec981515bead675dbf1bb31b4b2625e10969f338cd0183d629cf3a7144bd1",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "el confidencial",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-29T07:00:00Z",
+  "publisher": "El Confidencial",
+  "schema_version": "1.0.0",
+  "source_id": "src_b80b26a05279f41a",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-29T07:00:00+00:00",
+    "source_info_hash": "8bb879fb4f08451e",
+    "source_info_path": "html/ESP/ESP-S001/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.elconfidencial.com/espana/comunidad-valenciana/2026-06-28/accidente-trafico-castellon-fallecidos-1tps_4379936/",
+  "timezone": "Europe/Madrid",
+  "title": "Cuatro fallecidos y seis heridos graves en un accidente de tráfico en Castellón"
+}

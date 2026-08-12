@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e7a53e50870cd163",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e7a53e50870cd163",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Colombo University lecturer dies in tragic car accident at home",
+      "source_path": "html/LKA/LKA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_945db9857b3dd1fd",
+    "text": "Colombo University lecturer dies in tragic car accident at home",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c1aca0ad91248fa7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c1aca0ad91248fa7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-03-09T16:40:00+05:30",
+      "source_path": "html/LKA/LKA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_945db9857b3dd1fd",
+    "text": "2025-03-09T16:40:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f47e692d67537841",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f47e692d67537841",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Senior lecturer Dr. Janaki D Jayawardena of the University of Colombo tragically died in a motor accident in Kohuwala yesterday (7), police confirmed. The 59-year-old ...",
+      "source_path": "html/LKA/LKA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_945db9857b3dd1fd",
+    "text": "Senior lecturer Dr. Janaki D Jayawardena of the University of Colombo tragically died in a motor accident in Kohuwala yesterday (7), police confirmed. The 59-year-old ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b1b84a9b1b349cd7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b1b84a9b1b349cd7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hiru News",
+      "source_path": "html/LKA/LKA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_945db9857b3dd1fd",
+    "text": "Publisher: Hiru News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_36c55fa5a7cc6add",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_36c55fa5a7cc6add",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hirunews.lk/goldfmnews/399192/colombo-university-lecturer-dies-in-tragic-car-accident-at-home",
+      "source_path": "html/LKA/LKA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_945db9857b3dd1fd",
+    "text": "Original source: https://www.hirunews.lk/goldfmnews/399192/colombo-university-lecturer-dies-in-tragic-car-accident-at-home",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_982b0ffc74aff5c4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_982b0ffc74aff5c4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/LKA/LKA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_945db9857b3dd1fd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c52a87172d8952f5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c52a87172d8952f5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hirunews.lk/goldfmnews/399192/colombo-university-lecturer-dies-in-tragic-car-accident-at-home",
+      "source_path": "html/LKA/LKA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_945db9857b3dd1fd",
+    "text": "https://www.hirunews.lk/goldfmnews/399192/colombo-university-lecturer-dies-in-tragic-car-accident-at-home",
+    "url": null
+  }
+]

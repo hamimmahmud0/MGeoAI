@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BEL-S005",
+  "country_code": "BEL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "GVA",
+  "canonical_url": "https://www.gva.be/binnenland/na-dodelijke-crash-met-trein-kwam-schoolbus-op-de-oprit-van-paul-terecht-wat-er-met-die-vier-mensen-is-gebeurd-is-niet-te-vatten/153353760.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.gva.be/binnenland/na-dodelijke-crash-met-trein-kwam-schoolbus-op-de-oprit-van-paul-terecht-wat-er-met-die-vier-mensen-is-gebeurd-is-niet-te-vatten/153353760.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=BE%3Anl&gl=BE&hl=nl-BE&q=trein+minibus+ongeval+Belgi%C3%AB+doden+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "5662c39ab1d735489e6dc5f4e0f695d245b2bfa84433f16a3c3628ae5ab77306",
+      "size_bytes": 1384,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nl",
+    "fr",
+    "de",
+    "en"
+  ],
+  "traffic_keywords": [
+    "verkeersongeval",
+    "accident de la route",
+    "botsing voertuigen",
+    "collision routière"
+  ],
+  "timezone": "Europe/Brussels",
+  "captured_at": "2026-08-11T21:38:35.007367Z",
+  "published_at": "2026-05-26T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "gva.be",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BEL-S005"
+}

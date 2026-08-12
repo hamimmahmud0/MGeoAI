@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_fae4a03ffb36e5e8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_fae4a03ffb36e5e8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "10 killed in Philippines after passenger bus slams into vehicles at a toll booth",
+      "source_path": "html/PHL/PHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd2de008c371d5e5",
+    "text": "10 killed in Philippines after passenger bus slams into vehicles at a toll booth",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_802beb11c553ca00",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_802beb11c553ca00",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-01T16:12:00+08:00",
+      "source_path": "html/PHL/PHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd2de008c371d5e5",
+    "text": "2025-05-01T16:12:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0dc4f3438dfa30db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0dc4f3438dfa30db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A tragic accident occurred in the northern Philippines. A speeding passenger bus rammed into vehicles at a highway toll booth. Ten people died, including children. ...",
+      "source_path": "html/PHL/PHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd2de008c371d5e5",
+    "text": "A tragic accident occurred in the northern Philippines. A speeding passenger bus rammed into vehicles at a highway toll booth. Ten people died, including children. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_32f8638df327addf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_32f8638df327addf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Indiatimes",
+      "source_path": "html/PHL/PHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd2de008c371d5e5",
+    "text": "Publisher: Indiatimes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0c8f23c4628602f1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0c8f23c4628602f1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://timesofindia.indiatimes.com/world/rest-of-world/10-killed-in-philippines-after-passenger-bus-slams-into-vehicles-at-a-toll-booth/articleshow/120798132.cms",
+      "source_path": "html/PHL/PHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd2de008c371d5e5",
+    "text": "Original source: https://timesofindia.indiatimes.com/world/rest-of-world/10-killed-in-philippines-after-passenger-bus-slams-into-vehicles-at-a-toll-booth/articleshow/120798132.cms",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2e1644b1d8b56a5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2e1644b1d8b56a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd2de008c371d5e5",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_75b9708dbab32f7c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_75b9708dbab32f7c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://timesofindia.indiatimes.com/world/rest-of-world/10-killed-in-philippines-after-passenger-bus-slams-into-vehicles-at-a-toll-booth/articleshow/120798132.cms",
+      "source_path": "html/PHL/PHL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dd2de008c371d5e5",
+    "text": "https://timesofindia.indiatimes.com/world/rest-of-world/10-killed-in-philippines-after-passenger-bus-slams-into-vehicles-at-a-toll-booth/articleshow/120798132.cms",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S003",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "VN Express",
+  "canonical_url": "https://e.vnexpress.net/news/news/15-foreigners-injured-in-road-crash-in-northern-vietnam-4532381.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://e.vnexpress.net/news/news/15-foreigners-injured-in-road-crash-in-northern-vietnam-4532381.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Vietnam%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "47b3f592f13db271e80566680ddfea90092a37064be5fb481a85be0039462a0f",
+      "size_bytes": 1024,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:38:06.153579+06:00",
+  "published_at": "2022-11-03T23:40:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "e.vnexpress.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S003"
+}

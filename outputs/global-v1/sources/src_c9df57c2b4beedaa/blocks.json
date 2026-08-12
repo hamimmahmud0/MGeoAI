@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8d548f05f78eea3f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8d548f05f78eea3f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nepal: Eight killed, 10 others injured in road accident in Palpa district",
+      "source_path": "html/NPL/NPL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c9df57c2b4beedaa",
+    "text": "Nepal: Eight killed, 10 others injured in road accident in Palpa district",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a05798e52942f47e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a05798e52942f47e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-02-13T13:07:00+05:45",
+      "source_path": "html/NPL/NPL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c9df57c2b4beedaa",
+    "text": "2024-02-13T13:07:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d8082bc6552fd66d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d8082bc6552fd66d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "In a tragic incident, at least eight people were killed and 10 others sustained injuries in an accident in Nepal’s Palpa district on Tuesday afternoon. ...",
+      "source_path": "html/NPL/NPL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c9df57c2b4beedaa",
+    "text": "In a tragic incident, at least eight people were killed and 10 others sustained injuries in an accident in Nepal’s Palpa district on Tuesday afternoon. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_91d61a65e47afd35",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_91d61a65e47afd35",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: India TV",
+      "source_path": "html/NPL/NPL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c9df57c2b4beedaa",
+    "text": "Publisher: India TV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c22cf4f8cf7e1914",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c22cf4f8cf7e1914",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.indiatvnews.com/news/world/nepal-road-accident-in-palpa-district-death-count-injury-jeep-pilice-statement-lumbini-medical-college-latest-updates-2024-02-13-916714",
+      "source_path": "html/NPL/NPL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c9df57c2b4beedaa",
+    "text": "Original source: https://www.indiatvnews.com/news/world/nepal-road-accident-in-palpa-district-death-count-injury-jeep-pilice-statement-lumbini-medical-college-latest-updates-2024-02-13-916714",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3329eb2ff1812417",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3329eb2ff1812417",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c9df57c2b4beedaa",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aeb066e49a2c2a65",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aeb066e49a2c2a65",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.indiatvnews.com/news/world/nepal-road-accident-in-palpa-district-death-count-injury-jeep-pilice-statement-lumbini-medical-college-latest-updates-2024-02-13-916714",
+      "source_path": "html/NPL/NPL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c9df57c2b4beedaa",
+    "text": "https://www.indiatvnews.com/news/world/nepal-road-accident-in-palpa-district-death-count-injury-jeep-pilice-statement-lumbini-medical-college-latest-updates-2024-02-13-916714",
+    "url": null
+  }
+]

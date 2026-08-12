@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f87fa85874c7f9357d8d7c3d2dffbd0831120a278efa213f582c69c6a92314f1",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "aol",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/JOR/JOR-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-03T20:11:00Z",
+  "publisher": "AOL",
+  "schema_version": "1.0.0",
+  "source_id": "src_88155d4918d7c482",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2026-05-03T20:11:00+00:00",
+    "source_info_hash": "7141ef5f667ec2a6",
+    "source_info_path": "html/JOR/JOR-S007/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aol.com/news/motorcyclist-dead-crash-car-west-031132184.html",
+  "timezone": "Asia/Amman",
+  "title": "Motorcyclist dead after crash with car in West Jordan"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_753b91a05ad09d3b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_753b91a05ad09d3b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Türkiye offers condolences after deadly Algeria bus crash",
+      "source_path": "html/TUR/TUR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85d82edb350bb0f1",
+    "text": "Türkiye offers condolences after deadly Algeria bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_de6bcab410e9ce5f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_de6bcab410e9ce5f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-31T19:23:00+03:00",
+      "source_path": "html/TUR/TUR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85d82edb350bb0f1",
+    "text": "2026-07-31T19:23:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df0dcac91801d5f9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df0dcac91801d5f9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Foreign Ministry expresses sympathy after accident in Boumerdes province kills 25 people and injures 44 | Anadolu ...",
+      "source_path": "html/TUR/TUR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85d82edb350bb0f1",
+    "text": "Foreign Ministry expresses sympathy after accident in Boumerdes province kills 25 people and injures 44 | Anadolu ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_660ec8111b6dfbed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_660ec8111b6dfbed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Anadolu Agency",
+      "source_path": "html/TUR/TUR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85d82edb350bb0f1",
+    "text": "Publisher: Anadolu Agency",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b42e5e26bb4f966b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b42e5e26bb4f966b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aa.com.tr/en/turkiye/turkiye-offers-condolences-after-deadly-algeria-bus-crash/4015407",
+      "source_path": "html/TUR/TUR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85d82edb350bb0f1",
+    "text": "Original source: https://www.aa.com.tr/en/turkiye/turkiye-offers-condolences-after-deadly-algeria-bus-crash/4015407",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4485ae7d5a8d7387",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4485ae7d5a8d7387",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85d82edb350bb0f1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ab475de76f733bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ab475de76f733bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aa.com.tr/en/turkiye/turkiye-offers-condolences-after-deadly-algeria-bus-crash/4015407",
+      "source_path": "html/TUR/TUR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_85d82edb350bb0f1",
+    "text": "https://www.aa.com.tr/en/turkiye/turkiye-offers-condolences-after-deadly-algeria-bus-crash/4015407",
+    "url": null
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "group": "supplemental",
+  "generated_at": "2026-08-12T00:00:00Z",
+  "purpose": "Replace or fill six missing or invalid distinct-domain same-incident pairs after automated collection and title auditing.",
+  "countries": ["CR", "DE", "GB", "JO", "MX", "NL"],
+  "candidate_count": 12,
+  "pair_count": 6,
+  "access_method": "Direct bounded HTTP accessibility checks after web-search discovery",
+  "review_method": "Manual comparison of publication date, location, vehicles, casualties, and event narrative",
+  "limitations": [
+    "Content is attributed reporting, not independently verified incident truth.",
+    "Committed excerpts are short paraphrases; direct URLs are retained for manual verification."
+  ]
+}

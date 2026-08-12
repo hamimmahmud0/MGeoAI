@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4f8c185bbbcd430e015b5045042f30a78b27a89cead8e0d375a05082cc1e2992",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "cadena del mar",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-21T07:00:00Z",
+  "publisher": "Cadena del Mar",
+  "schema_version": "1.0.0",
+  "source_id": "src_fa03c7d5d2851a28",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-21T07:00:00+00:00",
+    "source_info_hash": "f04251d4703af9a3",
+    "source_info_path": "html/ARG/ARG-S005/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://cadenadelmar.uy/local/accidente-de-transito-en-punta-del-este-hay-heridos-4478",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "Accidente de tránsito en Punta del Este, hay heridos"
+}

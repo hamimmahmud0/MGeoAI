@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "LKA-S004",
+  "country_code": "LKA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "News First",
+  "canonical_url": "https://english.newsfirst.lk/2026/08/11/13-injured-in-medawachchiya-bus-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://english.newsfirst.lk/2026/08/11/13-injured-in-medawachchiya-bus-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Sri+Lanka%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "f56c66bcd54fcbfe2081086f17a01a5bdb2d521ba63c9ded3534d103ade9ed4d",
+      "size_bytes": 922,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "මාර්ග අනතුර",
+    "சாலை விபத்து",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Colombo",
+  "captured_at": "2026-08-12T03:55:02.408473+06:00",
+  "published_at": "2026-08-11T04:42:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "english.newsfirst.lk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-LKA-S004"
+}

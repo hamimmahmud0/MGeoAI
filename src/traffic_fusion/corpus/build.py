@@ -260,7 +260,10 @@ def build_corpus(
     countries_path = reports_dir / "countries.md"
     countries_path.write_text(_country_report(report, profiles), encoding="utf-8")
     links_path = reports_dir / "source_links.csv"
-    links_path.write_text(_links_csv(store), encoding="utf-8")
+    links_path.write_text(
+        _links_csv(selected_by_country, profiles),
+        encoding="utf-8",
+    )
     coverage_path = reports_dir / "coverage.geojson"
     coverage_path.write_text(
         json.dumps(_coverage_geojson(report, profiles), ensure_ascii=False, indent=2) + "\n",
@@ -409,20 +412,30 @@ def _country_report(report: Any, profiles: dict[str, CountryProfile]) -> str:
     return "\n".join(lines) + "\n"
 
 
-def _links_csv(store: CorpusStore) -> str:
+def _links_csv(
+    selected: dict[str, list[CollectedCandidate]],
+    profiles: dict[str, CountryProfile],
+) -> str:
     lines = [
-        "country_code,corpus_source_id,publisher,domain,published_at,manual_verification_url"
+        "country_code,corpus_source_id,title,publisher,domain,published_at,"
+        "manual_verification_url,discovery_url,incident_key,event_country_status"
     ]
-    for source in sorted(store.sources(), key=lambda item: (item.country_code, item.corpus_source_id)):
-        values = [
-            source.country_code,
-            source.corpus_source_id,
-            source.publisher,
-            source.dependency_group,
-            source.published_at.isoformat() if source.published_at else "",
-            source.canonical_url,
-        ]
-        lines.append(",".join(_csv(item) for item in values))
+    for iso2, rows in sorted(selected.items()):
+        profile = profiles[iso2]
+        for index, candidate in enumerate(rows, 1):
+            values = [
+                profile.iso3,
+                f"{profile.iso3}-S{index:03d}",
+                candidate.title,
+                candidate.publisher,
+                candidate.domain,
+                candidate.published_at.isoformat() if candidate.published_at else "",
+                candidate.canonical_url,
+                candidate.discovery_url,
+                candidate.incident_key or "",
+                "not_verified_collection_country_only",
+            ]
+            lines.append(",".join(_csv(item) for item in values))
     return "\n".join(lines) + "\n"
 
 

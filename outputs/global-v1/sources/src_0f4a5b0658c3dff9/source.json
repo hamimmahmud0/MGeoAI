@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5cf70b2675f75b623a81cfdca501084e38d431a3ffcc788009633451cadb9eae",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "channel newsasia singapore",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2023-11-16T10:29:00Z",
+  "publisher": "Channel NewsAsia Singapore",
+  "schema_version": "1.0.0",
+  "source_id": "src_0f4a5b0658c3dff9",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2023-11-16T10:29:00+00:00",
+    "source_info_hash": "b834d3f4b8eae682",
+    "source_info_path": "html/TUR/TUR-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.channelnewsasia.com/singapore/singapore-missionary-joseph-chean-dies-road-accident-istanbul-turkiye-3925201",
+  "timezone": "Europe/Istanbul",
+  "title": "Singapore missionary dies in traffic accident in Türkiye"
+}

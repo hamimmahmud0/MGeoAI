@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "EGY",
+  "name": "Egypt",
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "timezones": [
+    "Africa/Cairo"
+  ],
+  "target_sources": 12
+}

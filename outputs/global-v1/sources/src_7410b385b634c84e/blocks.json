@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b7774951dfa2072f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b7774951dfa2072f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Scansano: tre feriti , tra cui un neonato,in un incidente stradale di un’auto finita contro un albero. Grave una 58enne portata in codice 3 all’ospedale di Grosseto",
+      "source_path": "html/ITA/ITA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7410b385b634c84e",
+    "text": "Scansano: tre feriti , tra cui un neonato,in un incidente stradale di un’auto finita contro un albero. Grave una 58enne portata in codice 3 all’ospedale di Grosseto",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_61b0b1d5cd026741",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_61b0b1d5cd026741",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-28T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7410b385b634c84e",
+    "text": "2026-05-28T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_efef4456546b5de7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_efef4456546b5de7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Scansano: tre feriti , tra cui un neonato,in un incidente stradale di un’auto finita contro un albero. Grave una 58enne portata in codice 3 all’ospedale ...",
+      "source_path": "html/ITA/ITA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7410b385b634c84e",
+    "text": "Scansano: tre feriti , tra cui un neonato,in un incidente stradale di un’auto finita contro un albero. Grave una 58enne portata in codice 3 all’ospedale ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eb7353a42f77ce7b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eb7353a42f77ce7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Centritalia News",
+      "source_path": "html/ITA/ITA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7410b385b634c84e",
+    "text": "Publisher: Centritalia News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aa44adcd91d98a0b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aa44adcd91d98a0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.centritalianews.it/scansano-tre-feriti-tra-cui-un-neonatoin-un-incidente-stradale-di-unauto-finita-contro-un-albero-grave-una-58enne-portata-in-codice-3-allospedale-di-grosseto/",
+      "source_path": "html/ITA/ITA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7410b385b634c84e",
+    "text": "Original source: https://www.centritalianews.it/scansano-tre-feriti-tra-cui-un-neonatoin-un-incidente-stradale-di-unauto-finita-contro-un-albero-grave-una-58enne-portata-in-codice-3-allospedale-di-grosseto/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ff83eddb3473d21c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ff83eddb3473d21c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7410b385b634c84e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1a0cb707c0aff71b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1a0cb707c0aff71b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.centritalianews.it/scansano-tre-feriti-tra-cui-un-neonatoin-un-incidente-stradale-di-unauto-finita-contro-un-albero-grave-una-58enne-portata-in-codice-3-allospedale-di-grosseto/",
+      "source_path": "html/ITA/ITA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7410b385b634c84e",
+    "text": "https://www.centritalianews.it/scansano-tre-feriti-tra-cui-un-neonatoin-un-incidente-stradale-di-unauto-finita-contro-un-albero-grave-una-58enne-portata-in-codice-3-allospedale-di-grosseto/",
+    "url": null
+  }
+]

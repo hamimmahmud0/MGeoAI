@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5874c99b2c741484",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5874c99b2c741484",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Al eerder klachten over rijgedrag chauffeur van Belgische schoolbus die in botsing kwam met trein: 'Gsm-gebruik en over spoorweg rijden bij dalende slagbomen'",
+      "source_path": "html/BEL/BEL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_02f7fb26f7934d88",
+    "text": "Al eerder klachten over rijgedrag chauffeur van Belgische schoolbus die in botsing kwam met trein: 'Gsm-gebruik en over spoorweg rijden bij dalende slagbomen'",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_16c8b5133c10cc0c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_16c8b5133c10cc0c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-01T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_02f7fb26f7934d88",
+    "text": "2026-06-01T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8c42ca286bc9a073",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8c42ca286bc9a073",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Al eerder klachten over rijgedrag chauffeur van Belgische schoolbus die in botsing kwam met trein: 'Gsm-gebruik en over spoorweg rijden bij dalende slagbomen' En met ...",
+      "source_path": "html/BEL/BEL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_02f7fb26f7934d88",
+    "text": "Al eerder klachten over rijgedrag chauffeur van Belgische schoolbus die in botsing kwam met trein: 'Gsm-gebruik en over spoorweg rijden bij dalende slagbomen' En met ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a8470a496a314bdf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a8470a496a314bdf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: geenstijl.nl",
+      "source_path": "html/BEL/BEL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_02f7fb26f7934d88",
+    "text": "Publisher: geenstijl.nl",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4fbaebf838adbe8c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4fbaebf838adbe8c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.geenstijl.nl/5190136/eerder-klachten-over-chauffeur-ongeluk",
+      "source_path": "html/BEL/BEL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_02f7fb26f7934d88",
+    "text": "Original source: https://www.geenstijl.nl/5190136/eerder-klachten-over-chauffeur-ongeluk",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6dd90a339008a102",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6dd90a339008a102",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_02f7fb26f7934d88",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ff7f207d2d1235fb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ff7f207d2d1235fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.geenstijl.nl/5190136/eerder-klachten-over-chauffeur-ongeluk",
+      "source_path": "html/BEL/BEL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_02f7fb26f7934d88",
+    "text": "https://www.geenstijl.nl/5190136/eerder-klachten-over-chauffeur-ongeluk",
+    "url": null
+  }
+]

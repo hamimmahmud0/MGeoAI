@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "471ae52a1b54d08c55995e0d732d3f89cfa4d54965e303defe29f093b0ad1fc1",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "ici.fr",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-17T07:00:00Z",
+  "publisher": "ici.fr",
+  "schema_version": "1.0.0",
+  "source_id": "src_c83c271f5f01a2d2",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-06-17T07:00:00+00:00",
+    "source_info_hash": "27710ab00cf96047",
+    "source_info_path": "html/FRA/FRA-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ici.fr/nouvelle-aquitaine/landes-40/narrosse/quatre-jeunes-blesses-dans-un-accident-de-la-route-a-narrosse-dans-les-landes-3445550",
+  "timezone": "Europe/Paris",
+  "title": "Quatre jeunes blessés dans un accident de la route à Narrosse, dans les Landes"
+}

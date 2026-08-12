@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9aedd81cc7e864ebc794727091426b5b53b645f99c98c7b60492fc54762581b2",
+  "country": "Peru",
+  "country_code": "PER",
+  "dependency_group": "diario correo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/PER/PER-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-29T07:00:00Z",
+  "publisher": "Diario Correo",
+  "schema_version": "1.0.0",
+  "source_id": "src_674c75f4803c616e",
+  "source_metadata": {
+    "country": "Peru",
+    "country_code": "PER",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-29T07:00:00+00:00",
+    "source_info_hash": "b731644928efb086",
+    "source_info_path": "html/PER/PER-S005/SOURCE_INFO.md",
+    "timezone": "America/Lima",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente carretero",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://diariocorreo.pe/edicion/la-libertad/dos-fallecidos-y-siete-heridos-en-accidente-de-transito-en-la-libertad-peru-noticia/",
+  "timezone": "America/Lima",
+  "title": "Dos fallecidos y siete heridos en accidente de tránsito en La Libertad"
+}

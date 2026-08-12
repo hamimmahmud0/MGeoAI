@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_baf74ab086c4d586",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_baf74ab086c4d586",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Papa Leão XIV presta solidariedade a jovens mortos em acidente no Ceará",
+      "source_path": "html/BRA/BRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa2c16d6b3d22cd8",
+    "text": "Papa Leão XIV presta solidariedade a jovens mortos em acidente no Ceará",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cd2ad4ef9c1fe3e2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cd2ad4ef9c1fe3e2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-21T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa2c16d6b3d22cd8",
+    "text": "2026-06-21T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_89fe8533069f3bd8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_89fe8533069f3bd8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Correio Braziliense",
+      "source_path": "html/BRA/BRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa2c16d6b3d22cd8",
+    "text": "Publisher: Correio Braziliense",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e9e77cf37a4ab4e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e9e77cf37a4ab4e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.correiobraziliense.com.br/brasil/2026/06/7445497-papa-leao-xiv-presta-solidariedade-a-jovens-mortos-em-acidente-no-ceara.html",
+      "source_path": "html/BRA/BRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa2c16d6b3d22cd8",
+    "text": "Original source: https://www.correiobraziliense.com.br/brasil/2026/06/7445497-papa-leao-xiv-presta-solidariedade-a-jovens-mortos-em-acidente-no-ceara.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_612415d55b777549",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_612415d55b777549",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa2c16d6b3d22cd8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e272dbf106b3eb83",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e272dbf106b3eb83",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.correiobraziliense.com.br/brasil/2026/06/7445497-papa-leao-xiv-presta-solidariedade-a-jovens-mortos-em-acidente-no-ceara.html",
+      "source_path": "html/BRA/BRA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_fa2c16d6b3d22cd8",
+    "text": "https://www.correiobraziliense.com.br/brasil/2026/06/7445497-papa-leao-xiv-presta-solidariedade-a-jovens-mortos-em-acidente-no-ceara.html",
+    "url": null
+  }
+]

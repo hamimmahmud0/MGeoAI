@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IRL-S009",
+  "country_code": "IRL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Irish Times",
+  "canonical_url": "https://www.irishtimes.com/ireland/2026/08/10/man-60s-dies-in-co-cavan-road-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.irishtimes.com/ireland/2026/08/10/man-60s-dies-in-co-cavan-road-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=IE%3Aen&gl=IE&hl=en-IE&q=%28%22road+accident%22+OR+%22traffic+collision%22+OR+%22road+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+%22Ireland%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "887182a1801b7b70bda8577ade6200aab067b436903a618944086ac150a94db8",
+      "size_bytes": 928,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "road crash",
+    "vehicle collision"
+  ],
+  "timezone": "Europe/Dublin",
+  "captured_at": "2026-08-11T21:58:27Z",
+  "published_at": "2026-08-11T08:29:48Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "irishtimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IRL-S009"
+}

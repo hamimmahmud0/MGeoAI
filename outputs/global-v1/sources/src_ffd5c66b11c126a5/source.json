@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3510f77f48dd5fcd05ed205b8874b0ae6351bd1f05396c468b513d703ab77313",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "instagram.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-30T07:00:00Z",
+  "publisher": "instagram.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_ffd5c66b11c126a5",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-30T07:00:00+00:00",
+    "source_info_hash": "e7c99a61fe3c8264",
+    "source_info_path": "html/CHL/CHL-S008/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.instagram.com/reel/DbbgV_FE4Jk/",
+  "timezone": "America/Santiago",
+  "title": "Un accidente de tránsito múltiple se registró durante la tarde de este jueves en las inmediaciones de la feria de Cartagena, región de Valparaíso, donde un camión y al menos seis vehículos menores se vieron involucrados Según los primeros antecedentes,"
+}

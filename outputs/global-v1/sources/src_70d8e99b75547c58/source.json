@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "58b3e645ba58ed906a1a1c640cd12c043526e5f2ae84fbc961eb8f0d81aa9457",
+  "country": "Malaysia",
+  "country_code": "MYS",
+  "dependency_group": "asia one",
+  "independence": "repost",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MYS/MYS-S003/content.html",
+  "parent_source_id": null,
+  "platform": "Facebook",
+  "published_at": "2026-06-22T19:13:00Z",
+  "publisher": "Asia One",
+  "schema_version": "1.0.0",
+  "source_id": "src_70d8e99b75547c58",
+  "source_metadata": {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-22T19:13:00+00:00",
+    "source_info_hash": "5bca52b3f0691c73",
+    "source_info_path": "html/MYS/MYS-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Kuala_Lumpur",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kemalangan jalan raya",
+      "nahas jalan raya",
+      "kemalangan bas",
+      "traffic collision"
+    ]
+  },
+  "source_type": "facebook_html",
+  "source_uri": "https://www.asiaone.com/malaysia/multi-vehicle-crash-9km-traffic-jam-malaysia-expressway",
+  "timezone": "Asia/Kuala_Lumpur",
+  "title": "Multi-vehicle crash on Malaysia's North-South Expressway causes 9km traffic jam"
+}

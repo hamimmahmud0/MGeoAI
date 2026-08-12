@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e76fa6e9022732f8f35fea55c1e1d24994a505f94357a7ee6a9ed38f7de6be51",
+  "country": "Pakistan",
+  "country_code": "PAK",
+  "dependency_group": "pakistan today",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PAK/PAK-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-01T13:39:00Z",
+  "publisher": "Pakistan Today",
+  "schema_version": "1.0.0",
+  "source_id": "src_0c693cb2a36ee313",
+  "source_metadata": {
+    "country": "Pakistan",
+    "country_code": "PAK",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-06-01T13:39:00+00:00",
+    "source_info_hash": "0548b94b97e1cf02",
+    "source_info_path": "html/PAK/PAK-S006/SOURCE_INFO.md",
+    "timezone": "Asia/Karachi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ٹریفک حادثہ",
+      "سڑک حادثہ",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.pakistantoday.com.pk/2025/06/02/professor-among-six-killed-in-separate-road-accidents-across-karachi",
+  "timezone": "Asia/Karachi",
+  "title": "Professor among six killed in separate road accidents across Karachi"
+}

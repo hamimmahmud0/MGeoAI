@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S005",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "India TV",
+  "canonical_url": "https://www.indiatvnews.com/news/india/andhra-accident-eight-pilgrims-killed-several-injured-after-car-collides-with-lorry-in-kurnool-2026-04-16-1037695",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.indiatvnews.com/news/india/andhra-accident-eight-pilgrims-killed-several-injured-after-car-collides-with-lorry-in-kurnool-2026-04-16-1037695",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22India%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "1e13c38f4f2431282d9395c7366857bbef80ea9fc947c9328b70b612dd78efc2",
+      "size_bytes": 1267,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:55:02.406019+06:00",
+  "published_at": "2026-04-15T19:46:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "indiatvnews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S005"
+}

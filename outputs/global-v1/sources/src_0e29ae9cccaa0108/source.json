@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "41782b27bf744c203b7ef633ab2f4fbb213eaa1734a84f2ba0744c9a7e0e1c2e",
+  "country": "Egypt",
+  "country_code": "EGY",
+  "dependency_group": "anadolu agency",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/EGY/EGY-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-11T10:04:00Z",
+  "publisher": "Anadolu Agency",
+  "schema_version": "1.0.0",
+  "source_id": "src_0e29ae9cccaa0108",
+  "source_metadata": {
+    "country": "Egypt",
+    "country_code": "EGY",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2026-08-11T10:04:00+00:00",
+    "source_info_hash": "2599bb14f3f9c9a2",
+    "source_info_path": "html/EGY/EGY-S003/SOURCE_INFO.md",
+    "timezone": "Africa/Cairo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم سيارات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aa.com.tr/en/middle-east/15-killed-32-injured-in-deadly-road-accident-in-eastern-egypt/4024338",
+  "timezone": "Africa/Cairo",
+  "title": "15 killed, 32 injured in deadly road accident in eastern Egypt"
+}

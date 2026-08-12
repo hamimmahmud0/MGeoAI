@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "77cdba20d5c683ce4324dd7d4700c528fe64517f5643bfd40ea55fef298c332a",
+  "country": "Canada",
+  "country_code": "CAN",
+  "dependency_group": "yahoo news canada",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/CAN/CAN-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-03T07:00:00Z",
+  "publisher": "Yahoo News Canada",
+  "schema_version": "1.0.0",
+  "source_id": "src_b7addd75854bec3a",
+  "source_metadata": {
+    "country": "Canada",
+    "country_code": "CAN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-03T07:00:00+00:00",
+    "source_info_hash": "414507e37df8a39a",
+    "source_info_path": "html/CAN/CAN-S001/SOURCE_INFO.md",
+    "timezone": "America/Toronto",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "highway crash",
+      "accident de la route"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://ca.news.yahoo.com/winnipeg-teen-dies-highway-crash-141258679.html",
+  "timezone": "America/Toronto",
+  "title": "Winnipeg man dies in highway crash in northern Ontario"
+}

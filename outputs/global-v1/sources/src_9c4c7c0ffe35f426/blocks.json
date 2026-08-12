@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8cd032620782a6e2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8cd032620782a6e2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Incidente stradale ad Ancona, morto un altro ragazzo di 20 anni",
+      "source_path": "html/ITA/ITA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9c4c7c0ffe35f426",
+    "text": "Incidente stradale ad Ancona, morto un altro ragazzo di 20 anni",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d4a8671e94289fcf",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d4a8671e94289fcf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-15T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9c4c7c0ffe35f426",
+    "text": "2026-06-15T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b12183bb48da335",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2b12183bb48da335",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Il Mattino di Padova",
+      "source_path": "html/ITA/ITA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9c4c7c0ffe35f426",
+    "text": "Publisher: Il Mattino di Padova",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_18c97e880c85d2e3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_18c97e880c85d2e3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.mattinopadova.it/italia/incidente-stradale-ad-ancona-morto-un-altro-ragazzo-di-20-anni-uggz54ub",
+      "source_path": "html/ITA/ITA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9c4c7c0ffe35f426",
+    "text": "Original source: https://www.mattinopadova.it/italia/incidente-stradale-ad-ancona-morto-un-altro-ragazzo-di-20-anni-uggz54ub",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_de7e606985d39c17",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_de7e606985d39c17",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9c4c7c0ffe35f426",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_49d0b437d0a29664",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_49d0b437d0a29664",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.mattinopadova.it/italia/incidente-stradale-ad-ancona-morto-un-altro-ragazzo-di-20-anni-uggz54ub",
+      "source_path": "html/ITA/ITA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9c4c7c0ffe35f426",
+    "text": "https://www.mattinopadova.it/italia/incidente-stradale-ad-ancona-morto-un-altro-ragazzo-di-20-anni-uggz54ub",
+    "url": null
+  }
+]

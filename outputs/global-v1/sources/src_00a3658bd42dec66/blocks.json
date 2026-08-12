@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bacb3870dd977aa2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bacb3870dd977aa2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua's driver charged over Nigeria crash that killed two",
+      "source_path": "html/NGA/NGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00a3658bd42dec66",
+    "text": "Anthony Joshua's driver charged over Nigeria crash that killed two",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_51d9811ff8eb7094",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_51d9811ff8eb7094",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-02T09:00:00+01:00",
+      "source_path": "html/NGA/NGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00a3658bd42dec66",
+    "text": "2026-01-02T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8f75b3385f16c3ef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8f75b3385f16c3ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua's driver charged over Nigeria crash that killed two Anthony Joshua's driver has been charged after a crash in Nigeria injured the boxer and ...",
+      "source_path": "html/NGA/NGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00a3658bd42dec66",
+    "text": "Anthony Joshua's driver charged over Nigeria crash that killed two Anthony Joshua's driver has been charged after a crash in Nigeria injured the boxer and ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d8606b3d4d04247d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d8606b3d4d04247d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: BBC",
+      "source_path": "html/NGA/NGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00a3658bd42dec66",
+    "text": "Publisher: BBC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c45835623b9b014f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c45835623b9b014f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bbc.com/news/articles/c5y2jrdnnqyo",
+      "source_path": "html/NGA/NGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00a3658bd42dec66",
+    "text": "Original source: https://www.bbc.com/news/articles/c5y2jrdnnqyo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc32147118382f93",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc32147118382f93",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00a3658bd42dec66",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5cc53b39854deed2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5cc53b39854deed2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bbc.com/news/articles/c5y2jrdnnqyo",
+      "source_path": "html/NGA/NGA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00a3658bd42dec66",
+    "text": "https://www.bbc.com/news/articles/c5y2jrdnnqyo",
+    "url": null
+  }
+]

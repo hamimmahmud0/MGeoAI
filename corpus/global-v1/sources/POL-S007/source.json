@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "POL-S007",
+  "country_code": "POL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "PolsatNews.pl",
+  "canonical_url": "https://www.polsatnews.pl/wiadomosc/2026-07-14/tragiczny-wypadek-pod-szczytnem-nie-zyje-17-latek-szesc-osob-rannych/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.polsatnews.pl/wiadomosc/2026-07-14/tragiczny-wypadek-pod-szczytnem-nie-zyje-17-latek-szesc-osob-rannych/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=PL%3Apl&gl=PL&hl=pl-PL&q=%28wypadek+drogowy+OR+zderzenie+OR+wypadek+samochodowy%29+Polska+zgin%C4%85%C5%82+OR+ranni+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "11e63bcb43c72f8bff9e5f5c3b5aa7dd1681aeb06171b878f76b46ce736d4152",
+      "size_bytes": 1140,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "pl"
+  ],
+  "traffic_keywords": [
+    "wypadek drogowy",
+    "zderzenie pojazdów",
+    "wypadek samochodowy",
+    "wypadek autobusu"
+  ],
+  "timezone": "Europe/Warsaw",
+  "captured_at": "2026-08-11T21:45:18.478649Z",
+  "published_at": "2026-07-14T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "polsatnews.pl",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-POL-S007"
+}

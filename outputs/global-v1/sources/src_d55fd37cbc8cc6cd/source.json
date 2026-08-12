@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7e5942ae4c4bf2eb3aea5ba9b95408248149f09e5a5e3bad3c012056ab34f712",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "protothema.gr",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-10-18T03:00:00Z",
+  "publisher": "protothema.gr",
+  "schema_version": "1.0.0",
+  "source_id": "src_d55fd37cbc8cc6cd",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2024-10-18T03:00:00+00:00",
+    "source_info_hash": "043be4a3c91ca226",
+    "source_info_path": "html/TUR/TUR-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://en.protothema.gr/2024/10/18/turkiye-six-dead-and-twenty-five-injured-in-bus-crash/",
+  "timezone": "Europe/Istanbul",
+  "title": "Türkiye: Six dead and twenty-five injured in bus crash"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c5c70cc0d3560a7bb18132b56fa43c8d291ccee9c5969ee105652a84577c5d1a",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "la silla rota",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/MEX/MEX-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-13T07:00:00Z",
+  "publisher": "La Silla Rota",
+  "schema_version": "1.0.0",
+  "source_id": "src_6aaf3f830e041d8d",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-13T07:00:00+00:00",
+    "source_info_hash": "a45239e76123d136",
+    "source_info_path": "html/MEX/MEX-S010/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://lasillarota.com/guanajuato/estado/2026/6/13/cinco-muertos-11-lesionados-en-un-accidente-carretero-en-san-jose-iturbide-514538.html",
+  "timezone": "America/Mexico_City",
+  "title": "Cinco muertos y 11 lesionados en un accidente carretero en San José Iturbide"
+}

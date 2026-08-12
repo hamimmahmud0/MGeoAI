@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "df8a34622f5d84598b5a499dc1425bfd9e21691366f01eeef2f1941683e5d6fd",
+  "country": "Egypt",
+  "country_code": "EGY",
+  "dependency_group": "egypt independent",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/EGY/EGY-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2015-03-07T06:47:00Z",
+  "publisher": "Egypt Independent",
+  "schema_version": "1.0.0",
+  "source_id": "src_39b3937f218c30ba",
+  "source_metadata": {
+    "country": "Egypt",
+    "country_code": "EGY",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2015-03-07T06:47:00+00:00",
+    "source_info_hash": "2d5cc37e7bfc2f7e",
+    "source_info_path": "html/EGY/EGY-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Cairo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم سيارات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.egyptindependent.com/egypt-s-prosecutor-orders-summoning-minister-over-deadly-collision/",
+  "timezone": "Africa/Cairo",
+  "title": "Egypt’s prosecutor orders summoning of minister over deadly collision"
+}

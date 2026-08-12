@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1cb6d9e977f37a72",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1cb6d9e977f37a72",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Auto gerät auf Fernpassstraße auf die Gegenfahrbahn: Zusammenstoß",
+      "source_path": "html/DEU/DEU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65800370a450b48a",
+    "text": "Auto gerät auf Fernpassstraße auf die Gegenfahrbahn: Zusammenstoß",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b0c39f4979c256cc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b0c39f4979c256cc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-03T09:00:00+02:00",
+      "source_path": "html/DEU/DEU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65800370a450b48a",
+    "text": "2026-06-03T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe66b8a9c3c90cc5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe66b8a9c3c90cc5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Allgäuer Zeitung",
+      "source_path": "html/DEU/DEU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65800370a450b48a",
+    "text": "Publisher: Allgäuer Zeitung",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_481760e857249889",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_481760e857249889",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.allgaeuer-zeitung.de/oesterreich/unfall-heute-bei-reutte-3-6-2026-auf-prallt-auf-fernpass-strasse-b179-gegen-lkw-und-wagen-zwei-verletzte-114372060",
+      "source_path": "html/DEU/DEU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65800370a450b48a",
+    "text": "Original source: https://www.allgaeuer-zeitung.de/oesterreich/unfall-heute-bei-reutte-3-6-2026-auf-prallt-auf-fernpass-strasse-b179-gegen-lkw-und-wagen-zwei-verletzte-114372060",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_78220d9b481ee906",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_78220d9b481ee906",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65800370a450b48a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_639fd2886b776f5b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_639fd2886b776f5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.allgaeuer-zeitung.de/oesterreich/unfall-heute-bei-reutte-3-6-2026-auf-prallt-auf-fernpass-strasse-b179-gegen-lkw-und-wagen-zwei-verletzte-114372060",
+      "source_path": "html/DEU/DEU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_65800370a450b48a",
+    "text": "https://www.allgaeuer-zeitung.de/oesterreich/unfall-heute-bei-reutte-3-6-2026-auf-prallt-auf-fernpass-strasse-b179-gegen-lkw-und-wagen-zwei-verletzte-114372060",
+    "url": null
+  }
+]

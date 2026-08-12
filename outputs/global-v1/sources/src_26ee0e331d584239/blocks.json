@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2b0cf63313fa2a5e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2b0cf63313fa2a5e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 seriously hurt, another 11 injured after bus plows into pedestrians in Seoul",
+      "source_path": "html/KOR/KOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26ee0e331d584239",
+    "text": "2 seriously hurt, another 11 injured after bus plows into pedestrians in Seoul",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fdf45fdf3f6f9e22",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_fdf45fdf3f6f9e22",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-16T16:27:00+09:00",
+      "source_path": "html/KOR/KOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26ee0e331d584239",
+    "text": "2026-01-16T16:27:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b14437b28ab8ada0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b14437b28ab8ada0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus left a road in western Seoul and struck pedestrians, seriously injuring two and hurting eleven others.",
+      "source_path": "html/KOR/KOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26ee0e331d584239",
+    "text": "A bus left a road in western Seoul and struck pedestrians, seriously injuring two and hurting eleven others.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2fa2d6113122fb0b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2fa2d6113122fb0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yonhap News Agency",
+      "source_path": "html/KOR/KOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26ee0e331d584239",
+    "text": "Publisher: Yonhap News Agency",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_03c82e0c775cc626",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_03c82e0c775cc626",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://en.yna.co.kr/view/AEN20260116006752315?section=national%2Fnational",
+      "source_path": "html/KOR/KOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26ee0e331d584239",
+    "text": "Original source: https://en.yna.co.kr/view/AEN20260116006752315?section=national%2Fnational",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b93a65beab40ed85",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b93a65beab40ed85",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26ee0e331d584239",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_53bf8832b064d25b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_53bf8832b064d25b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://en.yna.co.kr/view/AEN20260116006752315?section=national%2Fnational",
+      "source_path": "html/KOR/KOR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26ee0e331d584239",
+    "text": "https://en.yna.co.kr/view/AEN20260116006752315?section=national%2Fnational",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "934e41cc0cc76438f7cfefb6de42520a2066b2021243505a2f456c5a7e7da679",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "expreso.ec",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-07T07:00:00Z",
+  "publisher": "expreso.ec",
+  "schema_version": "1.0.0",
+  "source_id": "src_940ded9f19296150",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-07T07:00:00+00:00",
+    "source_info_hash": "46d469a4bd0b4d91",
+    "source_info_path": "html/ECU/ECU-S010/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.expreso.ec/ecuador/protesta-via-santa-lucia-accidente-transito-dejo-cinco-heridos-288438.html",
+  "timezone": "America/Guayaquil",
+  "title": "Protesta en vía de Santa Lucía por accidente de tránsito que dejó cinco heridos"
+}

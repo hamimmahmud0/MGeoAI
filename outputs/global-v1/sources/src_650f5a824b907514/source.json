@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b5a30fefcc943809f9d0b307a62923c940b9c04bb9624d67e0fbe260ecba977f",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "ghanaweb.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-02-26T02:28:00Z",
+  "publisher": "Ghanaweb.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_650f5a824b907514",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2024-02-26T02:28:00+00:00",
+    "source_info_hash": "21c02dcf48fb2169",
+    "source_info_path": "html/TZA/TZA-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ghanaweb.com/GhanaHomePage/africa/Tanzania-car-crash-claims-lives-from-seven-countries-1918697",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "Tanzania car crash claims lives from seven countries"
+}

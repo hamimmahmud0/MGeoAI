@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NPL-S003",
+  "country_code": "NPL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Anadolu Ajansi",
+  "canonical_url": "https://www.aa.com.tr/en/asia-pacific/death-toll-climbs-to-19-in-nepal-bus-accident-25-others-injured/3837784",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.aa.com.tr/en/asia-pacific/death-toll-climbs-to-19-in-nepal-bus-accident-25-others-injured/3837784",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Nepal%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e72cb5242c9a28fc45091af6f0744271bc8460432f44d505bd624b9feae06b44",
+      "size_bytes": 1066,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "सडक दुर्घटना",
+    "बस दुर्घटना",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kathmandu",
+  "captured_at": "2026-08-12T03:55:02.409992+06:00",
+  "published_at": "2026-02-23T06:25:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "aa.com.tr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NPL-S003"
+}

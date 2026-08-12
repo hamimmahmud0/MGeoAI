@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6356b681346fe4a7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6356b681346fe4a7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "8 killed, 4 injured in traffic accident in Tunisia",
+      "source_path": "html/TUN/TUN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7b30771d2c256495",
+    "text": "8 killed, 4 injured in traffic accident in Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c15fb30db33dcb1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1c15fb30db33dcb1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-02-21T02:13:00+01:00",
+      "source_path": "html/TUN/TUN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7b30771d2c256495",
+    "text": "2024-02-21T02:13:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8e85b63dc23d131c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8e85b63dc23d131c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The traffic accident occurred on the main road linking the southeastern province of Gabes and the southwestern province of Kebili in the evening, when a ...",
+      "source_path": "html/TUN/TUN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7b30771d2c256495",
+    "text": "The traffic accident occurred on the main road linking the southeastern province of Gabes and the southwestern province of Kebili in the evening, when a ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35647e7e4efe1b55",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_35647e7e4efe1b55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: en.mehrnews",
+      "source_path": "html/TUN/TUN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7b30771d2c256495",
+    "text": "Publisher: en.mehrnews",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5d6924564f143a41",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5d6924564f143a41",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://en.mehrnews.com/news/212218/8-killed-4-injured-in-traffic-accident-in-Tunisia",
+      "source_path": "html/TUN/TUN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7b30771d2c256495",
+    "text": "Original source: https://en.mehrnews.com/news/212218/8-killed-4-injured-in-traffic-accident-in-Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_82e04aedb5d25dbe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_82e04aedb5d25dbe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7b30771d2c256495",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ea528f2fe293cde7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ea528f2fe293cde7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://en.mehrnews.com/news/212218/8-killed-4-injured-in-traffic-accident-in-Tunisia",
+      "source_path": "html/TUN/TUN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7b30771d2c256495",
+    "text": "https://en.mehrnews.com/news/212218/8-killed-4-injured-in-traffic-accident-in-Tunisia",
+    "url": null
+  }
+]

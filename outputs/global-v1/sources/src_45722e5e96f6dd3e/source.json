@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5bce19b37f7674e6dcd2fafdcb8012ea642b8aac16cb882a33db5f62ecd5ea5a",
+  "country": "Uganda",
+  "country_code": "UGA",
+  "dependency_group": "jacaranda fm",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "local_path": "html/UGA/UGA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-10-22T01:50:00Z",
+  "publisher": "Jacaranda FM",
+  "schema_version": "1.0.0",
+  "source_id": "src_45722e5e96f6dd3e",
+  "source_metadata": {
+    "country": "Uganda",
+    "country_code": "UGA",
+    "languages": [
+      "en",
+      "sw",
+      "lg"
+    ],
+    "published_at": "2025-10-22T01:50:00+00:00",
+    "source_info_hash": "545c2adb02d1f61d",
+    "source_info_path": "html/UGA/UGA-S010/SOURCE_INFO.md",
+    "timezone": "Africa/Kampala",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus accident",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.jacarandafm.com/news/news/uganda-bus-collision-kills-46-police-revise-toll-down/",
+  "timezone": "Africa/Kampala",
+  "title": "'Head-on' Uganda bus collision kills 46, police revise toll down"
+}

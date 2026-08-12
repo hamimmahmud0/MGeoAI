@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f6ee912e6ed15fa5",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f6ee912e6ed15fa5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "India: At least 10 killed, 55 injured as bus carrying Hindu pilgrims falls into gorge",
+      "source_path": "html/IND/IND-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_683006ac7ea2f01c",
+    "text": "India: At least 10 killed, 55 injured as bus carrying Hindu pilgrims falls into gorge",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed51b583428028b4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ed51b583428028b4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-05-30T16:59:00+05:30",
+      "source_path": "html/IND/IND-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_683006ac7ea2f01c",
+    "text": "2023-05-30T16:59:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c19c24a4bc027f2d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c19c24a4bc027f2d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus heading to Katra fell into a gorge near Jammu, killing at least ten people and injuring 55.",
+      "source_path": "html/IND/IND-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_683006ac7ea2f01c",
+    "text": "A bus heading to Katra fell into a gorge near Jammu, killing at least ten people and injuring 55.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1027dbef90350bba",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1027dbef90350bba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Sada Elbalad English",
+      "source_path": "html/IND/IND-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_683006ac7ea2f01c",
+    "text": "Publisher: Sada Elbalad English",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e63242e3a5b07081",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e63242e3a5b07081",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://see.news/india-at-least-10-killed-55-injured-as-bus-carrying-hindu-pilgrims-falls-into-gorge",
+      "source_path": "html/IND/IND-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_683006ac7ea2f01c",
+    "text": "Original source: https://see.news/india-at-least-10-killed-55-injured-as-bus-carrying-hindu-pilgrims-falls-into-gorge",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_08b26491e530a4f7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_08b26491e530a4f7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_683006ac7ea2f01c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1a4f30bb8893a020",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1a4f30bb8893a020",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://see.news/india-at-least-10-killed-55-injured-as-bus-carrying-hindu-pilgrims-falls-into-gorge",
+      "source_path": "html/IND/IND-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_683006ac7ea2f01c",
+    "text": "https://see.news/india-at-least-10-killed-55-injured-as-bus-carrying-hindu-pilgrims-falls-into-gorge",
+    "url": null
+  }
+]

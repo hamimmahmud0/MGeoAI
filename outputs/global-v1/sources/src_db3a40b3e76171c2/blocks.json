@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_415c28d9cfb5c750",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_415c28d9cfb5c750",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Morocco bus crash leaves 15 dead, scores injured",
+      "source_path": "html/MAR/MAR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db3a40b3e76171c2",
+    "text": "Morocco bus crash leaves 15 dead, scores injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5f244e8aa632259f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5f244e8aa632259f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-08-17T14:57:00+01:00",
+      "source_path": "html/MAR/MAR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db3a40b3e76171c2",
+    "text": "2022-08-17T14:57:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57b342a920a45797",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_57b342a920a45797",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus crash east of Morocco's economic capital Casablanca left 15 people dead and 37 injured Wednesday, according to an initial toll from local authorities. ...",
+      "source_path": "html/MAR/MAR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db3a40b3e76171c2",
+    "text": "A bus crash east of Morocco's economic capital Casablanca left 15 people dead and 37 injured Wednesday, according to an initial toll from local authorities. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c9a1ae0051df9d33",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c9a1ae0051df9d33",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/MAR/MAR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db3a40b3e76171c2",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_130aa35bcb3d0619",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_130aa35bcb3d0619",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/africa/275694/morocco-bus-crash-leaves-15-dead-scores-injured",
+      "source_path": "html/MAR/MAR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db3a40b3e76171c2",
+    "text": "Original source: https://www.dhakatribune.com/world/africa/275694/morocco-bus-crash-leaves-15-dead-scores-injured",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5eec0a94082d57e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5eec0a94082d57e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db3a40b3e76171c2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_803cc328d7b0f633",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_803cc328d7b0f633",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/africa/275694/morocco-bus-crash-leaves-15-dead-scores-injured",
+      "source_path": "html/MAR/MAR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db3a40b3e76171c2",
+    "text": "https://www.dhakatribune.com/world/africa/275694/morocco-bus-crash-leaves-15-dead-scores-injured",
+    "url": null
+  }
+]

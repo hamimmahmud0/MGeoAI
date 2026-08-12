@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "DEU-S003",
+  "country_code": "DEU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Allgäuer Zeitung",
+  "canonical_url": "https://www.allgaeuer-zeitung.de/oesterreich/unfall-heute-bei-reutte-3-6-2026-auf-prallt-auf-fernpass-strasse-b179-gegen-lkw-und-wagen-zwei-verletzte-114372060",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.allgaeuer-zeitung.de/oesterreich/unfall-heute-bei-reutte-3-6-2026-auf-prallt-auf-fernpass-strasse-b179-gegen-lkw-und-wagen-zwei-verletzte-114372060",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=DE%3Ade&gl=DE&hl=de&q=%28%22Verkehrsunfall%22+OR+%22Autounfall%22+OR+%22Busunfall%22+OR+%22Zusammensto%C3%9F%22%29+%28tot+OR+Tote+OR+verletzt+OR+Verletzte%29+%22Deutschland%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "213385313954b00b2c95021f0c589bd4ec3c05777858bb357b526f01b9502756",
+      "size_bytes": 1155,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "traffic_keywords": [
+    "Verkehrsunfall",
+    "Autounfall",
+    "Busunfall",
+    "Zusammenstoß"
+  ],
+  "timezone": "Europe/Berlin",
+  "captured_at": "2026-08-11T21:59:38Z",
+  "published_at": "2026-06-03T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "allgaeuer-zeitung.de",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-DEU-S003"
+}

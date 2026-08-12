@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_067be57ed7465f12",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_067be57ed7465f12",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Busschaufför död efter krasch i Trelleborg",
+      "source_path": "html/SWE/SWE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_19c14d0ba819fd2c",
+    "text": "Busschaufför död efter krasch i Trelleborg",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a19addf854fd9b8d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a19addf854fd9b8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-04T09:00:00+02:00",
+      "source_path": "html/SWE/SWE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_19c14d0ba819fd2c",
+    "text": "2025-08-04T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b13478f3696d89cb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b13478f3696d89cb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Annons Annons Annons En buss körde in i flera bilar i centrala Trelleborg på måndagen.",
+      "source_path": "html/SWE/SWE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_19c14d0ba819fd2c",
+    "text": "Annons Annons Annons En buss körde in i flera bilar i centrala Trelleborg på måndagen.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_967dacfb435f795e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_967dacfb435f795e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Skånska Dagbladet",
+      "source_path": "html/SWE/SWE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_19c14d0ba819fd2c",
+    "text": "Publisher: Skånska Dagbladet",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34574029ca984a14",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34574029ca984a14",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.skd.se/sverige/busschauffor-dod-efter-krasch-i-trelleborg/",
+      "source_path": "html/SWE/SWE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_19c14d0ba819fd2c",
+    "text": "Original source: https://www.skd.se/sverige/busschauffor-dod-efter-krasch-i-trelleborg/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3145d8f657751d26",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3145d8f657751d26",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SWE/SWE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_19c14d0ba819fd2c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_60e1e3023bbbdf35",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_60e1e3023bbbdf35",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.skd.se/sverige/busschauffor-dod-efter-krasch-i-trelleborg/",
+      "source_path": "html/SWE/SWE-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_19c14d0ba819fd2c",
+    "text": "https://www.skd.se/sverige/busschauffor-dod-efter-krasch-i-trelleborg/",
+    "url": null
+  }
+]

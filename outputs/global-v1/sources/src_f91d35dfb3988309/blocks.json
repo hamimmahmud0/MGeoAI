@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b2002b757d4743a5",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b2002b757d4743a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Odumase: 13 feared dead, several injured in Kumasi-Accra highway crash",
+      "source_path": "html/GHA/GHA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f91d35dfb3988309",
+    "text": "Odumase: 13 feared dead, several injured in Kumasi-Accra highway crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_212b1d09cca5cf8f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_212b1d09cca5cf8f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-16T07:00:00+00:00",
+      "source_path": "html/GHA/GHA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f91d35dfb3988309",
+    "text": "2026-07-16T07:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d840f2acd80ccdfb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d840f2acd80ccdfb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A vehicle collision at Odumase, near Konongo, on the Kumasi-Accra Highway in the Ashanti Region, has left about 13 people feared dead, while several others ...",
+      "source_path": "html/GHA/GHA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f91d35dfb3988309",
+    "text": "A vehicle collision at Odumase, near Konongo, on the Kumasi-Accra Highway in the Ashanti Region, has left about 13 people feared dead, while several others ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e7c823d88c286ae6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e7c823d88c286ae6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CitiNewsroom.com",
+      "source_path": "html/GHA/GHA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f91d35dfb3988309",
+    "text": "Publisher: CitiNewsroom.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_65c6bde2359c5767",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_65c6bde2359c5767",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.citinewsroom.com/2026/07/odumase-13-feared-dead-several-injured-in-kumasi-accra-highway-crash/",
+      "source_path": "html/GHA/GHA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f91d35dfb3988309",
+    "text": "Original source: https://www.citinewsroom.com/2026/07/odumase-13-feared-dead-several-injured-in-kumasi-accra-highway-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_034d2ad16dc6dc53",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_034d2ad16dc6dc53",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f91d35dfb3988309",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a4830efa9b0cec2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a4830efa9b0cec2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.citinewsroom.com/2026/07/odumase-13-feared-dead-several-injured-in-kumasi-accra-highway-crash/",
+      "source_path": "html/GHA/GHA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f91d35dfb3988309",
+    "text": "https://www.citinewsroom.com/2026/07/odumase-13-feared-dead-several-injured-in-kumasi-accra-highway-crash/",
+    "url": null
+  }
+]

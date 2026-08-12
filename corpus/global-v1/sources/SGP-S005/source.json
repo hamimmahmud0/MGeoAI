@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SGP-S005",
+  "country_code": "SGP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "AsiaOne",
+  "canonical_url": "https://www.asiaone.com/singapore/sbs-bus-hougang-brakes-avoid-accident-3-passengers-injured",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.asiaone.com/singapore/sbs-bus-hougang-brakes-avoid-accident-3-passengers-injured",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Singapore%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "365d4c9e574ceddc149584d48b63df415e33e1c9e995c5e6b16595dbd257e8f1",
+      "size_bytes": 1002,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "traffic accident",
+    "road collision",
+    "vehicle crash",
+    "bus accident"
+  ],
+  "timezone": "Asia/Singapore",
+  "captured_at": "2026-08-12T03:37:44.991062+06:00",
+  "published_at": "2026-08-08T22:11:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "asiaone.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SGP-S005"
+}

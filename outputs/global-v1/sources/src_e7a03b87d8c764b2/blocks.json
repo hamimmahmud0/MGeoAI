@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_afb8247bc4a99137",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_afb8247bc4a99137",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Scores Killed and Injured in 2 Türkiye Road Accidents",
+      "source_path": "html/TUR/TUR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7a03b87d8c764b2",
+    "text": "Scores Killed and Injured in 2 Türkiye Road Accidents",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_03ebb8c082292082",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_03ebb8c082292082",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-08-21T00:52:00+03:00",
+      "source_path": "html/TUR/TUR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7a03b87d8c764b2",
+    "text": "2022-08-21T00:52:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fd6a4dd43403930a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fd6a4dd43403930a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 34 people were killed and dozens injured in two separate road accidents in Türkiye Saturday, each in places where collisions had taken place ...",
+      "source_path": "html/TUR/TUR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7a03b87d8c764b2",
+    "text": "At least 34 people were killed and dozens injured in two separate road accidents in Türkiye Saturday, each in places where collisions had taken place ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8572c3b9dd0fef73",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8572c3b9dd0fef73",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: الشرق الأوسط",
+      "source_path": "html/TUR/TUR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7a03b87d8c764b2",
+    "text": "Publisher: الشرق الأوسط",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_115acf7347ca53d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_115acf7347ca53d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://english.aawsat.com/home/article/3828161/scores-killed-and-injured-2-t%C3%BCrkiye-road-accidents",
+      "source_path": "html/TUR/TUR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7a03b87d8c764b2",
+    "text": "Original source: https://english.aawsat.com/home/article/3828161/scores-killed-and-injured-2-t%C3%BCrkiye-road-accidents",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33b0251abdfa995f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_33b0251abdfa995f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7a03b87d8c764b2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf4587a10d65025a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bf4587a10d65025a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://english.aawsat.com/home/article/3828161/scores-killed-and-injured-2-t%C3%BCrkiye-road-accidents",
+      "source_path": "html/TUR/TUR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e7a03b87d8c764b2",
+    "text": "https://english.aawsat.com/home/article/3828161/scores-killed-and-injured-2-t%C3%BCrkiye-road-accidents",
+    "url": null
+  }
+]

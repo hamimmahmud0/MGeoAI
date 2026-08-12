@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_80ae62a8b8f92d74",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_80ae62a8b8f92d74",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two dead, eight injured in road accident at Dompoase near komenda",
+      "source_path": "html/GHA/GHA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef343acbe191e4ce",
+    "text": "Two dead, eight injured in road accident at Dompoase near komenda",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_093085c12b9cc6bd",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_093085c12b9cc6bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-04T16:53:39+00:00",
+      "source_path": "html/GHA/GHA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef343acbe191e4ce",
+    "text": "2026-08-04T16:53:39+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8733c39df6dbcadb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8733c39df6dbcadb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two people have died and eight others sustained injuries following a road traffic accident at Dompoase, near Komenda on the Cape Coast-Takoradi highway on Thursday ...",
+      "source_path": "html/GHA/GHA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef343acbe191e4ce",
+    "text": "Two people have died and eight others sustained injuries following a road traffic accident at Dompoase, near Komenda on the Cape Coast-Takoradi highway on Thursday ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1fb4b6e5a30861f5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1fb4b6e5a30861f5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Ghanaian Times",
+      "source_path": "html/GHA/GHA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef343acbe191e4ce",
+    "text": "Publisher: Ghanaian Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fc12ec143c16b663",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fc12ec143c16b663",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://ghanaiantimes.com.gh/two-dead-eight-injured-in-road-accident-at-dompoase-near-komenda/",
+      "source_path": "html/GHA/GHA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef343acbe191e4ce",
+    "text": "Original source: https://ghanaiantimes.com.gh/two-dead-eight-injured-in-road-accident-at-dompoase-near-komenda/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_96b1f7167ba5d033",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_96b1f7167ba5d033",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef343acbe191e4ce",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee4b5e78c0c60862",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee4b5e78c0c60862",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://ghanaiantimes.com.gh/two-dead-eight-injured-in-road-accident-at-dompoase-near-komenda/",
+      "source_path": "html/GHA/GHA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ef343acbe191e4ce",
+    "text": "https://ghanaiantimes.com.gh/two-dead-eight-injured-in-road-accident-at-dompoase-near-komenda/",
+    "url": null
+  }
+]

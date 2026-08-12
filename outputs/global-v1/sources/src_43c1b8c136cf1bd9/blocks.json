@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_abe9194d5ba733f2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_abe9194d5ba733f2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Én person død etter trafikkulykke på E6 ved Høybråten",
+      "source_path": "html/NOR/NOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_43c1b8c136cf1bd9",
+    "text": "Én person død etter trafikkulykke på E6 ved Høybråten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a6e6c44b6e1d15f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4a6e6c44b6e1d15f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-07-03T09:00:00+02:00",
+      "source_path": "html/NOR/NOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_43c1b8c136cf1bd9",
+    "text": "2025-07-03T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a279bb2476b2ead3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a279bb2476b2ead3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Én person død etter trafikkulykke på E6 ved Høybråten Flere kjøretøy skal ha vært involvert i ulykken.",
+      "source_path": "html/NOR/NOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_43c1b8c136cf1bd9",
+    "text": "Én person død etter trafikkulykke på E6 ved Høybråten Flere kjøretøy skal ha vært involvert i ulykken.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1bc2a2ccc6926719",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1bc2a2ccc6926719",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftenposten",
+      "source_path": "html/NOR/NOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_43c1b8c136cf1bd9",
+    "text": "Publisher: Aftenposten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2ccb5c88657f0e86",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2ccb5c88657f0e86",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftenposten.no/norge/i/xmooml/en-person-doed-etter-trafikkulykke-paa-e6-ved-hoeybraaten",
+      "source_path": "html/NOR/NOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_43c1b8c136cf1bd9",
+    "text": "Original source: https://www.aftenposten.no/norge/i/xmooml/en-person-doed-etter-trafikkulykke-paa-e6-ved-hoeybraaten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6ad86116b1f586a2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6ad86116b1f586a2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_43c1b8c136cf1bd9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1bc538dc12f57780",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1bc538dc12f57780",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftenposten.no/norge/i/xmooml/en-person-doed-etter-trafikkulykke-paa-e6-ved-hoeybraaten",
+      "source_path": "html/NOR/NOR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_43c1b8c136cf1bd9",
+    "text": "https://www.aftenposten.no/norge/i/xmooml/en-person-doed-etter-trafikkulykke-paa-e6-ved-hoeybraaten",
+    "url": null
+  }
+]

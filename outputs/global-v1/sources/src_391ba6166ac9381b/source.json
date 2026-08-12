@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "553fe149b46829b026b685448308b6426e0d899d1df15224c2eb773edc41693a",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "abc7 los angeles",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T20:04:23Z",
+  "publisher": "ABC7 Los Angeles",
+  "schema_version": "1.0.0",
+  "source_id": "src_391ba6166ac9381b",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-08T20:04:23+00:00",
+    "source_info_hash": "9b08d381b3d820ca",
+    "source_info_path": "html/USA/USA-S006/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://abc7.com/post/2-killed-multi-car-crash-inglewood-intersection/19647698/",
+  "timezone": "America/Chicago",
+  "title": "2 killed, 2 hurt in violent multi-car crash in Inglewood intersection"
+}

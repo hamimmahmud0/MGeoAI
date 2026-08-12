@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c495678159fa10de93d90d55019446590214ad5ffb04a226800a9f7535ceda9a",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "citinewsroom.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-22T07:00:00Z",
+  "publisher": "CitiNewsroom.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_a7a72dc461a5f91e",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-07-22T07:00:00+00:00",
+    "source_info_hash": "d12c0ff91934fd08",
+    "source_info_path": "html/GHA/GHA-S006/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.citinewsroom.com/2026/07/three-killed-11-injured-in-ajumako-kokoben-road-crash/",
+  "timezone": "Africa/Accra",
+  "title": "Three killed, 11 injured in Ajumako Kokoben road crash"
+}

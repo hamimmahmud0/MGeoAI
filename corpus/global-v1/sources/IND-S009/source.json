@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S009",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Hans India",
+  "canonical_url": "https://www.thehansindia.com/karnataka/haveri-bus-accident-leaves-one-dead-over-20-injured-on-nh-48-1107537",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thehansindia.com/karnataka/haveri-bus-accident-leaves-one-dead-over-20-injured-on-nh-48-1107537",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22India%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "2e4e5008b0ff4bebd2c6421157f6b9ac4b2bd61d832c1e2f7551629954b8d730",
+      "size_bytes": 1092,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:55:02.405912+06:00",
+  "published_at": "2026-08-09T22:06:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thehansindia.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S009"
+}

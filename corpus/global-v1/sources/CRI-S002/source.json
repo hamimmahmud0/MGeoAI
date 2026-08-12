@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CRI-S002",
+  "country_code": "CRI",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Telediario Costa Rica",
+  "canonical_url": "https://www.telediario.cr/en-alerta/choque-multiple-en-garabito-deja-un-muerto",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.telediario.cr/en-alerta/choque-multiple-en-garabito-deja-un-muerto",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Garabito+bus+five+vehicles+crash+August+3+2025+Costa+Rica",
+      "label": "Discovery record (web_search_direct_access_check)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "3e7a14584944fde2096062f031073af466afca58c6982d0e29bf67a6c2cf3f38",
+      "size_bytes": 927,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "accidente vial",
+    "colisión en carretera"
+  ],
+  "timezone": "America/Costa_Rica",
+  "captured_at": "2026-08-12T00:00:00Z",
+  "published_at": "2025-08-04T00:09:19Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "telediario.cr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CRI-S002"
+}

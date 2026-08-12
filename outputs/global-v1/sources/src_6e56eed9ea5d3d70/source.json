@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "dc564b1767b4685d889b007d426482314b257fb4fd8c6ebcddfb9ea7b5e397f4",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "bdnews24.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-07T08:02:00Z",
+  "publisher": "bdnews24.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_6e56eed9ea5d3d70",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-07T08:02:00+00:00",
+    "source_info_hash": "d9f82976ee1bb99a",
+    "source_info_path": "html/BGD/BGD-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/bangladesh/8232805d583b",
+  "timezone": "Asia/Dhaka",
+  "title": "All killed in Sylhet bus crash were Unique Paribahan passengers, police say"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d596c6f0fc1e9bf3cdf9975a8274d27adcb705643a46a2a1439aedcd4a81a309",
+  "country": "Saudi Arabia",
+  "country_code": "SAU",
+  "dependency_group": "bdnews24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SAU/SAU-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2014-10-23T16:42:00Z",
+  "publisher": "bdnews24",
+  "schema_version": "1.0.0",
+  "source_id": "src_e10bb230e436621b",
+  "source_metadata": {
+    "country": "Saudi Arabia",
+    "country_code": "SAU",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2014-10-23T16:42:00+00:00",
+    "source_info_hash": "8953b7602d7b7206",
+    "source_info_path": "html/SAU/SAU-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Riyadh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث مروري",
+      "حادث سير",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/bangladesh/another-bangladeshi-dies-in-saudi-arabia-road-crash",
+  "timezone": "Asia/Riyadh",
+  "title": "Another Bangladeshi dies in Saudi Arabia road crash"
+}

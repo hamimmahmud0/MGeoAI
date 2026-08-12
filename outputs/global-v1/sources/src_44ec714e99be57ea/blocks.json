@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a5f27563f5f7480e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a5f27563f5f7480e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Kollisjon mellom bobil og personbil",
+      "source_path": "html/NOR/NOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44ec714e99be57ea",
+    "text": "Kollisjon mellom bobil og personbil",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cd90d20287a52683",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cd90d20287a52683",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-06T09:00:00+02:00",
+      "source_path": "html/NOR/NOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44ec714e99be57ea",
+    "text": "2026-07-06T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99eb98e25615c23c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_99eb98e25615c23c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Kollisjon mellom bobil og personbil Flere personer er skadet.",
+      "source_path": "html/NOR/NOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44ec714e99be57ea",
+    "text": "Kollisjon mellom bobil og personbil Flere personer er skadet.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ab68071e6d1c174e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ab68071e6d1c174e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftenposten",
+      "source_path": "html/NOR/NOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44ec714e99be57ea",
+    "text": "Publisher: Aftenposten",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_31fb6e3e51c468e5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_31fb6e3e51c468e5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftenposten.no/norge/i/j0kB2q/kollisjon-mellom-bobil-og-personbil",
+      "source_path": "html/NOR/NOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44ec714e99be57ea",
+    "text": "Original source: https://www.aftenposten.no/norge/i/j0kB2q/kollisjon-mellom-bobil-og-personbil",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7f78d42eaeacd9d6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7f78d42eaeacd9d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NOR/NOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44ec714e99be57ea",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95ce4a69d7aaff9d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95ce4a69d7aaff9d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftenposten.no/norge/i/j0kB2q/kollisjon-mellom-bobil-og-personbil",
+      "source_path": "html/NOR/NOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_44ec714e99be57ea",
+    "text": "https://www.aftenposten.no/norge/i/j0kB2q/kollisjon-mellom-bobil-og-personbil",
+    "url": null
+  }
+]

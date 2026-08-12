@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "PHL",
+  "name": "Philippines",
+  "languages": [
+    "en",
+    "fil"
+  ],
+  "timezones": [
+    "Asia/Manila"
+  ],
+  "target_sources": 12
+}

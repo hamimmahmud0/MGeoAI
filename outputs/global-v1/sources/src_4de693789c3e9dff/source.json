@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "da9723bd949326ff123ca86436f57b4ecf78a0843845606318b9b88d67926546",
+  "country": "Peru",
+  "country_code": "PER",
+  "dependency_group": "infobae",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/PER/PER-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-25T07:00:00Z",
+  "publisher": "Infobae",
+  "schema_version": "1.0.0",
+  "source_id": "src_4de693789c3e9dff",
+  "source_metadata": {
+    "country": "Peru",
+    "country_code": "PER",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-25T07:00:00+00:00",
+    "source_info_hash": "67c81cf2198d2695",
+    "source_info_path": "html/PER/PER-S010/SOURCE_INFO.md",
+    "timezone": "America/Lima",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente carretero",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.infobae.com/peru/2026/07/25/fatal-accidente-en-la-panamericana-sur-deja-fallecidos-y-multiples-heridos-en-tacna/",
+  "timezone": "America/Lima",
+  "title": "Trágico accidente en la Panamericana Sur deja cinco fallecidos y varios heridos en Tacna"
+}

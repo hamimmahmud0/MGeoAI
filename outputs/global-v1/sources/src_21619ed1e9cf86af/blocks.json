@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b33e04619635007d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b33e04619635007d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fatal accidente en Ruta 5 Sur en Gorbea dejó un muerto y un lesionado",
+      "source_path": "html/CHL/CHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_21619ed1e9cf86af",
+    "text": "Fatal accidente en Ruta 5 Sur en Gorbea dejó un muerto y un lesionado",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d632279138d47f8",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8d632279138d47f8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-23T03:00:00-04:00",
+      "source_path": "html/CHL/CHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_21619ed1e9cf86af",
+    "text": "2026-05-23T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_810d01795ede4caf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_810d01795ede4caf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Canal 9 Bío Bío Televisión",
+      "source_path": "html/CHL/CHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_21619ed1e9cf86af",
+    "text": "Publisher: Canal 9 Bío Bío Televisión",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a2154a6b3fccba4d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a2154a6b3fccba4d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.canal9.cl/episodios/2026/05/23/fatal-accidente-en-ruta-5-sur-en-gorbea-dejo-un-muerto-y-dos-personas-atrapadas-en-furgon-siniestrado",
+      "source_path": "html/CHL/CHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_21619ed1e9cf86af",
+    "text": "Original source: https://www.canal9.cl/episodios/2026/05/23/fatal-accidente-en-ruta-5-sur-en-gorbea-dejo-un-muerto-y-dos-personas-atrapadas-en-furgon-siniestrado",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_789b3ee6419a025f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_789b3ee6419a025f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_21619ed1e9cf86af",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bb11da14ef4b2d95",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bb11da14ef4b2d95",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.canal9.cl/episodios/2026/05/23/fatal-accidente-en-ruta-5-sur-en-gorbea-dejo-un-muerto-y-dos-personas-atrapadas-en-furgon-siniestrado",
+      "source_path": "html/CHL/CHL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_21619ed1e9cf86af",
+    "text": "https://www.canal9.cl/episodios/2026/05/23/fatal-accidente-en-ruta-5-sur-en-gorbea-dejo-un-muerto-y-dos-personas-atrapadas-en-furgon-siniestrado",
+    "url": null
+  }
+]

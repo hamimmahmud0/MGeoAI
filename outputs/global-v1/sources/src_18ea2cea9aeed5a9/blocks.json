@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d03a3b4b522a660a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d03a3b4b522a660a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "25 killed in road crash in Tanzania: President",
+      "source_path": "html/TZA/TZA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18ea2cea9aeed5a9",
+    "text": "25 killed in road crash in Tanzania: President",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eedcb6fe8bdd2d65",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_eedcb6fe8bdd2d65",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-02-25T22:37:00+03:00",
+      "source_path": "html/TZA/TZA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18ea2cea9aeed5a9",
+    "text": "2024-02-25T22:37:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09aa036f4918bf4f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09aa036f4918bf4f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The accident occurred on Saturday evening when a truck driver lost control of his vehicle on the road linking Arusha and Namanga and collided with ...",
+      "source_path": "html/TZA/TZA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18ea2cea9aeed5a9",
+    "text": "The accident occurred on Saturday evening when a truck driver lost control of his vehicle on the road linking Arusha and Namanga and collided with ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_efa59cdaf99bc70a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_efa59cdaf99bc70a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The New Indian Express",
+      "source_path": "html/TZA/TZA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18ea2cea9aeed5a9",
+    "text": "Publisher: The New Indian Express",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d816ffa9b26c753",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7d816ffa9b26c753",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.newindianexpress.com/world/2024/Feb/26/25-killed-in-road-crash-in-tanzania-president",
+      "source_path": "html/TZA/TZA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18ea2cea9aeed5a9",
+    "text": "Original source: https://www.newindianexpress.com/world/2024/Feb/26/25-killed-in-road-crash-in-tanzania-president",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0a9158adf7777e1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e0a9158adf7777e1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18ea2cea9aeed5a9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b7d4cbecd9de1605",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b7d4cbecd9de1605",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.newindianexpress.com/world/2024/Feb/26/25-killed-in-road-crash-in-tanzania-president",
+      "source_path": "html/TZA/TZA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18ea2cea9aeed5a9",
+    "text": "https://www.newindianexpress.com/world/2024/Feb/26/25-killed-in-road-crash-in-tanzania-president",
+    "url": null
+  }
+]

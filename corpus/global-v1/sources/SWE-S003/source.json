@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SWE-S003",
+  "country_code": "SWE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Aftonbladet",
+  "canonical_url": "https://www.aftonbladet.se/nojesbladet/a/43o1Eg/neo-katz-i-paradise-hotel-skadad-i-trafikolycka-i-thailand",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.aftonbladet.se/nojesbladet/a/43o1Eg/neo-katz-i-paradise-hotel-skadad-i-trafikolycka-i-thailand",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=SE%3Asv&gl=SE&hl=sv-SE&q=%28trafikolycka+OR+bilolycka+OR+krasch%29+Sverige+d%C3%B6d+OR+skadad+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ae5f38a413e712e6ceb483337239b3ef351e7d48fac0922707472aeb7a030d2a",
+      "size_bytes": 1036,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "traffic_keywords": [
+    "trafikolycka",
+    "bilolycka",
+    "fordonskollision",
+    "bussolycka"
+  ],
+  "timezone": "Europe/Stockholm",
+  "captured_at": "2026-08-11T21:40:23.462547Z",
+  "published_at": "2026-02-24T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "aftonbladet.se",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SWE-S003"
+}

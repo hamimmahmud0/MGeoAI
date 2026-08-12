@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8eebc3c6aa404674",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8eebc3c6aa404674",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two Brits killed in crash after car overturns in Morocco",
+      "source_path": "html/MAR/MAR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_061d7d2639f47840",
+    "text": "Two Brits killed in crash after car overturns in Morocco",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e20e2f3d0ea8573",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2e20e2f3d0ea8573",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-05T04:01:00+01:00",
+      "source_path": "html/MAR/MAR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_061d7d2639f47840",
+    "text": "2025-05-05T04:01:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed05eb29a62aa85d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ed05eb29a62aa85d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Footage shows the empty vehicle involved in the crash badly damaged and with blood stains on the rear seat Two British tourists have been killed ...",
+      "source_path": "html/MAR/MAR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_061d7d2639f47840",
+    "text": "Footage shows the empty vehicle involved in the crash badly damaged and with blood stains on the rear seat Two British tourists have been killed ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9cd02ef79b2433c0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9cd02ef79b2433c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Metro",
+      "source_path": "html/MAR/MAR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_061d7d2639f47840",
+    "text": "Publisher: Metro",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b3b2282721c2436c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b3b2282721c2436c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://metro.co.uk/2025/05/05/two-brits-killed-crash-car-overturns-morocco-23026452/",
+      "source_path": "html/MAR/MAR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_061d7d2639f47840",
+    "text": "Original source: https://metro.co.uk/2025/05/05/two-brits-killed-crash-car-overturns-morocco-23026452/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1365bc942984558a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1365bc942984558a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_061d7d2639f47840",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a442330fd539ad44",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a442330fd539ad44",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://metro.co.uk/2025/05/05/two-brits-killed-crash-car-overturns-morocco-23026452/",
+      "source_path": "html/MAR/MAR-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_061d7d2639f47840",
+    "text": "https://metro.co.uk/2025/05/05/two-brits-killed-crash-car-overturns-morocco-23026452/",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6bca691596ba3a08b9d003ada309110d29dddd7f528a1dfcd9512b3c57a9a7a7",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "eturbonews",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-12-01T12:09:00Z",
+  "publisher": "eturbonews",
+  "schema_version": "1.0.0",
+  "source_id": "src_c285be92886fdc54",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2019-12-01T12:09:00+00:00",
+    "source_info_hash": "06b4d81435ff8c41",
+    "source_info_path": "html/TUN/TUN-S008/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://eturbonews.com/24-local-tourists-killed-in-tunisia-road-accident/",
+  "timezone": "Africa/Tunis",
+  "title": "24 local tourists killed in Tunisia road accident"
+}

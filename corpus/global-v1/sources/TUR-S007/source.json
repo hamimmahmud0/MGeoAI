@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S007",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "الشرق الأوسط",
+  "canonical_url": "https://english.aawsat.com/home/article/3828161/scores-killed-and-injured-2-t%C3%BCrkiye-road-accidents",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://english.aawsat.com/home/article/3828161/scores-killed-and-injured-2-t%C3%BCrkiye-road-accidents",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22T%C3%BCrkiye%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "39a92a675f45e9fdb3bc142b844ad4aea7d2852d1e355661845d9e1b50ecf9cb",
+      "size_bytes": 1051,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2022-08-20T21:52:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "english.aawsat.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S007"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6324c3cbb9d6c55a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6324c3cbb9d6c55a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Murió una joven argentina en un accidente de tránsito en Australia",
+      "source_path": "html/ARG/ARG-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45b01e48315ce401",
+    "text": "Murió una joven argentina en un accidente de tránsito en Australia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df7283d71b779b17",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_df7283d71b779b17",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-17T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45b01e48315ce401",
+    "text": "2026-05-17T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4125086473a6fa29",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4125086473a6fa29",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Página|12",
+      "source_path": "html/ARG/ARG-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45b01e48315ce401",
+    "text": "Publisher: Página|12",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca70f21ca4834af8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ca70f21ca4834af8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.pagina12.com.ar/2026/05/17/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia/",
+      "source_path": "html/ARG/ARG-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45b01e48315ce401",
+    "text": "Original source: https://www.pagina12.com.ar/2026/05/17/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57e5c8efaecf2fe9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_57e5c8efaecf2fe9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45b01e48315ce401",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d01861cf41e3bc3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8d01861cf41e3bc3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.pagina12.com.ar/2026/05/17/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia/",
+      "source_path": "html/ARG/ARG-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_45b01e48315ce401",
+    "text": "https://www.pagina12.com.ar/2026/05/17/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia/",
+    "url": null
+  }
+]

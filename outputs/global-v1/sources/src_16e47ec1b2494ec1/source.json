@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4e164280e86c171c81716879f4b87b8589109bf79e16347f9885a0f3bd5da284",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "global times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-03T00:37:00Z",
+  "publisher": "Global Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_16e47ec1b2494ec1",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2026-08-03T00:37:00+00:00",
+    "source_info_hash": "77fb48e53fac3724",
+    "source_info_path": "html/TZA/TZA-S008/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.globaltimes.cn/page/202608/1367394.shtml",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "8 killed, 66 injured in bus collision in central Tanzania"
+}

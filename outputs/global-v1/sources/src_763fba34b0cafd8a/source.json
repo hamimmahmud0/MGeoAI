@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8d69996fd478b093b82af21aea5af58083d0fe1e46cec9f369a0fc4acd4308ba",
+  "country": "Portugal",
+  "country_code": "PRT",
+  "dependency_group": "jm madeira",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/PRT/PRT-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-31T07:00:00Z",
+  "publisher": "JM Madeira",
+  "schema_version": "1.0.0",
+  "source_id": "src_763fba34b0cafd8a",
+  "source_metadata": {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-05-31T07:00:00+00:00",
+    "source_info_hash": "5b082315344d1f5d",
+    "source_info_path": "html/PRT/PRT-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Lisbon",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente rodoviário",
+      "acidente de viação",
+      "colisão de veículos",
+      "acidente de autocarro"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.jm-madeira.pt/not%C3%ADcias/desporto/20278274/festejos-pelo-titulo-do-psg-resultaram-ja-num-morto-e-em-feridos-graves.html",
+  "timezone": "Europe/Lisbon",
+  "title": "Festejos pelo título do PSG resultaram já num morto e em feridos graves"
+}

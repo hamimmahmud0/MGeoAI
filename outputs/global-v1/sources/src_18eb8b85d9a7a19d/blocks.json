@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c068941597d1d329",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c068941597d1d329",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Malaysia Bus Crash Kills 15, Mostly Students",
+      "source_path": "html/MYS/MYS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18eb8b85d9a7a19d",
+    "text": "Malaysia Bus Crash Kills 15, Mostly Students",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8c01357db4a44f83",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8c01357db4a44f83",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-09T10:39:00+08:00",
+      "source_path": "html/MYS/MYS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18eb8b85d9a7a19d",
+    "text": "2025-06-09T10:39:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1b52c9854d9b0e50",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1b52c9854d9b0e50",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The accident is the deadliest in more than a decade on Malaysia's hazardous roads. A bus carrying university students crashed into a minivan in northern ...",
+      "source_path": "html/MYS/MYS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18eb8b85d9a7a19d",
+    "text": "The accident is the deadliest in more than a decade on Malaysia's hazardous roads. A bus carrying university students crashed into a minivan in northern ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_87b50c5a6f4a6292",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_87b50c5a6f4a6292",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NDTV",
+      "source_path": "html/MYS/MYS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18eb8b85d9a7a19d",
+    "text": "Publisher: NDTV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_91365116b455185a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_91365116b455185a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ndtv.com/world-news/malaysia-bus-crash-kills-15-mostly-students-8623969",
+      "source_path": "html/MYS/MYS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18eb8b85d9a7a19d",
+    "text": "Original source: https://www.ndtv.com/world-news/malaysia-bus-crash-kills-15-mostly-students-8623969",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_77bcac02c0174eba",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_77bcac02c0174eba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18eb8b85d9a7a19d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc1118eb91e9b4b9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc1118eb91e9b4b9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ndtv.com/world-news/malaysia-bus-crash-kills-15-mostly-students-8623969",
+      "source_path": "html/MYS/MYS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_18eb8b85d9a7a19d",
+    "text": "https://www.ndtv.com/world-news/malaysia-bus-crash-kills-15-mostly-students-8623969",
+    "url": null
+  }
+]

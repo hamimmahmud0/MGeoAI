@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_96720476fba6c57c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_96720476fba6c57c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 28 killed after bus falls into ravine in Pakistan’s Balochistan",
+      "source_path": "html/PAK/PAK-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07dc9252aaf37d1c",
+    "text": "At least 28 killed after bus falls into ravine in Pakistan’s Balochistan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bac70eed796f6e60",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_bac70eed796f6e60",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-05-29T13:00:00+05:00",
+      "source_path": "html/PAK/PAK-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07dc9252aaf37d1c",
+    "text": "2024-05-29T13:00:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34c690f4a3b4e10e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34c690f4a3b4e10e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 28 people died when a bus fell into a ravine in Washuk district of Balochistan.",
+      "source_path": "html/PAK/PAK-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07dc9252aaf37d1c",
+    "text": "At least 28 people died when a bus fell into a ravine in Washuk district of Balochistan.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e2ed265711d24dd9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e2ed265711d24dd9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Al Jazeera",
+      "source_path": "html/PAK/PAK-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07dc9252aaf37d1c",
+    "text": "Publisher: Al Jazeera",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d5fbd26d8b94dbea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d5fbd26d8b94dbea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aljazeera.com/news/2024/5/29/at-least-28-killed-after-bus-falls-into-ravine-in-pakistans-balochistan",
+      "source_path": "html/PAK/PAK-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07dc9252aaf37d1c",
+    "text": "Original source: https://www.aljazeera.com/news/2024/5/29/at-least-28-killed-after-bus-falls-into-ravine-in-pakistans-balochistan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_70b9db84521e3282",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_70b9db84521e3282",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07dc9252aaf37d1c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c762c33516bca069",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c762c33516bca069",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aljazeera.com/news/2024/5/29/at-least-28-killed-after-bus-falls-into-ravine-in-pakistans-balochistan",
+      "source_path": "html/PAK/PAK-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_07dc9252aaf37d1c",
+    "text": "https://www.aljazeera.com/news/2024/5/29/at-least-28-killed-after-bus-falls-into-ravine-in-pakistans-balochistan",
+    "url": null
+  }
+]

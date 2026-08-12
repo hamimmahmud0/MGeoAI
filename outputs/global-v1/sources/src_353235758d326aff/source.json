@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "bc8ab30f2e69245f0bf33d94418477139e64d8a3606ca2ec1a7e081b36dadd80",
+  "country": "Ethiopia",
+  "country_code": "ETH",
+  "dependency_group": "free malaysia today",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "am",
+    "en",
+    "om"
+  ],
+  "local_path": "html/ETH/ETH-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-12-29T14:34:00Z",
+  "publisher": "Free Malaysia Today",
+  "schema_version": "1.0.0",
+  "source_id": "src_353235758d326aff",
+  "source_metadata": {
+    "country": "Ethiopia",
+    "country_code": "ETH",
+    "languages": [
+      "am",
+      "en",
+      "om"
+    ],
+    "published_at": "2024-12-29T14:34:00+00:00",
+    "source_info_hash": "03f7979bd7bc6ffb",
+    "source_info_path": "html/ETH/ETH-S006/SOURCE_INFO.md",
+    "timezone": "Africa/Addis_Ababa",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "የመንገድ አደጋ",
+      "የትራፊክ አደጋ",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.freemalaysiatoday.com/category/world/2024/12/30/66-dead-after-road-accident-in-ethiopia",
+  "timezone": "Africa/Addis_Ababa",
+  "title": "66 dead after road accident in Ethiopia"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "34aea65138c2bae3a230212429099fbf4c23f328656925f72e1d081e8f32fe51",
+  "country": "Spain",
+  "country_code": "ESP",
+  "dependency_group": "el debate",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ESP/ESP-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-03T07:00:00Z",
+  "publisher": "El Debate",
+  "schema_version": "1.0.0",
+  "source_id": "src_031122902dff2b7d",
+  "source_metadata": {
+    "country": "Spain",
+    "country_code": "ESP",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-03T07:00:00+00:00",
+    "source_info_hash": "af7fd6f5da863f10",
+    "source_info_path": "html/ESP/ESP-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Madrid",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tráfico",
+      "accidente de carretera",
+      "choque de vehículos",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.eldebate.com/espana/20260603/emotivo-homenaje-guardia-civil-navarra-5-policias-forales-muertos-accidente-trafico_424723.html",
+  "timezone": "Europe/Madrid",
+  "title": "El emotivo homenaje de la Guardia Civil de Navarra a los 5 policías forales muertos en accidente de tráfico"
+}

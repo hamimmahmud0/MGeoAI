@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ba7c1176d4c71e8f115e4d7a6cc85fadb81f18adb1c3fa10ea6750b38794d2ae",
+  "country": "Pakistan",
+  "country_code": "PAK",
+  "dependency_group": "al jazeera",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PAK/PAK-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-05-29T08:00:00Z",
+  "publisher": "Al Jazeera",
+  "schema_version": "1.0.0",
+  "source_id": "src_07dc9252aaf37d1c",
+  "source_metadata": {
+    "country": "Pakistan",
+    "country_code": "PAK",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-05-29T08:00:00+00:00",
+    "source_info_hash": "939289323a642ece",
+    "source_info_path": "html/PAK/PAK-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Karachi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ٹریفک حادثہ",
+      "سڑک حادثہ",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aljazeera.com/news/2024/5/29/at-least-28-killed-after-bus-falls-into-ravine-in-pakistans-balochistan",
+  "timezone": "Asia/Karachi",
+  "title": "At least 28 killed after bus falls into ravine in Pakistan’s Balochistan"
+}

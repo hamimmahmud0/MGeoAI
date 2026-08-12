@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8387eb4935baf154",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8387eb4935baf154",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dos muertos en un accidente de tráfico en la A-394 a la altura de Utrera",
+      "source_path": "html/ESP/ESP-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f939925f081896aa",
+    "text": "Dos muertos en un accidente de tráfico en la A-394 a la altura de Utrera",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7c98b542bea41b18",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7c98b542bea41b18",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-09T18:22:49+02:00",
+      "source_path": "html/ESP/ESP-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f939925f081896aa",
+    "text": "2026-08-09T18:22:49+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_46297e2418fcdaeb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_46297e2418fcdaeb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ABC",
+      "source_path": "html/ESP/ESP-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f939925f081896aa",
+    "text": "Publisher: ABC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_22f16d48bfb28d8e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_22f16d48bfb28d8e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.abc.es/sevilla/provincia/utrera/colision-dos-coches-deja-dos-muertos-a394-20260809182223-nts.html",
+      "source_path": "html/ESP/ESP-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f939925f081896aa",
+    "text": "Original source: https://www.abc.es/sevilla/provincia/utrera/colision-dos-coches-deja-dos-muertos-a394-20260809182223-nts.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1cd7a70bdf67c3a9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1cd7a70bdf67c3a9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ESP/ESP-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f939925f081896aa",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_15b523a911a0990c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_15b523a911a0990c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.abc.es/sevilla/provincia/utrera/colision-dos-coches-deja-dos-muertos-a394-20260809182223-nts.html",
+      "source_path": "html/ESP/ESP-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f939925f081896aa",
+    "text": "https://www.abc.es/sevilla/provincia/utrera/colision-dos-coches-deja-dos-muertos-a394-20260809182223-nts.html",
+    "url": null
+  }
+]

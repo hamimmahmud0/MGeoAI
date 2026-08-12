@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3c2c9d0dd9e8aac5aaa0c30159cd156d7c6a74471ba0586e5788c9ddfea49d48",
+  "country": "Peru",
+  "country_code": "PER",
+  "dependency_group": "el popular",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/PER/PER-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-29T07:00:00Z",
+  "publisher": "El Popular",
+  "schema_version": "1.0.0",
+  "source_id": "src_f158f5aaac141136",
+  "source_metadata": {
+    "country": "Peru",
+    "country_code": "PER",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-29T07:00:00+00:00",
+    "source_info_hash": "30d681ca51d2ff90",
+    "source_info_path": "html/PER/PER-S007/SOURCE_INFO.md",
+    "timezone": "America/Lima",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "accidente carretero",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://elpopular.pe/actualidad/2026/05/29/urgente-choque-fatal-en-la-victoria-bus-lleno-de-pasajeros-impacta-contra-camion-y-deja-13-heridos-2731481",
+  "timezone": "America/Lima",
+  "title": "URGENTE | Fuerte choque en La Victoria: bus con pasajeros impacta contra camión y deja 13 heridos"
+}

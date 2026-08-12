@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b0e5c8c5bec4f44c49dd5a20eb5087445d660053c4f01adedd94b26a264d83b3",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "aftenposten",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-01T07:00:00Z",
+  "publisher": "Aftenposten",
+  "schema_version": "1.0.0",
+  "source_id": "src_0998b43d608b4fbe",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2026-08-01T07:00:00+00:00",
+    "source_info_hash": "010d99e0aec2e89d",
+    "source_info_path": "html/NOR/NOR-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aftenposten.no/norge/i/Arxmlx/en-person-omkom-i-trafikkulykke-i-harstad",
+  "timezone": "Europe/Oslo",
+  "title": "Én person omkom i trafikkulykke i Harstad"
+}

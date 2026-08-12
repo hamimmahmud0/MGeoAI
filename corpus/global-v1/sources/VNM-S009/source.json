@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S009",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "VietNamNet",
+  "canonical_url": "https://vietnamnet.vn/en/hanoi-truck-driver-arrested-for-dragging-schoolgirl-to-death-after-crash-2442474.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://vietnamnet.vn/en/hanoi-truck-driver-arrested-for-dragging-schoolgirl-to-death-after-crash-2442474.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Hanoi%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "5affcc5acc2723e1ad974d221d33fdfa2e1ee8155a49898aeda131dad1d2b217",
+      "size_bytes": 1096,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:49:45.453209+06:00",
+  "published_at": "2025-09-13T17:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "vietnamnet.vn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S009"
+}

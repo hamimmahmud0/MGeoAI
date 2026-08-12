@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "bbb689020113e397844d1bbc386eac985fd698c476544fc7642ae7c8305179e7",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "la opinión austral",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-17T07:00:00Z",
+  "publisher": "La Opinión Austral",
+  "schema_version": "1.0.0",
+  "source_id": "src_bcb83192c549b495",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-17T07:00:00+00:00",
+    "source_info_hash": "af696722072cb9ea",
+    "source_info_path": "html/ARG/ARG-S001/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://laopinionaustral.com.ar/el-mundo/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia-tenia-26-anos-y-era-de-rosario-662333.html",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "Murió una joven argentina en un accidente de tránsito en Australia: tenía 26 años y era de Rosario"
+}

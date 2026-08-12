@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3860695e48bb3b1d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3860695e48bb3b1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Polak zginął w wypadku drogowym. Tragedia w Indiach",
+      "source_path": "html/POL/POL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b20022becf73e8ff",
+    "text": "Polak zginął w wypadku drogowym. Tragedia w Indiach",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_733c669dfc671874",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_733c669dfc671874",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-19T09:00:00+01:00",
+      "source_path": "html/POL/POL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b20022becf73e8ff",
+    "text": "2026-02-19T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_06225ceaee6f89c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_06225ceaee6f89c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Taksówka jadąca autostradą w okolicach Delhi została zmiażdżona przez dwa samochody ciężarowe.",
+      "source_path": "html/POL/POL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b20022becf73e8ff",
+    "text": "Taksówka jadąca autostradą w okolicach Delhi została zmiażdżona przez dwa samochody ciężarowe.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5bf09537002f31cc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5bf09537002f31cc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: PolsatNews.pl",
+      "source_path": "html/POL/POL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b20022becf73e8ff",
+    "text": "Publisher: PolsatNews.pl",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1b9aba07913a7d3d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1b9aba07913a7d3d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.polsatnews.pl/wiadomosc/2026-02-19/taksowka-zmiazdzona-przez-ciezarowke-w-delhi-nie-zyje-polski-steward/",
+      "source_path": "html/POL/POL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b20022becf73e8ff",
+    "text": "Original source: https://www.polsatnews.pl/wiadomosc/2026-02-19/taksowka-zmiazdzona-przez-ciezarowke-w-delhi-nie-zyje-polski-steward/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1786b3013338e39c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1786b3013338e39c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b20022becf73e8ff",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c3dd674c4796387",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1c3dd674c4796387",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.polsatnews.pl/wiadomosc/2026-02-19/taksowka-zmiazdzona-przez-ciezarowke-w-delhi-nie-zyje-polski-steward/",
+      "source_path": "html/POL/POL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b20022becf73e8ff",
+    "text": "https://www.polsatnews.pl/wiadomosc/2026-02-19/taksowka-zmiazdzona-przez-ciezarowke-w-delhi-nie-zyje-polski-steward/",
+    "url": null
+  }
+]

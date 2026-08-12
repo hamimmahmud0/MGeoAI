@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "542984505cea1ca6537d3035985037ea9125d67c68779cee5e9e39103e6b0538",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "medios rioja",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-24T07:00:00Z",
+  "publisher": "Medios Rioja",
+  "schema_version": "1.0.0",
+  "source_id": "src_8a1a6ec340cc133c",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-24T07:00:00+00:00",
+    "source_info_hash": "a838fff8879f8ed4",
+    "source_info_path": "html/ARG/ARG-S010/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://mediosrioja.com.ar/grave-siniestro-vial-en-la-zona-sur-un-motociclista-herido-de-gravedad-tras-un-choque/",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "Grave siniestro vial en la zona Sur: un motociclista herido de gravedad tras un choque"
+}

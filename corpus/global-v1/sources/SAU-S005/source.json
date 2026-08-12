@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SAU-S005",
+  "country_code": "SAU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "bdnews24",
+  "canonical_url": "https://bdnews24.com/bangladesh/at-least-10-bangladeshis-killed-in-saudi-arabia-car-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://bdnews24.com/bangladesh/at-least-10-bangladeshis-killed-in-saudi-arabia-car-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Saudi+Arabia%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "a82de7614c1e0dadd11316d543778e95362025ca02b6c0950f710a570d28e146",
+      "size_bytes": 1017,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "تصادم مركبات",
+    "road accident"
+  ],
+  "timezone": "Asia/Riyadh",
+  "captured_at": "2026-08-12T03:38:53.034791+06:00",
+  "published_at": "2019-05-02T15:18:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bdnews24.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SAU-S005"
+}

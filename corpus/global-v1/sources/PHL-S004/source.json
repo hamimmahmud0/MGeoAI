@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PHL-S004",
+  "country_code": "PHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Tempo",
+  "canonical_url": "https://en.tempo.co/read/1261159/philippines-duterte-in-good-hands-after-motorcycle-accident",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://en.tempo.co/read/1261159/philippines-duterte-in-good-hands-after-motorcycle-accident",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Philippines%22+motorcycle+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0e8977ce84bb16eacb256e85e58e59891f7fd77b9d52098436a7e2eedff16690",
+      "size_bytes": 1055,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "banggaan ng sasakyan"
+  ],
+  "timezone": "Asia/Manila",
+  "captured_at": "2026-08-12T03:38:02.421625+06:00",
+  "published_at": "2019-10-18T00:30:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "en.tempo.co",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PHL-S004"
+}

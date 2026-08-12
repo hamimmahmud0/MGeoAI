@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b1621faf09b61c62",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b1621faf09b61c62",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Portugal: Acidente de autocarro em Agualva e Mira-Sintra provoca duas mortes e vários feridos",
+      "source_path": "html/PRT/PRT-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7941065ff5d15653",
+    "text": "Portugal: Acidente de autocarro em Agualva e Mira-Sintra provoca duas mortes e vários feridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9eb36d527cd0f512",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9eb36d527cd0f512",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-07T08:00:00+01:00",
+      "source_path": "html/PRT/PRT-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7941065ff5d15653",
+    "text": "2026-07-07T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_00c4f8db7b34b276",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_00c4f8db7b34b276",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Agência Incomparáveis",
+      "source_path": "html/PRT/PRT-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7941065ff5d15653",
+    "text": "Publisher: Agência Incomparáveis",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_83891f7fe0fe7677",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_83891f7fe0fe7677",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.agenciaincomparaveis.com/portugal-acidente-de-autocarro-em-agualva-e-mira-sintra-provoca-duas-mortes-e-varios-feridos/",
+      "source_path": "html/PRT/PRT-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7941065ff5d15653",
+    "text": "Original source: https://www.agenciaincomparaveis.com/portugal-acidente-de-autocarro-em-agualva-e-mira-sintra-provoca-duas-mortes-e-varios-feridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_56647fed74717e33",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_56647fed74717e33",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7941065ff5d15653",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c2af2fd42c743441",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c2af2fd42c743441",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.agenciaincomparaveis.com/portugal-acidente-de-autocarro-em-agualva-e-mira-sintra-provoca-duas-mortes-e-varios-feridos/",
+      "source_path": "html/PRT/PRT-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7941065ff5d15653",
+    "text": "https://www.agenciaincomparaveis.com/portugal-acidente-de-autocarro-em-agualva-e-mira-sintra-provoca-duas-mortes-e-varios-feridos/",
+    "url": null
+  }
+]

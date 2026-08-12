@@ -1,0 +1,468 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": "15 km traffic jam for thousands of passengers due to the blockade",
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "Age conflict between sources (15 vs 17)",
+    "Duplicate evidence from same source (Views Bangladesh) counted once",
+    "Specific crash point not confirmed; only city-level coordinates"
+  ],
+  "duplicate_groups": [
+    [
+      "ev_25f22aa562f7533f",
+      "ev_33738fa816ada880"
+    ]
+  ],
+  "emergency_response": [
+    "Police personnel from Tongi East and Tongi West stations deployed"
+  ],
+  "event_time": {
+    "end": "2026-08-10T00:00:00",
+    "original_expression": "date normalized from corpus evidence family",
+    "precision": "day",
+    "start": "2026-08-09T00:00:00",
+    "timezone": null
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_25f22aa562f7533f",
+    "ev_33738fa816ada880",
+    "ev_32e6290ff8c2ead6",
+    "ev_4be9adbfb1ccf9b1",
+    "ev_68d7f18f8fe461ea",
+    "ev_9012296fa587ace1",
+    "ev_d9abeb718696a746"
+  ],
+  "facts": [
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Multiple sources state one fatality: Yasin, a student, died in a road crash in Tongi, Gazipur.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_32e6290ff8c2ead6",
+        "ev_9012296fa587ace1"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No source reports injuries; only fatalities mentioned.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [
+        "Yasin, 17",
+        "ইয়াসিন আলী (15)"
+      ],
+      "contradiction": true,
+      "field": "victim_name",
+      "selection_rationale": "Name is consistent, but age conflicts: one source gives 17, another 15. Both are supplied.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_9012296fa587ace1",
+        "ev_25f22aa562f7533f"
+      ],
+      "value": "Yasin Ali (Yasin)"
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "victim_status",
+      "selection_rationale": "Evidence consistently describes the victim as a madrasa student.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_9012296fa587ace1"
+      ],
+      "value": "madrasa student"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [
+        15,
+        17
+      ],
+      "contradiction": true,
+      "field": "age",
+      "selection_rationale": "Age is conflicting: Bengali source says 15, English source says 17. Not resolved.",
+      "state": "unknown",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_9012296fa587ace1"
+      ],
+      "value": null
+    },
+    {
+      "confidence": 0.95,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "crash_date",
+      "selection_rationale": "Mentions normalize event date to 2026-08-09 (day precision).",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_4be9adbfb1ccf9b1",
+        "ev_9012296fa587ace1"
+      ],
+      "value": "2026-08-09"
+    },
+    {
+      "confidence": 0.7,
+      "conflicting_values": [
+        "Asia Pump and Gazipur bus stand (specific spot)"
+      ],
+      "contradiction": false,
+      "field": "crash_location",
+      "selection_rationale": "All sources agree location is Tongi, Gazipur. More specific spot (Asia Pump) is not independently confirmed.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_32e6290ff8c2ead6",
+        "ev_9012296fa587ace1"
+      ],
+      "value": "Tongi, Gazipur, Bangladesh"
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "road_closure",
+      "selection_rationale": "Multiple sources state students blocked the highway, causing traffic congestion.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f",
+        "ev_4be9adbfb1ccf9b1",
+        "ev_9012296fa587ace1"
+      ],
+      "value": true
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "blockade_duration_hours",
+      "selection_rationale": "One source states blockade lasted 3 hours.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f"
+      ],
+      "value": 3
+    },
+    {
+      "confidence": 0.8,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "congestion_length_km",
+      "selection_rationale": "One source reports about 15 km of congestion.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_25f22aa562f7533f"
+      ],
+      "value": 15
+    },
+    {
+      "confidence": 0.9,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "police_presence",
+      "selection_rationale": "Source reports Tongi East and West police stations personnel were deployed.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_68d7f18f8fe461ea"
+      ],
+      "value": true
+    }
+  ],
+  "generated_at": "2026-08-10T00:00:00Z",
+  "geolocation": {
+    "alternatives": [
+      {
+        "confidence": 0.5,
+        "evidence_ids": [
+          "ev_9012296fa587ace1"
+        ],
+        "granularity": "point",
+        "hierarchy": {},
+        "latitude": null,
+        "longitude": null,
+        "name": "Asia Pump and Gazipur bus stand",
+        "normalized_name": "asia pump and gazipur bus stand",
+        "reason": "Specific spot mentioned but no coordinates supplied."
+      }
+    ],
+    "ambiguity_reason": "Exact crash point not specified; only city-level coordinates available.",
+    "confidence": 0.68,
+    "display_name": "Tongi, Gazipur",
+    "granularity": "city",
+    "hierarchy": {
+      "anchor": "tongi",
+      "country": "Bangladesh"
+    },
+    "latitude": 23.8957,
+    "longitude": 90.4023,
+    "method": "gazetteer_centroid",
+    "supporting_evidence_ids": [
+      "ev_4be9adbfb1ccf9b1",
+      "ev_68d7f18f8fe461ea",
+      "ev_9012296fa587ace1",
+      "ev_d9abeb718696a746"
+    ],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "A fatal road crash occurred in Tongi, Gazipur, killing Yasin, a madrasa student. The date is reported as 2026-08-09. Students protested the death by blocking the Dhaka-Mymensingh Highway for about three hours, causing around 15 kilometers of traffic congestion. Police from Tongi East and West stations were deployed. The blockade ended around 3 pm after police assured students of addressing foot overbridge demands [ev_25f22aa562f7533f][ev_9012296fa587ace1][ev_4be9adbfb1ccf9b1]. There is a conflict about the victim's age: one source says 15, another says 17 [ev_25f22aa562f7533f][ev_9012296fa587ace1]. No injuries are reported. Traffic-related sentiment is negative, focusing on congestion and road safety [sent_f980c75151b79254]. The exact crash location and cause remain unclear.",
+  "incident_id": "cluster-002",
+  "independent_source_count": 2,
+  "involved_parties": [
+    "Yasin (deceased madrasa student)",
+    "Students (protesters)",
+    "Police"
+  ],
+  "later_developments": [
+    "Students lifted the blockade after police assured them about foot overbridge demands."
+  ],
+  "obstruction": "Road blockade by students on Dhaka-Mymensingh Highway",
+  "provider_run_id": null,
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {
+      "congestion_delay": {
+        "mixed": 0,
+        "negative": 6,
+        "positive": 0,
+        "unknown": 0
+      },
+      "road_safety": {
+        "mixed": 0,
+        "negative": 7,
+        "positive": 0,
+        "unknown": 0
+      }
+    },
+    "coverage_note": "Traffic-related sentiment supplied from multiple sources.",
+    "items": [
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_33738fa816ada880",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_f980c75151b79254",
+        "source_id": "src_96c9878e5c29c473",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_25f22aa562f7533f",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_391fc28c8cbffb55",
+        "source_id": "src_96c9878e5c29c473",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_4be9adbfb1ccf9b1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_50615fe2e3d93535",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_9012296fa587ace1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_f24bf1debe561a6c",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_e40b9b57c9908c1f",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_68a914611c69ada8",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_1daa4367bcff93e1",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_45deddcf0e76ae24",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "congestion_delay",
+        "confidence": 0.75,
+        "emotion": "frustration",
+        "evidence_id": "ev_d8845078d12a5ec7",
+        "holder": "thedailystar.net",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.25,
+        "sentiment_id": "sent_b5925edd927a9947",
+        "source_id": "src_064d6b3f7a7be59c",
+        "target": "traffic conditions",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_284772af9f97ab7a",
+        "holder": "Channel 24",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_607568b36140bbbe",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.65,
+        "emotion": "concern",
+        "evidence_id": "ev_0f1872d7ddd16d11",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_4ea5d430db02e0b6",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_4d29e8fa51fb6d16",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_857912a1380da4b7",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_bc734548b660a703",
+        "holder": "source audience or participant",
+        "holder_type": "source",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_9784f7572c739de5",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.75,
+        "emotion": "concern",
+        "evidence_id": "ev_8e0582fee1384a4f",
+        "holder": "source audience or participant",
+        "holder_type": "group",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_3278aaee71f96bb6",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      },
+      {
+        "aspect": "road_safety",
+        "confidence": 0.65,
+        "emotion": "concern",
+        "evidence_id": "ev_5f25b1e88d2d414f",
+        "holder": "source audience or participant",
+        "holder_type": "group",
+        "intensity": "medium",
+        "polarity": "negative",
+        "sarcasm_uncertainty": 0.1,
+        "sentiment_id": "sent_65615cd287753652",
+        "source_id": "src_ac806a793f71ca54",
+        "target": "incident accountability",
+        "traffic_related": true
+      }
+    ],
+    "notable_minority_views": [],
+    "sample_size": 13,
+    "traffic_relevant_count": 13
+  },
+  "source_ids": [
+    "src_96c9878e5c29c473",
+    "src_ac806a793f71ca54",
+    "src_064d6b3f7a7be59c"
+  ],
+  "status": "resolved",
+  "title": "Road crash in Tongi, Gazipur; student Yasin killed",
+  "unresolved_questions": [
+    "Exact age of the victim: 15 or 17?",
+    "Exact crash location within Tongi?",
+    "What caused the road crash?",
+    "Were there any injuries besides the fatality?"
+  ],
+  "vehicles": []
+}

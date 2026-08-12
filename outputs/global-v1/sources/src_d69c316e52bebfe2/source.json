@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d6ab50f20f74a8b241ecccee82985f5a3a20ab63ec1f546d60d54b54ce0440da",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "g1.globo.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-27T07:00:00Z",
+  "publisher": "g1.globo.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_d69c316e52bebfe2",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-06-27T07:00:00+00:00",
+    "source_info_hash": "9807a93dac058fc3",
+    "source_info_path": "html/BRA/BRA-S008/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/06/27/homem-de-30-anos-e-morto-a-tiros-apos-acidente-de-transito-em-caraguatatuba.ghtml",
+  "timezone": "America/Sao_Paulo",
+  "title": "Homem de 30 anos é morto a tiros após acidente de trânsito em Caraguatatuba"
+}

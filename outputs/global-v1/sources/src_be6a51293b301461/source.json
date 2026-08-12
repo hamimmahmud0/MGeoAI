@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "89e179a4b6c4a79aa5e9a74f98d4519429c8bfb8dfe21aa4369bb0e463dd7c8c",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "impactonews.co",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-28T07:00:00Z",
+  "publisher": "impactonews.co",
+  "schema_version": "1.0.0",
+  "source_id": "src_be6a51293b301461",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-28T07:00:00+00:00",
+    "source_info_hash": "faed121b311ea5d0",
+    "source_info_path": "html/COL/COL-S008/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://impactonews.co/vans-que-habia-salido-de-barranquilla-hacia-magangue-sufrio-accidente-vial-en-sucre-hubo-tres-muertos/",
+  "timezone": "America/Bogota",
+  "title": "Vans que había salido de Barranquilla hacia Magangué sufrió accidente vial en Sucre: hubo tres muertos"
+}

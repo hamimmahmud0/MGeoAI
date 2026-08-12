@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "12f93392065a5b8891448b35e46fb946ccdba63765c2ff674658c42076882a02",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "los angeles times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-28T07:00:00Z",
+  "publisher": "Los Angeles Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_c600c59e1dae8c1a",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-28T07:00:00+00:00",
+    "source_info_hash": "80e83168f8df07b5",
+    "source_info_path": "html/USA/USA-S010/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.latimes.com/california/story/2026-07-28/one-person-dead-in-violent-car-crash-in-winnetka",
+  "timezone": "America/Chicago",
+  "title": "One person dead in violent car crash in Winnetka"
+}

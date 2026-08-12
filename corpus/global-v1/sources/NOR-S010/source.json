@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NOR-S010",
+  "country_code": "NOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Bergens Tidende",
+  "canonical_url": "https://www.bt.no/innenriks/i/l37o8M/en-person-omkom-i-trafikkulykke-i-krageroe-i-norge",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bt.no/innenriks/i/l37o8M/en-person-omkom-i-trafikkulykke-i-krageroe-i-norge",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NO%3Ano&gl=NO&hl=no-NO&q=%28trafikkulykke+OR+bilulykke+OR+kollisjon%29+Norge+omkom+OR+skadet+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6e1f99fa6c0cf9bad2125c442fe55a15518e653c8b05a777bd9285059ad7b804",
+      "size_bytes": 881,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "traffic_keywords": [
+    "trafikkulykke",
+    "bilulykke",
+    "kjøretøykollisjon",
+    "bussulykke"
+  ],
+  "timezone": "Europe/Oslo",
+  "captured_at": "2026-08-11T21:42:57.903913Z",
+  "published_at": "2024-03-24T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bt.no",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NOR-S010"
+}

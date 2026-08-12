@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6385b8497e7c868402d645f3f7bc339be977c9bc5ce56d8779bd5a387a70d6c2",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "gerasa news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar"
+  ],
+  "local_path": "html/JOR/JOR-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2013-03-16T06:00:00Z",
+  "publisher": "Gerasa News",
+  "schema_version": "1.0.0",
+  "source_id": "src_e7f72b54b4cbe36d",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar"
+    ],
+    "published_at": "2013-03-16T06:00:00+00:00",
+    "source_info_hash": "e6412475028dbd29",
+    "source_info_path": "html/JOR/JOR-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.gerasanews.com/article/102068",
+  "timezone": "Asia/Amman",
+  "title": "15 dead and 31 injured in Al-Adasiya pilgrim-bus and truck collision"
+}

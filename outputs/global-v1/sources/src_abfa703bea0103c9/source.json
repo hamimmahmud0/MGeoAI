@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "44fcebe96ec8b941e1f543051d597a625506f2466513c0b3b880ed1fc96e7989",
+  "country": "South Africa",
+  "country_code": "ZAF",
+  "dependency_group": "club of mozambique",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "local_path": "html/ZAF/ZAF-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-09T08:00:00Z",
+  "publisher": "CLUB OF MOZAMBIQUE",
+  "schema_version": "1.0.0",
+  "source_id": "src_abfa703bea0103c9",
+  "source_metadata": {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "languages": [
+      "en",
+      "zu",
+      "xh",
+      "af"
+    ],
+    "published_at": "2025-12-09T08:00:00+00:00",
+    "source_info_hash": "cf06dfef17fc4942",
+    "source_info_path": "html/ZAF/ZAF-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Johannesburg",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "taxi crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://clubofmozambique.com/news/south-africa-seven-killed-in-n12-crash-involving-mozambican-toyota-sedan-and-nissan-bakkie-near-ogies-mpumalanga/",
+  "timezone": "Africa/Johannesburg",
+  "title": "South Africa: Seven killed in N12 crash involving Mozambican Toyota sedan and Nissan bakkie near Ogies, Mpumalanga"
+}

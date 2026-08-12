@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8c7d87f4e829402a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8c7d87f4e829402a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Ghanaian Tourist Kills One in Thailand Road Accident",
+      "source_path": "html/THA/THA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ae39a960134c11",
+    "text": "Ghanaian Tourist Kills One in Thailand Road Accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0a7f3bf900159a9f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0a7f3bf900159a9f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-12-18T02:58:00+07:00",
+      "source_path": "html/THA/THA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ae39a960134c11",
+    "text": "2023-12-18T02:58:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_62cfd4087116fb67",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_62cfd4087116fb67",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Thailand recently extended the operating hours for nightclubs and entertainment venues in specific tourist areas. A Ghanaian tourist was arrested in Chiang Mai, Thailand, for ...",
+      "source_path": "html/THA/THA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ae39a960134c11",
+    "text": "Thailand recently extended the operating hours for nightclubs and entertainment venues in specific tourist areas. A Ghanaian tourist was arrested in Chiang Mai, Thailand, for ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2a9ae6a94dc0c088",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2a9ae6a94dc0c088",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: eturbonews",
+      "source_path": "html/THA/THA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ae39a960134c11",
+    "text": "Publisher: eturbonews",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8a129481cd41dd74",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8a129481cd41dd74",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://eturbonews.com/ghanaian-tourist-kills-one-thailand-road-accident/",
+      "source_path": "html/THA/THA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ae39a960134c11",
+    "text": "Original source: https://eturbonews.com/ghanaian-tourist-kills-one-thailand-road-accident/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_80f16f213e136a68",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_80f16f213e136a68",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/THA/THA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ae39a960134c11",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e2a91f7fed83b36",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3e2a91f7fed83b36",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://eturbonews.com/ghanaian-tourist-kills-one-thailand-road-accident/",
+      "source_path": "html/THA/THA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_94ae39a960134c11",
+    "text": "https://eturbonews.com/ghanaian-tourist-kills-one-thailand-road-accident/",
+    "url": null
+  }
+]

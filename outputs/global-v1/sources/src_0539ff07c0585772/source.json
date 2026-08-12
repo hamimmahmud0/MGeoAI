@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "aec5df6bfb7b604f27822a820359b84558069c32da72d2fbd3e0c3b347dc1aeb",
+  "country": "Canada",
+  "country_code": "CAN",
+  "dependency_group": "cp24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/CAN/CAN-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-05T10:34:36Z",
+  "publisher": "CP24",
+  "schema_version": "1.0.0",
+  "source_id": "src_0539ff07c0585772",
+  "source_metadata": {
+    "country": "Canada",
+    "country_code": "CAN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-05T10:34:36+00:00",
+    "source_info_hash": "86a718aa2ccab492",
+    "source_info_path": "html/CAN/CAN-S003/SOURCE_INFO.md",
+    "timezone": "America/Toronto",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "highway crash",
+      "accident de la route"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.cp24.com/news/canada/2026/08/05/2-teens-dead-1-in-hospital-after-car-crash-in-laval/",
+  "timezone": "America/Toronto",
+  "title": "2 teens dead, 1 in hospital after high-speed crash in Laval"
+}

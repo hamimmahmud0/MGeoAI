@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "LKA",
+  "name": "Sri Lanka",
+  "languages": [
+    "si",
+    "ta",
+    "en"
+  ],
+  "timezones": [
+    "Asia/Colombo"
+  ],
+  "target_sources": 12
+}

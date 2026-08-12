@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ee19082ab9eb3201",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ee19082ab9eb3201",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Man (20s) dies and woman seriously injured following road crash in Co Donegal",
+      "source_path": "html/IRL/IRL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e24546f5005bfcee",
+    "text": "Man (20s) dies and woman seriously injured following road crash in Co Donegal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cc6cca14c65de029",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cc6cca14c65de029",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-02T22:35:00+01:00",
+      "source_path": "html/IRL/IRL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e24546f5005bfcee",
+    "text": "2026-08-02T22:35:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e008637853234a9e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e008637853234a9e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Irish Independent",
+      "source_path": "html/IRL/IRL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e24546f5005bfcee",
+    "text": "Publisher: Irish Independent",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e326cdf7fa7af2c3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e326cdf7fa7af2c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.independent.ie/irish-news/man-20s-dies-and-woman-seriously-injured-following-road-crash-in-co-donegal/a/159523450.html",
+      "source_path": "html/IRL/IRL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e24546f5005bfcee",
+    "text": "Original source: https://www.independent.ie/irish-news/man-20s-dies-and-woman-seriously-injured-following-road-crash-in-co-donegal/a/159523450.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7154ad1603cfc5b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a7154ad1603cfc5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e24546f5005bfcee",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_70f993e30f8baadb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_70f993e30f8baadb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.independent.ie/irish-news/man-20s-dies-and-woman-seriously-injured-following-road-crash-in-co-donegal/a/159523450.html",
+      "source_path": "html/IRL/IRL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e24546f5005bfcee",
+    "text": "https://www.independent.ie/irish-news/man-20s-dies-and-woman-seriously-injured-following-road-crash-in-co-donegal/a/159523450.html",
+    "url": null
+  }
+]

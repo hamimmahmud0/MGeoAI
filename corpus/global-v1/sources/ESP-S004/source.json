@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ESP-S004",
+  "country_code": "ESP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "antena3.com",
+  "canonical_url": "https://www.antena3.com/noticias/sociedad/dos-muertos-colision-frontal-accidente-trafico-porrino-pontevedra_202607176a5a5b4fe9f2e84b5c6e66f0.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.antena3.com/noticias/sociedad/dos-muertos-colision-frontal-accidente-trafico-porrino-pontevedra_202607176a5a5b4fe9f2e84b5c6e66f0.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=ES%3Aes&gl=ES&hl=es&q=%28%22accidente+de+tr%C3%A1fico%22+OR+%22accidente+de+carretera%22+OR+%22choque+de+veh%C3%ADculos%22+OR+%22colisi%C3%B3n+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Espa%C3%B1a%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "7231143d9415879c6b3dead6125e51e349b6e744614933ed6b596c56b8b8750c",
+      "size_bytes": 1176,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tráfico",
+    "accidente de carretera",
+    "choque de vehículos",
+    "colisión vial"
+  ],
+  "timezone": "Europe/Madrid",
+  "captured_at": "2026-08-11T22:00:18Z",
+  "published_at": "2026-07-17T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "antena3.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ESP-S004"
+}

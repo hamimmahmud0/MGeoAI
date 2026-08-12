@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4cb993d9cd088668",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4cb993d9cd088668",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dos muertos por una colisión frontal en un accidente de tráfico en O Porriño, Pontevedra",
+      "source_path": "html/ESP/ESP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a3961a77464ece19",
+    "text": "Dos muertos por una colisión frontal en un accidente de tráfico en O Porriño, Pontevedra",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35a0697ca414b1ea",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_35a0697ca414b1ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-17T09:00:00+02:00",
+      "source_path": "html/ESP/ESP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a3961a77464ece19",
+    "text": "2026-07-17T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ce11b1d880d5e94e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ce11b1d880d5e94e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: antena3.com",
+      "source_path": "html/ESP/ESP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a3961a77464ece19",
+    "text": "Publisher: antena3.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e327752009ef038",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3e327752009ef038",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.antena3.com/noticias/sociedad/dos-muertos-colision-frontal-accidente-trafico-porrino-pontevedra_202607176a5a5b4fe9f2e84b5c6e66f0.html",
+      "source_path": "html/ESP/ESP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a3961a77464ece19",
+    "text": "Original source: https://www.antena3.com/noticias/sociedad/dos-muertos-colision-frontal-accidente-trafico-porrino-pontevedra_202607176a5a5b4fe9f2e84b5c6e66f0.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_81f9f72012bec73d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_81f9f72012bec73d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ESP/ESP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a3961a77464ece19",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a084de66c4744ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a084de66c4744ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.antena3.com/noticias/sociedad/dos-muertos-colision-frontal-accidente-trafico-porrino-pontevedra_202607176a5a5b4fe9f2e84b5c6e66f0.html",
+      "source_path": "html/ESP/ESP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a3961a77464ece19",
+    "text": "https://www.antena3.com/noticias/sociedad/dos-muertos-colision-frontal-accidente-trafico-porrino-pontevedra_202607176a5a5b4fe9f2e84b5c6e66f0.html",
+    "url": null
+  }
+]

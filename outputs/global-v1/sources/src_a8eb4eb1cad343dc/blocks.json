@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c91c1563803c711d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c91c1563803c711d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Head-on Bus Collision Nepal",
+      "source_path": "html/NPL/NPL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a8eb4eb1cad343dc",
+    "text": "Head-on Bus Collision Nepal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b29106a72ea88c1d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b29106a72ea88c1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-04-24T22:45:00+05:45",
+      "source_path": "html/NPL/NPL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a8eb4eb1cad343dc",
+    "text": "2022-04-24T22:45:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e776200081b2c37",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2e776200081b2c37",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two Indian couples were among five people killed after their car collided head-on with a bus in Nepal's Dhading district, the police said on Monday. ...",
+      "source_path": "html/NPL/NPL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a8eb4eb1cad343dc",
+    "text": "Two Indian couples were among five people killed after their car collided head-on with a bus in Nepal's Dhading district, the police said on Monday. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2005fffb447be277",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2005fffb447be277",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NDTV",
+      "source_path": "html/NPL/NPL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a8eb4eb1cad343dc",
+    "text": "Publisher: NDTV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4173e8895f19dddf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4173e8895f19dddf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ndtv.com/topic/head~on-bus-collision-nepal",
+      "source_path": "html/NPL/NPL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a8eb4eb1cad343dc",
+    "text": "Original source: https://www.ndtv.com/topic/head~on-bus-collision-nepal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_161fc62f57023b00",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_161fc62f57023b00",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a8eb4eb1cad343dc",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_72ffcc104ffdcfc4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_72ffcc104ffdcfc4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ndtv.com/topic/head~on-bus-collision-nepal",
+      "source_path": "html/NPL/NPL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a8eb4eb1cad343dc",
+    "text": "https://www.ndtv.com/topic/head~on-bus-collision-nepal",
+    "url": null
+  }
+]

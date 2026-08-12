@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ddde7640f2dec0d1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ddde7640f2dec0d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "3 dead in car collision near Mont-Tremblant",
+      "source_path": "html/CAN/CAN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2e32317e1a3a53b6",
+    "text": "3 dead in car collision near Mont-Tremblant",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c8bded7e218907b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2c8bded7e218907b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-17T03:00:00-04:00",
+      "source_path": "html/CAN/CAN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2e32317e1a3a53b6",
+    "text": "2026-07-17T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_43967fd789a44f45",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_43967fd789a44f45",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CTV News",
+      "source_path": "html/CAN/CAN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2e32317e1a3a53b6",
+    "text": "Publisher: CTV News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f3280f0012b6b8df",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f3280f0012b6b8df",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ctvnews.ca/montreal/article/3-dead-in-car-collision-near-mont-tremblant/",
+      "source_path": "html/CAN/CAN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2e32317e1a3a53b6",
+    "text": "Original source: https://www.ctvnews.ca/montreal/article/3-dead-in-car-collision-near-mont-tremblant/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33f57665b4e0a023",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_33f57665b4e0a023",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2e32317e1a3a53b6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a2debf8ca8a7116e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a2debf8ca8a7116e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ctvnews.ca/montreal/article/3-dead-in-car-collision-near-mont-tremblant/",
+      "source_path": "html/CAN/CAN-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2e32317e1a3a53b6",
+    "text": "https://www.ctvnews.ca/montreal/article/3-dead-in-car-collision-near-mont-tremblant/",
+    "url": null
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "BRA",
+  "name": "Brazil",
+  "languages": [
+    "pt"
+  ],
+  "timezones": [
+    "America/Sao_Paulo"
+  ],
+  "target_sources": 12
+}

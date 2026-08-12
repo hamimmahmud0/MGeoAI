@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e5af4c6cad03e739",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e5af4c6cad03e739",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Malaysia bus crash kills at least 15, mostly university students",
+      "source_path": "html/MYS/MYS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e857c8bd14591646",
+    "text": "Malaysia bus crash kills at least 15, mostly university students",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5ec195910d67eba5",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5ec195910d67eba5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-09T07:45:00+08:00",
+      "source_path": "html/MYS/MYS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e857c8bd14591646",
+    "text": "2025-06-09T07:45:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3aeae368ceb61d8a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3aeae368ceb61d8a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus carrying university students back to their campus smashed into a minivan in northern Malaysia on Monday (June 9, 2025), killing at least 15 ...",
+      "source_path": "html/MYS/MYS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e857c8bd14591646",
+    "text": "A bus carrying university students back to their campus smashed into a minivan in northern Malaysia on Monday (June 9, 2025), killing at least 15 ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5529d8f5f0ee880c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5529d8f5f0ee880c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Hindu",
+      "source_path": "html/MYS/MYS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e857c8bd14591646",
+    "text": "Publisher: The Hindu",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2157516f87c4cfa3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2157516f87c4cfa3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thehindu.com/news/international/malaysia-bus-crash-kills-at-least-15-mostly-university-students/article69673814.ece",
+      "source_path": "html/MYS/MYS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e857c8bd14591646",
+    "text": "Original source: https://www.thehindu.com/news/international/malaysia-bus-crash-kills-at-least-15-mostly-university-students/article69673814.ece",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_15ad283011f9c384",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_15ad283011f9c384",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e857c8bd14591646",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e3ad7b2f6dc117ff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e3ad7b2f6dc117ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thehindu.com/news/international/malaysia-bus-crash-kills-at-least-15-mostly-university-students/article69673814.ece",
+      "source_path": "html/MYS/MYS-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e857c8bd14591646",
+    "text": "https://www.thehindu.com/news/international/malaysia-bus-crash-kills-at-least-15-mostly-university-students/article69673814.ece",
+    "url": null
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "GHA-S010",
+  "country_code": "GHA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Ghana News Agency",
+  "canonical_url": "https://gna.org.gh/2025/12/two-killed-several-injured-in-head-on-crash-at-hosita/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://gna.org.gh/2025/12/two-killed-several-injured-in-head-on-crash-at-hosita/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=GH%3Aen&gl=GH&hl=en-GH&q=%28road+crash+OR+traffic+accident+OR+collision%29+Ghana+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4c54e637c11ad73689bc04d8b5c26b1d9ada19ed7f8e48ab03f2389bb4b87b68",
+      "size_bytes": 959,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "vehicle crash"
+  ],
+  "timezone": "Africa/Accra",
+  "captured_at": "2026-08-11T21:51:32.732472Z",
+  "published_at": "2025-12-18T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "gna.org.gh",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-GHA-S010"
+}

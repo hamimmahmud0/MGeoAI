@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1d93514ac210c75a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1d93514ac210c75a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Caos en Usme: furgón sin frenos causó grave accidente de tránsito",
+      "source_path": "html/COL/COL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d009a9f813e38689",
+    "text": "Caos en Usme: furgón sin frenos causó grave accidente de tránsito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_82462f8bed6f1725",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_82462f8bed6f1725",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-12T02:00:00-05:00",
+      "source_path": "html/COL/COL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d009a9f813e38689",
+    "text": "2026-06-12T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dbb86accd2c2dbb6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dbb86accd2c2dbb6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: eltiempo.com",
+      "source_path": "html/COL/COL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d009a9f813e38689",
+    "text": "Publisher: eltiempo.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f69995bc61db633c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f69995bc61db633c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.eltiempo.com/videos-eltiempo/caos-en-usme-furgon-sin-frenos-causo-grave-accidente-de-transito-3563994",
+      "source_path": "html/COL/COL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d009a9f813e38689",
+    "text": "Original source: https://www.eltiempo.com/videos-eltiempo/caos-en-usme-furgon-sin-frenos-causo-grave-accidente-de-transito-3563994",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0d61e3239a26c02c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0d61e3239a26c02c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d009a9f813e38689",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17ca0ddcacc80db6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17ca0ddcacc80db6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.eltiempo.com/videos-eltiempo/caos-en-usme-furgon-sin-frenos-causo-grave-accidente-de-transito-3563994",
+      "source_path": "html/COL/COL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d009a9f813e38689",
+    "text": "https://www.eltiempo.com/videos-eltiempo/caos-en-usme-furgon-sin-frenos-causo-grave-accidente-de-transito-3563994",
+    "url": null
+  }
+]

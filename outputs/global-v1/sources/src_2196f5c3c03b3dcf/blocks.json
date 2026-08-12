@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e9ec59befbc31310",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e9ec59befbc31310",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One dead as Auckland highways crashes cause traffic chaos",
+      "source_path": "html/NZL/NZL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2196f5c3c03b3dcf",
+    "text": "One dead as Auckland highways crashes cause traffic chaos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c4adf55b874e759e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c4adf55b874e759e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-05-06T12:04:00+12:00",
+      "source_path": "html/NZL/NZL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2196f5c3c03b3dcf",
+    "text": "2025-05-06T12:04:00+12:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_946474bf4bd79656",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_946474bf4bd79656",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A person is dead in an early morning crash on Auckland’s Southwestern Motorway. Auckland commuters have faced a chaotic morning after two motorways leading into ...",
+      "source_path": "html/NZL/NZL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2196f5c3c03b3dcf",
+    "text": "A person is dead in an early morning crash on Auckland’s Southwestern Motorway. Auckland commuters have faced a chaotic morning after two motorways leading into ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a169af7995f666ad",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a169af7995f666ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Newstalk ZB",
+      "source_path": "html/NZL/NZL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2196f5c3c03b3dcf",
+    "text": "Publisher: Newstalk ZB",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a1ef1145f945acc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3a1ef1145f945acc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.newstalkzb.co.nz/news/national/auckland-traffic-chaos-separate-crashes-block-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/",
+      "source_path": "html/NZL/NZL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2196f5c3c03b3dcf",
+    "text": "Original source: https://www.newstalkzb.co.nz/news/national/auckland-traffic-chaos-separate-crashes-block-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_397a0fbde9281d0a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_397a0fbde9281d0a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NZL/NZL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2196f5c3c03b3dcf",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f0bbda5f7640d80",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f0bbda5f7640d80",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.newstalkzb.co.nz/news/national/auckland-traffic-chaos-separate-crashes-block-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/",
+      "source_path": "html/NZL/NZL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2196f5c3c03b3dcf",
+    "text": "https://www.newstalkzb.co.nz/news/national/auckland-traffic-chaos-separate-crashes-block-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/",
+    "url": null
+  }
+]

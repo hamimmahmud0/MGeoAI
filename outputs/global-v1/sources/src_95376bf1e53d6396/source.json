@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4cea115ddc8c2f36b81ceb793d750a4d81c94a6e483ff03eca4648a20181e55e",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "dawan africa",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-24T07:00:00Z",
+  "publisher": "Dawan Africa",
+  "schema_version": "1.0.0",
+  "source_id": "src_95376bf1e53d6396",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-06-24T07:00:00+00:00",
+    "source_info_hash": "9bc41e7b9326fc84",
+    "source_info_path": "html/KEN/KEN-S006/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dawan.africa/news/one-killed-in-mwingi-highway-crash-involving-ambasa-coach-bus",
+  "timezone": "Africa/Nairobi",
+  "title": "One Killed in Mwingi Highway Crash Involving Ambasa Coach Bus"
+}

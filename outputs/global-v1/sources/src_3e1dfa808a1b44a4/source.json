@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a6dfc60ecb975a31c01f5ee6a06d9751fd3456a7a02f2507891bde4e9fafe32e",
+  "country": "Indonesia",
+  "country_code": "IDN",
+  "dependency_group": "anadolu ajansi",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IDN/IDN-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-04-08T03:46:00Z",
+  "publisher": "Anadolu Ajansi",
+  "schema_version": "1.0.0",
+  "source_id": "src_3e1dfa808a1b44a4",
+  "source_metadata": {
+    "country": "Indonesia",
+    "country_code": "IDN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-04-08T03:46:00+00:00",
+    "source_info_hash": "9070186c7e120150",
+    "source_info_path": "html/IDN/IDN-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Jakarta",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kecelakaan lalu lintas",
+      "tabrakan kendaraan",
+      "kecelakaan bus",
+      "kecelakaan jalan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aa.com.tr/en/asia-pacific/12-killed-in-indonesia-highway-accident/3186166",
+  "timezone": "Asia/Jakarta",
+  "title": "12 killed in Indonesia highway accident"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ff977bddfbec67c7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ff977bddfbec67c7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Uganda halts school trips as bus crash kills 20 kids",
+      "source_path": "html/UGA/UGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c01cb0497d6b0cb4",
+    "text": "Uganda halts school trips as bus crash kills 20 kids",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b922c98a63c2de9b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b922c98a63c2de9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-17T11:09:00+03:00",
+      "source_path": "html/UGA/UGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c01cb0497d6b0cb4",
+    "text": "2026-07-17T11:09:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_155eb61014e2fae3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_155eb61014e2fae3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Add Yahoo as a preferred source to see more of our stories on Google. Ugandan police published an image appearing to show the overturned vehicle ...",
+      "source_path": "html/UGA/UGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c01cb0497d6b0cb4",
+    "text": "Add Yahoo as a preferred source to see more of our stories on Google. Ugandan police published an image appearing to show the overturned vehicle ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_167f2db27423e6c0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_167f2db27423e6c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yahoo News UK",
+      "source_path": "html/UGA/UGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c01cb0497d6b0cb4",
+    "text": "Publisher: Yahoo News UK",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2953403cea5060cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2953403cea5060cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://uk.news.yahoo.com/uganda-halts-school-trips-bus-150900306.html",
+      "source_path": "html/UGA/UGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c01cb0497d6b0cb4",
+    "text": "Original source: https://uk.news.yahoo.com/uganda-halts-school-trips-bus-150900306.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cfbb578fde521830",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cfbb578fde521830",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c01cb0497d6b0cb4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_23f7ce0b3411d03d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_23f7ce0b3411d03d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://uk.news.yahoo.com/uganda-halts-school-trips-bus-150900306.html",
+      "source_path": "html/UGA/UGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c01cb0497d6b0cb4",
+    "text": "https://uk.news.yahoo.com/uganda-halts-school-trips-bus-150900306.html",
+    "url": null
+  }
+]

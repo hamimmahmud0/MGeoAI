@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MAR-S010",
+  "country_code": "MAR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Mirror",
+  "canonical_url": "https://www.mirror.co.uk/news/world-news/breaking-two-brit-tourists-dead-35171166",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.mirror.co.uk/news/world-news/breaking-two-brit-tourists-dead-35171166",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Morocco%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "404c9b9eb6e9310e7a6071142f8fec85c592b6fb1c98349df09a9d07067db0df",
+      "size_bytes": 1043,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "تصادم مركبات",
+    "accident de la route",
+    "collision routière"
+  ],
+  "timezone": "Africa/Casablanca",
+  "captured_at": "2026-08-11T21:56:33.263756Z",
+  "published_at": "2025-05-05T04:43:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "mirror.co.uk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MAR-S010"
+}

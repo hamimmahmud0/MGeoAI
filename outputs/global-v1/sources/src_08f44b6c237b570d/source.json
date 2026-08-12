@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2383ffd4bf8ed6bda8952e69a9ebabd5eb657928c4927ef99349d68cdd0fad0c",
+  "country": "New Zealand",
+  "country_code": "NZL",
+  "dependency_group": "newstalk zb",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NZL/NZL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-31T02:12:00Z",
+  "publisher": "Newstalk ZB",
+  "schema_version": "1.0.0",
+  "source_id": "src_08f44b6c237b570d",
+  "source_metadata": {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-31T02:12:00+00:00",
+    "source_info_hash": "0138019d4b9ccfd4",
+    "source_info_path": "html/NZL/NZL-S003/SOURCE_INFO.md",
+    "timezone": "Pacific/Auckland",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "state highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.newstalkzb.co.nz/news/auckland/crash-on-panmure-s-lagoon-drive-causes-major-delays-one-critically-injured/",
+  "timezone": "Pacific/Auckland",
+  "title": "Person critically hurt in Auckland crash, warning to commuters about major delays"
+}

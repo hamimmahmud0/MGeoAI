@@ -1,0 +1,82 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6c97d3151c03cbac",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6c97d3151c03cbac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Vier Verletzte bei Verkehrsunfall",
+      "source_path": "html/DEU/DEU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_559841626e90a8b3",
+    "text": "Vier Verletzte bei Verkehrsunfall",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c744ee03fa6792f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3c744ee03fa6792f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-16T09:00:00+02:00",
+      "source_path": "html/DEU/DEU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_559841626e90a8b3",
+    "text": "2026-05-16T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2164c072dfc7d3c4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2164c072dfc7d3c4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: kaernten.ORF.at",
+      "source_path": "html/DEU/DEU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_559841626e90a8b3",
+    "text": "Publisher: kaernten.ORF.at",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_94b7d42fb6b77c63",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_94b7d42fb6b77c63",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://kaernten.orf.at/stories/3354458/",
+      "source_path": "html/DEU/DEU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_559841626e90a8b3",
+    "text": "Original source: https://kaernten.orf.at/stories/3354458/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cb0bdb306d5c2b48",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cb0bdb306d5c2b48",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_559841626e90a8b3",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

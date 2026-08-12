@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6b62bba02d24b0485cd375b9217fb65231b79893831f6535ae9d26d289f39b30",
+  "country": "Canada",
+  "country_code": "CAN",
+  "dependency_group": "ctv news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/CAN/CAN-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-17T07:00:00Z",
+  "publisher": "CTV News",
+  "schema_version": "1.0.0",
+  "source_id": "src_2e32317e1a3a53b6",
+  "source_metadata": {
+    "country": "Canada",
+    "country_code": "CAN",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-17T07:00:00+00:00",
+    "source_info_hash": "08358af7866b7b8e",
+    "source_info_path": "html/CAN/CAN-S004/SOURCE_INFO.md",
+    "timezone": "America/Toronto",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "highway crash",
+      "accident de la route"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ctvnews.ca/montreal/article/3-dead-in-car-collision-near-mont-tremblant/",
+  "timezone": "America/Toronto",
+  "title": "3 dead in car collision near Mont-Tremblant"
+}

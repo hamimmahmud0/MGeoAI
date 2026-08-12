@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CRI-S008",
+  "country_code": "CRI",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "La Teja",
+  "canonical_url": "https://www.lateja.cr/sucesos/tragico-accidente-de-transito-termino-con-incendio/KFG6PD5VVBFZTD565BX4PCLS6M/story/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.lateja.cr/sucesos/tragico-accidente-de-transito-termino-con-incendio/KFG6PD5VVBFZTD565BX4PCLS6M/story/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CR%3Aes-419&gl=CR&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22accidente+vial%22+OR+%22colisi%C3%B3n+en+carretera%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Costa+Rica%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "f54a2bb61b1a7e30dae48f38671712c884667d6d74b4bb1eb99c4d69cf2c5bdd",
+      "size_bytes": 1049,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "accidente vial",
+    "colisión en carretera"
+  ],
+  "timezone": "America/Costa_Rica",
+  "captured_at": "2026-08-11T21:57:53Z",
+  "published_at": "2026-05-17T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "lateja.cr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CRI-S008"
+}

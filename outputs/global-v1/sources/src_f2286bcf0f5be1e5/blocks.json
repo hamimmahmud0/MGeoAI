@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_068bacb39d1d43d6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_068bacb39d1d43d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "”Paradise hotel”-profil skadad i allvarlig trafikolycka",
+      "source_path": "html/SWE/SWE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2286bcf0f5be1e5",
+    "text": "”Paradise hotel”-profil skadad i allvarlig trafikolycka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0cacebb4ed4f3115",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0cacebb4ed4f3115",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-24T09:00:00+01:00",
+      "source_path": "html/SWE/SWE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2286bcf0f5be1e5",
+    "text": "2026-02-24T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3f87625ac45e774b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3f87625ac45e774b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Neo Katz skulle egentligen varit på plats på en pressträff för den kommande säsongen av ”Paradise hotel” i Stockholm i dag.",
+      "source_path": "html/SWE/SWE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2286bcf0f5be1e5",
+    "text": "Neo Katz skulle egentligen varit på plats på en pressträff för den kommande säsongen av ”Paradise hotel” i Stockholm i dag.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d7016b9a13b300c0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d7016b9a13b300c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Aftonbladet",
+      "source_path": "html/SWE/SWE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2286bcf0f5be1e5",
+    "text": "Publisher: Aftonbladet",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_af51acdd9ea53ea8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_af51acdd9ea53ea8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aftonbladet.se/nojesbladet/a/43o1Eg/neo-katz-i-paradise-hotel-skadad-i-trafikolycka-i-thailand",
+      "source_path": "html/SWE/SWE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2286bcf0f5be1e5",
+    "text": "Original source: https://www.aftonbladet.se/nojesbladet/a/43o1Eg/neo-katz-i-paradise-hotel-skadad-i-trafikolycka-i-thailand",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e8c173c0ce28eb3b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e8c173c0ce28eb3b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SWE/SWE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2286bcf0f5be1e5",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf8fe063747395b9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bf8fe063747395b9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aftonbladet.se/nojesbladet/a/43o1Eg/neo-katz-i-paradise-hotel-skadad-i-trafikolycka-i-thailand",
+      "source_path": "html/SWE/SWE-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f2286bcf0f5be1e5",
+    "text": "https://www.aftonbladet.se/nojesbladet/a/43o1Eg/neo-katz-i-paradise-hotel-skadad-i-trafikolycka-i-thailand",
+    "url": null
+  }
+]

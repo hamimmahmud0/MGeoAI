@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "TUR",
+  "name": "Turkey",
+  "languages": [
+    "tr"
+  ],
+  "timezones": [
+    "Europe/Istanbul"
+  ],
+  "target_sources": 12
+}

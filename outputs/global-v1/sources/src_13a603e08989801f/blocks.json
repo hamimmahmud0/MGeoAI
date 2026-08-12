@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5c0bbc52c689485d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5c0bbc52c689485d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Papa Leão XIV homenageia jovens mortos em acidente de ônibus em Tauá (CE)",
+      "source_path": "html/BRA/BRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_13a603e08989801f",
+    "text": "Papa Leão XIV homenageia jovens mortos em acidente de ônibus em Tauá (CE)",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bb855c243916ba95",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_bb855c243916ba95",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-22T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_13a603e08989801f",
+    "text": "2026-06-22T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_92b4ec00cb7583bd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_92b4ec00cb7583bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: blogdosilvalima.com.br",
+      "source_path": "html/BRA/BRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_13a603e08989801f",
+    "text": "Publisher: blogdosilvalima.com.br",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_80694f67e90e430c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_80694f67e90e430c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://blogdosilvalima.com.br/papa-leao-xiv-homenageia-jovens-mortos-em-acidente-de-onibus-em-taua-ce/",
+      "source_path": "html/BRA/BRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_13a603e08989801f",
+    "text": "Original source: https://blogdosilvalima.com.br/papa-leao-xiv-homenageia-jovens-mortos-em-acidente-de-onibus-em-taua-ce/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3b7e13da9464840a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3b7e13da9464840a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_13a603e08989801f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6606de09955a5849",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6606de09955a5849",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://blogdosilvalima.com.br/papa-leao-xiv-homenageia-jovens-mortos-em-acidente-de-onibus-em-taua-ce/",
+      "source_path": "html/BRA/BRA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_13a603e08989801f",
+    "text": "https://blogdosilvalima.com.br/papa-leao-xiv-homenageia-jovens-mortos-em-acidente-de-onibus-em-taua-ce/",
+    "url": null
+  }
+]

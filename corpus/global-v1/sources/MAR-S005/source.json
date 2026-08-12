@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MAR-S005",
+  "country_code": "MAR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/194994/morocco-bus-crash-kills-17",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/194994/morocco-bus-crash-kills-17",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Morocco%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0b0e8f3cc226f116391b9528b206abb4d24f9953d4f5115bda543d485c8c8677",
+      "size_bytes": 875,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "تصادم مركبات",
+    "accident de la route",
+    "collision routière"
+  ],
+  "timezone": "Africa/Casablanca",
+  "captured_at": "2026-08-11T21:56:33.263756Z",
+  "published_at": "2019-12-02T12:09:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MAR-S005"
+}

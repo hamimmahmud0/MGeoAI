@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_44d7485fee6c6c6e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_44d7485fee6c6c6e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "36 dead in India bus crash",
+      "source_path": "html/IND/IND-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6a9cd6e8cbab175c",
+    "text": "36 dead in India bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b5a7d8071fd27fc3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b5a7d8071fd27fc3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-11-04T17:09:00+05:30",
+      "source_path": "html/IND/IND-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6a9cd6e8cbab175c",
+    "text": "2024-11-04T17:09:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c6a783eabe475380",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c6a783eabe475380",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus in India plunged into a deep Himalayan ravine yesterday, killing at least 36 passengers and injuring several others, a government official said yesterday. ...",
+      "source_path": "html/IND/IND-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6a9cd6e8cbab175c",
+    "text": "A bus in India plunged into a deep Himalayan ravine yesterday, killing at least 36 passengers and injuring several others, a government official said yesterday. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_134a51cabad0fd15",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_134a51cabad0fd15",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Daily Star",
+      "source_path": "html/IND/IND-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6a9cd6e8cbab175c",
+    "text": "Publisher: The Daily Star",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bffd319acb8d9ef7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bffd319acb8d9ef7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.thedailystar.net/news/asia/india/news/36-dead-india-bus-crash-3744391",
+      "source_path": "html/IND/IND-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6a9cd6e8cbab175c",
+    "text": "Original source: https://www.thedailystar.net/news/asia/india/news/36-dead-india-bus-crash-3744391",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5314c32ce4c8057a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5314c32ce4c8057a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6a9cd6e8cbab175c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_173c1ce489e81ea5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_173c1ce489e81ea5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.thedailystar.net/news/asia/india/news/36-dead-india-bus-crash-3744391",
+      "source_path": "html/IND/IND-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6a9cd6e8cbab175c",
+    "text": "https://www.thedailystar.net/news/asia/india/news/36-dead-india-bus-crash-3744391",
+    "url": null
+  }
+]

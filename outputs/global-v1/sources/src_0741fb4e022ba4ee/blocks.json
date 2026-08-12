@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ba60c354104af5ba",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ba60c354104af5ba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Driverless car travelled 300m after four-vehicle crash on Auckland’s Southern Motorway, witness says",
+      "source_path": "html/NZL/NZL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0741fb4e022ba4ee",
+    "text": "Driverless car travelled 300m after four-vehicle crash on Auckland’s Southern Motorway, witness says",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cbbcf4d16804ffc1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cbbcf4d16804ffc1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T05:22:00+12:00",
+      "source_path": "html/NZL/NZL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0741fb4e022ba4ee",
+    "text": "2026-08-11T05:22:00+12:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e3e8332a0eb82f0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0e3e8332a0eb82f0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A car involved in a four-vehicle crash on Auckland’s Southern Motorway continued for a few hundred metres minus its driver, before a passing motorist jumped ...",
+      "source_path": "html/NZL/NZL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0741fb4e022ba4ee",
+    "text": "A car involved in a four-vehicle crash on Auckland’s Southern Motorway continued for a few hundred metres minus its driver, before a passing motorist jumped ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_008944c4dd5123bd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_008944c4dd5123bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NZ Herald",
+      "source_path": "html/NZL/NZL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0741fb4e022ba4ee",
+    "text": "Publisher: NZ Herald",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f064d7fafdf346b1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f064d7fafdf346b1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.nzherald.co.nz/nz/auckland/driverless-car-travelled-300m-after-four-vehicle-crash-on-auckland-southern-motorway-witness-says/EKWEAZUYS5HT5N64VXSJWYKYTI/",
+      "source_path": "html/NZL/NZL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0741fb4e022ba4ee",
+    "text": "Original source: https://www.nzherald.co.nz/nz/auckland/driverless-car-travelled-300m-after-four-vehicle-crash-on-auckland-southern-motorway-witness-says/EKWEAZUYS5HT5N64VXSJWYKYTI/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc4b2d451d14f4ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc4b2d451d14f4ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NZL/NZL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0741fb4e022ba4ee",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a46e768848d1f697",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a46e768848d1f697",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.nzherald.co.nz/nz/auckland/driverless-car-travelled-300m-after-four-vehicle-crash-on-auckland-southern-motorway-witness-says/EKWEAZUYS5HT5N64VXSJWYKYTI/",
+      "source_path": "html/NZL/NZL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0741fb4e022ba4ee",
+    "text": "https://www.nzherald.co.nz/nz/auckland/driverless-car-travelled-300m-after-four-vehicle-crash-on-auckland-southern-motorway-witness-says/EKWEAZUYS5HT5N64VXSJWYKYTI/",
+    "url": null
+  }
+]

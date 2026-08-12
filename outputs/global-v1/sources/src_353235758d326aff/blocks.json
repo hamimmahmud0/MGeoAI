@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9e719b8dfd77eb8d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9e719b8dfd77eb8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "66 dead after road accident in Ethiopia",
+      "source_path": "html/ETH/ETH-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_353235758d326aff",
+    "text": "66 dead after road accident in Ethiopia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9e5aad1921e2d7e9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9e5aad1921e2d7e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-29T17:34:00+03:00",
+      "source_path": "html/ETH/ETH-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_353235758d326aff",
+    "text": "2024-12-29T17:34:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_328792770d2b7765",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_328792770d2b7765",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "More than 60 people have died after a road accident in southern Ethiopia, the local health authority said today. Sidama state is in the south ...",
+      "source_path": "html/ETH/ETH-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_353235758d326aff",
+    "text": "More than 60 people have died after a road accident in southern Ethiopia, the local health authority said today. Sidama state is in the south ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_73d88c6e080bcd1a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_73d88c6e080bcd1a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Free Malaysia Today",
+      "source_path": "html/ETH/ETH-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_353235758d326aff",
+    "text": "Publisher: Free Malaysia Today",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ad2bc944d649e034",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ad2bc944d649e034",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.freemalaysiatoday.com/category/world/2024/12/30/66-dead-after-road-accident-in-ethiopia",
+      "source_path": "html/ETH/ETH-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_353235758d326aff",
+    "text": "Original source: https://www.freemalaysiatoday.com/category/world/2024/12/30/66-dead-after-road-accident-in-ethiopia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_60594df69cf6d7fe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_60594df69cf6d7fe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_353235758d326aff",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fb2bfa28d528658",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0fb2bfa28d528658",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.freemalaysiatoday.com/category/world/2024/12/30/66-dead-after-road-accident-in-ethiopia",
+      "source_path": "html/ETH/ETH-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_353235758d326aff",
+    "text": "https://www.freemalaysiatoday.com/category/world/2024/12/30/66-dead-after-road-accident-in-ethiopia",
+    "url": null
+  }
+]

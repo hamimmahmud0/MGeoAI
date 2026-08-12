@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IDN-S002",
+  "country_code": "IDN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Philippine Daily Inquirer",
+  "canonical_url": "https://globalnation.inquirer.net/303133/indonesia-bus-crash-kills-16-rescuer-says",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://globalnation.inquirer.net/303133/indonesia-bus-crash-kills-16-rescuer-says",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Indonesia%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "633451720507771e808b37fbce6cbe63b1bdd8f0be60bbd192893ac2f90da8a9",
+      "size_bytes": 980,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kecelakaan lalu lintas",
+    "tabrakan kendaraan",
+    "kecelakaan bus",
+    "kecelakaan jalan"
+  ],
+  "timezone": "Asia/Jakarta",
+  "captured_at": "2026-08-12T03:55:02.411428+06:00",
+  "published_at": "2025-12-22T05:32:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "globalnation.inquirer.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IDN-S002"
+}

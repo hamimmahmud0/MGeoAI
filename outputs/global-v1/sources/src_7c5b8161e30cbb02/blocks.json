@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_58a4b3dbfeb6d222",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_58a4b3dbfeb6d222",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Woman, 21, described as 'perfect in every way' after Australia crash death",
+      "source_path": "html/AUS/AUS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c5b8161e30cbb02",
+    "text": "Woman, 21, described as 'perfect in every way' after Australia crash death",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50a232af2941834c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_50a232af2941834c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-27T18:30:00+10:00",
+      "source_path": "html/AUS/AUS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c5b8161e30cbb02",
+    "text": "2026-05-27T18:30:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cdc8ed00244da530",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cdc8ed00244da530",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A 21-year-old woman, who died in a car crash in Australia, has been described by her partner as \"the most beautiful lady\" and \"perfect in ...",
+      "source_path": "html/AUS/AUS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c5b8161e30cbb02",
+    "text": "A 21-year-old woman, who died in a car crash in Australia, has been described by her partner as \"the most beautiful lady\" and \"perfect in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57ecc507594718c9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_57ecc507594718c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: BBC",
+      "source_path": "html/AUS/AUS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c5b8161e30cbb02",
+    "text": "Publisher: BBC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_172c850f02806310",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_172c850f02806310",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bbc.co.uk/news/articles/c5yeexndmjpo",
+      "source_path": "html/AUS/AUS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c5b8161e30cbb02",
+    "text": "Original source: https://www.bbc.co.uk/news/articles/c5yeexndmjpo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_769cb6e0c4d87ace",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_769cb6e0c4d87ace",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c5b8161e30cbb02",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bcf5842d0bde3d00",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bcf5842d0bde3d00",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bbc.co.uk/news/articles/c5yeexndmjpo",
+      "source_path": "html/AUS/AUS-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7c5b8161e30cbb02",
+    "text": "https://www.bbc.co.uk/news/articles/c5yeexndmjpo",
+    "url": null
+  }
+]

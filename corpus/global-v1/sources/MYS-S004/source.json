@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MYS-S004",
+  "country_code": "MYS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Asia One",
+  "canonical_url": "https://www.asiaone.com/singapore/singapore-motorcyclist-dies-after-collision-car-malaysia",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.asiaone.com/singapore/singapore-motorcyclist-dies-after-collision-car-malaysia",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Malaysia%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "64d1f147aab7df73a5e5ff68265a591c611a1a0953a679bc838fd8ceb7dbaeaa",
+      "size_bytes": 1030,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kemalangan jalan raya",
+    "nahas jalan raya",
+    "kemalangan bas",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kuala_Lumpur",
+  "captured_at": "2026-08-12T03:55:02.413065+06:00",
+  "published_at": "2024-06-08T20:37:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "asiaone.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MYS-S004"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3dc8d7e93ce78009",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3dc8d7e93ce78009",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fatal accidente en la vía Moquegua–Arequipa deja tres muertos y 13 heridos",
+      "source_path": "html/PER/PER-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9663b16dc483873",
+    "text": "Fatal accidente en la vía Moquegua–Arequipa deja tres muertos y 13 heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8ea03ed725fcb05",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f8ea03ed725fcb05",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-30T02:00:00-05:00",
+      "source_path": "html/PER/PER-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9663b16dc483873",
+    "text": "2026-06-30T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee24e1de37c2ada6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee24e1de37c2ada6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Búho.pe",
+      "source_path": "html/PER/PER-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9663b16dc483873",
+    "text": "Publisher: El Búho.pe",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2046e0d61e8fd090",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2046e0d61e8fd090",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://elbuho.pe/2026/06/fatal-accidente-en-la-via-moquegua-arequipa-deja-tres-muertos-y-13-heridos/",
+      "source_path": "html/PER/PER-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9663b16dc483873",
+    "text": "Original source: https://elbuho.pe/2026/06/fatal-accidente-en-la-via-moquegua-arequipa-deja-tres-muertos-y-13-heridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed78392c3b737dff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ed78392c3b737dff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9663b16dc483873",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e985c032a8504afd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e985c032a8504afd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://elbuho.pe/2026/06/fatal-accidente-en-la-via-moquegua-arequipa-deja-tres-muertos-y-13-heridos/",
+      "source_path": "html/PER/PER-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9663b16dc483873",
+    "text": "https://elbuho.pe/2026/06/fatal-accidente-en-la-via-moquegua-arequipa-deja-tres-muertos-y-13-heridos/",
+    "url": null
+  }
+]

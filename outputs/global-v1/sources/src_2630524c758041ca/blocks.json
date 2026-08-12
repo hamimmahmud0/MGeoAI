@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_fc8aa990b2c76e2b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_fc8aa990b2c76e2b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "‘Godzilla vs. Kong’ child star dead at 18 following Maryland car crash",
+      "source_path": "html/USA/USA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2630524c758041ca",
+    "text": "‘Godzilla vs. Kong’ child star dead at 18 following Maryland car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c5491cc4a6e919c3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c5491cc4a6e919c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-21T02:00:00-05:00",
+      "source_path": "html/USA/USA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2630524c758041ca",
+    "text": "2026-07-21T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a2fd86c9dcf9fc7d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a2fd86c9dcf9fc7d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: KCRA",
+      "source_path": "html/USA/USA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2630524c758041ca",
+    "text": "Publisher: KCRA",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_00d7a8dc73a4f90f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_00d7a8dc73a4f90f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.kcra.com/article/kaylee-hottle-maryland-car-crash-dead-18/73209929",
+      "source_path": "html/USA/USA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2630524c758041ca",
+    "text": "Original source: https://www.kcra.com/article/kaylee-hottle-maryland-car-crash-dead-18/73209929",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f13952f87d0d9863",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f13952f87d0d9863",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2630524c758041ca",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d829485345bdf5b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8d829485345bdf5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.kcra.com/article/kaylee-hottle-maryland-car-crash-dead-18/73209929",
+      "source_path": "html/USA/USA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2630524c758041ca",
+    "text": "https://www.kcra.com/article/kaylee-hottle-maryland-car-crash-dead-18/73209929",
+    "url": null
+  }
+]

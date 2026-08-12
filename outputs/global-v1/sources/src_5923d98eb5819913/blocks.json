@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b5ad6ddcd6c28327",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b5ad6ddcd6c28327",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 28 killed in Ethiopia bus crash, regional media says",
+      "source_path": "html/ETH/ETH-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5923d98eb5819913",
+    "text": "At least 28 killed in Ethiopia bus crash, regional media says",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_276ef6851594fa1d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_276ef6851594fa1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-15T04:21:00+03:00",
+      "source_path": "html/ETH/ETH-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5923d98eb5819913",
+    "text": "2026-06-15T04:21:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_05c6c0ab875ab79b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_05c6c0ab875ab79b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Add Yahoo as a preferred source to see more of our stories on Google. NAIROBI, June 15 (Reuters) - At least 28 people were ‌killed ...",
+      "source_path": "html/ETH/ETH-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5923d98eb5819913",
+    "text": "Add Yahoo as a preferred source to see more of our stories on Google. NAIROBI, June 15 (Reuters) - At least 28 people were ‌killed ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dbe747cbb70d9e92",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dbe747cbb70d9e92",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yahoo",
+      "source_path": "html/ETH/ETH-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5923d98eb5819913",
+    "text": "Publisher: Yahoo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8e670ab116ab691f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8e670ab116ab691f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.yahoo.com/news/articles/least-28-killed-ethiopia-bus-082124492.html",
+      "source_path": "html/ETH/ETH-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5923d98eb5819913",
+    "text": "Original source: https://www.yahoo.com/news/articles/least-28-killed-ethiopia-bus-082124492.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b6b3b83599013262",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b6b3b83599013262",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ETH/ETH-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5923d98eb5819913",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f393eb2b445d0d16",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f393eb2b445d0d16",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.yahoo.com/news/articles/least-28-killed-ethiopia-bus-082124492.html",
+      "source_path": "html/ETH/ETH-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5923d98eb5819913",
+    "text": "https://www.yahoo.com/news/articles/least-28-killed-ethiopia-bus-082124492.html",
+    "url": null
+  }
+]

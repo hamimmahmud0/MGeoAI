@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f568aa57fccbb3fba1e209db3687d811c288cf4b67039b43365e13c71a82756d",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "abc30 fresno",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T20:22:18Z",
+  "publisher": "ABC30 Fresno",
+  "schema_version": "1.0.0",
+  "source_id": "src_7b1230ce22d70bdc",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-08T20:22:18+00:00",
+    "source_info_hash": "6296968a2ee9eff0",
+    "source_info_path": "html/USA/USA-S005/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://abc30.com/post/1-dead-2-hospitalized-single-car-crash-merced-county-chp-says/19648000/",
+  "timezone": "America/Chicago",
+  "title": "1 dead, 2 injured after single-car crash in Merced County, CHP says"
+}

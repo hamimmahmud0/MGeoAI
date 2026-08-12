@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0824c85b79df54d8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0824c85b79df54d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fatal accidente en la Ruta 68: choque entre camión y vehículo menor deja dos muertos y varios heridos",
+      "source_path": "html/CHL/CHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c3a0b914f97123d",
+    "text": "Fatal accidente en la Ruta 68: choque entre camión y vehículo menor deja dos muertos y varios heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3a3460773419379f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3a3460773419379f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T03:00:00-04:00",
+      "source_path": "html/CHL/CHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c3a0b914f97123d",
+    "text": "2026-08-03T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_417f945b042ac30e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_417f945b042ac30e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ADN Radio",
+      "source_path": "html/CHL/CHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c3a0b914f97123d",
+    "text": "Publisher: ADN Radio",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fa5828da00b23ade",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fa5828da00b23ade",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.adnradio.cl/2026/08/03/fatal-accidente-en-la-ruta-68-choque-entre-camion-y-vehiculo-menor-deja-dos-muertos-y-varios-heridos/",
+      "source_path": "html/CHL/CHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c3a0b914f97123d",
+    "text": "Original source: https://www.adnradio.cl/2026/08/03/fatal-accidente-en-la-ruta-68-choque-entre-camion-y-vehiculo-menor-deja-dos-muertos-y-varios-heridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a31b05c2b8d62d0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a31b05c2b8d62d0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c3a0b914f97123d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_87e1c819b78b7297",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_87e1c819b78b7297",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.adnradio.cl/2026/08/03/fatal-accidente-en-la-ruta-68-choque-entre-camion-y-vehiculo-menor-deja-dos-muertos-y-varios-heridos/",
+      "source_path": "html/CHL/CHL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3c3a0b914f97123d",
+    "text": "https://www.adnradio.cl/2026/08/03/fatal-accidente-en-la-ruta-68-choque-entre-camion-y-vehiculo-menor-deja-dos-muertos-y-varios-heridos/",
+    "url": null
+  }
+]

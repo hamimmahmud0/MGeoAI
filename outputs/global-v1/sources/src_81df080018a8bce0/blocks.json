@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0b79534dc55b6fef",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0b79534dc55b6fef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Violento accidente de tránsito en Lindora deja un hombre muerto y cinco personas heridas",
+      "source_path": "html/CRI/CRI-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_81df080018a8bce0",
+    "text": "Violento accidente de tránsito en Lindora deja un hombre muerto y cinco personas heridas",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6d5290a79d68d138",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6d5290a79d68d138",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-25T01:00:00-06:00",
+      "source_path": "html/CRI/CRI-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_81df080018a8bce0",
+    "text": "2026-07-25T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fa0edcf7f2120dda",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fa0edcf7f2120dda",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Teja",
+      "source_path": "html/CRI/CRI-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_81df080018a8bce0",
+    "text": "Publisher: La Teja",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5ce627fc1e2d87be",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5ce627fc1e2d87be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.lateja.cr/sucesos/violento-accidente-de-transito-en-lindora-deja-un/4AU6HMP3MNHVJMHTPK5K66EQLM/story/",
+      "source_path": "html/CRI/CRI-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_81df080018a8bce0",
+    "text": "Original source: https://www.lateja.cr/sucesos/violento-accidente-de-transito-en-lindora-deja-un/4AU6HMP3MNHVJMHTPK5K66EQLM/story/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b4e041c686ba6a72",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b4e041c686ba6a72",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_81df080018a8bce0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3cdecbb257a08871",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3cdecbb257a08871",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.lateja.cr/sucesos/violento-accidente-de-transito-en-lindora-deja-un/4AU6HMP3MNHVJMHTPK5K66EQLM/story/",
+      "source_path": "html/CRI/CRI-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_81df080018a8bce0",
+    "text": "https://www.lateja.cr/sucesos/violento-accidente-de-transito-en-lindora-deja-un/4AU6HMP3MNHVJMHTPK5K66EQLM/story/",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_74cb84c704db2774",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_74cb84c704db2774",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Śmiertelny wypadek pod Świeciem. Nie żyje kierowca osobówki [aktualizacja]",
+      "source_path": "html/POL/POL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e4ec160fe6cef271",
+    "text": "Śmiertelny wypadek pod Świeciem. Nie żyje kierowca osobówki [aktualizacja]",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_78a7b57960dd0f86",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_78a7b57960dd0f86",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-04T09:00:00+02:00",
+      "source_path": "html/POL/POL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e4ec160fe6cef271",
+    "text": "2026-05-04T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_816b727975468ac3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_816b727975468ac3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Do tragicznego w skutkach wypadku doszło w miejscowości Ostrowite, niedaleko Świecia.",
+      "source_path": "html/POL/POL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e4ec160fe6cef271",
+    "text": "Do tragicznego w skutkach wypadku doszło w miejscowości Ostrowite, niedaleko Świecia.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a69ff3aee95a970c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a69ff3aee95a970c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: radiopik.pl",
+      "source_path": "html/POL/POL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e4ec160fe6cef271",
+    "text": "Publisher: radiopik.pl",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f0711b8cb952bf6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f0711b8cb952bf6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.radiopik.pl/2,138440,smiertelny-wypadek-pod-swieciem-nie-zyje-kierowca-osobowki-aktualizacja",
+      "source_path": "html/POL/POL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e4ec160fe6cef271",
+    "text": "Original source: https://www.radiopik.pl/2,138440,smiertelny-wypadek-pod-swieciem-nie-zyje-kierowca-osobowki-aktualizacja",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8387d7fecbfd64b7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8387d7fecbfd64b7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e4ec160fe6cef271",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_974a5fcdbd27e924",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_974a5fcdbd27e924",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.radiopik.pl/2,138440,smiertelny-wypadek-pod-swieciem-nie-zyje-kierowca-osobowki-aktualizacja",
+      "source_path": "html/POL/POL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e4ec160fe6cef271",
+    "text": "https://www.radiopik.pl/2,138440,smiertelny-wypadek-pod-swieciem-nie-zyje-kierowca-osobowki-aktualizacja",
+    "url": null
+  }
+]

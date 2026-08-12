@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f234548bc19479ab736e925450dae668e94af680335153b1af5790b84f7a2ba8",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "6abc.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-24T07:00:00Z",
+  "publisher": "6abc.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_2923f613ff39828b",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-24T07:00:00+00:00",
+    "source_info_hash": "4239bad089ae4070",
+    "source_info_path": "html/USA/USA-S003/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://6abc.com/post/1-dead-5-hurt-single-car-crash-columbus-boulevard-south-philadelphia/19567461/",
+  "timezone": "America/Chicago",
+  "title": "16-year-old girl dead, 5 other teens hurt after single-car crash on Columbus Boulevard in South Philadelphia"
+}

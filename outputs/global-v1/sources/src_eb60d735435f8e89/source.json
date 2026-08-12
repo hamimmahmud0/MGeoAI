@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "bf58e3df79cfa15b50ab9628b85cbde2443686f42e40203b285920ecf92a2dc2",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "zad jordan news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar"
+  ],
+  "local_path": "html/JOR/JOR-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2013-03-16T06:00:00Z",
+  "publisher": "Zad Jordan News",
+  "schema_version": "1.0.0",
+  "source_id": "src_eb60d735435f8e89",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar"
+    ],
+    "published_at": "2013-03-16T06:00:00+00:00",
+    "source_info_hash": "7b6fae12e4e0d514",
+    "source_info_path": "html/JOR/JOR-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.jordanzad.com/print.php?id=115047",
+  "timezone": "Asia/Amman",
+  "title": "Palestinian pilgrims killed in Jordan Valley bus crash"
+}

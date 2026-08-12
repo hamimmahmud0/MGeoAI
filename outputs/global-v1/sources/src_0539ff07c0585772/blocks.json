@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f7f4c6d1fb80bc54",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f7f4c6d1fb80bc54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 teens dead, 1 in hospital after high-speed crash in Laval",
+      "source_path": "html/CAN/CAN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0539ff07c0585772",
+    "text": "2 teens dead, 1 in hospital after high-speed crash in Laval",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d29e75439eb34a46",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d29e75439eb34a46",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-05T06:34:36-04:00",
+      "source_path": "html/CAN/CAN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0539ff07c0585772",
+    "text": "2026-08-05T06:34:36-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1783e5dce3a4b685",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1783e5dce3a4b685",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CP24",
+      "source_path": "html/CAN/CAN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0539ff07c0585772",
+    "text": "Publisher: CP24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ebe6c230c369dea2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ebe6c230c369dea2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.cp24.com/news/canada/2026/08/05/2-teens-dead-1-in-hospital-after-car-crash-in-laval/",
+      "source_path": "html/CAN/CAN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0539ff07c0585772",
+    "text": "Original source: https://www.cp24.com/news/canada/2026/08/05/2-teens-dead-1-in-hospital-after-car-crash-in-laval/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_51eb1983357d9a4f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_51eb1983357d9a4f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0539ff07c0585772",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5e86a5b9229b11ba",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5e86a5b9229b11ba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.cp24.com/news/canada/2026/08/05/2-teens-dead-1-in-hospital-after-car-crash-in-laval/",
+      "source_path": "html/CAN/CAN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0539ff07c0585772",
+    "text": "https://www.cp24.com/news/canada/2026/08/05/2-teens-dead-1-in-hospital-after-car-crash-in-laval/",
+    "url": null
+  }
+]

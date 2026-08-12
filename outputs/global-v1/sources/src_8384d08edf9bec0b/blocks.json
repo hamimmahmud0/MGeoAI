@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b11e7e0ee3d6dc7c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b11e7e0ee3d6dc7c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Uganda school bus crash kills 21",
+      "source_path": "html/UGA/UGA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8384d08edf9bec0b",
+    "text": "Uganda school bus crash kills 21",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c404fa89fd0a9fcd",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c404fa89fd0a9fcd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-17T09:23:00+03:00",
+      "source_path": "html/UGA/UGA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8384d08edf9bec0b",
+    "text": "2026-07-17T09:23:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2ca4cdcbfd7ebc3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2ca4cdcbfd7ebc3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus full of schoolchildren returning from a trip veered off the road in Uganda, killing 20 children and one adult, police said Friday. The ...",
+      "source_path": "html/UGA/UGA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8384d08edf9bec0b",
+    "text": "A bus full of schoolchildren returning from a trip veered off the road in Uganda, killing 20 children and one adult, police said Friday. The ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4387c3b6ac7088bd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4387c3b6ac7088bd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/UGA/UGA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8384d08edf9bec0b",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_30c968305fe45332",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_30c968305fe45332",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/africa/415357/uganda-school-bus-crash-kills-21",
+      "source_path": "html/UGA/UGA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8384d08edf9bec0b",
+    "text": "Original source: https://www.dhakatribune.com/world/africa/415357/uganda-school-bus-crash-kills-21",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34ad0a37c6e1b71a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34ad0a37c6e1b71a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8384d08edf9bec0b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3123ec9814e39510",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3123ec9814e39510",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/africa/415357/uganda-school-bus-crash-kills-21",
+      "source_path": "html/UGA/UGA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8384d08edf9bec0b",
+    "text": "https://www.dhakatribune.com/world/africa/415357/uganda-school-bus-crash-kills-21",
+    "url": null
+  }
+]

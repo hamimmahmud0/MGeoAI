@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_403a7a23ceefa9bf",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_403a7a23ceefa9bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Zu schnell: Autounfall in Kärnten forderte vier Verletzte",
+      "source_path": "html/DEU/DEU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47c5e5d812d5ebc0",
+    "text": "Zu schnell: Autounfall in Kärnten forderte vier Verletzte",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e4ac26727e00565",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3e4ac26727e00565",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-15T09:00:00+02:00",
+      "source_path": "html/DEU/DEU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47c5e5d812d5ebc0",
+    "text": "2026-05-15T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c844d6c5e1f43761",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c844d6c5e1f43761",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Kleine Zeitung",
+      "source_path": "html/DEU/DEU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47c5e5d812d5ebc0",
+    "text": "Publisher: Kleine Zeitung",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe89b70ffd9cb307",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe89b70ffd9cb307",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.kleinezeitung.at/artikel/24320273/autounfall-in-kaernten-forderte-vier-verletzte",
+      "source_path": "html/DEU/DEU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47c5e5d812d5ebc0",
+    "text": "Original source: https://www.kleinezeitung.at/artikel/24320273/autounfall-in-kaernten-forderte-vier-verletzte",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_905ca4e6332e9727",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_905ca4e6332e9727",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47c5e5d812d5ebc0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_16f72884d9b1c607",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_16f72884d9b1c607",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.kleinezeitung.at/artikel/24320273/autounfall-in-kaernten-forderte-vier-verletzte",
+      "source_path": "html/DEU/DEU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_47c5e5d812d5ebc0",
+    "text": "https://www.kleinezeitung.at/artikel/24320273/autounfall-in-kaernten-forderte-vier-verletzte",
+    "url": null
+  }
+]

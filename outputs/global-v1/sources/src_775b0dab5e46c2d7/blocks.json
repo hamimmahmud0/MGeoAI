@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_41e3c9adf08ea3fe",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_41e3c9adf08ea3fe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three killed, several injured in Yaya–Kawangware road crash",
+      "source_path": "html/KEN/KEN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_775b0dab5e46c2d7",
+    "text": "Three killed, several injured in Yaya–Kawangware road crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c3bb58426cf4407c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c3bb58426cf4407c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-28T11:00:00+03:00",
+      "source_path": "html/KEN/KEN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_775b0dab5e46c2d7",
+    "text": "2026-01-28T11:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_72bae67019acae20",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_72bae67019acae20",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three killed, several injured in Yaya–Kawangware road crash Audio By Vocalize The crash occurred at Bangladesh area, near the Kawangware–Yaya route, leaving several passengers injured.",
+      "source_path": "html/KEN/KEN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_775b0dab5e46c2d7",
+    "text": "Three killed, several injured in Yaya–Kawangware road crash Audio By Vocalize The crash occurred at Bangladesh area, near the Kawangware–Yaya route, leaving several passengers injured.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8926492ce3f43fed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8926492ce3f43fed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Citizen Digital",
+      "source_path": "html/KEN/KEN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_775b0dab5e46c2d7",
+    "text": "Publisher: Citizen Digital",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e806cfd95db8e1be",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e806cfd95db8e1be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://citizen.digital/article/three-killed-several-injured-in-yaya-kawangware-road-crash-n376481",
+      "source_path": "html/KEN/KEN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_775b0dab5e46c2d7",
+    "text": "Original source: https://citizen.digital/article/three-killed-several-injured-in-yaya-kawangware-road-crash-n376481",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1a0851c6fac01a6b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1a0851c6fac01a6b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_775b0dab5e46c2d7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_81ab982554a88d4a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_81ab982554a88d4a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://citizen.digital/article/three-killed-several-injured-in-yaya-kawangware-road-crash-n376481",
+      "source_path": "html/KEN/KEN-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_775b0dab5e46c2d7",
+    "text": "https://citizen.digital/article/three-killed-several-injured-in-yaya-kawangware-road-crash-n376481",
+    "url": null
+  }
+]

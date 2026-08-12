@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8153a9de659c22c5ee84542530f74ee77c94fc096278e36306d60b57ce7e7a76",
+  "country": "Ireland",
+  "country_code": "IRL",
+  "dependency_group": "irish independent",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IRL/IRL-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-02T21:35:00Z",
+  "publisher": "Irish Independent",
+  "schema_version": "1.0.0",
+  "source_id": "src_e24546f5005bfcee",
+  "source_metadata": {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-02T21:35:00+00:00",
+    "source_info_hash": "077296089c543522",
+    "source_info_path": "html/IRL/IRL-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Dublin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "road crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.independent.ie/irish-news/man-20s-dies-and-woman-seriously-injured-following-road-crash-in-co-donegal/a/159523450.html",
+  "timezone": "Europe/Dublin",
+  "title": "Man (20s) dies and woman seriously injured following road crash in Co Donegal"
+}

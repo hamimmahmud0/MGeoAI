@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "11e63bcb43c72f8bff9e5f5c3b5aa7dd1681aeb06171b878f76b46ce736d4152",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "polsatnews.pl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-14T07:00:00Z",
+  "publisher": "PolsatNews.pl",
+  "schema_version": "1.0.0",
+  "source_id": "src_0f3f39c1a6e42a83",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-07-14T07:00:00+00:00",
+    "source_info_hash": "d1a321659995f57a",
+    "source_info_path": "html/POL/POL-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.polsatnews.pl/wiadomosc/2026-07-14/tragiczny-wypadek-pod-szczytnem-nie-zyje-17-latek-szesc-osob-rannych/",
+  "timezone": "Europe/Warsaw",
+  "title": "Tragiczny wypadek pod Szczytnem, za kierownicą nieletni. Jedna osoba nie żyje, sześć zostało rannych"
+}

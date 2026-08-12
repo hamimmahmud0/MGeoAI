@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3bc360edc8b13b1f7950d984e8fc3adfe8126cfc5517d8384b71dca34012b271",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "tv asahi news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ja"
+  ],
+  "local_path": "html/JPN/JPN-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-29T03:54:00Z",
+  "publisher": "TV Asahi News",
+  "schema_version": "1.0.0",
+  "source_id": "src_28f6d2feedf56bdf",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "ja"
+    ],
+    "published_at": "2025-09-29T03:54:00+00:00",
+    "source_info_hash": "785a30193ffdb5ec",
+    "source_info_path": "html/JPN/JPN-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://news.tv-asahi.co.jp/news_society/articles/000456289.html",
+  "timezone": "Asia/Tokyo",
+  "title": "幼稚園バスの運転手死亡 住宅に突っ込む事故 搬送の園児ら、けがの程度不明"
+}

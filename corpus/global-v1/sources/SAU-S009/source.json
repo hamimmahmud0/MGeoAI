@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SAU-S009",
+  "country_code": "SAU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/321782/3-of-a-bangladeshi-family-killed-in-saudi-arabia",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/bangladesh/foreign-affairs/321782/3-of-a-bangladeshi-family-killed-in-saudi-arabia",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Saudi+Arabia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "3046b64bff19369eb1fb38b361e4a6d96a6f758becfeb16c3998ac939a34e4bf",
+      "size_bytes": 1076,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "تصادم مركبات",
+    "road accident"
+  ],
+  "timezone": "Asia/Riyadh",
+  "captured_at": "2026-08-12T03:38:50.985057+06:00",
+  "published_at": "2023-08-06T13:06:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SAU-S009"
+}

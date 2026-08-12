@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_dbb9b4a0c1630bad",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_dbb9b4a0c1630bad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Five Family Members Killed In Yobe Car Accident",
+      "source_path": "html/NGA/NGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_14a4ecee88d2a2e4",
+    "text": "Five Family Members Killed In Yobe Car Accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34bd1b524fa80471",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_34bd1b524fa80471",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-03-26T08:00:00+01:00",
+      "source_path": "html/NGA/NGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_14a4ecee88d2a2e4",
+    "text": "2026-03-26T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_082d4099c7020cc7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_082d4099c7020cc7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Police authorities in Yobe State have confirmed the death of five members of the same family in a car accident along the Damaturu-Maiduguri Road in ...",
+      "source_path": "html/NGA/NGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_14a4ecee88d2a2e4",
+    "text": "Police authorities in Yobe State have confirmed the death of five members of the same family in a car accident along the Damaturu-Maiduguri Road in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a07cda9187677b72",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a07cda9187677b72",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Channels Television",
+      "source_path": "html/NGA/NGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_14a4ecee88d2a2e4",
+    "text": "Publisher: Channels Television",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_76d654189f8e04f8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_76d654189f8e04f8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.channelstv.com/2026/03/26/five-family-members-killed-in-yobe-car-accident/",
+      "source_path": "html/NGA/NGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_14a4ecee88d2a2e4",
+    "text": "Original source: https://www.channelstv.com/2026/03/26/five-family-members-killed-in-yobe-car-accident/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_09ba265692b3680e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_09ba265692b3680e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_14a4ecee88d2a2e4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3ad9d65ccfb35f55",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3ad9d65ccfb35f55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.channelstv.com/2026/03/26/five-family-members-killed-in-yobe-car-accident/",
+      "source_path": "html/NGA/NGA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_14a4ecee88d2a2e4",
+    "text": "https://www.channelstv.com/2026/03/26/five-family-members-killed-in-yobe-car-accident/",
+    "url": null
+  }
+]

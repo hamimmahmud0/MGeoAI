@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "LKA-S006",
+  "country_code": "LKA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Hiru News",
+  "canonical_url": "https://www.hirunews.lk/goldfmnews/380578/two-dead-in-motorcycle-and-bus-collision-on-colombo-kandy-road",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.hirunews.lk/goldfmnews/380578/two-dead-in-motorcycle-and-bus-collision-on-colombo-kandy-road",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Colombo%22+motorcycle+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "012b4c05c2031babb0eba184d60000ff338132b1a1091382872cf664db0bedc4",
+      "size_bytes": 1062,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "මාර්ග අනතුර",
+    "சாலை விபத்து",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Colombo",
+  "captured_at": "2026-08-12T03:39:59.161634+06:00",
+  "published_at": "2024-08-31T14:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "hirunews.lk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-LKA-S006"
+}

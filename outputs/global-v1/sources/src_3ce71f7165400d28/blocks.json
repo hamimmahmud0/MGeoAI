@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ed69b01ae287f537",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ed69b01ae287f537",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "4 Indian Nationals Killed In Nepal Car Accident",
+      "source_path": "html/NPL/NPL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ce71f7165400d28",
+    "text": "4 Indian Nationals Killed In Nepal Car Accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_118f48695c12a1ac",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_118f48695c12a1ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-04-12T08:20:00+05:45",
+      "source_path": "html/NPL/NPL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ce71f7165400d28",
+    "text": "2023-04-12T08:20:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e6df9f8e53de8ef9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e6df9f8e53de8ef9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "According to the report, all four deceased were males, but their identities are yet to be ascertained. Four Indian nationals were killed and another person ...",
+      "source_path": "html/NPL/NPL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ce71f7165400d28",
+    "text": "According to the report, all four deceased were males, but their identities are yet to be ascertained. Four Indian nationals were killed and another person ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b9f3e87592620ef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8b9f3e87592620ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NDTV",
+      "source_path": "html/NPL/NPL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ce71f7165400d28",
+    "text": "Publisher: NDTV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a8983c26d4e5da3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9a8983c26d4e5da3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ndtv.com/indians-abroad/four-indian-nationals-killed-in-nepal-car-accident-3941352",
+      "source_path": "html/NPL/NPL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ce71f7165400d28",
+    "text": "Original source: https://www.ndtv.com/indians-abroad/four-indian-nationals-killed-in-nepal-car-accident-3941352",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33cd5aa34ac8b5c0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_33cd5aa34ac8b5c0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ce71f7165400d28",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_74b0213dbeb0ba6c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_74b0213dbeb0ba6c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ndtv.com/indians-abroad/four-indian-nationals-killed-in-nepal-car-accident-3941352",
+      "source_path": "html/NPL/NPL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ce71f7165400d28",
+    "text": "https://www.ndtv.com/indians-abroad/four-indian-nationals-killed-in-nepal-car-accident-3941352",
+    "url": null
+  }
+]

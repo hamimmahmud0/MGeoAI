@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "BGD-S009",
+  "country_code": "BGD",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Business Standard",
+  "canonical_url": "https://www.tbsnews.net/bangladesh/road-crash-dhaka-sylhet-highway-claims-3-more-lives-14-killed-four-days-1511436",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.tbsnews.net/bangladesh/road-crash-dhaka-sylhet-highway-claims-3-more-lives-14-killed-four-days-1511436",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Bangladesh%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "5944b586d6e270f78eeb6a3fa784e2231b47ad9ea1684f8efef1864f68f2dfb7",
+      "size_bytes": 1123,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "সড়ক দুর্ঘটনা",
+    "বাস দুর্ঘটনা",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dhaka",
+  "captured_at": "2026-08-12T03:55:02.402518+06:00",
+  "published_at": "2026-08-10T11:55:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "tbsnews.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-BGD-S009"
+}

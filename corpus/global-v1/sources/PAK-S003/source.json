@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PAK-S003",
+  "country_code": "PAK",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "bdnews24",
+  "canonical_url": "https://bdnews24.com/world/0e65f8c35c10",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://bdnews24.com/world/0e65f8c35c10",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Pakistan%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "dda690082474e49cd7d73fba84f82c6f1a3236516d10f0f6dbc4a38e7eb3fdd0",
+      "size_bytes": 853,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "ٹریفک حادثہ",
+    "سڑک حادثہ",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Karachi",
+  "captured_at": "2026-08-12T03:55:02.407680+06:00",
+  "published_at": "2024-08-25T07:36:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bdnews24.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PAK-S003"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d1c87c94f422a7e633a2db2d300523ada3bda27eb9b3b99d3d8d955bce2ddc52",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "the daily mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-02T11:49:00Z",
+  "publisher": "The Daily Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_7498cee2e1533346",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-02T11:49:00+00:00",
+    "source_info_hash": "decc630964d988be",
+    "source_info_path": "html/PHL/PHL-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dailymirror.lk/breaking-news/Ten-dead-dozens-injured-in-Philippines-bus-crash/108-307942",
+  "timezone": "Asia/Manila",
+  "title": "Ten dead, dozens injured in Philippines bus crash"
+}

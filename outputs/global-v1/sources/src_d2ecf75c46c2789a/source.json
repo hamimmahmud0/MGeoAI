@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4b4f2a991454d76a2945808b7730f49a2128899acd6d33e1a040963b7ff83256",
+  "country": "South Africa",
+  "country_code": "ZAF",
+  "dependency_group": "mail & guardian",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "local_path": "html/ZAF/ZAF-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-19T08:00:00Z",
+  "publisher": "Mail & Guardian",
+  "schema_version": "1.0.0",
+  "source_id": "src_d2ecf75c46c2789a",
+  "source_metadata": {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "languages": [
+      "en",
+      "zu",
+      "xh",
+      "af"
+    ],
+    "published_at": "2026-01-19T08:00:00+00:00",
+    "source_info_hash": "ea0e7e4c83d75f56",
+    "source_info_path": "html/ZAF/ZAF-S002/SOURCE_INFO.md",
+    "timezone": "Africa/Johannesburg",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "taxi crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://mg.co.za/news/south-africa/2026-01-19-updated-thirteen-pupils-killed-in-vaal-scholar-transport-vehicle-crash/",
+  "timezone": "Africa/Johannesburg",
+  "title": "UPDATED: Thirteen pupils killed in Vaal scholar transport vehicle crash"
+}

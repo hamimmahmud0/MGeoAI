@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ecc4def83f143d8871e770f23c88e01b26c5ce3c239b24f78312fb59b4fed809",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "bbc",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-27T08:30:00Z",
+  "publisher": "BBC",
+  "schema_version": "1.0.0",
+  "source_id": "src_7c5b8161e30cbb02",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-05-27T08:30:00+00:00",
+    "source_info_hash": "497930b45061e76f",
+    "source_info_path": "html/AUS/AUS-S009/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bbc.co.uk/news/articles/c5yeexndmjpo",
+  "timezone": "Australia/Sydney",
+  "title": "Woman, 21, described as 'perfect in every way' after Australia crash death"
+}

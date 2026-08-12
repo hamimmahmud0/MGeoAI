@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2e88e05f7851a70846cc39f74f29443b7f1dab1d92af400526d6f7ec54a0c62f",
+  "country": "South Korea",
+  "country_code": "KOR",
+  "dependency_group": "yonhap news agency",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/KOR/KOR-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-16T07:27:00Z",
+  "publisher": "Yonhap News Agency",
+  "schema_version": "1.0.0",
+  "source_id": "src_26ee0e331d584239",
+  "source_metadata": {
+    "country": "South Korea",
+    "country_code": "KOR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-01-16T07:27:00+00:00",
+    "source_info_hash": "bb758d060fd51e46",
+    "source_info_path": "html/KOR/KOR-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Seoul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "교통사고",
+      "차량 충돌",
+      "버스 사고",
+      "고속도로 사고"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://en.yna.co.kr/view/AEN20260116006752315?section=national%2Fnational",
+  "timezone": "Asia/Seoul",
+  "title": "2 seriously hurt, another 11 injured after bus plows into pedestrians in Seoul"
+}

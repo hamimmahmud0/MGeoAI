@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bf4afb695a9a03d1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bf4afb695a9a03d1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Pelo menos oito mortos e 33 feridos em acidente de autocarro na Turquia. Bebé de nove meses entre as vítimas mortais",
+      "source_path": "html/PRT/PRT-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0fcb8023eaff4546",
+    "text": "Pelo menos oito mortos e 33 feridos em acidente de autocarro na Turquia. Bebé de nove meses entre as vítimas mortais",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_de4eca90decd9b18",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_de4eca90decd9b18",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-31T08:00:00+01:00",
+      "source_path": "html/PRT/PRT-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0fcb8023eaff4546",
+    "text": "2026-05-31T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b6ecef816fae8719",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b6ecef816fae8719",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Correio da Manhã",
+      "source_path": "html/PRT/PRT-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0fcb8023eaff4546",
+    "text": "Publisher: Correio da Manhã",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1ece65c22fb16158",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1ece65c22fb16158",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.cmjornal.pt/mundo/detalhe/pelo-menos-oito-mortos-e-33-feridos-em-acidente-de-autocarro-na-turquia-bebe-de-nove-meses-entre-as-vitimas-mortais",
+      "source_path": "html/PRT/PRT-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0fcb8023eaff4546",
+    "text": "Original source: https://www.cmjornal.pt/mundo/detalhe/pelo-menos-oito-mortos-e-33-feridos-em-acidente-de-autocarro-na-turquia-bebe-de-nove-meses-entre-as-vitimas-mortais",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_99bd83af36397345",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_99bd83af36397345",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0fcb8023eaff4546",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_775adfb9bdec950d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_775adfb9bdec950d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.cmjornal.pt/mundo/detalhe/pelo-menos-oito-mortos-e-33-feridos-em-acidente-de-autocarro-na-turquia-bebe-de-nove-meses-entre-as-vitimas-mortais",
+      "source_path": "html/PRT/PRT-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0fcb8023eaff4546",
+    "text": "https://www.cmjornal.pt/mundo/detalhe/pelo-menos-oito-mortos-e-33-feridos-em-acidente-de-autocarro-na-turquia-bebe-de-nove-meses-entre-as-vitimas-mortais",
+    "url": null
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8ab92e2bb5cb1473",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8ab92e2bb5cb1473",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dos muertos en choque con patrulla policial; testigos señalan al oficial como responsable",
+      "source_path": "html/CRI/CRI-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_363da1cd8ef8978f",
+    "text": "Dos muertos en choque con patrulla policial; testigos señalan al oficial como responsable",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b209baaa71ff150",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6b209baaa71ff150",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-25T01:00:00-06:00",
+      "source_path": "html/CRI/CRI-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_363da1cd8ef8978f",
+    "text": "2026-07-25T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_da75e73fcaf25e53",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_da75e73fcaf25e53",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Prensa - Noticias de Nicaragua y el mundo",
+      "source_path": "html/CRI/CRI-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_363da1cd8ef8978f",
+    "text": "Publisher: La Prensa - Noticias de Nicaragua y el mundo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d22f21714c34198f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d22f21714c34198f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.laprensani.com/2026/07/25/sucesos/3746360-dos-muertos-choque-patrulla-policial-testigos-oficial-responsable",
+      "source_path": "html/CRI/CRI-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_363da1cd8ef8978f",
+    "text": "Original source: https://www.laprensani.com/2026/07/25/sucesos/3746360-dos-muertos-choque-patrulla-policial-testigos-oficial-responsable",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a17df5285135662b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a17df5285135662b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_363da1cd8ef8978f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bccc39a2813282c5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bccc39a2813282c5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.laprensani.com/2026/07/25/sucesos/3746360-dos-muertos-choque-patrulla-policial-testigos-oficial-responsable",
+      "source_path": "html/CRI/CRI-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_363da1cd8ef8978f",
+    "text": "https://www.laprensani.com/2026/07/25/sucesos/3746360-dos-muertos-choque-patrulla-policial-testigos-oficial-responsable",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "425112a44f17757ce7ca23481ed93ddd02aae1688188a3c9d53fa6907d269a80",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "infobae",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-26T07:00:00Z",
+  "publisher": "Infobae",
+  "schema_version": "1.0.0",
+  "source_id": "src_b147bedb540e70e4",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-26T07:00:00+00:00",
+    "source_info_hash": "762a4549b903b607",
+    "source_info_path": "html/COL/COL-S001/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.infobae.com/colombia/2026/05/27/grave-accidente-en-tocancipa-bus-se-volco-en-la-via-tunja-bogota-y-dejo-una-mujer-muerta-y-varios-heridos/",
+  "timezone": "America/Bogota",
+  "title": "Grave accidente en Tocancipá: bus se volcó en la vía Tunja-Bogotá y dejó una mujer muerta y varios heridos"
+}

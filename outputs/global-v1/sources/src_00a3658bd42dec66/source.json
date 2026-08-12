@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "5f912ceb4dcbc7530ddfc505eedb5584f245715d9e43cf283e2c518d8d922e87",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "bbc",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-02T08:00:00Z",
+  "publisher": "BBC",
+  "schema_version": "1.0.0",
+  "source_id": "src_00a3658bd42dec66",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2026-01-02T08:00:00+00:00",
+    "source_info_hash": "f2a7ec9abeacc390",
+    "source_info_path": "html/NGA/NGA-S003/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bbc.com/news/articles/c5y2jrdnnqyo",
+  "timezone": "Africa/Lagos",
+  "title": "Anthony Joshua's driver charged over Nigeria crash that killed two"
+}

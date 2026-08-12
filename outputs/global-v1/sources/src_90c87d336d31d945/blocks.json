@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1b32f6318eea566c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1b32f6318eea566c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "4 dead, 14 injured in Kintampo–Tamale Highway crash",
+      "source_path": "html/GHA/GHA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_90c87d336d31d945",
+    "text": "4 dead, 14 injured in Kintampo–Tamale Highway crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7eca1ddae8da702f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7eca1ddae8da702f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-05T07:00:00+00:00",
+      "source_path": "html/GHA/GHA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_90c87d336d31d945",
+    "text": "2026-04-05T07:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c764d5b0efb52cd0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c764d5b0efb52cd0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Four people have been confirmed dead, with 14 others injured, following a road crash at Dawadawa along the Kintampo–Tamale Highway in the Bono East Region.",
+      "source_path": "html/GHA/GHA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_90c87d336d31d945",
+    "text": "Four people have been confirmed dead, with 14 others injured, following a road crash at Dawadawa along the Kintampo–Tamale Highway in the Bono East Region.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cc06b2494efff108",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cc06b2494efff108",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CitiNewsroom.com",
+      "source_path": "html/GHA/GHA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_90c87d336d31d945",
+    "text": "Publisher: CitiNewsroom.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8b07f49323dc9c5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8b07f49323dc9c5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.citinewsroom.com/2026/04/4-dead-14-injured-in-kintampo-tamale-highway-crash/",
+      "source_path": "html/GHA/GHA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_90c87d336d31d945",
+    "text": "Original source: https://www.citinewsroom.com/2026/04/4-dead-14-injured-in-kintampo-tamale-highway-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4ca427077a2b609b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4ca427077a2b609b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_90c87d336d31d945",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48ded5d8e2175508",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48ded5d8e2175508",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.citinewsroom.com/2026/04/4-dead-14-injured-in-kintampo-tamale-highway-crash/",
+      "source_path": "html/GHA/GHA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_90c87d336d31d945",
+    "text": "https://www.citinewsroom.com/2026/04/4-dead-14-injured-in-kintampo-tamale-highway-crash/",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a3a63888beba9a99227f1cdbb29c2858cb63c02c3575403798bda5124445a7c5",
+  "country": "Ireland",
+  "country_code": "IRL",
+  "dependency_group": "bbc",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IRL/IRL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-25T07:00:00Z",
+  "publisher": "BBC",
+  "schema_version": "1.0.0",
+  "source_id": "src_cb03509882877e9d",
+  "source_metadata": {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-25T07:00:00+00:00",
+    "source_info_hash": "ceca5e75d0e98815",
+    "source_info_path": "html/IRL/IRL-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Dublin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "road crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bbc.co.uk/news/articles/cx2j0r92j0eo",
+  "timezone": "Europe/Dublin",
+  "title": "Cavan: Woman dies and child injured in two-vehicle collision"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c2a70d6aee75320d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c2a70d6aee75320d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "UPDATE: Vrouw (42) overleden bij botsing tussen twee auto’s",
+      "source_path": "html/NLD/NLD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8713611f7ca68315",
+    "text": "UPDATE: Vrouw (42) overleden bij botsing tussen twee auto’s",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6db20401b9a668fb",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6db20401b9a668fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-24T09:00:00+02:00",
+      "source_path": "html/NLD/NLD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8713611f7ca68315",
+    "text": "2026-05-24T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a94a94e30f0b2430",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a94a94e30f0b2430",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "BEVERWIJK – Op de Laan der Nederlanden in Beverwijk heeft in de nacht van zaterdag op zondag rond 03.45 uur een dodelijk verkeersongeval plaatsgevonden.",
+      "source_path": "html/NLD/NLD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8713611f7ca68315",
+    "text": "BEVERWIJK – Op de Laan der Nederlanden in Beverwijk heeft in de nacht van zaterdag op zondag rond 03.45 uur een dodelijk verkeersongeval plaatsgevonden.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_470d85cbd118bfdf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_470d85cbd118bfdf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 112 Nederland",
+      "source_path": "html/NLD/NLD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8713611f7ca68315",
+    "text": "Publisher: 112 Nederland",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac33b0452eea2f16",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ac33b0452eea2f16",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://112nederland.nl/2026/05/24/video/update-vrouw-42-overleden-bij-botsing-tussen-twee-autos/",
+      "source_path": "html/NLD/NLD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8713611f7ca68315",
+    "text": "Original source: https://112nederland.nl/2026/05/24/video/update-vrouw-42-overleden-bij-botsing-tussen-twee-autos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9ae52825a04a330",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9ae52825a04a330",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8713611f7ca68315",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7e1fe6e24cf4c311",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7e1fe6e24cf4c311",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://112nederland.nl/2026/05/24/video/update-vrouw-42-overleden-bij-botsing-tussen-twee-autos/",
+      "source_path": "html/NLD/NLD-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8713611f7ca68315",
+    "text": "https://112nederland.nl/2026/05/24/video/update-vrouw-42-overleden-bij-botsing-tussen-twee-autos/",
+    "url": null
+  }
+]

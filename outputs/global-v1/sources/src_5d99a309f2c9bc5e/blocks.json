@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6a14a13b0923ffe4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6a14a13b0923ffe4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 38 people killed in Tanzania bus collision, subsequent fire",
+      "source_path": "html/TZA/TZA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d99a309f2c9bc5e",
+    "text": "At least 38 people killed in Tanzania bus collision, subsequent fire",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1912137b1e9a2579",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1912137b1e9a2579",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-30T08:40:00+03:00",
+      "source_path": "html/TZA/TZA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d99a309f2c9bc5e",
+    "text": "2025-06-30T08:40:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a3d98152a4162cde",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a3d98152a4162cde",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nearly 40 people have been killed after a bus and a minibus collided in Tanzania, sparking a fire that engulfed both vehicles. The crash occurred ...",
+      "source_path": "html/TZA/TZA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d99a309f2c9bc5e",
+    "text": "Nearly 40 people have been killed after a bus and a minibus collided in Tanzania, sparking a fire that engulfed both vehicles. The crash occurred ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7360ae506a2fe282",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7360ae506a2fe282",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Island",
+      "source_path": "html/TZA/TZA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d99a309f2c9bc5e",
+    "text": "Publisher: Island",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0984540dec45a1aa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0984540dec45a1aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://island.lk/at-least-38-people-killed-in-tanzania-bus-collision-subsequent-fire/",
+      "source_path": "html/TZA/TZA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d99a309f2c9bc5e",
+    "text": "Original source: https://island.lk/at-least-38-people-killed-in-tanzania-bus-collision-subsequent-fire/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a183c093e91fe4b3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a183c093e91fe4b3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d99a309f2c9bc5e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aad0be3c21fd623f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aad0be3c21fd623f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://island.lk/at-least-38-people-killed-in-tanzania-bus-collision-subsequent-fire/",
+      "source_path": "html/TZA/TZA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5d99a309f2c9bc5e",
+    "text": "https://island.lk/at-least-38-people-killed-in-tanzania-bus-collision-subsequent-fire/",
+    "url": null
+  }
+]

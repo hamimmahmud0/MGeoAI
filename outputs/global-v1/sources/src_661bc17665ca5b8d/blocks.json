@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f09f8ca408c022aa",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f09f8ca408c022aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tragedia en Mar del Plata: cuál es la principal hipótesis del siniestro vial y cómo evolucionan los heridos",
+      "source_path": "html/ARG/ARG-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_661bc17665ca5b8d",
+    "text": "Tragedia en Mar del Plata: cuál es la principal hipótesis del siniestro vial y cómo evolucionan los heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b72abf2237a0c08a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b72abf2237a0c08a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-23T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_661bc17665ca5b8d",
+    "text": "2026-06-23T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2209534ebd20d2f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2209534ebd20d2f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Infobae",
+      "source_path": "html/ARG/ARG-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_661bc17665ca5b8d",
+    "text": "Publisher: Infobae",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d7d49d5dbcc0d48d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d7d49d5dbcc0d48d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.infobae.com/sociedad/policiales/2026/06/23/tragedia-en-mar-del-plata-cual-es-la-principal-hipotesis-del-siniestro-vial-y-como-evolucionan-los-heridos/",
+      "source_path": "html/ARG/ARG-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_661bc17665ca5b8d",
+    "text": "Original source: https://www.infobae.com/sociedad/policiales/2026/06/23/tragedia-en-mar-del-plata-cual-es-la-principal-hipotesis-del-siniestro-vial-y-como-evolucionan-los-heridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b3deb993ef314857",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b3deb993ef314857",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_661bc17665ca5b8d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2d4ff5f904c879e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2d4ff5f904c879e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.infobae.com/sociedad/policiales/2026/06/23/tragedia-en-mar-del-plata-cual-es-la-principal-hipotesis-del-siniestro-vial-y-como-evolucionan-los-heridos/",
+      "source_path": "html/ARG/ARG-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_661bc17665ca5b8d",
+    "text": "https://www.infobae.com/sociedad/policiales/2026/06/23/tragedia-en-mar-del-plata-cual-es-la-principal-hipotesis-del-siniestro-vial-y-como-evolucionan-los-heridos/",
+    "url": null
+  }
+]

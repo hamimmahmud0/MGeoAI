@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ab60290d7c5d1a8e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ab60290d7c5d1a8e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A12 ter hoogte van Boom volledig afgesloten richting Brussel na ongeval",
+      "source_path": "html/BEL/BEL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd26282500cd0f7f",
+    "text": "A12 ter hoogte van Boom volledig afgesloten richting Brussel na ongeval",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6d34aeb95df72aa9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6d34aeb95df72aa9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-18T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd26282500cd0f7f",
+    "text": "2026-06-18T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fa7f04a1270f82b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0fa7f04a1270f82b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A12 ter hoogte van Boom volledig afgesloten richting Brussel na ongeval Op de A12 richting Brussel ter hoogte van Boom is donderdagochtend rond 8.20 uur ...",
+      "source_path": "html/BEL/BEL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd26282500cd0f7f",
+    "text": "A12 ter hoogte van Boom volledig afgesloten richting Brussel na ongeval Op de A12 richting Brussel ter hoogte van Boom is donderdagochtend rond 8.20 uur ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9d2879681530dd47",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9d2879681530dd47",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: HLN",
+      "source_path": "html/BEL/BEL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd26282500cd0f7f",
+    "text": "Publisher: HLN",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_32ff7360a958e316",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_32ff7360a958e316",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hln.be/boom/a12-ter-hoogte-van-boom-volledig-afgesloten-richting-brussel-na-ongeval~a6de1a97/",
+      "source_path": "html/BEL/BEL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd26282500cd0f7f",
+    "text": "Original source: https://www.hln.be/boom/a12-ter-hoogte-van-boom-volledig-afgesloten-richting-brussel-na-ongeval~a6de1a97/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b0808a1bba77c83",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8b0808a1bba77c83",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd26282500cd0f7f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e90837ea539742c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e90837ea539742c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hln.be/boom/a12-ter-hoogte-van-boom-volledig-afgesloten-richting-brussel-na-ongeval~a6de1a97/",
+      "source_path": "html/BEL/BEL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd26282500cd0f7f",
+    "text": "https://www.hln.be/boom/a12-ter-hoogte-van-boom-volledig-afgesloten-richting-brussel-na-ongeval~a6de1a97/",
+    "url": null
+  }
+]

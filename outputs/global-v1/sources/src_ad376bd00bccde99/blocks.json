@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ab42b935c437d91d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ab42b935c437d91d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bil fattade eld – man död efter trafikolycka",
+      "source_path": "html/SWE/SWE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad376bd00bccde99",
+    "text": "Bil fattade eld – man död efter trafikolycka",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4c77c5a6ab6f1b7f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4c77c5a6ab6f1b7f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-03-09T08:00:00+01:00",
+      "source_path": "html/SWE/SWE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad376bd00bccde99",
+    "text": "2026-03-09T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b113b85a5caa504c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b113b85a5caa504c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Olyckan inträffade på söndagsförmiddagen, när bilen körde av vägen längs E6 vid Klarebergsmotet i Göteborg.",
+      "source_path": "html/SWE/SWE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad376bd00bccde99",
+    "text": "Olyckan inträffade på söndagsförmiddagen, när bilen körde av vägen längs E6 vid Klarebergsmotet i Göteborg.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_43b32fb22b9cbf79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_43b32fb22b9cbf79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: gp.se",
+      "source_path": "html/SWE/SWE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad376bd00bccde99",
+    "text": "Publisher: gp.se",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_38ded7ce8aebb1aa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_38ded7ce8aebb1aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.gp.se/nyheter/sverige/bil-fattade-eld-man-dod-efter-trafikolycka.9d893280-d90f-5297-8904-c412d65a1219",
+      "source_path": "html/SWE/SWE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad376bd00bccde99",
+    "text": "Original source: https://www.gp.se/nyheter/sverige/bil-fattade-eld-man-dod-efter-trafikolycka.9d893280-d90f-5297-8904-c412d65a1219",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eff970f0f401564e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eff970f0f401564e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SWE/SWE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad376bd00bccde99",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d1e20ce2beef9eaf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d1e20ce2beef9eaf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.gp.se/nyheter/sverige/bil-fattade-eld-man-dod-efter-trafikolycka.9d893280-d90f-5297-8904-c412d65a1219",
+      "source_path": "html/SWE/SWE-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ad376bd00bccde99",
+    "text": "https://www.gp.se/nyheter/sverige/bil-fattade-eld-man-dod-efter-trafikolycka.9d893280-d90f-5297-8904-c412d65a1219",
+    "url": null
+  }
+]

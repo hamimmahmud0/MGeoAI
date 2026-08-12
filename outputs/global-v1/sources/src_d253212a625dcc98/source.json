@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "54f4530be93b081da9c9edf75292501fb5fc892f5a5178288aa7e00b5f8efff8",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "china internet information center",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-12-12T16:00:00Z",
+  "publisher": "China Internet Information Center",
+  "schema_version": "1.0.0",
+  "source_id": "src_d253212a625dcc98",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2024-12-12T16:00:00+00:00",
+    "source_info_hash": "724322c233a368d2",
+    "source_info_path": "html/TUN/TUN-S001/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.china.org.cn/world/Off_the_Wire/2024-12/13/content_117604856.htm",
+  "timezone": "Africa/Tunis",
+  "title": "2 killed, 4 wounded in truck-car collision in SW Tunisia"
+}

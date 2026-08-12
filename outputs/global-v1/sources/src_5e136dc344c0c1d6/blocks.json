@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_135e1bbb78018d29",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_135e1bbb78018d29",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Acidente de ônibus na Espanha deixa ao menos 44 feridos",
+      "source_path": "html/BRA/BRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e136dc344c0c1d6",
+    "text": "Acidente de ônibus na Espanha deixa ao menos 44 feridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e388dd7097025a80",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e388dd7097025a80",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-01T04:00:00-03:00",
+      "source_path": "html/BRA/BRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e136dc344c0c1d6",
+    "text": "2026-07-01T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_727c43f224f867bc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_727c43f224f867bc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CNN Brasil",
+      "source_path": "html/BRA/BRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e136dc344c0c1d6",
+    "text": "Publisher: CNN Brasil",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c5e8c78a3af0de9e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c5e8c78a3af0de9e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.cnnbrasil.com.br/internacional/acidente-de-onibus-na-espanha-deixa-feridos/",
+      "source_path": "html/BRA/BRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e136dc344c0c1d6",
+    "text": "Original source: https://www.cnnbrasil.com.br/internacional/acidente-de-onibus-na-espanha-deixa-feridos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c7fbddab7696c769",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c7fbddab7696c769",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BRA/BRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e136dc344c0c1d6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_11c63bbd7ea13d4a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_11c63bbd7ea13d4a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.cnnbrasil.com.br/internacional/acidente-de-onibus-na-espanha-deixa-feridos/",
+      "source_path": "html/BRA/BRA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5e136dc344c0c1d6",
+    "text": "https://www.cnnbrasil.com.br/internacional/acidente-de-onibus-na-espanha-deixa-feridos/",
+    "url": null
+  }
+]

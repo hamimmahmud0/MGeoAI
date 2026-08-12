@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1f6d6250a86a7bc6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1f6d6250a86a7bc6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "18 injured in bus collision at Kegalle",
+      "source_path": "html/LKA/LKA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77e925a8b0e4e500",
+    "text": "18 injured in bus collision at Kegalle",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3646325c9e0265b9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3646325c9e0265b9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T06:42:00+05:30",
+      "source_path": "html/LKA/LKA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77e925a8b0e4e500",
+    "text": "2026-08-03T06:42:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d810fbad4437f569",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d810fbad4437f569",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "(3) following a collision between a Sri Lanka Transport Board bus and a private bus in Karandupana, Kegalle. Police stated that the injured were admitted ...",
+      "source_path": "html/LKA/LKA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77e925a8b0e4e500",
+    "text": "(3) following a collision between a Sri Lanka Transport Board bus and a private bus in Karandupana, Kegalle. Police stated that the injured were admitted ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9bdbdfc16b329431",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9bdbdfc16b329431",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hiru News",
+      "source_path": "html/LKA/LKA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77e925a8b0e4e500",
+    "text": "Publisher: Hiru News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ecbab1c1164e284",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ecbab1c1164e284",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hirunews.lk/goldfmnews/481068/18-injured-in-bus-collision-at-kegalle",
+      "source_path": "html/LKA/LKA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77e925a8b0e4e500",
+    "text": "Original source: https://www.hirunews.lk/goldfmnews/481068/18-injured-in-bus-collision-at-kegalle",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7dc8fa748586fa31",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7dc8fa748586fa31",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/LKA/LKA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77e925a8b0e4e500",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_97549c0b85a5d1ca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_97549c0b85a5d1ca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hirunews.lk/goldfmnews/481068/18-injured-in-bus-collision-at-kegalle",
+      "source_path": "html/LKA/LKA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_77e925a8b0e4e500",
+    "text": "https://www.hirunews.lk/goldfmnews/481068/18-injured-in-bus-collision-at-kegalle",
+    "url": null
+  }
+]

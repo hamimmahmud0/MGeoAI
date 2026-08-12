@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cf4e0b70a8b80f8c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cf4e0b70a8b80f8c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bestuurder (36) bij dodelijk ongeval met fietser (25) onder invloed van drugs",
+      "source_path": "html/NLD/NLD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_415eb2ec37b562b0",
+    "text": "Bestuurder (36) bij dodelijk ongeval met fietser (25) onder invloed van drugs",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef3d3c1c7c4c63de",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ef3d3c1c7c4c63de",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-03T09:00:00+02:00",
+      "source_path": "html/NLD/NLD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_415eb2ec37b562b0",
+    "text": "2026-06-03T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df4e858bd40222fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df4e858bd40222fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "MADE – Een 36-jarige man uit Geertruidenberg is verdachte in het onderzoek naar een dodelijk verkeersongeval op de kruising van de Brieltjensweg en de Brieltjenspolder ...",
+      "source_path": "html/NLD/NLD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_415eb2ec37b562b0",
+    "text": "MADE – Een 36-jarige man uit Geertruidenberg is verdachte in het onderzoek naar een dodelijk verkeersongeval op de kruising van de Brieltjensweg en de Brieltjenspolder ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a018da6de3b5d928",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a018da6de3b5d928",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 112 Nederland",
+      "source_path": "html/NLD/NLD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_415eb2ec37b562b0",
+    "text": "Publisher: 112 Nederland",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6994c8e42467c8d2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6994c8e42467c8d2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://112nederland.nl/2026/06/03/video/bestuurder-36-bij-dodelijk-ongeval-met-fietser-25-onder-invloed-van-drugs/",
+      "source_path": "html/NLD/NLD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_415eb2ec37b562b0",
+    "text": "Original source: https://112nederland.nl/2026/06/03/video/bestuurder-36-bij-dodelijk-ongeval-met-fietser-25-onder-invloed-van-drugs/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4eb076ab0572b791",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4eb076ab0572b791",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_415eb2ec37b562b0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8a7a318cc8a695a1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8a7a318cc8a695a1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://112nederland.nl/2026/06/03/video/bestuurder-36-bij-dodelijk-ongeval-met-fietser-25-onder-invloed-van-drugs/",
+      "source_path": "html/NLD/NLD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_415eb2ec37b562b0",
+    "text": "https://112nederland.nl/2026/06/03/video/bestuurder-36-bij-dodelijk-ongeval-met-fietser-25-onder-invloed-van-drugs/",
+    "url": null
+  }
+]

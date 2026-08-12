@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "827a3af5d142dc841932ccf684b4ad197fe9c0fbf1e44d7ce660424fc1792159",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "digital journal",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2017-05-06T09:00:00Z",
+  "publisher": "Digital Journal",
+  "schema_version": "1.0.0",
+  "source_id": "src_a37c1bfc47dee08b",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2017-05-06T09:00:00+00:00",
+    "source_info_hash": "0169e11a55091d66",
+    "source_info_path": "html/TZA/TZA-S006/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.digitaljournal.com/article/at-least-29-schoolchildren-killed-in-tanzania-bus-crash/",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "At least 29 schoolchildren killed in Tanzania bus crash"
+}

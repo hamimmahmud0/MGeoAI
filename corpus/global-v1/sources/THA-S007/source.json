@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S007",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "eturbonews",
+  "canonical_url": "https://eturbonews.com/ghanaian-tourist-kills-one-thailand-road-accident/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://eturbonews.com/ghanaian-tourist-kills-one-thailand-road-accident/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6576f3eda8c4801994bfcb848d6501ec490e5c2b72c615e9e812b6d8db2fa397",
+      "size_bytes": 968,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:49.772103+06:00",
+  "published_at": "2023-12-17T19:58:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "eturbonews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S007"
+}

@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NGA-S006",
+  "country_code": "NGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Channels Television",
+  "canonical_url": "https://www.channelstv.com/2026/03/26/five-family-members-killed-in-yobe-car-accident/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.channelstv.com/2026/03/26/five-family-members-killed-in-yobe-car-accident/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NG%3Aen&gl=NG&hl=en-NG&q=%28road+crash+OR+traffic+accident+OR+collision%29+Nigeria+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4a1ce0ed7b774bfce38aac250fc41cc852d257d9c315c4ec78fc725c7ad7f729",
+      "size_bytes": 979,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus crash",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Lagos",
+  "captured_at": "2026-08-11T21:48:28.207646Z",
+  "published_at": "2026-03-26T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "channelstv.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NGA-S006"
+}

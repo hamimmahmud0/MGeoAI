@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "cce0effba67ee6e230415491bff965eee2be4db3933cb63be7db62d6bc86487a",
+  "country": "Netherlands",
+  "country_code": "NLD",
+  "dependency_group": "112 nederland",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "local_path": "html/NLD/NLD-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-18T07:00:00Z",
+  "publisher": "112 Nederland",
+  "schema_version": "1.0.0",
+  "source_id": "src_1277ad41f8ba6d87",
+  "source_metadata": {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "languages": [
+      "nl",
+      "en"
+    ],
+    "published_at": "2026-05-18T07:00:00+00:00",
+    "source_info_hash": "d0286a3632ae7a3f",
+    "source_info_path": "html/NLD/NLD-S007/SOURCE_INFO.md",
+    "timezone": "Europe/Amsterdam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "auto-ongeluk",
+      "botsing voertuigen",
+      "busongeluk"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://112nederland.nl/2026/05/18/video/slachtoffer-dodelijk-ongeval-is-61-jarige-vrouw/",
+  "timezone": "Europe/Amsterdam",
+  "title": "Slachtoffer dodelijk ongeval is 61-jarige vrouw"
+}

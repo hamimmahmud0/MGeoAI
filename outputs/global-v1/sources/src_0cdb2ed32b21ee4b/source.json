@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "398c27eb46c51824e38dd62db56b18806a63591d426ac8b99a5f271820e898b9",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2017-06-27T10:42:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_0cdb2ed32b21ee4b",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2017-06-27T10:42:00+00:00",
+    "source_info_hash": "90a99774c81081fd",
+    "source_info_path": "html/AUS/AUS-S010/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/bangladesh/23363/bangladeshi-student-dies-in-australia-car-accident",
+  "timezone": "Australia/Sydney",
+  "title": "Bangladeshi student dies in Australia car accident"
+}

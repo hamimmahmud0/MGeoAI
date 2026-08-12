@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2c9fc6e5a2c38b25",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2c9fc6e5a2c38b25",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un muerto y dos lesionados por accidente de tránsito en San Miguel",
+      "source_path": "html/MEX/MEX-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ec5ddbb9eb7977d",
+    "text": "Un muerto y dos lesionados por accidente de tránsito en San Miguel",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c05301c1633a1ace",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c05301c1633a1ace",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T16:30:02-06:00",
+      "source_path": "html/MEX/MEX-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ec5ddbb9eb7977d",
+    "text": "2026-08-10T16:30:02-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6219e9bf4aa567d0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6219e9bf4aa567d0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Diario1",
+      "source_path": "html/MEX/MEX-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ec5ddbb9eb7977d",
+    "text": "Publisher: Diario1",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_574a9510a86dc690",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_574a9510a86dc690",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://diario1.com/nacionales/2026/08/un-muerto-y-dos-lesionados-por-accidente-de-transito-en-san-miguel/",
+      "source_path": "html/MEX/MEX-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ec5ddbb9eb7977d",
+    "text": "Original source: https://diario1.com/nacionales/2026/08/un-muerto-y-dos-lesionados-por-accidente-de-transito-en-san-miguel/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_636107ea3c7ef16e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_636107ea3c7ef16e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ec5ddbb9eb7977d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bd5e87aa4e500a49",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bd5e87aa4e500a49",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://diario1.com/nacionales/2026/08/un-muerto-y-dos-lesionados-por-accidente-de-transito-en-san-miguel/",
+      "source_path": "html/MEX/MEX-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3ec5ddbb9eb7977d",
+    "text": "https://diario1.com/nacionales/2026/08/un-muerto-y-dos-lesionados-por-accidente-de-transito-en-san-miguel/",
+    "url": null
+  }
+]

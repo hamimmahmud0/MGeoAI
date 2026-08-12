@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_907a683d7e86a134",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_907a683d7e86a134",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "幼稚園バスの運転手死亡 住宅に突っ込む事故 搬送の園児ら、けがの程度不明",
+      "source_path": "html/JPN/JPN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_28f6d2feedf56bdf",
+    "text": "幼稚園バスの運転手死亡 住宅に突っ込む事故 搬送の園児ら、けがの程度不明",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_43eec00ee5181bb0",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_43eec00ee5181bb0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-29T12:54:00+09:00",
+      "source_path": "html/JPN/JPN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_28f6d2feedf56bdf",
+    "text": "2025-09-29T12:54:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba61b9c27eb0e448",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba61b9c27eb0e448",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A kindergarten bus driver died after the vehicle crashed into a residence; children were taken to hospital.",
+      "source_path": "html/JPN/JPN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_28f6d2feedf56bdf",
+    "text": "A kindergarten bus driver died after the vehicle crashed into a residence; children were taken to hospital.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_05b118235a9be40e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_05b118235a9be40e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: TV Asahi News",
+      "source_path": "html/JPN/JPN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_28f6d2feedf56bdf",
+    "text": "Publisher: TV Asahi News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0bd6387da244ab40",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0bd6387da244ab40",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://news.tv-asahi.co.jp/news_society/articles/000456289.html",
+      "source_path": "html/JPN/JPN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_28f6d2feedf56bdf",
+    "text": "Original source: https://news.tv-asahi.co.jp/news_society/articles/000456289.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f764d7c6cb27313f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f764d7c6cb27313f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_28f6d2feedf56bdf",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e2be710491c1f7fb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e2be710491c1f7fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://news.tv-asahi.co.jp/news_society/articles/000456289.html",
+      "source_path": "html/JPN/JPN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_28f6d2feedf56bdf",
+    "text": "https://news.tv-asahi.co.jp/news_society/articles/000456289.html",
+    "url": null
+  }
+]

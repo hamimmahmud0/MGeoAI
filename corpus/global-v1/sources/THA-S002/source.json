@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S002",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Hindu",
+  "canonical_url": "https://www.thehindu.com/news/international/several-killed-injured-in-train-collision-that-sparks-bus-fire-in-thailand-updates/article70986789.ece",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thehindu.com/news/international/several-killed-injured-in-train-collision-that-sparks-bus-fire-in-thailand-updates/article70986789.ece",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "80355015443f6d36a6a711b8d9d9e420a9c5f0395a67ecc90a1a4f39240461a8",
+      "size_bytes": 1216,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:51.200133+06:00",
+  "published_at": "2026-05-16T05:10:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thehindu.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S002"
+}

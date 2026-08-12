@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ETH-S004",
+  "country_code": "ETH",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Deccan Chronicle",
+  "canonical_url": "https://www.deccanchronicle.com/world/death-toll-in-ethiopia-road-accident-rises-to-71-local-official-1850655",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.deccanchronicle.com/world/death-toll-in-ethiopia-road-accident-rises-to-71-local-official-1850655",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Ethiopia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "08b151f3b8ab343dada6f69780a192388c03eb49abb99675ef4a84123272a8ff",
+      "size_bytes": 1034,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "am",
+    "en",
+    "om"
+  ],
+  "traffic_keywords": [
+    "የመንገድ አደጋ",
+    "የትራፊክ አደጋ",
+    "road accident",
+    "traffic crash"
+  ],
+  "timezone": "Africa/Addis_Ababa",
+  "captured_at": "2026-08-11T21:56:25.776723Z",
+  "published_at": "2024-12-29T22:49:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "deccanchronicle.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ETH-S004"
+}

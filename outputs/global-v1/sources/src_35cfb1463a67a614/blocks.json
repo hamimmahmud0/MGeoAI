@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_949a725e64198fcd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_949a725e64198fcd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Accidente de tránsito en la vía al mar involucra a dos tractocamiones y deja varios heridos; esto se sabe de la emergencia",
+      "source_path": "html/COL/COL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_35cfb1463a67a614",
+    "text": "Accidente de tránsito en la vía al mar involucra a dos tractocamiones y deja varios heridos; esto se sabe de la emergencia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c844e14dc3891f03",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c844e14dc3891f03",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-27T02:00:00-05:00",
+      "source_path": "html/COL/COL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_35cfb1463a67a614",
+    "text": "2026-05-27T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b9589a4ac8011a32",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b9589a4ac8011a32",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: elpais.com.co",
+      "source_path": "html/COL/COL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_35cfb1463a67a614",
+    "text": "Publisher: elpais.com.co",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_650c5de9029c27dc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_650c5de9029c27dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.elpais.com.co/colombia/accidente-de-transito-en-la-via-al-mar-involucra-a-dos-tractocamiones-y-deja-varios-heridos-esto-se-sabe-de-la-emergencia-2724.html",
+      "source_path": "html/COL/COL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_35cfb1463a67a614",
+    "text": "Original source: https://www.elpais.com.co/colombia/accidente-de-transito-en-la-via-al-mar-involucra-a-dos-tractocamiones-y-deja-varios-heridos-esto-se-sabe-de-la-emergencia-2724.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e69b17b6d1fa6450",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e69b17b6d1fa6450",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/COL/COL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_35cfb1463a67a614",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e1d994412a647503",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e1d994412a647503",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.elpais.com.co/colombia/accidente-de-transito-en-la-via-al-mar-involucra-a-dos-tractocamiones-y-deja-varios-heridos-esto-se-sabe-de-la-emergencia-2724.html",
+      "source_path": "html/COL/COL-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_35cfb1463a67a614",
+    "text": "https://www.elpais.com.co/colombia/accidente-de-transito-en-la-via-al-mar-involucra-a-dos-tractocamiones-y-deja-varios-heridos-esto-se-sabe-de-la-emergencia-2724.html",
+    "url": null
+  }
+]

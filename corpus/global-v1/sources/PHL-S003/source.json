@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PHL-S003",
+  "country_code": "PHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Daily Mirror",
+  "canonical_url": "https://www.dailymirror.lk/breaking-news/Ten-dead-dozens-injured-in-Philippines-bus-crash/108-307942",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dailymirror.lk/breaking-news/Ten-dead-dozens-injured-in-Philippines-bus-crash/108-307942",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Philippines%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "d1c87c94f422a7e633a2db2d300523ada3bda27eb9b3b99d3d8d955bce2ddc52",
+      "size_bytes": 991,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "banggaan ng sasakyan"
+  ],
+  "timezone": "Asia/Manila",
+  "captured_at": "2026-08-12T03:38:01.054346+06:00",
+  "published_at": "2025-05-02T11:49:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dailymirror.lk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PHL-S003"
+}

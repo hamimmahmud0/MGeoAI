@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5c6fab27a51d051c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5c6fab27a51d051c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One dead after two-vehicle road traffic collision in Omagh",
+      "source_path": "html/IRL/IRL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_da452d7160aa921f",
+    "text": "One dead after two-vehicle road traffic collision in Omagh",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3865cdfa19d5e50f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3865cdfa19d5e50f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-18T08:00:00+01:00",
+      "source_path": "html/IRL/IRL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_da452d7160aa921f",
+    "text": "2026-05-18T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba28ead2d57e19be",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba28ead2d57e19be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Irish Mirror",
+      "source_path": "html/IRL/IRL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_da452d7160aa921f",
+    "text": "Publisher: Irish Mirror",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7178448e9dc1c77d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7178448e9dc1c77d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.irishmirror.ie/news/irish-news/one-dead-after-two-vehicle-37170077",
+      "source_path": "html/IRL/IRL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_da452d7160aa921f",
+    "text": "Original source: https://www.irishmirror.ie/news/irish-news/one-dead-after-two-vehicle-37170077",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_67d334e22ca3eafa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_67d334e22ca3eafa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_da452d7160aa921f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ab66509c45e2d30a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ab66509c45e2d30a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.irishmirror.ie/news/irish-news/one-dead-after-two-vehicle-37170077",
+      "source_path": "html/IRL/IRL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_da452d7160aa921f",
+    "text": "https://www.irishmirror.ie/news/irish-news/one-dead-after-two-vehicle-37170077",
+    "url": null
+  }
+]

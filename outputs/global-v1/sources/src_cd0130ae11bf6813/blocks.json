@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_79b27ea827a6c675",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_79b27ea827a6c675",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladesh bus crashes into river as 16 killed with frantic search for survivors",
+      "source_path": "html/BGD/BGD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd0130ae11bf6813",
+    "text": "Bangladesh bus crashes into river as 16 killed with frantic search for survivors",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f249424dc8202551",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f249424dc8202551",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-03-25T19:33:00+06:00",
+      "source_path": "html/BGD/BGD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd0130ae11bf6813",
+    "text": "2026-03-25T19:33:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90ede11fa16601ec",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_90ede11fa16601ec",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Frantic rescue efforts are underway after a bus plunged into a river - 16 bodies have been recovered so far. As many as 40 passengers ...",
+      "source_path": "html/BGD/BGD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd0130ae11bf6813",
+    "text": "Frantic rescue efforts are underway after a bus plunged into a river - 16 bodies have been recovered so far. As many as 40 passengers ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bcf47f76d57f814c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bcf47f76d57f814c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Mirror",
+      "source_path": "html/BGD/BGD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd0130ae11bf6813",
+    "text": "Publisher: The Mirror",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b728ef93b4d67531",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b728ef93b4d67531",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.mirror.co.uk/news/world-news/breaking-bangladesh-bus-crashes-river-36924152",
+      "source_path": "html/BGD/BGD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd0130ae11bf6813",
+    "text": "Original source: https://www.mirror.co.uk/news/world-news/breaking-bangladesh-bus-crashes-river-36924152",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3efc44d62f715f5e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3efc44d62f715f5e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd0130ae11bf6813",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b412b37aa12daa0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2b412b37aa12daa0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.mirror.co.uk/news/world-news/breaking-bangladesh-bus-crashes-river-36924152",
+      "source_path": "html/BGD/BGD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd0130ae11bf6813",
+    "text": "https://www.mirror.co.uk/news/world-news/breaking-bangladesh-bus-crashes-river-36924152",
+    "url": null
+  }
+]

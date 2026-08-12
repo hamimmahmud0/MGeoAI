@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SGP-S001",
+  "country_code": "SGP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "International Business Times Singapore",
+  "canonical_url": "https://www.ibtimes.sg/singapore-25-year-old-woman-hospitalized-after-car-mounts-pedestrian-walkway-near-mandarin-gallery-91703",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.ibtimes.sg/singapore-25-year-old-woman-hospitalized-after-car-mounts-pedestrian-walkway-near-mandarin-gallery-91703",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Singapore%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "fc69b84fa1b60c10efff187436d5f8da58092e25193838f3ec2c89dd58527a99",
+      "size_bytes": 1247,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "traffic accident",
+    "road collision",
+    "vehicle crash",
+    "bus accident"
+  ],
+  "timezone": "Asia/Singapore",
+  "captured_at": "2026-08-12T03:37:43.698046+06:00",
+  "published_at": "2026-08-07T07:20:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ibtimes.sg",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SGP-S001"
+}

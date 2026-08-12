@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "USA",
+  "name": "United States",
+  "languages": [
+    "en"
+  ],
+  "timezones": [
+    "America/Chicago"
+  ],
+  "target_sources": 12
+}

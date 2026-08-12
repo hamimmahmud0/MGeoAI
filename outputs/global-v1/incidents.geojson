@@ -1,0 +1,77 @@
+{
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [
+          91.7417,
+          24.7063
+        ],
+        "type": "Point"
+      },
+      "id": "inc_b0eae1856641ab8d",
+      "properties": {
+        "confidence": 0.8800000000000001,
+        "event_start": "2026-08-07T08:02:00",
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_b0eae1856641ab8d",
+        "location_name": "Kashikapan, Osmaninagar, Sylhet",
+        "sentiment_count": 0,
+        "source_count": 4,
+        "status": "reported",
+        "title": "Passenger-bus collision in Osmaninagar, Sylhet",
+        "uncertainty_radius_km": 3.0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          89.3773,
+          24.8465
+        ],
+        "type": "Point"
+      },
+      "id": "inc_fe05c9db5620d056",
+      "properties": {
+        "confidence": 0.55,
+        "event_start": "2026-08-07T18:31:00",
+        "event_type": "road_crash",
+        "granularity": "district",
+        "incident_id": "inc_fe05c9db5620d056",
+        "location_name": "Bogura District, Bangladesh",
+        "sentiment_count": 0,
+        "source_count": 1,
+        "status": "reported",
+        "title": "Bus crash involving labourers in Sherpur, Bogura",
+        "uncertainty_radius_km": 35.0
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          91.7417,
+          24.7063
+        ],
+        "type": "Point"
+      },
+      "id": "inc_0dfd640a2f72df0c",
+      "properties": {
+        "confidence": 0.68,
+        "event_start": "2026-08-10T11:55:00",
+        "event_type": "road_crash",
+        "granularity": "area",
+        "incident_id": "inc_0dfd640a2f72df0c",
+        "location_name": "Kashikapan, Osmaninagar, Sylhet",
+        "sentiment_count": 0,
+        "source_count": 1,
+        "status": "reported",
+        "title": "Passenger-bus collision in Osmaninagar, Sylhet",
+        "uncertainty_radius_km": 3.0
+      },
+      "type": "Feature"
+    }
+  ],
+  "type": "FeatureCollection"
+}

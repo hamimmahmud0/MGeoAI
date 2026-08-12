@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "58460bb34699a8d603dcb739588966ec4e5dc783f6ffc29f6ddf57aad72fc570",
+  "country": "Portugal",
+  "country_code": "PRT",
+  "dependency_group": "contacto.lu",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/PRT/PRT-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-25T07:00:00Z",
+  "publisher": "contacto.lu",
+  "schema_version": "1.0.0",
+  "source_id": "src_756ed05c06a42d72",
+  "source_metadata": {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-05-25T07:00:00+00:00",
+    "source_info_hash": "52761b165afc09c6",
+    "source_info_path": "html/PRT/PRT-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Lisbon",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente rodoviário",
+      "acidente de viação",
+      "colisão de veículos",
+      "acidente de autocarro"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.contacto.lu/luxemburgo/seis-feridos-numa-colisao-entre-dois-automoveis.-helicoptero-do-samu-mobilizado/153179285.html",
+  "timezone": "Europe/Lisbon",
+  "title": "Seis feridos numa colisão entre dois automóveis. Helicóptero do Samu mobilizado"
+}

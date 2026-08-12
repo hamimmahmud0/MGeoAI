@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "98d2321eb97b6157867c48e276b9cd1820eb2ece2617eb8d93bbd2027eb51d9b",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "clarin.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-07T07:00:00Z",
+  "publisher": "Clarin.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_4cabd10efd577be0",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-07T07:00:00+00:00",
+    "source_info_hash": "95d8e9b760afc089",
+    "source_info_path": "html/ARG/ARG-S006/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.clarin.com/informacion-general/chatterbox-youtuber-argentino-27-anos-murio-accidente-transito-ruta-5_0_lv0ahfDXwq.html",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "Quién es Chatterbox, el youtuber argentino de 27 años que murió en un accidente de tránsito en la Ruta 5"
+}

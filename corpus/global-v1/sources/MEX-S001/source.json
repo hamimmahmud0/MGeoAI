@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MEX-S001",
+  "country_code": "MEX",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Associated Press",
+  "canonical_url": "https://apnews.com/article/train-bus-crash-deadly-mexico-city-5576772165c16fd1f2c35460845a81e8",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://apnews.com/article/train-bus-crash-deadly-mexico-city-5576772165c16fd1f2c35460845a81e8",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Atlacomulco+bus+train+crash+September+8+2025",
+      "label": "Discovery record (web_search_direct_access_check)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "fc74ed0481481428f865d45505e7c94c785d95466bd10a22100db54cdc6d0104",
+      "size_bytes": 1056,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "accidente carretero",
+    "choque vehicular",
+    "colisión vial"
+  ],
+  "timezone": "America/Mexico_City",
+  "captured_at": "2026-08-12T00:00:00Z",
+  "published_at": "2025-09-08T16:17:32Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "apnews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MEX-S001"
+}

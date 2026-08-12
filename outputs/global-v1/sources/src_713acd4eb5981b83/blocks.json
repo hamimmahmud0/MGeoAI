@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8116a6025438536d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8116a6025438536d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Morocco bus crash kills 33, mostly school athletes",
+      "source_path": "html/MAR/MAR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_713acd4eb5981b83",
+    "text": "Morocco bus crash kills 33, mostly school athletes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_41f38416f0193705",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_41f38416f0193705",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2015-04-10T10:10:00+01:00",
+      "source_path": "html/MAR/MAR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_713acd4eb5981b83",
+    "text": "2015-04-10T10:10:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4d88fd52c16c4686",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4d88fd52c16c4686",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "More than 30 people, mostly schoolchildren returning from a sports meet, were killed Friday in Morocco when their bus caught fire after a head-on collision ...",
+      "source_path": "html/MAR/MAR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_713acd4eb5981b83",
+    "text": "More than 30 people, mostly schoolchildren returning from a sports meet, were killed Friday in Morocco when their bus caught fire after a head-on collision ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6644e7e32c013d63",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6644e7e32c013d63",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Digital Journal",
+      "source_path": "html/MAR/MAR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_713acd4eb5981b83",
+    "text": "Publisher: Digital Journal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5e3b76e5166632a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5e3b76e5166632a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.digitaljournal.com/article/morocco-bus-crash-kills-33-mostly-school-athletes/",
+      "source_path": "html/MAR/MAR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_713acd4eb5981b83",
+    "text": "Original source: https://www.digitaljournal.com/article/morocco-bus-crash-kills-33-mostly-school-athletes/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84dc1f1721e3221d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84dc1f1721e3221d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_713acd4eb5981b83",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_12251306d481641b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_12251306d481641b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.digitaljournal.com/article/morocco-bus-crash-kills-33-mostly-school-athletes/",
+      "source_path": "html/MAR/MAR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_713acd4eb5981b83",
+    "text": "https://www.digitaljournal.com/article/morocco-bus-crash-kills-33-mostly-school-athletes/",
+    "url": null
+  }
+]

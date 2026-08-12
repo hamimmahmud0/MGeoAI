@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9d2170d2a4d58059",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9d2170d2a4d58059",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "15 killed, 32 injured in deadly road accident in eastern Egypt",
+      "source_path": "html/EGY/EGY-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e29ae9cccaa0108",
+    "text": "15 killed, 32 injured in deadly road accident in eastern Egypt",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4c52805fbe9ca8ef",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4c52805fbe9ca8ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T13:04:00+03:00",
+      "source_path": "html/EGY/EGY-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e29ae9cccaa0108",
+    "text": "2026-08-11T13:04:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7cf6f6eeb93ce95d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7cf6f6eeb93ce95d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 15 people were killed and 32 others injured in a deadly road accident in eastern Egypt on Tuesday, the Health Ministry said. The ...",
+      "source_path": "html/EGY/EGY-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e29ae9cccaa0108",
+    "text": "At least 15 people were killed and 32 others injured in a deadly road accident in eastern Egypt on Tuesday, the Health Ministry said. The ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5f25d0b307a7ed49",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5f25d0b307a7ed49",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Anadolu Agency",
+      "source_path": "html/EGY/EGY-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e29ae9cccaa0108",
+    "text": "Publisher: Anadolu Agency",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7976c0d45e2e0efe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7976c0d45e2e0efe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aa.com.tr/en/middle-east/15-killed-32-injured-in-deadly-road-accident-in-eastern-egypt/4024338",
+      "source_path": "html/EGY/EGY-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e29ae9cccaa0108",
+    "text": "Original source: https://www.aa.com.tr/en/middle-east/15-killed-32-injured-in-deadly-road-accident-in-eastern-egypt/4024338",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c72479742f3bd6b5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c72479742f3bd6b5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/EGY/EGY-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e29ae9cccaa0108",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a203f15c71516cc3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a203f15c71516cc3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aa.com.tr/en/middle-east/15-killed-32-injured-in-deadly-road-accident-in-eastern-egypt/4024338",
+      "source_path": "html/EGY/EGY-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0e29ae9cccaa0108",
+    "text": "https://www.aa.com.tr/en/middle-east/15-killed-32-injured-in-deadly-road-accident-in-eastern-egypt/4024338",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bf8fb6895e920f8b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bf8fb6895e920f8b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "【詳報】園児含む11人搬送、運転手死亡 幼稚園バスが住宅に突っ込む",
+      "source_path": "html/JPN/JPN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_252bf68f718462cb",
+    "text": "【詳報】園児含む11人搬送、運転手死亡 幼稚園バスが住宅に突っ込む",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f11d0bd76451802c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f11d0bd76451802c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-09-29T20:45:00+09:00",
+      "source_path": "html/JPN/JPN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_252bf68f718462cb",
+    "text": "2025-09-29T20:45:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_79fe4bc363e87fee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_79fe4bc363e87fee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Eleven people were taken to hospital after a kindergarten bus struck a house in Kamagaya; the driver died.",
+      "source_path": "html/JPN/JPN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_252bf68f718462cb",
+    "text": "Eleven people were taken to hospital after a kindergarten bus struck a house in Kamagaya; the driver died.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c187c5f72e3acd51",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c187c5f72e3acd51",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Chiba Nippo",
+      "source_path": "html/JPN/JPN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_252bf68f718462cb",
+    "text": "Publisher: Chiba Nippo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c32dd0ff7142e875",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c32dd0ff7142e875",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.chibanippo.co.jp/articles/1504265",
+      "source_path": "html/JPN/JPN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_252bf68f718462cb",
+    "text": "Original source: https://www.chibanippo.co.jp/articles/1504265",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8ee35f1969e5eb01",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8ee35f1969e5eb01",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_252bf68f718462cb",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e3de7e411add692",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2e3de7e411add692",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.chibanippo.co.jp/articles/1504265",
+      "source_path": "html/JPN/JPN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_252bf68f718462cb",
+    "text": "https://www.chibanippo.co.jp/articles/1504265",
+    "url": null
+  }
+]

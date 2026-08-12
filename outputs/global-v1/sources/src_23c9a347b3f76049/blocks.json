@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_add1512543976763",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_add1512543976763",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Kierowca zginął w wypadku na S11 pod Poznaniem. Z auta nic nie zostało",
+      "source_path": "html/POL/POL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23c9a347b3f76049",
+    "text": "Kierowca zginął w wypadku na S11 pod Poznaniem. Z auta nic nie zostało",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_088c3285f30f347f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_088c3285f30f347f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-17T09:00:00+02:00",
+      "source_path": "html/POL/POL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23c9a347b3f76049",
+    "text": "2026-04-17T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2a3ca185a02eca8a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2a3ca185a02eca8a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Auto dosłownie zniknęło w betonowej ścianie Tragiczna noc na poznańskim odcinku drogi ekspresowej S11.",
+      "source_path": "html/POL/POL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23c9a347b3f76049",
+    "text": "Auto dosłownie zniknęło w betonowej ścianie Tragiczna noc na poznańskim odcinku drogi ekspresowej S11.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_68ba3c894f39ac1d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_68ba3c894f39ac1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Fakt",
+      "source_path": "html/POL/POL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23c9a347b3f76049",
+    "text": "Publisher: Fakt",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3aaa1b38b1137ca8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3aaa1b38b1137ca8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.fakt.pl/wydarzenia/polska/poznan/poznan-kierowca-zginal-w-wypadku-na-s11-auto-zniknelo-w-scianie/tvp2kd9",
+      "source_path": "html/POL/POL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23c9a347b3f76049",
+    "text": "Original source: https://www.fakt.pl/wydarzenia/polska/poznan/poznan-kierowca-zginal-w-wypadku-na-s11-auto-zniknelo-w-scianie/tvp2kd9",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2acd4a243bee2a3c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2acd4a243bee2a3c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23c9a347b3f76049",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b1b2ec9367060653",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b1b2ec9367060653",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.fakt.pl/wydarzenia/polska/poznan/poznan-kierowca-zginal-w-wypadku-na-s11-auto-zniknelo-w-scianie/tvp2kd9",
+      "source_path": "html/POL/POL-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23c9a347b3f76049",
+    "text": "https://www.fakt.pl/wydarzenia/polska/poznan/poznan-kierowca-zginal-w-wypadku-na-s11-auto-zniknelo-w-scianie/tvp2kd9",
+    "url": null
+  }
+]

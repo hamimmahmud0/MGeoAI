@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2309f3d77268365c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2309f3d77268365c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua pays tribute to his friends killed in Nigeria car crash",
+      "source_path": "html/NGA/NGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a187d2d5dd2d4795",
+    "text": "Anthony Joshua pays tribute to his friends killed in Nigeria car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e739c6087e533285",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e739c6087e533285",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-08T21:02:38+01:00",
+      "source_path": "html/NGA/NGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a187d2d5dd2d4795",
+    "text": "2026-01-08T21:02:38+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_97a229b3a58c3402",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_97a229b3a58c3402",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Former world heavyweight champion Anthony Joshua has paid tribute to his two close friends who were killed in a car accident in Nigeria.",
+      "source_path": "html/NGA/NGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a187d2d5dd2d4795",
+    "text": "Former world heavyweight champion Anthony Joshua has paid tribute to his two close friends who were killed in a car accident in Nigeria.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bf4603aaabd8452",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4bf4603aaabd8452",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: TRT Afrika",
+      "source_path": "html/NGA/NGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a187d2d5dd2d4795",
+    "text": "Publisher: TRT Afrika",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ded2e353e361cf1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ded2e353e361cf1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.trtafrika.com/english/article/719e8831a126",
+      "source_path": "html/NGA/NGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a187d2d5dd2d4795",
+    "text": "Original source: https://www.trtafrika.com/english/article/719e8831a126",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3359e24aab647354",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3359e24aab647354",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a187d2d5dd2d4795",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_883d396b5f7da6c2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_883d396b5f7da6c2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.trtafrika.com/english/article/719e8831a126",
+      "source_path": "html/NGA/NGA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a187d2d5dd2d4795",
+    "text": "https://www.trtafrika.com/english/article/719e8831a126",
+    "url": null
+  }
+]

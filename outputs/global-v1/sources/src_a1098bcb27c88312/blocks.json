@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_443bdd160e6c2c3e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_443bdd160e6c2c3e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Camionazo en Empalme deja un muerto y varios heridos",
+      "source_path": "html/MEX/MEX-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1098bcb27c88312",
+    "text": "Camionazo en Empalme deja un muerto y varios heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_173c8d980934ca64",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_173c8d980934ca64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-04T09:33:38-06:00",
+      "source_path": "html/MEX/MEX-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1098bcb27c88312",
+    "text": "2026-08-04T09:33:38-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe654902ab963407",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe654902ab963407",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Diario del Yaqui",
+      "source_path": "html/MEX/MEX-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1098bcb27c88312",
+    "text": "Publisher: Diario del Yaqui",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d0d6a0de85d0bc70",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d0d6a0de85d0bc70",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://diariodelyaqui.mx/sonora/camionazo-en-empalme-deja-un-muerto-y-varios-heridos/140429",
+      "source_path": "html/MEX/MEX-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1098bcb27c88312",
+    "text": "Original source: https://diariodelyaqui.mx/sonora/camionazo-en-empalme-deja-un-muerto-y-varios-heridos/140429",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_23224e5f2cbfa529",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_23224e5f2cbfa529",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1098bcb27c88312",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_407f26b93300fe5f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_407f26b93300fe5f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://diariodelyaqui.mx/sonora/camionazo-en-empalme-deja-un-muerto-y-varios-heridos/140429",
+      "source_path": "html/MEX/MEX-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a1098bcb27c88312",
+    "text": "https://diariodelyaqui.mx/sonora/camionazo-en-empalme-deja-un-muerto-y-varios-heridos/140429",
+    "url": null
+  }
+]

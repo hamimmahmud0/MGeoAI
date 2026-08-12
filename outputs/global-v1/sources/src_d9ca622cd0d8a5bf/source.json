@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "880472aa788e99e4da310d77fef3b99fe18769a8030272025e8526e1a824bc6d",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "en.mehrnews",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-04-10T04:57:00Z",
+  "publisher": "en.mehrnews",
+  "schema_version": "1.0.0",
+  "source_id": "src_d9ca622cd0d8a5bf",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2024-04-10T04:57:00+00:00",
+    "source_info_hash": "12896d8379d82046",
+    "source_info_path": "html/TUN/TUN-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://en.mehrnews.com/news/213732/8-killed-4-injured-in-traffic-accident-in-Tunisia",
+  "timezone": "Africa/Tunis",
+  "title": "8 killed, 4 injured in traffic accident in Tunisia"
+}

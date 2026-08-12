@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KEN-S006",
+  "country_code": "KEN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dawan Africa",
+  "canonical_url": "https://www.dawan.africa/news/one-killed-in-mwingi-highway-crash-involving-ambasa-coach-bus",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dawan.africa/news/one-killed-in-mwingi-highway-crash-involving-ambasa-coach-bus",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=KE%3Aen&gl=KE&hl=en-KE&q=%28road+crash+OR+traffic+accident+OR+collision%29+Kenya+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4cea115ddc8c2f36b81ceb793d750a4d81c94a6e483ff03eca4648a20181e55e",
+      "size_bytes": 1023,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "ajali barabarani",
+    "bus crash"
+  ],
+  "timezone": "Africa/Nairobi",
+  "captured_at": "2026-08-11T21:49:45.077385Z",
+  "published_at": "2026-06-24T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dawan.africa",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KEN-S006"
+}

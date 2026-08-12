@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ac5717bd4940069a4d85845fee7482530563f42039ea485cc423889341762aa4",
+  "country": "Egypt",
+  "country_code": "EGY",
+  "dependency_group": "ahram online",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/EGY/EGY-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-10T17:00:00Z",
+  "publisher": "Ahram Online",
+  "schema_version": "1.0.0",
+  "source_id": "src_dea41fd53f80d6c9",
+  "source_metadata": {
+    "country": "Egypt",
+    "country_code": "EGY",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2026-08-10T17:00:00+00:00",
+    "source_info_hash": "cdc1dd2e10a1b46a",
+    "source_info_path": "html/EGY/EGY-S008/SOURCE_INFO.md",
+    "timezone": "Africa/Cairo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم سيارات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=574465",
+  "timezone": "Africa/Cairo",
+  "title": "Egypt announces EGP 400,000 compensation for families of Ismailia crash victims"
+}

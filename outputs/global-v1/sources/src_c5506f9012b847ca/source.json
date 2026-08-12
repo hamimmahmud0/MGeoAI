@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "2f11ab2f38c3a589434ad2b74710ea4c04db667060f4ca7d6f7562321f72a89f",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "mena fn",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-07-23T02:30:00Z",
+  "publisher": "Mena FN",
+  "schema_version": "1.0.0",
+  "source_id": "src_c5506f9012b847ca",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2024-07-23T02:30:00+00:00",
+    "source_info_hash": "a97d0497bbbfc556",
+    "source_info_path": "html/PHL/PHL-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://menafn.com/1108471748/Road-accident-in-southern-Philippines-results-in-2-deaths-3-injuries",
+  "timezone": "Asia/Manila",
+  "title": "Road accident in southern Philippines results in 2 deaths, 3 injuries"
+}

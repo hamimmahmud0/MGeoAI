@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_20e2ba7610150488",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_20e2ba7610150488",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Acidente rodoviário provoca um morto e dois feridos na Madeira",
+      "source_path": "html/PRT/PRT-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4feea5eb67c6426",
+    "text": "Acidente rodoviário provoca um morto e dois feridos na Madeira",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e640fda2d22f7559",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e640fda2d22f7559",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T22:17:31+01:00",
+      "source_path": "html/PRT/PRT-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4feea5eb67c6426",
+    "text": "2026-08-03T22:17:31+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ef5bd0469585619",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ef5bd0469585619",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CNN Portugal",
+      "source_path": "html/PRT/PRT-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4feea5eb67c6426",
+    "text": "Publisher: CNN Portugal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f7f3781a3507f08d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f7f3781a3507f08d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://cnnportugal.iol.pt/madeira/funchal/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira/20260803/6a71056bd34e511da0b31738",
+      "source_path": "html/PRT/PRT-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4feea5eb67c6426",
+    "text": "Original source: https://cnnportugal.iol.pt/madeira/funchal/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira/20260803/6a71056bd34e511da0b31738",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1e6762519749e8e8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1e6762519749e8e8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4feea5eb67c6426",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_10fe3293f3cfe526",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_10fe3293f3cfe526",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://cnnportugal.iol.pt/madeira/funchal/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira/20260803/6a71056bd34e511da0b31738",
+      "source_path": "html/PRT/PRT-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c4feea5eb67c6426",
+    "text": "https://cnnportugal.iol.pt/madeira/funchal/acidente-rodoviario-provoca-um-morto-e-dois-feridos-na-madeira/20260803/6a71056bd34e511da0b31738",
+    "url": null
+  }
+]

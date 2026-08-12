@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3ab20ecf25d4cb1a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3ab20ecf25d4cb1a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Incidente stradale sulla statale, un morto e quattro feriti",
+      "source_path": "html/ITA/ITA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b492fcc49e3bc9",
+    "text": "Incidente stradale sulla statale, un morto e quattro feriti",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ad3b1b3ab5eb6d27",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ad3b1b3ab5eb6d27",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-28T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b492fcc49e3bc9",
+    "text": "2026-06-28T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4d0ecc4af6648bd8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4d0ecc4af6648bd8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Leggo.it",
+      "source_path": "html/ITA/ITA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b492fcc49e3bc9",
+    "text": "Publisher: Leggo.it",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_750a0a9d3d30f99d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_750a0a9d3d30f99d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.leggo.it/italia/cronache/28_giugno_2026_taranto_incidente_stradale_famiglia_papa_morto_feriti_chi_sono-9620007.html",
+      "source_path": "html/ITA/ITA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b492fcc49e3bc9",
+    "text": "Original source: https://www.leggo.it/italia/cronache/28_giugno_2026_taranto_incidente_stradale_famiglia_papa_morto_feriti_chi_sono-9620007.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48166dc64aade2d0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48166dc64aade2d0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b492fcc49e3bc9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4f878e54c9e906c3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4f878e54c9e906c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.leggo.it/italia/cronache/28_giugno_2026_taranto_incidente_stradale_famiglia_papa_morto_feriti_chi_sono-9620007.html",
+      "source_path": "html/ITA/ITA-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a4b492fcc49e3bc9",
+    "text": "https://www.leggo.it/italia/cronache/28_giugno_2026_taranto_incidente_stradale_famiglia_papa_morto_feriti_chi_sono-9620007.html",
+    "url": null
+  }
+]

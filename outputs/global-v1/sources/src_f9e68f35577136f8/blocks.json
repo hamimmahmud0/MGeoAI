@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_178fc0cadd0a4845",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_178fc0cadd0a4845",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bangladeshis reportedly among 15 killed in Turkey migrant bus crash",
+      "source_path": "html/TUR/TUR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f9e68f35577136f8",
+    "text": "Bangladeshis reportedly among 15 killed in Turkey migrant bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a9773aac0626a2e5",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a9773aac0626a2e5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-07-18T19:01:00+03:00",
+      "source_path": "html/TUR/TUR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f9e68f35577136f8",
+    "text": "2019-07-18T19:01:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7cfbfe4782629325",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7cfbfe4782629325",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The minibus carrying the migrants went off the road and rolled into a ditch in the province of Van on Thursday. Footage from the scene ...",
+      "source_path": "html/TUR/TUR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f9e68f35577136f8",
+    "text": "The minibus carrying the migrants went off the road and rolled into a ditch in the province of Van on Thursday. Footage from the scene ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ff9fd55592cbc509",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ff9fd55592cbc509",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/TUR/TUR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f9e68f35577136f8",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dffc926f8b3cc869",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dffc926f8b3cc869",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/bangladeshis-reportedly-among-15-killed-in-turkey-migrant-bus-crash",
+      "source_path": "html/TUR/TUR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f9e68f35577136f8",
+    "text": "Original source: https://bdnews24.com/bangladesh/bangladeshis-reportedly-among-15-killed-in-turkey-migrant-bus-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bcee1f9faa91cd1b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bcee1f9faa91cd1b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUR/TUR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f9e68f35577136f8",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e1e45de001821bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3e1e45de001821bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bdnews24.com/bangladesh/bangladeshis-reportedly-among-15-killed-in-turkey-migrant-bus-crash",
+      "source_path": "html/TUR/TUR-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f9e68f35577136f8",
+    "text": "https://bdnews24.com/bangladesh/bangladeshis-reportedly-among-15-killed-in-turkey-migrant-bus-crash",
+    "url": null
+  }
+]

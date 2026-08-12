@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "947b6688c03ff82dd025704d94614172802d4995064679a95086d3a654c94e00",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "the jordan times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/JOR/JOR-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2016-09-03T16:53:00Z",
+  "publisher": "The Jordan Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_d4d400c25dad1dbd",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2016-09-03T16:53:00+00:00",
+    "source_info_hash": "dcddc9e5f4afb8e0",
+    "source_info_path": "html/JOR/JOR-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.jordantimes.com/news/local/young-couple-killed-actor-critical-condition-after-amman-road-accident",
+  "timezone": "Asia/Amman",
+  "title": "Young couple killed, actor in critical condition after Amman road accident"
+}

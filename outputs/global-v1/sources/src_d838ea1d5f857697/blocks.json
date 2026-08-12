@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_7a777045e814dc10",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_7a777045e814dc10",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Cuatro muertos y seis heridos graves en un accidente de tráfico en Castellón",
+      "source_path": "html/ESP/ESP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d838ea1d5f857697",
+    "text": "Cuatro muertos y seis heridos graves en un accidente de tráfico en Castellón",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2ee13e63af2c51d7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2ee13e63af2c51d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-28T09:00:00+02:00",
+      "source_path": "html/ESP/ESP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d838ea1d5f857697",
+    "text": "2026-06-28T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3f5f337847e80e70",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3f5f337847e80e70",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Mundo",
+      "source_path": "html/ESP/ESP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d838ea1d5f857697",
+    "text": "Publisher: El Mundo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f823271b777f0c2a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f823271b777f0c2a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.elmundo.es/comunidad-valenciana/2026/06/28/6a40da5be85ecee64b8b4597.html",
+      "source_path": "html/ESP/ESP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d838ea1d5f857697",
+    "text": "Original source: https://www.elmundo.es/comunidad-valenciana/2026/06/28/6a40da5be85ecee64b8b4597.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cf4eed402f6c8fca",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cf4eed402f6c8fca",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ESP/ESP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d838ea1d5f857697",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2657f6826c827ce3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2657f6826c827ce3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.elmundo.es/comunidad-valenciana/2026/06/28/6a40da5be85ecee64b8b4597.html",
+      "source_path": "html/ESP/ESP-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d838ea1d5f857697",
+    "text": "https://www.elmundo.es/comunidad-valenciana/2026/06/28/6a40da5be85ecee64b8b4597.html",
+    "url": null
+  }
+]

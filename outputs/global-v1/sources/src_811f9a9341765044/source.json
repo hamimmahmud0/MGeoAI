@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "025754fedf7639f6aaf7bfaea0b1bb5def513840bcc1358dbc5e0e3e25b26362",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "infobae",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/MEX/MEX-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-30T07:00:00Z",
+  "publisher": "Infobae",
+  "schema_version": "1.0.0",
+  "source_id": "src_811f9a9341765044",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-30T07:00:00+00:00",
+    "source_info_hash": "7df7b49e0f317da3",
+    "source_info_path": "html/MEX/MEX-S008/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.infobae.com/mexico/2026/06/30/dan-18-anos-de-carcel-a-implicado-en-el-accidente-carretero-que-dejo-56-migrantes-muertos-en-2021/",
+  "timezone": "America/Mexico_City",
+  "title": "Dan 18 años de cárcel a implicado en el accidente carretero que dejó 56 migrantes muertos en 2021"
+}

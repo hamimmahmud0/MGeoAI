@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1314541ebe9a41d7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1314541ebe9a41d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Eight Bangladeshis killed, 18 injured in Saudi bus crash",
+      "source_path": "html/SAU/SAU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d64379e7a534280",
+    "text": "Eight Bangladeshis killed, 18 injured in Saudi bus crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cfbc4097a1e996ce",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cfbc4097a1e996ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-03-28T18:17:00+03:00",
+      "source_path": "html/SAU/SAU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d64379e7a534280",
+    "text": "2023-03-28T18:17:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_261cbcd37b27b93b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_261cbcd37b27b93b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least eight Bangladeshi pilgrims were killed when a bus carrying them among others heading to Mecca burst into flames after a collision on a ...",
+      "source_path": "html/SAU/SAU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d64379e7a534280",
+    "text": "At least eight Bangladeshi pilgrims were killed when a bus carrying them among others heading to Mecca burst into flames after a collision on a ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d1727061a84915a2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d1727061a84915a2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/SAU/SAU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d64379e7a534280",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ecf15f726986014",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ecf15f726986014",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/asia/307748/eight-bangladeshis-killed-18-injured-in-saudi-bus",
+      "source_path": "html/SAU/SAU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d64379e7a534280",
+    "text": "Original source: https://www.dhakatribune.com/world/asia/307748/eight-bangladeshis-killed-18-injured-in-saudi-bus",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98ec95c75362b6da",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_98ec95c75362b6da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d64379e7a534280",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_965624f3cf439264",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_965624f3cf439264",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/asia/307748/eight-bangladeshis-killed-18-injured-in-saudi-bus",
+      "source_path": "html/SAU/SAU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0d64379e7a534280",
+    "text": "https://www.dhakatribune.com/world/asia/307748/eight-bangladeshis-killed-18-injured-in-saudi-bus",
+    "url": null
+  }
+]

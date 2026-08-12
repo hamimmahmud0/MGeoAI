@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a316c0a5a109ffa0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a316c0a5a109ffa0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Canada: Punjab-origin jail warden among three killed in road accident while transferring prisoner",
+      "source_path": "html/CAN/CAN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1c3e9c4d5f787a73",
+    "text": "Canada: Punjab-origin jail warden among three killed in road accident while transferring prisoner",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_445959d34ab752d4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_445959d34ab752d4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T00:50:25-04:00",
+      "source_path": "html/CAN/CAN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1c3e9c4d5f787a73",
+    "text": "2026-08-08T00:50:25-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a47d39b41a683bc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4a47d39b41a683bc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: PTC News",
+      "source_path": "html/CAN/CAN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1c3e9c4d5f787a73",
+    "text": "Publisher: PTC News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0147eb3491f33d55",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0147eb3491f33d55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ptcnews.tv/amp/punjab/canada-punjab-origin-jail-warden-among-three-killed-in-road-accident-while-transferring-prisoner-4427883",
+      "source_path": "html/CAN/CAN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1c3e9c4d5f787a73",
+    "text": "Original source: https://www.ptcnews.tv/amp/punjab/canada-punjab-origin-jail-warden-among-three-killed-in-road-accident-while-transferring-prisoner-4427883",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_566e0b7a1a554935",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_566e0b7a1a554935",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1c3e9c4d5f787a73",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cec46351468d5757",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cec46351468d5757",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ptcnews.tv/amp/punjab/canada-punjab-origin-jail-warden-among-three-killed-in-road-accident-while-transferring-prisoner-4427883",
+      "source_path": "html/CAN/CAN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1c3e9c4d5f787a73",
+    "text": "https://www.ptcnews.tv/amp/punjab/canada-punjab-origin-jail-warden-among-three-killed-in-road-accident-while-transferring-prisoner-4427883",
+    "url": null
+  }
+]

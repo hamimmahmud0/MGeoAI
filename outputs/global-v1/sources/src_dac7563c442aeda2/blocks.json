@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2761137fd76e9ed6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2761137fd76e9ed6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Students Among Several Feared Dead in Road Crash on Nairobi-Mombasa Highway",
+      "source_path": "html/KEN/KEN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dac7563c442aeda2",
+    "text": "Students Among Several Feared Dead in Road Crash on Nairobi-Mombasa Highway",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef269e1345f701c9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ef269e1345f701c9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-21T11:00:00+03:00",
+      "source_path": "html/KEN/KEN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dac7563c442aeda2",
+    "text": "2026-02-21T11:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bef7666e601e538",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4bef7666e601e538",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A tragic road accident at Salama Downtown along the Mombasa-Nairobi highway has left more than five people dead following a head-on collision involving a Naekana ...",
+      "source_path": "html/KEN/KEN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dac7563c442aeda2",
+    "text": "A tragic road accident at Salama Downtown along the Mombasa-Nairobi highway has left more than five people dead following a head-on collision involving a Naekana ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fceb2dee770edf7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0fceb2dee770edf7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Kenyans.co.ke",
+      "source_path": "html/KEN/KEN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dac7563c442aeda2",
+    "text": "Publisher: Kenyans.co.ke",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9b06a18cb9548e35",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9b06a18cb9548e35",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.kenyans.co.ke/news/121059-more-five-killed-matatu-and-lorry-crash-salama-nairobi-mombasa-highway",
+      "source_path": "html/KEN/KEN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dac7563c442aeda2",
+    "text": "Original source: https://www.kenyans.co.ke/news/121059-more-five-killed-matatu-and-lorry-crash-salama-nairobi-mombasa-highway",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ff070895eb8bded",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ff070895eb8bded",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dac7563c442aeda2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d54a6c2391bc68f1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d54a6c2391bc68f1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.kenyans.co.ke/news/121059-more-five-killed-matatu-and-lorry-crash-salama-nairobi-mombasa-highway",
+      "source_path": "html/KEN/KEN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_dac7563c442aeda2",
+    "text": "https://www.kenyans.co.ke/news/121059-more-five-killed-matatu-and-lorry-crash-salama-nairobi-mombasa-highway",
+    "url": null
+  }
+]

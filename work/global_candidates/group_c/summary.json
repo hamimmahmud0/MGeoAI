@@ -1,0 +1,136 @@
+{
+  "generated_at": "2026-08-12T03:55:02.434113+06:00",
+  "group": "C",
+  "collection_method": "Bing News RSS metadata, targeted web-search additions, and robots-aware direct publisher access checks",
+  "candidate_file": "candidates.jsonl",
+  "access_ledger_file": "access_ledger.jsonl",
+  "candidate_count": 342,
+  "countries": {
+    "BD": {
+      "country_name": "Bangladesh",
+      "candidate_count": 30,
+      "distinct_domain_count": 12,
+      "accessible_html_count": 26,
+      "plausible_same_incident_pair_count": 1
+    },
+    "IN": {
+      "country_name": "India",
+      "candidate_count": 28,
+      "distinct_domain_count": 16,
+      "accessible_html_count": 24,
+      "plausible_same_incident_pair_count": 1
+    },
+    "PK": {
+      "country_name": "Pakistan",
+      "candidate_count": 19,
+      "distinct_domain_count": 12,
+      "accessible_html_count": 18,
+      "plausible_same_incident_pair_count": 1
+    },
+    "LK": {
+      "country_name": "Sri Lanka",
+      "candidate_count": 16,
+      "distinct_domain_count": 8,
+      "accessible_html_count": 14,
+      "plausible_same_incident_pair_count": 1
+    },
+    "NP": {
+      "country_name": "Nepal",
+      "candidate_count": 18,
+      "distinct_domain_count": 14,
+      "accessible_html_count": 16,
+      "plausible_same_incident_pair_count": 1
+    },
+    "ID": {
+      "country_name": "Indonesia",
+      "candidate_count": 18,
+      "distinct_domain_count": 17,
+      "accessible_html_count": 15,
+      "plausible_same_incident_pair_count": 1
+    },
+    "MY": {
+      "country_name": "Malaysia",
+      "candidate_count": 18,
+      "distinct_domain_count": 13,
+      "accessible_html_count": 18,
+      "plausible_same_incident_pair_count": 1
+    },
+    "SG": {
+      "country_name": "Singapore",
+      "candidate_count": 15,
+      "distinct_domain_count": 7,
+      "accessible_html_count": 15,
+      "plausible_same_incident_pair_count": 1
+    },
+    "TH": {
+      "country_name": "Thailand",
+      "candidate_count": 15,
+      "distinct_domain_count": 15,
+      "accessible_html_count": 14,
+      "plausible_same_incident_pair_count": 1
+    },
+    "PH": {
+      "country_name": "Philippines",
+      "candidate_count": 14,
+      "distinct_domain_count": 13,
+      "accessible_html_count": 12,
+      "plausible_same_incident_pair_count": 1
+    },
+    "VN": {
+      "country_name": "Vietnam",
+      "candidate_count": 21,
+      "distinct_domain_count": 14,
+      "accessible_html_count": 20,
+      "plausible_same_incident_pair_count": 1
+    },
+    "JP": {
+      "country_name": "Japan",
+      "candidate_count": 25,
+      "distinct_domain_count": 20,
+      "accessible_html_count": 18,
+      "plausible_same_incident_pair_count": 1
+    },
+    "KR": {
+      "country_name": "South Korea",
+      "candidate_count": 23,
+      "distinct_domain_count": 14,
+      "accessible_html_count": 22,
+      "plausible_same_incident_pair_count": 1
+    },
+    "AU": {
+      "country_name": "Australia",
+      "candidate_count": 23,
+      "distinct_domain_count": 16,
+      "accessible_html_count": 20,
+      "plausible_same_incident_pair_count": 1
+    },
+    "NZ": {
+      "country_name": "New Zealand",
+      "candidate_count": 15,
+      "distinct_domain_count": 7,
+      "accessible_html_count": 15,
+      "plausible_same_incident_pair_count": 1
+    },
+    "AE": {
+      "country_name": "United Arab Emirates",
+      "candidate_count": 29,
+      "distinct_domain_count": 13,
+      "accessible_html_count": 26,
+      "plausible_same_incident_pair_count": 1
+    },
+    "SA": {
+      "country_name": "Saudi Arabia",
+      "candidate_count": 15,
+      "distinct_domain_count": 5,
+      "accessible_html_count": 13,
+      "plausible_same_incident_pair_count": 1
+    }
+  },
+  "blockers": [],
+  "limitations": [
+    "Candidates are leads for human review and are not verified facts.",
+    "RSS descriptions are retained as short discovery excerpts; article bodies are not stored.",
+    "Same-incident pairs are lexical/date candidates and require human confirmation.",
+    "Publisher-country assignment is not incident geolocation evidence."
+  ]
+}

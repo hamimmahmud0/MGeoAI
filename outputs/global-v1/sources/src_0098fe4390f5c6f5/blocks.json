@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_937b2c2884e970c8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_937b2c2884e970c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "12 people die in a series of traffic accidents in Tunisia",
+      "source_path": "html/TUN/TUN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0098fe4390f5c6f5",
+    "text": "12 people die in a series of traffic accidents in Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2b79dd65b97c97a5",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2b79dd65b97c97a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2004-11-01T19:00:00+01:00",
+      "source_path": "html/TUN/TUN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0098fe4390f5c6f5",
+    "text": "2004-11-01T19:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7a670b1088ca4bf5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7a670b1088ca4bf5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Twelve have been killed and six wounded in a series of traffic accidents in Tunisia, November 1, according to the Tunisian Traffic Commission in the ...",
+      "source_path": "html/TUN/TUN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0098fe4390f5c6f5",
+    "text": "Twelve have been killed and six wounded in a series of traffic accidents in Tunisia, November 1, according to the Tunisian Traffic Commission in the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8227d855868b0764",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8227d855868b0764",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Al Bawaba News",
+      "source_path": "html/TUN/TUN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0098fe4390f5c6f5",
+    "text": "Publisher: Al Bawaba News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_32ca0971e874cd5b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_32ca0971e874cd5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.albawaba.com/news/12-people-die-series-traffic-accidents-tunisia",
+      "source_path": "html/TUN/TUN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0098fe4390f5c6f5",
+    "text": "Original source: https://www.albawaba.com/news/12-people-die-series-traffic-accidents-tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a975489a4b018220",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a975489a4b018220",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0098fe4390f5c6f5",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8da02ec372211d3b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8da02ec372211d3b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.albawaba.com/news/12-people-die-series-traffic-accidents-tunisia",
+      "source_path": "html/TUN/TUN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0098fe4390f5c6f5",
+    "text": "https://www.albawaba.com/news/12-people-die-series-traffic-accidents-tunisia",
+    "url": null
+  }
+]

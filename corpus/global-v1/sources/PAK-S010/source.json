@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PAK-S010",
+  "country_code": "PAK",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Daily Star",
+  "canonical_url": "https://www.thedailystar.net/58-killed-in-road-accident-in-south-pakistan-49788",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thedailystar.net/58-killed-in-road-accident-in-south-pakistan-49788",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Pakistan%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "279b9f888990411a29bfcfbed838bcd87266f95766a3e9b2c811ff36d9c3a16c",
+      "size_bytes": 945,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "ٹریفک حادثہ",
+    "سڑک حادثہ",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Karachi",
+  "captured_at": "2026-08-12T03:55:02.407705+06:00",
+  "published_at": "2014-11-10T16:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thedailystar.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PAK-S010"
+}

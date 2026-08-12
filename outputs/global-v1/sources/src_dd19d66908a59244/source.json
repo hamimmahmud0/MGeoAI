@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ac61b8ee7d190bf7b1355a07cabd65b4461549acb4f4cfc792af0d0b385a005a",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "france 24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-12-31T08:00:00Z",
+  "publisher": "France 24",
+  "schema_version": "1.0.0",
+  "source_id": "src_dd19d66908a59244",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2025-12-31T08:00:00+00:00",
+    "source_info_hash": "583aaa83fe6edcdb",
+    "source_info_path": "html/NGA/NGA-S009/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.france24.com/en/video/20251231-anthony-joshua-stable-after-car-accident-in-nigeria-which-killed-two-of-his-team-members",
+  "timezone": "Africa/Lagos",
+  "title": "Anthony Joshua stable after car accident in Nigeria which killed two of his team members"
+}

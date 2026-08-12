@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b5d319c48a33c8a1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b5d319c48a33c8a1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two dead, another hospitalised after two crashes on same Auckland road",
+      "source_path": "html/NZL/NZL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b72c7649920b41f",
+    "text": "Two dead, another hospitalised after two crashes on same Auckland road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d950709942b5fd8d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d950709942b5fd8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-12-31T14:28:00+13:00",
+      "source_path": "html/NZL/NZL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b72c7649920b41f",
+    "text": "2022-12-31T14:28:00+13:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_01fb2671fde6252e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_01fb2671fde6252e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Auckland police were twice at the scene of the same suburban road last night for two separate crashes which killed two people and hospitalised another. ...",
+      "source_path": "html/NZL/NZL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b72c7649920b41f",
+    "text": "Auckland police were twice at the scene of the same suburban road last night for two separate crashes which killed two people and hospitalised another. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_440e1b79f99b2178",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_440e1b79f99b2178",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Newstalk ZB",
+      "source_path": "html/NZL/NZL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b72c7649920b41f",
+    "text": "Publisher: Newstalk ZB",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_18c8f4c75744a290",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_18c8f4c75744a290",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.newstalkzb.co.nz/news/auckland/two-crashes-overnight-close-an-auckland-road-after-two-killed-another-hospitalised/",
+      "source_path": "html/NZL/NZL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b72c7649920b41f",
+    "text": "Original source: https://www.newstalkzb.co.nz/news/auckland/two-crashes-overnight-close-an-auckland-road-after-two-killed-another-hospitalised/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_65dfe75676e8fa6e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_65dfe75676e8fa6e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NZL/NZL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b72c7649920b41f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90a768cf4ba9eaf3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_90a768cf4ba9eaf3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.newstalkzb.co.nz/news/auckland/two-crashes-overnight-close-an-auckland-road-after-two-killed-another-hospitalised/",
+      "source_path": "html/NZL/NZL-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b72c7649920b41f",
+    "text": "https://www.newstalkzb.co.nz/news/auckland/two-crashes-overnight-close-an-auckland-road-after-two-killed-another-hospitalised/",
+    "url": null
+  }
+]

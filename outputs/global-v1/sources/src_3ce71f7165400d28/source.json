@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6f436cf190b03666dcd9ca6a0879bec6c206895d0e5b9670063642afec7eb2d8",
+  "country": "Nepal",
+  "country_code": "NPL",
+  "dependency_group": "ndtv",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NPL/NPL-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2023-04-12T02:35:00Z",
+  "publisher": "NDTV",
+  "schema_version": "1.0.0",
+  "source_id": "src_3ce71f7165400d28",
+  "source_metadata": {
+    "country": "Nepal",
+    "country_code": "NPL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2023-04-12T02:35:00+00:00",
+    "source_info_hash": "111b4fea1eade713",
+    "source_info_path": "html/NPL/NPL-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Kathmandu",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "सडक दुर्घटना",
+      "बस दुर्घटना",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ndtv.com/indians-abroad/four-indian-nationals-killed-in-nepal-car-accident-3941352",
+  "timezone": "Asia/Kathmandu",
+  "title": "4 Indian Nationals Killed In Nepal Car Accident"
+}

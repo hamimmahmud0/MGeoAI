@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "IRL",
+  "name": "Ireland",
+  "languages": [
+    "en",
+    "ga"
+  ],
+  "timezones": [
+    "Europe/Dublin"
+  ],
+  "target_sources": 12
+}

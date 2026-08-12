@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "46bb6e0fa491677d47ade484a933132e876c0c17d4b1c02f552dc3a8a6775200",
+  "country": "Sri Lanka",
+  "country_code": "LKA",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/LKA/LKA-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-11T10:58:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_e3f5dcfea3e19a03",
+  "source_metadata": {
+    "country": "Sri Lanka",
+    "country_code": "LKA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-11T10:58:00+00:00",
+    "source_info_hash": "ae718f077410054a",
+    "source_info_path": "html/LKA/LKA-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Colombo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "මාර්ග අනතුර",
+      "சாலை விபத்து",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/south-asia/380954/bus-carrying-pilgrims-crashes-killing-21-in-sri",
+  "timezone": "Asia/Colombo",
+  "title": "Bus carrying pilgrims crashes killing 21 in Sri Lanka"
+}

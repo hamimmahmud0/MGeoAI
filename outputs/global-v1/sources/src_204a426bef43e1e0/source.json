@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "47cee9ea542409f411b480cb20b0e128cd73dc9d7e1af9c055bfcc34a7ca9071",
+  "country": "New Zealand",
+  "country_code": "NZL",
+  "dependency_group": "nz herald",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NZL/NZL-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-09T19:50:00Z",
+  "publisher": "NZ Herald",
+  "schema_version": "1.0.0",
+  "source_id": "src_204a426bef43e1e0",
+  "source_metadata": {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-09T19:50:00+00:00",
+    "source_info_hash": "8e1fa4bd235b2b38",
+    "source_info_path": "html/NZL/NZL-S002/SOURCE_INFO.md",
+    "timezone": "Pacific/Auckland",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "state highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.nzherald.co.nz/nz/auckland/ponsonby-rd-crash-bus-driver-and-passengers-checked-by-emergency-services/TQY3MNZEJJAWJH4KL2YQFKQA7Q/",
+  "timezone": "Pacific/Auckland",
+  "title": "Ponsonby Rd crash: Bus driver injured, passengers checked by emergency services"
+}

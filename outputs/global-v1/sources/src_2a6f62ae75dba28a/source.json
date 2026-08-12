@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "cff0563e266d3e5b15e0d2ac66ef172450984e3850e90dc84748abff58f8bcbd",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "china internet information center",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-04-18T17:00:00Z",
+  "publisher": "China Internet Information Center",
+  "schema_version": "1.0.0",
+  "source_id": "src_2a6f62ae75dba28a",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2025-04-18T17:00:00+00:00",
+    "source_info_hash": "3b8890d1702052ae",
+    "source_info_path": "html/TZA/TZA-S005/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.china.org.cn/world/Off_the_Wire/2025-04/19/content_117834027.htm",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "7 killed, 15 injured after ambulance collides with three-wheeled motorcycle in S. Tanzania"
+}

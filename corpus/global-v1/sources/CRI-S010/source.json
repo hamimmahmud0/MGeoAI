@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CRI-S010",
+  "country_code": "CRI",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "nacion.com",
+  "canonical_url": "https://www.nacion.com/sucesos/violento-choque-en-lindora-deja-un-joven-muerto-y/TNZJZ2R2RZFATIBQCMGSBOEYIY/story/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nacion.com/sucesos/violento-choque-en-lindora-deja-un-joven-muerto-y/TNZJZ2R2RZFATIBQCMGSBOEYIY/story/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CR%3Aes-419&gl=CR&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22accidente+vial%22+OR+%22colisi%C3%B3n+en+carretera%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Costa+Rica%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "2cf596cdfc0c9272d57bb0e79453275ef0d768c4fb4187f3e49446f77e1f0cab",
+      "size_bytes": 1049,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "accidente vial",
+    "colisión en carretera"
+  ],
+  "timezone": "America/Costa_Rica",
+  "captured_at": "2026-08-11T21:57:53Z",
+  "published_at": "2026-07-25T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nacion.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CRI-S010"
+}

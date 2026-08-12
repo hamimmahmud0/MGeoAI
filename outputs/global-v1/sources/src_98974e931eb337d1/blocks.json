@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f80d087516a3a640",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f80d087516a3a640",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "18 killed including children in Egypt workers' pick-up crash",
+      "source_path": "html/EGY/EGY-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_98974e931eb337d1",
+    "text": "18 killed including children in Egypt workers' pick-up crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1e4dcf72cf00dd5a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1e4dcf72cf00dd5a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T10:43:00+03:00",
+      "source_path": "html/EGY/EGY-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_98974e931eb337d1",
+    "text": "2026-08-11T10:43:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_657af12d19f4d5d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_657af12d19f4d5d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 18 people, many of them children aged 13 to 14, were killed on Tuesday in northern Egypt when two pick-up trucks carrying agricultural ...",
+      "source_path": "html/EGY/EGY-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_98974e931eb337d1",
+    "text": "At least 18 people, many of them children aged 13 to 14, were killed on Tuesday in northern Egypt when two pick-up trucks carrying agricultural ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_162bbf7e33f2088e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_162bbf7e33f2088e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Daily Sun",
+      "source_path": "html/EGY/EGY-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_98974e931eb337d1",
+    "text": "Publisher: Daily Sun",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f788787739da2681",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f788787739da2681",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.daily-sun.com/world/891711/",
+      "source_path": "html/EGY/EGY-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_98974e931eb337d1",
+    "text": "Original source: https://www.daily-sun.com/world/891711/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ada9ce8d3d491f1a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ada9ce8d3d491f1a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/EGY/EGY-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_98974e931eb337d1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "90557d9adf23fb52ee07e7bd66f9204988cfb6fe298aa61c024877cf8cee4b9d",
+  "country": "Uganda",
+  "country_code": "UGA",
+  "dependency_group": "dw",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "local_path": "html/UGA/UGA-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-17T08:09:00Z",
+  "publisher": "dw",
+  "schema_version": "1.0.0",
+  "source_id": "src_6f943234b4b20ec2",
+  "source_metadata": {
+    "country": "Uganda",
+    "country_code": "UGA",
+    "languages": [
+      "en",
+      "sw",
+      "lg"
+    ],
+    "published_at": "2026-07-17T08:09:00+00:00",
+    "source_info_hash": "961d53458caecf3c",
+    "source_info_path": "html/UGA/UGA-S001/SOURCE_INFO.md",
+    "timezone": "Africa/Kampala",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus accident",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dw.com/en/uganda-halts-school-trips-as-bus-crash-kills-20-kids/a-78010176",
+  "timezone": "Africa/Kampala",
+  "title": "Uganda halts school trips as bus crash kills 20 kids"
+}

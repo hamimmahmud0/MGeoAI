@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_586fd3f55e71d57a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_586fd3f55e71d57a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Singapore motorcyclist dies after collision with car in Malaysia",
+      "source_path": "html/MYS/MYS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38a87406d8f2812e",
+    "text": "Singapore motorcyclist dies after collision with car in Malaysia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2e049915332a0701",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2e049915332a0701",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-06-09T04:37:00+08:00",
+      "source_path": "html/MYS/MYS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38a87406d8f2812e",
+    "text": "2024-06-09T04:37:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_525b6f7ea58d69f0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_525b6f7ea58d69f0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "SINGAPORE — A 31-year-old Singaporean motorcyclist died on June 8 morning after a collision with a car in Malaysia, according to the country's news outlets. ...",
+      "source_path": "html/MYS/MYS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38a87406d8f2812e",
+    "text": "SINGAPORE — A 31-year-old Singaporean motorcyclist died on June 8 morning after a collision with a car in Malaysia, according to the country's news outlets. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_651323e1c1e84d0a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_651323e1c1e84d0a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Asia One",
+      "source_path": "html/MYS/MYS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38a87406d8f2812e",
+    "text": "Publisher: Asia One",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae811e202d64b371",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae811e202d64b371",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.asiaone.com/singapore/singapore-motorcyclist-dies-after-collision-car-malaysia",
+      "source_path": "html/MYS/MYS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38a87406d8f2812e",
+    "text": "Original source: https://www.asiaone.com/singapore/singapore-motorcyclist-dies-after-collision-car-malaysia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d2906a30127cc5d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7d2906a30127cc5d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38a87406d8f2812e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f9ac4b09d6c7ee5f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f9ac4b09d6c7ee5f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.asiaone.com/singapore/singapore-motorcyclist-dies-after-collision-car-malaysia",
+      "source_path": "html/MYS/MYS-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_38a87406d8f2812e",
+    "text": "https://www.asiaone.com/singapore/singapore-motorcyclist-dies-after-collision-car-malaysia",
+    "url": null
+  }
+]

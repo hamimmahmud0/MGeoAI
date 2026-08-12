@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f69342da0b450aaf9c27566c8c38bfa9f21226af70e8f7710ce03bb7904da611",
+  "country": "India",
+  "country_code": "IND",
+  "dependency_group": "the daily star",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IND/IND-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2017-07-19T17:00:00Z",
+  "publisher": "The Daily Star",
+  "schema_version": "1.0.0",
+  "source_id": "src_078676186b460415",
+  "source_metadata": {
+    "country": "India",
+    "country_code": "IND",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2017-07-19T17:00:00+00:00",
+    "source_info_hash": "ef0addedfdcae19d",
+    "source_info_path": "html/IND/IND-S007/SOURCE_INFO.md",
+    "timezone": "Asia/Kolkata",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "सड़क दुर्घटना",
+      "बस दुर्घटना"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.thedailystar.net/tags/india-bus-crash",
+  "timezone": "Asia/Kolkata",
+  "title": "India bus crash"
+}

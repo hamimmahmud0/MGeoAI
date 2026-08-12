@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0fcff2f839160e48",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0fcff2f839160e48",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un mort et trois blessés dans un accident de la route à Iracoubo",
+      "source_path": "html/FRA/FRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7766cb01d5e6bdb7",
+    "text": "Un mort et trois blessés dans un accident de la route à Iracoubo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_712b798dad712e93",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_712b798dad712e93",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-15T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7766cb01d5e6bdb7",
+    "text": "2026-07-15T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ad5e2d4d8c9b718e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ad5e2d4d8c9b718e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Outre-mer La 1ère",
+      "source_path": "html/FRA/FRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7766cb01d5e6bdb7",
+    "text": "Publisher: Outre-mer La 1ère",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fe065a0e49a71ed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0fe065a0e49a71ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://la1ere.franceinfo.fr/guyane/un-mort-et-trois-blesses-dans-un-accident-de-la-route-a-iracoubo-1720129.html",
+      "source_path": "html/FRA/FRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7766cb01d5e6bdb7",
+    "text": "Original source: https://la1ere.franceinfo.fr/guyane/un-mort-et-trois-blesses-dans-un-accident-de-la-route-a-iracoubo-1720129.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95fe5c6ad4f4362b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95fe5c6ad4f4362b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7766cb01d5e6bdb7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8c6568157c32261b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8c6568157c32261b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://la1ere.franceinfo.fr/guyane/un-mort-et-trois-blesses-dans-un-accident-de-la-route-a-iracoubo-1720129.html",
+      "source_path": "html/FRA/FRA-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7766cb01d5e6bdb7",
+    "text": "https://la1ere.franceinfo.fr/guyane/un-mort-et-trois-blesses-dans-un-accident-de-la-route-a-iracoubo-1720129.html",
+    "url": null
+  }
+]

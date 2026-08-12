@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d9a9f8dce5498a8a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d9a9f8dce5498a8a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tragiczny wypadek pod Szczytnem, za kierownicą nieletni. Jedna osoba nie żyje, sześć zostało rannych",
+      "source_path": "html/POL/POL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f39c1a6e42a83",
+    "text": "Tragiczny wypadek pod Szczytnem, za kierownicą nieletni. Jedna osoba nie żyje, sześć zostało rannych",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5cb6cb34d10d6c0e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5cb6cb34d10d6c0e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-14T09:00:00+02:00",
+      "source_path": "html/POL/POL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f39c1a6e42a83",
+    "text": "2026-07-14T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f5b7d3f61a2657fb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f5b7d3f61a2657fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "17-letni kierowca audi zginął w czołowym zderzeniu z Volvo na drodze krajowej nr 58 w pobliżu Zielonki (woj.",
+      "source_path": "html/POL/POL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f39c1a6e42a83",
+    "text": "17-letni kierowca audi zginął w czołowym zderzeniu z Volvo na drodze krajowej nr 58 w pobliżu Zielonki (woj.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a1d79c3fb3bd225c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a1d79c3fb3bd225c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: PolsatNews.pl",
+      "source_path": "html/POL/POL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f39c1a6e42a83",
+    "text": "Publisher: PolsatNews.pl",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_636dc884f7de4234",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_636dc884f7de4234",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.polsatnews.pl/wiadomosc/2026-07-14/tragiczny-wypadek-pod-szczytnem-nie-zyje-17-latek-szesc-osob-rannych/",
+      "source_path": "html/POL/POL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f39c1a6e42a83",
+    "text": "Original source: https://www.polsatnews.pl/wiadomosc/2026-07-14/tragiczny-wypadek-pod-szczytnem-nie-zyje-17-latek-szesc-osob-rannych/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a86525dc43c994c2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a86525dc43c994c2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f39c1a6e42a83",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_00cf59e91f014c02",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_00cf59e91f014c02",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.polsatnews.pl/wiadomosc/2026-07-14/tragiczny-wypadek-pod-szczytnem-nie-zyje-17-latek-szesc-osob-rannych/",
+      "source_path": "html/POL/POL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f3f39c1a6e42a83",
+    "text": "https://www.polsatnews.pl/wiadomosc/2026-07-14/tragiczny-wypadek-pod-szczytnem-nie-zyje-17-latek-szesc-osob-rannych/",
+    "url": null
+  }
+]

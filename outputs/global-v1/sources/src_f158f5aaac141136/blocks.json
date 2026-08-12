@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_90b1d7e5d5d498be",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_90b1d7e5d5d498be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "URGENTE | Fuerte choque en La Victoria: bus con pasajeros impacta contra camión y deja 13 heridos",
+      "source_path": "html/PER/PER-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f158f5aaac141136",
+    "text": "URGENTE | Fuerte choque en La Victoria: bus con pasajeros impacta contra camión y deja 13 heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f1327cf61d261ad",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2f1327cf61d261ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-29T02:00:00-05:00",
+      "source_path": "html/PER/PER-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f158f5aaac141136",
+    "text": "2026-05-29T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33780cf188241740",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_33780cf188241740",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Popular",
+      "source_path": "html/PER/PER-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f158f5aaac141136",
+    "text": "Publisher: El Popular",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_309852ee2f881c86",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_309852ee2f881c86",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://elpopular.pe/actualidad/2026/05/29/urgente-choque-fatal-en-la-victoria-bus-lleno-de-pasajeros-impacta-contra-camion-y-deja-13-heridos-2731481",
+      "source_path": "html/PER/PER-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f158f5aaac141136",
+    "text": "Original source: https://elpopular.pe/actualidad/2026/05/29/urgente-choque-fatal-en-la-victoria-bus-lleno-de-pasajeros-impacta-contra-camion-y-deja-13-heridos-2731481",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba476e55504b44fc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba476e55504b44fc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PER/PER-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f158f5aaac141136",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c353a524e397f533",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c353a524e397f533",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://elpopular.pe/actualidad/2026/05/29/urgente-choque-fatal-en-la-victoria-bus-lleno-de-pasajeros-impacta-contra-camion-y-deja-13-heridos-2731481",
+      "source_path": "html/PER/PER-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f158f5aaac141136",
+    "text": "https://elpopular.pe/actualidad/2026/05/29/urgente-choque-fatal-en-la-victoria-bus-lleno-de-pasajeros-impacta-contra-camion-y-deja-13-heridos-2731481",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4dce005a75b8d200b0368cefe57caf2b6f3624b9c0f6bdfc99d86d4f9d85101c",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "citinewsroom.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-05T07:00:00Z",
+  "publisher": "CitiNewsroom.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_90c87d336d31d945",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-04-05T07:00:00+00:00",
+    "source_info_hash": "f5cf96fc8e525def",
+    "source_info_path": "html/GHA/GHA-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.citinewsroom.com/2026/04/4-dead-14-injured-in-kintampo-tamale-highway-crash/",
+  "timezone": "Africa/Accra",
+  "title": "4 dead, 14 injured in Kintampo–Tamale Highway crash"
+}

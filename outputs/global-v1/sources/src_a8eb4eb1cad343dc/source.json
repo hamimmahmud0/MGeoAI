@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1c33d9dbfd7ec529dfa1e6e1add6830886c96e456cc0b5e01a5847bf42234daf",
+  "country": "Nepal",
+  "country_code": "NPL",
+  "dependency_group": "ndtv",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NPL/NPL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-04-24T17:00:00Z",
+  "publisher": "NDTV",
+  "schema_version": "1.0.0",
+  "source_id": "src_a8eb4eb1cad343dc",
+  "source_metadata": {
+    "country": "Nepal",
+    "country_code": "NPL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2022-04-24T17:00:00+00:00",
+    "source_info_hash": "894cf7925c65a0f3",
+    "source_info_path": "html/NPL/NPL-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Kathmandu",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "सडक दुर्घटना",
+      "बस दुर्घटना",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ndtv.com/topic/head~on-bus-collision-nepal",
+  "timezone": "Asia/Kathmandu",
+  "title": "Head-on Bus Collision Nepal"
+}

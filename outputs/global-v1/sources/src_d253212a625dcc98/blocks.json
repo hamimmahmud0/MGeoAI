@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_2bb0fb64712f5095",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_2bb0fb64712f5095",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 killed, 4 wounded in truck-car collision in SW Tunisia",
+      "source_path": "html/TUN/TUN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d253212a625dcc98",
+    "text": "2 killed, 4 wounded in truck-car collision in SW Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9cef3c8f3e7cf5de",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9cef3c8f3e7cf5de",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-12T17:00:00+01:00",
+      "source_path": "html/TUN/TUN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d253212a625dcc98",
+    "text": "2024-12-12T17:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b16adb093efa243d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b16adb093efa243d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "TUNIS, Dec. 12 (Xinhua) -- Two people were killed and four others wounded in a collision between a car and a truck in Tunisia's southwestern ...",
+      "source_path": "html/TUN/TUN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d253212a625dcc98",
+    "text": "TUNIS, Dec. 12 (Xinhua) -- Two people were killed and four others wounded in a collision between a car and a truck in Tunisia's southwestern ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_680ee012c574e110",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_680ee012c574e110",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: China Internet Information Center",
+      "source_path": "html/TUN/TUN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d253212a625dcc98",
+    "text": "Publisher: China Internet Information Center",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9ede13df6d82e7ae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9ede13df6d82e7ae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2024-12/13/content_117604856.htm",
+      "source_path": "html/TUN/TUN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d253212a625dcc98",
+    "text": "Original source: https://www.china.org.cn/world/Off_the_Wire/2024-12/13/content_117604856.htm",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a074a1ff4b0e155d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a074a1ff4b0e155d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d253212a625dcc98",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_485cf709e4edb564",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_485cf709e4edb564",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.china.org.cn/world/Off_the_Wire/2024-12/13/content_117604856.htm",
+      "source_path": "html/TUN/TUN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d253212a625dcc98",
+    "text": "https://www.china.org.cn/world/Off_the_Wire/2024-12/13/content_117604856.htm",
+    "url": null
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "MAR-S008",
+  "country_code": "MAR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Arutz Sheva",
+  "canonical_url": "https://www.israelnationalnews.com/news/400334",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.israelnationalnews.com/news/400334",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Morocco%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "26ae85e7d6d1f77451a63f8a4a2f3a44f674308eee3ebdfc4757f0489f03b2f4",
+      "size_bytes": 861,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "تصادم مركبات",
+    "accident de la route",
+    "collision routière"
+  ],
+  "timezone": "Africa/Casablanca",
+  "captured_at": "2026-08-11T21:56:33.263756Z",
+  "published_at": "2024-12-06T06:53:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "israelnationalnews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-MAR-S008"
+}

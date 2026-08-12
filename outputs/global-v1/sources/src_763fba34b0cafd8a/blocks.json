@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6558995c8b44a92b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6558995c8b44a92b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Festejos pelo título do PSG resultaram já num morto e em feridos graves",
+      "source_path": "html/PRT/PRT-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_763fba34b0cafd8a",
+    "text": "Festejos pelo título do PSG resultaram já num morto e em feridos graves",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_127545313cf5e644",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_127545313cf5e644",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-31T08:00:00+01:00",
+      "source_path": "html/PRT/PRT-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_763fba34b0cafd8a",
+    "text": "2026-05-31T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a5f2b628b2213c3a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a5f2b628b2213c3a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: JM Madeira",
+      "source_path": "html/PRT/PRT-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_763fba34b0cafd8a",
+    "text": "Publisher: JM Madeira",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_25dd6d3f1b0c41e2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_25dd6d3f1b0c41e2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.jm-madeira.pt/not%C3%ADcias/desporto/20278274/festejos-pelo-titulo-do-psg-resultaram-ja-num-morto-e-em-feridos-graves.html",
+      "source_path": "html/PRT/PRT-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_763fba34b0cafd8a",
+    "text": "Original source: https://www.jm-madeira.pt/not%C3%ADcias/desporto/20278274/festejos-pelo-titulo-do-psg-resultaram-ja-num-morto-e-em-feridos-graves.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7fa089ac22e6119a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7fa089ac22e6119a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_763fba34b0cafd8a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fa1f678d1b1de3f7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fa1f678d1b1de3f7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.jm-madeira.pt/not%C3%ADcias/desporto/20278274/festejos-pelo-titulo-do-psg-resultaram-ja-num-morto-e-em-feridos-graves.html",
+      "source_path": "html/PRT/PRT-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_763fba34b0cafd8a",
+    "text": "https://www.jm-madeira.pt/not%C3%ADcias/desporto/20278274/festejos-pelo-titulo-do-psg-resultaram-ja-num-morto-e-em-feridos-graves.html",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "799142ac231a6f721bd31e56218296c65ba7a80a7b0ee09b1bdd80981b857fd5",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "gp.se",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-05T07:00:00Z",
+  "publisher": "gp.se",
+  "schema_version": "1.0.0",
+  "source_id": "src_e210b4eaa1c2d1fb",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2026-04-05T07:00:00+00:00",
+    "source_info_hash": "e740b9b82190d359",
+    "source_info_path": "html/SWE/SWE-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.gp.se/nyheter/sverige/kvinna-dod-i-bilolycka.b6dc81b9-b761-577c-af70-88406e2003e6",
+  "timezone": "Europe/Stockholm",
+  "title": "Kvinna död i bilolycka"
+}

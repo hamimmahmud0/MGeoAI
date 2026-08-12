@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "69688546deef97ecde8ec8c56bc9a53c8986f6dd4245dfb1ea876a9db5e520c1",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "eltelegrafo.com.ec",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-18T07:00:00Z",
+  "publisher": "eltelegrafo.com.ec",
+  "schema_version": "1.0.0",
+  "source_id": "src_e96cb931107d3ee2",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-18T07:00:00+00:00",
+    "source_info_hash": "6af769cbc0cfa609",
+    "source_info_path": "html/ECU/ECU-S008/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.eltelegrafo.com.ec/noticias/nacionales/210/dos-muertos-y-15-heridos-deja-accidente-de-bus-en-la-via-cuenca-azogues",
+  "timezone": "America/Guayaquil",
+  "title": "Dos muertos y 15 heridos deja accidente de bus en la vía Cuenca-Azogues"
+}

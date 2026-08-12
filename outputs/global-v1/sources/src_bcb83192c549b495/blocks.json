@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_43b271938303b5ce",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_43b271938303b5ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Murió una joven argentina en un accidente de tránsito en Australia: tenía 26 años y era de Rosario",
+      "source_path": "html/ARG/ARG-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcb83192c549b495",
+    "text": "Murió una joven argentina en un accidente de tránsito en Australia: tenía 26 años y era de Rosario",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_724009574c0b93a2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_724009574c0b93a2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-17T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcb83192c549b495",
+    "text": "2026-05-17T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0336830399f59886",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0336830399f59886",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Opinión Austral",
+      "source_path": "html/ARG/ARG-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcb83192c549b495",
+    "text": "Publisher: La Opinión Austral",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40b3c5b2cbc11512",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_40b3c5b2cbc11512",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://laopinionaustral.com.ar/el-mundo/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia-tenia-26-anos-y-era-de-rosario-662333.html",
+      "source_path": "html/ARG/ARG-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcb83192c549b495",
+    "text": "Original source: https://laopinionaustral.com.ar/el-mundo/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia-tenia-26-anos-y-era-de-rosario-662333.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8aa8f6f7c6a3bad5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8aa8f6f7c6a3bad5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcb83192c549b495",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7b2c674f8fcdc596",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7b2c674f8fcdc596",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://laopinionaustral.com.ar/el-mundo/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia-tenia-26-anos-y-era-de-rosario-662333.html",
+      "source_path": "html/ARG/ARG-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bcb83192c549b495",
+    "text": "https://laopinionaustral.com.ar/el-mundo/murio-una-joven-argentina-en-un-accidente-de-transito-en-australia-tenia-26-anos-y-era-de-rosario-662333.html",
+    "url": null
+  }
+]

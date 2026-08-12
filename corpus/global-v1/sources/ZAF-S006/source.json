@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ZAF-S006",
+  "country_code": "ZAF",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "BBC",
+  "canonical_url": "https://www.bbc.com/news/articles/cvgdmkxl1mko",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bbc.com/news/articles/cvgdmkxl1mko",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=ZA%3Aen&gl=ZA&hl=en-ZA&q=%28road+crash+OR+traffic+accident+OR+collision%29+South+Africa+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "01b89a388d8278428efe2588027a9559e2975b0ba5e6fd3130200e7024cd37a9",
+      "size_bytes": 948,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "taxi crash",
+    "bus accident"
+  ],
+  "timezone": "Africa/Johannesburg",
+  "captured_at": "2026-08-11T21:46:58.787169Z",
+  "published_at": "2026-01-20T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bbc.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ZAF-S006"
+}

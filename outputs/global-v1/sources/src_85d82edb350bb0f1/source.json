@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e0acafe0040908111ebab78570f715632a88b36c57f057d6166aa0027cbfb2dc",
+  "country": "Turkey",
+  "country_code": "TUR",
+  "dependency_group": "anadolu agency",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "tr"
+  ],
+  "local_path": "html/TUR/TUR-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-31T16:23:00Z",
+  "publisher": "Anadolu Agency",
+  "schema_version": "1.0.0",
+  "source_id": "src_85d82edb350bb0f1",
+  "source_metadata": {
+    "country": "Turkey",
+    "country_code": "TUR",
+    "languages": [
+      "tr"
+    ],
+    "published_at": "2026-07-31T16:23:00+00:00",
+    "source_info_hash": "c3e31672e2922efd",
+    "source_info_path": "html/TUR/TUR-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Istanbul",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafik kazası",
+      "araç çarpışması",
+      "otobüs kazası",
+      "karayolu kazası"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aa.com.tr/en/turkiye/turkiye-offers-condolences-after-deadly-algeria-bus-crash/4015407",
+  "timezone": "Europe/Istanbul",
+  "title": "Türkiye offers condolences after deadly Algeria bus crash"
+}

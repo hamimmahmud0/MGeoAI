@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IRL-S006",
+  "country_code": "IRL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Extra.ie",
+  "canonical_url": "https://extra.ie/2026/08/11/news/irish-news/donegal-all-ireland-winner-cavan-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://extra.ie/2026/08/11/news/irish-news/donegal-all-ireland-winner-cavan-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=IE%3Aen&gl=IE&hl=en-IE&q=%28%22road+accident%22+OR+%22traffic+collision%22+OR+%22road+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+%22Ireland%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "acf6e4d25112cb31e3330a38e1063c6d2d923fcb0fa1c9fbdd1be0ef080abf37",
+      "size_bytes": 906,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "road crash",
+    "vehicle collision"
+  ],
+  "timezone": "Europe/Dublin",
+  "captured_at": "2026-08-11T21:58:27Z",
+  "published_at": "2026-08-11T06:06:51Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "extra.ie",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IRL-S006"
+}

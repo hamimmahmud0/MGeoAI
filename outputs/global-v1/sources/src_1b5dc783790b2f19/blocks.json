@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5d0a7145e9a4b22f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5d0a7145e9a4b22f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Morta bimba di 4 anni in un incidente stradale, due feriti gravi",
+      "source_path": "html/ITA/ITA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b5dc783790b2f19",
+    "text": "Morta bimba di 4 anni in un incidente stradale, due feriti gravi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_80dcea4e46fd2258",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_80dcea4e46fd2258",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-19T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b5dc783790b2f19",
+    "text": "2026-06-19T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eea05bbbef6d8ea9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eea05bbbef6d8ea9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Prealpina",
+      "source_path": "html/ITA/ITA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b5dc783790b2f19",
+    "text": "Publisher: La Prealpina",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f607561b47234f41",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f607561b47234f41",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.prealpina.it/news/italia-esteri/416615/morta-bimba-di-4-anni-in-un-incidente-stradale-due-feriti-gravi.html",
+      "source_path": "html/ITA/ITA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b5dc783790b2f19",
+    "text": "Original source: https://www.prealpina.it/news/italia-esteri/416615/morta-bimba-di-4-anni-in-un-incidente-stradale-due-feriti-gravi.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ea303ccf3139d82d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ea303ccf3139d82d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b5dc783790b2f19",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50bf105e01d6313e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_50bf105e01d6313e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.prealpina.it/news/italia-esteri/416615/morta-bimba-di-4-anni-in-un-incidente-stradale-due-feriti-gravi.html",
+      "source_path": "html/ITA/ITA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1b5dc783790b2f19",
+    "text": "https://www.prealpina.it/news/italia-esteri/416615/morta-bimba-di-4-anni-in-un-incidente-stradale-due-feriti-gravi.html",
+    "url": null
+  }
+]

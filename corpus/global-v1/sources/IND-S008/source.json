@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S008",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Daily Star",
+  "canonical_url": "https://www.thedailystar.net/tags/india-road-accident",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thedailystar.net/tags/india-road-accident",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22India%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "34b46c9ab067af8c263afbc8ff196aa6e9ca1d68ed131d6bceaa820dd1841b1a",
+      "size_bytes": 814,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:55:02.405845+06:00",
+  "published_at": "2026-01-07T15:59:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thedailystar.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S008"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S003",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Xinhuanet",
+  "canonical_url": "http://www.chinaview.cn/20260802/5dcf141ddfd240cf81151540d5ce997d/c.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "http://www.chinaview.cn/20260802/5dcf141ddfd240cf81151540d5ce997d/c.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Japan%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "24e63f6c95a60ff3bdc46d45b3441449dd8976c3160c6dff324fd9805d9999e9",
+      "size_bytes": 992,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:38:18.248340+06:00",
+  "published_at": "2026-08-02T15:49:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "chinaview.cn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S003"
+}

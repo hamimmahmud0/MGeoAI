@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S001",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "India Today",
+  "canonical_url": "https://www.indiatoday.in/india/story/bus-falls-into-gorge-in-major-accident-on-jammu-srinagar-national-highway-2386215-2023-05-30",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.indiatoday.in/india/story/bus-falls-into-gorge-in-major-accident-on-jammu-srinagar-national-highway-2386215-2023-05-30",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Jammu+10+killed+55+injured+Katra+bus+gorge",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0c6e61c0ed8738e086a018b89f747024d4c4b86de777e3c883bb4433645664e1",
+      "size_bytes": 1144,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:42:57.551896+06:00",
+  "published_at": "2023-05-30T04:25:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "indiatoday.in",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S001"
+}

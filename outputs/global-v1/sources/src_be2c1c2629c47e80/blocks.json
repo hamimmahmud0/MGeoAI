@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5d5dc8c045b37219",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5d5dc8c045b37219",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Śmiertelny wypadek rowerzystki w Inowrocławiu. 45-latka zginęła potrącona na pasach",
+      "source_path": "html/POL/POL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be2c1c2629c47e80",
+    "text": "Śmiertelny wypadek rowerzystki w Inowrocławiu. 45-latka zginęła potrącona na pasach",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ff13732875c40e57",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ff13732875c40e57",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-22T09:00:00+02:00",
+      "source_path": "html/POL/POL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be2c1c2629c47e80",
+    "text": "2026-04-22T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fdcad3d932786b75",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fdcad3d932786b75",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Do tragicznego wypadku doszło we wtorek wieczorem na ul.",
+      "source_path": "html/POL/POL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be2c1c2629c47e80",
+    "text": "Do tragicznego wypadku doszło we wtorek wieczorem na ul.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_590513ad48f47404",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_590513ad48f47404",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: radiopik.pl",
+      "source_path": "html/POL/POL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be2c1c2629c47e80",
+    "text": "Publisher: radiopik.pl",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2b18404e7b0a004",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2b18404e7b0a004",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.radiopik.pl/2,138086,smiertelny-wypadek-rowerzystki-w-inowroclawiu-45-latka-zginela-potracona-na-pasach",
+      "source_path": "html/POL/POL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be2c1c2629c47e80",
+    "text": "Original source: https://www.radiopik.pl/2,138086,smiertelny-wypadek-rowerzystki-w-inowroclawiu-45-latka-zginela-potracona-na-pasach",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6a896b6436aaf7c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6a896b6436aaf7c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/POL/POL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be2c1c2629c47e80",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3535ed6d4ee27c1f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3535ed6d4ee27c1f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.radiopik.pl/2,138086,smiertelny-wypadek-rowerzystki-w-inowroclawiu-45-latka-zginela-potracona-na-pasach",
+      "source_path": "html/POL/POL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_be2c1c2629c47e80",
+    "text": "https://www.radiopik.pl/2,138086,smiertelny-wypadek-rowerzystki-w-inowroclawiu-45-latka-zginela-potracona-na-pasach",
+    "url": null
+  }
+]

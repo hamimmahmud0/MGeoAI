@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PAK-S006",
+  "country_code": "PAK",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Pakistan Today",
+  "canonical_url": "https://www.pakistantoday.com.pk/2025/06/02/professor-among-six-killed-in-separate-road-accidents-across-karachi",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.pakistantoday.com.pk/2025/06/02/professor-among-six-killed-in-separate-road-accidents-across-karachi",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Karachi%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e76fa6e9022732f8f35fea55c1e1d24994a505f94357a7ee6a9ed38f7de6be51",
+      "size_bytes": 1116,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "ٹریفک حادثہ",
+    "سڑک حادثہ",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Karachi",
+  "captured_at": "2026-08-12T03:49:29.679581+06:00",
+  "published_at": "2025-06-01T13:39:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "pakistantoday.com.pk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PAK-S006"
+}

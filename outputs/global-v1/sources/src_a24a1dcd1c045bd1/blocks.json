@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b521ad9e79ba3524",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b521ad9e79ba3524",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "28 dead, 22 injured as Quetta-bound bus falls into ravine in Balochistan’s Washuk",
+      "source_path": "html/PAK/PAK-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a24a1dcd1c045bd1",
+    "text": "28 dead, 22 injured as Quetta-bound bus falls into ravine in Balochistan’s Washuk",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cc619a542402a932",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cc619a542402a932",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-05-29T12:00:00+05:00",
+      "source_path": "html/PAK/PAK-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a24a1dcd1c045bd1",
+    "text": "2024-05-29T12:00:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d99de28974b79eb1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d99de28974b79eb1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A Quetta-bound bus plunged into a ravine in Washuk, Balochistan, killing 28 people and injuring 22.",
+      "source_path": "html/PAK/PAK-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a24a1dcd1c045bd1",
+    "text": "A Quetta-bound bus plunged into a ravine in Washuk, Balochistan, killing 28 people and injuring 22.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_589571e636adb226",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_589571e636adb226",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dawn",
+      "source_path": "html/PAK/PAK-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a24a1dcd1c045bd1",
+    "text": "Publisher: Dawn",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ba0cdc91a06ef256",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ba0cdc91a06ef256",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dawn.com/news/1836392/28-dead-22-injured-as-quetta-bound-bus-falls-into-ravine-in-balochistans-washuk",
+      "source_path": "html/PAK/PAK-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a24a1dcd1c045bd1",
+    "text": "Original source: https://www.dawn.com/news/1836392/28-dead-22-injured-as-quetta-bound-bus-falls-into-ravine-in-balochistans-washuk",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ef6931aa21969064",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ef6931aa21969064",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a24a1dcd1c045bd1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7f7eea223a56398c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7f7eea223a56398c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dawn.com/news/1836392/28-dead-22-injured-as-quetta-bound-bus-falls-into-ravine-in-balochistans-washuk",
+      "source_path": "html/PAK/PAK-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a24a1dcd1c045bd1",
+    "text": "https://www.dawn.com/news/1836392/28-dead-22-injured-as-quetta-bound-bus-falls-into-ravine-in-balochistans-washuk",
+    "url": null
+  }
+]

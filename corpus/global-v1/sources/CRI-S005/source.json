@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CRI-S005",
+  "country_code": "CRI",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "El Vocero de Puerto Rico",
+  "canonical_url": "https://www.elvocero.com/ley-y-orden/menor-de-ocho-a-os-resulta-gravemente-herido-en-accidente-de-tr-nsito-en-a/article_b002fe57-c225-46ee-922d-b60e4e016c8f.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.elvocero.com/ley-y-orden/menor-de-ocho-a-os-resulta-gravemente-herido-en-accidente-de-tr-nsito-en-a/article_b002fe57-c225-46ee-922d-b60e4e016c8f.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CR%3Aes-419&gl=CR&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22accidente+vial%22+OR+%22colisi%C3%B3n+en+carretera%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Costa+Rica%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "db22797052027c1fbe6e9d1a6749801ac7c6babaeaba281aad63368ad261c5fc",
+      "size_bytes": 1210,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "accidente vial",
+    "colisión en carretera"
+  ],
+  "timezone": "America/Costa_Rica",
+  "captured_at": "2026-08-11T21:57:53Z",
+  "published_at": "2026-05-17T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "elvocero.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CRI-S005"
+}

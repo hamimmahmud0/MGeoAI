@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "fb89dfde6c788ac4b556f742479c2ad8eb69d330730df7d00785fe050a8bb792",
+  "country": "Australia",
+  "country_code": "AUS",
+  "dependency_group": "australian broadcasting corporation",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/AUS/AUS-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-02T18:00:00Z",
+  "publisher": "Australian Broadcasting Corporation",
+  "schema_version": "1.0.0",
+  "source_id": "src_3d2e30fa2b831286",
+  "source_metadata": {
+    "country": "Australia",
+    "country_code": "AUS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-02T18:00:00+00:00",
+    "source_info_hash": "0b5a696719c0e076",
+    "source_info_path": "html/AUS/AUS-S007/SOURCE_INFO.md",
+    "timezone": "Australia/Sydney",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.abc.net.au/news/2026-06-03/tpg-capital-boss-joel-thickins-sydney-bmw-crash/106754848",
+  "timezone": "Australia/Sydney",
+  "title": "Police allege corporate boss refused blood alcohol tests after Sydney car crash"
+}

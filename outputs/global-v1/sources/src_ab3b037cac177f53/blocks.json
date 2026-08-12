@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_37822e24e2ffc3f9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_37822e24e2ffc3f9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Busload of Indian Tourists in Nepal Plunges Into River, Killing at Least 27",
+      "source_path": "html/NPL/NPL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ab3b037cac177f53",
+    "text": "Busload of Indian Tourists in Nepal Plunges Into River, Killing at Least 27",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_551db366644ad063",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_551db366644ad063",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-08-24T09:09:00+05:45",
+      "source_path": "html/NPL/NPL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ab3b037cac177f53",
+    "text": "2024-08-24T09:09:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b719b4ae9b15f7da",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b719b4ae9b15f7da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nepal, a poor and mountainous country, has long struggled with road safety. By Bhadra Sharma Reporting from Kathmandu, Nepal At least 27 people died in ...",
+      "source_path": "html/NPL/NPL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ab3b037cac177f53",
+    "text": "Nepal, a poor and mountainous country, has long struggled with road safety. By Bhadra Sharma Reporting from Kathmandu, Nepal At least 27 people died in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c91ada5e4fe2aa2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2c91ada5e4fe2aa2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The New York Times",
+      "source_path": "html/NPL/NPL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ab3b037cac177f53",
+    "text": "Publisher: The New York Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_604a6fb0019a4354",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_604a6fb0019a4354",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.nytimes.com/2024/08/24/world/asia/nepal-deadly-bus-crash.html",
+      "source_path": "html/NPL/NPL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ab3b037cac177f53",
+    "text": "Original source: https://www.nytimes.com/2024/08/24/world/asia/nepal-deadly-bus-crash.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b211ef299c1f628e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b211ef299c1f628e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ab3b037cac177f53",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_73e5239d19ae0c12",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_73e5239d19ae0c12",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.nytimes.com/2024/08/24/world/asia/nepal-deadly-bus-crash.html",
+      "source_path": "html/NPL/NPL-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ab3b037cac177f53",
+    "text": "https://www.nytimes.com/2024/08/24/world/asia/nepal-deadly-bus-crash.html",
+    "url": null
+  }
+]

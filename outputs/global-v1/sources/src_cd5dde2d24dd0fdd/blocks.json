@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_821becc434fcf228",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_821becc434fcf228",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two dead in motorcycle and bus collision on Colombo-Kandy Road",
+      "source_path": "html/LKA/LKA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd5dde2d24dd0fdd",
+    "text": "Two dead in motorcycle and bus collision on Colombo-Kandy Road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1a1d5e25b14639ea",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1a1d5e25b14639ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-08-31T19:30:00+05:30",
+      "source_path": "html/LKA/LKA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd5dde2d24dd0fdd",
+    "text": "2024-08-31T19:30:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1fddba70fe905e61",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1fddba70fe905e61",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two people have died following a collision between a motorcycle and a bus in the Aluthgamuwa, Bogamuwa area on the Colombo-Kandy Road. The accident occurred ...",
+      "source_path": "html/LKA/LKA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd5dde2d24dd0fdd",
+    "text": "Two people have died following a collision between a motorcycle and a bus in the Aluthgamuwa, Bogamuwa area on the Colombo-Kandy Road. The accident occurred ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_26ab37163de5f258",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_26ab37163de5f258",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Hiru News",
+      "source_path": "html/LKA/LKA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd5dde2d24dd0fdd",
+    "text": "Publisher: Hiru News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_da945590c759f17d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_da945590c759f17d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.hirunews.lk/goldfmnews/380578/two-dead-in-motorcycle-and-bus-collision-on-colombo-kandy-road",
+      "source_path": "html/LKA/LKA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd5dde2d24dd0fdd",
+    "text": "Original source: https://www.hirunews.lk/goldfmnews/380578/two-dead-in-motorcycle-and-bus-collision-on-colombo-kandy-road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_310fb63ae3e90de1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_310fb63ae3e90de1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/LKA/LKA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd5dde2d24dd0fdd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dbdf8b0e210aa2c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dbdf8b0e210aa2c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.hirunews.lk/goldfmnews/380578/two-dead-in-motorcycle-and-bus-collision-on-colombo-kandy-road",
+      "source_path": "html/LKA/LKA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cd5dde2d24dd0fdd",
+    "text": "https://www.hirunews.lk/goldfmnews/380578/two-dead-in-motorcycle-and-bus-collision-on-colombo-kandy-road",
+    "url": null
+  }
+]

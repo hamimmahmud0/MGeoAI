@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1d1aa0d381a0bf145ac3cb1792d69b67526818949559d7db16e642bc868a0708",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "citizen digital",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-02-24T08:00:00Z",
+  "publisher": "Citizen Digital",
+  "schema_version": "1.0.0",
+  "source_id": "src_69e0cd6cb86b4083",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-02-24T08:00:00+00:00",
+    "source_info_hash": "4d0d53d5b81b5b89",
+    "source_info_path": "html/KEN/KEN-S003/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://citizen.digital/article/belgian-tourist-tour-driver-killed-in-crash-on-mombasa-road-n377968",
+  "timezone": "Africa/Nairobi",
+  "title": "Belgian tourist, tour driver killed in crash on Mombasa road"
+}

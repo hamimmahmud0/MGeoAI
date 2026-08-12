@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8b8508e0fa97eb3d0e957ef1e226b798832ed85ec41df934baef8f24e7f33eaf",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "el informador",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/MEX/MEX-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-19T07:00:00Z",
+  "publisher": "El Informador",
+  "schema_version": "1.0.0",
+  "source_id": "src_484b8a7654d6e057",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-19T07:00:00+00:00",
+    "source_info_hash": "3cdde74b2d047e68",
+    "source_info_path": "html/MEX/MEX-S009/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.informador.mx/jalisco/volcadura-en-carretera-guadalajara--morelia-deja-dos-muertos-y-tres-lesionados-20260719-0067.html",
+  "timezone": "America/Mexico_City",
+  "title": "Volcadura en carretera Guadalajara Morelia deja dos muertos y tres lesionados"
+}

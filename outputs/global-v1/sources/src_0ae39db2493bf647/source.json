@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "26ae85e7d6d1f77451a63f8a4a2f3a44f674308eee3ebdfc4757f0489f03b2f4",
+  "country": "Morocco",
+  "country_code": "MAR",
+  "dependency_group": "arutz sheva",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "local_path": "html/MAR/MAR-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-12-06T06:53:00Z",
+  "publisher": "Arutz Sheva",
+  "schema_version": "1.0.0",
+  "source_id": "src_0ae39db2493bf647",
+  "source_metadata": {
+    "country": "Morocco",
+    "country_code": "MAR",
+    "languages": [
+      "ar",
+      "fr",
+      "ber"
+    ],
+    "published_at": "2024-12-06T06:53:00+00:00",
+    "source_info_hash": "5ccde7d2b381dbd5",
+    "source_info_path": "html/MAR/MAR-S008/SOURCE_INFO.md",
+    "timezone": "Africa/Casablanca",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "تصادم مركبات",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.israelnationalnews.com/news/400334",
+  "timezone": "Africa/Casablanca",
+  "title": "Five Tzfat residents killed in car accident in Morocco"
+}

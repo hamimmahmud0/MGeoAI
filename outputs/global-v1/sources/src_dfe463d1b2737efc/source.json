@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "25889d75daf0102fc1496dd0b99608f6381122219ac0bc38871f1eb856067ba9",
+  "country": "Ethiopia",
+  "country_code": "ETH",
+  "dependency_group": "digital journal",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "am",
+    "en",
+    "om"
+  ],
+  "local_path": "html/ETH/ETH-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-12-30T10:12:00Z",
+  "publisher": "Digital Journal",
+  "schema_version": "1.0.0",
+  "source_id": "src_dfe463d1b2737efc",
+  "source_metadata": {
+    "country": "Ethiopia",
+    "country_code": "ETH",
+    "languages": [
+      "am",
+      "en",
+      "om"
+    ],
+    "published_at": "2024-12-30T10:12:00+00:00",
+    "source_info_hash": "978de577197055fc",
+    "source_info_path": "html/ETH/ETH-S005/SOURCE_INFO.md",
+    "timezone": "Africa/Addis_Ababa",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "የመንገድ አደጋ",
+      "የትራፊክ አደጋ",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.digitaljournal.com/article/more-than-70-killed-in-ethiopia-road-accident/",
+  "timezone": "Africa/Addis_Ababa",
+  "title": "More than 70 killed in Ethiopia road accident"
+}

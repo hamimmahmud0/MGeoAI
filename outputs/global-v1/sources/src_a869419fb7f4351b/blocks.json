@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4d6b47a6d510686c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4d6b47a6d510686c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 kids dead, 1 hurt in Henrico car crash",
+      "source_path": "html/USA/USA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a869419fb7f4351b",
+    "text": "2 kids dead, 1 hurt in Henrico car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2c6e052a8accd3e9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_2c6e052a8accd3e9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T05:28:38-05:00",
+      "source_path": "html/USA/USA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a869419fb7f4351b",
+    "text": "2026-08-11T05:28:38-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_92fde7f83e42d869",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_92fde7f83e42d869",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: FOX5 Vegas",
+      "source_path": "html/USA/USA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a869419fb7f4351b",
+    "text": "Publisher: FOX5 Vegas",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_41e071afc6634a5b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_41e071afc6634a5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.fox5vegas.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+      "source_path": "html/USA/USA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a869419fb7f4351b",
+    "text": "Original source: https://www.fox5vegas.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40ee6251632e3b9b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_40ee6251632e3b9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a869419fb7f4351b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0da0620f654cef5f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0da0620f654cef5f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.fox5vegas.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+      "source_path": "html/USA/USA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a869419fb7f4351b",
+    "text": "https://www.fox5vegas.com/video/2026/08/11/2-kids-dead-1-hurt-henrico-car-crash/",
+    "url": null
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "UGA-S005",
+  "country_code": "UGA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "AllAfrica.com",
+  "canonical_url": "https://allafrica.com/stories/202607200686.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://allafrica.com/stories/202607200686.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Uganda%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e98fee2328aae6c1dfdf6eaef10bf1ed87a9af8714b37c60732e4f4fe4f28bb7",
+      "size_bytes": 890,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw",
+    "lg"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "bus accident",
+    "vehicle collision"
+  ],
+  "timezone": "Africa/Kampala",
+  "captured_at": "2026-08-11T21:55:58.323780Z",
+  "published_at": "2026-07-20T14:44:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "allafrica.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-UGA-S005"
+}

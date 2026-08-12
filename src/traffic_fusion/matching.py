@@ -89,6 +89,17 @@ def candidate_pairs(
     for left, right in combinations(mentions, 2):
         if left.source_id == right.source_id:
             continue
+        left_countries = {
+            item for item in left.lexical_features if item.startswith("country:")
+        }
+        right_countries = {
+            item for item in right.lexical_features if item.startswith("country:")
+        }
+        # A missing edge already keeps clusters separate. Persisting a rejected
+        # decision for every cross-country pair grows quadratically while adding
+        # no information to matching or fusion.
+        if left_countries and right_countries and left_countries != right_countries:
+            continue
         features = score_pair(left, right, settings)
         if features.hard_guard or features.total_score >= settings.possible_match_threshold:
             pairs.append((left, right, features))

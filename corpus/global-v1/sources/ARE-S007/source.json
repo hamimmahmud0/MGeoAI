@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARE-S007",
+  "country_code": "ARE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Gulf News",
+  "canonical_url": "https://gulfnews.com/uae/transport/motorcyclist-injured-in-crash-after-truck-breaks-down-on-sheikh-mohammed-bin-zayed-road-in-dubai-1.500283179",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://gulfnews.com/uae/transport/motorcyclist-injured-in-crash-after-truck-breaks-down-on-sheikh-mohammed-bin-zayed-road-in-dubai-1.500283179",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Motorcyclist+injured+in+crash+after+truck+breaks+down+on+Sheikh+Mohammed+bin+Zayed+Road+in+Dubai",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "bb7346921deda490bc93acae268697973c98f63717d6c53b433aef9f2e285853",
+      "size_bytes": 1198,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dubai",
+  "captured_at": "2026-08-12T03:51:01.174411+06:00",
+  "published_at": "2025-09-25T11:37:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "gulfnews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARE-S007"
+}

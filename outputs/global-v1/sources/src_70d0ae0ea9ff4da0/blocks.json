@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_43135060d5909323",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_43135060d5909323",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Drunk driver in South Korea kills motorcyclist, gets 12-year sentence",
+      "source_path": "html/KOR/KOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_70d0ae0ea9ff4da0",
+    "text": "Drunk driver in South Korea kills motorcyclist, gets 12-year sentence",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6bb7a6e10db2b86c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6bb7a6e10db2b86c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-10T15:38:00+09:00",
+      "source_path": "html/KOR/KOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_70d0ae0ea9ff4da0",
+    "text": "2026-07-10T15:38:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_090c21bc505ca89c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_090c21bc505ca89c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A woman in her 30s who, while heavily intoxicated, sped with her two young daughters in the car and struck a motorcyclist, killing the rider ...",
+      "source_path": "html/KOR/KOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_70d0ae0ea9ff4da0",
+    "text": "A woman in her 30s who, while heavily intoxicated, sped with her two young daughters in the car and struck a motorcyclist, killing the rider ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3bc45b07671b1447",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3bc45b07671b1447",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 조선일보",
+      "source_path": "html/KOR/KOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_70d0ae0ea9ff4da0",
+    "text": "Publisher: 조선일보",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6443781f342d289e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6443781f342d289e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://biz.chosun.com/en/en-society/2026/07/10/QUYB36B5LVEFJNZDIHFD34OW7U/",
+      "source_path": "html/KOR/KOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_70d0ae0ea9ff4da0",
+    "text": "Original source: https://biz.chosun.com/en/en-society/2026/07/10/QUYB36B5LVEFJNZDIHFD34OW7U/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_24dbb4ab19e505c4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_24dbb4ab19e505c4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_70d0ae0ea9ff4da0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c6d3155e47299bf7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c6d3155e47299bf7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://biz.chosun.com/en/en-society/2026/07/10/QUYB36B5LVEFJNZDIHFD34OW7U/",
+      "source_path": "html/KOR/KOR-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_70d0ae0ea9ff4da0",
+    "text": "https://biz.chosun.com/en/en-society/2026/07/10/QUYB36B5LVEFJNZDIHFD34OW7U/",
+    "url": null
+  }
+]

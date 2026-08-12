@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5fb7aabc0b214a00",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5fb7aabc0b214a00",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 10 Bangladeshis killed in Saudi Arabia car crash",
+      "source_path": "html/SAU/SAU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_32a61de8d33ae680",
+    "text": "At least 10 Bangladeshis killed in Saudi Arabia car crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1050c58c4c96f58c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_1050c58c4c96f58c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-05-02T18:18:00+03:00",
+      "source_path": "html/SAU/SAU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_32a61de8d33ae680",
+    "text": "2019-05-02T18:18:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ddd5f6d5af8d946f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ddd5f6d5af8d946f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The accident occurred in Shaqra, a town about 180 kilometres from capital Riyadh, on Thursday, expatriate Bangladeshis said. Fakhrul Islam, a spokesman for the Embassy ...",
+      "source_path": "html/SAU/SAU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_32a61de8d33ae680",
+    "text": "The accident occurred in Shaqra, a town about 180 kilometres from capital Riyadh, on Thursday, expatriate Bangladeshis said. Fakhrul Islam, a spokesman for the Embassy ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_85aa7358bab249df",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_85aa7358bab249df",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/SAU/SAU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_32a61de8d33ae680",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_136ff99aba7e371f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_136ff99aba7e371f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/at-least-10-bangladeshis-killed-in-saudi-arabia-car-crash",
+      "source_path": "html/SAU/SAU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_32a61de8d33ae680",
+    "text": "Original source: https://bdnews24.com/bangladesh/at-least-10-bangladeshis-killed-in-saudi-arabia-car-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a784b370994a0b11",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a784b370994a0b11",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_32a61de8d33ae680",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_877920880a597eaf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_877920880a597eaf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bdnews24.com/bangladesh/at-least-10-bangladeshis-killed-in-saudi-arabia-car-crash",
+      "source_path": "html/SAU/SAU-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_32a61de8d33ae680",
+    "text": "https://bdnews24.com/bangladesh/at-least-10-bangladeshis-killed-in-saudi-arabia-car-crash",
+    "url": null
+  }
+]

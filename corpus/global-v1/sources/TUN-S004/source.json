@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUN-S004",
+  "country_code": "TUN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "China Internet Information Center",
+  "canonical_url": "https://www.china.org.cn/world/Off_the_Wire/2024-06/01/content_117227854.htm",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.china.org.cn/world/Off_the_Wire/2024-06/01/content_117227854.htm",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Tunisia%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6749a2b43d7e91c0a4e78168b565989c2f174fac1a316377fda83a3c1fc08102",
+      "size_bytes": 993,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "حادث مروري",
+    "accident de la route",
+    "collision routière"
+  ],
+  "timezone": "Africa/Tunis",
+  "captured_at": "2026-08-11T21:57:02.921237Z",
+  "published_at": "2024-05-31T17:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "china.org.cn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUN-S004"
+}

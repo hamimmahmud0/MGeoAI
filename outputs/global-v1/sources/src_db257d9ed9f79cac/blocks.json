@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_592bf5efb3b3c15a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_592bf5efb3b3c15a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three Irish people killed in road crash in Spain",
+      "source_path": "html/IRL/IRL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db257d9ed9f79cac",
+    "text": "Three Irish people killed in road crash in Spain",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c55f63a077f0a99e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c55f63a077f0a99e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-28T08:00:00+01:00",
+      "source_path": "html/IRL/IRL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db257d9ed9f79cac",
+    "text": "2026-06-28T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_89f8a2b014b1e55d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_89f8a2b014b1e55d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Donegal Daily",
+      "source_path": "html/IRL/IRL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db257d9ed9f79cac",
+    "text": "Publisher: Donegal Daily",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_509456627cffed98",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_509456627cffed98",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.donegaldaily.com/news/three-irish-people-killed-in-road-crash-in-spain-639667",
+      "source_path": "html/IRL/IRL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db257d9ed9f79cac",
+    "text": "Original source: https://www.donegaldaily.com/news/three-irish-people-killed-in-road-crash-in-spain-639667",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_25fc60e10e16ef7f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_25fc60e10e16ef7f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db257d9ed9f79cac",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a7000034c2f46fc8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a7000034c2f46fc8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.donegaldaily.com/news/three-irish-people-killed-in-road-crash-in-spain-639667",
+      "source_path": "html/IRL/IRL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_db257d9ed9f79cac",
+    "text": "https://www.donegaldaily.com/news/three-irish-people-killed-in-road-crash-in-spain-639667",
+    "url": null
+  }
+]

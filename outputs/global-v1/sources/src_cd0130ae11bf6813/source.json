@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e6e307fc77e0ba4f76a03d930b4daeb599e93db8e28a9e9df70616ddba923348",
+  "country": "Bangladesh",
+  "country_code": "BGD",
+  "dependency_group": "the mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/BGD/BGD-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-03-25T13:33:00Z",
+  "publisher": "The Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_cd0130ae11bf6813",
+  "source_metadata": {
+    "country": "Bangladesh",
+    "country_code": "BGD",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-03-25T13:33:00+00:00",
+    "source_info_hash": "f2cc28dfd631b9dc",
+    "source_info_path": "html/BGD/BGD-S007/SOURCE_INFO.md",
+    "timezone": "Asia/Dhaka",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "সড়ক দুর্ঘটনা",
+      "বাস দুর্ঘটনা",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.mirror.co.uk/news/world-news/breaking-bangladesh-bus-crashes-river-36924152",
+  "timezone": "Asia/Dhaka",
+  "title": "Bangladesh bus crashes into river as 16 killed with frantic search for survivors"
+}

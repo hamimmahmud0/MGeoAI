@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "TUN",
+  "name": "Tunisia",
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "timezones": [
+    "Africa/Tunis"
+  ],
+  "target_sources": 12
+}

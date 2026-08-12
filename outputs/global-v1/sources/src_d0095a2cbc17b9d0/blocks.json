@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8f11f4ab46980667",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8f11f4ab46980667",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dode en gewonden bij ongeval met drie vrachtwagens op A17 bij Moerdijk",
+      "source_path": "html/NLD/NLD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d0095a2cbc17b9d0",
+    "text": "Dode en gewonden bij ongeval met drie vrachtwagens op A17 bij Moerdijk",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_db027d54930bc223",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_db027d54930bc223",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-28T20:06:00+02:00",
+      "source_path": "html/NLD/NLD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d0095a2cbc17b9d0",
+    "text": "2026-07-28T20:06:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3106b9f9c518ae9f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3106b9f9c518ae9f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One driver died and two people were trapped and injured when three trucks collided on the A17 near Moerdijk on 28 July 2026.",
+      "source_path": "html/NLD/NLD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d0095a2cbc17b9d0",
+    "text": "One driver died and two people were trapped and injured when three trucks collided on the A17 near Moerdijk on 28 July 2026.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c45396ecfa9cfb8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c45396ecfa9cfb8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: NOS",
+      "source_path": "html/NLD/NLD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d0095a2cbc17b9d0",
+    "text": "Publisher: NOS",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e21b870291071adc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e21b870291071adc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://nos.nl/artikel/2624762-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17-bij-moerdijk",
+      "source_path": "html/NLD/NLD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d0095a2cbc17b9d0",
+    "text": "Original source: https://nos.nl/artikel/2624762-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17-bij-moerdijk",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_54a4b2b69c22529e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_54a4b2b69c22529e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d0095a2cbc17b9d0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0dca8e55bad9b40b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0dca8e55bad9b40b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://nos.nl/artikel/2624762-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17-bij-moerdijk",
+      "source_path": "html/NLD/NLD-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d0095a2cbc17b9d0",
+    "text": "https://nos.nl/artikel/2624762-dode-en-gewonden-bij-ongeval-met-drie-vrachtwagens-op-a17-bij-moerdijk",
+    "url": null
+  }
+]

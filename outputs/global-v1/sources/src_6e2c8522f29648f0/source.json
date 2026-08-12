@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "308e4f23d9486157cfe1153f77ecb6f68122cf849b60d4a618c7d74a0a53e3b2",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "el contraste",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-08T13:14:52Z",
+  "publisher": "El Contraste",
+  "schema_version": "1.0.0",
+  "source_id": "src_6e2c8522f29648f0",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-08T13:14:52+00:00",
+    "source_info_hash": "f2e6070b47e1c8e7",
+    "source_info_path": "html/CHL/CHL-S007/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://elcontraste.cl/policial/2026/08/08/dos-muertos-deja-accidente-entre-bus-y-furgon-cadetes-de-deportes-temuco-viajaban-rumbo-a-concepcion/",
+  "timezone": "America/Santiago",
+  "title": "Dos muertos deja colisión entre furgón y bus que trasladaba cadetes de Deportes Temuco que viajaban a Concepción"
+}

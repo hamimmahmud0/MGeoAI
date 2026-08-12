@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ef9b8939310064c1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ef9b8939310064c1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "15 dead, 25 injured in head-on collision at Peki-Tsame",
+      "source_path": "html/GHA/GHA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f48d913a9be2b902",
+    "text": "15 dead, 25 injured in head-on collision at Peki-Tsame",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e5bb97935b300c3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_3e5bb97935b300c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-02T07:00:00+00:00",
+      "source_path": "html/GHA/GHA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f48d913a9be2b902",
+    "text": "2026-06-02T07:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9333848d5f80a1a5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9333848d5f80a1a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Fifteen persons have lost their lives and 25 others have been injured in a fatal head-on collision involving a Mercedes-Benz container truck and a Mercedes-Benz ...",
+      "source_path": "html/GHA/GHA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f48d913a9be2b902",
+    "text": "Fifteen persons have lost their lives and 25 others have been injured in a fatal head-on collision involving a Mercedes-Benz container truck and a Mercedes-Benz ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d2953fecb13e732",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7d2953fecb13e732",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Graphic Online",
+      "source_path": "html/GHA/GHA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f48d913a9be2b902",
+    "text": "Publisher: Graphic Online",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d84769c39fa0f032",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d84769c39fa0f032",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.graphic.com.gh/news/general-news/fifteen-dead-25-injured-in-head-on-collision-at-peki-tsame.html",
+      "source_path": "html/GHA/GHA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f48d913a9be2b902",
+    "text": "Original source: https://www.graphic.com.gh/news/general-news/fifteen-dead-25-injured-in-head-on-collision-at-peki-tsame.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f0653267057fc37d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f0653267057fc37d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f48d913a9be2b902",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3120a8177840ce56",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3120a8177840ce56",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.graphic.com.gh/news/general-news/fifteen-dead-25-injured-in-head-on-collision-at-peki-tsame.html",
+      "source_path": "html/GHA/GHA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f48d913a9be2b902",
+    "text": "https://www.graphic.com.gh/news/general-news/fifteen-dead-25-injured-in-head-on-collision-at-peki-tsame.html",
+    "url": null
+  }
+]

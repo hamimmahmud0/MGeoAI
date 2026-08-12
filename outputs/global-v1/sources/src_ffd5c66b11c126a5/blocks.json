@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b9651e560b3590fe",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b9651e560b3590fe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un accidente de tránsito múltiple se registró durante la tarde de este jueves en las inmediaciones de la feria de Cartagena, región de Valparaíso, donde un camión y al menos seis vehículos menores se vieron involucrados Según los primeros antecedentes,",
+      "source_path": "html/CHL/CHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ffd5c66b11c126a5",
+    "text": "Un accidente de tránsito múltiple se registró durante la tarde de este jueves en las inmediaciones de la feria de Cartagena, región de Valparaíso, donde un camión y al menos seis vehículos menores se vieron involucrados Según los primeros antecedentes,",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d0660e2f6a4e452",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7d0660e2f6a4e452",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-30T03:00:00-04:00",
+      "source_path": "html/CHL/CHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ffd5c66b11c126a5",
+    "text": "2026-07-30T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_852f69d0134a64be",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_852f69d0134a64be",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un accidente de tránsito múltiple se registró durante la tarde de este jueves en las inmediaciones de la feria de Cartagena, región de Valparaíso, donde ...",
+      "source_path": "html/CHL/CHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ffd5c66b11c126a5",
+    "text": "Un accidente de tránsito múltiple se registró durante la tarde de este jueves en las inmediaciones de la feria de Cartagena, región de Valparaíso, donde ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c7a9cbe195e09e15",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c7a9cbe195e09e15",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: instagram.com",
+      "source_path": "html/CHL/CHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ffd5c66b11c126a5",
+    "text": "Publisher: instagram.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84b50dcfdda66fbd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84b50dcfdda66fbd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.instagram.com/reel/DbbgV_FE4Jk/",
+      "source_path": "html/CHL/CHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ffd5c66b11c126a5",
+    "text": "Original source: https://www.instagram.com/reel/DbbgV_FE4Jk/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e39e19ede50278cc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e39e19ede50278cc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ffd5c66b11c126a5",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

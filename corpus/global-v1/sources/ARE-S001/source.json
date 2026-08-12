@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARE-S001",
+  "country_code": "ARE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Dhaka Tribune",
+  "canonical_url": "https://www.dhakatribune.com/world/middle-east/291628/bangladeshi-expat-killed-in-uae-road-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.dhakatribune.com/world/middle-east/291628/bangladeshi-expat-killed-in-uae-road-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22UAE%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "1dede45f7bfca26924e568fd9999c60d4fe1a0b2ce3f4c713ad9834d82932f64",
+      "size_bytes": 984,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dubai",
+  "captured_at": "2026-08-12T03:40:58.643171+06:00",
+  "published_at": "2022-08-03T12:11:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dhakatribune.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARE-S001"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0c87a5c4d662dfd4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0c87a5c4d662dfd4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua shares tribute to friends killed in Nigeria crash",
+      "source_path": "html/NGA/NGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_839dbf8cb9e87398",
+    "text": "Anthony Joshua shares tribute to friends killed in Nigeria crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d6966e6c86a1612e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_d6966e6c86a1612e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-01-08T09:00:00+01:00",
+      "source_path": "html/NGA/NGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_839dbf8cb9e87398",
+    "text": "2026-01-08T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca8cd2fde132e1f4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ca8cd2fde132e1f4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Anthony Joshua has paid an emotional tribute to his close friends Sina Ghami and Latif \"Latz\" Ayodele following their deaths in a car crash in ...",
+      "source_path": "html/NGA/NGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_839dbf8cb9e87398",
+    "text": "Anthony Joshua has paid an emotional tribute to his close friends Sina Ghami and Latif \"Latz\" Ayodele following their deaths in a car crash in ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95c3408f5dd3ed10",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95c3408f5dd3ed10",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ESPN",
+      "source_path": "html/NGA/NGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_839dbf8cb9e87398",
+    "text": "Publisher: ESPN",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7b878221e31b2e5f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7b878221e31b2e5f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.espn.com/soccer/story/_/id/47549811/anthony-joshua-shares-tribute-friends-killed-nigeria-crash",
+      "source_path": "html/NGA/NGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_839dbf8cb9e87398",
+    "text": "Original source: https://www.espn.com/soccer/story/_/id/47549811/anthony-joshua-shares-tribute-friends-killed-nigeria-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_875c1a1931d312e6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_875c1a1931d312e6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_839dbf8cb9e87398",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b184e2bf8a5b1690",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b184e2bf8a5b1690",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.espn.com/soccer/story/_/id/47549811/anthony-joshua-shares-tribute-friends-killed-nigeria-crash",
+      "source_path": "html/NGA/NGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_839dbf8cb9e87398",
+    "text": "https://www.espn.com/soccer/story/_/id/47549811/anthony-joshua-shares-tribute-friends-killed-nigeria-crash",
+    "url": null
+  }
+]

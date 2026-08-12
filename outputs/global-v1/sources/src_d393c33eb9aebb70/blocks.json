@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_41697238bd43c3d7",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_41697238bd43c3d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Thirty-five killed in school minibus crash in Tanzania",
+      "source_path": "html/TZA/TZA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d393c33eb9aebb70",
+    "text": "Thirty-five killed in school minibus crash in Tanzania",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a537e623d52a8c0d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a537e623d52a8c0d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2017-05-07T06:48:00+03:00",
+      "source_path": "html/TZA/TZA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d393c33eb9aebb70",
+    "text": "2017-05-07T06:48:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a360251a9a238e2f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a360251a9a238e2f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "\"The accident happened when the bus was descending on a steep hill in rainy conditions,\" Arusha regional police commander Charles Mkumbo told Reuters by telephone. ...",
+      "source_path": "html/TZA/TZA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d393c33eb9aebb70",
+    "text": "\"The accident happened when the bus was descending on a steep hill in rainy conditions,\" Arusha regional police commander Charles Mkumbo told Reuters by telephone. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ece4b2b3a62a3114",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ece4b2b3a62a3114",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/TZA/TZA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d393c33eb9aebb70",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ab6a5a19990861e5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ab6a5a19990861e5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/world/thirty-five-killed-in-school-minibus-crash-in-tanzania",
+      "source_path": "html/TZA/TZA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d393c33eb9aebb70",
+    "text": "Original source: https://bdnews24.com/world/thirty-five-killed-in-school-minibus-crash-in-tanzania",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_459badc2b702e0a1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_459badc2b702e0a1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TZA/TZA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d393c33eb9aebb70",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae87403792698ae8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae87403792698ae8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bdnews24.com/world/thirty-five-killed-in-school-minibus-crash-in-tanzania",
+      "source_path": "html/TZA/TZA-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d393c33eb9aebb70",
+    "text": "https://bdnews24.com/world/thirty-five-killed-in-school-minibus-crash-in-tanzania",
+    "url": null
+  }
+]

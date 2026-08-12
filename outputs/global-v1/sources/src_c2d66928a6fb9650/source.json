@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4d2755e94a3d3c16400e54be827943017c63baee582914be49a4415c92238a2d",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "khaleej times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-12-01T04:14:00Z",
+  "publisher": "Khaleej Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_c2d66928a6fb9650",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2019-12-01T04:14:00+00:00",
+    "source_info_hash": "301fd219e7efe057",
+    "source_info_path": "html/TUN/TUN-S009/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.khaleejtimes.com/world/africa/more-than-20-killed-in-tunisia-bus-crash",
+  "timezone": "Africa/Tunis",
+  "title": "More than 20 killed in Tunisia bus crash"
+}

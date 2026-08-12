@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7f3063d0cf00997418fbefaded8ba2ce26d5b792bd45a9b655b0e7a7bf9d872e",
+  "country": "Malaysia",
+  "country_code": "MYS",
+  "dependency_group": "gulf news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MYS/MYS-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-09T04:45:00Z",
+  "publisher": "Gulf News",
+  "schema_version": "1.0.0",
+  "source_id": "src_01eea6a6cb4b2963",
+  "source_metadata": {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-06-09T04:45:00+00:00",
+    "source_info_hash": "83b9a2ead156a85f",
+    "source_info_path": "html/MYS/MYS-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Kuala_Lumpur",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kemalangan jalan raya",
+      "nahas jalan raya",
+      "kemalangan bas",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://gulfnews.com/world/asia/malaysia-bus-crash-kills-at-least-15-mostly-students-1.500156807",
+  "timezone": "Asia/Kuala_Lumpur",
+  "title": "Malaysia bus crash kills at least 15, mostly students"
+}

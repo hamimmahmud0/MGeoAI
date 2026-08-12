@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "404c9b9eb6e9310e7a6071142f8fec85c592b6fb1c98349df09a9d07067db0df",
+  "country": "Morocco",
+  "country_code": "MAR",
+  "dependency_group": "the mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "local_path": "html/MAR/MAR-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-05T04:43:00Z",
+  "publisher": "The Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_124d5feb58a81b72",
+  "source_metadata": {
+    "country": "Morocco",
+    "country_code": "MAR",
+    "languages": [
+      "ar",
+      "fr",
+      "ber"
+    ],
+    "published_at": "2025-05-05T04:43:00+00:00",
+    "source_info_hash": "f83c67b263e04688",
+    "source_info_path": "html/MAR/MAR-S010/SOURCE_INFO.md",
+    "timezone": "Africa/Casablanca",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "تصادم مركبات",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.mirror.co.uk/news/world-news/breaking-two-brit-tourists-dead-35171166",
+  "timezone": "Africa/Casablanca",
+  "title": "Two Brit tourists dead & two others injured after car flips in Morocco horror crash"
+}

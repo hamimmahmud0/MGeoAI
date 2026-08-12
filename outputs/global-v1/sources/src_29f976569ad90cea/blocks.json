@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e739d3f8736c7bea",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e739d3f8736c7bea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Winnipeg man dies in highway crash in northern Ontario",
+      "source_path": "html/CAN/CAN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_29f976569ad90cea",
+    "text": "Winnipeg man dies in highway crash in northern Ontario",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_98c57d7a6c62adcc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_98c57d7a6c62adcc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-03T03:00:00-04:00",
+      "source_path": "html/CAN/CAN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_29f976569ad90cea",
+    "text": "2026-06-03T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_18d469044756e9c7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_18d469044756e9c7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CBC",
+      "source_path": "html/CAN/CAN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_29f976569ad90cea",
+    "text": "Publisher: CBC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f42b95820ef054ee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f42b95820ef054ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.cbc.ca/news/canada/manitoba/fatal-crash-winnipeg-teen-kenora-9.7221675",
+      "source_path": "html/CAN/CAN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_29f976569ad90cea",
+    "text": "Original source: https://www.cbc.ca/news/canada/manitoba/fatal-crash-winnipeg-teen-kenora-9.7221675",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8d2ef0bc33e7556d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8d2ef0bc33e7556d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_29f976569ad90cea",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2781eb97ac375e04",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2781eb97ac375e04",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.cbc.ca/news/canada/manitoba/fatal-crash-winnipeg-teen-kenora-9.7221675",
+      "source_path": "html/CAN/CAN-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_29f976569ad90cea",
+    "text": "https://www.cbc.ca/news/canada/manitoba/fatal-crash-winnipeg-teen-kenora-9.7221675",
+    "url": null
+  }
+]

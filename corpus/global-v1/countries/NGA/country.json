@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "NGA",
+  "name": "Nigeria",
+  "languages": [
+    "en"
+  ],
+  "timezones": [
+    "Africa/Lagos"
+  ],
+  "target_sources": 12
+}

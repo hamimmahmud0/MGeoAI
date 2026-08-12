@@ -35,6 +35,14 @@ def test_pipeline_outputs_markdown_blocks_and_schema(demo_dir: Path) -> None:
         for path in (demo_dir / "sources").glob("*/content.md")
     )
     assert (Path(__file__).parents[1] / "schemas/FusedIncident.schema.json").exists()
+    manifest = [
+        json.loads(line)
+        for line in (demo_dir / "manifest.jsonl").read_text(encoding="utf-8").splitlines()
+    ]
+    assert all("absolute_path" not in row for row in manifest)
+    assert all(
+        not str(row.get("source_info_path", "")).startswith("/") for row in manifest
+    )
 
 
 def test_api_filters_paginates_and_returns_detail(demo_dir: Path) -> None:

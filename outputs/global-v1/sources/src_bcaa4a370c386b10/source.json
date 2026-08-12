@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "fda30efc5001f43a8a9c7a6127c27bf35cd4dd0e089bd0a9fe4817940e1b525f",
+  "country": "Sri Lanka",
+  "country_code": "LKA",
+  "dependency_group": "hiru news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/LKA/LKA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-05T03:32:00Z",
+  "publisher": "Hiru News",
+  "schema_version": "1.0.0",
+  "source_id": "src_bcaa4a370c386b10",
+  "source_metadata": {
+    "country": "Sri Lanka",
+    "country_code": "LKA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-05T03:32:00+00:00",
+    "source_info_hash": "c0f562ae5d5a48a3",
+    "source_info_path": "html/LKA/LKA-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Colombo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "මාර්ග අනතුර",
+      "சாலை விபத்து",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.hirunews.lk/goldfmnews/481465/civil-security-department-member-dead-in-tipper-truck-motorcycle-collision",
+  "timezone": "Asia/Colombo",
+  "title": "Civil Security Department member dead in Tipper Truck - Motorcycle collision"
+}

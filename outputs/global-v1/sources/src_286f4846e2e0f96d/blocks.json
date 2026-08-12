@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_acfaa07fbae9951e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_acfaa07fbae9951e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Five Israelis from Safed killed in fatal car accident in Morocco",
+      "source_path": "html/MAR/MAR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_286f4846e2e0f96d",
+    "text": "Five Israelis from Safed killed in fatal car accident in Morocco",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9782c6114f6ee4fd",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9782c6114f6ee4fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-12-06T10:28:00+01:00",
+      "source_path": "html/MAR/MAR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_286f4846e2e0f96d",
+    "text": "2024-12-06T10:28:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_655825113db70f0d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_655825113db70f0d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The five killed were residents of Safed, and were all Breslov Hasidim, two of whom had families, according to Israeli media. Five Israelis were killed ...",
+      "source_path": "html/MAR/MAR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_286f4846e2e0f96d",
+    "text": "The five killed were residents of Safed, and were all Breslov Hasidim, two of whom had families, according to Israeli media. Five Israelis were killed ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b41549bd8264c661",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b41549bd8264c661",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Jerusalem Post Blogs",
+      "source_path": "html/MAR/MAR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_286f4846e2e0f96d",
+    "text": "Publisher: The Jerusalem Post Blogs",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_59e814100ae86934",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_59e814100ae86934",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.jpost.com/breaking-news/article-832281",
+      "source_path": "html/MAR/MAR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_286f4846e2e0f96d",
+    "text": "Original source: https://www.jpost.com/breaking-news/article-832281",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9554b71c1fcc4797",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9554b71c1fcc4797",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_286f4846e2e0f96d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_15b9e7753b50c705",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_15b9e7753b50c705",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.jpost.com/breaking-news/article-832281",
+      "source_path": "html/MAR/MAR-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_286f4846e2e0f96d",
+    "text": "https://www.jpost.com/breaking-news/article-832281",
+    "url": null
+  }
+]

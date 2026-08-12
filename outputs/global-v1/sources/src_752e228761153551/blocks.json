@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ad2863e34d092d7d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ad2863e34d092d7d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Commercial bus driver killed in multiple auto crash in Lagos",
+      "source_path": "html/NGA/NGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_752e228761153551",
+    "text": "Commercial bus driver killed in multiple auto crash in Lagos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9eed360415b02931",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9eed360415b02931",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-10T08:00:00+01:00",
+      "source_path": "html/NGA/NGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_752e228761153551",
+    "text": "2026-06-10T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0c0edd8f0f809fe5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0c0edd8f0f809fe5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A commercial bus driver has lost his life in a fatal multiple-vehicle collision at Cele inward Oshodi, Lagos, prompting an emergency response from the Lagos ...",
+      "source_path": "html/NGA/NGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_752e228761153551",
+    "text": "A commercial bus driver has lost his life in a fatal multiple-vehicle collision at Cele inward Oshodi, Lagos, prompting an emergency response from the Lagos ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c8d956380d7c862e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c8d956380d7c862e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: guardian.ng",
+      "source_path": "html/NGA/NGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_752e228761153551",
+    "text": "Publisher: guardian.ng",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2708825874365d8a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2708825874365d8a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://guardian.ng/news/nigeria/metro/commercial-bus-driver-killed-in-multiple-auto-crash-in-lagos/",
+      "source_path": "html/NGA/NGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_752e228761153551",
+    "text": "Original source: https://guardian.ng/news/nigeria/metro/commercial-bus-driver-killed-in-multiple-auto-crash-in-lagos/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_780cfc7c9d3181d0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_780cfc7c9d3181d0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_752e228761153551",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7d6b79ca743de15f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7d6b79ca743de15f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://guardian.ng/news/nigeria/metro/commercial-bus-driver-killed-in-multiple-auto-crash-in-lagos/",
+      "source_path": "html/NGA/NGA-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_752e228761153551",
+    "text": "https://guardian.ng/news/nigeria/metro/commercial-bus-driver-killed-in-multiple-auto-crash-in-lagos/",
+    "url": null
+  }
+]

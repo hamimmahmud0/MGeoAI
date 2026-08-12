@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_cf32db56e73cef50",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_cf32db56e73cef50",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Egypt’s prosecutor orders summoning of minister over deadly collision",
+      "source_path": "html/EGY/EGY-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_39b3937f218c30ba",
+    "text": "Egypt’s prosecutor orders summoning of minister over deadly collision",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f0e55d649e1f828a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f0e55d649e1f828a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2015-03-07T08:47:00+02:00",
+      "source_path": "html/EGY/EGY-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_39b3937f218c30ba",
+    "text": "2015-03-07T08:47:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_02ddc308318efe79",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_02ddc308318efe79",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Egypt's top prosecutor Hisham Barakat decided on Saturday to summon Transportation Minister Hany Dahy after a deadly accident on Friday left seven people dead. The ...",
+      "source_path": "html/EGY/EGY-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_39b3937f218c30ba",
+    "text": "Egypt's top prosecutor Hisham Barakat decided on Saturday to summon Transportation Minister Hany Dahy after a deadly accident on Friday left seven people dead. The ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d89c8647cb58272b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d89c8647cb58272b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Egypt Independent",
+      "source_path": "html/EGY/EGY-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_39b3937f218c30ba",
+    "text": "Publisher: Egypt Independent",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c378c438601050cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c378c438601050cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.egyptindependent.com/egypt-s-prosecutor-orders-summoning-minister-over-deadly-collision/",
+      "source_path": "html/EGY/EGY-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_39b3937f218c30ba",
+    "text": "Original source: https://www.egyptindependent.com/egypt-s-prosecutor-orders-summoning-minister-over-deadly-collision/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_74745a71a09f76c3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_74745a71a09f76c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/EGY/EGY-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_39b3937f218c30ba",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_29d3504e2ab7d185",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_29d3504e2ab7d185",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.egyptindependent.com/egypt-s-prosecutor-orders-summoning-minister-over-deadly-collision/",
+      "source_path": "html/EGY/EGY-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_39b3937f218c30ba",
+    "text": "https://www.egyptindependent.com/egypt-s-prosecutor-orders-summoning-minister-over-deadly-collision/",
+    "url": null
+  }
+]

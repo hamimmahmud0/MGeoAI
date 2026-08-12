@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9d1d6cb691e7f79ca7b5f9bacfb24296ca7c54abfce43c5ba57ade8c2c1557e3",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "brut",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-28T07:00:00Z",
+  "publisher": "Brut",
+  "schema_version": "1.0.0",
+  "source_id": "src_f4abe124df1985f9",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-07-28T07:00:00+00:00",
+    "source_info_hash": "d3cc9a470fb04a21",
+    "source_info_path": "html/FRA/FRA-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.brut.media/fr/videos/france/societe/un-pompier-volontaire-de-38-ans-est-mort-dans-un-accident-de-la-route-alors-qu-il-etait-en-intervention",
+  "timezone": "Europe/Paris",
+  "title": "Un pompier volontaire de 38 ans est mort dans un accident de la route alors qu’il était en intervention."
+}

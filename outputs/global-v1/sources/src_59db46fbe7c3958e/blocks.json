@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_4fc6a13bfd134484",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_4fc6a13bfd134484",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Drunk Driver Causes Horror Crash in Hyderabad, Army Jawan Killed",
+      "source_path": "html/GBR/GBR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_59db46fbe7c3958e",
+    "text": "Drunk Driver Causes Horror Crash in Hyderabad, Army Jawan Killed",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90ab2a2ddb46273c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_90ab2a2ddb46273c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T07:36:40+01:00",
+      "source_path": "html/GBR/GBR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_59db46fbe7c3958e",
+    "text": "2026-08-10T07:36:40+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b1a959ff76f2b05a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b1a959ff76f2b05a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Munsif News 24x7",
+      "source_path": "html/GBR/GBR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_59db46fbe7c3958e",
+    "text": "Publisher: Munsif News 24x7",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_010070262126174b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_010070262126174b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://munsifdaily.com/drunk-driver-causes-horror-crash-in-hyderabad-army-jawan-killed/",
+      "source_path": "html/GBR/GBR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_59db46fbe7c3958e",
+    "text": "Original source: https://munsifdaily.com/drunk-driver-causes-horror-crash-in-hyderabad-army-jawan-killed/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8c8925c29a981ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8c8925c29a981ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GBR/GBR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_59db46fbe7c3958e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7ccaa8c52d3f976a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7ccaa8c52d3f976a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://munsifdaily.com/drunk-driver-causes-horror-crash-in-hyderabad-army-jawan-killed/",
+      "source_path": "html/GBR/GBR-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_59db46fbe7c3958e",
+    "text": "https://munsifdaily.com/drunk-driver-causes-horror-crash-in-hyderabad-army-jawan-killed/",
+    "url": null
+  }
+]

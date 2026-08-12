@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_12af7ce4277db254",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_12af7ce4277db254",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 15 killed in road accident in central Kenya",
+      "source_path": "html/KEN/KEN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_aa502ed8df09e503",
+    "text": "At least 15 killed in road accident in central Kenya",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac70ad12bad7c1cd",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ac70ad12bad7c1cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-03-29T10:00:00+03:00",
+      "source_path": "html/KEN/KEN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_aa502ed8df09e503",
+    "text": "2026-03-29T10:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48773cceee5f73b6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_48773cceee5f73b6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "People look at the wreckage of a truck in Nyeri County, central Kenya, March 29, 2026.",
+      "source_path": "html/KEN/KEN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_aa502ed8df09e503",
+    "text": "People look at the wreckage of a truck in Nyeri County, central Kenya, March 29, 2026.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f79d6a486059ce62",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f79d6a486059ce62",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Xinhua",
+      "source_path": "html/KEN/KEN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_aa502ed8df09e503",
+    "text": "Publisher: Xinhua",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8e15f527509fb2af",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8e15f527509fb2af",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://english.news.cn/20260329/e5f8d0f062a04395a3641953ea096211/c.html",
+      "source_path": "html/KEN/KEN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_aa502ed8df09e503",
+    "text": "Original source: https://english.news.cn/20260329/e5f8d0f062a04395a3641953ea096211/c.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3f5f86d047593b51",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3f5f86d047593b51",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_aa502ed8df09e503",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d7fec6b091327244",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d7fec6b091327244",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://english.news.cn/20260329/e5f8d0f062a04395a3641953ea096211/c.html",
+      "source_path": "html/KEN/KEN-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_aa502ed8df09e503",
+    "text": "https://english.news.cn/20260329/e5f8d0f062a04395a3641953ea096211/c.html",
+    "url": null
+  }
+]

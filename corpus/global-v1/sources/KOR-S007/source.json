@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KOR-S007",
+  "country_code": "KOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Chosun Daily",
+  "canonical_url": "https://www.chosun.com/english/national-en/2025/11/14/CMQM2EX62RATTD6RCFPSMCVQBI/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.chosun.com/english/national-en/2025/11/14/CMQM2EX62RATTD6RCFPSMCVQBI/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Bucheon+Crash%3A+Driver+Inexperience+Under+Investigation",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "63c4629dbcdbf7fb9cb320bd83fe8a113ff3c6f46622f0ec397e544c6fca95be",
+      "size_bytes": 953,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "교통사고",
+    "차량 충돌",
+    "버스 사고",
+    "고속도로 사고"
+  ],
+  "timezone": "Asia/Seoul",
+  "captured_at": "2026-08-12T03:53:15.176303+06:00",
+  "published_at": "2025-11-14T00:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "chosun.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KOR-S007"
+}

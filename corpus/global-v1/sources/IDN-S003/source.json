@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IDN-S003",
+  "country_code": "IDN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Anadolu Ajansi",
+  "canonical_url": "https://www.aa.com.tr/en/asia-pacific/12-killed-in-indonesia-highway-accident/3186166",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.aa.com.tr/en/asia-pacific/12-killed-in-indonesia-highway-accident/3186166",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Indonesia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "a6dfc60ecb975a31c01f5ee6a06d9751fd3456a7a02f2507891bde4e9fafe32e",
+      "size_bytes": 947,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kecelakaan lalu lintas",
+    "tabrakan kendaraan",
+    "kecelakaan bus",
+    "kecelakaan jalan"
+  ],
+  "timezone": "Asia/Jakarta",
+  "captured_at": "2026-08-12T03:55:02.411332+06:00",
+  "published_at": "2024-04-08T03:46:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "aa.com.tr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IDN-S003"
+}

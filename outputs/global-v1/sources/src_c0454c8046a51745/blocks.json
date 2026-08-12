@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_f0208a38267827ed",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_f0208a38267827ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "15 killed, 25 injured in Peki–Tsame crash",
+      "source_path": "html/GHA/GHA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c0454c8046a51745",
+    "text": "15 killed, 25 injured in Peki–Tsame crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_10cf75fc3fbf8629",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_10cf75fc3fbf8629",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-02T07:00:00+00:00",
+      "source_path": "html/GHA/GHA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c0454c8046a51745",
+    "text": "2026-06-02T07:00:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ad6a382359c41247",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ad6a382359c41247",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least 15 people have been confirmed dead following a devastating crash on the Peki–Tsame road in the Volta Region.",
+      "source_path": "html/GHA/GHA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c0454c8046a51745",
+    "text": "At least 15 people have been confirmed dead following a devastating crash on the Peki–Tsame road in the Volta Region.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b3679f90baf698ce",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b3679f90baf698ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: CitiNewsroom.com",
+      "source_path": "html/GHA/GHA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c0454c8046a51745",
+    "text": "Publisher: CitiNewsroom.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0b63961b3de26dea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0b63961b3de26dea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.citinewsroom.com/2026/06/15-killed-25-injured-in-peki-tsame-highway-crash/",
+      "source_path": "html/GHA/GHA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c0454c8046a51745",
+    "text": "Original source: https://www.citinewsroom.com/2026/06/15-killed-25-injured-in-peki-tsame-highway-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_45a738d2eaaae2bb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_45a738d2eaaae2bb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/GHA/GHA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c0454c8046a51745",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6a2af87ebd138fd4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6a2af87ebd138fd4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.citinewsroom.com/2026/06/15-killed-25-injured-in-peki-tsame-highway-crash/",
+      "source_path": "html/GHA/GHA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c0454c8046a51745",
+    "text": "https://www.citinewsroom.com/2026/06/15-killed-25-injured-in-peki-tsame-highway-crash/",
+    "url": null
+  }
+]

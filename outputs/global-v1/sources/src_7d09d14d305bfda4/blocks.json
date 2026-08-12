@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_229a112267258a02",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_229a112267258a02",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Äldre kvinna död i trafikolycka i Rimbo",
+      "source_path": "html/SWE/SWE-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7d09d14d305bfda4",
+    "text": "Äldre kvinna död i trafikolycka i Rimbo",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca07d47892bf731e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ca07d47892bf731e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2023-11-08T09:00:00+01:00",
+      "source_path": "html/SWE/SWE-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7d09d14d305bfda4",
+    "text": "2023-11-08T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c7bcf102ab610e51",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c7bcf102ab610e51",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "I den ena bilen satt en kvinna i 80-årsåldern.",
+      "source_path": "html/SWE/SWE-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7d09d14d305bfda4",
+    "text": "I den ena bilen satt en kvinna i 80-årsåldern.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d168d0e4c10617a1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d168d0e4c10617a1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Expressen",
+      "source_path": "html/SWE/SWE-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7d09d14d305bfda4",
+    "text": "Publisher: Expressen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0c375e430809e3aa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0c375e430809e3aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.expressen.se/nyheter/sverige/aldre-kvinna-dod-i-trafikolycka/",
+      "source_path": "html/SWE/SWE-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7d09d14d305bfda4",
+    "text": "Original source: https://www.expressen.se/nyheter/sverige/aldre-kvinna-dod-i-trafikolycka/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1df359bef3a25b6e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1df359bef3a25b6e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SWE/SWE-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7d09d14d305bfda4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5e4543c4c4a0970",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5e4543c4c4a0970",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.expressen.se/nyheter/sverige/aldre-kvinna-dod-i-trafikolycka/",
+      "source_path": "html/SWE/SWE-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_7d09d14d305bfda4",
+    "text": "https://www.expressen.se/nyheter/sverige/aldre-kvinna-dod-i-trafikolycka/",
+    "url": null
+  }
+]

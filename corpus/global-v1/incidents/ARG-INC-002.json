@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "curation_only": true,
+  "curation_incident_id": "ARG-INC-002",
+  "country_code": "ARG",
+  "source_ids": [
+    "ARG-S001",
+    "ARG-S002"
+  ],
+  "label": "reviewed_same_incident",
+  "review_method": "automated",
+  "reviewed_by": [
+    "automated-title-date-entity-pair-v1"
+  ],
+  "reviewed_at": "2026-08-12T05:30:19.837239Z",
+  "note": "Automated multi-source candidate key 'incident_03c8465430733c01aa42'; distinct domains and matching feed metadata. Human confirmation should use each original URL."
+}

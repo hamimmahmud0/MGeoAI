@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "03dedcdd427817efec2cdd01e69032a483a68039e0884f813beb6d6089794147",
+  "country": "Ecuador",
+  "country_code": "ECU",
+  "dependency_group": "ecuavisa",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ECU/ECU-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-11T07:00:00Z",
+  "publisher": "Ecuavisa",
+  "schema_version": "1.0.0",
+  "source_id": "src_7255168e9445eec0",
+  "source_metadata": {
+    "country": "Ecuador",
+    "country_code": "ECU",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-11T07:00:00+00:00",
+    "source_info_hash": "9968bc54da7ba7f6",
+    "source_info_path": "html/ECU/ECU-S004/SOURCE_INFO.md",
+    "timezone": "America/Guayaquil",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "siniestro vial",
+      "choque vehicular",
+      "accidente de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.ecuavisa.com/quito/tres-muertos-siniestro-transito-pomasqui-quito-20260711-0008.html",
+  "timezone": "America/Guayaquil",
+  "title": "Tres muertos en un siniestro de tránsito en Pomasqui, norte de Quito"
+}

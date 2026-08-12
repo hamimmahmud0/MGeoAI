@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6d1ad1ed2f9caf7694b0563e10fb8eebc153a3fd1db79e693928a590ddb6faa2",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "radiopik.pl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-04T07:00:00Z",
+  "publisher": "radiopik.pl",
+  "schema_version": "1.0.0",
+  "source_id": "src_e4ec160fe6cef271",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-05-04T07:00:00+00:00",
+    "source_info_hash": "b3ef64bd964e4c75",
+    "source_info_path": "html/POL/POL-S010/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.radiopik.pl/2,138440,smiertelny-wypadek-pod-swieciem-nie-zyje-kierowca-osobowki-aktualizacja",
+  "timezone": "Europe/Warsaw",
+  "title": "Śmiertelny wypadek pod Świeciem. Nie żyje kierowca osobówki [aktualizacja]"
+}

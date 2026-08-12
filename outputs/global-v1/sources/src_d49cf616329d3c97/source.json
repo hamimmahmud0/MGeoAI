@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b1f4164f89171d23b4bfa5beaa25183b14e2f59ee7ceca743b9e29ef84eefe90",
+  "country": "Japan",
+  "country_code": "JPN",
+  "dependency_group": "novaist",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ja"
+  ],
+  "local_path": "html/JPN/JPN-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-09-30T00:00:00Z",
+  "publisher": "NOVAIST",
+  "schema_version": "1.0.0",
+  "source_id": "src_d49cf616329d3c97",
+  "source_metadata": {
+    "country": "Japan",
+    "country_code": "JPN",
+    "languages": [
+      "ja"
+    ],
+    "published_at": "2025-09-30T00:00:00+00:00",
+    "source_info_hash": "d0963358adc70c8a",
+    "source_info_path": "html/JPN/JPN-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Tokyo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "交通事故",
+      "車両衝突",
+      "バス事故",
+      "高速道路事故"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://novaist.jp/articles/kamagaya-preschool-bus-crash/",
+  "timezone": "Asia/Tokyo",
+  "title": "鎌ケ谷市の幼稚園送迎バスが衝突、運転手死亡"
+}

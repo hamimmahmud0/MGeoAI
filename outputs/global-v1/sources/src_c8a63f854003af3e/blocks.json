@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_77218db7b23c6c7b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_77218db7b23c6c7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nepal Bus Accident: 18 Dead As Passenger Bus Plunges Into Trishuli River In Dhading; Rescue Ops Ongoing",
+      "source_path": "html/NPL/NPL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c8a63f854003af3e",
+    "text": "Nepal Bus Accident: 18 Dead As Passenger Bus Plunges Into Trishuli River In Dhading; Rescue Ops Ongoing",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_92c23d781d112776",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_92c23d781d112776",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-23T00:20:00+05:45",
+      "source_path": "html/NPL/NPL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c8a63f854003af3e",
+    "text": "2026-02-23T00:20:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6f09f0f422bae01a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6f09f0f422bae01a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dhading (Nepal): At least 18 people were killed after a passenger bus plunged into the Trishuli River in Dhading, Nepal, in the early hours of ...",
+      "source_path": "html/NPL/NPL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c8a63f854003af3e",
+    "text": "Dhading (Nepal): At least 18 people were killed after a passenger bus plunged into the Trishuli River in Dhading, Nepal, in the early hours of ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_49c480c5765371fe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_49c480c5765371fe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Free Press Journal",
+      "source_path": "html/NPL/NPL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c8a63f854003af3e",
+    "text": "Publisher: The Free Press Journal",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f55e62dec20f7118",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f55e62dec20f7118",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.freepressjournal.in/world/nepal-bus-accident-18-dead-as-passenger-bus-plunges-into-trishuli-river-in-dhading-rescue-ops-ongoing",
+      "source_path": "html/NPL/NPL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c8a63f854003af3e",
+    "text": "Original source: https://www.freepressjournal.in/world/nepal-bus-accident-18-dead-as-passenger-bus-plunges-into-trishuli-river-in-dhading-rescue-ops-ongoing",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_818b445a72d7c3ee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_818b445a72d7c3ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c8a63f854003af3e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3e4f262f1e21ee54",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3e4f262f1e21ee54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.freepressjournal.in/world/nepal-bus-accident-18-dead-as-passenger-bus-plunges-into-trishuli-river-in-dhading-rescue-ops-ongoing",
+      "source_path": "html/NPL/NPL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c8a63f854003af3e",
+    "text": "https://www.freepressjournal.in/world/nepal-bus-accident-18-dead-as-passenger-bus-plunges-into-trishuli-river-in-dhading-rescue-ops-ongoing",
+    "url": null
+  }
+]

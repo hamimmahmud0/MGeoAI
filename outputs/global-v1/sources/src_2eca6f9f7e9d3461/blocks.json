@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c8c43eb20fced634",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c8c43eb20fced634",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Acidente de autocarro faz três feridos. Via Bucelas-Loures cortada",
+      "source_path": "html/PRT/PRT-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eca6f9f7e9d3461",
+    "text": "Acidente de autocarro faz três feridos. Via Bucelas-Loures cortada",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_71a741b1fe21de35",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_71a741b1fe21de35",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-09T08:00:00+01:00",
+      "source_path": "html/PRT/PRT-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eca6f9f7e9d3461",
+    "text": "2026-07-09T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_59e7ac1367257ace",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_59e7ac1367257ace",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 24 Notícias",
+      "source_path": "html/PRT/PRT-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eca6f9f7e9d3461",
+    "text": "Publisher: 24 Notícias",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7bfbbfd40eaa3d13",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7bfbbfd40eaa3d13",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://24noticias.sapo.pt/atualidade/artigos/acidente-de-autocarro-faz-tres-feridos-via-bucelas-loures-cortada",
+      "source_path": "html/PRT/PRT-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eca6f9f7e9d3461",
+    "text": "Original source: https://24noticias.sapo.pt/atualidade/artigos/acidente-de-autocarro-faz-tres-feridos-via-bucelas-loures-cortada",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5e39261f59c65d97",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5e39261f59c65d97",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PRT/PRT-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eca6f9f7e9d3461",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_135dd00d1647f9da",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_135dd00d1647f9da",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://24noticias.sapo.pt/atualidade/artigos/acidente-de-autocarro-faz-tres-feridos-via-bucelas-loures-cortada",
+      "source_path": "html/PRT/PRT-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_2eca6f9f7e9d3461",
+    "text": "https://24noticias.sapo.pt/atualidade/artigos/acidente-de-autocarro-faz-tres-feridos-via-bucelas-loures-cortada",
+    "url": null
+  }
+]

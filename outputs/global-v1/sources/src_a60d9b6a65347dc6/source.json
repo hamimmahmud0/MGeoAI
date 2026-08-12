@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "42da69f904c8a5c5dc6db141bcc4b4cee9e96d8465183b64b1da3b71b3c57b67",
+  "country": "Malaysia",
+  "country_code": "MYS",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/MYS/MYS-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-02T04:41:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_a60d9b6a65347dc6",
+  "source_metadata": {
+    "country": "Malaysia",
+    "country_code": "MYS",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-08-02T04:41:00+00:00",
+    "source_info_hash": "3918efc05dd04ad9",
+    "source_info_path": "html/MYS/MYS-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Kuala_Lumpur",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "kemalangan jalan raya",
+      "nahas jalan raya",
+      "kemalangan bas",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/asia/387981/3-bangladeshis-killed-2-others-injured-in",
+  "timezone": "Asia/Kuala_Lumpur",
+  "title": "3 Bangladeshis killed, 2 others injured in Malaysia road crash"
+}

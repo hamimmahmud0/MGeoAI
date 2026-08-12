@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IND-S010",
+  "country_code": "IND",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Print",
+  "canonical_url": "https://theprint.in/india/ksrtc-bus-accident-staff-working-hours-to-be-examined-says-minister-john/3009352/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://theprint.in/india/ksrtc-bus-accident-staff-working-hours-to-be-examined-says-minister-john/3009352/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22India%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "37eee56c4750ce2e62664f186faa2dcc0959ef6c6fcdc3041cb7283b4cddeb63",
+      "size_bytes": 1098,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "सड़क दुर्घटना",
+    "बस दुर्घटना"
+  ],
+  "timezone": "Asia/Kolkata",
+  "captured_at": "2026-08-12T03:55:02.405945+06:00",
+  "published_at": "2026-08-08T05:18:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "theprint.in",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IND-S010"
+}

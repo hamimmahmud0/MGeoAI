@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1659a126620189f07feed22d34d860e845bc3b5b94b409329b267b805fc17c6e",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "adn radio",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-03T07:00:00Z",
+  "publisher": "ADN Radio",
+  "schema_version": "1.0.0",
+  "source_id": "src_3c3a0b914f97123d",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-03T07:00:00+00:00",
+    "source_info_hash": "f509ec30b633e9a7",
+    "source_info_path": "html/CHL/CHL-S003/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.adnradio.cl/2026/08/03/fatal-accidente-en-la-ruta-68-choque-entre-camion-y-vehiculo-menor-deja-dos-muertos-y-varios-heridos/",
+  "timezone": "America/Santiago",
+  "title": "Fatal accidente en la Ruta 68: choque entre camión y vehículo menor deja dos muertos y varios heridos"
+}

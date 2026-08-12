@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8b610d98716f90cf",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8b610d98716f90cf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "One dead after two-vehicle collision near Omagh",
+      "source_path": "html/IRL/IRL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cf5067a011aabdc6",
+    "text": "One dead after two-vehicle collision near Omagh",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_37f3a1484f9d26a3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_37f3a1484f9d26a3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-18T08:00:00+01:00",
+      "source_path": "html/IRL/IRL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cf5067a011aabdc6",
+    "text": "2026-05-18T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0722c7f850b18caa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0722c7f850b18caa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Impartial Reporter",
+      "source_path": "html/IRL/IRL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cf5067a011aabdc6",
+    "text": "Publisher: The Impartial Reporter",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c5a280ca9cd43cc5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c5a280ca9cd43cc5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.impartialreporter.com/news/26114955.one-dead-following-two-vehicle-collision-near-omagh/",
+      "source_path": "html/IRL/IRL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cf5067a011aabdc6",
+    "text": "Original source: https://www.impartialreporter.com/news/26114955.one-dead-following-two-vehicle-collision-near-omagh/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_14d04de9cc60e09e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_14d04de9cc60e09e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cf5067a011aabdc6",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f46c8b7e03e27a1b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f46c8b7e03e27a1b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.impartialreporter.com/news/26114955.one-dead-following-two-vehicle-collision-near-omagh/",
+      "source_path": "html/IRL/IRL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cf5067a011aabdc6",
+    "text": "https://www.impartialreporter.com/news/26114955.one-dead-following-two-vehicle-collision-near-omagh/",
+    "url": null
+  }
+]

@@ -1,0 +1,221 @@
+{
+  "countries": [
+    {
+      "access_outcomes": {
+        "accessible": 20,
+        "no_reviewable_text": 3
+      },
+      "candidate_count": 20,
+      "country_code": "NLD",
+      "country_code_alpha2": "NL",
+      "country_name": "Netherlands",
+      "distinct_publisher_domains": 13,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 15,
+        "blocked": 5,
+        "no_reviewable_text": 8,
+        "robots_unavailable": 1
+      },
+      "candidate_count": 15,
+      "country_code": "BEL",
+      "country_code_alpha2": "BE",
+      "country_name": "Belgium",
+      "distinct_publisher_domains": 10,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 17,
+        "robots_unavailable": 43
+      },
+      "candidate_count": 17,
+      "country_code": "SWE",
+      "country_code_alpha2": "SE",
+      "country_name": "Sweden",
+      "distinct_publisher_domains": 13,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 20
+      },
+      "candidate_count": 20,
+      "country_code": "NOR",
+      "country_code_alpha2": "NO",
+      "country_name": "Norway",
+      "distinct_publisher_domains": 11,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 20,
+        "no_reviewable_text": 3,
+        "robots_unavailable": 2
+      },
+      "candidate_count": 20,
+      "country_code": "POL",
+      "country_code_alpha2": "PL",
+      "country_name": "Poland",
+      "distinct_publisher_domains": 8,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 20,
+        "robots_unavailable": 2
+      },
+      "candidate_count": 20,
+      "country_code": "ZAF",
+      "country_code_alpha2": "ZA",
+      "country_name": "South Africa",
+      "distinct_publisher_domains": 12,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 20,
+        "robots_disallowed": 2,
+        "robots_unavailable": 1
+      },
+      "candidate_count": 20,
+      "country_code": "NGA",
+      "country_code_alpha2": "NG",
+      "country_name": "Nigeria",
+      "distinct_publisher_domains": 9,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 20,
+        "blocked": 8,
+        "robots_unavailable": 8
+      },
+      "candidate_count": 20,
+      "country_code": "KEN",
+      "country_code_alpha2": "KE",
+      "country_name": "Kenya",
+      "distinct_publisher_domains": 8,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {
+        "accessible": 20,
+        "request_error": 1
+      },
+      "candidate_count": 20,
+      "country_code": "GHA",
+      "country_code_alpha2": "GH",
+      "country_name": "Ghana",
+      "distinct_publisher_domains": 7,
+      "pair_count": 1,
+      "target_met": true
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "UGA",
+      "country_code_alpha2": "UG",
+      "country_name": "Uganda",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "TZA",
+      "country_code_alpha2": "TZ",
+      "country_name": "Tanzania",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "ETH",
+      "country_code_alpha2": "ET",
+      "country_name": "Ethiopia",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "MAR",
+      "country_code_alpha2": "MA",
+      "country_name": "Morocco",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "EGY",
+      "country_code_alpha2": "EG",
+      "country_name": "Egypt",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "TUN",
+      "country_code_alpha2": "TN",
+      "country_name": "Tunisia",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "TUR",
+      "country_code_alpha2": "TR",
+      "country_name": "Türkiye",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    },
+    {
+      "access_outcomes": {},
+      "candidate_count": 0,
+      "country_code": "JOR",
+      "country_code_alpha2": "JO",
+      "country_name": "Jordan",
+      "distinct_publisher_domains": 0,
+      "pair_count": 0,
+      "target_met": false
+    }
+  ],
+  "countries_meeting_candidate_target": 9,
+  "countries_requested": 17,
+  "countries_with_pair": 9,
+  "generated_at": "2026-08-11T21:53:40.401282+00:00",
+  "group": "B",
+  "limitations": [
+    "Discovery candidates are not accepted corpus sources and have not received formal human review.",
+    "Country assignment is query-based and requires confirmation from each publisher page.",
+    "Distinct publisher domains do not rule out syndication or a shared upstream report.",
+    "Short excerpts are limited to 36 words and retained only for manual triage; payloads were not captured.",
+    "Blocked, robots-disallowed, rate-limited, inaccessible, or unextractable pages were excluded from candidate JSONL and retained in access-attempt logs."
+  ],
+  "target_candidates_per_country": 15,
+  "total_candidates": 172,
+  "total_distinct_urls": 172,
+  "total_pairs": 9
+}

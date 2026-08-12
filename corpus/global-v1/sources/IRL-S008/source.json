@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IRL-S008",
+  "country_code": "IRL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Irish Examiner",
+  "canonical_url": "https://www.irishexaminer.com/news/arid-41887609.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.irishexaminer.com/news/arid-41887609.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=IE%3Aen&gl=IE&hl=en-IE&q=%28%22road+accident%22+OR+%22traffic+collision%22+OR+%22road+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+%22Ireland%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4f6b5752374572c58833b902a8e440be4480548747cfd869f248f2e9b5eba148",
+      "size_bytes": 855,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "road crash",
+    "vehicle collision"
+  ],
+  "timezone": "Europe/Dublin",
+  "captured_at": "2026-08-11T21:58:27Z",
+  "published_at": "2026-07-29T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "irishexaminer.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IRL-S008"
+}

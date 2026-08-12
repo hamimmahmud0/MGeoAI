@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "EGY-S003",
+  "country_code": "EGY",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Anadolu Agency",
+  "canonical_url": "https://www.aa.com.tr/en/middle-east/15-killed-32-injured-in-deadly-road-accident-in-eastern-egypt/4024338",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.aa.com.tr/en/middle-east/15-killed-32-injured-in-deadly-road-accident-in-eastern-egypt/4024338",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Egypt%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "41782b27bf744c203b7ef633ab2f4fbb213eaa1734a84f2ba0744c9a7e0e1c2e",
+      "size_bytes": 1054,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "حادث مروري",
+    "تصادم سيارات",
+    "road accident"
+  ],
+  "timezone": "Africa/Cairo",
+  "captured_at": "2026-08-11T21:56:55.309474Z",
+  "published_at": "2026-08-11T10:04:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "aa.com.tr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-EGY-S003"
+}

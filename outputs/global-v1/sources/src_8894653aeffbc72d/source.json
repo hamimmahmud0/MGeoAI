@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1ffb1f091435e44df3b0327acc264e2d091540b46f016f6204cfcada4fed8c08",
+  "country": "Pakistan",
+  "country_code": "PAK",
+  "dependency_group": "pakistan today",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PAK/PAK-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-17T23:55:00Z",
+  "publisher": "Pakistan Today",
+  "schema_version": "1.0.0",
+  "source_id": "src_8894653aeffbc72d",
+  "source_metadata": {
+    "country": "Pakistan",
+    "country_code": "PAK",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-17T23:55:00+00:00",
+    "source_info_hash": "d52078e700781057",
+    "source_info_path": "html/PAK/PAK-S009/SOURCE_INFO.md",
+    "timezone": "Asia/Karachi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ٹریفک حادثہ",
+      "سڑک حادثہ",
+      "road accident",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.pakistantoday.com.pk/2026/06/18/minor-girl-dies-in-motorcycle-accident",
+  "timezone": "Asia/Karachi",
+  "title": "Minor girl dies in motorcycle accident"
+}

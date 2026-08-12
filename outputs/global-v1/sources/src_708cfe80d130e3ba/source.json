@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f59e0519e4f52984b2028a896c13749b7234a63631e440db661b3e8167406b9a",
+  "country": "Chile",
+  "country_code": "CHL",
+  "dependency_group": "pagina7.cl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/CHL/CHL-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-20T07:00:00Z",
+  "publisher": "pagina7.cl",
+  "schema_version": "1.0.0",
+  "source_id": "src_708cfe80d130e3ba",
+  "source_metadata": {
+    "country": "Chile",
+    "country_code": "CHL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-06-20T07:00:00+00:00",
+    "source_info_hash": "f57bccbe4e7bbfa2",
+    "source_info_path": "html/CHL/CHL-S010/SOURCE_INFO.md",
+    "timezone": "America/Santiago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "choque vehicular",
+      "colisión vial",
+      "accidente carretero"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.pagina7.cl/actualidad/grave-accidente-de-transito-dejo-tres-muertos-y-una-persona-en-estado-critico-en-arica/",
+  "timezone": "America/Santiago",
+  "title": "Grave accidente de tránsito dejó tres muertos y una persona en estado crítico en Arica"
+}

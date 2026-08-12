@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a5017ce1c8387822",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a5017ce1c8387822",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Chicago car crash: Person killed, 2 critically injured in crash involving wrong-way driver on I-94 near 55th Street, officials say",
+      "source_path": "html/USA/USA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c51c849ad8f0dd6a",
+    "text": "Chicago car crash: Person killed, 2 critically injured in crash involving wrong-way driver on I-94 near 55th Street, officials say",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fd0cb79e38b4119",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0fd0cb79e38b4119",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-31T02:00:00-05:00",
+      "source_path": "html/USA/USA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c51c849ad8f0dd6a",
+    "text": "2026-07-31T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac13113de44a30bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ac13113de44a30bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ABC7 Chicago",
+      "source_path": "html/USA/USA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c51c849ad8f0dd6a",
+    "text": "Publisher: ABC7 Chicago",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_25a785bab64ff5c7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_25a785bab64ff5c7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://abc7chicago.com/post/chicago-car-crash-person-killed-2-critically-injured-94-fire-officials-say/19609119/",
+      "source_path": "html/USA/USA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c51c849ad8f0dd6a",
+    "text": "Original source: https://abc7chicago.com/post/chicago-car-crash-person-killed-2-critically-injured-94-fire-officials-say/19609119/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_19c58007ec1a3353",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_19c58007ec1a3353",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c51c849ad8f0dd6a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_40d76c2b0eeba371",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_40d76c2b0eeba371",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://abc7chicago.com/post/chicago-car-crash-person-killed-2-critically-injured-94-fire-officials-say/19609119/",
+      "source_path": "html/USA/USA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c51c849ad8f0dd6a",
+    "text": "https://abc7chicago.com/post/chicago-car-crash-person-killed-2-critically-injured-94-fire-officials-say/19609119/",
+    "url": null
+  }
+]

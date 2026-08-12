@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bbf133acf20c3904",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bbf133acf20c3904",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "27 dead in India road accident",
+      "source_path": "html/IND/IND-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9731bd55c2f6c8a0",
+    "text": "27 dead in India road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cfa3270e4c550b91",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_cfa3270e4c550b91",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2022-10-02T15:43:00+05:30",
+      "source_path": "html/IND/IND-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9731bd55c2f6c8a0",
+    "text": "2022-10-02T15:43:00+05:30",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1c3fa109faa860c2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1c3fa109faa860c2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "As many as 27 people, mostly women and children, were killed and 22 others injured after a tractor trolley carrying Hindu devotees veered off the ...",
+      "source_path": "html/IND/IND-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9731bd55c2f6c8a0",
+    "text": "As many as 27 people, mostly women and children, were killed and 22 others injured after a tractor trolley carrying Hindu devotees veered off the ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_239e8d0fe30668ab",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_239e8d0fe30668ab",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Dhaka Tribune",
+      "source_path": "html/IND/IND-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9731bd55c2f6c8a0",
+    "text": "Publisher: Dhaka Tribune",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cf4c590eb9a1a9a0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cf4c590eb9a1a9a0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dhakatribune.com/world/south-asia/277643/27-dead-in-india-road-accident",
+      "source_path": "html/IND/IND-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9731bd55c2f6c8a0",
+    "text": "Original source: https://www.dhakatribune.com/world/south-asia/277643/27-dead-in-india-road-accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d9def3fdd988ae4e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d9def3fdd988ae4e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IND/IND-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9731bd55c2f6c8a0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bda8885871024cc1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bda8885871024cc1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dhakatribune.com/world/south-asia/277643/27-dead-in-india-road-accident",
+      "source_path": "html/IND/IND-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_9731bd55c2f6c8a0",
+    "text": "https://www.dhakatribune.com/world/south-asia/277643/27-dead-in-india-road-accident",
+    "url": null
+  }
+]

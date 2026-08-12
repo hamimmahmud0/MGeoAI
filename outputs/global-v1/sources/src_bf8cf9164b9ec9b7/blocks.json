@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b4ed2eb715d87ad6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b4ed2eb715d87ad6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Tragic traffic accident in Morocco leaves 9 dead",
+      "source_path": "html/MAR/MAR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bf8cf9164b9ec9b7",
+    "text": "Tragic traffic accident in Morocco leaves 9 dead",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b1a9ee8fbafd8b5d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b1a9ee8fbafd8b5d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-03-18T03:36:00+00:00",
+      "source_path": "html/MAR/MAR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bf8cf9164b9ec9b7",
+    "text": "2024-03-18T03:36:00+00:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ee1f2befb22933c8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ee1f2befb22933c8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "ALBAWABA - A shocking and heartbreaking event took place in the Azilal province in Morocco. News has broke of a devastating traffic accident that claimed ...",
+      "source_path": "html/MAR/MAR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bf8cf9164b9ec9b7",
+    "text": "ALBAWABA - A shocking and heartbreaking event took place in the Azilal province in Morocco. News has broke of a devastating traffic accident that claimed ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_058b76334466be19",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_058b76334466be19",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Al Bawaba News",
+      "source_path": "html/MAR/MAR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bf8cf9164b9ec9b7",
+    "text": "Publisher: Al Bawaba News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17fd0234b426e5db",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17fd0234b426e5db",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.albawaba.com/editors-choice/tragic-traffic-accident-morocco-leaves-9-dead-1557998",
+      "source_path": "html/MAR/MAR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bf8cf9164b9ec9b7",
+    "text": "Original source: https://www.albawaba.com/editors-choice/tragic-traffic-accident-morocco-leaves-9-dead-1557998",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b6f6b17b85bda367",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b6f6b17b85bda367",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MAR/MAR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bf8cf9164b9ec9b7",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c5b00e8652852d93",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c5b00e8652852d93",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.albawaba.com/editors-choice/tragic-traffic-accident-morocco-leaves-9-dead-1557998",
+      "source_path": "html/MAR/MAR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_bf8cf9164b9ec9b7",
+    "text": "https://www.albawaba.com/editors-choice/tragic-traffic-accident-morocco-leaves-9-dead-1557998",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c5e8827bbbfbc8b78ad84cd1be80cce62e7416fa08630f212841146ce97e74ba",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "the daily star",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-29T12:38:00Z",
+  "publisher": "The Daily Star",
+  "schema_version": "1.0.0",
+  "source_id": "src_80fafc39f680b9fe",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2025-06-29T12:38:00+00:00",
+    "source_info_hash": "5b44e3fa14eee9f4",
+    "source_info_path": "html/TZA/TZA-S002/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.thedailystar.net/news/world/news/bus-crash-blaze-kills-38-tanzania-3928846",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "Bus crash blaze kills 38 in Tanzania"
+}

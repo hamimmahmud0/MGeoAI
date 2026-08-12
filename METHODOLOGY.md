@@ -15,10 +15,14 @@ the protocol that the repository currently implements. The distinction matters:
 
 The repository implements strict corpus contracts, integrity validation,
 provenance-preserving ingestion, incident matching and fusion, a reviewer workflow,
-and offline fixtures. It does **not** currently contain a completed, audited
-51-country corpus, a fully global geocoder, or human-verified global performance
-results. The default corpus validator requires at least 50 countries; a study using
-this protocol must freeze exactly 51 countries in its versioned corpus manifest.
+and offline fixtures. It now contains a reproducible **automatically screened seed
+corpus** with 51 collection-country groups, 510 accepted source records, and 53
+automatically proposed multi-source incident groups. It does **not** contain a fully
+human-audited global corpus, a fully global geocoder, or human-verified global
+performance results. Collection country describes the discovery/source bucket and
+must not be interpreted as a verified crash location; this is explicit in the source
+link report and coverage GeoJSON. The default corpus validator requires at least 50
+countries, and this release freezes 51 in its versioned corpus manifest.
 The corpus records what publishers and other captured sources reported. It is not a
 truth database and does not independently establish that an event happened, who was
 at fault, or what its final consequences were.
@@ -32,8 +36,11 @@ other reporting. MGeoAI treats each report as attributed evidence rather than as
 unqualified fact. The proposed study uses a purposive, diversity-aware sample of 51
 countries, with at least 10 accepted traffic-incident sources in each country and at
 least one manually reviewed incident represented by two independent original-source
-groups per country. Captured payloads are immutable and content-addressed; source,
-block, and JSON-path provenance is retained through normalization and fusion.
+groups per country. The current seed release meets the numeric source and paired-report
+quotas through automated checks and distinct publisher domains, but its pair labels,
+country assignments, and upstream independence still require qualified human review.
+Captured payloads are immutable and content-addressed; source, block, and JSON-path
+provenance is retained through normalization and fusion.
 
 The computational pipeline parses saved HTML and structured multimodal-analysis
 JSON, generates canonical evidence and incident mentions, proposes cross-source
@@ -725,12 +732,16 @@ verification, language adequacy, dependence classification, reviewed incident gr
 ambiguous geolocation, casualty-conflict adjudication, redistribution decisions,
 ethics/legal review, corrections, and release approval.
 
-The following are study-stage requirements rather than completed findings: the frozen
-51-country list and filled quotas; balanced discovery across media systems; globally
-validated language lexicons; a global gazetteer and historical boundaries; dual-coded
-reference annotations; calibrated uncertainty; country/language/modal performance
-estimates; accessibility audit; and analysis of downstream user effects. Until these
-are completed, no claim of representative global coverage, globally reliable
+The frozen 51-country collection list, 10-source-per-country quota, direct-link report,
+and at least one automated distinct-domain multi-source candidate per country are now
+implemented dataset artifacts. They are coverage and workflow results, not accuracy or
+truth findings. The following remain study-stage requirements: qualified human review
+of source eligibility, event-country assignment, pair identity, and source dependence;
+balanced discovery across media systems; globally validated language lexicons; a
+global gazetteer and historical boundaries; dual-coded reference annotations;
+calibrated uncertainty; country/language/modal performance estimates; accessibility
+audit; and analysis of downstream user effects. Until these are completed, no claim of
+representative global coverage, globally reliable
 geolocation, verified casualty surveillance, or cross-cultural sentiment validity is
 warranted.
 

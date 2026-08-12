@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_825c9cb7d0e45345",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_825c9cb7d0e45345",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Motorcyclist dies in accident involving truck along Admiralty Road; 3 other accidents the same day",
+      "source_path": "html/SGP/SGP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48664eed903068fd",
+    "text": "Motorcyclist dies in accident involving truck along Admiralty Road; 3 other accidents the same day",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_33b995bc521c712e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_33b995bc521c712e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-06-22T06:14:00+08:00",
+      "source_path": "html/SGP/SGP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48664eed903068fd",
+    "text": "2025-06-22T06:14:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e5dac4d47940b8ee",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e5dac4d47940b8ee",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A rash of accidents — one of them fatal — occurred on Friday (June 20), according to videos posted online. A 30-year-old motorcyclist died and ...",
+      "source_path": "html/SGP/SGP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48664eed903068fd",
+    "text": "A rash of accidents — one of them fatal — occurred on Friday (June 20), according to videos posted online. A 30-year-old motorcyclist died and ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f5c7d087b209aebe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f5c7d087b209aebe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Asia One",
+      "source_path": "html/SGP/SGP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48664eed903068fd",
+    "text": "Publisher: Asia One",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a892d91cd7af1832",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a892d91cd7af1832",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.asiaone.com/singapore/motorcyclist-dies-accident-involving-truck-along-admiralty-road-3-other-accidents-same-day",
+      "source_path": "html/SGP/SGP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48664eed903068fd",
+    "text": "Original source: https://www.asiaone.com/singapore/motorcyclist-dies-accident-involving-truck-along-admiralty-road-3-other-accidents-same-day",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ecc1f38c6d5e6bb0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ecc1f38c6d5e6bb0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SGP/SGP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48664eed903068fd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9613fe098fab3738",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9613fe098fab3738",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.asiaone.com/singapore/motorcyclist-dies-accident-involving-truck-along-admiralty-road-3-other-accidents-same-day",
+      "source_path": "html/SGP/SGP-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_48664eed903068fd",
+    "text": "https://www.asiaone.com/singapore/motorcyclist-dies-accident-involving-truck-along-admiralty-road-3-other-accidents-same-day",
+    "url": null
+  }
+]

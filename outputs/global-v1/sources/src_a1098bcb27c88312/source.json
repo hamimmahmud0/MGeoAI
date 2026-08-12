@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ec8be631e3b5bf731cadddc0195cd605408f9c926b2584a26c2e848d845b1cc0",
+  "country": "Mexico",
+  "country_code": "MEX",
+  "dependency_group": "diario del yaqui",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/MEX/MEX-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-04T15:33:38Z",
+  "publisher": "Diario del Yaqui",
+  "schema_version": "1.0.0",
+  "source_id": "src_a1098bcb27c88312",
+  "source_metadata": {
+    "country": "Mexico",
+    "country_code": "MEX",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-08-04T15:33:38+00:00",
+    "source_info_hash": "2ab1980985f9b5ec",
+    "source_info_path": "html/MEX/MEX-S004/SOURCE_INFO.md",
+    "timezone": "America/Mexico_City",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente de tránsito",
+      "accidente carretero",
+      "choque vehicular",
+      "colisión vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://diariodelyaqui.mx/sonora/camionazo-en-empalme-deja-un-muerto-y-varios-heridos/140429",
+  "timezone": "America/Mexico_City",
+  "title": "Camionazo en Empalme deja un muerto y varios heridos"
+}

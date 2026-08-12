@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "CAN-S008",
+  "country_code": "CAN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NanaimoNewsNOW",
+  "canonical_url": "https://nanaimonewsnow.com/2026/06/22/one-killed-in-fatal-south-nanaimo-highway-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://nanaimonewsnow.com/2026/06/22/one-killed-in-fatal-south-nanaimo-highway-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CA%3Aen&gl=CA&hl=en-CA&q=%28%22traffic+collision%22+OR+%22highway+crash%22+OR+%22car+crash%22+OR+%22road+accident%22%29+%28killed+OR+dead+OR+injured%29+%22Canada%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "13f3bcce0ae80299a1521b44eb216cea77ed5e53a40f4d0a4d7f98969b012a4f",
+      "size_bytes": 870,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "highway crash",
+    "accident de la route"
+  ],
+  "timezone": "America/Toronto",
+  "captured_at": "2026-08-11T21:57:04Z",
+  "published_at": "2026-06-22T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nanaimonewsnow.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-CAN-S008"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "IDN-S005",
+  "country_code": "IDN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Bangladesh Sangsbad Sangstha",
+  "canonical_url": "https://www.bssnews.net/international/413323",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.bssnews.net/international/413323",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Indonesia%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4d0bd6cb043d0528e7b54ce47ad7d4922ecf030ccb0ae003f32606132b82fe73",
+      "size_bytes": 859,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "kecelakaan lalu lintas",
+    "tabrakan kendaraan",
+    "kecelakaan bus",
+    "kecelakaan jalan"
+  ],
+  "timezone": "Asia/Jakarta",
+  "captured_at": "2026-08-12T03:55:02.411262+06:00",
+  "published_at": "2026-08-10T09:23:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "bssnews.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-IDN-S005"
+}

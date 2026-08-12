@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NPL-S009",
+  "country_code": "NPL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NDTV",
+  "canonical_url": "https://www.ndtv.com/indians-abroad/four-indian-nationals-killed-in-nepal-car-accident-3941352",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.ndtv.com/indians-abroad/four-indian-nationals-killed-in-nepal-car-accident-3941352",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Nepal%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6f436cf190b03666dcd9ca6a0879bec6c206895d0e5b9670063642afec7eb2d8",
+      "size_bytes": 996,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "सडक दुर्घटना",
+    "बस दुर्घटना",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Kathmandu",
+  "captured_at": "2026-08-12T03:55:02.409973+06:00",
+  "published_at": "2023-04-12T02:35:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ndtv.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NPL-S009"
+}

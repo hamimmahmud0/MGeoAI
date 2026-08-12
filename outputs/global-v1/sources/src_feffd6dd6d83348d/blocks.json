@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_253735148c76c9cd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_253735148c76c9cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nine people killed in bus crash in Vietnam",
+      "source_path": "html/VNM/VNM-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_feffd6dd6d83348d",
+    "text": "Nine people killed in bus crash in Vietnam",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_050b5e2d58555e9f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_050b5e2d58555e9f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-07-25T11:32:00+07:00",
+      "source_path": "html/VNM/VNM-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_feffd6dd6d83348d",
+    "text": "2025-07-25T11:32:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d352f948248a028e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d352f948248a028e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "At least nine people, including children, were killed in central Vietnam when a bus crashed early on Friday, the government said. The accident, which took ...",
+      "source_path": "html/VNM/VNM-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_feffd6dd6d83348d",
+    "text": "At least nine people, including children, were killed in central Vietnam when a bus crashed early on Friday, the government said. The accident, which took ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d6f279cbcf54550a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d6f279cbcf54550a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/VNM/VNM-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_feffd6dd6d83348d",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a53a3121cfb2c33c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a53a3121cfb2c33c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/world/south-east-asia/4791c1bec105",
+      "source_path": "html/VNM/VNM-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_feffd6dd6d83348d",
+    "text": "Original source: https://bdnews24.com/world/south-east-asia/4791c1bec105",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e48f3b6909d0046a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e48f3b6909d0046a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_feffd6dd6d83348d",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_893c748127ef7620",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_893c748127ef7620",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bdnews24.com/world/south-east-asia/4791c1bec105",
+      "source_path": "html/VNM/VNM-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_feffd6dd6d83348d",
+    "text": "https://bdnews24.com/world/south-east-asia/4791c1bec105",
+    "url": null
+  }
+]

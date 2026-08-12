@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "SWE",
+  "name": "Sweden",
+  "languages": [
+    "sv"
+  ],
+  "timezones": [
+    "Europe/Stockholm"
+  ],
+  "target_sources": 12
+}

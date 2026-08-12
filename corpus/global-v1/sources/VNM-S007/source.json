@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S007",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Star",
+  "canonical_url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/28/driver-prosecuted-in-vietnam039s-ha-giang-loop-crash-that-killed-british-teen",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/28/driver-prosecuted-in-vietnam039s-ha-giang-loop-crash-that-killed-british-teen",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Vietnam%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "72df6853ddffda7a095508b3269fcb7274ad56072270e56139fca581803ec262",
+      "size_bytes": 1201,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:38:06.863730+06:00",
+  "published_at": "2026-05-28T09:29:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "thestar.com.my",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S007"
+}

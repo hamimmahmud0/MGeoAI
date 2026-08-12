@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_67b9a9451ba18a80",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_67b9a9451ba18a80",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Saudi TV presenter Saud Al-Otaibi dies in horrific car accident",
+      "source_path": "html/SAU/SAU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ac5901d64268002b",
+    "text": "Saudi TV presenter Saud Al-Otaibi dies in horrific car accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_103b67fc6f0807e3",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_103b67fc6f0807e3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-06T05:49:00+03:00",
+      "source_path": "html/SAU/SAU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ac5901d64268002b",
+    "text": "2026-07-06T05:49:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c0274d7442e5fca3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c0274d7442e5fca3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "ALBAWABA - Saudi TV presenter Saud Al-Otaibi, who works for the channel Al-Waqi', passed away in a horrific car accident south of Riyadh, sparking grief ...",
+      "source_path": "html/SAU/SAU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ac5901d64268002b",
+    "text": "ALBAWABA - Saudi TV presenter Saud Al-Otaibi, who works for the channel Al-Waqi', passed away in a horrific car accident south of Riyadh, sparking grief ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8cc09d8e94f2a63a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8cc09d8e94f2a63a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Al Bawaba News",
+      "source_path": "html/SAU/SAU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ac5901d64268002b",
+    "text": "Publisher: Al Bawaba News",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e10511ed33b20fa5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e10511ed33b20fa5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.albawaba.com/entertainment/saudi-tv-presenter-saud-al-otaibi-dies-1632248",
+      "source_path": "html/SAU/SAU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ac5901d64268002b",
+    "text": "Original source: https://www.albawaba.com/entertainment/saudi-tv-presenter-saud-al-otaibi-dies-1632248",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0128d9b876551bf5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0128d9b876551bf5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ac5901d64268002b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_df64ae31b332b053",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_df64ae31b332b053",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.albawaba.com/entertainment/saudi-tv-presenter-saud-al-otaibi-dies-1632248",
+      "source_path": "html/SAU/SAU-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ac5901d64268002b",
+    "text": "https://www.albawaba.com/entertainment/saudi-tv-presenter-saud-al-otaibi-dies-1632248",
+    "url": null
+  }
+]

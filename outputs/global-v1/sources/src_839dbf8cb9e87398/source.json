@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a75d56cbbe930b22225ee66c07ac107cc1265276b15d61d6a4c31c08ac9fd6ff",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "espn",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-08T08:00:00Z",
+  "publisher": "ESPN",
+  "schema_version": "1.0.0",
+  "source_id": "src_839dbf8cb9e87398",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2026-01-08T08:00:00+00:00",
+    "source_info_hash": "c689af62175e4ace",
+    "source_info_path": "html/NGA/NGA-S001/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.espn.com/soccer/story/_/id/47549811/anthony-joshua-shares-tribute-friends-killed-nigeria-crash",
+  "timezone": "Africa/Lagos",
+  "title": "Anthony Joshua shares tribute to friends killed in Nigeria crash"
+}

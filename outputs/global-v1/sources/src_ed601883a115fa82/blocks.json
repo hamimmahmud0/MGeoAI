@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_5f46b5ff871b4603",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_5f46b5ff871b4603",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "3 Bangladeshis reportedly killed in road accident in Saudi Arabia",
+      "source_path": "html/SAU/SAU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ed601883a115fa82",
+    "text": "3 Bangladeshis reportedly killed in road accident in Saudi Arabia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c28dffd6e2e797a2",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c28dffd6e2e797a2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-06-14T16:28:00+03:00",
+      "source_path": "html/SAU/SAU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ed601883a115fa82",
+    "text": "2024-06-14T16:28:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2f7f131c187780c4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2f7f131c187780c4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The families of three young Bangladeshi construction workers from Chandpur have received news of their deaths in a road accident in the Al Nazad region ...",
+      "source_path": "html/SAU/SAU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ed601883a115fa82",
+    "text": "The families of three young Bangladeshi construction workers from Chandpur have received news of their deaths in a road accident in the Al Nazad region ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca3d7c7b3f738233",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ca3d7c7b3f738233",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/SAU/SAU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ed601883a115fa82",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7180f10cac525d21",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7180f10cac525d21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/bangladesh/c9715da97053",
+      "source_path": "html/SAU/SAU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ed601883a115fa82",
+    "text": "Original source: https://bdnews24.com/bangladesh/c9715da97053",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8197b3526f143dba",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8197b3526f143dba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SAU/SAU-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ed601883a115fa82",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d2c94629a39a07ebdb5164cdb79fa7b1919a348371ece92ded1753b075833205",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "bdnews24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-07-25T04:32:00Z",
+  "publisher": "bdnews24",
+  "schema_version": "1.0.0",
+  "source_id": "src_feffd6dd6d83348d",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-07-25T04:32:00+00:00",
+    "source_info_hash": "0aa4308c8c0ba9b6",
+    "source_info_path": "html/VNM/VNM-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/world/south-east-asia/4791c1bec105",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "Nine people killed in bus crash in Vietnam"
+}

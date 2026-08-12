@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "aab174d7ad1012b90ead96ef9b9f4c321a46dea4c1309c4b50f13a9a2f59c1bb",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "fvn.no",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-19T08:00:00Z",
+  "publisher": "fvn.no",
+  "schema_version": "1.0.0",
+  "source_id": "src_606dfe41a7293193",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2026-01-19T08:00:00+00:00",
+    "source_info_hash": "938a956a416748b4",
+    "source_info_path": "html/NOR/NOR-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.fvn.no/norgeogverden/i/Rj9e05/alvorlig-trafikkulykke-paa-time-i-rogaland-luftambulanse-er-paa-vei",
+  "timezone": "Europe/Oslo",
+  "title": "En person omkom i trafikkulykke på Jæren"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "JPN",
+  "name": "Japan",
+  "languages": [
+    "ja"
+  ],
+  "timezones": [
+    "Asia/Tokyo"
+  ],
+  "target_sources": 12
+}

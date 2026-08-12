@@ -1,0 +1,418 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c242db32aa865b20",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c242db32aa865b20",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(2) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "চাঁদপুরে বাস-ট্রাকের মুখোমুখি সংঘর্ষে তিনজন নিহত",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "চাঁদপুরে বাস-ট্রাকের মুখোমুখি সংঘর্ষে তিনজন নিহত",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0c63fa0f304b7aea",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_0c63fa0f304b7aea",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "প্রকাশ: ১১ আগস্ট ২০২৬, ১৪: ০৯",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "প্রকাশ: ১১ আগস্ট ২০২৬, ১৪: ০৯",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8abd51dcb839cd82",
+    "kind": "caption",
+    "locator": {
+      "block_id": "blk_8abd51dcb839cd82",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figcaption:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "চাঁদপুর-কুমিল্লা আঞ্চলিক মহাসড়কে বালুবাহী ডাম্প ট্রাকের সঙ্গে বাসের মুখোমুখি সংঘর্ষে তিনজন নিহত হয়েছেন। আজ মঙ্গলবার ছবি: প্রথম আলো",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "চাঁদপুর-কুমিল্লা আঞ্চলিক মহাসড়কে বালুবাহী ডাম্প ট্রাকের সঙ্গে বাসের মুখোমুখি সংঘর্ষে তিনজন নিহত হয়েছেন। আজ মঙ্গলবার ছবি: প্রথম আলো",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd7aae2e54930607",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd7aae2e54930607",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "চাঁদপুর-কুমিল্লা আঞ্চলিক মহাসড়কে বালুবাহী ডাম্প ট্রাকের সঙ্গে বাসের মুখোমুখি সংঘর্ষে তিনজন নিহত হয়েছেন। আজ মঙ্গলবার সকাল আটটার দিকে চাঁদপুরের শাহরাস্তি উপজেলার বানিয়াচো এলাকায় এ দুর্ঘটনা ঘটে। এ ঘটনায় আহত হয়েছেন অন্তত ১৫ জন।",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "চাঁদপুর-কুমিল্লা আঞ্চলিক মহাসড়কে বালুবাহী ডাম্প ট্রাকের সঙ্গে বাসের মুখোমুখি সংঘর্ষে তিনজন নিহত হয়েছেন। আজ মঙ্গলবার সকাল আটটার দিকে চাঁদপুরের শাহরাস্তি উপজেলার বানিয়াচো এলাকায় এ দুর্ঘটনা ঘটে। এ ঘটনায় আহত হয়েছেন অন্তত ১৫ জন।",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d5763c0ba803c3fe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d5763c0ba803c3fe",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "প্রত্যক্ষদর্শী ও ফায়ার সার্ভিস সূত্রে জানা যায়, কুমিল্লাগামী বালুবাহী ডাম্প ট্রাকের সঙ্গে দিনাজপুর থেকে হাজীগঞ্জগামী আল-আরাফা বাসের মুখোমুখি সংঘর্ষ হয়। এতে বাসটি দুমড়েমুচড়ে যায়। বালুবাহী ট্রাকটির চালক আবদুল ওহাব (৪০), বাসের চালক গাইবান্ধার কামাল (৩৫) ও বাসের চালকের সহকারী বাগেরহাটের শোভন (৩০)—তিনজনই ঘটনাস্থলে নিহত হয়েছেন।",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "প্রত্যক্ষদর্শী ও ফায়ার সার্ভিস সূত্রে জানা যায়, কুমিল্লাগামী বালুবাহী ডাম্প ট্রাকের সঙ্গে দিনাজপুর থেকে হাজীগঞ্জগামী আল-আরাফা বাসের মুখোমুখি সংঘর্ষ হয়। এতে বাসটি দুমড়েমুচড়ে যায়। বালুবাহী ট্রাকটির চালক আবদুল ওহাব (৪০), বাসের চালক গাইবান্ধার কামাল (৩৫) ও বাসের চালকের সহকারী বাগেরহাটের শোভন (৩০)—তিনজনই ঘটনাস্থলে নিহত হয়েছেন।",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eb24efc8febfd6c3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eb24efc8febfd6c3",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "খবর পেয়ে শাহরাস্তি ফায়ার সার্ভিসের উদ্ধারকারী দল ঘটনাস্থলে গিয়ে প্রায় এক ঘণ্টা চেষ্টা চালিয়ে হতাহত ব্যক্তিদের উদ্ধার করে। আহত ব্যক্তিদের মধ্যে অধিকাংশ স্থানীয় লোকজনের সহযোগিতায় কুমিল্লা মেডিকেল কলেজ হাসপাতালে চিকিৎসার জন্য চলে যান।",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "খবর পেয়ে শাহরাস্তি ফায়ার সার্ভিসের উদ্ধারকারী দল ঘটনাস্থলে গিয়ে প্রায় এক ঘণ্টা চেষ্টা চালিয়ে হতাহত ব্যক্তিদের উদ্ধার করে। আহত ব্যক্তিদের মধ্যে অধিকাংশ স্থানীয় লোকজনের সহযোগিতায় কুমিল্লা মেডিকেল কলেজ হাসপাতালে চিকিৎসার জন্য চলে যান।",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fe4a11ddc4f9ef6b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fe4a11ddc4f9ef6b",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "গুরুতর আহত তিনজনকে ফায়ার সার্ভিস উদ্ধার করে শাহরাস্তি উপজেলা স্বাস্থ্য কমপ্লেক্সে নিয়ে যায়। অবস্থা খারাপ দেখে কর্তব্যরত চিকিৎসক তাঁদের কুমিল্লা মেডিকেল কলেজ হাসপাতালে পাঠান।",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "গুরুতর আহত তিনজনকে ফায়ার সার্ভিস উদ্ধার করে শাহরাস্তি উপজেলা স্বাস্থ্য কমপ্লেক্সে নিয়ে যায়। অবস্থা খারাপ দেখে কর্তব্যরত চিকিৎসক তাঁদের কুমিল্লা মেডিকেল কলেজ হাসপাতালে পাঠান।",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_46a086d7d725fda2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_46a086d7d725fda2",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "শাহরাস্তি উপজেলা স্বাস্থ্য কমপ্লেক্সের কর্মকর্তা আকলিমা জাহান বলেন, প্রচুর রক্তক্ষরণের কারণে আহত ব্যক্তিদের অবস্থা খুবই নাজুক হয়ে পড়ে। এ জন্য উন্নত চিকিৎসার জন্য তাঁদের রেফার করা হয়।",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "শাহরাস্তি উপজেলা স্বাস্থ্য কমপ্লেক্সের কর্মকর্তা আকলিমা জাহান বলেন, প্রচুর রক্তক্ষরণের কারণে আহত ব্যক্তিদের অবস্থা খুবই নাজুক হয়ে পড়ে। এ জন্য উন্নত চিকিৎসার জন্য তাঁদের রেফার করা হয়।",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_81a0f4ace1d3c228",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_81a0f4ace1d3c228",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "ঘটনার পর তিনটি লাশ শাহরাস্তি থানায় নেওয়া হয়েছে বলে জানান শাহরাস্তি থানার ভারপ্রাপ্ত কর্মকর্তা মীর মাহবুবুর রহমান। পুলিশ বাস ও ট্রাক জব্দ করেছে।",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "ঘটনার পর তিনটি লাশ শাহরাস্তি থানায় নেওয়া হয়েছে বলে জানান শাহরাস্তি থানার ভারপ্রাপ্ত কর্মকর্তা মীর মাহবুবুর রহমান। পুলিশ বাস ও ট্রাক জব্দ করেছে।",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b9b3004918906930",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b9b3004918906930",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > h2:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "নিহত নিয়ে আরও পড়ুন",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "নিহত নিয়ে আরও পড়ুন",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_57aea20c24c41374",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_57aea20c24c41374",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "চাঁদপুরে বাস-ট্রাকের মুখোমুখি সংঘর্ষে নিহত ৩, আহত ১৬",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "চাঁদপুরে বাস-ট্রাকের মুখোমুখি সংঘর্ষে নিহত ৩, আহত ১৬",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a43b1b59a10b1603",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a43b1b59a10b1603",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "৬ ঘণ্টা আগে",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "৬ ঘণ্টা আগে",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f07e73216b7dc64d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f07e73216b7dc64d",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "নারায়ণগঞ্জে বিস্ফোরণে একে একে দগ্ধ সবার মৃত্যু, পরিবারে জীবিত রইল না কেউ",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "নারায়ণগঞ্জে বিস্ফোরণে একে একে দগ্ধ সবার মৃত্যু, পরিবারে জীবিত রইল না কেউ",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f17805579400245b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f17805579400245b",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "মেয়েকে কখনো কোলে নিতে পারেননি শামীম, স্ত্রীকে তুলে আনার আগেই সাব্বিরের মৃত্যু",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "মেয়েকে কখনো কোলে নিতে পারেননি শামীম, স্ত্রীকে তুলে আনার আগেই সাব্বিরের মৃত্যু",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bf4b374335ee8af1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_bf4b374335ee8af1",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "৯ ঘণ্টা আগে",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "৯ ঘণ্টা আগে",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4db4458f7f5ea885",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4db4458f7f5ea885",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "৭.৪ মাত্রার ভূমিকম্পে কাঁপল কলম্বিয়া, নিহত বেড়ে ১৩২",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "৭.৪ মাত্রার ভূমিকম্পে কাঁপল কলম্বিয়া, নিহত বেড়ে ১৩২",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_693e0172e9936309",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_693e0172e9936309",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "১০ ঘণ্টা আগে",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "১০ ঘণ্টা আগে",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_910a91999e56d1b9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_910a91999e56d1b9",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "সৌদিতে ১৬ বাংলাদেশির মৃত্যুতে প্রধানমন্ত্রীর শোক, মরদেহ দ্রুত দেশে আনতে নির্দেশ",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "সৌদিতে ১৬ বাংলাদেশির মৃত্যুতে প্রধানমন্ত্রীর শোক, মরদেহ দ্রুত দেশে আনতে নির্দেশ",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7016c3d47ce32290",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_7016c3d47ce32290",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "১২ ঘণ্টা আগে",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "১২ ঘণ্টা আগে",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c888463fc2e1a14a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c888463fc2e1a14a",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "কলম্বিয়ায় শক্তিশালী ভূমিকম্পে নিহত বেড়ে ১১১",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "কলম্বিয়ায় শক্তিশালী ভূমিকম্পে নিহত বেড়ে ১১১",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4a1c76dbbb06b46e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4a1c76dbbb06b46e",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(2) > div:nth-of-type(2) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "১৭ ঘণ্টা আগে",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "১৭ ঘণ্টা আগে",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b4a1c98e5c28c86c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b4a1c98e5c28c86c",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "মৌলভীবাজার সীমান্তে গুলিতে নিহত তরুণের লাশ ফেরত দিল বিএসএফ",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "মৌলভীবাজার সীমান্তে গুলিতে নিহত তরুণের লাশ ফেরত দিল বিএসএফ",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_369eb04a1e8d26f4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_369eb04a1e8d26f4",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(3) > div:nth-of-type(2) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "১০ আগস্ট ২০২৬",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "১০ আগস্ট ২০২৬",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a36435f8dd6c1565",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a36435f8dd6c1565",
+      "locator": "div:nth-of-type(2) > div:nth-of-type(4) > div:nth-of-type(1) > div:nth-of-type(1) > h3:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "সৌদিতে সোফা কারখানার আগুনে নিভল তিন পরিবারের স্বপ্ন",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "সৌদিতে সোফা কারখানার আগুনে নিভল তিন পরিবারের স্বপ্ন",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b2f82fc37403f74b",
+    "kind": "caption",
+    "locator": {
+      "block_id": "blk_b2f82fc37403f74b",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(2) > div:nth-of-type(1) > div:nth-of-type(2) > figcaption:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "চাঁদপুর-কুমিল্লা আঞ্চলিক মহাসড়কে বালুবাহী ডাম্প ট্রাকের সঙ্গে বাসের মুখোমুখি সংঘর্ষে তিনজন নিহত হয়েছেন। আজ মঙ্গলবার",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "চাঁদপুর-কুমিল্লা আঞ্চলিক মহাসড়কে বালুবাহী ডাম্প ট্রাকের সঙ্গে বাসের মুখোমুখি সংঘর্ষে তিনজন নিহত হয়েছেন। আজ মঙ্গলবার",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bc57cd1d64b5a282",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bc57cd1d64b5a282",
+      "locator": "div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) > blockquote:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "গুরুতর আহত তিনজনকে ফায়ার সার্ভিস উদ্ধার করে শাহরাস্তি উপজেলা স্বাস্থ্য কমপ্লেক্সে নিয়ে যায়।",
+      "source_path": "runtime/html/sub_19c14628bed81408/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4a0f8a0ea6cf4c0b",
+    "text": "গুরুতর আহত তিনজনকে ফায়ার সার্ভিস উদ্ধার করে শাহরাস্তি উপজেলা স্বাস্থ্য কমপ্লেক্সে নিয়ে যায়।",
+    "url": null
+  }
+]

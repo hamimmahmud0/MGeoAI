@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8c23791604bf0cfd",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8c23791604bf0cfd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "N1 crash: Forty-two Zimbabweans and Malawians killed after bus veers off road in South Africa",
+      "source_path": "html/ZAF/ZAF-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9edeb4f41c5e9fc",
+    "text": "N1 crash: Forty-two Zimbabweans and Malawians killed after bus veers off road in South Africa",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bdd1cb10f91de5cd",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_bdd1cb10f91de5cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-10-13T09:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9edeb4f41c5e9fc",
+    "text": "2025-10-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae388f35b279fe9b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ae388f35b279fe9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Forty-two killed as bus crashes on South Africa mountain pass Forty-two Zimbabwean and Malawian nationals have died after a bus taking them home overturned on ...",
+      "source_path": "html/ZAF/ZAF-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9edeb4f41c5e9fc",
+    "text": "Forty-two killed as bus crashes on South Africa mountain pass Forty-two Zimbabwean and Malawian nationals have died after a bus taking them home overturned on ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fa7cc77d16f1efa8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fa7cc77d16f1efa8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: BBC",
+      "source_path": "html/ZAF/ZAF-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9edeb4f41c5e9fc",
+    "text": "Publisher: BBC",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88815e69e7db8fb5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88815e69e7db8fb5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.bbc.com/news/articles/cr5en8325yno",
+      "source_path": "html/ZAF/ZAF-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9edeb4f41c5e9fc",
+    "text": "Original source: https://www.bbc.com/news/articles/cr5en8325yno",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_93da9dcc634822e3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_93da9dcc634822e3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9edeb4f41c5e9fc",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8293ac138d2b3af0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8293ac138d2b3af0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.bbc.com/news/articles/cr5en8325yno",
+      "source_path": "html/ZAF/ZAF-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a9edeb4f41c5e9fc",
+    "text": "https://www.bbc.com/news/articles/cr5en8325yno",
+    "url": null
+  }
+]

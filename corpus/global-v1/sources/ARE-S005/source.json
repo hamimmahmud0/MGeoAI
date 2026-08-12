@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARE-S005",
+  "country_code": "ARE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The Free Press Journal",
+  "canonical_url": "https://www.freepressjournal.in/world/dubai-road-accident-several-indian-workers-killed-after-minibus-collides-with-truck-on-emirates-road",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.freepressjournal.in/world/dubai-road-accident-several-indian-workers-killed-after-minibus-collides-with-truck-on-emirates-road",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Dubai%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "9fd51d63cf58a70b39dc55970e532acb3c97929d1c69e97903433a43ab988eee",
+      "size_bytes": 1231,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dubai",
+  "captured_at": "2026-08-12T03:48:53.145927+06:00",
+  "published_at": "2026-06-08T09:36:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "freepressjournal.in",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARE-S005"
+}

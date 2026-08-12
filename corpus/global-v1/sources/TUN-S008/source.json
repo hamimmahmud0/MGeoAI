@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUN-S008",
+  "country_code": "TUN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "eturbonews",
+  "canonical_url": "https://eturbonews.com/24-local-tourists-killed-in-tunisia-road-accident/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://eturbonews.com/24-local-tourists-killed-in-tunisia-road-accident/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Tunisia%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6bca691596ba3a08b9d003ada309110d29dddd7f528a1dfcd9512b3c57a9a7a7",
+      "size_bytes": 944,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "حادث مروري",
+    "accident de la route",
+    "collision routière"
+  ],
+  "timezone": "Africa/Tunis",
+  "captured_at": "2026-08-11T21:57:02.921237Z",
+  "published_at": "2019-12-01T12:09:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "eturbonews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUN-S008"
+}

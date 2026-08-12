@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0625f1668505ccb1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0625f1668505ccb1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dos muertos deja colisión entre furgón y bus que trasladaba cadetes de Deportes Temuco que viajaban a Concepción",
+      "source_path": "html/CHL/CHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c8522f29648f0",
+    "text": "Dos muertos deja colisión entre furgón y bus que trasladaba cadetes de Deportes Temuco que viajaban a Concepción",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b775a0e02563c349",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b775a0e02563c349",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T09:14:52-04:00",
+      "source_path": "html/CHL/CHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c8522f29648f0",
+    "text": "2026-08-08T09:14:52-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f87976622d3c3d7e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f87976622d3c3d7e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: El Contraste",
+      "source_path": "html/CHL/CHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c8522f29648f0",
+    "text": "Publisher: El Contraste",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8b53cbb17945ee56",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8b53cbb17945ee56",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://elcontraste.cl/policial/2026/08/08/dos-muertos-deja-accidente-entre-bus-y-furgon-cadetes-de-deportes-temuco-viajaban-rumbo-a-concepcion/",
+      "source_path": "html/CHL/CHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c8522f29648f0",
+    "text": "Original source: https://elcontraste.cl/policial/2026/08/08/dos-muertos-deja-accidente-entre-bus-y-furgon-cadetes-de-deportes-temuco-viajaban-rumbo-a-concepcion/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0792222650d91a7b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0792222650d91a7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c8522f29648f0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_21aba30bed156d46",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_21aba30bed156d46",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://elcontraste.cl/policial/2026/08/08/dos-muertos-deja-accidente-entre-bus-y-furgon-cadetes-de-deportes-temuco-viajaban-rumbo-a-concepcion/",
+      "source_path": "html/CHL/CHL-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6e2c8522f29648f0",
+    "text": "https://elcontraste.cl/policial/2026/08/08/dos-muertos-deja-accidente-entre-bus-y-furgon-cadetes-de-deportes-temuco-viajaban-rumbo-a-concepcion/",
+    "url": null
+  }
+]

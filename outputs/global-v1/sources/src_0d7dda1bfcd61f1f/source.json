@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0e8977ce84bb16eacb256e85e58e59891f7fd77b9d52098436a7e2eedff16690",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "tempo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-10-18T00:30:00Z",
+  "publisher": "Tempo",
+  "schema_version": "1.0.0",
+  "source_id": "src_0d7dda1bfcd61f1f",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2019-10-18T00:30:00+00:00",
+    "source_info_hash": "0914fd200cc5eba5",
+    "source_info_path": "html/PHL/PHL-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://en.tempo.co/read/1261159/philippines-duterte-in-good-hands-after-motorcycle-accident",
+  "timezone": "Asia/Manila",
+  "title": "Philippines' Duterte 'in Good Hands' after Motorcycle Accident"
+}

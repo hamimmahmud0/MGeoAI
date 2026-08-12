@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "DEU-S005",
+  "country_code": "DEU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Kleine Zeitung",
+  "canonical_url": "https://www.kleinezeitung.at/artikel/24320273/autounfall-in-kaernten-forderte-vier-verletzte",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.kleinezeitung.at/artikel/24320273/autounfall-in-kaernten-forderte-vier-verletzte",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=DE%3Ade&gl=DE&hl=de&q=%28%22Verkehrsunfall%22+OR+%22Autounfall%22+OR+%22Busunfall%22+OR+%22Zusammensto%C3%9F%22%29+%28tot+OR+Tote+OR+verletzt+OR+Verletzte%29+%22Deutschland%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "df358bff49ca7aa399400a03a8304d8d4f31a1d1984cbb87baf6accaec57ceef",
+      "size_bytes": 921,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "traffic_keywords": [
+    "Verkehrsunfall",
+    "Autounfall",
+    "Busunfall",
+    "Zusammenstoß"
+  ],
+  "timezone": "Europe/Berlin",
+  "captured_at": "2026-08-11T21:59:38Z",
+  "published_at": "2026-05-15T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "kleinezeitung.at",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-DEU-S005"
+}

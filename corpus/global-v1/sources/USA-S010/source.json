@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "USA-S010",
+  "country_code": "USA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Los Angeles Times",
+  "canonical_url": "https://www.latimes.com/california/story/2026-07-28/one-person-dead-in-violent-car-crash-in-winnetka",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.latimes.com/california/story/2026-07-28/one-person-dead-in-violent-car-crash-in-winnetka",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=US%3Aen&gl=US&hl=en-US&q=%28%22traffic+crash%22+OR+%22highway+crash%22+OR+%22car+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "12f93392065a5b8891448b35e46fb946ccdba63765c2ff674658c42076882a02",
+      "size_bytes": 918,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "vehicle collision",
+    "highway crash"
+  ],
+  "timezone": "America/Chicago",
+  "captured_at": "2026-08-11T21:38:28Z",
+  "published_at": "2026-07-28T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "latimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-USA-S010"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e6fe2d282c4472aa90a3b6cd7bc42579b9938d57e227db4ff5395fc9656ee1a7",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "tagesschau / bayerischer rundfunk",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-11T12:53:00Z",
+  "publisher": "Tagesschau / Bayerischer Rundfunk",
+  "schema_version": "1.0.0",
+  "source_id": "src_3c80d643e99eea5e",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-06-11T12:53:00+00:00",
+    "source_info_hash": "ba08332efad975c3",
+    "source_info_path": "html/DEU/DEU-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.tagesschau.de/inland/regional/bayern/br-grosse-trauer-nach-busunfall-schwerverletzte-ausser-lebensgefahr-104.html",
+  "timezone": "Europe/Berlin",
+  "title": "Große Trauer nach Busunfall bei Hebertshausen"
+}

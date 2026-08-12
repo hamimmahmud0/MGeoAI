@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f265321724b2f8f5179a813e9a55d20fb3707d06b4e689641691816938457656",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "prk24.pl",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-11T07:00:00Z",
+  "publisher": "prk24.pl",
+  "schema_version": "1.0.0",
+  "source_id": "src_a86ee7cc8a83fd3a",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-05-11T07:00:00+00:00",
+    "source_info_hash": "14e0cc82357e824d",
+    "source_info_path": "html/POL/POL-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://prk24.pl/93186798/tragiczny-wypadek-pod-karlinem-kierowca-bmw-zginal-po-uderzeniu-w-drzewo",
+  "timezone": "Europe/Warsaw",
+  "title": "Tragiczny wypadek pod Karlinem. Kierowca BMW zginął po uderzeniu w drzewo"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0976aeda6d488ae69840201c065a2e2b71bf6d10ed00b7f3b1e76e2553eb4e51",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "aapnews.aap.com.au",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-29T12:14:25Z",
+  "publisher": "aapnews.aap.com.au",
+  "schema_version": "1.0.0",
+  "source_id": "src_5e3695ec570e9bf1",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-29T12:14:25+00:00",
+    "source_info_hash": "ecbd80ef93344474",
+    "source_info_path": "html/GBR/GBR-S003/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://aapnews.aap.com.au/news/oscar-winning-musician-glen-hansard-killed-in-crash",
+  "timezone": "Europe/London",
+  "title": "Oscar-winning musician Glen Hansard killed in crash"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "77edac47081ebb0a8f29c52025a6e0b13dfac337c492eee4a0cbc29e415d7c18",
+  "country": "France",
+  "country_code": "FRA",
+  "dependency_group": "franceinfo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "fr"
+  ],
+  "local_path": "html/FRA/FRA-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-13T07:00:00Z",
+  "publisher": "franceinfo",
+  "schema_version": "1.0.0",
+  "source_id": "src_077e3d64156ff401",
+  "source_metadata": {
+    "country": "France",
+    "country_code": "FRA",
+    "languages": [
+      "fr"
+    ],
+    "published_at": "2026-06-13T07:00:00+00:00",
+    "source_info_hash": "a43308b96f093251",
+    "source_info_path": "html/FRA/FRA-S001/SOURCE_INFO.md",
+    "timezone": "Europe/Paris",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accident de la route",
+      "collision routière",
+      "accident de voiture",
+      "accident de bus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.franceinfo.fr/monde/sommet-du-g7/un-gendarme-est-mort-et-deux-autres-ont-ete-blesses-dans-un-accident-de-la-route-en-haute-savoie-dans-le-cadre-de-la-securisation-du-g7_8059148.html",
+  "timezone": "Europe/Paris",
+  "title": "Un gendarme est mort et deux autres ont été blessés dans un accident de la route en Haute-Savoie, dans le cadre de la sécurisation du G7"
+}

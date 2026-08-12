@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARE-S010",
+  "country_code": "ARE",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Khaleej Times",
+  "canonical_url": "https://www.khaleejtimes.com/uae/dubai-motorcyclist-dies?amp=1",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.khaleejtimes.com/uae/dubai-motorcyclist-dies?amp=1",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Dubai%3A+Motorcyclist+dies+on+Sheikh+Zayed+Road+after+crashing+into+truck",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "75b0b5e881a1de33a907e2545a9eec1a8ff2acc01f66cbded5eb12c0ac4066fa",
+      "size_bytes": 899,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث مروري",
+    "حادث سير",
+    "road accident",
+    "traffic collision"
+  ],
+  "timezone": "Asia/Dubai",
+  "captured_at": "2026-08-12T03:51:02.333529+06:00",
+  "published_at": "2025-09-10T11:25:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "khaleejtimes.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARE-S010"
+}

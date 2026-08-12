@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_a04723e8519a228a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_a04723e8519a228a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Quatre jeunes blessés dans un accident de la route à Narrosse, dans les Landes",
+      "source_path": "html/FRA/FRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c83c271f5f01a2d2",
+    "text": "Quatre jeunes blessés dans un accident de la route à Narrosse, dans les Landes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f166b8aa26c1819f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f166b8aa26c1819f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-17T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c83c271f5f01a2d2",
+    "text": "2026-06-17T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0fa9bed806671187",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0fa9bed806671187",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ici.fr",
+      "source_path": "html/FRA/FRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c83c271f5f01a2d2",
+    "text": "Publisher: ici.fr",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b36231e5d914806",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6b36231e5d914806",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.ici.fr/nouvelle-aquitaine/landes-40/narrosse/quatre-jeunes-blesses-dans-un-accident-de-la-route-a-narrosse-dans-les-landes-3445550",
+      "source_path": "html/FRA/FRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c83c271f5f01a2d2",
+    "text": "Original source: https://www.ici.fr/nouvelle-aquitaine/landes-40/narrosse/quatre-jeunes-blesses-dans-un-accident-de-la-route-a-narrosse-dans-les-landes-3445550",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84b092077fefc992",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84b092077fefc992",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c83c271f5f01a2d2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1be5dcb25a8ba443",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1be5dcb25a8ba443",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.ici.fr/nouvelle-aquitaine/landes-40/narrosse/quatre-jeunes-blesses-dans-un-accident-de-la-route-a-narrosse-dans-les-landes-3445550",
+      "source_path": "html/FRA/FRA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c83c271f5f01a2d2",
+    "text": "https://www.ici.fr/nouvelle-aquitaine/landes-40/narrosse/quatre-jeunes-blesses-dans-un-accident-de-la-route-a-narrosse-dans-les-landes-3445550",
+    "url": null
+  }
+]

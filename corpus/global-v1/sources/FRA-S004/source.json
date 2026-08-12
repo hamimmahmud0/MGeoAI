@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "FRA-S004",
+  "country_code": "FRA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "France 3 Régions",
+  "canonical_url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/vendee/la-roche-sur-yon/un-mort-et-quatre-blesses-apres-un-grave-accident-de-la-route-impliquant-deux-vehicules-en-vendee-3395656.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://france3-regions.franceinfo.fr/pays-de-la-loire/vendee/la-roche-sur-yon/un-mort-et-quatre-blesses-apres-un-grave-accident-de-la-route-impliquant-deux-vehicules-en-vendee-3395656.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=FR%3Afr&gl=FR&hl=fr&q=%28%22accident+de+la+route%22+OR+%22collision+routi%C3%A8re%22+OR+%22accident+de+voiture%22+OR+%22accident+de+bus%22%29+%28mort+OR+morts+OR+bless%C3%A9+OR+bless%C3%A9s%29+%22France%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "c934c8c5256a5af1fa526a68c10a0424f794bfaa0b2a0f84ce53f1777be74df8",
+      "size_bytes": 1344,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "fr"
+  ],
+  "traffic_keywords": [
+    "accident de la route",
+    "collision routière",
+    "accident de voiture",
+    "accident de bus"
+  ],
+  "timezone": "Europe/Paris",
+  "captured_at": "2026-08-11T21:58:49Z",
+  "published_at": "2026-08-02T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "france3-regions.franceinfo.fr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-FRA-S004"
+}

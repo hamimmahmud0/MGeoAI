@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PHL-S005",
+  "country_code": "PHL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Free Malaysia Today",
+  "canonical_url": "https://www.freemalaysiatoday.com/category/world/2025/05/01/at-least-10-killed-dozens-injured-in-philippines-road-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.freemalaysiatoday.com/category/world/2025/05/01/at-least-10-killed-dozens-injured-in-philippines-road-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Philippines%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "09a42bdd6232a6e30050d27d20a25b7cffb5e6fd5ebfc0d8e74d8db85abbd323",
+      "size_bytes": 1111,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "bus crash",
+    "banggaan ng sasakyan"
+  ],
+  "timezone": "Asia/Manila",
+  "captured_at": "2026-08-12T03:37:59.692515+06:00",
+  "published_at": "2025-05-01T15:12:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "freemalaysiatoday.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PHL-S005"
+}

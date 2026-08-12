@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "368ce5b65a8a14ff4d77b079b088009841f427984d058e45fa628fb87df5ef3d",
+  "country": "Tanzania",
+  "country_code": "TZA",
+  "dependency_group": "bdnews24",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sw",
+    "en"
+  ],
+  "local_path": "html/TZA/TZA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2017-05-07T03:48:00Z",
+  "publisher": "bdnews24",
+  "schema_version": "1.0.0",
+  "source_id": "src_d393c33eb9aebb70",
+  "source_metadata": {
+    "country": "Tanzania",
+    "country_code": "TZA",
+    "languages": [
+      "sw",
+      "en"
+    ],
+    "published_at": "2017-05-07T03:48:00+00:00",
+    "source_info_hash": "10255a25d2f9af08",
+    "source_info_path": "html/TZA/TZA-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Dar_es_Salaam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "ajali barabarani",
+      "ajali ya basi",
+      "road accident",
+      "traffic crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://bdnews24.com/world/thirty-five-killed-in-school-minibus-crash-in-tanzania",
+  "timezone": "Africa/Dar_es_Salaam",
+  "title": "Thirty-five killed in school minibus crash in Tanzania"
+}

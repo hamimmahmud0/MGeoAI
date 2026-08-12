@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0972aa7f3b625bd8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0972aa7f3b625bd8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Accidente de tránsito en la vía Puyo-Baños deja un fallecido y cuatro heridos",
+      "source_path": "html/ECU/ECU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6d8543a75bda7468",
+    "text": "Accidente de tránsito en la vía Puyo-Baños deja un fallecido y cuatro heridos",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_48acdeb887500d77",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_48acdeb887500d77",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6d8543a75bda7468",
+    "text": "2026-06-13T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_65de8bd0c0c8020d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_65de8bd0c0c8020d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Teleamazonas",
+      "source_path": "html/ECU/ECU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6d8543a75bda7468",
+    "text": "Publisher: Teleamazonas",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_666adc923542bd96",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_666adc923542bd96",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.teleamazonas.com/actualidad/noticias/ecuador/accidente-puyo-banos-fallecido-heridos-120062/",
+      "source_path": "html/ECU/ECU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6d8543a75bda7468",
+    "text": "Original source: https://www.teleamazonas.com/actualidad/noticias/ecuador/accidente-puyo-banos-fallecido-heridos-120062/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_91a9a99a3129c92d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_91a9a99a3129c92d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6d8543a75bda7468",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1abbfdfc76d38669",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1abbfdfc76d38669",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.teleamazonas.com/actualidad/noticias/ecuador/accidente-puyo-banos-fallecido-heridos-120062/",
+      "source_path": "html/ECU/ECU-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6d8543a75bda7468",
+    "text": "https://www.teleamazonas.com/actualidad/noticias/ecuador/accidente-puyo-banos-fallecido-heridos-120062/",
+    "url": null
+  }
+]

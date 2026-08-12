@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ZAF-S009",
+  "country_code": "ZAF",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Xinhua",
+  "canonical_url": "https://english.news.cn/20260406/cfa56e2c213a4bedb24d5919481505af/c.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://english.news.cn/20260406/cfa56e2c213a4bedb24d5919481505af/c.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=ZA%3Aen&gl=ZA&hl=en-ZA&q=%28road+crash+OR+traffic+accident+OR+collision%29+South+Africa+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "dc7a363721ead3db63e672038b463361ab7638675bbb44b431630ae68709977d",
+      "size_bytes": 926,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "taxi crash",
+    "bus accident"
+  ],
+  "timezone": "Africa/Johannesburg",
+  "captured_at": "2026-08-11T21:46:58.787169Z",
+  "published_at": "2026-04-06T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "english.news.cn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ZAF-S009"
+}

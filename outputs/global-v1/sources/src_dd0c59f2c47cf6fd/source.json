@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "cdebc9f5ac33679b6f48d80a3fa2065367207af4efd559d782efd41f7b199377",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "bakersfield.com",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-22T07:00:00Z",
+  "publisher": "Bakersfield.com",
+  "schema_version": "1.0.0",
+  "source_id": "src_dd0c59f2c47cf6fd",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-22T07:00:00+00:00",
+    "source_info_hash": "cf0059a6ec4d710c",
+    "source_info_path": "html/GBR/GBR-S004/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bakersfield.com/news/coroners-office-ids-motorcyclist-killed-in-tehachapi-traffic-collision/article_12f8a168-4ff9-4566-a707-a95e9fd2526c.html",
+  "timezone": "Europe/London",
+  "title": "Coroner's office IDs motorcyclist killed in Tehachapi traffic collision"
+}

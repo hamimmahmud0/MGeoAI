@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9d84629a66935a90",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9d84629a66935a90",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three injured in motorcycle accident in Punjab",
+      "source_path": "html/PAK/PAK-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f65934f17f63e7b1",
+    "text": "Three injured in motorcycle accident in Punjab",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_340dff7a64d708ff",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_340dff7a64d708ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-03-16T02:17:00+05:00",
+      "source_path": "html/PAK/PAK-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f65934f17f63e7b1",
+    "text": "2026-03-16T02:17:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34ff5f4114c4d81a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34ff5f4114c4d81a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "LAHORE: Three individuals sustained injuries in a motorcycle accident in Punjab, according to a report published on Sunday. The incident was one of four road ...",
+      "source_path": "html/PAK/PAK-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f65934f17f63e7b1",
+    "text": "LAHORE: Three individuals sustained injuries in a motorcycle accident in Punjab, according to a report published on Sunday. The incident was one of four road ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f66c71b0d619754",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f66c71b0d619754",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Pakistan Today",
+      "source_path": "html/PAK/PAK-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f65934f17f63e7b1",
+    "text": "Publisher: Pakistan Today",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fa6e110d2b323ba3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fa6e110d2b323ba3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.pakistantoday.com.pk/2026/03/16/three-injured-in-motorcycle-accident-in-punjab",
+      "source_path": "html/PAK/PAK-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f65934f17f63e7b1",
+    "text": "Original source: https://www.pakistantoday.com.pk/2026/03/16/three-injured-in-motorcycle-accident-in-punjab",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0f8a0369f0bffff9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0f8a0369f0bffff9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f65934f17f63e7b1",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5df5145fd60b2b36",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5df5145fd60b2b36",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.pakistantoday.com.pk/2026/03/16/three-injured-in-motorcycle-accident-in-punjab",
+      "source_path": "html/PAK/PAK-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f65934f17f63e7b1",
+    "text": "https://www.pakistantoday.com.pk/2026/03/16/three-injured-in-motorcycle-accident-in-punjab",
+    "url": null
+  }
+]

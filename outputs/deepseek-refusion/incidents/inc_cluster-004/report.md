@@ -1,10 +1,10 @@
-# Fahim Ahmed reported killed in road crash
+# Reported road crash fatality involving Fahim Ahmed
 
 > Evidence-fusion output. This record does not independently verify the incident.
 
 ## Summary
 
-Channel I Online reported a road crash in which student movement coordinator Fahim Ahmed was killed [ev_9867b75ca9d83221]. The report refers to a photograph of Ahmed standing next to a truck, but it does not state that the truck was involved in the crash [ev_ba3cd608eb8053a2]. The time and location of the crash are not given, and no injury count or other casualty details were reported. Both evidence records come from the same Channel I Online article, so the incident currently has only one independent source [ev_9867b75ca9d83221, ev_ba3cd608eb8053a2]. No traffic effects, emergency response, or later developments are described. The main unresolved uncertainties are the exact crash time and place, whether anyone else was injured or killed, and the full circumstances of the collision.
+Channel I Online reports the death of student movement coordinator Fahim Ahmed in a road accident [ev_9867b75ca9d83221]. The article includes a photo of him standing beside a truck. The report is attributed to Channel I Online and appears in two nearly identical articles from the same source, which are treated as duplicates. No crash location is reported, and no event time is provided. One fatality is explicitly mentioned, but no injury count is given. The involved vehicle is a truck, based on the photo description. No traffic effects, emergency response, or later developments are mentioned. The incident is reported, not independently confirmed, and details such as exact location, time, and circumstances remain unknown. The report is a single-source account; no corroborating independent sources are present.
 
 ## Time and location
 
@@ -12,12 +12,14 @@ Channel I Online reported a road crash in which student movement coordinator Fah
 - Location: unmapped
 - Precision: unknown; confidence 0.00
 - Method: unresolved
-- Location caveat: No crash location was supplied in the evidence.
+- Location caveat: No location is reported in the evidence.
 
 ## Incident facts
 
-- **Fatalities:** 1 (confidence 0.82) [ev_9867b75ca9d83221] [ev_ba3cd608eb8053a2]
-- **Injuries:** not reported (confidence 0.90)
+- **Fatalities:** 1 (confidence 0.82) [ev_9867b75ca9d83221]
+- **Injuries:** not reported (confidence 0.90) [ev_9867b75ca9d83221]
+- **Event Time:** unknown (confidence 0.90)
+- **Location:** unknown (confidence 0.90) [ev_9867b75ca9d83221]
 
 ## Traffic impact
 
@@ -25,7 +27,7 @@ Not reported.
 
 ## Sentiment
 
-No traffic-related sentiment expression was supplied.
+No traffic-related sentiment was supplied.
 
 
 ## Sources and provenance
@@ -36,14 +38,12 @@ No traffic-related sentiment expression was supplied.
 
 ## Unresolved questions
 
-- What was the exact time of the crash?
-- Where did the crash occur?
-- Were any other people injured or killed?
-- What were the vehicle(s) and collision circumstances?
-- Was the truck visible in the photograph involved in the crash?
+- What is the exact crash location?
+- What is the precise time of the incident?
+- Were there any injuries besides the reported fatality?
+- What were the circumstances leading to the crash?
 
 ## Data-quality warnings
 
-- The two evidence records appear to be duplicate variants from the same Channel I Online article, so they do not provide independent corroboration.
-- The article was captured with the generic title 'Untitled' and lacks explicit time and location metadata.
-- The structured casualty_quantities are empty even though the article text reports one named fatality; the value is inferred directly from the narrative.
+- Evidence items ev_9867b75ca9d83221 and ev_ba3cd608eb8053a2 are near-identical and grouped as duplicates from the same source.
+- Location is explicitly reported as 'Crash location not reported' in the evidence.

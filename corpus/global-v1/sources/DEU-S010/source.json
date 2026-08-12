@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "DEU-S010",
+  "country_code": "DEU",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "RP Online",
+  "canonical_url": "https://rp-online.de/panorama/deutschland/busunfall-oberbayern-verletzte-nicht-mehr-in-akuter-lebensgefahr_aid-149715803",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://rp-online.de/panorama/deutschland/busunfall-oberbayern-verletzte-nicht-mehr-in-akuter-lebensgefahr_aid-149715803",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=DE%3Ade&gl=DE&hl=de&q=%28%22Verkehrsunfall%22+OR+%22Autounfall%22+OR+%22Busunfall%22+OR+%22Zusammensto%C3%9F%22%29+%28tot+OR+Tote+OR+verletzt+OR+Verletzte%29+%22Deutschland%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "d26c603620743563704af7c735cf9d2e3b3362678b575e68a73ee9c5dbbb2d88",
+      "size_bytes": 1084,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "de"
+  ],
+  "traffic_keywords": [
+    "Verkehrsunfall",
+    "Autounfall",
+    "Busunfall",
+    "Zusammenstoß"
+  ],
+  "timezone": "Europe/Berlin",
+  "captured_at": "2026-08-11T21:59:38Z",
+  "published_at": "2026-06-10T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "rp-online.de",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-DEU-S010"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_37c9bc9da21b4f65",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_37c9bc9da21b4f65",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Großeinsatz nach tragischem Busunglück in Hebertshausen",
+      "source_path": "html/DEU/DEU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80eb838d4ca85ec3",
+    "text": "Großeinsatz nach tragischem Busunglück in Hebertshausen",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90330535288c390e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_90330535288c390e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-10T02:00:00+02:00",
+      "source_path": "html/DEU/DEU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80eb838d4ca85ec3",
+    "text": "2026-06-10T02:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_268e2c8e1bc6e3dc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_268e2c8e1bc6e3dc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Das Bayerische Rote Kreuz berichtete von zwei kollidierten Bussen in Hebertshausen, 30 verletzten Kindern, zwei verletzten Erwachsenen und einem verstorbenen Kind.",
+      "source_path": "html/DEU/DEU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80eb838d4ca85ec3",
+    "text": "Das Bayerische Rote Kreuz berichtete von zwei kollidierten Bussen in Hebertshausen, 30 verletzten Kindern, zwei verletzten Erwachsenen und einem verstorbenen Kind.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bdaf5f5853189ef5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bdaf5f5853189ef5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Bayerisches Rotes Kreuz",
+      "source_path": "html/DEU/DEU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80eb838d4ca85ec3",
+    "text": "Publisher: Bayerisches Rotes Kreuz",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6cfbe296974bd429",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6cfbe296974bd429",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.brk.de/aktuell/presse/meldung/grosseinsatz-nach-tragischem-busunglueck.html",
+      "source_path": "html/DEU/DEU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80eb838d4ca85ec3",
+    "text": "Original source: https://www.brk.de/aktuell/presse/meldung/grosseinsatz-nach-tragischem-busunglueck.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c7eaf16d86ad80e6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c7eaf16d86ad80e6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/DEU/DEU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80eb838d4ca85ec3",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_86f48da41e0a4660",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_86f48da41e0a4660",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.brk.de/aktuell/presse/meldung/grosseinsatz-nach-tragischem-busunglueck.html",
+      "source_path": "html/DEU/DEU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_80eb838d4ca85ec3",
+    "text": "https://www.brk.de/aktuell/presse/meldung/grosseinsatz-nach-tragischem-busunglueck.html",
+    "url": null
+  }
+]

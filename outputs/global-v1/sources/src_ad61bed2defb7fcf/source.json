@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ca9281bcc1866b93890c65224213daff4863745145b82dbf6bc77c373f655304",
+  "country": "Poland",
+  "country_code": "POL",
+  "dependency_group": "fakt",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pl"
+  ],
+  "local_path": "html/POL/POL-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-07T07:00:00Z",
+  "publisher": "Fakt",
+  "schema_version": "1.0.0",
+  "source_id": "src_ad61bed2defb7fcf",
+  "source_metadata": {
+    "country": "Poland",
+    "country_code": "POL",
+    "languages": [
+      "pl"
+    ],
+    "published_at": "2026-06-07T07:00:00+00:00",
+    "source_info_hash": "d26f7b1933154d25",
+    "source_info_path": "html/POL/POL-S004/SOURCE_INFO.md",
+    "timezone": "Europe/Warsaw",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "wypadek drogowy",
+      "zderzenie pojazdów",
+      "wypadek samochodowy",
+      "wypadek autobusu"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.fakt.pl/wydarzenia/polska/warszawa/wypadek-w-zabkach-audi-rozerwane-na-pol-dwie-ofiary-smiertelne/vt59n66",
+  "timezone": "Europe/Warsaw",
+  "title": "Tragiczny wypadek w Ząbkach na DW631. Siła uderzenia rozerwała audi na pół"
+}

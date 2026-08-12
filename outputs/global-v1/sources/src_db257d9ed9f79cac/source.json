@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9dc63c341cc35f41d94eebdd1f6d8f9de3cf445e39a5e140ca901fe61d30c487",
+  "country": "Ireland",
+  "country_code": "IRL",
+  "dependency_group": "donegal daily",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/IRL/IRL-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-28T07:00:00Z",
+  "publisher": "Donegal Daily",
+  "schema_version": "1.0.0",
+  "source_id": "src_db257d9ed9f79cac",
+  "source_metadata": {
+    "country": "Ireland",
+    "country_code": "IRL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-28T07:00:00+00:00",
+    "source_info_hash": "4cdd613bf95d160b",
+    "source_info_path": "html/IRL/IRL-S005/SOURCE_INFO.md",
+    "timezone": "Europe/Dublin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "road crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.donegaldaily.com/news/three-irish-people-killed-in-road-crash-in-spain-639667",
+  "timezone": "Europe/Dublin",
+  "title": "Three Irish people killed in road crash in Spain"
+}

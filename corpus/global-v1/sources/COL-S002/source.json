@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "COL-S002",
+  "country_code": "COL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Publimetro Colombia",
+  "canonical_url": "https://www.publimetro.co/noticias/2026/05/27/atencion-fatal-accidente-de-transito-en-la-via-tunja-bogota-dejo-una-mujer-fallecida-y-varios-heridos/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.publimetro.co/noticias/2026/05/27/atencion-fatal-accidente-de-transito-en-la-via-tunja-bogota-dejo-una-mujer-fallecida-y-varios-heridos/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=CO%3Aes-419&gl=CO&hl=es-419&q=%28%22accidente+vial%22+OR+%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22siniestro+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Colombia%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "de6e50ad958801461ce4b163bfdf418fd463e9f0748f30a56a1804846d18b85c",
+      "size_bytes": 1241,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente vial",
+    "accidente de tránsito",
+    "choque vehicular",
+    "siniestro vial"
+  ],
+  "timezone": "America/Bogota",
+  "captured_at": "2026-08-11T21:51:46Z",
+  "published_at": "2026-05-26T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "publimetro.co",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-COL-S002"
+}

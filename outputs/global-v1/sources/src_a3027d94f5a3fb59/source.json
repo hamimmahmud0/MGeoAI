@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6cf9a985c62055da937d01af28bea6b5c95965a4d91bf77aeafd695c82325bad",
+  "country": "Singapore",
+  "country_code": "SGP",
+  "dependency_group": "the straits times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SGP/SGP-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-06T11:35:00Z",
+  "publisher": "The Straits Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_a3027d94f5a3fb59",
+  "source_metadata": {
+    "country": "Singapore",
+    "country_code": "SGP",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-06T11:35:00+00:00",
+    "source_info_hash": "7f474ae097311190",
+    "source_info_path": "html/SGP/SGP-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Singapore",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "traffic accident",
+      "road collision",
+      "vehicle crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.straitstimes.com/singapore/courts-crime/driver-in-2024-tampines-crash-that-killed-2-pleads-guilty-to-dangerous-driving-causing-death",
+  "timezone": "Asia/Singapore",
+  "title": "Driver in 2024 Tampines crash that killed 2 pleads guilty to dangerous driving causing death"
+}

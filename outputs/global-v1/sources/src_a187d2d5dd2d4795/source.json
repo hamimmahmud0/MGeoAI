@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "b2ccd95789fdaa9593abc6a5fbc79fbd8d2c83c4856e4a28892550386068c966",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "trt afrika",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-08T20:02:38Z",
+  "publisher": "TRT Afrika",
+  "schema_version": "1.0.0",
+  "source_id": "src_a187d2d5dd2d4795",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2026-01-08T20:02:38+00:00",
+    "source_info_hash": "594e67b9b1dc1581",
+    "source_info_path": "html/NGA/NGA-S002/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.trtafrika.com/english/article/719e8831a126",
+  "timezone": "Africa/Lagos",
+  "title": "Anthony Joshua pays tribute to his friends killed in Nigeria car crash"
+}

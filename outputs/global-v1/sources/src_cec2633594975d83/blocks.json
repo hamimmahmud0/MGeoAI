@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_eb076d0f892d4b75",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_eb076d0f892d4b75",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un fallecido y cuatro heridos deja accidente de tránsito en la vía Puyo-Baños",
+      "source_path": "html/ECU/ECU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cec2633594975d83",
+    "text": "Un fallecido y cuatro heridos deja accidente de tránsito en la vía Puyo-Baños",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_545e6c4f0494e2e6",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_545e6c4f0494e2e6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T02:00:00-05:00",
+      "source_path": "html/ECU/ECU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cec2633594975d83",
+    "text": "2026-06-13T02:00:00-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7fa98d24439ca515",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7fa98d24439ca515",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Primicias",
+      "source_path": "html/ECU/ECU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cec2633594975d83",
+    "text": "Publisher: Primicias",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a131fd6583526905",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a131fd6583526905",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.primicias.ec/sucesos/fallecido-heridos-accidente-transito-via-puyo-banos-ecuador-125314/",
+      "source_path": "html/ECU/ECU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cec2633594975d83",
+    "text": "Original source: https://www.primicias.ec/sucesos/fallecido-heridos-accidente-transito-via-puyo-banos-ecuador-125314/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35ea25e1321fcb84",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_35ea25e1321fcb84",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ECU/ECU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cec2633594975d83",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9682c90cc1b96989",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9682c90cc1b96989",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.primicias.ec/sucesos/fallecido-heridos-accidente-transito-via-puyo-banos-ecuador-125314/",
+      "source_path": "html/ECU/ECU-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_cec2633594975d83",
+    "text": "https://www.primicias.ec/sucesos/fallecido-heridos-accidente-transito-via-puyo-banos-ecuador-125314/",
+    "url": null
+  }
+]

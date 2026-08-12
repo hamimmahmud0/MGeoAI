@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JOR-S001",
+  "country_code": "JOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Gerasa News",
+  "canonical_url": "https://www.gerasanews.com/article/102068",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.gerasanews.com/article/102068",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.google.com/search?q=%D8%A7%D9%84%D8%A3%D8%B1%D8%AF%D9%86+%D8%AD%D8%A7%D8%AF%D8%AB+%D8%AD%D8%A7%D9%81%D9%84%D8%A9+15+%D9%85%D8%B9%D8%AA%D9%85%D8%B1%D8%A7",
+      "label": "Discovery record (direct_web_search_manual_pair)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "6385b8497e7c868402d645f3f7bc339be977c9bc5ce56d8779bd5a387a70d6c2",
+      "size_bytes": 852,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "حادث مروري",
+    "تصادم مركبات",
+    "road accident"
+  ],
+  "timezone": "Asia/Amman",
+  "captured_at": "2026-08-12T05:15:00Z",
+  "published_at": "2013-03-16T06:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "gerasanews.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JOR-S001"
+}

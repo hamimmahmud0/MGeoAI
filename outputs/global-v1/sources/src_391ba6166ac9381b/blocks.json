@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e04c64a9ac22a1d8",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e04c64a9ac22a1d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 killed, 2 hurt in violent multi-car crash in Inglewood intersection",
+      "source_path": "html/USA/USA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_391ba6166ac9381b",
+    "text": "2 killed, 2 hurt in violent multi-car crash in Inglewood intersection",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f589b9dbf592b1ed",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f589b9dbf592b1ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T15:04:23-05:00",
+      "source_path": "html/USA/USA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_391ba6166ac9381b",
+    "text": "2026-08-08T15:04:23-05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a650d4c13597f46f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a650d4c13597f46f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: ABC7 Los Angeles",
+      "source_path": "html/USA/USA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_391ba6166ac9381b",
+    "text": "Publisher: ABC7 Los Angeles",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_add071f837812bdf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_add071f837812bdf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://abc7.com/post/2-killed-multi-car-crash-inglewood-intersection/19647698/",
+      "source_path": "html/USA/USA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_391ba6166ac9381b",
+    "text": "Original source: https://abc7.com/post/2-killed-multi-car-crash-inglewood-intersection/19647698/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2da2659ed798ab1c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2da2659ed798ab1c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/USA/USA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_391ba6166ac9381b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_10794025ce8177f8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_10794025ce8177f8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://abc7.com/post/2-killed-multi-car-crash-inglewood-intersection/19647698/",
+      "source_path": "html/USA/USA-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_391ba6166ac9381b",
+    "text": "https://abc7.com/post/2-killed-multi-car-crash-inglewood-intersection/19647698/",
+    "url": null
+  }
+]

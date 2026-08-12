@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "df387a046bc3c57d6293e325d98cb6b6ac8f1b4ddc19284e322d28feb7464ace",
+  "country": "Germany",
+  "country_code": "DEU",
+  "dependency_group": "bayerisches rotes kreuz",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "de"
+  ],
+  "local_path": "html/DEU/DEU-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-10T00:00:00Z",
+  "publisher": "Bayerisches Rotes Kreuz",
+  "schema_version": "1.0.0",
+  "source_id": "src_80eb838d4ca85ec3",
+  "source_metadata": {
+    "country": "Germany",
+    "country_code": "DEU",
+    "languages": [
+      "de"
+    ],
+    "published_at": "2026-06-10T00:00:00+00:00",
+    "source_info_hash": "39d34995ff01a4ab",
+    "source_info_path": "html/DEU/DEU-S001/SOURCE_INFO.md",
+    "timezone": "Europe/Berlin",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "Verkehrsunfall",
+      "Autounfall",
+      "Busunfall",
+      "Zusammenstoß"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.brk.de/aktuell/presse/meldung/grosseinsatz-nach-tragischem-busunglueck.html",
+  "timezone": "Europe/Berlin",
+  "title": "Großeinsatz nach tragischem Busunglück in Hebertshausen"
+}

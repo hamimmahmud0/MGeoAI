@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "03bdab48381a442fe7f456559a84a1bb10865643678f88a941d807d8b78f3840",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "the mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-29T07:00:00Z",
+  "publisher": "The Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_e8a01af9dc91d6fb",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-06-29T07:00:00+00:00",
+    "source_info_hash": "3a1597272d13c9e3",
+    "source_info_path": "html/GBR/GBR-S008/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.mirror.co.uk/news/uk-news/teen-girl-car-crash-scotland-37360421",
+  "timezone": "Europe/London",
+  "title": "Teen girl fighting life-threatening injuries after horror motorway crash"
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3d2aac719b23f816",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3d2aac719b23f816",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Grave accidente de tránsito dejó tres muertos y una persona en estado crítico en Arica",
+      "source_path": "html/CHL/CHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_708cfe80d130e3ba",
+    "text": "Grave accidente de tránsito dejó tres muertos y una persona en estado crítico en Arica",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_828d8a0ecd3f2c4c",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_828d8a0ecd3f2c4c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-20T03:00:00-04:00",
+      "source_path": "html/CHL/CHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_708cfe80d130e3ba",
+    "text": "2026-06-20T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_aecc8b865f011b78",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_aecc8b865f011b78",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: pagina7.cl",
+      "source_path": "html/CHL/CHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_708cfe80d130e3ba",
+    "text": "Publisher: pagina7.cl",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eb1965ac583fafa6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eb1965ac583fafa6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.pagina7.cl/actualidad/grave-accidente-de-transito-dejo-tres-muertos-y-una-persona-en-estado-critico-en-arica/",
+      "source_path": "html/CHL/CHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_708cfe80d130e3ba",
+    "text": "Original source: https://www.pagina7.cl/actualidad/grave-accidente-de-transito-dejo-tres-muertos-y-una-persona-en-estado-critico-en-arica/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_63deb5b1988e9ff8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_63deb5b1988e9ff8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CHL/CHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_708cfe80d130e3ba",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8c5245ea9983d246",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8c5245ea9983d246",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.pagina7.cl/actualidad/grave-accidente-de-transito-dejo-tres-muertos-y-una-persona-en-estado-critico-en-arica/",
+      "source_path": "html/CHL/CHL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_708cfe80d130e3ba",
+    "text": "https://www.pagina7.cl/actualidad/grave-accidente-de-transito-dejo-tres-muertos-y-una-persona-en-estado-critico-en-arica/",
+    "url": null
+  }
+]

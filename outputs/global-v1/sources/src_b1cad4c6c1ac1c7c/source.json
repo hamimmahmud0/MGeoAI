@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "06cdb3685a03526d762fd3142a2e99f1b254af7c0905942c7e03c60a936f363e",
+  "country": "Jordan",
+  "country_code": "JOR",
+  "dependency_group": "fox13now",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "local_path": "html/JOR/JOR-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-03T13:09:00Z",
+  "publisher": "fox13now",
+  "schema_version": "1.0.0",
+  "source_id": "src_b1cad4c6c1ac1c7c",
+  "source_metadata": {
+    "country": "Jordan",
+    "country_code": "JOR",
+    "languages": [
+      "ar",
+      "en"
+    ],
+    "published_at": "2026-05-03T13:09:00+00:00",
+    "source_info_hash": "c332a6540f86c9a1",
+    "source_info_path": "html/JOR/JOR-S003/SOURCE_INFO.md",
+    "timezone": "Asia/Amman",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "تصادم مركبات",
+      "road accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.fox13now.com/news/local-news/salt-lake-county/motorcyclist-killed-in-west-jordan-crash",
+  "timezone": "Asia/Amman",
+  "title": "Motorcyclist killed in West Jordan crash"
+}

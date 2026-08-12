@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "f11c465fe81384f890d043e2ad06ce3b3aa10d1cfabf562db77d9c8d5ac1d5e2",
+  "country": "South Africa",
+  "country_code": "ZAF",
+  "dependency_group": "al jazeera",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "local_path": "html/ZAF/ZAF-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-10-13T07:00:00Z",
+  "publisher": "Al Jazeera",
+  "schema_version": "1.0.0",
+  "source_id": "src_8e7105586ec0ff9a",
+  "source_metadata": {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "languages": [
+      "en",
+      "zu",
+      "xh",
+      "af"
+    ],
+    "published_at": "2025-10-13T07:00:00+00:00",
+    "source_info_hash": "cf5ef8d65a58545d",
+    "source_info_path": "html/ZAF/ZAF-S004/SOURCE_INFO.md",
+    "timezone": "Africa/Johannesburg",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "taxi crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aljazeera.com/news/2025/10/13/bus-crash-in-south-african-mountains-kills-at-least-42",
+  "timezone": "Africa/Johannesburg",
+  "title": "Bus crash in South African mountains kills at least 42"
+}

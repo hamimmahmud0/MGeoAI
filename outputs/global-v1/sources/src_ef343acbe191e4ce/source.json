@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "de75e9edebe8dd9690e8a3e8c4e9c8f40d98b2ec80ff2b851de53840a7279274",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "ghanaian times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-04T16:53:39Z",
+  "publisher": "Ghanaian Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_ef343acbe191e4ce",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-08-04T16:53:39+00:00",
+    "source_info_hash": "fc6313cec6d725fa",
+    "source_info_path": "html/GHA/GHA-S009/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://ghanaiantimes.com.gh/two-dead-eight-injured-in-road-accident-at-dompoase-near-komenda/",
+  "timezone": "Africa/Accra",
+  "title": "Two dead, eight injured in road accident at Dompoase near komenda"
+}

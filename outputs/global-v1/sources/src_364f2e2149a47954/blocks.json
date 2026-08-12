@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_1605e7594d07aa39",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_1605e7594d07aa39",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three Dead, Seven Injured In Ogun Multiple-Vehicle Crash",
+      "source_path": "html/NGA/NGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_364f2e2149a47954",
+    "text": "Three Dead, Seven Injured In Ogun Multiple-Vehicle Crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ec273a87df9becac",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ec273a87df9becac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-19T08:00:00+01:00",
+      "source_path": "html/NGA/NGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_364f2e2149a47954",
+    "text": "2026-04-19T08:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d14786e0ef64a2e7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d14786e0ef64a2e7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "The Ogun State Sector Command of the Federal Road Safety Corps (FRSC) has confirmed three deaths following a fatal multiple-vehicle traffic collision that occurred at ...",
+      "source_path": "html/NGA/NGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_364f2e2149a47954",
+    "text": "The Ogun State Sector Command of the Federal Road Safety Corps (FRSC) has confirmed three deaths following a fatal multiple-vehicle traffic collision that occurred at ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_455528caa27c292a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_455528caa27c292a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Channels Television",
+      "source_path": "html/NGA/NGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_364f2e2149a47954",
+    "text": "Publisher: Channels Television",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_32bc5d842a4f0a09",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_32bc5d842a4f0a09",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.channelstv.com/2026/04/19/three-dead-seven-injured-in-ogun-multiple-vehicle-crash/",
+      "source_path": "html/NGA/NGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_364f2e2149a47954",
+    "text": "Original source: https://www.channelstv.com/2026/04/19/three-dead-seven-injured-in-ogun-multiple-vehicle-crash/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_72ff03dc01466ba4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_72ff03dc01466ba4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NGA/NGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_364f2e2149a47954",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e89d51a141449a06",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e89d51a141449a06",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.channelstv.com/2026/04/19/three-dead-seven-injured-in-ogun-multiple-vehicle-crash/",
+      "source_path": "html/NGA/NGA-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_364f2e2149a47954",
+    "text": "https://www.channelstv.com/2026/04/19/three-dead-seven-injured-in-ogun-multiple-vehicle-crash/",
+    "url": null
+  }
+]

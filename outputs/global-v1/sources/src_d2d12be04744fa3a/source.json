@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "8a5458ae45421ea621a2774f2f3f83b188877378025f70f577c502aebf755942",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "vnexpress international",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-30T20:30:00Z",
+  "publisher": "VnExpress International",
+  "schema_version": "1.0.0",
+  "source_id": "src_d2d12be04744fa3a",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-30T20:30:00+00:00",
+    "source_info_hash": "75a20b4ecf73dd37",
+    "source_info_path": "html/VNM/VNM-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://e.vnexpress.net/news/news/crime/nha-trang-hotel-staff-probed-for-renting-motorbike-to-drunk-russian-leading-to-fatal-crash-5103637.html",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "Nha Trang hotel staff probed for renting motorbike to drunk Russian, leading to fatal crash"
+}

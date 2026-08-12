@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_439044355016c10f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_439044355016c10f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Uganda: Could the King Davis School Accident Have Been Avoided?",
+      "source_path": "html/UGA/UGA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6bfcc85f2f41bbde",
+    "text": "Uganda: Could the King Davis School Accident Have Been Avoided?",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_06ac4b73edd6513a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_06ac4b73edd6513a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-20T17:44:00+03:00",
+      "source_path": "html/UGA/UGA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6bfcc85f2f41bbde",
+    "text": "2026-07-20T17:44:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17338eedf878a2d7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17338eedf878a2d7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "In 2024, Uganda police official figures published show that 4,434 people died compared to 83 people that died because of road accidents in Hong Kong. ...",
+      "source_path": "html/UGA/UGA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6bfcc85f2f41bbde",
+    "text": "In 2024, Uganda police official figures published show that 4,434 people died compared to 83 people that died because of road accidents in Hong Kong. ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eb558ca213464924",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eb558ca213464924",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: AllAfrica.com",
+      "source_path": "html/UGA/UGA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6bfcc85f2f41bbde",
+    "text": "Publisher: AllAfrica.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8847c8986fcf32a3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8847c8986fcf32a3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://allafrica.com/stories/202607200686.html",
+      "source_path": "html/UGA/UGA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6bfcc85f2f41bbde",
+    "text": "Original source: https://allafrica.com/stories/202607200686.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_16380b881a018e1e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_16380b881a018e1e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6bfcc85f2f41bbde",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_356698e1aee92147",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_356698e1aee92147",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://allafrica.com/stories/202607200686.html",
+      "source_path": "html/UGA/UGA-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6bfcc85f2f41bbde",
+    "text": "https://allafrica.com/stories/202607200686.html",
+    "url": null
+  }
+]

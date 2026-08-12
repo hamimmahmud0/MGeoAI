@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7ddb586bca943d6c738d1180090c26047a0d4c7dfc2102461caf060d5ed6bc94",
+  "country": "Colombia",
+  "country_code": "COL",
+  "dependency_group": "caracol.com.co",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/COL/COL-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-19T07:00:00Z",
+  "publisher": "caracol.com.co",
+  "schema_version": "1.0.0",
+  "source_id": "src_f36858c0ac7fa19c",
+  "source_metadata": {
+    "country": "Colombia",
+    "country_code": "COL",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-05-19T07:00:00+00:00",
+    "source_info_hash": "e92c29b850c33096",
+    "source_info_path": "html/COL/COL-S004/SOURCE_INFO.md",
+    "timezone": "America/Bogota",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "accidente de tránsito",
+      "choque vehicular",
+      "siniestro vial"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://caracol.com.co/2026/05/19/fuerte-accidente-en-la-via-barranquilla-cartagena-deja-19-heridos/",
+  "timezone": "America/Bogota",
+  "title": "Fuerte accidente en la vía Barranquilla – Cartagena deja 19 heridos"
+}

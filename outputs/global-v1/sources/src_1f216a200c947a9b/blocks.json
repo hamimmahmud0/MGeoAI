@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_be94028053e6e9d6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_be94028053e6e9d6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Sylhet road crash: Families of deceased to get Tk5 lakh each, injured up to Tk3 lakh",
+      "source_path": "html/BGD/BGD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1f216a200c947a9b",
+    "text": "Sylhet road crash: Families of deceased to get Tk5 lakh each, injured up to Tk3 lakh",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f388f0b3bc1c73b4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_f388f0b3bc1c73b4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-08T14:22:00+06:00",
+      "source_path": "html/BGD/BGD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1f216a200c947a9b",
+    "text": "2026-08-08T14:22:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dae56d637acef7c6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dae56d637acef7c6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Expatriates’ Welfare and Overseas Employment Minister Ariful Haque Choudhury announces govt assistance and orders strict monitoring to curb। ...",
+      "source_path": "html/BGD/BGD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1f216a200c947a9b",
+    "text": "Expatriates’ Welfare and Overseas Employment Minister Ariful Haque Choudhury announces govt assistance and orders strict monitoring to curb। ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7b87ab7192fcaf10",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7b87ab7192fcaf10",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Business Standard",
+      "source_path": "html/BGD/BGD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1f216a200c947a9b",
+    "text": "Publisher: The Business Standard",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_deb5de9f2624a435",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_deb5de9f2624a435",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.tbsnews.net/bangladesh/sylhet-road-crash-families-deceased-get-tk5-lakh-each-injured-tk3-lakh-1509516",
+      "source_path": "html/BGD/BGD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1f216a200c947a9b",
+    "text": "Original source: https://www.tbsnews.net/bangladesh/sylhet-road-crash-families-deceased-get-tk5-lakh-each-injured-tk3-lakh-1509516",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_db873709bacee3bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_db873709bacee3bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1f216a200c947a9b",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f03856e3c13acbba",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f03856e3c13acbba",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.tbsnews.net/bangladesh/sylhet-road-crash-families-deceased-get-tk5-lakh-each-injured-tk3-lakh-1509516",
+      "source_path": "html/BGD/BGD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1f216a200c947a9b",
+    "text": "https://www.tbsnews.net/bangladesh/sylhet-road-crash-families-deceased-get-tk5-lakh-each-injured-tk3-lakh-1509516",
+    "url": null
+  }
+]

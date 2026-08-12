@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "648a67ad1c1f89550e54ae0fc98e8cdb9588d51cfb1d2ebae0744dc1bb74130d",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "indiatimes",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-01T08:12:00Z",
+  "publisher": "Indiatimes",
+  "schema_version": "1.0.0",
+  "source_id": "src_dd2de008c371d5e5",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-01T08:12:00+00:00",
+    "source_info_hash": "43ee546c627e2ce3",
+    "source_info_path": "html/PHL/PHL-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://timesofindia.indiatimes.com/world/rest-of-world/10-killed-in-philippines-after-passenger-bus-slams-into-vehicles-at-a-toll-booth/articleshow/120798132.cms",
+  "timezone": "Asia/Manila",
+  "title": "10 killed in Philippines after passenger bus slams into vehicles at a toll booth"
+}

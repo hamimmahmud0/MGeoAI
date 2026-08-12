@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_49effe5f311b0570",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_49effe5f311b0570",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Cruz Verde atiende a conductor herido en accidente de tránsito en San Martín",
+      "source_path": "html/CRI/CRI-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_728eaffa0718bfcf",
+    "text": "Cruz Verde atiende a conductor herido en accidente de tránsito en San Martín",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_da448c0c9cacd147",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_da448c0c9cacd147",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-02T01:00:00-06:00",
+      "source_path": "html/CRI/CRI-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_728eaffa0718bfcf",
+    "text": "2026-07-02T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0d7b561a22339c60",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0d7b561a22339c60",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Diario La Página",
+      "source_path": "html/CRI/CRI-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_728eaffa0718bfcf",
+    "text": "Publisher: Diario La Página",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_89be3ae4636b8fbc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_89be3ae4636b8fbc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://lapagina.com.sv/nacionales/cruz-verde-atiende-a-conductor-herido-en-accidente-de-transito-en-san-martin/",
+      "source_path": "html/CRI/CRI-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_728eaffa0718bfcf",
+    "text": "Original source: https://lapagina.com.sv/nacionales/cruz-verde-atiende-a-conductor-herido-en-accidente-de-transito-en-san-martin/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cb2dbffcef36e350",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cb2dbffcef36e350",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_728eaffa0718bfcf",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f3344b01b0c036c3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f3344b01b0c036c3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://lapagina.com.sv/nacionales/cruz-verde-atiende-a-conductor-herido-en-accidente-de-transito-en-san-martin/",
+      "source_path": "html/CRI/CRI-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_728eaffa0718bfcf",
+    "text": "https://lapagina.com.sv/nacionales/cruz-verde-atiende-a-conductor-herido-en-accidente-de-transito-en-san-martin/",
+    "url": null
+  }
+]

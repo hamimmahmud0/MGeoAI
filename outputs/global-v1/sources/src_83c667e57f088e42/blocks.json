@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_14a15cc179859c01",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_14a15cc179859c01",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Six Killed, Three Injured In Truck-Car Collision In Tunisia",
+      "source_path": "html/TUN/TUN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_83c667e57f088e42",
+    "text": "Six Killed, Three Injured In Truck-Car Collision In Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9cb2773ee5f5986b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9cb2773ee5f5986b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-10-22T18:00:00+01:00",
+      "source_path": "html/TUN/TUN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_83c667e57f088e42",
+    "text": "2024-10-22T18:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0226a75bced2fe85",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0226a75bced2fe85",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "(MENAFN- IANS) Tunis, Oct 23 (IANS) Six people were killed and three others wounded in a collision between a truck and an interprovincial transportation taxi ...",
+      "source_path": "html/TUN/TUN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_83c667e57f088e42",
+    "text": "(MENAFN- IANS) Tunis, Oct 23 (IANS) Six people were killed and three others wounded in a collision between a truck and an interprovincial transportation taxi ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_708445f2d910a637",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_708445f2d910a637",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Mena FN",
+      "source_path": "html/TUN/TUN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_83c667e57f088e42",
+    "text": "Publisher: Mena FN",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5c91d2b15a3f877b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5c91d2b15a3f877b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://menafn.com/1108809562/Six-Killed-Three-Injured-In-Truck-Car-Collision-In-Tunisia",
+      "source_path": "html/TUN/TUN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_83c667e57f088e42",
+    "text": "Original source: https://menafn.com/1108809562/Six-Killed-Three-Injured-In-Truck-Car-Collision-In-Tunisia",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_00cef599a416ccda",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_00cef599a416ccda",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_83c667e57f088e42",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1cee96492dffb6f5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1cee96492dffb6f5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://menafn.com/1108809562/Six-Killed-Three-Injured-In-Truck-Car-Collision-In-Tunisia",
+      "source_path": "html/TUN/TUN-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_83c667e57f088e42",
+    "text": "https://menafn.com/1108809562/Six-Killed-Three-Injured-In-Truck-Car-Collision-In-Tunisia",
+    "url": null
+  }
+]

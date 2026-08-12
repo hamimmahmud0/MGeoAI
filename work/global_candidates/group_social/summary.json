@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-08-11T21:59:03.313883+00:00",
+  "candidate_count": 22,
+  "country_count": 8,
+  "country_counts": {
+    "AR": 2,
+    "AU": 2,
+    "BR": 3,
+    "CA": 3,
+    "MX": 3,
+    "NZ": 3,
+    "TR": 3,
+    "US": 3
+  },
+  "target_country_count": 10,
+  "target_met": false,
+  "platforms": [
+    "bluesky"
+  ],
+  "collection_surface": "https://api.bsky.app/xrpc/app.bsky.feed.searchPosts",
+  "collection_policy": [
+    "Unauthenticated public AppView metadata only.",
+    "No media downloads, login bypass, profile crawling, replies, or full thread capture.",
+    "Post text is reduced to a short metadata excerpt and URLs are removed from excerpts.",
+    "Every candidate requires human event, location, credibility, and independence review."
+  ],
+  "blockers": [
+    "Only 8 countries produced responsibly assignable results."
+  ]
+}

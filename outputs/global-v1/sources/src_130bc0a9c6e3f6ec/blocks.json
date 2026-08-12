@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9b9d5331b4961eb2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9b9d5331b4961eb2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Brisbane bus crash footage: Car becomes airborne before smashing into bus in dramatic new CCTV",
+      "source_path": "html/AUS/AUS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_130bc0a9c6e3f6ec",
+    "text": "Brisbane bus crash footage: Car becomes airborne before smashing into bus in dramatic new CCTV",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c6e8d92042c630a4",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c6e8d92042c630a4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-04T06:48:00+10:00",
+      "source_path": "html/AUS/AUS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_130bc0a9c6e3f6ec",
+    "text": "2026-08-04T06:48:00+10:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1624cd44a1500b80",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1624cd44a1500b80",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dramatic new footage has captured the moment a car became airborne before crashing into a Brisbane bus, with the CCTV revealing the bus driver’s response ...",
+      "source_path": "html/AUS/AUS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_130bc0a9c6e3f6ec",
+    "text": "Dramatic new footage has captured the moment a car became airborne before crashing into a Brisbane bus, with the CCTV revealing the bus driver’s response ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1f20f259ae591e14",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1f20f259ae591e14",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Nightly",
+      "source_path": "html/AUS/AUS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_130bc0a9c6e3f6ec",
+    "text": "Publisher: The Nightly",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_abfff2e7cda928ff",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_abfff2e7cda928ff",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://thenightly.com.au/australia/queensland/brisbane-bus-crash-footage-car-becomes-airborne-before-smashing-into-bus-in-dramatic-new-cctv-c-22673160",
+      "source_path": "html/AUS/AUS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_130bc0a9c6e3f6ec",
+    "text": "Original source: https://thenightly.com.au/australia/queensland/brisbane-bus-crash-footage-car-becomes-airborne-before-smashing-into-bus-in-dramatic-new-cctv-c-22673160",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d2dfde63b3be34ac",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d2dfde63b3be34ac",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/AUS/AUS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_130bc0a9c6e3f6ec",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e44e65698a12b11f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e44e65698a12b11f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://thenightly.com.au/australia/queensland/brisbane-bus-crash-footage-car-becomes-airborne-before-smashing-into-bus-in-dramatic-new-cctv-c-22673160",
+      "source_path": "html/AUS/AUS-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_130bc0a9c6e3f6ec",
+    "text": "https://thenightly.com.au/australia/queensland/brisbane-bus-crash-footage-car-becomes-airborne-before-smashing-into-bus-in-dramatic-new-cctv-c-22673160",
+    "url": null
+  }
+]

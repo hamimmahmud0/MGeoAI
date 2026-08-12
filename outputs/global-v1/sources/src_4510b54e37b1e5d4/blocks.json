@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_80cc61a024510215",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_80cc61a024510215",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus driver and passengers checked after Ponsonby Rd crash",
+      "source_path": "html/NZL/NZL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4510b54e37b1e5d4",
+    "text": "Bus driver and passengers checked after Ponsonby Rd crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_42410aad8a533033",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_42410aad8a533033",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T19:58:00+12:00",
+      "source_path": "html/NZL/NZL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4510b54e37b1e5d4",
+    "text": "2026-08-10T19:58:00+12:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_65f55e09ba5f7740",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_65f55e09ba5f7740",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A crash between the two vehicles was reported on Ponsonby Rd, near the intersection with Brown St, just after 2pm. Police said the bus driver ...",
+      "source_path": "html/NZL/NZL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4510b54e37b1e5d4",
+    "text": "A crash between the two vehicles was reported on Ponsonby Rd, near the intersection with Brown St, just after 2pm. Police said the bus driver ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4cac091f360cae30",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4cac091f360cae30",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Newstalk ZB",
+      "source_path": "html/NZL/NZL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4510b54e37b1e5d4",
+    "text": "Publisher: Newstalk ZB",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a92c7b43278ff28",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9a92c7b43278ff28",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.newstalkzb.co.nz/news/auckland/ponsonby-rd-crash-bus-driver-and-passengers-checked-by-emergency-services/",
+      "source_path": "html/NZL/NZL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4510b54e37b1e5d4",
+    "text": "Original source: https://www.newstalkzb.co.nz/news/auckland/ponsonby-rd-crash-bus-driver-and-passengers-checked-by-emergency-services/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_78a26d6ec41cee2a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_78a26d6ec41cee2a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NZL/NZL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4510b54e37b1e5d4",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ced3894b048d8089",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ced3894b048d8089",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.newstalkzb.co.nz/news/auckland/ponsonby-rd-crash-bus-driver-and-passengers-checked-by-emergency-services/",
+      "source_path": "html/NZL/NZL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4510b54e37b1e5d4",
+    "text": "https://www.newstalkzb.co.nz/news/auckland/ponsonby-rd-crash-bus-driver-and-passengers-checked-by-emergency-services/",
+    "url": null
+  }
+]

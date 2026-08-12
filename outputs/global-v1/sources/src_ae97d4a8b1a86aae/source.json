@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d6008597e56e0b266a21b8df392083d733548917d0de8c9ef76750d0d7af2e80",
+  "country": "Argentina",
+  "country_code": "ARG",
+  "dependency_group": "cadena 3 argentina",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "es"
+  ],
+  "local_path": "html/ARG/ARG-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-26T07:00:00Z",
+  "publisher": "Cadena 3 Argentina",
+  "schema_version": "1.0.0",
+  "source_id": "src_ae97d4a8b1a86aae",
+  "source_metadata": {
+    "country": "Argentina",
+    "country_code": "ARG",
+    "languages": [
+      "es"
+    ],
+    "published_at": "2026-07-26T07:00:00+00:00",
+    "source_info_hash": "bfa45b49eea38e5b",
+    "source_info_path": "html/ARG/ARG-S004/SOURCE_INFO.md",
+    "timezone": "America/Argentina/Buenos_Aires",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "accidente vial",
+      "choque vehicular",
+      "siniestro vial",
+      "accidente de tránsito"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.cadena3.com/noticia/noticias-rosario/un-herido-tras-un-choque-en-la-autopista-a-cordoba-que-complico-el-transito_577126",
+  "timezone": "America/Argentina/Buenos_Aires",
+  "title": "Un herido tras un choque en la autopista a Córdoba que complicó el tránsito"
+}

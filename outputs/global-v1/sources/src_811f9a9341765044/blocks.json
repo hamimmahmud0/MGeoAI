@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0017d6bcf4493bb6",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0017d6bcf4493bb6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dan 18 años de cárcel a implicado en el accidente carretero que dejó 56 migrantes muertos en 2021",
+      "source_path": "html/MEX/MEX-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_811f9a9341765044",
+    "text": "Dan 18 años de cárcel a implicado en el accidente carretero que dejó 56 migrantes muertos en 2021",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ae89a53a55ec3112",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ae89a53a55ec3112",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-30T01:00:00-06:00",
+      "source_path": "html/MEX/MEX-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_811f9a9341765044",
+    "text": "2026-06-30T01:00:00-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_874c43149d86c7c1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_874c43149d86c7c1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Infobae",
+      "source_path": "html/MEX/MEX-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_811f9a9341765044",
+    "text": "Publisher: Infobae",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_81496eb8d6220dbb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_81496eb8d6220dbb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.infobae.com/mexico/2026/06/30/dan-18-anos-de-carcel-a-implicado-en-el-accidente-carretero-que-dejo-56-migrantes-muertos-en-2021/",
+      "source_path": "html/MEX/MEX-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_811f9a9341765044",
+    "text": "Original source: https://www.infobae.com/mexico/2026/06/30/dan-18-anos-de-carcel-a-implicado-en-el-accidente-carretero-que-dejo-56-migrantes-muertos-en-2021/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_18286988e6b39a95",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_18286988e6b39a95",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MEX/MEX-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_811f9a9341765044",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_17ae4471d9302017",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_17ae4471d9302017",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.infobae.com/mexico/2026/06/30/dan-18-anos-de-carcel-a-implicado-en-el-accidente-carretero-que-dejo-56-migrantes-muertos-en-2021/",
+      "source_path": "html/MEX/MEX-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_811f9a9341765044",
+    "text": "https://www.infobae.com/mexico/2026/06/30/dan-18-anos-de-carcel-a-implicado-en-el-accidente-carretero-que-dejo-56-migrantes-muertos-en-2021/",
+    "url": null
+  }
+]

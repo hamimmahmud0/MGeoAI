@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PER-S004",
+  "country_code": "PER",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Agencia Andina",
+  "canonical_url": "https://andina.pe/agencia/noticia-puno-accidente-transito-deja-4-fallecidos-y-13-heridos-carretera-juliacaarequipa-1082304.aspx",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://andina.pe/agencia/noticia-puno-accidente-transito-deja-4-fallecidos-y-13-heridos-carretera-juliacaarequipa-1082304.aspx",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=PE%3Aes-419&gl=PE&hl=es-419&q=%28%22accidente+de+tr%C3%A1nsito%22+OR+%22choque+vehicular%22+OR+%22accidente+carretero%22+OR+%22siniestro+vial%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Per%C3%BA%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "be821ef1c15cc95bbb8df16caed8c94f35d2d982d7e2f5df4fcbfc985ca4557c",
+      "size_bytes": 1119,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente de tránsito",
+    "choque vehicular",
+    "accidente carretero",
+    "siniestro vial"
+  ],
+  "timezone": "America/Lima",
+  "captured_at": "2026-08-11T21:52:30Z",
+  "published_at": "2026-07-04T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "andina.pe",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PER-S004"
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "DEU",
+  "name": "Germany",
+  "languages": [
+    "de"
+  ],
+  "timezones": [
+    "Europe/Berlin"
+  ],
+  "target_sources": 12
+}

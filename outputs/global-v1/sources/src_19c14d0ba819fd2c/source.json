@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ed31ea03bc293c9d02fbb2fefb1db3b3c352bed42b5261c2550a0a57b4911270",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "skånska dagbladet",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-04T07:00:00Z",
+  "publisher": "Skånska Dagbladet",
+  "schema_version": "1.0.0",
+  "source_id": "src_19c14d0ba819fd2c",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2025-08-04T07:00:00+00:00",
+    "source_info_hash": "e1344f409ea41be5",
+    "source_info_path": "html/SWE/SWE-S002/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.skd.se/sverige/busschauffor-dod-efter-krasch-i-trelleborg/",
+  "timezone": "Europe/Stockholm",
+  "title": "Busschaufför död efter krasch i Trelleborg"
+}

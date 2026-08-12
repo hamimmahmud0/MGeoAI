@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S005",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "VN Express",
+  "canonical_url": "https://e.vnexpress.net/news/news/traffic/thailand-mourns-national-karate-coach-killed-in-crash-days-after-sea-games-victories-4995369.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://e.vnexpress.net/news/news/traffic/thailand-mourns-national-karate-coach-killed-in-crash-days-after-sea-games-victories-4995369.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4eefc450113bd0bb43b298a175f546719e9725ccbed0cc828f14e622465791cc",
+      "size_bytes": 1217,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:50.464333+06:00",
+  "published_at": "2025-12-17T01:48:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "e.vnexpress.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S005"
+}

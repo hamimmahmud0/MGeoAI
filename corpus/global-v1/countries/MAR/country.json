@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "MAR",
+  "name": "Morocco",
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "timezones": [
+    "Africa/Casablanca"
+  ],
+  "target_sources": 12
+}

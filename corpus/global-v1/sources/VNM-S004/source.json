@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "VNM-S004",
+  "country_code": "VNM",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "VnExpress International",
+  "canonical_url": "https://e.vnexpress.net/news/news/crime/nha-trang-hotel-staff-probed-for-renting-motorbike-to-drunk-russian-leading-to-fatal-crash-5103637.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://e.vnexpress.net/news/news/crime/nha-trang-hotel-staff-probed-for-renting-motorbike-to-drunk-russian-leading-to-fatal-crash-5103637.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Vietnam%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "8a5458ae45421ea621a2774f2f3f83b188877378025f70f577c502aebf755942",
+      "size_bytes": 1263,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "tai nạn giao thông",
+    "va chạm xe",
+    "tai nạn xe buýt",
+    "tai nạn đường bộ"
+  ],
+  "timezone": "Asia/Ho_Chi_Minh",
+  "captured_at": "2026-08-12T03:38:06.863343+06:00",
+  "published_at": "2026-07-30T20:30:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "e.vnexpress.net",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-VNM-S004"
+}

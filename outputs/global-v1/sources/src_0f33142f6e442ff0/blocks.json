@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_75973eea194aa10c",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_75973eea194aa10c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Na dodelijke crash met trein kwam schoolbus op de oprit van Paul terecht: “Wat er met die vier mensen is gebeurd, is niet te vatten”",
+      "source_path": "html/BEL/BEL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f33142f6e442ff0",
+    "text": "Na dodelijke crash met trein kwam schoolbus op de oprit van Paul terecht: “Wat er met die vier mensen is gebeurd, is niet te vatten”",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_563f488b14173f77",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_563f488b14173f77",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-26T09:00:00+02:00",
+      "source_path": "html/BEL/BEL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f33142f6e442ff0",
+    "text": "2026-05-26T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6e447a572862cd8f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6e447a572862cd8f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Om 8 uur gebeurde het ongeval aan de overweg, die een paar honderd meter verwijderd is van het huis van Paul Moeremans en zijn vrouw.",
+      "source_path": "html/BEL/BEL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f33142f6e442ff0",
+    "text": "Om 8 uur gebeurde het ongeval aan de overweg, die een paar honderd meter verwijderd is van het huis van Paul Moeremans en zijn vrouw.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_584713c58bffecfd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_584713c58bffecfd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: GVA",
+      "source_path": "html/BEL/BEL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f33142f6e442ff0",
+    "text": "Publisher: GVA",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e98fdb61a6310ae0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e98fdb61a6310ae0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.gva.be/binnenland/na-dodelijke-crash-met-trein-kwam-schoolbus-op-de-oprit-van-paul-terecht-wat-er-met-die-vier-mensen-is-gebeurd-is-niet-te-vatten/153353760.html",
+      "source_path": "html/BEL/BEL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f33142f6e442ff0",
+    "text": "Original source: https://www.gva.be/binnenland/na-dodelijke-crash-met-trein-kwam-schoolbus-op-de-oprit-van-paul-terecht-wat-er-met-die-vier-mensen-is-gebeurd-is-niet-te-vatten/153353760.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7859801ac198b884",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7859801ac198b884",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BEL/BEL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f33142f6e442ff0",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_18df9098b249833b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_18df9098b249833b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.gva.be/binnenland/na-dodelijke-crash-met-trein-kwam-schoolbus-op-de-oprit-van-paul-terecht-wat-er-met-die-vier-mensen-is-gebeurd-is-niet-te-vatten/153353760.html",
+      "source_path": "html/BEL/BEL-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_0f33142f6e442ff0",
+    "text": "https://www.gva.be/binnenland/na-dodelijke-crash-met-trein-kwam-schoolbus-op-de-oprit-van-paul-terecht-wat-er-met-die-vier-mensen-is-gebeurd-is-niet-te-vatten/153353760.html",
+    "url": null
+  }
+]

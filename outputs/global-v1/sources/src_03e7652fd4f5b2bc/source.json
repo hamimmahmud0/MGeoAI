@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "aed2a92845e8b4ffd4aadd94de61c06cd1474d7f7087148a06f5dddb7438e369",
+  "country": "United Kingdom",
+  "country_code": "GBR",
+  "dependency_group": "the mirror",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/GBR/GBR-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-11T21:35:00Z",
+  "publisher": "The Mirror",
+  "schema_version": "1.0.0",
+  "source_id": "src_03e7652fd4f5b2bc",
+  "source_metadata": {
+    "country": "United Kingdom",
+    "country_code": "GBR",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-11T21:35:00+00:00",
+    "source_info_hash": "250a6e85623a535a",
+    "source_info_path": "html/GBR/GBR-S009/SOURCE_INFO.md",
+    "timezone": "Europe/London",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "motorway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.mirror.co.uk/sport/james-mchughs-wife-dies-after-37540905",
+  "timezone": "Europe/London",
+  "title": "James McHugh's wife dies after Irish sporting icon killed in road collision"
+}

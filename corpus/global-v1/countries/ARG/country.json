@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ARG",
+  "name": "Argentina",
+  "languages": [
+    "es"
+  ],
+  "timezones": [
+    "America/Argentina/Buenos_Aires"
+  ],
+  "target_sources": 12
+}

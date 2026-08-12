@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "0b0e8f3cc226f116391b9528b206abb4d24f9953d4f5115bda543d485c8c8677",
+  "country": "Morocco",
+  "country_code": "MAR",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr",
+    "ber"
+  ],
+  "local_path": "html/MAR/MAR-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2019-12-02T12:09:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_1b35d501fd56614c",
+  "source_metadata": {
+    "country": "Morocco",
+    "country_code": "MAR",
+    "languages": [
+      "ar",
+      "fr",
+      "ber"
+    ],
+    "published_at": "2019-12-02T12:09:00+00:00",
+    "source_info_hash": "6ba0edd58bdb388e",
+    "source_info_path": "html/MAR/MAR-S005/SOURCE_INFO.md",
+    "timezone": "Africa/Casablanca",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "تصادم مركبات",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/194994/morocco-bus-crash-kills-17",
+  "timezone": "Africa/Casablanca",
+  "title": "Morocco bus crash kills 17"
+}

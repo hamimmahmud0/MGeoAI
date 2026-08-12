@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_00da6d239b6c2792",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_00da6d239b6c2792",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un pompier volontaire de 38 ans est mort dans un accident de la route alors qu’il était en intervention.",
+      "source_path": "html/FRA/FRA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f4abe124df1985f9",
+    "text": "Un pompier volontaire de 38 ans est mort dans un accident de la route alors qu’il était en intervention.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a67045f828ab4033",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_a67045f828ab4033",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-28T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f4abe124df1985f9",
+    "text": "2026-07-28T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7a28ec2b6931cba0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7a28ec2b6931cba0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Brut",
+      "source_path": "html/FRA/FRA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f4abe124df1985f9",
+    "text": "Publisher: Brut",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a3f5a78f6a0aafa0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a3f5a78f6a0aafa0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.brut.media/fr/videos/france/societe/un-pompier-volontaire-de-38-ans-est-mort-dans-un-accident-de-la-route-alors-qu-il-etait-en-intervention",
+      "source_path": "html/FRA/FRA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f4abe124df1985f9",
+    "text": "Original source: https://www.brut.media/fr/videos/france/societe/un-pompier-volontaire-de-38-ans-est-mort-dans-un-accident-de-la-route-alors-qu-il-etait-en-intervention",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dbed97a58b74b39f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dbed97a58b74b39f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f4abe124df1985f9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_962fd1a5ea61ab3a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_962fd1a5ea61ab3a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.brut.media/fr/videos/france/societe/un-pompier-volontaire-de-38-ans-est-mort-dans-un-accident-de-la-route-alors-qu-il-etait-en-intervention",
+      "source_path": "html/FRA/FRA-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_f4abe124df1985f9",
+    "text": "https://www.brut.media/fr/videos/france/societe/un-pompier-volontaire-de-38-ans-est-mort-dans-un-accident-de-la-route-alors-qu-il-etait-en-intervention",
+    "url": null
+  }
+]

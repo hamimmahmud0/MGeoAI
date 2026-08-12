@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_0491f06511edf64f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_0491f06511edf64f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Belgian tourist, tour driver killed in crash on Mombasa road",
+      "source_path": "html/KEN/KEN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69e0cd6cb86b4083",
+    "text": "Belgian tourist, tour driver killed in crash on Mombasa road",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c3f0028dcde6374b",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_c3f0028dcde6374b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-02-24T11:00:00+03:00",
+      "source_path": "html/KEN/KEN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69e0cd6cb86b4083",
+    "text": "2026-02-24T11:00:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f2a29a0e23c3592f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f2a29a0e23c3592f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Belgian tourist, tour driver killed in crash on Mombasa road Audio By Vocalize Police said the crash claimed the lives of a female tourist from ...",
+      "source_path": "html/KEN/KEN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69e0cd6cb86b4083",
+    "text": "Belgian tourist, tour driver killed in crash on Mombasa road Audio By Vocalize Police said the crash claimed the lives of a female tourist from ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_24ced024e3c8dea7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_24ced024e3c8dea7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Citizen Digital",
+      "source_path": "html/KEN/KEN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69e0cd6cb86b4083",
+    "text": "Publisher: Citizen Digital",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1d4481d8dc02d0b2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1d4481d8dc02d0b2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://citizen.digital/article/belgian-tourist-tour-driver-killed-in-crash-on-mombasa-road-n377968",
+      "source_path": "html/KEN/KEN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69e0cd6cb86b4083",
+    "text": "Original source: https://citizen.digital/article/belgian-tourist-tour-driver-killed-in-crash-on-mombasa-road-n377968",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9d14c7f173053d1d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9d14c7f173053d1d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KEN/KEN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69e0cd6cb86b4083",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bd416db1a0d7f31",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4bd416db1a0d7f31",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://citizen.digital/article/belgian-tourist-tour-driver-killed-in-crash-on-mombasa-road-n377968",
+      "source_path": "html/KEN/KEN-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_69e0cd6cb86b4083",
+    "text": "https://citizen.digital/article/belgian-tourist-tour-driver-killed-in-crash-on-mombasa-road-n377968",
+    "url": null
+  }
+]

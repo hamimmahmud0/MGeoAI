@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "THA-S004",
+  "country_code": "THA",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Daily Times",
+  "canonical_url": "https://dailytimes.com.pk/1494492/train-bus-crash-leaves-multiple-dead-in-thailand/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://dailytimes.com.pk/1494492/train-bus-crash-leaves-multiple-dead-in-thailand/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Thailand%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "edbd2f19f67ff46e49742ac845c50ca8d978dbe7190ee013b13fd872c53a5c02",
+      "size_bytes": 960,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "อุบัติเหตุทางถนน",
+    "รถชน",
+    "รถบัสชน",
+    "road accident"
+  ],
+  "timezone": "Asia/Bangkok",
+  "captured_at": "2026-08-12T03:37:51.201142+06:00",
+  "published_at": "2026-05-16T15:30:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dailytimes.com.pk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-THA-S004"
+}

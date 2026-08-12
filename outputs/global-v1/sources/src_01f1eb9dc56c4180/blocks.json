@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_8730276d7bfde73e",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_8730276d7bfde73e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "5 people injured in road crash in Manila",
+      "source_path": "html/PHL/PHL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01f1eb9dc56c4180",
+    "text": "5 people injured in road crash in Manila",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_890b5ee35d57e71d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_890b5ee35d57e71d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-21T03:34:00+08:00",
+      "source_path": "html/PHL/PHL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01f1eb9dc56c4180",
+    "text": "2025-08-21T03:34:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cf746564bff1d9a4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cf746564bff1d9a4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "MANILA, Philippines—Five people were injured in a crash involving five vehicles along Rizal Avenue in Blumentritt, Tondo, on Wednesday night. The Manila City Disaster Risk ...",
+      "source_path": "html/PHL/PHL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01f1eb9dc56c4180",
+    "text": "MANILA, Philippines—Five people were injured in a crash involving five vehicles along Rizal Avenue in Blumentritt, Tondo, on Wednesday night. The Manila City Disaster Risk ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_94f0283897cdef08",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_94f0283897cdef08",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: manilatimes",
+      "source_path": "html/PHL/PHL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01f1eb9dc56c4180",
+    "text": "Publisher: manilatimes",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e9f8093f87b53329",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e9f8093f87b53329",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.manilatimes.net/2025/08/21/news/5-people-injured-in-road-crash-in-manila/2171404",
+      "source_path": "html/PHL/PHL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01f1eb9dc56c4180",
+    "text": "Original source: https://www.manilatimes.net/2025/08/21/news/5-people-injured-in-road-crash-in-manila/2171404",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bb91b030c0891af6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bb91b030c0891af6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PHL/PHL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01f1eb9dc56c4180",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_16df23b7910fb8b7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_16df23b7910fb8b7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.manilatimes.net/2025/08/21/news/5-people-injured-in-road-crash-in-manila/2171404",
+      "source_path": "html/PHL/PHL-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_01f1eb9dc56c4180",
+    "text": "https://www.manilatimes.net/2025/08/21/news/5-people-injured-in-road-crash-in-manila/2171404",
+    "url": null
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_852f73ad2b0e240b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_852f73ad2b0e240b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Choque múltiple en Garabito deja un muerto",
+      "source_path": "html/CRI/CRI-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4f8ec2f66f4dc03e",
+    "text": "Choque múltiple en Garabito deja un muerto",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_50eeb824dfb2948a",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_50eeb824dfb2948a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-08-03T18:09:19-06:00",
+      "source_path": "html/CRI/CRI-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4f8ec2f66f4dc03e",
+    "text": "2025-08-03T18:09:19-06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bdb8be07dfec215c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bdb8be07dfec215c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un bus y cinco vehículos colisionaron cerca de Villa Caletas en Garabito; un hombre murió y varias personas resultaron heridas.",
+      "source_path": "html/CRI/CRI-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4f8ec2f66f4dc03e",
+    "text": "Un bus y cinco vehículos colisionaron cerca de Villa Caletas en Garabito; un hombre murió y varias personas resultaron heridas.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b14f3273785cc76d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b14f3273785cc76d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Telediario Costa Rica",
+      "source_path": "html/CRI/CRI-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4f8ec2f66f4dc03e",
+    "text": "Publisher: Telediario Costa Rica",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_167f28be49cc1833",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_167f28be49cc1833",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.telediario.cr/en-alerta/choque-multiple-en-garabito-deja-un-muerto",
+      "source_path": "html/CRI/CRI-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4f8ec2f66f4dc03e",
+    "text": "Original source: https://www.telediario.cr/en-alerta/choque-multiple-en-garabito-deja-un-muerto",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f2cc3d3907706cfd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f2cc3d3907706cfd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CRI/CRI-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4f8ec2f66f4dc03e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cb2c30489cb7fd82",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cb2c30489cb7fd82",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.telediario.cr/en-alerta/choque-multiple-en-garabito-deja-un-muerto",
+      "source_path": "html/CRI/CRI-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_4f8ec2f66f4dc03e",
+    "text": "https://www.telediario.cr/en-alerta/choque-multiple-en-garabito-deja-un-muerto",
+    "url": null
+  }
+]

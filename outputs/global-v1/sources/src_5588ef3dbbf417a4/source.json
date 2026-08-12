@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "1dede45f7bfca26924e568fd9999c60d4fe1a0b2ce3f4c713ad9834d82932f64",
+  "country": "United Arab Emirates",
+  "country_code": "ARE",
+  "dependency_group": "dhaka tribune",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/ARE/ARE-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2022-08-03T12:11:00Z",
+  "publisher": "Dhaka Tribune",
+  "schema_version": "1.0.0",
+  "source_id": "src_5588ef3dbbf417a4",
+  "source_metadata": {
+    "country": "United Arab Emirates",
+    "country_code": "ARE",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2022-08-03T12:11:00+00:00",
+    "source_info_hash": "830b79da459c12e9",
+    "source_info_path": "html/ARE/ARE-S001/SOURCE_INFO.md",
+    "timezone": "Asia/Dubai",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث مروري",
+      "حادث سير",
+      "road accident",
+      "traffic collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dhakatribune.com/world/middle-east/291628/bangladeshi-expat-killed-in-uae-road-crash",
+  "timezone": "Asia/Dubai",
+  "title": "Bangladeshi expat killed in UAE road crash"
+}

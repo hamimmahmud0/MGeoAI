@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c3ff5668fc5abb58",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c3ff5668fc5abb58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nha Trang hotel staff probed for renting motorbike to drunk Russian, leading to fatal crash",
+      "source_path": "html/VNM/VNM-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2d12be04744fa3a",
+    "text": "Nha Trang hotel staff probed for renting motorbike to drunk Russian, leading to fatal crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_60896d80c3e8edbc",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_60896d80c3e8edbc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-31T03:30:00+07:00",
+      "source_path": "html/VNM/VNM-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2d12be04744fa3a",
+    "text": "2026-07-31T03:30:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0a83dcbe3036b0b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e0a83dcbe3036b0b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A 51-year-old hotel receptionist in Nha Trang is facing charges after allegedly renting a motorbike to an intoxicated Russian tourist who subsequently struck and killed ...",
+      "source_path": "html/VNM/VNM-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2d12be04744fa3a",
+    "text": "A 51-year-old hotel receptionist in Nha Trang is facing charges after allegedly renting a motorbike to an intoxicated Russian tourist who subsequently struck and killed ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fbd48e94d18f7a42",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fbd48e94d18f7a42",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: VnExpress International",
+      "source_path": "html/VNM/VNM-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2d12be04744fa3a",
+    "text": "Publisher: VnExpress International",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4cb5cd8c81972771",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4cb5cd8c81972771",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://e.vnexpress.net/news/news/crime/nha-trang-hotel-staff-probed-for-renting-motorbike-to-drunk-russian-leading-to-fatal-crash-5103637.html",
+      "source_path": "html/VNM/VNM-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2d12be04744fa3a",
+    "text": "Original source: https://e.vnexpress.net/news/news/crime/nha-trang-hotel-staff-probed-for-renting-motorbike-to-drunk-russian-leading-to-fatal-crash-5103637.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_eba4086a92055fb0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_eba4086a92055fb0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/VNM/VNM-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2d12be04744fa3a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d68b1ffb9b44f710",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d68b1ffb9b44f710",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://e.vnexpress.net/news/news/crime/nha-trang-hotel-staff-probed-for-renting-motorbike-to-drunk-russian-leading-to-fatal-crash-5103637.html",
+      "source_path": "html/VNM/VNM-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_d2d12be04744fa3a",
+    "text": "https://e.vnexpress.net/news/news/crime/nha-trang-hotel-staff-probed-for-renting-motorbike-to-drunk-russian-leading-to-fatal-crash-5103637.html",
+    "url": null
+  }
+]

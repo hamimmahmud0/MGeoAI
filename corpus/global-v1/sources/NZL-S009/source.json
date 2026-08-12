@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S009",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The New Zealand Herald",
+  "canonical_url": "https://www.nzherald.co.nz/nz/auckland/two-car-crash-on-aucklands-upper-harbour-motorway-triggers-delays-heavy-congestion/FDNGVFPOP5ECRF7F46C3JDP6FQ/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nzherald.co.nz/nz/auckland/two-car-crash-on-aucklands-upper-harbour-motorway-triggers-delays-heavy-congestion/FDNGVFPOP5ECRF7F46C3JDP6FQ/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+car+collision&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ea9e0dd20b4b0bbebb46fb6c82cd54e04c502109abbefbafa0cae0855f79c752",
+      "size_bytes": 1251,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:33.064590+06:00",
+  "published_at": "2026-03-31T11:17:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nzherald.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S009"
+}

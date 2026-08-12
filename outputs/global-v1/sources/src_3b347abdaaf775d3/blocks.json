@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_b7e67d0c7c575e5b",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_b7e67d0c7c575e5b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Woman aged in her 80s pronounced dead following road traffic collision in Kildare",
+      "source_path": "html/IRL/IRL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b347abdaaf775d3",
+    "text": "Woman aged in her 80s pronounced dead following road traffic collision in Kildare",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_daa12b807ef73ac9",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_daa12b807ef73ac9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T10:35:00+01:00",
+      "source_path": "html/IRL/IRL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b347abdaaf775d3",
+    "text": "2026-08-11T10:35:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_12f75e62c1ffa408",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_12f75e62c1ffa408",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Kildare Live",
+      "source_path": "html/IRL/IRL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b347abdaaf775d3",
+    "text": "Publisher: Kildare Live",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_03248249cd008a3a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_03248249cd008a3a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.leinsterleader.ie/news/rathangan/woman-pronounced-dead-following-road-traffic-collision-in-kildare-8876308",
+      "source_path": "html/IRL/IRL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b347abdaaf775d3",
+    "text": "Original source: https://www.leinsterleader.ie/news/rathangan/woman-pronounced-dead-following-road-traffic-collision-in-kildare-8876308",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_42cd4a761d37e5b6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_42cd4a761d37e5b6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IRL/IRL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b347abdaaf775d3",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f1cbaaf702466a9b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f1cbaaf702466a9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.leinsterleader.ie/news/rathangan/woman-pronounced-dead-following-road-traffic-collision-in-kildare-8876308",
+      "source_path": "html/IRL/IRL-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3b347abdaaf775d3",
+    "text": "https://www.leinsterleader.ie/news/rathangan/woman-pronounced-dead-following-road-traffic-collision-in-kildare-8876308",
+    "url": null
+  }
+]

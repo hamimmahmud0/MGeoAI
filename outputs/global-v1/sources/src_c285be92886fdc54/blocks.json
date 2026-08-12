@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_14107a63b80db10a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_14107a63b80db10a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "24 local tourists killed in Tunisia road accident",
+      "source_path": "html/TUN/TUN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c285be92886fdc54",
+    "text": "24 local tourists killed in Tunisia road accident",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4bfb5e2cd67064a8",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_4bfb5e2cd67064a8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2019-12-01T13:09:00+01:00",
+      "source_path": "html/TUN/TUN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c285be92886fdc54",
+    "text": "2019-12-01T13:09:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9c9fec9874f7c5fb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9c9fec9874f7c5fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Twenty four people have been killed in Tunisia road accident. The Tunisian Ministry of Internal Affairs reported that 22 people were killed, 21 were injured ...",
+      "source_path": "html/TUN/TUN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c285be92886fdc54",
+    "text": "Twenty four people have been killed in Tunisia road accident. The Tunisian Ministry of Internal Affairs reported that 22 people were killed, 21 were injured ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dd26625f74899d3e",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dd26625f74899d3e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: eturbonews",
+      "source_path": "html/TUN/TUN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c285be92886fdc54",
+    "text": "Publisher: eturbonews",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5b253db6292ac602",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5b253db6292ac602",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://eturbonews.com/24-local-tourists-killed-in-tunisia-road-accident/",
+      "source_path": "html/TUN/TUN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c285be92886fdc54",
+    "text": "Original source: https://eturbonews.com/24-local-tourists-killed-in-tunisia-road-accident/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6851c60fda85ae58",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6851c60fda85ae58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/TUN/TUN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c285be92886fdc54",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5bec68cfda4ff958",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5bec68cfda4ff958",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://eturbonews.com/24-local-tourists-killed-in-tunisia-road-accident/",
+      "source_path": "html/TUN/TUN-S008/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_c285be92886fdc54",
+    "text": "https://eturbonews.com/24-local-tourists-killed-in-tunisia-road-accident/",
+    "url": null
+  }
+]

@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "abd70b296615947bb757aa3db16d09a44ba2eb99ee40df917fb64d244750b21d",
+  "country": "Netherlands",
+  "country_code": "NLD",
+  "dependency_group": "112 nederland",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nl",
+    "en"
+  ],
+  "local_path": "html/NLD/NLD-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-05-24T07:00:00Z",
+  "publisher": "112 Nederland",
+  "schema_version": "1.0.0",
+  "source_id": "src_8713611f7ca68315",
+  "source_metadata": {
+    "country": "Netherlands",
+    "country_code": "NLD",
+    "languages": [
+      "nl",
+      "en"
+    ],
+    "published_at": "2026-05-24T07:00:00+00:00",
+    "source_info_hash": "23b410054a2d19ea",
+    "source_info_path": "html/NLD/NLD-S008/SOURCE_INFO.md",
+    "timezone": "Europe/Amsterdam",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "verkeersongeval",
+      "auto-ongeluk",
+      "botsing voertuigen",
+      "busongeluk"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://112nederland.nl/2026/05/24/video/update-vrouw-42-overleden-bij-botsing-tussen-twee-autos/",
+  "timezone": "Europe/Amsterdam",
+  "title": "UPDATE: Vrouw (42) overleden bij botsing tussen twee auto’s"
+}

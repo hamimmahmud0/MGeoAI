@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "EGY-S008",
+  "country_code": "EGY",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Ahram Online",
+  "canonical_url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=574465",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://english.ahram.org.eg/UI/Front/Inner.aspx?NewsContentID=574465",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Egypt%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "ac5717bd4940069a4d85845fee7482530563f42039ea485cc423889341762aa4",
+      "size_bytes": 992,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ar",
+    "en"
+  ],
+  "traffic_keywords": [
+    "حادث سير",
+    "حادث مروري",
+    "تصادم سيارات",
+    "road accident"
+  ],
+  "timezone": "Africa/Cairo",
+  "captured_at": "2026-08-11T21:56:55.309474Z",
+  "published_at": "2026-08-10T17:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "english.ahram.org.eg",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-EGY-S008"
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KEN-S007",
+  "country_code": "KEN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Xinhua",
+  "canonical_url": "https://english.news.cn/20260329/e5f8d0f062a04395a3641953ea096211/c.html",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://english.news.cn/20260329/e5f8d0f062a04395a3641953ea096211/c.html",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=KE%3Aen&gl=KE&hl=en-KE&q=%28road+crash+OR+traffic+accident+OR+collision%29+Kenya+killed+OR+injured+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "386fb5ff7bd175663a4914f2ce509089b57ea4eb68d0a02140a7b3f3848355fb",
+      "size_bytes": 869,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic crash",
+    "ajali barabarani",
+    "bus crash"
+  ],
+  "timezone": "Africa/Nairobi",
+  "captured_at": "2026-08-11T21:49:45.077385Z",
+  "published_at": "2026-03-29T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "english.news.cn",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KEN-S007"
+}

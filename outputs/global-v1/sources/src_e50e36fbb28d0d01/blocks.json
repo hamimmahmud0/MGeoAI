@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_bdb338e3257882d2",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_bdb338e3257882d2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2 die in highway collision in western Japan, wrong-way driving suspected",
+      "source_path": "html/JPN/JPN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e50e36fbb28d0d01",
+    "text": "2 die in highway collision in western Japan, wrong-way driving suspected",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ce8ae156c0980b9f",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_ce8ae156c0980b9f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-20T06:32:00+09:00",
+      "source_path": "html/JPN/JPN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e50e36fbb28d0d01",
+    "text": "2026-07-20T06:32:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ebf7dab3a34d533d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ebf7dab3a34d533d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "This poto shows the site of a vehicle collision on the Nishi-Meihan Expressway in Nara Prefecture on July 20, 2026. (Photo not for sale)(Photo courtesy ...",
+      "source_path": "html/JPN/JPN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e50e36fbb28d0d01",
+    "text": "This poto shows the site of a vehicle collision on the Nishi-Meihan Expressway in Nara Prefecture on July 20, 2026. (Photo not for sale)(Photo courtesy ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b85856b98002af51",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b85856b98002af51",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 毎日新聞",
+      "source_path": "html/JPN/JPN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e50e36fbb28d0d01",
+    "text": "Publisher: 毎日新聞",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_87235cf4c2c07442",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_87235cf4c2c07442",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://mainichi.jp/english/articles/20260720/p2g/00m/0na/010000c",
+      "source_path": "html/JPN/JPN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e50e36fbb28d0d01",
+    "text": "Original source: https://mainichi.jp/english/articles/20260720/p2g/00m/0na/010000c",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b860a18ec88a27ad",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b860a18ec88a27ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JPN/JPN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e50e36fbb28d0d01",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9a8e7c3a6a965265",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9a8e7c3a6a965265",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://mainichi.jp/english/articles/20260720/p2g/00m/0na/010000c",
+      "source_path": "html/JPN/JPN-S006/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e50e36fbb28d0d01",
+    "text": "https://mainichi.jp/english/articles/20260720/p2g/00m/0na/010000c",
+    "url": null
+  }
+]

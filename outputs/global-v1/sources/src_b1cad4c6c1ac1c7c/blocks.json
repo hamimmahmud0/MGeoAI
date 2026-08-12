@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3804e0e2dde66fbf",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3804e0e2dde66fbf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Motorcyclist killed in West Jordan crash",
+      "source_path": "html/JOR/JOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1cad4c6c1ac1c7c",
+    "text": "Motorcyclist killed in West Jordan crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_302178771dde5846",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_302178771dde5846",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-03T16:09:00+03:00",
+      "source_path": "html/JOR/JOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1cad4c6c1ac1c7c",
+    "text": "2026-05-03T16:09:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_017ff8af98727aaf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_017ff8af98727aaf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "WEST JORDAN, Utah — A motorcyclist died Sunday after a crash in West Jordan. The crash happened around 8:10 p.m. near 6500 S. Cougar Lane ...",
+      "source_path": "html/JOR/JOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1cad4c6c1ac1c7c",
+    "text": "WEST JORDAN, Utah — A motorcyclist died Sunday after a crash in West Jordan. The crash happened around 8:10 p.m. near 6500 S. Cougar Lane ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_75e41bd7b44c2003",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_75e41bd7b44c2003",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: fox13now",
+      "source_path": "html/JOR/JOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1cad4c6c1ac1c7c",
+    "text": "Publisher: fox13now",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f657783e370d97b0",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f657783e370d97b0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.fox13now.com/news/local-news/salt-lake-county/motorcyclist-killed-in-west-jordan-crash",
+      "source_path": "html/JOR/JOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1cad4c6c1ac1c7c",
+    "text": "Original source: https://www.fox13now.com/news/local-news/salt-lake-county/motorcyclist-killed-in-west-jordan-crash",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2fa22b0b212d239d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2fa22b0b212d239d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/JOR/JOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1cad4c6c1ac1c7c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_faff83a5bb673ca5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_faff83a5bb673ca5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.fox13now.com/news/local-news/salt-lake-county/motorcyclist-killed-in-west-jordan-crash",
+      "source_path": "html/JOR/JOR-S003/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b1cad4c6c1ac1c7c",
+    "text": "https://www.fox13now.com/news/local-news/salt-lake-county/motorcyclist-killed-in-west-jordan-crash",
+    "url": null
+  }
+]

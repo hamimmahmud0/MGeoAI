@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_84b611a36cc33c80",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_84b611a36cc33c80",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Un herido tras un choque en la autopista a Córdoba que complicó el tránsito",
+      "source_path": "html/ARG/ARG-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ae97d4a8b1a86aae",
+    "text": "Un herido tras un choque en la autopista a Córdoba que complicó el tránsito",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_344b480d873f9546",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_344b480d873f9546",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-26T04:00:00-03:00",
+      "source_path": "html/ARG/ARG-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ae97d4a8b1a86aae",
+    "text": "2026-07-26T04:00:00-03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fcfabea503b31219",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fcfabea503b31219",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Cadena 3 Argentina",
+      "source_path": "html/ARG/ARG-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ae97d4a8b1a86aae",
+    "text": "Publisher: Cadena 3 Argentina",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_a10318a7194cefae",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_a10318a7194cefae",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.cadena3.com/noticia/noticias-rosario/un-herido-tras-un-choque-en-la-autopista-a-cordoba-que-complico-el-transito_577126",
+      "source_path": "html/ARG/ARG-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ae97d4a8b1a86aae",
+    "text": "Original source: https://www.cadena3.com/noticia/noticias-rosario/un-herido-tras-un-choque-en-la-autopista-a-cordoba-que-complico-el-transito_577126",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ad178be2456559ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ad178be2456559ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ARG/ARG-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ae97d4a8b1a86aae",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_71477120c20422fd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_71477120c20422fd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.cadena3.com/noticia/noticias-rosario/un-herido-tras-un-choque-en-la-autopista-a-cordoba-que-complico-el-transito_577126",
+      "source_path": "html/ARG/ARG-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_ae97d4a8b1a86aae",
+    "text": "https://www.cadena3.com/noticia/noticias-rosario/un-herido-tras-un-choque-en-la-autopista-a-cordoba-que-complico-el-transito_577126",
+    "url": null
+  }
+]

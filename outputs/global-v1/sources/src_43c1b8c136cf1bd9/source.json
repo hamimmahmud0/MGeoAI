@@ -1,0 +1,46 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "28fa8cfaa7bce9bd25792017241733b41b2700511ca96b322853a358b35ffe6d",
+  "country": "Norway",
+  "country_code": "NOR",
+  "dependency_group": "aftenposten",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "local_path": "html/NOR/NOR-S009/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-07-03T07:00:00Z",
+  "publisher": "Aftenposten",
+  "schema_version": "1.0.0",
+  "source_id": "src_43c1b8c136cf1bd9",
+  "source_metadata": {
+    "country": "Norway",
+    "country_code": "NOR",
+    "languages": [
+      "nb",
+      "nn",
+      "en"
+    ],
+    "published_at": "2025-07-03T07:00:00+00:00",
+    "source_info_hash": "07e2a5ca75a0ab7d",
+    "source_info_path": "html/NOR/NOR-S009/SOURCE_INFO.md",
+    "timezone": "Europe/Oslo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikkulykke",
+      "bilulykke",
+      "kjøretøykollisjon",
+      "bussulykke"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.aftenposten.no/norge/i/xmooml/en-person-doed-etter-trafikkulykke-paa-e6-ved-hoeybraaten",
+  "timezone": "Europe/Oslo",
+  "title": "Én person død etter trafikkulykke på E6 ved Høybråten"
+}

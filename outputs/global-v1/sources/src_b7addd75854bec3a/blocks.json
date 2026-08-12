@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9af4b1939c8e6edc",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9af4b1939c8e6edc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Winnipeg man dies in highway crash in northern Ontario",
+      "source_path": "html/CAN/CAN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b7addd75854bec3a",
+    "text": "Winnipeg man dies in highway crash in northern Ontario",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_91001a15a576cf48",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_91001a15a576cf48",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-03T03:00:00-04:00",
+      "source_path": "html/CAN/CAN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b7addd75854bec3a",
+    "text": "2026-06-03T03:00:00-04:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_1904cf5aac80882d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_1904cf5aac80882d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Yahoo News Canada",
+      "source_path": "html/CAN/CAN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b7addd75854bec3a",
+    "text": "Publisher: Yahoo News Canada",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ed1e3016146cb89b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ed1e3016146cb89b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://ca.news.yahoo.com/winnipeg-teen-dies-highway-crash-141258679.html",
+      "source_path": "html/CAN/CAN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b7addd75854bec3a",
+    "text": "Original source: https://ca.news.yahoo.com/winnipeg-teen-dies-highway-crash-141258679.html",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4827f8725a2823e1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4827f8725a2823e1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/CAN/CAN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b7addd75854bec3a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6e7c6719794062ea",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6e7c6719794062ea",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://ca.news.yahoo.com/winnipeg-teen-dies-highway-crash-141258679.html",
+      "source_path": "html/CAN/CAN-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b7addd75854bec3a",
+    "text": "https://ca.news.yahoo.com/winnipeg-teen-dies-highway-crash-141258679.html",
+    "url": null
+  }
+]

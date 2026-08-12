@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PRT-S010",
+  "country_code": "PRT",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Jornal de Angola",
+  "canonical_url": "https://jornaldeangola.ao/noticias/3/sociedade/682796/acidente-de-viacao-em-cabo-ledo-causa-28-feridos",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://jornaldeangola.ao/noticias/3/sociedade/682796/acidente-de-viacao-em-cabo-ledo-causa-28-feridos",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=PT%3Apt-150&gl=PT&hl=pt-PT&q=%28%22acidente+rodovi%C3%A1rio%22+OR+%22acidente+de+via%C3%A7%C3%A3o%22+OR+%22colis%C3%A3o+de+ve%C3%ADculos%22+OR+%22acidente+de+autocarro%22%29+%28morto+OR+mortos+OR+ferido+OR+feridos%29+%22Portugal%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "f6df21f5ec1149489d184804a01be890fd917917bf01877871ae675a8390c48c",
+      "size_bytes": 929,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "pt"
+  ],
+  "traffic_keywords": [
+    "acidente rodoviário",
+    "acidente de viação",
+    "colisão de veículos",
+    "acidente de autocarro"
+  ],
+  "timezone": "Europe/Lisbon",
+  "captured_at": "2026-08-11T22:01:05Z",
+  "published_at": "2026-08-08T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "jornaldeangola.ao",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PRT-S010"
+}

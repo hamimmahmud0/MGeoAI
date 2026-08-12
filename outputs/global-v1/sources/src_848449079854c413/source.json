@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "dcdeeee7336e12516a7c7913dbb5184203d5d5ba9184062b9703c93b9a1ee470",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "expressen",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-13T07:00:00Z",
+  "publisher": "Expressen",
+  "schema_version": "1.0.0",
+  "source_id": "src_848449079854c413",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2026-06-13T07:00:00+00:00",
+    "source_info_hash": "932e520fcb94c28a",
+    "source_info_path": "html/SWE/SWE-S006/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.expressen.se/nyheter/krim/svensk-man-dod-i-bilolycka-pa-irland-skulle-morda/",
+  "timezone": "Europe/Stockholm",
+  "title": "Svensk man död i bilolycka på Irland – skulle mörda"
+}

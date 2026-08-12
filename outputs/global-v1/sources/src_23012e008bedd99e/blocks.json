@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_382035d5950f0bfa",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_382035d5950f0bfa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Morta bimba di 4 anni in un incidente stradale, due feriti gravi",
+      "source_path": "html/ITA/ITA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23012e008bedd99e",
+    "text": "Morta bimba di 4 anni in un incidente stradale, due feriti gravi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8cecef6c2293fd54",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8cecef6c2293fd54",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-19T09:00:00+02:00",
+      "source_path": "html/ITA/ITA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23012e008bedd99e",
+    "text": "2026-06-19T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_816a34814d1edee2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_816a34814d1edee2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Il Sole 24 ORE",
+      "source_path": "html/ITA/ITA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23012e008bedd99e",
+    "text": "Publisher: Il Sole 24 ORE",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_35ab1fa8249273d8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_35ab1fa8249273d8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://stream24.ilsole24ore.com/video/italia/morta-bimba-4-anni-un-incidente-stradale-due-feriti-gravi/AIWztmlD",
+      "source_path": "html/ITA/ITA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23012e008bedd99e",
+    "text": "Original source: https://stream24.ilsole24ore.com/video/italia/morta-bimba-4-anni-un-incidente-stradale-due-feriti-gravi/AIWztmlD",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b0bbd6248ab1e9cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b0bbd6248ab1e9cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ITA/ITA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23012e008bedd99e",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_83759e83445e1530",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_83759e83445e1530",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://stream24.ilsole24ore.com/video/italia/morta-bimba-4-anni-un-incidente-stradale-due-feriti-gravi/AIWztmlD",
+      "source_path": "html/ITA/ITA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_23012e008bedd99e",
+    "text": "https://stream24.ilsole24ore.com/video/italia/morta-bimba-4-anni-un-incidente-stradale-due-feriti-gravi/AIWztmlD",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S008",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "الشرق الأوسط",
+  "canonical_url": "https://english.aawsat.com/world/4754906-road-accident-kills-11-northwestern-t%C3%BCrkiye",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://english.aawsat.com/world/4754906-road-accident-kills-11-northwestern-t%C3%BCrkiye",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22T%C3%BCrkiye%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "68ef60cd291552655e078b8a0dbe20551f5d5c8f0505aadf431f01e1be64f5fe",
+      "size_bytes": 999,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2023-12-27T22:46:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "english.aawsat.com",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S008"
+}

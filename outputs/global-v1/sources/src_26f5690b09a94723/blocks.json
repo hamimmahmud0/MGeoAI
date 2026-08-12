@@ -1,0 +1,98 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_d5750a75f879ce37",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_d5750a75f879ce37",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Sécurisation du G7 : un gendarme décédé, deux blessés dans un accident de la route en Haute-Savoie",
+      "source_path": "html/FRA/FRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26f5690b09a94723",
+    "text": "Sécurisation du G7 : un gendarme décédé, deux blessés dans un accident de la route en Haute-Savoie",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9b8bdd694ae87ac1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_9b8bdd694ae87ac1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-06-13T09:00:00+02:00",
+      "source_path": "html/FRA/FRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26f5690b09a94723",
+    "text": "2026-06-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4094bd1e0e527177",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4094bd1e0e527177",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: La Montagne",
+      "source_path": "html/FRA/FRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26f5690b09a94723",
+    "text": "Publisher: La Montagne",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ca4b448f03f1cf34",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ca4b448f03f1cf34",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.lamontagne.fr/france-monde/faits-divers/securisation-du-g7-un-gendarme-decede-deux-blesses-dans-un-accident-de-la-route-en-haute-savoie_15003527/",
+      "source_path": "html/FRA/FRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26f5690b09a94723",
+    "text": "Original source: https://www.lamontagne.fr/france-monde/faits-divers/securisation-du-g7-un-gendarme-decede-deux-blesses-dans-un-accident-de-la-route-en-haute-savoie_15003527/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3cc15bf36e8a65f4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3cc15bf36e8a65f4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/FRA/FRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26f5690b09a94723",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88f1e1c6767dcd7d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88f1e1c6767dcd7d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.lamontagne.fr/france-monde/faits-divers/securisation-du-g7-un-gendarme-decede-deux-blesses-dans-un-accident-de-la-route-en-haute-savoie_15003527/",
+      "source_path": "html/FRA/FRA-S002/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_26f5690b09a94723",
+    "text": "https://www.lamontagne.fr/france-monde/faits-divers/securisation-du-g7-un-gendarme-decede-deux-blesses-dans-un-accident-de-la-route-en-haute-savoie_15003527/",
+    "url": null
+  }
+]

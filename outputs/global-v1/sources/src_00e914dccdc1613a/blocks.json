@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_ced01da88a6ab5ce",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_ced01da88a6ab5ce",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Passenger bus crash in Indonesia kills at least 16 people",
+      "source_path": "html/IDN/IDN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00e914dccdc1613a",
+    "text": "Passenger bus crash in Indonesia kills at least 16 people",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_279f0d29bc63f0e6",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_279f0d29bc63f0e6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-22T02:18:00+07:00",
+      "source_path": "html/IDN/IDN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00e914dccdc1613a",
+    "text": "2025-12-22T02:18:00+07:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0f63699507c77a56",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0f63699507c77a56",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "JAKARTA: A passenger bus crash killed at least 16 people on Indonesia’s main island of Java just after midnight Monday, officials said. The bus carrying ...",
+      "source_path": "html/IDN/IDN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00e914dccdc1613a",
+    "text": "JAKARTA: A passenger bus crash killed at least 16 people on Indonesia’s main island of Java just after midnight Monday, officials said. The bus carrying ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6af8f4d8e4b5c77d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6af8f4d8e4b5c77d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The New Indian Express",
+      "source_path": "html/IDN/IDN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00e914dccdc1613a",
+    "text": "Publisher: The New Indian Express",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4d3de25ef696551c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4d3de25ef696551c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.newindianexpress.com/world/2025/Dec/22/passenger-bus-crash-in-indonesia-kills-at-least-16-people",
+      "source_path": "html/IDN/IDN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00e914dccdc1613a",
+    "text": "Original source: https://www.newindianexpress.com/world/2025/Dec/22/passenger-bus-crash-in-indonesia-kills-at-least-16-people",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_645f9fc6f320e238",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_645f9fc6f320e238",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/IDN/IDN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00e914dccdc1613a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_cc8a4897e1039fb9",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_cc8a4897e1039fb9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.newindianexpress.com/world/2025/Dec/22/passenger-bus-crash-in-indonesia-kills-at-least-16-people",
+      "source_path": "html/IDN/IDN-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_00e914dccdc1613a",
+    "text": "https://www.newindianexpress.com/world/2025/Dec/22/passenger-bus-crash-in-indonesia-kills-at-least-16-people",
+    "url": null
+  }
+]

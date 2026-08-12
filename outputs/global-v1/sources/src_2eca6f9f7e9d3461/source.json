@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a94b28645a1af2bce0981afd3d7d8f4c4c92fc45d15436070d211a56c0012bf7",
+  "country": "Portugal",
+  "country_code": "PRT",
+  "dependency_group": "24 notícias",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/PRT/PRT-S003/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-09T07:00:00Z",
+  "publisher": "24 Notícias",
+  "schema_version": "1.0.0",
+  "source_id": "src_2eca6f9f7e9d3461",
+  "source_metadata": {
+    "country": "Portugal",
+    "country_code": "PRT",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-07-09T07:00:00+00:00",
+    "source_info_hash": "6d5fd3804b473928",
+    "source_info_path": "html/PRT/PRT-S003/SOURCE_INFO.md",
+    "timezone": "Europe/Lisbon",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente rodoviário",
+      "acidente de viação",
+      "colisão de veículos",
+      "acidente de autocarro"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://24noticias.sapo.pt/atualidade/artigos/acidente-de-autocarro-faz-tres-feridos-via-bucelas-loures-cortada",
+  "timezone": "Europe/Lisbon",
+  "title": "Acidente de autocarro faz três feridos. Via Bucelas-Loures cortada"
+}

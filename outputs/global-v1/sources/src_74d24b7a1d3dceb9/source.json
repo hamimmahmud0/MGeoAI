@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "a5f150df90e922e8f220fd70d0dfb81ede3da9aa8d87839a243b7e5b697d0e38",
+  "country": "Ghana",
+  "country_code": "GHA",
+  "dependency_group": "ghanaian times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ak"
+  ],
+  "local_path": "html/GHA/GHA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-02T07:00:00Z",
+  "publisher": "Ghanaian Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_74d24b7a1d3dceb9",
+  "source_metadata": {
+    "country": "Ghana",
+    "country_code": "GHA",
+    "languages": [
+      "en",
+      "ak"
+    ],
+    "published_at": "2026-06-02T07:00:00+00:00",
+    "source_info_hash": "630256fca90a1aa4",
+    "source_info_path": "html/GHA/GHA-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Accra",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "vehicle crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://ghanaiantimes.com.gh/fatal-peki-tsame-road-crash-claims-15-lives-25-injured/",
+  "timezone": "Africa/Accra",
+  "title": "Fatal Peki-Tsame road crash claims 15 lives, 25 injured"
+}

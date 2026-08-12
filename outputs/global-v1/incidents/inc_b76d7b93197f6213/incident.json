@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-04-20T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-04-19T07:00:00",
+    "timezone": "Africa/Lagos"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_0d64168c72eb0e96",
+    "ev_455812a55132b91f",
+    "ev_4d33e95af3a82f04",
+    "ev_5f65333b91e56fdc",
+    "ev_f8db2cf153d26b77"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_0d64168c72eb0e96",
+        "ev_455812a55132b91f",
+        "ev_4d33e95af3a82f04",
+        "ev_5f65333b91e56fdc",
+        "ev_f8db2cf153d26b77"
+      ],
+      "value": 3
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_0d64168c72eb0e96",
+        "ev_455812a55132b91f",
+        "ev_4d33e95af3a82f04",
+        "ev_5f65333b91e56fdc",
+        "ev_f8db2cf153d26b77"
+      ],
+      "value": 7
+    }
+  ],
+  "generated_at": "2026-04-19T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "No incident-location evidence survived normalization",
+    "confidence": 0.0,
+    "display_name": null,
+    "granularity": "unknown",
+    "hierarchy": {},
+    "latitude": null,
+    "longitude": null,
+    "method": "unresolved",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Reported traffic incident with unresolved location. The reported date is April 19, 2026, retained at day precision. The incident location remains unresolved in the supplied evidence. The reconciled casualty assessment records 3 reported fatalities and 7 reported injuries. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: No incident-location evidence survived normalization. Representative decisive evidence: [ev_0d64168c72eb0e96] [ev_455812a55132b91f] [ev_4d33e95af3a82f04].",
+  "incident_id": "inc_b76d7b93197f6213",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_67a881ff2fdbbf54",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_364f2e2149a47954"
+  ],
+  "status": "reported",
+  "title": "Reported traffic incident with unresolved location",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

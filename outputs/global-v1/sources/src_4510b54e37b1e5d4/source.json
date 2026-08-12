@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "e529371d64e090d36ec5322775c7b390103f51ed24f00a0a1eba640be21c81ac",
+  "country": "New Zealand",
+  "country_code": "NZL",
+  "dependency_group": "newstalk zb",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/NZL/NZL-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-08-10T07:58:00Z",
+  "publisher": "Newstalk ZB",
+  "schema_version": "1.0.0",
+  "source_id": "src_4510b54e37b1e5d4",
+  "source_metadata": {
+    "country": "New Zealand",
+    "country_code": "NZL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-08-10T07:58:00+00:00",
+    "source_info_hash": "b2ce9351d247acce",
+    "source_info_path": "html/NZL/NZL-S001/SOURCE_INFO.md",
+    "timezone": "Pacific/Auckland",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "state highway crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.newstalkzb.co.nz/news/auckland/ponsonby-rd-crash-bus-driver-and-passengers-checked-by-emergency-services/",
+  "timezone": "Pacific/Auckland",
+  "title": "Bus driver and passengers checked after Ponsonby Rd crash"
+}

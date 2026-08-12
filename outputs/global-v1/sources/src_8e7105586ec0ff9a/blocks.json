@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_6eaad8ae48046b8d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_6eaad8ae48046b8d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bus crash in South African mountains kills at least 42",
+      "source_path": "html/ZAF/ZAF-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e7105586ec0ff9a",
+    "text": "Bus crash in South African mountains kills at least 42",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_73efd9077e2a8006",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_73efd9077e2a8006",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-10-13T09:00:00+02:00",
+      "source_path": "html/ZAF/ZAF-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e7105586ec0ff9a",
+    "text": "2025-10-13T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b2a5ddd2cc3d9e88",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_b2a5ddd2cc3d9e88",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A bus has crashed in a mountainous region in the north of South Africa, killing at least 42 people.",
+      "source_path": "html/ZAF/ZAF-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e7105586ec0ff9a",
+    "text": "A bus has crashed in a mountainous region in the north of South Africa, killing at least 42 people.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ebc190bbd38f48b2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ebc190bbd38f48b2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Al Jazeera",
+      "source_path": "html/ZAF/ZAF-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e7105586ec0ff9a",
+    "text": "Publisher: Al Jazeera",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f8c1dd5b2af904e1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f8c1dd5b2af904e1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.aljazeera.com/news/2025/10/13/bus-crash-in-south-african-mountains-kills-at-least-42",
+      "source_path": "html/ZAF/ZAF-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e7105586ec0ff9a",
+    "text": "Original source: https://www.aljazeera.com/news/2025/10/13/bus-crash-in-south-african-mountains-kills-at-least-42",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_bac0fa78b014a666",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_bac0fa78b014a666",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/ZAF/ZAF-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e7105586ec0ff9a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_34ac987453751bbe",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_34ac987453751bbe",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.aljazeera.com/news/2025/10/13/bus-crash-in-south-african-mountains-kills-at-least-42",
+      "source_path": "html/ZAF/ZAF-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8e7105586ec0ff9a",
+    "text": "https://www.aljazeera.com/news/2025/10/13/bus-crash-in-south-african-mountains-kills-at-least-42",
+    "url": null
+  }
+]

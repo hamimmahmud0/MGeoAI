@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NOR-S002",
+  "country_code": "NOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "fvn.no",
+  "canonical_url": "https://www.fvn.no/norgeogverden/i/Rj9e05/alvorlig-trafikkulykke-paa-time-i-rogaland-luftambulanse-er-paa-vei",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.fvn.no/norgeogverden/i/Rj9e05/alvorlig-trafikkulykke-paa-time-i-rogaland-luftambulanse-er-paa-vei",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=NO%3Ano&gl=NO&hl=no-NO&q=%28trafikkulykke+OR+bilulykke+OR+kollisjon%29+Norge+omkom+OR+skadet+when%3A3y",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "aab174d7ad1012b90ead96ef9b9f4c321a46dea4c1309c4b50f13a9a2f59c1bb",
+      "size_bytes": 916,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "nb",
+    "nn",
+    "en"
+  ],
+  "traffic_keywords": [
+    "trafikkulykke",
+    "bilulykke",
+    "kjøretøykollisjon",
+    "bussulykke"
+  ],
+  "timezone": "Europe/Oslo",
+  "captured_at": "2026-08-11T21:42:57.903913Z",
+  "published_at": "2026-01-19T08:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "fvn.no",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NOR-S002"
+}

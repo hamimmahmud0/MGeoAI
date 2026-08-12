@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_30027430038aff33",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_30027430038aff33",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Slachtoffer dodelijk ongeval is 61-jarige vrouw",
+      "source_path": "html/NLD/NLD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1277ad41f8ba6d87",
+    "text": "Slachtoffer dodelijk ongeval is 61-jarige vrouw",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6b559490bc477b55",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_6b559490bc477b55",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-05-18T09:00:00+02:00",
+      "source_path": "html/NLD/NLD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1277ad41f8ba6d87",
+    "text": "2026-05-18T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c2c2e7f086b2bfb3",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c2c2e7f086b2bfb3",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "HELLENDOORN – Bij een ernstig eenzijdig verkeersongeval op de Kosteeweg bij Hellendoorn is gisteren een 61-jarige vrouw uit Den Ham om het leven gekomen.",
+      "source_path": "html/NLD/NLD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1277ad41f8ba6d87",
+    "text": "HELLENDOORN – Bij een ernstig eenzijdig verkeersongeval op de Kosteeweg bij Hellendoorn is gisteren een 61-jarige vrouw uit Den Ham om het leven gekomen.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fc8861a6c98657c7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fc8861a6c98657c7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 112 Nederland",
+      "source_path": "html/NLD/NLD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1277ad41f8ba6d87",
+    "text": "Publisher: 112 Nederland",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_272a5aad861559ad",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_272a5aad861559ad",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://112nederland.nl/2026/05/18/video/slachtoffer-dodelijk-ongeval-is-61-jarige-vrouw/",
+      "source_path": "html/NLD/NLD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1277ad41f8ba6d87",
+    "text": "Original source: https://112nederland.nl/2026/05/18/video/slachtoffer-dodelijk-ongeval-is-61-jarige-vrouw/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c24d853eb645fd19",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c24d853eb645fd19",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1277ad41f8ba6d87",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d640f0795d941ee5",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d640f0795d941ee5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://112nederland.nl/2026/05/18/video/slachtoffer-dodelijk-ongeval-is-61-jarige-vrouw/",
+      "source_path": "html/NLD/NLD-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_1277ad41f8ba6d87",
+    "text": "https://112nederland.nl/2026/05/18/video/slachtoffer-dodelijk-ongeval-is-61-jarige-vrouw/",
+    "url": null
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7143c616a75ff5bba54f77e7558a20670573a4eeea9e18116a70a2455d9d4dcc",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "khaleej times",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S008/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-01T10:02:00Z",
+  "publisher": "Khaleej Times",
+  "schema_version": "1.0.0",
+  "source_id": "src_fcc8e672d73943c6",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-01T10:02:00+00:00",
+    "source_info_hash": "0d326ac4ac8ecc2c",
+    "source_info_path": "html/PHL/PHL-S008/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.khaleejtimes.com/world/asia/philippines-bus-accident-toll-deaths-injuries-labour-day",
+  "timezone": "Asia/Manila",
+  "title": "Philippines: Ten killed, 37 injured as bus rams vehicles at toll gate"
+}

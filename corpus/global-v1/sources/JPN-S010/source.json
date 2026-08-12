@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "JPN-S010",
+  "country_code": "JPN",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "NOVAIST",
+  "canonical_url": "https://novaist.jp/articles/kamagaya-preschool-bus-crash/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://novaist.jp/articles/kamagaya-preschool-bus-crash/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Kamagaya+kindergarten+shuttle+bus+crash+September+2025",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "b1f4164f89171d23b4bfa5beaa25183b14e2f59ee7ceca743b9e29ef84eefe90",
+      "size_bytes": 826,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "ja"
+  ],
+  "traffic_keywords": [
+    "交通事故",
+    "車両衝突",
+    "バス事故",
+    "高速道路事故"
+  ],
+  "timezone": "Asia/Tokyo",
+  "captured_at": "2026-08-12T03:45:08.189301+06:00",
+  "published_at": "2025-09-30T00:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "novaist.jp",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-JPN-S010"
+}

@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "ddd6546c03b3d94f3b5c952510dcad402ab23cf6ce87e1aba2b1f3b4f4d7633e",
+  "country": "Singapore",
+  "country_code": "SGP",
+  "dependency_group": "asia one",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SGP/SGP-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-06-21T22:14:00Z",
+  "publisher": "Asia One",
+  "schema_version": "1.0.0",
+  "source_id": "src_48664eed903068fd",
+  "source_metadata": {
+    "country": "Singapore",
+    "country_code": "SGP",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-06-21T22:14:00+00:00",
+    "source_info_hash": "a418fd34840f8a66",
+    "source_info_path": "html/SGP/SGP-S004/SOURCE_INFO.md",
+    "timezone": "Asia/Singapore",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "traffic accident",
+      "road collision",
+      "vehicle crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.asiaone.com/singapore/motorcyclist-dies-accident-involving-truck-along-admiralty-road-3-other-accidents-same-day",
+  "timezone": "Asia/Singapore",
+  "title": "Motorcyclist dies in accident involving truck along Admiralty Road; 3 other accidents the same day"
+}

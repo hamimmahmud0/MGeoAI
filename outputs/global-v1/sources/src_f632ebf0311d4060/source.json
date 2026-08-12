@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6b249ea8c69c410533fc200766f53c31b620b6777faaf97ee4f5ea413af72a53",
+  "country": "United States",
+  "country_code": "USA",
+  "dependency_group": "abc11 news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/USA/USA-S004/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-07-23T07:00:00Z",
+  "publisher": "ABC11 News",
+  "schema_version": "1.0.0",
+  "source_id": "src_f632ebf0311d4060",
+  "source_metadata": {
+    "country": "United States",
+    "country_code": "USA",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-07-23T07:00:00+00:00",
+    "source_info_hash": "fad6e95d71dedccd",
+    "source_info_path": "html/USA/USA-S004/SOURCE_INFO.md",
+    "timezone": "America/Chicago",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "vehicle collision",
+      "highway crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://abc11.com/post/1-killed-6-car-crash-wake-forest-road-raleigh/19565512/",
+  "timezone": "America/Chicago",
+  "title": "1 killed in 6-car crash on Wake Forest Road in Raleigh"
+}

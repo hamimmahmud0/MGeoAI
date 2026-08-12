@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "TUR-S003",
+  "country_code": "TUR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Anadolu Agency",
+  "canonical_url": "https://www.aa.com.tr/en/turkiye/turkiye-offers-condolences-after-deadly-algeria-bus-crash/4015407",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.aa.com.tr/en/turkiye/turkiye-offers-condolences-after-deadly-algeria-bus-crash/4015407",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22T%C3%BCrkiye%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "e0acafe0040908111ebab78570f715632a88b36c57f057d6166aa0027cbfb2dc",
+      "size_bytes": 998,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "tr"
+  ],
+  "traffic_keywords": [
+    "trafik kazası",
+    "araç çarpışması",
+    "otobüs kazası",
+    "karayolu kazası"
+  ],
+  "timezone": "Europe/Istanbul",
+  "captured_at": "2026-08-11T21:57:24.494087Z",
+  "published_at": "2026-07-31T16:23:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "aa.com.tr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-TUR-S003"
+}

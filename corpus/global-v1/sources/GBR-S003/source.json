@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "GBR-S003",
+  "country_code": "GBR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "aapnews.aap.com.au",
+  "canonical_url": "https://aapnews.aap.com.au/news/oscar-winning-musician-glen-hansard-killed-in-crash",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://aapnews.aap.com.au/news/oscar-winning-musician-glen-hansard-killed-in-crash",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=GB%3Aen&gl=GB&hl=en-GB&q=%28%22road+accident%22+OR+%22traffic+collision%22+OR+%22motorway+crash%22+OR+%22vehicle+collision%22%29+%28killed+OR+dead+OR+injured%29+%22United+Kingdom%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "0976aeda6d488ae69840201c065a2e2b71bf6d10ed00b7f3b1e76e2553eb4e51",
+      "size_bytes": 877,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road accident",
+    "traffic collision",
+    "motorway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Europe/London",
+  "captured_at": "2026-08-11T21:57:54Z",
+  "published_at": "2026-07-29T12:14:25Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "aapnews.aap.com.au",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-GBR-S003"
+}

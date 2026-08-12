@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "SGP-S006",
+  "country_code": "SGP",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "International Business Times Singapore",
+  "canonical_url": "https://www.ibtimes.sg/singapore-38-year-old-man-dies-after-car-skids-crashes-hougang-91771",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.ibtimes.sg/singapore-38-year-old-man-dies-after-car-skids-crashes-hougang-91771",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Singapore%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "bd164916c9ed454ab1ff59a298812da9f7cbe2f31c85252b91b92f2014d6be43",
+      "size_bytes": 1072,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "traffic accident",
+    "road collision",
+    "vehicle crash",
+    "bus accident"
+  ],
+  "timezone": "Asia/Singapore",
+  "captured_at": "2026-08-12T03:37:43.697745+06:00",
+  "published_at": "2026-08-08T07:03:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "ibtimes.sg",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-SGP-S006"
+}

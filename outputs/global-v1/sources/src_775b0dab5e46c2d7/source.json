@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "6b0165c2dd97936d471c1f107ed383b687c2798dbbd1f20a057f6d76b83c5dab",
+  "country": "Kenya",
+  "country_code": "KEN",
+  "dependency_group": "citizen digital",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "local_path": "html/KEN/KEN-S005/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-28T08:00:00Z",
+  "publisher": "Citizen Digital",
+  "schema_version": "1.0.0",
+  "source_id": "src_775b0dab5e46c2d7",
+  "source_metadata": {
+    "country": "Kenya",
+    "country_code": "KEN",
+    "languages": [
+      "en",
+      "sw"
+    ],
+    "published_at": "2026-01-28T08:00:00+00:00",
+    "source_info_hash": "f9ea4be7b1305350",
+    "source_info_path": "html/KEN/KEN-S005/SOURCE_INFO.md",
+    "timezone": "Africa/Nairobi",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "ajali barabarani",
+      "bus crash"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://citizen.digital/article/three-killed-several-injured-in-yaya-kawangware-road-crash-n376481",
+  "timezone": "Africa/Nairobi",
+  "title": "Three killed, several injured in Yaya–Kawangware road crash"
+}

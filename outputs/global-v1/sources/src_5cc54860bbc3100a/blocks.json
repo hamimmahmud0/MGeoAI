@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e68c1c08714d08e4",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e68c1c08714d08e4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Kvinna död i trafikolycka i Borgholm",
+      "source_path": "html/SWE/SWE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5cc54860bbc3100a",
+    "text": "Kvinna död i trafikolycka i Borgholm",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8706c552069fabc7",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_8706c552069fabc7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-12-27T09:00:00+01:00",
+      "source_path": "html/SWE/SWE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5cc54860bbc3100a",
+    "text": "2025-12-27T09:00:00+01:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_83e43264ef81197a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_83e43264ef81197a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Annons Annons Annons En kvinna i 80-årsåldern har avlidit efter en trafikolycka norr om Borgholm på annandag jul, skriver polisen på sin sajt.",
+      "source_path": "html/SWE/SWE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5cc54860bbc3100a",
+    "text": "Annons Annons Annons En kvinna i 80-årsåldern har avlidit efter en trafikolycka norr om Borgholm på annandag jul, skriver polisen på sin sajt.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_fae0b5519e7c5862",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_fae0b5519e7c5862",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Blekinge Läns Tidning",
+      "source_path": "html/SWE/SWE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5cc54860bbc3100a",
+    "text": "Publisher: Blekinge Läns Tidning",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_43fbf2c7baf906ef",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_43fbf2c7baf906ef",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.blt.se/sverige/kvinna-dod-i-trafikolycka-i-borgholm/",
+      "source_path": "html/SWE/SWE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5cc54860bbc3100a",
+    "text": "Original source: https://www.blt.se/sverige/kvinna-dod-i-trafikolycka-i-borgholm/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_328c6c9cb3be3caa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_328c6c9cb3be3caa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/SWE/SWE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5cc54860bbc3100a",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3222ef23b4ee1af6",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3222ef23b4ee1af6",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.blt.se/sverige/kvinna-dod-i-trafikolycka-i-borgholm/",
+      "source_path": "html/SWE/SWE-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_5cc54860bbc3100a",
+    "text": "https://www.blt.se/sverige/kvinna-dod-i-trafikolycka-i-borgholm/",
+    "url": null
+  }
+]

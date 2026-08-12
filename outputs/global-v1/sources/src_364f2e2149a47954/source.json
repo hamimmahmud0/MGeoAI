@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "c2c6124e84263048339a781d81ca37ab8b0a0ca2ab8aa9896185860a36c97661",
+  "country": "Nigeria",
+  "country_code": "NGA",
+  "dependency_group": "channels television",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "ha",
+    "ig",
+    "yo"
+  ],
+  "local_path": "html/NGA/NGA-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-19T07:00:00Z",
+  "publisher": "Channels Television",
+  "schema_version": "1.0.0",
+  "source_id": "src_364f2e2149a47954",
+  "source_metadata": {
+    "country": "Nigeria",
+    "country_code": "NGA",
+    "languages": [
+      "en",
+      "ha",
+      "ig",
+      "yo"
+    ],
+    "published_at": "2026-04-19T07:00:00+00:00",
+    "source_info_hash": "29d0fb8a9377c5b6",
+    "source_info_path": "html/NGA/NGA-S007/SOURCE_INFO.md",
+    "timezone": "Africa/Lagos",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic crash",
+      "bus crash",
+      "vehicle collision"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.channelstv.com/2026/04/19/three-dead-seven-injured-in-ogun-multiple-vehicle-crash/",
+  "timezone": "Africa/Lagos",
+  "title": "Three Dead, Seven Injured In Ogun Multiple-Vehicle Crash"
+}

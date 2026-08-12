@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "58e56a0de8a5629313f3df6a09039e8f7100d6a5c4af1cfc539f3a61285ad2bf",
+  "country": "Singapore",
+  "country_code": "SGP",
+  "dependency_group": "the new indian express",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/SGP/SGP-S007/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-29T20:31:00Z",
+  "publisher": "The New Indian Express",
+  "schema_version": "1.0.0",
+  "source_id": "src_b916a51577400b75",
+  "source_metadata": {
+    "country": "Singapore",
+    "country_code": "SGP",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-08-29T20:31:00+00:00",
+    "source_info_hash": "dbfdf1d23047b459",
+    "source_info_path": "html/SGP/SGP-S007/SOURCE_INFO.md",
+    "timezone": "Asia/Singapore",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "traffic accident",
+      "road collision",
+      "vehicle crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.newindianexpress.com/india/2025/Aug/30/indian-national-jailed-fine-in-singapore-for-causing-road-accident-that-killed-senior-nus-law-professor-2",
+  "timezone": "Asia/Singapore",
+  "title": "Indian national jailed, fine in Singapore for causing road accident that killed senior NUS law professor"
+}

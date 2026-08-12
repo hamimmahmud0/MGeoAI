@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_7f99e033e2446ef1",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_7f99e033e2446ef1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Nepal Bus Accident : Indian Bus Carrying 40 Passengers Plunges Into Marsyangdi River In Tanauan",
+      "source_path": "html/NPL/NPL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f2d87a1ca377c3f",
+    "text": "Nepal Bus Accident : Indian Bus Carrying 40 Passengers Plunges Into Marsyangdi River In Tanauan",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e0e8978eb56163a5",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e0e8978eb56163a5",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2024-08-23T11:40:00+05:45",
+      "source_path": "html/NPL/NPL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f2d87a1ca377c3f",
+    "text": "2024-08-23T11:40:00+05:45",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6d76e9d91a997767",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6d76e9d91a997767",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/ Copy At least 14 people ...",
+      "source_path": "html/NPL/NPL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f2d87a1ca377c3f",
+    "text": "https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/ Copy At least 14 people ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_af08808f8de33edc",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_af08808f8de33edc",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: India.com",
+      "source_path": "html/NPL/NPL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f2d87a1ca377c3f",
+    "text": "Publisher: India.com",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d65733df7114841c",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d65733df7114841c",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/",
+      "source_path": "html/NPL/NPL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f2d87a1ca377c3f",
+    "text": "Original source: https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8023280308f108c1",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8023280308f108c1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NPL/NPL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f2d87a1ca377c3f",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dfb0fe689ac891fa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dfb0fe689ac891fa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/",
+      "source_path": "html/NPL/NPL-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_3f2d87a1ca377c3f",
+    "text": "https://www.india.com/video-gallery/nepal-bus-accident-indian-bus-carrying-40-passengers-plunges-into-marsyangdi-river-in-tanauan-7189074/",
+    "url": null
+  }
+]

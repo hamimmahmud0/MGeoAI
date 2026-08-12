@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_3a96982cb5cd0bb9",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_3a96982cb5cd0bb9",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Road crash on Dhaka-Sylhet highway claims 3 more lives; 14 killed in four days",
+      "source_path": "html/BGD/BGD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a646f4bccb754fa2",
+    "text": "Road crash on Dhaka-Sylhet highway claims 3 more lives; 14 killed in four days",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_b6eddb317f84d616",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_b6eddb317f84d616",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-10T17:55:00+06:00",
+      "source_path": "html/BGD/BGD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a646f4bccb754fa2",
+    "text": "2026-08-10T17:55:00+06:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_9e76f790a765af21",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_9e76f790a765af21",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Three more people were killed in a head-on collision between a bus and a pickup van on the Dhaka-Sylhet highway in Nabiganj upazila of Habiganj ...",
+      "source_path": "html/BGD/BGD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a646f4bccb754fa2",
+    "text": "Three more people were killed in a head-on collision between a bus and a pickup van on the Dhaka-Sylhet highway in Nabiganj upazila of Habiganj ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3b1a1d5b75aa07ed",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3b1a1d5b75aa07ed",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Business Standard",
+      "source_path": "html/BGD/BGD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a646f4bccb754fa2",
+    "text": "Publisher: The Business Standard",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_49ce425181622ddf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_49ce425181622ddf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.tbsnews.net/bangladesh/road-crash-dhaka-sylhet-highway-claims-3-more-lives-14-killed-four-days-1511436",
+      "source_path": "html/BGD/BGD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a646f4bccb754fa2",
+    "text": "Original source: https://www.tbsnews.net/bangladesh/road-crash-dhaka-sylhet-highway-claims-3-more-lives-14-killed-four-days-1511436",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_8dda9f7f83b43da4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_8dda9f7f83b43da4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/BGD/BGD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a646f4bccb754fa2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_c60d3a823183b61a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_c60d3a823183b61a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.tbsnews.net/bangladesh/road-crash-dhaka-sylhet-highway-claims-3-more-lives-14-killed-four-days-1511436",
+      "source_path": "html/BGD/BGD-S009/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_a646f4bccb754fa2",
+    "text": "https://www.tbsnews.net/bangladesh/road-crash-dhaka-sylhet-highway-claims-3-more-lives-14-killed-four-days-1511436",
+    "url": null
+  }
+]

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "AUS-S003",
+  "country_code": "AUS",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "7NEWS Australia",
+  "canonical_url": "https://7news.com.au/news/nine-injured-in-northern-sydney-as-public-bus-crashes-into-medical-centre-at-ryde-c-21147946",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://7news.com.au/news/nine-injured-in-northern-sydney-as-public-bus-crashes-into-medical-centre-at-ryde-c-21147946",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Sydney%22+bus+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "070e0e7189efa19c81f3922683cc9c21c4a2133c9ab300681c2d34cb4ccfa719",
+      "size_bytes": 1119,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Australia/Sydney",
+  "captured_at": "2026-08-12T03:49:08.986114+06:00",
+  "published_at": "2025-12-28T19:19:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "7news.com.au",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-AUS-S003"
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "NZL-S006",
+  "country_code": "NZL",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "The New Zealand Herald",
+  "canonical_url": "https://www.nzherald.co.nz/nz/auckland-traffic-chaos-brewing-separate-crashes-close-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/INCYKHTWWRDE3N7FQIH6I23LAY/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://www.nzherald.co.nz/nz/auckland-traffic-chaos-brewing-separate-crashes-close-sh1-before-harbour-bridge-and-all-city-bound-lanes-on-south-western-motorway/INCYKHTWWRDE3N7FQIH6I23LAY/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Auckland%22+traffic+crash&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "8c119f206748c479b71ad6c4c289066a68fc9c2f59762b90c9c85f9905e38668",
+      "size_bytes": 1407,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "road crash",
+    "traffic collision",
+    "state highway crash",
+    "vehicle collision"
+  ],
+  "timezone": "Pacific/Auckland",
+  "captured_at": "2026-08-12T03:40:31.582229+06:00",
+  "published_at": "2025-05-05T13:19:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "nzherald.co.nz",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-NZL-S006"
+}

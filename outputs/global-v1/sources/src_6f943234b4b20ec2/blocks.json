@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_805b5c9eb353051a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_805b5c9eb353051a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Uganda halts school trips as bus crash kills 20 kids",
+      "source_path": "html/UGA/UGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6f943234b4b20ec2",
+    "text": "Uganda halts school trips as bus crash kills 20 kids",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_293453db20a32b58",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_293453db20a32b58",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-07-17T11:09:00+03:00",
+      "source_path": "html/UGA/UGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6f943234b4b20ec2",
+    "text": "2026-07-17T11:09:00+03:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3ea5135ccb0b12a4",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3ea5135ccb0b12a4",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A school bus in Uganda has crashed during its return to Kampala from a trip to the Sipi Falls. The government has temporarily halted all ...",
+      "source_path": "html/UGA/UGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6f943234b4b20ec2",
+    "text": "A school bus in Uganda has crashed during its return to Kampala from a trip to the Sipi Falls. The government has temporarily halted all ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_db50cd5be8da0439",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_db50cd5be8da0439",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: dw",
+      "source_path": "html/UGA/UGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6f943234b4b20ec2",
+    "text": "Publisher: dw",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_145fb7d51e592d64",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_145fb7d51e592d64",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.dw.com/en/uganda-halts-school-trips-as-bus-crash-kills-20-kids/a-78010176",
+      "source_path": "html/UGA/UGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6f943234b4b20ec2",
+    "text": "Original source: https://www.dw.com/en/uganda-halts-school-trips-as-bus-crash-kills-20-kids/a-78010176",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e3ba9596d79b5384",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e3ba9596d79b5384",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/UGA/UGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6f943234b4b20ec2",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4466be1160a1b5f2",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4466be1160a1b5f2",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.dw.com/en/uganda-halts-school-trips-as-bus-crash-kills-20-kids/a-78010176",
+      "source_path": "html/UGA/UGA-S001/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_6f943234b4b20ec2",
+    "text": "https://www.dw.com/en/uganda-halts-school-trips-as-bus-crash-kills-20-kids/a-78010176",
+    "url": null
+  }
+]

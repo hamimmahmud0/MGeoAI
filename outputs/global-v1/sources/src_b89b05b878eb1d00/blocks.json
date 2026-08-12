@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_56e4d129dea90e5a",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_56e4d129dea90e5a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Egypt bus crash kills 8 tourists",
+      "source_path": "html/EGY/EGY-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b89b05b878eb1d00",
+    "text": "Egypt bus crash kills 8 tourists",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5ff1f3b58fef052d",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_5ff1f3b58fef052d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2010-11-20T08:04:00+02:00",
+      "source_path": "html/EGY/EGY-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b89b05b878eb1d00",
+    "text": "2010-11-20T08:04:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_879f595642dd4c05",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_879f595642dd4c05",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "CAIRO (Reuters) - Eight tourists were killed and 22 injured in a bus crash on a road along Egypt's Gulf of Suez coast, the state ...",
+      "source_path": "html/EGY/EGY-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b89b05b878eb1d00",
+    "text": "CAIRO (Reuters) - Eight tourists were killed and 22 injured in a bus crash on a road along Egypt's Gulf of Suez coast, the state ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_84073a877abae7e8",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_84073a877abae7e8",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: bdnews24",
+      "source_path": "html/EGY/EGY-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b89b05b878eb1d00",
+    "text": "Publisher: bdnews24",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_855efdd99f44ca9a",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_855efdd99f44ca9a",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://bdnews24.com/world/egypt-bus-crash-kills-8-tourists",
+      "source_path": "html/EGY/EGY-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b89b05b878eb1d00",
+    "text": "Original source: https://bdnews24.com/world/egypt-bus-crash-kills-8-tourists",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_2a1cf7a336d1eb7b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_2a1cf7a336d1eb7b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/EGY/EGY-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b89b05b878eb1d00",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_5d65b372ff4ce060",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_5d65b372ff4ce060",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://bdnews24.com/world/egypt-bus-crash-kills-8-tourists",
+      "source_path": "html/EGY/EGY-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_b89b05b878eb1d00",
+    "text": "https://bdnews24.com/world/egypt-bus-crash-kills-8-tourists",
+    "url": null
+  }
+]

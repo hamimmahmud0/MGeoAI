@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "d211643cc1410a33ffbc60ca260a670f6570c494e745e0bd18eefcc2623f68b2",
+  "country": "Sweden",
+  "country_code": "SWE",
+  "dependency_group": "dn.se",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "sv",
+    "en"
+  ],
+  "local_path": "html/SWE/SWE-S001/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-08-04T07:00:00Z",
+  "publisher": "dn.se",
+  "schema_version": "1.0.0",
+  "source_id": "src_03ed4ed07d861655",
+  "source_metadata": {
+    "country": "Sweden",
+    "country_code": "SWE",
+    "languages": [
+      "sv",
+      "en"
+    ],
+    "published_at": "2025-08-04T07:00:00+00:00",
+    "source_info_hash": "7db45a67662f63ea",
+    "source_info_path": "html/SWE/SWE-S001/SOURCE_INFO.md",
+    "timezone": "Europe/Stockholm",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "trafikolycka",
+      "bilolycka",
+      "fordonskollision",
+      "bussolycka"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.dn.se/sverige/trafikolycka-i-centrala-trelleborg-buss-och-bilar-inblandade/",
+  "timezone": "Europe/Stockholm",
+  "title": "Man död efter trafikolycka i centrala Trelleborg"
+}

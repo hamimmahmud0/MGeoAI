@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_9d14946bb13ab79d",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_9d14946bb13ab79d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Dode na ernstig ongeval op snelweg, hulpdiensten massaal ingezet",
+      "source_path": "html/NLD/NLD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16993383af0cdf9c",
+    "text": "Dode na ernstig ongeval op snelweg, hulpdiensten massaal ingezet",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_21d4bf73c841a254",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_21d4bf73c841a254",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-04-21T09:00:00+02:00",
+      "source_path": "html/NLD/NLD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16993383af0cdf9c",
+    "text": "2026-04-21T09:00:00+02:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_95278c4be27bb079",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_95278c4be27bb079",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Maandagavond heeft er op de A9 bij Lijnden een dodelijk ongeval plaatsgevonden.",
+      "source_path": "html/NLD/NLD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16993383af0cdf9c",
+    "text": "Maandagavond heeft er op de A9 bij Lijnden een dodelijk ongeval plaatsgevonden.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6fe14a4f2656e0aa",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6fe14a4f2656e0aa",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: 112nieuws.net",
+      "source_path": "html/NLD/NLD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16993383af0cdf9c",
+    "text": "Publisher: 112nieuws.net",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e30b45122681887f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_e30b45122681887f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://112nieuws.net/2026/04/21/dode-na-ernstig-ongeval-op-snelweg-hulpdiensten-massaal-ingezet/",
+      "source_path": "html/NLD/NLD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16993383af0cdf9c",
+    "text": "Original source: https://112nieuws.net/2026/04/21/dode-na-ernstig-ongeval-op-snelweg-hulpdiensten-massaal-ingezet/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_d989de6d2499d673",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_d989de6d2499d673",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/NLD/NLD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16993383af0cdf9c",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_dbc402721f4a7f1f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_dbc402721f4a7f1f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://112nieuws.net/2026/04/21/dode-na-ernstig-ongeval-op-snelweg-hulpdiensten-massaal-ingezet/",
+      "source_path": "html/NLD/NLD-S010/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_16993383af0cdf9c",
+    "text": "https://112nieuws.net/2026/04/21/dode-na-ernstig-ongeval-op-snelweg-hulpdiensten-massaal-ingezet/",
+    "url": null
+  }
+]

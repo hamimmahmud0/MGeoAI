@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARG-S010",
+  "country_code": "ARG",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Medios Rioja",
+  "canonical_url": "https://mediosrioja.com.ar/grave-siniestro-vial-en-la-zona-sur-un-motociclista-herido-de-gravedad-tras-un-choque/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://mediosrioja.com.ar/grave-siniestro-vial-en-la-zona-sur-un-motociclista-herido-de-gravedad-tras-un-choque/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=AR%3Aes-419&gl=AR&hl=es-419&q=%28%22accidente+vial%22+OR+%22choque+vehicular%22+OR+%22siniestro+vial%22+OR+%22accidente+de+tr%C3%A1nsito%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Argentina%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "542984505cea1ca6537d3035985037ea9125d67c68779cee5e9e39103e6b0538",
+      "size_bytes": 1066,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente vial",
+    "choque vehicular",
+    "siniestro vial",
+    "accidente de tránsito"
+  ],
+  "timezone": "America/Argentina/Buenos_Aires",
+  "captured_at": "2026-08-11T21:57:50Z",
+  "published_at": "2026-07-24T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "mediosrioja.com.ar",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARG-S010"
+}

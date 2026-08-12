@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_c760f2bddc4e407f",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_c760f2bddc4e407f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two women injured in road mishap in Karachi",
+      "source_path": "html/PAK/PAK-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e1af4baed833b3fd",
+    "text": "Two women injured in road mishap in Karachi",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_67cddb325359bcc1",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_67cddb325359bcc1",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-11T05:36:00+05:00",
+      "source_path": "html/PAK/PAK-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e1af4baed833b3fd",
+    "text": "2026-08-11T05:36:00+05:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_7b045b98c1f00257",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_7b045b98c1f00257",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Two women were injured in a road accident on Shahrah-e-Faisal in Karachi, on Monday, according to rescue sources reported. Initial reports said the incident occurred ...",
+      "source_path": "html/PAK/PAK-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e1af4baed833b3fd",
+    "text": "Two women were injured in a road accident on Shahrah-e-Faisal in Karachi, on Monday, according to rescue sources reported. Initial reports said the incident occurred ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f592174de569585d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f592174de569585d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: Daily Times",
+      "source_path": "html/PAK/PAK-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e1af4baed833b3fd",
+    "text": "Publisher: Daily Times",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_6079236dd3f30b9b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_6079236dd3f30b9b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://dailytimes.com.pk/1536553/two-women-injured-in-road-mishap-in-karachi/",
+      "source_path": "html/PAK/PAK-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e1af4baed833b3fd",
+    "text": "Original source: https://dailytimes.com.pk/1536553/two-women-injured-in-road-mishap-in-karachi/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_87ed99e73fcae386",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_87ed99e73fcae386",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/PAK/PAK-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e1af4baed833b3fd",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_ac536faa91b596fb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_ac536faa91b596fb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://dailytimes.com.pk/1536553/two-women-injured-in-road-mishap-in-karachi/",
+      "source_path": "html/PAK/PAK-S004/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_e1af4baed833b3fd",
+    "text": "https://dailytimes.com.pk/1536553/two-women-injured-in-road-mishap-in-karachi/",
+    "url": null
+  }
+]

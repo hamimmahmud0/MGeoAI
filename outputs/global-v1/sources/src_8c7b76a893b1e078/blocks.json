@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_e8dab10e74e84344",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_e8dab10e74e84344",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Singaporean motorcyclist dies after crashing into rear of MPV in Johor",
+      "source_path": "html/MYS/MYS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c7b76a893b1e078",
+    "text": "Singaporean motorcyclist dies after crashing into rear of MPV in Johor",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_44051b2919d4a828",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_44051b2919d4a828",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2026-08-03T03:36:00+08:00",
+      "source_path": "html/MYS/MYS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c7b76a893b1e078",
+    "text": "2026-08-03T03:36:00+08:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_3c3f8014ad9514f7",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_3c3f8014ad9514f7",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "A 56-year-old Singaporean man died after a multi-vehicle collision involving an MPV and three motorcycles on Malaysia's North-South Expressway.The crash occurred at around 2pm on ...",
+      "source_path": "html/MYS/MYS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c7b76a893b1e078",
+    "text": "A 56-year-old Singaporean man died after a multi-vehicle collision involving an MPV and three motorcycles on Malaysia's North-South Expressway.The crash occurred at around 2pm on ...",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_209cd95d398e549f",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_209cd95d398e549f",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: AsiaOne",
+      "source_path": "html/MYS/MYS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c7b76a893b1e078",
+    "text": "Publisher: AsiaOne",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_150b5f672e7f46cd",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_150b5f672e7f46cd",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.asiaone.com/singapore/singaporean-motorcyclist-dies-crash-mpv-johor",
+      "source_path": "html/MYS/MYS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c7b76a893b1e078",
+    "text": "Original source: https://www.asiaone.com/singapore/singaporean-motorcyclist-dies-crash-mpv-johor",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_28292cce7a7970bf",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_28292cce7a7970bf",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/MYS/MYS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c7b76a893b1e078",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_90429911d2a2c8eb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_90429911d2a2c8eb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.asiaone.com/singapore/singaporean-motorcyclist-dies-crash-mpv-johor",
+      "source_path": "html/MYS/MYS-S005/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_8c7b76a893b1e078",
+    "text": "https://www.asiaone.com/singapore/singaporean-motorcyclist-dies-crash-mpv-johor",
+    "url": null
+  }
+]

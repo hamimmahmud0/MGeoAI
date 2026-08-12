@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "9e902ece386d42b42050c14da4d5a7680655e10d787794bb9955ccf64e0262f9",
+  "country": "Brazil",
+  "country_code": "BRA",
+  "dependency_group": "ge",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "pt"
+  ],
+  "local_path": "html/BRA/BRA-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-06-15T07:00:00Z",
+  "publisher": "ge",
+  "schema_version": "1.0.0",
+  "source_id": "src_8b6283ebd3c551f2",
+  "source_metadata": {
+    "country": "Brazil",
+    "country_code": "BRA",
+    "languages": [
+      "pt"
+    ],
+    "published_at": "2026-06-15T07:00:00+00:00",
+    "source_info_hash": "680e3ae74ca16737",
+    "source_info_path": "html/BRA/BRA-S010/SOURCE_INFO.md",
+    "timezone": "America/Sao_Paulo",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "acidente de trânsito",
+      "acidente rodoviário",
+      "colisão de veículos",
+      "acidente de ônibus"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://ge.globo.com/basquete/noticia/2026/06/15/acidente-de-onibus-no-ceara-mata-sete-integrantes-de-time-de-basquete-entidades-se-solidarizam.ghtml",
+  "timezone": "America/Sao_Paulo",
+  "title": "Acidente de ônibus no Ceará mata sete integrantes de time de basquete; entidades se solidarizam"
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "author": null,
+    "block_id": "blk_aa0004f3fc5cb7a0",
+    "kind": "headline",
+    "locator": {
+      "block_id": "blk_aa0004f3fc5cb7a0",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > h1:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Bucheon Crash: Driver Inexperience Under Investigation",
+      "source_path": "html/KOR/KOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_86afda144709e3f9",
+    "text": "Bucheon Crash: Driver Inexperience Under Investigation",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_e9180123877d7d3e",
+    "kind": "published_time",
+    "locator": {
+      "block_id": "blk_e9180123877d7d3e",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > time:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "2025-11-14T09:00:00+09:00",
+      "source_path": "html/KOR/KOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_86afda144709e3f9",
+    "text": "2025-11-14T09:00:00+09:00",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_88e17455d18ddb4b",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_88e17455d18ddb4b",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "Police investigated driver inexperience after a truck struck people at Jeil Market in Bucheon, killing two and injuring nineteen.",
+      "source_path": "html/KOR/KOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_86afda144709e3f9",
+    "text": "Police investigated driver inexperience after a truck struck people at Jeil Market in Bucheon, killing two and injuring nineteen.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0dbb33a2fdff4d86",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0dbb33a2fdff4d86",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(2)",
+      "locator_type": "html_selector",
+      "original_text": "Publisher: The Chosun Daily",
+      "source_path": "html/KOR/KOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_86afda144709e3f9",
+    "text": "Publisher: The Chosun Daily",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_f71c071f3caa43cb",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_f71c071f3caa43cb",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3)",
+      "locator_type": "html_selector",
+      "original_text": "Original source: https://www.chosun.com/english/national-en/2025/11/14/CMQM2EX62RATTD6RCFPSMCVQBI/",
+      "source_path": "html/KOR/KOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_86afda144709e3f9",
+    "text": "Original source: https://www.chosun.com/english/national-en/2025/11/14/CMQM2EX62RATTD6RCFPSMCVQBI/",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_0e0197a13aff9c0d",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_0e0197a13aff9c0d",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(4)",
+      "locator_type": "html_selector",
+      "original_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+      "source_path": "html/KOR/KOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_86afda144709e3f9",
+    "text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification.",
+    "url": null
+  },
+  {
+    "author": null,
+    "block_id": "blk_4e223b52403a3692",
+    "kind": "article",
+    "locator": {
+      "block_id": "blk_4e223b52403a3692",
+      "locator": "body:nth-of-type(1) > article:nth-of-type(1) > p:nth-of-type(3) > a:nth-of-type(1)",
+      "locator_type": "html_selector",
+      "original_text": "https://www.chosun.com/english/national-en/2025/11/14/CMQM2EX62RATTD6RCFPSMCVQBI/",
+      "source_path": "html/KOR/KOR-S007/content.html"
+    },
+    "reactions": null,
+    "source_id": "src_86afda144709e3f9",
+    "text": "https://www.chosun.com/english/national-en/2025/11/14/CMQM2EX62RATTD6RCFPSMCVQBI/",
+    "url": null
+  }
+]

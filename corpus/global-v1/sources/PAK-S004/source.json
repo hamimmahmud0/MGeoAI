@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "PAK-S004",
+  "country_code": "PAK",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Daily Times",
+  "canonical_url": "https://dailytimes.com.pk/1536553/two-women-injured-in-road-mishap-in-karachi/",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://dailytimes.com.pk/1536553/two-women-injured-in-road-mishap-in-karachi/",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/news/search?format=rss&q=%22Karachi%22+road+accident&setlang=en",
+      "label": "Discovery record (bing_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "f0ab7004d8fb570a4bc95faf29ab16dd8613652a36b2967efd84a025c886ffdb",
+      "size_bytes": 957,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "ٹریفک حادثہ",
+    "سڑک حادثہ",
+    "road accident",
+    "bus crash"
+  ],
+  "timezone": "Asia/Karachi",
+  "captured_at": "2026-08-12T03:49:29.679802+06:00",
+  "published_at": "2026-08-11T00:36:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "dailytimes.com.pk",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-PAK-S004"
+}

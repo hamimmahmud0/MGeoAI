@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "7dc7b0c624d13ddcc2cb85d591992be64ab19b58cfe82c6df14eadabe5ee7d42",
+  "country": "Philippines",
+  "country_code": "PHL",
+  "dependency_group": "yahoo",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/PHL/PHL-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2025-05-01T05:13:00Z",
+  "publisher": "Yahoo",
+  "schema_version": "1.0.0",
+  "source_id": "src_7e9d58d7de60ec71",
+  "source_metadata": {
+    "country": "Philippines",
+    "country_code": "PHL",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2025-05-01T05:13:00+00:00",
+    "source_info_hash": "f7f234e5736aef19",
+    "source_info_path": "html/PHL/PHL-S002/SOURCE_INFO.md",
+    "timezone": "Asia/Manila",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road accident",
+      "traffic collision",
+      "bus crash",
+      "banggaan ng sasakyan"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.yahoo.com/news/12-killed-philippines-passenger-bus-121405508.html",
+  "timezone": "Asia/Manila",
+  "title": "10 killed in Philippines after passenger bus slams into vehicles at a toll booth"
+}

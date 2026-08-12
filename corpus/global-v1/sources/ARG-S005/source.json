@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "ARG-S005",
+  "country_code": "ARG",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Cadena del Mar",
+  "canonical_url": "https://cadenadelmar.uy/local/accidente-de-transito-en-punta-del-este-hay-heridos-4478",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://cadenadelmar.uy/local/accidente-de-transito-en-punta-del-este-hay-heridos-4478",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://news.google.com/rss/search?ceid=AR%3Aes-419&gl=AR&hl=es-419&q=%28%22accidente+vial%22+OR+%22choque+vehicular%22+OR+%22siniestro+vial%22+OR+%22accidente+de+tr%C3%A1nsito%22%29+%28muerto+OR+muertos+OR+herido+OR+heridos%29+%22Argentina%22+when%3A90d",
+      "label": "Discovery record (google_news_rss)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "4f8c185bbbcd430e015b5045042f30a78b27a89cead8e0d375a05082cc1e2992",
+      "size_bytes": 888,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "es"
+  ],
+  "traffic_keywords": [
+    "accidente vial",
+    "choque vehicular",
+    "siniestro vial",
+    "accidente de tránsito"
+  ],
+  "timezone": "America/Argentina/Buenos_Aires",
+  "captured_at": "2026-08-11T21:57:50Z",
+  "published_at": "2026-05-21T07:00:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "cadenadelmar.uy",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-ARG-S005"
+}

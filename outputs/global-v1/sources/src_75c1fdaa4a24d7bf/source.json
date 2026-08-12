@@ -1,0 +1,42 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "4877e4e0b6399af555846c0c1b8569de29eb3bbcd68fe9ba1ac8af2dad0fc29e",
+  "country": "Vietnam",
+  "country_code": "VNM",
+  "dependency_group": "vietnam news",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en"
+  ],
+  "local_path": "html/VNM/VNM-S010/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-04-21T00:00:00Z",
+  "publisher": "Vietnam News",
+  "schema_version": "1.0.0",
+  "source_id": "src_75c1fdaa4a24d7bf",
+  "source_metadata": {
+    "country": "Vietnam",
+    "country_code": "VNM",
+    "languages": [
+      "en"
+    ],
+    "published_at": "2026-04-21T00:00:00+00:00",
+    "source_info_hash": "1c438a7271a84e9e",
+    "source_info_path": "html/VNM/VNM-S010/SOURCE_INFO.md",
+    "timezone": "Asia/Ho_Chi_Minh",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "tai nạn giao thông",
+      "va chạm xe",
+      "tai nạn xe buýt",
+      "tai nạn đường bộ"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://vietnamnews.vn/society/1723195/three-killed-in-traffic-accident-in-ha-noi.html",
+  "timezone": "Asia/Ho_Chi_Minh",
+  "title": "Three killed in traffic accident in Ha Noi"
+}

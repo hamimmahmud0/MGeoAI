@@ -1,0 +1,44 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "3bc13856adcf488ea1845c763fcdda5dd0312ce345aa84088b3963aff0b62a61",
+  "country": "Tunisia",
+  "country_code": "TUN",
+  "dependency_group": "en.mehrnews",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "ar",
+    "fr"
+  ],
+  "local_path": "html/TUN/TUN-S002/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2024-12-13T08:04:00Z",
+  "publisher": "en.mehrnews",
+  "schema_version": "1.0.0",
+  "source_id": "src_4970d2007e00dedb",
+  "source_metadata": {
+    "country": "Tunisia",
+    "country_code": "TUN",
+    "languages": [
+      "ar",
+      "fr"
+    ],
+    "published_at": "2024-12-13T08:04:00+00:00",
+    "source_info_hash": "c86386d892a27e46",
+    "source_info_path": "html/TUN/TUN-S002/SOURCE_INFO.md",
+    "timezone": "Africa/Tunis",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "حادث سير",
+      "حادث مروري",
+      "accident de la route",
+      "collision routière"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://en.mehrnews.com/news/225532/2-killed-4-wounded-in-truck-car-collision-in-SW-Tunisia",
+  "timezone": "Africa/Tunis",
+  "title": "2 killed, 4 wounded in truck-car collision in SW Tunisia"
+}

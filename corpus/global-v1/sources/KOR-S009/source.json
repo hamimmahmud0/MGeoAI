@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "corpus_source_id": "KOR-S009",
+  "country_code": "KOR",
+  "status": "accepted",
+  "traffic_incident": true,
+  "publisher": "Yonhap News Agency",
+  "canonical_url": "https://en.yna.co.kr/view/AEN20251113007000315",
+  "verification_links": [
+    {
+      "rel": "original",
+      "url": "https://en.yna.co.kr/view/AEN20251113007000315",
+      "label": "Open the publisher source for manual verification"
+    },
+    {
+      "rel": "manual",
+      "url": "https://www.bing.com/search?q=Truck+crashes+into+market%2C+killing+2%2C+injuring+18",
+      "label": "Discovery record (web_search)"
+    }
+  ],
+  "artifacts": [
+    {
+      "role": "html",
+      "path": "content.html",
+      "sha256": "11968bf051e7cf43637ecac0f0ce2aa6602c1dd9a85772b20b81a4c764ce8b56",
+      "size_bytes": 797,
+      "encoding": "utf-8"
+    }
+  ],
+  "languages": [
+    "en"
+  ],
+  "traffic_keywords": [
+    "교통사고",
+    "차량 충돌",
+    "버스 사고",
+    "고속도로 사고"
+  ],
+  "timezone": "Asia/Seoul",
+  "captured_at": "2026-08-12T03:51:04.308035+06:00",
+  "published_at": "2025-11-13T05:34:00Z",
+  "capture_method": "archive",
+  "independence": "original",
+  "dependency_group": "en.yna.co.kr",
+  "redistribution_status": "metadata_only",
+  "latest_review_id": "review-KOR-S009"
+}

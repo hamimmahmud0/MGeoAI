@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0.0",
+  "country_code": "ETH",
+  "name": "Ethiopia",
+  "languages": [
+    "am",
+    "en"
+  ],
+  "timezones": [
+    "Africa/Addis_Ababa"
+  ],
+  "target_sources": 12
+}

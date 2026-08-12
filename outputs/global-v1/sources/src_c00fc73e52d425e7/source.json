@@ -1,0 +1,48 @@
+{
+  "author": null,
+  "captured_at": null,
+  "content_hash": "01b89a388d8278428efe2588027a9559e2975b0ba5e6fd3130200e7024cd37a9",
+  "country": "South Africa",
+  "country_code": "ZAF",
+  "dependency_group": "bbc",
+  "independence": "unknown",
+  "ingest_warnings": [],
+  "languages": [
+    "en",
+    "zu",
+    "xh",
+    "af"
+  ],
+  "local_path": "html/ZAF/ZAF-S006/content.html",
+  "parent_source_id": null,
+  "platform": "web",
+  "published_at": "2026-01-20T08:00:00Z",
+  "publisher": "BBC",
+  "schema_version": "1.0.0",
+  "source_id": "src_c00fc73e52d425e7",
+  "source_metadata": {
+    "country": "South Africa",
+    "country_code": "ZAF",
+    "languages": [
+      "en",
+      "zu",
+      "xh",
+      "af"
+    ],
+    "published_at": "2026-01-20T08:00:00+00:00",
+    "source_info_hash": "634e6db4e289ff69",
+    "source_info_path": "html/ZAF/ZAF-S006/SOURCE_INFO.md",
+    "timezone": "Africa/Johannesburg",
+    "traffic_incident": true,
+    "traffic_keywords": [
+      "road crash",
+      "traffic collision",
+      "taxi crash",
+      "bus accident"
+    ]
+  },
+  "source_type": "news_html",
+  "source_uri": "https://www.bbc.com/news/articles/cvgdmkxl1mko",
+  "timezone": "Africa/Johannesburg",
+  "title": "South Africa's Vanderbijlpark crash: Twelve pupils die after minibus collides with lorry"
+}
