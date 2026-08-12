@@ -18,6 +18,7 @@ from traffic_fusion.corpus.validation import validate_corpus
 from traffic_fusion.evaluation import extraction_coverage, matching_metrics
 from traffic_fusion.ingest.discovery import write_manifest
 from traffic_fusion.models import FusedIncident, MatchDecision
+from traffic_fusion.paper_evaluation import generate_paper_evaluation
 from traffic_fusion.pipeline import PipelineFailure, export_schemas, run_live_smoke, run_pipeline
 from traffic_fusion.utils import write_json
 
@@ -178,6 +179,38 @@ def evaluate(
         "warning": "Small development fixture; not a model-accuracy claim.",
     }
     write_json(output, result)
+    typer.echo(json.dumps(result, indent=2))
+
+
+@app.command("paper-evaluate")
+def paper_evaluate(
+    run_dir: Path = typer.Option(
+        Path("outputs/deepseek-refusion"),
+        "--run",
+        help="Pipeline run evaluated against the manually verified subset.",
+    ),
+    gold: Path = typer.Option(
+        Path("evaluation/gold/gold_incidents.json"),
+        help="Human-authored reference manifest.",
+    ),
+    output: Path = typer.Option(
+        Path("evaluation"),
+        help="Directory for paper tables, figures, metrics, and reports.",
+    ),
+    corpus_run: Path = typer.Option(
+        Path("outputs/global-v1"),
+        help="Unlabelled run used only for descriptive corpus analysis.",
+    ),
+    seed: int = typer.Option(42, help="Deterministic bootstrap seed."),
+) -> None:
+    """Generate scientifically separated gold and corpus-wide paper results."""
+    try:
+        result = generate_paper_evaluation(run_dir, gold, output, corpus_run, seed)
+    except (OSError, ValueError, RuntimeError) as exc:
+        typer.echo(f"Paper evaluation failed: {exc}", err=True)
+        raise typer.Exit(1) from exc
+    typer.echo("mGeoAI Paper Evaluation Complete")
+    typer.echo("--------------------------------")
     typer.echo(json.dumps(result, indent=2))
 
 

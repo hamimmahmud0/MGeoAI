@@ -1,0 +1,3 @@
+incident_id,field,selected_value,alternatives,alternatives_preserved,kind
+inc_b0eae1856641ab8d,fatalities,16,[9],True,fused_fact
+inc_fff928196c25af3b,fatalities,16,[34],True,fused_fact

@@ -1,0 +1,11 @@
+metric,value
+evaluable_mentions,17
+gold_clusters,6
+b_cubed_precision,1.0
+b_cubed_recall,0.9118
+b_cubed_f1,0.9538
+pairwise,"{""n"": 136, ""true_positive"": 22, ""false_positive"": 0, ""true_negative"": 111, ""false_negative"": 3, ""precision"": 1.0, ""recall"": 0.88, ""f1"": 0.9362, ""accuracy"": 0.9779, ""specificity"": 1.0}"
+fragmented_gold_incidents,1
+overmerged_predicted_clusters,0
+singleton_predicted_mentions,3
+correct_multi_source_clusters,3

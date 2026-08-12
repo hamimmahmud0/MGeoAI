@@ -1,0 +1,7 @@
+gold_id,resolved_gold_mentions,predicted_incident_id,gold_fatalities,predicted_fatalities,predicted_fatality_state,gold_injuries,predicted_injuries,predicted_injury_state,gold_location,predicted_location,location_exact,location_semantic,gold_granularity,predicted_granularity,granularity_agreement,coordinate_error_km
+gold-001-purbachal,6,inc_cluster-001,1,1,known,2,2,known,"300 Feet Road, Purbachal","Purbachal 300 Feet Road, Rupganj",False,True,road_segment,area,False,
+gold-002-tongi,3,cluster-002,1,1,known,,,not_reported,Tongi,"Tongi, Gazipur",False,True,area,city,False,
+gold-003-demra,4,inc_cluster-003,2,2,known,,0,reported_zero,"Konapara, Demra","Konapara, Demra",True,True,area,area,True,
+gold-004-mirsharai,1,inc_cluster-004,1,1,known,,,not_reported,"Jorarganj, Mirsharai, Chittagong",,False,False,area,unknown,False,
+gold-005-sylhet,1,inc_cluster-005_fused,12,8,known,24,25,known,Sylhet,"Kashikapan, Osmaninagar, Sylhet",False,True,district,area,False,
+gold-006-bogura,2,inc_6f8b2c1a0e7d4f9a,1,7,known,,,unknown,Bogura,"Sherpur, Bogura",False,True,district,city,False,

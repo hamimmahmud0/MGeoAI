@@ -1,0 +1,9 @@
+field,modality,incident_count,percent_of_fused_incidents
+contributing_factors,text,6,1.3605
+emergency_response,text,64,14.5125
+fatalities,text,229,51.9274
+incident_type,text,441,100.0
+injuries,text,116,26.3039
+location,text,4,0.907
+road_blockage,text,5,1.1338
+weather,text,6,1.3605

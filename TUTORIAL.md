@@ -628,7 +628,39 @@ Best-effort public social discovery is stored separately in
 accepted sources: they deliberately remain `requires_human_incident_and_location_review`
 and include no downloaded media or full thread capture.
 
-## 16. Run the test suite
+## 16. Regenerate conference-paper evaluation results
+
+The manually verified subset lives in `assets/scraps`; its labels and source grouping
+are stored separately in `evaluation/gold/gold_incidents.json`, so original scraps are
+never edited. The manifest contains six incidents. Source 12 is a roundup and
+contributes one location-selected mention to Sylhet and another to Bogura. A null
+injury or fatality label means unknown/not available and is never treated as zero.
+
+```bash
+cd /path/to/MGeoAI
+source .venv/bin/activate
+python -m pip install -e '.[dev,evaluation]'
+
+mgeoai paper-evaluate \
+  --run outputs/deepseek-refusion \
+  --gold evaluation/gold/gold_incidents.json \
+  --corpus-run outputs/global-v1 \
+  --output evaluation \
+  --seed 42
+```
+
+This command makes no API calls. It uses the live DeepSeek artifact for gold agreement
+and the recorded global run only for descriptive scale and structure. Outputs include
+`PAPER_RESULTS.md`, `PAPER_RESULTS_LATEX.tex`, `PAPER_DISCUSSION_NOTES.md`, auditable
+CSVs, PNG/PDF figures, `paper_metrics.json`, and `validation_report.json`.
+
+Do not copy manuscript numbers if the validation report says `invalid`. Gold results
+may be called agreement or accuracy only for labelled fields. Global results may be
+called coverage, completeness, provenance, conflict prevalence, uncertainty, or
+efficiency—not accuracy. A map-visible collection-country fallback is not a resolved
+incident location.
+
+## 17. Run the test suite
 
 Backend checks from the repository root:
 
@@ -651,7 +683,7 @@ cd ..
 Automated tests are offline. Do not put a live API call into the test suite; use
 `mgeoai smoke-live` when an explicitly bounded live check is required.
 
-## 17. Common problems
+## 18. Common problems
 
 ### `mgeoai: command not found`
 
@@ -739,7 +771,7 @@ Inspect `failed_clusters.json` and `provider_runs.json`. Partial means useful
 outputs were produced but at least one cluster failed strict fusion or provenance
 validation. Do not describe a partial run as fully successful.
 
-## 18. Security and deployment notes
+## 19. Security and deployment notes
 
 - Treat saved HTML and submitted text as untrusted data.
 - Never execute scripts found in submitted HTML.
@@ -754,7 +786,7 @@ validation. Do not describe a partial run as fully successful.
   distributed job queue.
 - Back up moderation and runtime data before replacing an output directory.
 
-## 19. Everyday command checklist
+## 20. Everyday command checklist
 
 Offline development:
 

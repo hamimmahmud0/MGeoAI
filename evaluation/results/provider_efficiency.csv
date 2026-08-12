@@ -1,0 +1,4 @@
+scope,call_count,total_latency_ms,latency_ms,input_tokens,output_tokens,total_tokens,estimated_cost_usd,cost_reporting_n
+matching,199,0.0,"{'n': 199, 'mean': 0.0, 'median': 0.0, 'standard_deviation': 0.0, 'minimum': 0.0, 'q1': 0.0, 'q3': 0.0, 'p90': 0.0, 'maximum': 0.0}",0,0,0,0.0,199
+fusion,441,0.0,"{'n': 441, 'mean': 0.0, 'median': 0.0, 'standard_deviation': 0.0, 'minimum': 0.0, 'q1': 0.0, 'q3': 0.0, 'p90': 0.0, 'maximum': 0.0}",0,0,0,0.0,441
+whole_pipeline,640,0.0,"{'n': 640, 'mean': 0.0, 'median': 0.0, 'standard_deviation': 0.0, 'minimum': 0.0, 'q1': 0.0, 'q3': 0.0, 'p90': 0.0, 'maximum': 0.0}",0,0,0,0.0,640

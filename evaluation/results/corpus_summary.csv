@@ -1,0 +1,29 @@
+metric,value
+raw_input_artifacts,510
+accepted_source_records,510
+rejected_or_skipped_artifacts,0
+countries,51
+country_values,"[""ARE"", ""ARG"", ""AUS"", ""BEL"", ""BGD"", ""BRA"", ""CAN"", ""CHL"", ""COL"", ""CRI"", ""DEU"", ""ECU"", ""EGY"", ""ESP"", ""ETH"", ""FRA"", ""GBR"", ""GHA"", ""IDN"", ""IND"", ""IRL"", ""ITA"", ""JOR"", ""JPN"", ""KEN"", ""KOR"", ""LKA"", ""MAR"", ""MEX"", ""MYS"", ""NGA"", ""NLD"", ""NOR"", ""NPL"", ""NZL"", ""PAK"", ""PER"", ""PHL"", ""POL"", ""PRT"", ""SAU"", ""SGP"", ""SWE"", ""THA"", ""TUN"", ""TUR"", ""TZA"", ""UGA"", ""USA"", ""VNM"", ""ZAF""]"
+languages,26
+language_values,"[""af"", ""ak"", ""am"", ""ar"", ""ber"", ""de"", ""en"", ""es"", ""fr"", ""ha"", ""ig"", ""it"", ""ja"", ""lg"", ""nb"", ""nl"", ""nn"", ""om"", ""pl"", ""pt"", ""sv"", ""sw"", ""tr"", ""xh"", ""yo"", ""zu""]"
+publishers,311
+unique_domains,300
+source_type_counts,"{""facebook_html"": 1, ""news_html"": 509}"
+modality_source_counts,"{""text"": 510}"
+evidence_items,2887
+incident_mentions,511
+fused_incidents,441
+mapped_marker_records,441
+map_marker_coverage_percent,100.0
+geolocated_incidents,4
+geolocation_coverage_percent,0.907
+collection_country_fallback_markers,437
+unresolved_location_incidents,437
+multi_source_incidents,49
+single_source_incidents,392
+mean_sources_per_incident,1.1587
+median_sources_per_incident,1.0
+maximum_sources_per_incident,5
+evidence_per_source,5.6608
+mentions_per_source,1.002
+evidence_per_incident,6.5465

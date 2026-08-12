@@ -1,0 +1,349 @@
+[
+  {
+    "incident_id": "inc_b0eae1856641ab8d",
+    "title": "Passenger-bus collision in Osmaninagar, Sylhet",
+    "source_ids": [
+      "src_1f216a200c947a9b",
+      "src_4d82b7e87ecfc5fa",
+      "src_6e56eed9ea5d3d70",
+      "src_9a000ba483d1029f",
+      "src_f169afeba22bd6f6"
+    ],
+    "publishers": [
+      "Dhaka Tribune",
+      "Just News BD",
+      "The Business Standard",
+      "bdnews24.com"
+    ],
+    "source_types": [
+      "news_html"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "evidence_count": 11,
+    "fused_facts": [
+      {
+        "confidence": 0.51,
+        "conflicting_values": [
+          9
+        ],
+        "contradiction": true,
+        "field": "fatalities",
+        "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_02e1248ad077ecae",
+          "ev_2a045075fbf8c346",
+          "ev_c37dc0ef53c92868",
+          "ev_c942312219ddf43e",
+          "ev_f0061c2b01f6def2"
+        ],
+        "value": 16
+      },
+      {
+        "confidence": 0.63,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_73caa947a1a84577",
+          "ev_f4adace1e27d5371"
+        ],
+        "value": 25
+      }
+    ],
+    "conflicts": [
+      {
+        "incident_id": "inc_b0eae1856641ab8d",
+        "field": "fatalities",
+        "selected_value": "16",
+        "alternatives": "[9]",
+        "alternatives_preserved": true,
+        "kind": "fused_fact"
+      }
+    ],
+    "geolocation": {
+      "alternatives": [],
+      "ambiguity_reason": "Coordinates represent a named-area centroid, not the exact crash point.",
+      "confidence": 0.8800000000000001,
+      "display_name": "Kashikapan, Osmaninagar, Sylhet",
+      "granularity": "area",
+      "hierarchy": {
+        "anchor": "sylhet",
+        "country": "Bangladesh",
+        "district": "Sylhet",
+        "upazila": "Osmaninagar"
+      },
+      "latitude": 24.7063,
+      "longitude": 91.7417,
+      "method": "source_named_offline_gazetteer_centroid",
+      "supporting_evidence_ids": [
+        "ev_02e1248ad077ecae",
+        "ev_10cec01ebd4f8df5",
+        "ev_2a045075fbf8c346",
+        "ev_3f6961080bc668f6",
+        "ev_73caa947a1a84577",
+        "ev_c37dc0ef53c92868",
+        "ev_c942312219ddf43e",
+        "ev_db7573f7b739e2c7",
+        "ev_dc6904dcf0f72456",
+        "ev_f0061c2b01f6def2",
+        "ev_f4adace1e27d5371"
+      ],
+      "uncertainty_radius_km": 3.0
+    },
+    "unresolved_questions": [
+      "Exact crash geometry remains unverified."
+    ],
+    "human_summary": "The fused record concerns this reported incident: Passenger-bus collision in Osmaninagar, Sylhet. The reported date is August 7, 2026, retained at day precision. Reports identify the location as Kashikapan, Osmaninagar, Sylhet; fusion retains it at area precision with 88% location confidence. The reconciled casualty assessment records 16 reported fatalities and 25 reported injuries. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 5 source record(s) representing 4 independent source group(s) and 11 cited evidence item(s). Important location limitation: Coordinates represent a named-area centroid, not the exact crash point, with an approximate 3 km uncertainty radius. Representative decisive evidence: [ev_02e1248ad077ecae] [ev_10cec01ebd4f8df5] [ev_2a045075fbf8c346].",
+    "representative_evidence": [
+      {
+        "evidence_id": "ev_02e1248ad077ecae",
+        "source_id": "src_f169afeba22bd6f6",
+        "claim_text": "Road accidents claim 16 lives in Sylhet, Bogura"
+      },
+      {
+        "evidence_id": "ev_10cec01ebd4f8df5",
+        "source_id": "src_1f216a200c947a9b",
+        "claim_text": "Sylhet road crash: Families of deceased to get Tk5 lakh each, injured up to Tk3 lakh"
+      },
+      {
+        "evidence_id": "ev_2a045075fbf8c346",
+        "source_id": "src_9a000ba483d1029f",
+        "claim_text": "9 killed in Sylhet bus crash, 5-member probe committee formed"
+      },
+      {
+        "evidence_id": "ev_3f6961080bc668f6",
+        "source_id": "src_6e56eed9ea5d3d70",
+        "claim_text": "All killed in Sylhet bus crash were Unique Paribahan passengers, police say"
+      },
+      {
+        "evidence_id": "ev_73caa947a1a84577",
+        "source_id": "src_4d82b7e87ecfc5fa",
+        "claim_text": "At least eight people were killed and around 25 others injured in a head-on collision between two buses in Sylhet's Osmaninagar upazila on Friday morning. ..."
+      }
+    ]
+  },
+  {
+    "incident_id": "inc_7f5a385c571d19e6",
+    "title": "Papa Leão XIV homenageia jovens mortos em acidente de ônibus em Tauá (CE)",
+    "source_ids": [
+      "src_13a603e08989801f",
+      "src_9ceb2cca9dfdc2a2",
+      "src_a0e9a459859f8b30",
+      "src_fa2c16d6b3d22cd8"
+    ],
+    "publishers": [
+      "ACI Digital",
+      "Correio Braziliense",
+      "Leia Sempre Brasil",
+      "blogdosilvalima.com.br"
+    ],
+    "source_types": [
+      "news_html"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "evidence_count": 20,
+    "fused_facts": [
+      {
+        "confidence": 0.0,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+        "state": "not_reported",
+        "support_evidence_ids": [],
+        "value": null
+      },
+      {
+        "confidence": 0.0,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+        "state": "not_reported",
+        "support_evidence_ids": [],
+        "value": null
+      }
+    ],
+    "conflicts": [],
+    "geolocation": {
+      "alternatives": [],
+      "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+      "confidence": 0.18,
+      "display_name": "Brazil — collection-country fallback; incident place unresolved",
+      "granularity": "country",
+      "hierarchy": {
+        "anchor": "collection_country_fallback:BRA",
+        "collection_country": "Brazil",
+        "collection_country_code": "BRA"
+      },
+      "latitude": -14.235,
+      "longitude": -51.9253,
+      "method": "collection_country_fallback",
+      "supporting_evidence_ids": [],
+      "uncertainty_radius_km": null
+    },
+    "unresolved_questions": [
+      "Exact crash geometry remains unverified."
+    ],
+    "human_summary": "The fused record concerns this reported incident: Papa Leão XIV homenageia jovens mortos em acidente de ônibus em Tauá (CE). The reported date is June 22, 2026, retained at day precision. Reports identify the location as Brazil — collection-country fallback; incident place unresolved; fusion retains it at country precision with 18% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 4 source record(s) representing 4 independent source group(s) and 20 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_236d29d623251ad5] [ev_2bd54fbed584721c] [ev_2dc6133733efc49b].",
+    "representative_evidence": [
+      {
+        "evidence_id": "ev_236d29d623251ad5",
+        "source_id": "src_13a603e08989801f",
+        "claim_text": "Collection note: short public-feed metadata excerpt; open the original link for manual verification."
+      },
+      {
+        "evidence_id": "ev_2bd54fbed584721c",
+        "source_id": "src_fa2c16d6b3d22cd8",
+        "claim_text": "https://www.correiobraziliense.com.br/brasil/2026/06/7445497-papa-leao-xiv-presta-solidariedade-a-jovens-mortos-em-acidente-no-ceara.html"
+      },
+      {
+        "evidence_id": "ev_2dc6133733efc49b",
+        "source_id": "src_9ceb2cca9dfdc2a2",
+        "claim_text": "https://www.acidigital.com/noticia/68605/papa-reza-por-atletas-de-basquete-mortos-em-acidente-de-onibus-no-ceara"
+      },
+      {
+        "evidence_id": "ev_40242f7ebb05a1ee",
+        "source_id": "src_13a603e08989801f",
+        "claim_text": "Publisher: blogdosilvalima.com.br"
+      },
+      {
+        "evidence_id": "ev_4201214fee2bdc5b",
+        "source_id": "src_fa2c16d6b3d22cd8",
+        "claim_text": "Papa Leão XIV presta solidariedade a jovens mortos em acidente no Ceará"
+      }
+    ]
+  },
+  {
+    "incident_id": "inc_1da2a4076b766070",
+    "title": "Fatal Peki-Tsame road crash claims 15 lives, 25 injured",
+    "source_ids": [
+      "src_74d24b7a1d3dceb9",
+      "src_8e80b17e427f3cb2",
+      "src_c0454c8046a51745",
+      "src_f48d913a9be2b902"
+    ],
+    "publishers": [
+      "CitiNewsroom.com",
+      "Ghanaian Times",
+      "Graphic Online"
+    ],
+    "source_types": [
+      "news_html"
+    ],
+    "modalities": [
+      "text"
+    ],
+    "evidence_count": 20,
+    "fused_facts": [
+      {
+        "confidence": 0.7100000000000001,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "fatalities",
+        "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_047d933ff60f3206",
+          "ev_457ef40a61c4f2ae",
+          "ev_5305fe884b6542af",
+          "ev_55c3f46323903caa",
+          "ev_75d4fa4b3eafc16c",
+          "ev_78126cb3d0df62e2",
+          "ev_7d8083483dc1814a",
+          "ev_8a040a7adb8df3d4",
+          "ev_d949a92861352e49",
+          "ev_e1d991e4d4705501"
+        ],
+        "value": 15
+      },
+      {
+        "confidence": 0.8700000000000001,
+        "conflicting_values": [],
+        "contradiction": false,
+        "field": "injuries",
+        "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+        "state": "known",
+        "support_evidence_ids": [
+          "ev_047d933ff60f3206",
+          "ev_26b62a8548f29a80",
+          "ev_457ef40a61c4f2ae",
+          "ev_5305fe884b6542af",
+          "ev_55c3f46323903caa",
+          "ev_6e3a3970d070cdb3",
+          "ev_75d4fa4b3eafc16c",
+          "ev_78126cb3d0df62e2",
+          "ev_7d8083483dc1814a",
+          "ev_8a040a7adb8df3d4",
+          "ev_8c0dab583ac1c3fc",
+          "ev_94519bef9939ec62",
+          "ev_aa17a826113d4c71",
+          "ev_b07a8e7ced076cb0",
+          "ev_b1f964e9f87f0d8a",
+          "ev_b62fae14442fddf2",
+          "ev_d7e74db44f8e4642",
+          "ev_d949a92861352e49",
+          "ev_e1d991e4d4705501",
+          "ev_f2276fed4b6b39b9"
+        ],
+        "value": 25
+      }
+    ],
+    "conflicts": [],
+    "geolocation": {
+      "alternatives": [],
+      "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+      "confidence": 0.18,
+      "display_name": "Ghana — collection-country fallback; incident place unresolved",
+      "granularity": "country",
+      "hierarchy": {
+        "anchor": "collection_country_fallback:GHA",
+        "collection_country": "Ghana",
+        "collection_country_code": "GHA"
+      },
+      "latitude": 7.9465,
+      "longitude": -1.0232,
+      "method": "collection_country_fallback",
+      "supporting_evidence_ids": [],
+      "uncertainty_radius_km": null
+    },
+    "unresolved_questions": [
+      "Exact crash geometry remains unverified."
+    ],
+    "human_summary": "The fused record concerns this reported incident: Fatal Peki-Tsame road crash claims 15 lives, 25 injured. The reported date is June 2, 2026, retained at day precision. Reports identify the location as Ghana — collection-country fallback; incident place unresolved; fusion retains it at country precision with 18% location confidence. The reconciled casualty assessment records 15 reported fatalities and 25 reported injuries. Identified vehicles or road users include truck. No explicit traffic congestion, delay, or obstruction was reported. The record combines 4 source record(s) representing 3 independent source group(s) and 20 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_047d933ff60f3206] [ev_26b62a8548f29a80] [ev_457ef40a61c4f2ae].",
+    "representative_evidence": [
+      {
+        "evidence_id": "ev_047d933ff60f3206",
+        "source_id": "src_f48d913a9be2b902",
+        "claim_text": "15 dead, 25 injured in head-on collision at Peki-Tsame"
+      },
+      {
+        "evidence_id": "ev_26b62a8548f29a80",
+        "source_id": "src_74d24b7a1d3dceb9",
+        "claim_text": "Firefighters from the Peki Fire Station of the Ghana National Fire Service (GNFS) responded swiftly to a fatal head-on collision involving a Mercedes-Benz container truck ..."
+      },
+      {
+        "evidence_id": "ev_457ef40a61c4f2ae",
+        "source_id": "src_c0454c8046a51745",
+        "claim_text": "Publisher: CitiNewsroom.com"
+      },
+      {
+        "evidence_id": "ev_5305fe884b6542af",
+        "source_id": "src_c0454c8046a51745",
+        "claim_text": "Original source: https://www.citinewsroom.com/2026/06/15-killed-25-injured-in-peki-tsame-highway-crash/"
+      },
+      {
+        "evidence_id": "ev_55c3f46323903caa",
+        "source_id": "src_f48d913a9be2b902",
+        "claim_text": "Fifteen persons have lost their lives and 25 others have been injured in a fatal head-on collision involving a Mercedes-Benz container truck and a Mercedes-Benz ..."
+      }
+    ]
+  }
+]

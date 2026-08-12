@@ -1,0 +1,442 @@
+incident_id,mapped,incident_location_resolved,collection_country_fallback,display_name,granularity,confidence,uncertainty_radius_km,alternative_count,ambiguous
+inc_062ef1501b00ed3d,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_f83c1620af1efef4,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9065b0d85d42f54b,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a783aee6927c907b,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5d19907f030dfcf9,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_27a90a2f84824673,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_416d875567f1def5,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e96a5338f28a98f1,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8930d05a0049fff1,True,False,True,United Arab Emirates — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f694c4cdfde54259,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.16,,0,True
+inc_9a635e8378264ac8,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b0675bd8baf673ff,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5a93308a50e97311,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2e40b64f77dba026,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_af8e2b35113d2d90,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_84be69cf62989f6b,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_870dd3fcef6f0222,True,False,True,Argentina — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2965afff8f4952eb,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ccfe15e5ac99e2e3,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_546059e288b2b4be,True,True,False,"Lane Cove Road, North Ryde, New South Wales",road_segment,0.75,1.0,0,True
+inc_a6c027192d21d009,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1a478347561cb5c8,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cfe1a68f98c663a7,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7cb0d0d5ce4e2758,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ab4942f69d73a6ce,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1342be4c53494948,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d481809789c89200,True,False,True,Australia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d4ea76e29936da29,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_a3dc55b133f12b67,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_001f628dbd42fb7a,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9fbf221b8da43847,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e1fc701fb0b09cff,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d1a6d04807f0ddce,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4e40d827647e05de,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_856153f13a430f01,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_acbe29df74ecac01,True,False,True,Belgium — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c1b4b4da11cfc4df,True,False,True,Bangladesh — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_b0eae1856641ab8d,True,True,False,"Kashikapan, Osmaninagar, Sylhet",area,0.8800000000000001,3.0,0,True
+inc_c91f20fa9d8117dd,True,False,True,Bangladesh — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_fe05c9db5620d056,True,True,False,"Bogura District, Bangladesh",district,0.55,35.0,0,True
+inc_a614ce723112d701,True,False,True,Bangladesh — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0dfd640a2f72df0c,True,True,False,"Kashikapan, Osmaninagar, Sylhet",area,0.68,3.0,0,True
+inc_7f5a385c571d19e6,True,False,True,Brazil — collection-country fallback; incident place unresolved,country,0.18,,0,True
+inc_fd2b767fbab11c57,True,False,True,Brazil — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a6e482a35e19252c,True,False,True,Brazil — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_d1d35b10bcab7cc9,True,False,True,Brazil — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_33511b970f89d3cb,True,False,True,Brazil — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_14bd6e8f968ed3bf,True,False,True,Brazil — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_60b3256e7667be07,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_2823ed940c3cf1a2,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4985f60f241b1138,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c78d68ba4e8eb7e6,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ead1e65e35630fa1,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3d5d2dd01343c23b,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_be9d59ccd8bc33d1,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7775d2fd2f978bac,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1736ded0ab438f0a,True,False,True,Canada — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0d63efdea6ea120d,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_227421db15aea318,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_823a9f59d0b07484,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_86e1ff6c1c17dc76,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_53e4572c273ebb25,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5ccc0718de771335,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f2fc1a460b8dff39,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0f7da8e49baa453a,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_984568fc83827a1d,True,False,True,Chile — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_13fd5a8026a18370,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_6775aadb2f8638d2,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_792e064d5e755407,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_1546b788ed6e77e7,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e800112fa35e2e52,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2f11ff8e728c0d38,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ce563f83f31d2fa4,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3672baa313ac8347,True,False,True,Colombia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6a520427bb571d8c,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b17e63d9029a61a8,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ee909558da5efab0,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e09cfc32980290c1,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_34e1cf0a052956f9,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a5d14efd4e97a159,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c2034b2764ce979a,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6e79db45a7ea4f68,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5295fb3337a5966b,True,False,True,Costa Rica — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_d6682de967d14e10,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_869697c38676d2cf,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b6453605f2909e71,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_36b56431143075ad,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_863cca3f50bdec09,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0be0fee356b7eb56,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4bcf26c5402b3f28,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9b59375d60402751,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7a2cab4709678ce1,True,False,True,Germany — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9be217d5da923c95,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_d4467af2b573691c,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_282d025d78584b79,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c6ff7ee58e8f8dfb,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6f7302751316b7df,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8a396de0808fd155,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_22982dfb7bd89b17,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b8f686f500b33552,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b3325f68bb93644f,True,False,True,Ecuador — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ed58940e6eb097b3,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f5feacf5559bb370,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_beabf6e7334ae486,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_abe446a31e7d529d,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ebac2021f6015150,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_611d033c78553e0e,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6c669b15fe8e40d2,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e0afcab1f9ef4e68,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cfaf4016def510b8,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2dba26284c3f4eaf,True,False,True,Egypt — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_853da268b688f4a2,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.16,,0,True
+inc_4af43a3132d0f046,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0ffd56b39c39b3be,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f24ef36ef3729128,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0744ff539307adea,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c6a051c03cf91994,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5ec4ae07645e1668,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9bc5496d620c519c,True,False,True,Spain — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_36606dd3867022d0,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_de96ad5fa64d168f,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cb30987af2785f52,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_001e111e0160af47,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e922c60d8bde6b4c,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2566ad61661be61d,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1725871d9f46d5f7,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7a1aba27b4aad602,True,False,True,Ethiopia — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_4303dc258abb3e6e,True,False,True,France — collection-country fallback; incident place unresolved,country,0.16,,0,True
+inc_980616e334663106,True,False,True,France — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_92c6908329081e96,True,False,True,France — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5f0001a82e9cf963,True,False,True,France — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_685854c4d0085427,True,False,True,France — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_fbedcd34fad953a9,True,False,True,France — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_efa94daa66cbbeef,True,False,True,France — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_69201fb35e947a53,True,False,True,France — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_175bfc5fbc6d88a6,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2f3b6788664dce01,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_72ce681e52fda388,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7ea07d2df28489f4,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_fc0fff6b9539ac46,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_bf0129bb303721c7,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_aa0d57e5f1736976,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e0423270c830657e,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4b2f09710b6fa69c,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9903c040312334d9,True,False,True,United Kingdom — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1da2a4076b766070,True,False,True,Ghana — collection-country fallback; incident place unresolved,country,0.18,,0,True
+inc_1088c1ef67e28339,True,False,True,Ghana — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_114d7b49043a2a37,True,False,True,Ghana — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_eda2e31afc23c630,True,False,True,Ghana — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e641ddcb2b16b10b,True,False,True,Ghana — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d03835305c64995a,True,False,True,Ghana — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c63534687190bbf5,True,False,True,Ghana — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8e2df6af2d1a96a5,True,False,True,Indonesia — collection-country fallback; incident place unresolved,country,0.18,,0,True
+inc_119dca9fa759927c,True,False,True,Indonesia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5060056755afa0c1,True,False,True,Indonesia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_efa222ef536789ab,True,False,True,Indonesia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_90a01185a0cbe2a7,True,False,True,Indonesia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_337b49beb5162752,True,False,True,Indonesia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2354607d28f0c3fe,True,False,True,Indonesia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_72ce8000e8fb5c79,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_67c4d8d41bed94d2,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b070cf1344f71d4f,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a6a21fd274671cf7,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ce4917a9c11eaa79,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_be3235a3439446ad,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_aef209a01d4e8df4,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1acf180feb4d142e,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f8e2b635d7c89065,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_199fb74324512add,True,False,True,India — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ef1b5b4c069a5151,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_777f6ec70eaf4edf,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_6a6ba433ed189808,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_be87bc4f89f62f30,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_229fa8bb8a8f5baf,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_738caadd9ec2c70d,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_983a2ff99658e60a,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4b9e94fcbbe3ac86,True,False,True,Ireland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ebd686580517c84a,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.16,,0,True
+inc_57987e96201aa6e6,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_bfbe569f4343eafb,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1786d49af70e2454,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_43f2010274597dc8,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5894c0372a584e16,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d2e4bb4ba36ee458,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b2448c3e392516df,True,False,True,Italy — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_962fce969b17f529,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f51da73247fd38d8,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a9ab4d5138a1cbab,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.16,,0,True
+inc_eedee403cffa237e,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_956a1bf826838de5,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_66cb83b9172783bb,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_fff6eba3330e08cb,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3239fb5accf8e153,True,False,True,Jordan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ca154ba4d75818c4,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ffa9589057a7dcc7,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_759135daef76d10d,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d18187534aa5b31f,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c68a6867e9d11e8f,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d52be364a8fcacae,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e70a3e44e0e04ba4,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_964dae6b996e364e,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_39ccf37485f4ce59,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_172ff7d8516513c2,True,False,True,Japan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a94c32e550e9c803,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_a5cee691df320ecd,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_afbc007467fb0b84,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3cca6ba61a72586a,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e767da158e9cded5,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_05755bedcec3a707,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8b5402edbbf77cad,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4238729aa8437c05,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2e33c3120cc087dd,True,False,True,Kenya — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a70bfc279b5e8bd8,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_d755447fe49f98db,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_797e94e26d6ee3b8,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_893bf21448f99fa1,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ed1c0987c0d44187,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a3b3f6e096c88ed2,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ff730bd27e8414b6,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6bc2aaee2ac0cec0,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_43a0b61b5e699a32,True,False,True,South Korea — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_174f491a4f42bac9,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_f25451a47082b72d,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c532444311d4a726,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_514f38dd11626380,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7f20a59f0f2acbd1,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0db8af5c4f24a7d7,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c18e5ac4945b94ef,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5a5dd2f97186f35c,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_76cd31766374e3f3,True,False,True,Sri Lanka — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_30536498b387f3b4,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5613ff235f5c5b92,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_119578bc9ef08f46,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4d0ba6d11e82c075,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7f1a9841e031f3ec,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_21c5fe8bf69115f6,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2794419f4fe6ad3d,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8beb3740fb83a7ec,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ea449a8deaeedb50,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f69d5249e11fc73a,True,False,True,Morocco — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c613b89047bb9ed0,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_54f9c12913c835e4,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b80668a17a445118,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a5c75eb5447661e6,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9f16088679106725,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_135b0ce9b37c26cc,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f4e85bd72023b0e3,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_563668c88daabc23,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_82e3dfef6891a83e,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6234a4d4ecff99dc,True,False,True,Mexico — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e34c9b64056f9976,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.16,,0,True
+inc_76566e6009a76cab,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_88e57b92d8bffabd,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6867acc1131ed8ab,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_84812748e3a68177,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7322ad5e7148ee4c,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1fc495ce771b6a96,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_15e094f71c40deff,True,False,True,Malaysia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_67513164bd67f1f2,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_0f0efb66762c8f04,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d192329a044ab226,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d8a572becdb97020,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4fa65c00f7185d20,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c78ccc5dd386a6af,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e77ad766a82e0578,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_709d9179b431a1ee,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_877286c4cb974cb0,True,False,True,Nigeria — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cd3bcf3014f0c0dd,True,False,True,Netherlands — collection-country fallback; incident place unresolved,country,0.18,,0,True
+inc_efc66b08d8232687,True,False,True,Netherlands — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_899734adebc9b69f,True,False,True,Netherlands — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_fbbb9069af9ee7c8,True,False,True,Netherlands — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3747717cc9024e95,True,False,True,Netherlands — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9b3741349493174d,True,False,True,Netherlands — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2d2b41e1613383da,True,False,True,Netherlands — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_47adaaccbf7f8209,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_aafbb06ab9950bf1,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_44b5070874391f63,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2cd13385bcc321ae,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_23273f5586ba00e6,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_52a7fab42e17eb9b,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_05b224970ae51a0f,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_be4e966d7cbb6c30,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_553f40043988c5ec,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_71761d777b82fc27,True,False,True,Norway — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d361bfea956203be,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_8fb035b87aaac889,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8765e355aa662fb0,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_110a8ca3e0292f83,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_18874cc34a979cb5,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5258be7775ddd77d,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7ca0c6c90b169e58,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_82f68950ab77c5fd,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d042bb049aaa8093,True,False,True,Nepal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3729e427d559ddcc,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_3009bd71ccabc522,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9bc9ca8b47f0f173,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cf785a4ad504f2e2,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_58aebf6524922970,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_09604bc74173c35b,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f8ccf13350fa59b2,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_99b6f47a17d5b6bc,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d64acba1ff9babda,True,False,True,New Zealand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2f84f52c595b1c7c,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_4b82823672814ac3,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d3e7a0a673c82922,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9464c5f496367047,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_798e030a1871f36e,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_aad57ce4ab0921d8,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e74cd039b7a58065,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_869149e6b80d3817,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0a76e53d5e60ad66,True,False,True,Pakistan — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1918bf026e85952e,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_aa079a940dc49ea4,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6c3c8f6ef0c1faec,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_908dc3c9d823b1cb,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9bca2e22d8c0dc73,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_18d1d8d6dd5e272f,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f20417ef77023608,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_313dbf7fd4323bd2,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8d0c52f90acc032c,True,False,True,Peru — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_441f9cfa9e63b4c1,True,False,True,Philippines — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_9722274c9f006fcc,True,False,True,Philippines — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_a8f9cd1d3e3d5eaf,True,False,True,Philippines — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_c1f449dac221b616,True,False,True,Philippines — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cd5d155574c5a07f,True,False,True,Philippines — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_eec5799d0c601ec1,True,False,True,Philippines — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2b0c8829cd384a48,True,False,True,Philippines — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_27ce81734a52507b,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4afe5f08bc648c22,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_541b2fb7b8685790,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1f68bc7efb5a1935,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e1423b2a7ea62aa7,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_013915f55b8df17d,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1e3dfd82b6f53898,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6905d9c276bf5461,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2e703e979bbe7fc1,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5df3c11e0ed50e64,True,False,True,Poland — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_902438c3a6e267b3,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_0e0b3f493a82ed92,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_735093c4f55b3fa3,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_84eaca6a21029600,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_fc576bdb44f262fe,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_07ffc973dcb7ba8d,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3825cb9d1b40f5a4,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_2f03ec9d722321ff,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_eca0f5cb9d97226e,True,False,True,Portugal — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_98d511dce15743f7,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_e6d21f1ef43052a8,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_07f62d297632b7f4,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_752ac361ff2dbd4c,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4570234ffba5a5b4,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_88ac1158dcc305ce,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1b0392cdbf3e351b,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_94473aab66393ecc,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7ab7ec596bfea492,True,False,True,Saudi Arabia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_bd7e55c9b89fc4c4,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_aeffefe5e4a36758,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ae1464e18578af2a,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6a24770219687247,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_04306df29b31ded0,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_364aa7e82fbf4151,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ae694cd8bcd83694,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_73c95a71efcfb2b9,True,False,True,Singapore — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_15e6e3177a759c11,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_7b58b6253a1b9ec9,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7a77aefea3758301,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5284be7455dd32a3,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_da587b0b71671cb2,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f00383693e27bdf4,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b00501d382dd0cdc,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9015b6ed22d7fa0d,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_309b75bce2d17472,True,False,True,Sweden — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a1ffad7d24b78d68,True,False,True,Thailand — collection-country fallback; incident place unresolved,country,0.18,,0,True
+inc_5131ee70cf6f09d2,True,False,True,Thailand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6e12fea26a5f4872,True,False,True,Thailand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e5c7c5ca6e161b7c,True,False,True,Thailand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_756da5c0ad5e440a,True,False,True,Thailand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e9a7bbc02bb7947b,True,False,True,Thailand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b999f5a76e0d8aef,True,False,True,Thailand — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ac718a8fc508e843,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_d0bfb70c8cf38bd8,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c0c3f0eba1ad36b5,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c2cd5de220582858,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_85975728550c5397,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_474215094cb37350,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_639e4a0807ef8945,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5a9d5b4dcedd6f82,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_341558a22b5907cc,True,False,True,Tunisia — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6d364c81d3c82d2c,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a280cbdf12ed082e,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f33fe3361d9eefe8,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_949412100c667cb6,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4e7fbffb91a2ca96,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b91bedc457088087,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_fff928196c25af3b,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_749096c82dd8cb53,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_bb53e500864a746b,True,False,True,Turkey — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c76dd2b445cd33d1,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_0da373c77cfcafc3,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5509276c23c2f8fc,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cff118529b08bf3f,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_0f9a317c484cbe7a,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c6a2435d0cdb9040,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_1708594de9774ff5,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cf1f014eae03647d,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_eb30988ad3406aa1,True,False,True,Tanzania — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_4939fb0bbbe82949,True,False,True,Uganda — collection-country fallback; incident place unresolved,country,0.18,,0,True
+inc_180d8aa6483e2582,True,False,True,Uganda — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5479e3c12a19c525,True,False,True,Uganda — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7565a1a824e6891f,True,False,True,Uganda — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f0c65510f125fc15,True,False,True,Uganda — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c856691e152256da,True,False,True,Uganda — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_18be641a943046f2,True,False,True,Uganda — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6d040957f2751812,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_23ffcc197e990d2a,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e710fb8b3fda7203,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7644dd6b225651d0,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ab90f1ed6f159c33,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_f2be66076f89748f,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c3e5421b076c6921,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_d812d1f0b2d79ea8,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_ad3fdd49ff0d7fd4,True,False,True,United States — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_a4922f12daefacfd,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_245aab0e26d29a0a,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_7d57b630fade0ee1,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cf37c10c70da85af,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_cf961972d2d7820d,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_5b60aba75bbdb12e,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_64dc0bc32d6d37ee,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3faca311aff4eccc,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_89a295ec5ad7db54,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_3350309c7be3aadb,True,False,True,Vietnam — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_9aeb751843b8193f,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.13999999999999999,,0,True
+inc_8beb7a64e2621160,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_62396e2ee9127ede,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_b3bb90ef4fe0e1ec,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e7a066a6af6be556,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_c12282000920ae11,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_e5ec4d626084010c,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_6137d2fdffbb7ba5,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True
+inc_8ef96c98eaeb0948,True,False,True,South Africa — collection-country fallback; incident place unresolved,country,0.12,,0,True

@@ -1,0 +1,5 @@
+configuration,n,true_positive,false_positive,true_negative,false_negative,precision,recall,f1,accuracy,specificity
+heuristic_only_predeclared_threshold_0_72,136,22,0,111,3,1.0,0.88,0.9362,0.9779,1.0
+full_hybrid,136,22,0,111,3,1.0,0.88,0.9362,0.9779,1.0
+llm_only,,,,,,,,,,
+modality,,,,,,,,,,

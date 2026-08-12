@@ -633,6 +633,45 @@ The repository's `extraction_coverage` function measures whether selected fields
 present; it does not measure whether those fields are correct. Recorded-provider demo
 output and offline regression fixtures are software tests, not research evaluation.
 
+### 15.5 Implemented paper-evaluation framework
+
+The normalized human reference is `evaluation/gold/gold_incidents.json`. Its labels
+point to immutable artifacts under `assets/scraps` instead of generated source IDs.
+The reference unit is an incident, while source membership is resolved to run-specific
+mentions during evaluation. The current subset contains six manually verified
+incidents represented by curated HTML and YouTube-analysis inputs. The roundup in HTML
+source 12 is explicitly split by location selector into Sylhet and Bogura incidents.
+Paired image analyses are supporting modalities, not independently labelled sources.
+
+Only annotator-supplied fields are scored. Fatalities and injuries retain numeric,
+unknown, not-reported, and reported-zero states; a null reference is excluded from that
+field's accuracy denominator. Textual places use normalized exact and required-term
+agreement. Haversine distance is computed only when a trusted reference coordinate is
+present; textual place names are never geocoded to manufacture reference points. No
+incident-type or temporal score is emitted when those labels are absent.
+
+Gold source grouping yields same-incident pair and cluster labels. The evaluator
+reports confusion-matrix metrics, specificity, pairwise clustering, and B-cubed
+precision/recall/F1. A source member that does not resolve to exactly one mention is
+disclosed and excluded rather than force-matched. Major proportions and MAE use 2,000
+deterministic bootstrap resamples (default seed 42). Thresholds are not tuned on this
+small subset.
+
+Unlabelled global data are evaluated separately using composition, source diversity,
+modality support, information-completeness gain, provenance traceability, conflict
+prevalence/preservation, unknown-versus-zero integrity, spatial representation,
+provider usage, and matching efficiency. These are not accuracy metrics. The global
+map distinguishes source-named incident locations from collection-country fallback
+markers: a fallback makes a record visible but does not resolve the event location and
+is excluded from incident-location coverage.
+
+`mgeoai paper-evaluate` generates a canonical metric manifest, per-record CSVs,
+researcher-facing Markdown, LaTeX tables/prose, discussion notes, raster/vector
+figures, representative cases, and a validity report. The validity checker enforces
+confusion-matrix arithmetic, percentage bounds, unknown/zero semantics, gold-file
+provenance for every accuracy metric, and separation of source coverage from incident
+geolocation. A major violation terminates the command with a nonzero exit.
+
 ## 16. Biases and threats to validity
 
 The principal threats are:

@@ -1,0 +1,9 @@
+gold_id,category,category_count,category_percent,detail
+gold-001-purbachal,location_granularity_disagreement,4,50.0,Reference=road_segment; prediction=area.
+gold-002-tongi,location_granularity_disagreement,4,50.0,Reference=area; prediction=city.
+gold-004-mirsharai,geographic_disagreement,1,12.5,"Reference=Jorarganj, Mirsharai, Chittagong; prediction=unresolved."
+gold-005-sylhet,fatalities_underestimate,1,12.5,Reference=12; prediction=8.
+gold-005-sylhet,injuries_overestimate,1,12.5,Reference=24; prediction=25.
+gold-005-sylhet,location_granularity_disagreement,4,50.0,Reference=district; prediction=area.
+gold-006-bogura,fatalities_overestimate,1,12.5,Reference=1; prediction=7.
+gold-006-bogura,location_granularity_disagreement,4,50.0,Reference=district; prediction=city.

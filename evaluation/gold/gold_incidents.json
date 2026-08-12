@@ -1,0 +1,162 @@
+{
+  "schema_version": "1.0.0",
+  "name": "MGeoAI manually verified evaluation subset",
+  "provenance": {
+    "annotation_source": "User-supplied incident table in the 2026-08-12 evaluation request",
+    "input_root": "assets/scraps",
+    "notes": [
+      "This file records human-supplied labels; it is not generated from model output.",
+      "Missing labels are null and must not be interpreted as zero.",
+      "Paired image-analysis files are supporting modalities and are not independently labelled sources.",
+      "HTML source 12 contains two distinct incidents and is intentionally assigned twice with location-specific mention selectors.",
+      "The incident-2 fatality count was clarified by the annotator as 1; injuries remain null/not available."
+    ]
+  },
+  "incidents": [
+    {
+      "gold_id": "gold-001-purbachal",
+      "source_members": [
+        {"path": "html/01/content.html"},
+        {"path": "html/02/news_01.html"},
+        {"path": "html/03/content.html"},
+        {"path": "html/04/content.html"},
+        {"path": "html/05/content.html"},
+        {"path": "youtube/video_01.json"}
+      ],
+      "incident_type": null,
+      "event_time": null,
+      "location": {
+        "name": "300 Feet Road, Purbachal",
+        "latitude": null,
+        "longitude": null,
+        "granularity": "road_segment",
+        "required_terms": ["300 feet", "purbachal"]
+      },
+      "fatalities": 1,
+      "injuries": 2,
+      "vehicles": [],
+      "traffic_effect": null,
+      "notes": "Six manually grouped reports."
+    },
+    {
+      "gold_id": "gold-002-tongi",
+      "source_members": [
+        {"path": "html/06/content.html"},
+        {"path": "html/07/content.html"},
+        {"path": "youtube/video_02.json"}
+      ],
+      "incident_type": null,
+      "event_time": null,
+      "location": {
+        "name": "Tongi",
+        "latitude": null,
+        "longitude": null,
+        "granularity": "area",
+        "required_terms": ["tongi"]
+      },
+      "fatalities": 1,
+      "injuries": null,
+      "vehicles": [],
+      "traffic_effect": null,
+      "notes": "The annotator clarified one death; injuries were labelled N/A."
+    },
+    {
+      "gold_id": "gold-003-demra",
+      "source_members": [
+        {"path": "html/08/content.html"},
+        {"path": "html/09/content.html"},
+        {"path": "html/10/content.html"},
+        {"path": "youtube/video_03.json"}
+      ],
+      "incident_type": null,
+      "event_time": null,
+      "location": {
+        "name": "Konapara, Demra",
+        "latitude": null,
+        "longitude": null,
+        "granularity": "area",
+        "required_terms": ["konapara", "demra"]
+      },
+      "fatalities": 2,
+      "injuries": null,
+      "vehicles": [],
+      "traffic_effect": null,
+      "notes": "Four manually grouped reports."
+    },
+    {
+      "gold_id": "gold-004-mirsharai",
+      "source_members": [
+        {"path": "html/11/content.html"},
+        {"path": "youtube/video_04.json"}
+      ],
+      "incident_type": null,
+      "event_time": null,
+      "location": {
+        "name": "Jorarganj, Mirsharai, Chittagong",
+        "latitude": null,
+        "longitude": null,
+        "granularity": "area",
+        "required_terms": ["jorarganj", "mirsharai", "chittagong"]
+      },
+      "fatalities": 1,
+      "injuries": null,
+      "vehicles": [],
+      "traffic_effect": null,
+      "notes": "Two manually grouped reports."
+    },
+    {
+      "gold_id": "gold-005-sylhet",
+      "source_members": [
+        {
+          "path": "html/12/content.html",
+          "mention_location_terms": ["sylhet"]
+        },
+        {
+          "path": "youtube/video_05.json",
+          "mention_location_terms": ["sylhet"]
+        }
+      ],
+      "incident_type": null,
+      "event_time": null,
+      "location": {
+        "name": "Sylhet",
+        "latitude": null,
+        "longitude": null,
+        "granularity": "district",
+        "required_terms": ["sylhet"]
+      },
+      "fatalities": 12,
+      "injuries": 24,
+      "vehicles": [],
+      "traffic_effect": null,
+      "notes": "One of two incidents contained in HTML source 12; the video selector is retained exactly as supplied and may be reported unresolved by a run."
+    },
+    {
+      "gold_id": "gold-006-bogura",
+      "source_members": [
+        {
+          "path": "html/12/content.html",
+          "mention_location_terms": ["bogura"]
+        },
+        {
+          "path": "youtube/video_05.json",
+          "mention_location_terms": ["bogura"]
+        }
+      ],
+      "incident_type": null,
+      "event_time": null,
+      "location": {
+        "name": "Bogura",
+        "latitude": null,
+        "longitude": null,
+        "granularity": "district",
+        "required_terms": ["bogura"]
+      },
+      "fatalities": 1,
+      "injuries": null,
+      "vehicles": [],
+      "traffic_effect": null,
+      "notes": "Second incident contained in HTML source 12."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "status": "valid",
+  "major_error_count": 0,
+  "warning_count": 3,
+  "errors": [],
+  "warnings": [
+    "No trusted gold coordinates: Haversine accuracy is not evaluable.",
+    "Gold subset is small; report N and bootstrap confidence intervals.",
+    "Some declared gold source members did not resolve to exactly one run mention."
+  ],
+  "checks": {
+    "percentage_bounds": "passed",
+    "confusion_matrix_consistency": "passed",
+    "unknown_zero_semantics": "passed",
+    "gold_unlabelled_separation": "passed",
+    "development_fixture_excluded": "passed",
+    "coverage_map_semantics": "passed"
+  }
+}

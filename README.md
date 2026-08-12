@@ -182,6 +182,37 @@ normalization, incident splitting, candidate matching, provider adjudication,
 constraint-aware clustering, provider fusion, provenance validation, geolocation,
 sentiment, and reporting.
 
+## Paper evaluation
+
+The paper-ready evaluator keeps human-labelled accuracy separate from full-corpus
+descriptive analysis. The gold subset is defined in
+[`evaluation/gold/gold_incidents.json`](evaluation/gold/gold_incidents.json) with
+stable paths into the immutable `assets/scraps` corpus. It contains six manually
+verified incidents; HTML source 12 is split into distinct Sylhet and Bogura mentions.
+
+Regenerate all tables, CSVs, figures, validity checks, Markdown, and LaTeX with:
+
+```bash
+python -m pip install -e '.[dev,evaluation]'
+mgeoai paper-evaluate \
+  --run outputs/deepseek-refusion \
+  --gold evaluation/gold/gold_incidents.json \
+  --corpus-run outputs/global-v1 \
+  --output evaluation \
+  --seed 42
+```
+
+The gold run supplies predictions compared with human labels. The global run supplies
+only corpus composition, completeness, provenance, conflict, geolocation, modality,
+and efficiency statistics; those are never called accuracy. Collection-country
+fallback markers count as map-visible records, not resolved incident locations.
+Canonical manuscript numbers are in
+[`evaluation/results/paper_metrics.json`](evaluation/results/paper_metrics.json) and
+must only be used when
+[`evaluation/results/validation_report.json`](evaluation/results/validation_report.json)
+reports `valid`. The full report is
+[`evaluation/PAPER_RESULTS.md`](evaluation/PAPER_RESULTS.md).
+
 ## Inputs and outputs
 
 Supported inputs are local saved HTML, `SOURCE_INFO.md` metadata next to HTML,

@@ -1,0 +1,300 @@
+{
+  "gold_incidents": {
+    "value": 6,
+    "n": 6,
+    "unit": "incidents",
+    "metric_type": "gold_accuracy",
+    "description": "Size of the manually verified incident subset.",
+    "source_files": [
+      "evaluation/gold/gold_incidents.json"
+    ]
+  },
+  "fatality_exact_match": {
+    "value": 0.6667,
+    "n": 6,
+    "unit": "proportion",
+    "metric_type": "gold_accuracy",
+    "description": "Exact reported-fatality agreement among human-labelled cases with numeric predictions.",
+    "source_files": [
+      "evaluation/gold/gold_incidents.json",
+      "outputs/deepseek-refusion/incidents.json"
+    ]
+  },
+  "fatality_mae": {
+    "value": 1.6667,
+    "n": 6,
+    "unit": "fatalities",
+    "metric_type": "gold_accuracy",
+    "description": "Mean absolute error for human-labelled fatality counts with numeric predictions.",
+    "source_files": [
+      "evaluation/gold/gold_incidents.json",
+      "outputs/deepseek-refusion/incidents.json"
+    ]
+  },
+  "injury_exact_match": {
+    "value": 0.5,
+    "n": 2,
+    "unit": "proportion",
+    "metric_type": "gold_accuracy",
+    "description": "Exact reported-injury agreement among human-labelled cases with numeric predictions.",
+    "source_files": [
+      "evaluation/gold/gold_incidents.json",
+      "outputs/deepseek-refusion/incidents.json"
+    ]
+  },
+  "location_semantic_agreement": {
+    "value": 0.8333,
+    "n": 6,
+    "unit": "proportion",
+    "metric_type": "gold_accuracy",
+    "description": "Agreement with required terms in human-supplied textual place labels.",
+    "source_files": [
+      "evaluation/gold/gold_incidents.json",
+      "outputs/deepseek-refusion/incidents.json"
+    ]
+  },
+  "matching_f1": {
+    "value": 0.9362,
+    "n": 136,
+    "unit": "proportion",
+    "metric_type": "gold_accuracy",
+    "description": "Same-incident pair F1 on gold-resolved mentions.",
+    "source_files": [
+      "evaluation/gold/gold_incidents.json",
+      "outputs/deepseek-refusion/matches.json"
+    ]
+  },
+  "clustering_b_cubed_f1": {
+    "value": 0.9538,
+    "n": 17,
+    "unit": "proportion",
+    "metric_type": "gold_accuracy",
+    "description": "B-cubed clustering F1 on gold-resolved mentions.",
+    "source_files": [
+      "evaluation/gold/gold_incidents.json",
+      "outputs/deepseek-refusion/clusters.json"
+    ]
+  },
+  "corpus_sources": {
+    "value": 510,
+    "n": 510,
+    "unit": "source records",
+    "metric_type": "descriptive",
+    "description": "Accepted source records in the automatically processed corpus.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "corpus_incidents": {
+    "value": 441,
+    "n": 441,
+    "unit": "incidents",
+    "metric_type": "descriptive",
+    "description": "Automatically fused incidents; not a count of verified real-world events.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "geolocation_coverage": {
+    "value": 0.00907,
+    "n": 441,
+    "unit": "proportion",
+    "metric_type": "descriptive",
+    "description": "Share of fused records with source-named incident-location coordinates, excluding collection-country fallback markers; not coordinate accuracy.",
+    "source_files": [
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "map_marker_coverage": {
+    "value": 1.0,
+    "n": 441,
+    "unit": "proportion",
+    "metric_type": "descriptive",
+    "description": "Share of fused records visible through either incident-location coordinates or explicit collection-country fallback markers.",
+    "source_files": [
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "fusion_completeness_gain": {
+    "value": 0.0056,
+    "n": 49,
+    "unit": "proportion of material fields",
+    "metric_type": "descriptive",
+    "description": "Average fused field-coverage gain over the best single mention.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "provenance_coverage": {
+    "value": 1.0,
+    "n": 211,
+    "unit": "proportion",
+    "metric_type": "structural",
+    "description": "Share of canonical fused facts resolving to valid evidence and source records; not factual correctness.",
+    "source_files": [
+      "outputs/global-v1/incidents.json",
+      "outputs/global-v1/evidence.jsonl"
+    ]
+  },
+  "conflict_incident_rate": {
+    "value": 0.0045,
+    "n": 441,
+    "unit": "proportion",
+    "metric_type": "structural",
+    "description": "Share of fused records containing a schema-represented conflict or alternative.",
+    "source_files": [
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "llm_call_avoidance": {
+    "value": 0.9663,
+    "n": 5913,
+    "unit": "proportion",
+    "metric_type": "efficiency",
+    "description": "Share of persisted candidate decisions not requiring a provider match call.",
+    "source_files": [
+      "outputs/global-v1/matches.json",
+      "outputs/global-v1/provider_runs.json"
+    ]
+  },
+  "estimated_api_cost": {
+    "value": 0.0,
+    "n": 640,
+    "unit": "USD",
+    "metric_type": "efficiency",
+    "description": "Recorded estimated provider cost; null means incomplete cost metadata.",
+    "source_files": [
+      "outputs/global-v1/provider_runs.json"
+    ]
+  },
+  "corpus_countries": {
+    "value": 51,
+    "n": 51,
+    "unit": "collection-country groups",
+    "metric_type": "descriptive",
+    "description": "Distinct configured source-collection country groups.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "corpus_languages": {
+    "value": 26,
+    "n": 26,
+    "unit": "language tags",
+    "metric_type": "descriptive",
+    "description": "Distinct declared language tags.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "corpus_publishers": {
+    "value": 311,
+    "n": 311,
+    "unit": "publisher labels",
+    "metric_type": "descriptive",
+    "description": "Distinct non-empty publisher labels.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "corpus_evidence_items": {
+    "value": 2887,
+    "n": 2887,
+    "unit": "evidence items",
+    "metric_type": "descriptive",
+    "description": "Attributed evidence items in the corpus run.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "corpus_mentions": {
+    "value": 511,
+    "n": 511,
+    "unit": "mentions",
+    "metric_type": "descriptive",
+    "description": "Source-local incident mentions in the corpus run.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "multi_source_incidents": {
+    "value": 49,
+    "n": 441,
+    "unit": "incident records",
+    "metric_type": "descriptive",
+    "description": "Fused records supported by more than one source record.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "fused_field_completeness": {
+    "value": 0.3914,
+    "n": 49,
+    "unit": "proportion of material fields",
+    "metric_type": "descriptive",
+    "description": "Mean material-field availability after fusion for multi-source records.",
+    "source_files": [
+      "outputs/global-v1/run.json",
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "conflict_preservation_rate": {
+    "value": 1.0,
+    "n": 2,
+    "unit": "proportion",
+    "metric_type": "structural",
+    "description": "Share of represented conflicts retaining alternatives.",
+    "source_files": [
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "unknown_zero_violations": {
+    "value": 0,
+    "n": 441,
+    "unit": "violations",
+    "metric_type": "structural",
+    "description": "Invalid unknown/not-reported/reported-zero state-value combinations.",
+    "source_files": [
+      "outputs/global-v1/incidents.json"
+    ]
+  },
+  "provider_calls": {
+    "value": 640,
+    "n": 640,
+    "unit": "provider operations",
+    "metric_type": "efficiency",
+    "description": "All recorded matching and fusion provider operations.",
+    "source_files": [
+      "outputs/global-v1/provider_runs.json"
+    ]
+  },
+  "provider_total_tokens": {
+    "value": 0,
+    "n": 640,
+    "unit": "tokens",
+    "metric_type": "efficiency",
+    "description": "Recorded input plus output tokens; recorded fixtures report zero.",
+    "source_files": [
+      "outputs/global-v1/provider_runs.json"
+    ]
+  },
+  "median_uncertainty_radius_km": {
+    "value": 3.0,
+    "n": 4,
+    "unit": "km",
+    "metric_type": "descriptive",
+    "description": "Median declared uncertainty radius among source-named mapped locations; not spatial error.",
+    "source_files": [
+      "outputs/global-v1/incidents.json"
+    ]
+  }
+}
