@@ -1,0 +1,97 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-06-02T13:39:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2025-06-01T13:39:00",
+    "timezone": "Asia/Karachi"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_0a49941250d88285",
+    "ev_39cb2a37e4641281",
+    "ev_45f44684b9c0dd69",
+    "ev_5b82b116598ec8fa",
+    "ev_aad4fa3ad4b95416"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_0a49941250d88285",
+        "ev_39cb2a37e4641281",
+        "ev_45f44684b9c0dd69",
+        "ev_5b82b116598ec8fa",
+        "ev_aad4fa3ad4b95416"
+      ],
+      "value": 6
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2025-06-01T13:39:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Pakistan — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:PAK",
+      "collection_country": "Pakistan",
+      "collection_country_code": "PAK"
+    },
+    "latitude": 30.3753,
+    "longitude": 69.3451,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Professor among six killed in separate road accidents across Karachi. The reported date is June 1, 2025, retained at day precision. Reports identify the location as Pakistan — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 6 reported fatalities and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_0a49941250d88285] [ev_39cb2a37e4641281] [ev_45f44684b9c0dd69].",
+  "incident_id": "inc_798e030a1871f36e",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_296dd8cf2943aa92",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_0c693cb2a36ee313"
+  ],
+  "status": "reported",
+  "title": "Professor among six killed in separate road accidents across Karachi",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

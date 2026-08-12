@@ -257,9 +257,14 @@ documented in `.env.example`: endpoint, model, API mode, timeout, retry count,
 concurrency, token budget, and cost guardrails. Manual must-link/cannot-link pairs
 can be placed in the TOML `[overrides]` section.
 
-The local Bangladesh gazetteer stores representative area/city centroids for the
-demo corpus. Its coordinates never claim rooftop precision. Unmapped incidents
-remain available in the dashboard list.
+The offline gazetteer stores source-named representative intersections, road segments,
+areas, and city/district centroids; its coordinates never claim rooftop precision.
+When the 51-country seed corpus contains an unresolved place, the dashboard uses a
+low-confidence amber collection-country fallback so the record remains visible. That
+fallback is explicitly labeled `collection_country_fallback`, is not treated as
+incident-location evidence during matching, and is not a reported crash coordinate.
+The incident detail preserves the distinction and withholds the “nearby roads” link
+for these fallback markers.
 
 ## API and dashboard
 

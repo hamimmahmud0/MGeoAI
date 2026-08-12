@@ -185,6 +185,94 @@ def test_unmapped_international_reports_use_distinctive_title_not_unknown_token(
     assert "unknown" not in mention.lexical_features
     assert "country:USA" in mention.lexical_features
     assert {"tour", "overturns", "grand", "canyon"}.issubset(mention.lexical_features)
+    assert mention.locations[0].granularity == "country"
+    assert mention.locations[0].confidence == 0.12
+    assert mention.locations[0].hierarchy["collection_country_code"] == "USA"
+    assert "not a reported incident location" in (mention.locations[0].reason or "")
+
+
+def test_north_ryde_source_resolves_lane_cove_road_before_country_fallback() -> None:
+    source = SourceRecord(
+        source_id="src_ryde",
+        source_type=SourceType.NEWS_HTML,
+        local_path="AUS-S003/content.html",
+        content_hash="7" * 64,
+        title=(
+            "Nine injured in northern Sydney as public bus crashes into medical "
+            "centre at Ryde"
+        ),
+        country="Australia",
+        country_code="AUS",
+        source_metadata={"traffic_incident": True},
+    )
+    mention = split_mentions(
+        source,
+        [
+            make_evidence(source.source_id, source.title or "", "ryde-title"),
+            make_evidence(
+                source.source_id,
+                "The bus and a car collided on Lane Cove Rd at North Ryde.",
+                "ryde-location",
+            ),
+        ],
+    )[0]
+
+    location = mention.locations[0]
+    assert location.name == "Lane Cove Road, North Ryde, New South Wales"
+    assert location.granularity == "road_segment"
+    assert (location.latitude, location.longitude) == (-33.78725, 151.124922)
+    assert location.hierarchy["country"] == "Australia"
+    assert location.evidence_ids == ["ev_ryde-location"]
+
+
+def test_all_configured_global_countries_have_explicit_map_fallbacks() -> None:
+    from traffic_fusion.corpus.discovery import load_country_profiles
+
+    profiles = load_country_profiles()
+    assert len(profiles) >= 50
+    for profile in profiles.values():
+        source = SourceRecord(
+            source_id=f"src_{profile.iso2.casefold()}",
+            source_type=SourceType.NEWS_HTML,
+            local_path=f"{profile.iso3}/content.html",
+            content_hash=profile.iso2.casefold() * 32,
+            title="Traffic collision reported; detailed place pending review",
+            country=profile.name,
+            country_code=profile.iso3,
+            source_metadata={"traffic_incident": True},
+        )
+        mention = split_mentions(
+            source,
+            [make_evidence(source.source_id, source.title or "", profile.iso2)],
+        )[0]
+        location = mention.locations[0]
+        assert location.latitude is not None
+        assert location.longitude is not None
+        assert location.granularity == "country"
+        assert location.evidence_ids == []
+
+
+def test_country_fallback_is_not_used_as_incident_matching_evidence() -> None:
+    def report(source_id: str, title: str) -> IncidentMention:
+        source = SourceRecord(
+            source_id=source_id,
+            source_type=SourceType.NEWS_HTML,
+            local_path=f"{source_id}.html",
+            content_hash=source_id * 64,
+            title=title,
+            country="United States",
+            country_code="USA",
+            source_metadata={"traffic_incident": True},
+        )
+        return split_mentions(source, [make_evidence(source_id, title, source_id)])[0]
+
+    left = report("a", "School bus overturned near canyon")
+    right = report("b", "Truck collided with sedan outside courthouse")
+    features = score_pair(left, right, Settings())
+
+    assert left.locations[0].granularity == "country"
+    assert right.locations[0].granularity == "country"
+    assert features.location_score == 0
 
 
 def test_unmapped_reports_from_different_countries_trigger_hard_guard() -> None:

@@ -577,6 +577,24 @@ cp corpus/global-v1/reports/coverage.geojson outputs/global-v1/coverage.geojson
 mgeoai serve --data-dir outputs/global-v1 --host 127.0.0.1 --port 8000
 ```
 
+### How the global map location is derived
+
+MGeoAI first extracts place wording from each source block and keeps the block's HTML
+selector or JSON path. Normalization compares that wording with the checked-in offline
+gazetteer and creates a location candidate containing its source evidence IDs,
+administrative hierarchy, WGS 84 representative coordinate, granularity, confidence,
+and uncertainty explanation. Matching compares only source-named candidates. Fusion
+then chooses a supported candidate, preserves alternatives, and writes GeoJSON as
+`[longitude, latitude]`.
+
+If no source-named place can be resolved, `global-v1` still shows the record at a
+low-confidence amber collection-country marker. The detail panel and legend label this
+as `collection_country_fallback`: it comes from corpus collection metadata, is not the
+reported crash location, is ignored during incident matching, and should be queued for
+gazetteer expansion or reviewer correction. A red marker is a source-named
+representative place; it may still be an intersection, road segment, or area centroid
+rather than an exact crash point.
+
 Open `http://127.0.0.1:8000` and choose **Global coverage**. These markers use
 country centroids to show publisher/source representation. They are not crash
 locations. The Overview map only displays incident locations supported by

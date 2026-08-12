@@ -111,6 +111,32 @@ def test_geojson_uses_longitude_latitude_order() -> None:
     assert feature is not None
     assert feature["geometry"]["coordinates"] == [90.4, 23.8]
     assert feature["properties"]["granularity"] == "city"
+    assert feature["properties"]["is_incident_location"] is True
+
+
+def test_recorded_fusion_marks_country_fallback_as_non_incident_location() -> None:
+    payload = bundle()
+    fallback = LocationCandidate(
+        name="Australia — collection-country fallback; incident place unresolved",
+        normalized_name="australia — collection-country fallback; incident place unresolved",
+        hierarchy={"collection_country": "Australia", "collection_country_code": "AUS"},
+        latitude=-25.2744,
+        longitude=133.7751,
+        granularity="country",
+        confidence=0.12,
+        reason="Collection-country metadata fallback only; not a crash coordinate.",
+    )
+    for mention in payload["mentions"]:
+        mention["locations"] = [fallback.model_dump(mode="json")]
+
+    incident = RecordedFusionProvider().fuse("fallback-cluster", payload)
+    feature = incident_to_geojson(incident)
+
+    assert incident.geolocation.method == "collection_country_fallback"
+    assert incident.geolocation.confidence <= 0.2
+    assert feature is not None
+    assert feature["properties"]["is_incident_location"] is False
+    assert feature["properties"]["method"] == "collection_country_fallback"
 
 
 def test_renderer_is_deterministic_and_cites_evidence() -> None:

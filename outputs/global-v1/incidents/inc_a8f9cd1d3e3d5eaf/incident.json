@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2019-10-18T13:37:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2019-10-17T13:37:00",
+    "timezone": "Asia/Manila"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_1524c63bfde70439",
+    "ev_16dc497d0a83cef3",
+    "ev_4e1d13eb6b443b79",
+    "ev_5e39eb0b16da4c7d",
+    "ev_6b86f9ea512e20fa",
+    "ev_7c06455727fdfa2c",
+    "ev_a5f96f8065f6bc04",
+    "ev_d5675d69f84fb90d",
+    "ev_d5c77d71b4cb7ab5",
+    "ev_f1fe4241f60bf071"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2019-10-17T13:37:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Philippines — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:PHL",
+      "collection_country": "Philippines",
+      "collection_country_code": "PHL"
+    },
+    "latitude": 12.8797,
+    "longitude": 121.774,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Philippines' Duterte 'in Good Hands' after Motorcycle Accident. The reported date is October 17, 2019, retained at day precision. Reports identify the location as Philippines — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include motorcycle. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_1524c63bfde70439] [ev_16dc497d0a83cef3] [ev_4e1d13eb6b443b79].",
+  "incident_id": "inc_a8f9cd1d3e3d5eaf",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_d1e694f0dd52c5cf",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_0d7dda1bfcd61f1f",
+    "src_a4b97616f427710f"
+  ],
+  "status": "reported",
+  "title": "Philippines' Duterte 'in Good Hands' after Motorcycle Accident",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "motorcycle"
+  ]
+}

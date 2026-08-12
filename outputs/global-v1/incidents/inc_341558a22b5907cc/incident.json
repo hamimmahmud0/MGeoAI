@@ -1,0 +1,106 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2024-10-23T17:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2024-10-22T17:00:00",
+    "timezone": "Africa/Tunis"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_0e3a975048cf177d",
+    "ev_250230633a50f3b9",
+    "ev_680d3aa8bdaa4fa7",
+    "ev_87922a62c1a67d52",
+    "ev_a23352bb875ffd23"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_0e3a975048cf177d",
+        "ev_250230633a50f3b9",
+        "ev_680d3aa8bdaa4fa7",
+        "ev_87922a62c1a67d52",
+        "ev_a23352bb875ffd23"
+      ],
+      "value": 6
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_0e3a975048cf177d",
+        "ev_250230633a50f3b9",
+        "ev_680d3aa8bdaa4fa7",
+        "ev_87922a62c1a67d52",
+        "ev_a23352bb875ffd23"
+      ],
+      "value": 3
+    }
+  ],
+  "generated_at": "2024-10-22T17:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Tunisia — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:TUN",
+      "collection_country": "Tunisia",
+      "collection_country_code": "TUN"
+    },
+    "latitude": 33.8869,
+    "longitude": 9.5375,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Six Killed, Three Injured In Truck-Car Collision In Tunisia. The reported date is October 22, 2024, retained at day precision. Reports identify the location as Tunisia — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 6 reported fatalities and 3 reported injuries. Identified vehicles or road users include car, truck. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_0e3a975048cf177d] [ev_250230633a50f3b9] [ev_680d3aa8bdaa4fa7].",
+  "incident_id": "inc_341558a22b5907cc",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_33114faf02cbfca9",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_83c667e57f088e42"
+  ],
+  "status": "reported",
+  "title": "Six Killed, Three Injured In Truck-Car Collision In Tunisia",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "car",
+    "truck"
+  ]
+}

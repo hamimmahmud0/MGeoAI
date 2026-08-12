@@ -1,0 +1,97 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-06-02T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-06-01T07:00:00",
+    "timezone": "America/Santiago"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_19afa2c4f3b9f393",
+    "ev_261821cb9308dea1",
+    "ev_27eb93bcd10aef2f",
+    "ev_75d4e5a3ac5684ca",
+    "ev_7fd4100c4a75aa12",
+    "ev_99e7acd2ab7f1ac4",
+    "ev_b59c57a34f228a60",
+    "ev_eeb9064c3a0e27d7",
+    "ev_fcc9c72179192a64",
+    "ev_fd939abd168df20f"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-06-01T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Chile — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:CHL",
+      "collection_country": "Chile",
+      "collection_country_code": "CHL"
+    },
+    "latitude": -35.6751,
+    "longitude": -71.543,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: URGENTE: Futbolista de Universidad de Chile protagoniza accidente de tránsito. The reported date is June 1, 2026, retained at day precision. Reports identify the location as Chile — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_19afa2c4f3b9f393] [ev_261821cb9308dea1] [ev_27eb93bcd10aef2f].",
+  "incident_id": "inc_0d63efdea6ea120d",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_eadf075ecc4535bf",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_e392b8507963e16b",
+    "src_fbed4bcefd7ea90e"
+  ],
+  "status": "reported",
+  "title": "URGENTE: Futbolista de Universidad de Chile protagoniza accidente de tránsito",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

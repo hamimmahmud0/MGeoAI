@@ -23,6 +23,8 @@ def incident_to_geojson(incident: FusedIncident) -> dict[str, Any] | None:
             else None,
             "location_name": geo.display_name,
             "granularity": geo.granularity,
+            "method": geo.method,
+            "is_incident_location": geo.method != "collection_country_fallback",
             "confidence": geo.confidence,
             "uncertainty_radius_km": geo.uncertainty_radius_km,
             "source_count": incident.independent_source_count,

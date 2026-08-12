@@ -1,0 +1,106 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-12T10:03:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-11T10:03:00",
+    "timezone": "Africa/Cairo"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_49477eb97bcc8d18",
+    "ev_4a0c16775cba653e",
+    "ev_9cebc0ef83f98334",
+    "ev_9d07602f8ff000f5",
+    "ev_bcce33256f10974c"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_49477eb97bcc8d18",
+        "ev_4a0c16775cba653e",
+        "ev_9cebc0ef83f98334",
+        "ev_9d07602f8ff000f5",
+        "ev_bcce33256f10974c"
+      ],
+      "value": 15
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_49477eb97bcc8d18",
+        "ev_4a0c16775cba653e",
+        "ev_9cebc0ef83f98334",
+        "ev_9d07602f8ff000f5",
+        "ev_bcce33256f10974c"
+      ],
+      "value": 32
+    }
+  ],
+  "generated_at": "2026-08-11T10:03:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Egypt — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:EGY",
+      "collection_country": "Egypt",
+      "collection_country_code": "EGY"
+    },
+    "latitude": 26.8206,
+    "longitude": 30.8025,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: 15 killed, 32 injured as workers’ pickup truck overturns in Egypt. The reported date is August 11, 2026, retained at day precision. Reports identify the location as Egypt — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 15 reported fatalities and 32 reported injuries. Identified vehicles or road users include car, truck. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_49477eb97bcc8d18] [ev_4a0c16775cba653e] [ev_9cebc0ef83f98334].",
+  "incident_id": "inc_abe446a31e7d529d",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_59070533bb73fb39",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_9d19b33e64bbf1d4"
+  ],
+  "status": "reported",
+  "title": "15 killed, 32 injured as workers’ pickup truck overturns in Egypt",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "car",
+    "truck"
+  ]
+}

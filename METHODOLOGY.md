@@ -426,7 +426,7 @@ method, alternatives, supporting evidence, confidence, ambiguity reason, and an
 uncertainty radius.
 
 Permitted granularities are point, intersection, road segment, area, city, district,
-and unknown. Coordinates for a road, area, city, or district normally represent a
+country, and unknown. Coordinates for a road, area, city, or district normally represent a
 reported-place centroid, not a crash point. The implementation assigns default
 uncertainty radii of 0.75 km for an intersection, 1 km for a road segment, 3 km for
 an area, 12 km for a city, and 35 km for a district when no radius is supplied. These
@@ -441,7 +441,23 @@ result must not replace the incident location merely because it yields convenien
 coordinates. Road links and region boundaries are contextual aids; they do not
 increase the precision of the source claim.
 
-The bundled place anchors are not a complete global gazetteer. A 51-country analysis
+The implemented derivation path is: parsed source block; evidence item with its exact
+selector or JSON path; normalized place mention; specificity-ranked offline-gazetteer
+candidate; source-local incident mention; cluster reconciliation; fused geolocation;
+and GeoJSON in `[longitude, latitude]` order. A candidate carries the supporting
+evidence IDs, display hierarchy, granularity, confidence, representative coordinate,
+and reason. Fusion may select only coordinates supplied by those candidates and
+prefers a source-named candidate over a country fallback.
+
+For the 51-country seed corpus, a source whose place name is not yet in the offline
+gazetteer receives a low-confidence `country` marker derived from collection metadata.
+Its method is `collection_country_fallback`, its evidence list is empty, and both the
+record and map state that it is not a reported crash location. Matching ignores this
+marker, so it cannot make unrelated reports look co-located. This rule makes unresolved
+records visible for review; it does not constitute incident-country inference or
+successful place geocoding.
+
+The bundled source-named place anchors are not a complete global gazetteer. A 51-country analysis
 requires versioned country-specific gazetteers or a documented external geocoder,
 multilingual aliases, administrative-boundary dates, and human review of ambiguous
 cases. For evaluation, use a reference point only where reviewers can establish one;

@@ -1,0 +1,100 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-07T04:55:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-06T04:55:00",
+    "timezone": "Asia/Singapore"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_114f7ef9951a05a1",
+    "ev_17526dcc3a4b8d35",
+    "ev_43e1ea4895bd1fbe",
+    "ev_4d86bd2a78a33518",
+    "ev_678381eabc8058c8",
+    "ev_6b23e6d53b26af52",
+    "ev_6c5f364d6441feb4",
+    "ev_98a5f354ef39aa15",
+    "ev_b1b8eedfb20ee427",
+    "ev_eb02faaf193f3c50"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-08-06T04:55:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Singapore — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:SGP",
+      "collection_country": "Singapore",
+      "collection_country_code": "SGP"
+    },
+    "latitude": 1.3521,
+    "longitude": 103.8198,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: 25-year-old woman injured after car crashes into pedestrian walkway in Orchard Road. The reported date is August 6, 2026, retained at day precision. Reports identify the location as Singapore — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include bus, car. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_114f7ef9951a05a1] [ev_17526dcc3a4b8d35] [ev_43e1ea4895bd1fbe].",
+  "incident_id": "inc_bd7e55c9b89fc4c4",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_e7d594aec3ea0fea",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_164914a1e9bd5679",
+    "src_be9f7b3439e776b8"
+  ],
+  "status": "reported",
+  "title": "25-year-old woman injured after car crashes into pedestrian walkway in Orchard Road",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus",
+    "car"
+  ]
+}

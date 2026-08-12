@@ -1,0 +1,96 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-05-16T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-05-15T07:00:00",
+    "timezone": "Europe/Berlin"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_11cf18b9c43af8b6",
+    "ev_20646e6c4ed9253d",
+    "ev_4a5a7ce52fda6b87",
+    "ev_4e127ceeb63e17db",
+    "ev_757dc09c441fad1d",
+    "ev_8181d52d0f462536",
+    "ev_87c35ebdc0c31940",
+    "ev_9b4bb6db4e837d49",
+    "ev_eecedae35697994a"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-05-15T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Germany — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:DEU",
+      "collection_country": "Germany",
+      "collection_country_code": "DEU"
+    },
+    "latitude": 51.1657,
+    "longitude": 10.4515,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Zu schnell: Autounfall in Kärnten forderte vier Verletzte. The reported date is May 15, 2026, retained at day precision. Reports identify the location as Germany — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 9 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_11cf18b9c43af8b6] [ev_20646e6c4ed9253d] [ev_4a5a7ce52fda6b87].",
+  "incident_id": "inc_36b56431143075ad",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_52d6cd788a1a5a16",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_47c5e5d812d5ebc0",
+    "src_559841626e90a8b3"
+  ],
+  "status": "reported",
+  "title": "Zu schnell: Autounfall in Kärnten forderte vier Verletzte",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

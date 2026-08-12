@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-07-21T04:53:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2025-07-20T04:53:00",
+    "timezone": "Asia/Dhaka"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_1db0fae162f723f5",
+    "ev_3ad2919b26e352e0",
+    "ev_5fe3a8f3df8f702f",
+    "ev_9358f19e65b5489d",
+    "ev_b8a4bd2ad3b84477",
+    "ev_cad500b6b4a9987d",
+    "ev_e633e7fa60ab3519",
+    "ev_f535d59c9893f5c8",
+    "ev_fa498ac414a58fa1",
+    "ev_fc903b5f67bff87b"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2025-07-20T04:53:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Bangladesh — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:BGD",
+      "collection_country": "Bangladesh",
+      "collection_country_code": "BGD"
+    },
+    "latitude": 23.685,
+    "longitude": 90.3563,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Bangladesh’s most expensive car crash: Rolls-Royce smashes into a divider. The reported date is July 20, 2025, retained at day precision. Reports identify the location as Bangladesh — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include car. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_1db0fae162f723f5] [ev_3ad2919b26e352e0] [ev_5fe3a8f3df8f702f].",
+  "incident_id": "inc_c1b4b4da11cfc4df",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_18098eb188f64c00",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_082d957e2d36112d",
+    "src_d4f52b292ed41fdc"
+  ],
+  "status": "reported",
+  "title": "Bangladesh’s most expensive car crash: Rolls-Royce smashes into a divider",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "car"
+  ]
+}

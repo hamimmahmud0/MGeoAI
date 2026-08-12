@@ -1,0 +1,91 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-10T00:44:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-09T00:44:00",
+    "timezone": "America/Lima"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_0e8f11af8f2172c8",
+    "ev_853b0abf1bba0bc6",
+    "ev_b69ee0ebafaa8772",
+    "ev_b9d16b3d62cc73b4",
+    "ev_fc5d2548df9ca38e"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-08-09T00:44:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Peru — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:PER",
+      "collection_country": "Peru",
+      "collection_country_code": "PER"
+    },
+    "latitude": -9.19,
+    "longitude": -75.0152,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Al menos 13 muertos y cuatro heridos en accidente de tránsito registrado en Perú. The reported date is August 9, 2026, retained at day precision. Reports identify the location as Peru — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_0e8f11af8f2172c8] [ev_853b0abf1bba0bc6] [ev_b69ee0ebafaa8772].",
+  "incident_id": "inc_f20417ef77023608",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_c764bcf154159a2f",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_74d241692c753de1"
+  ],
+  "status": "reported",
+  "title": "Al menos 13 muertos y cuatro heridos en accidente de tránsito registrado en Perú",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

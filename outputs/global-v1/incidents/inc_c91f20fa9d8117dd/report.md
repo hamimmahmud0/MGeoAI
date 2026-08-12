@@ -1,0 +1,43 @@
+# Two tourists killed as motorcycle plunges into ditch in Bandarban
+
+> Evidence-fusion output. This record does not independently verify the incident.
+
+## Summary
+
+The fused record concerns this reported incident: Two tourists killed as motorcycle plunges into ditch in Bandarban. The reported date is July 31, 2026, retained at day precision. Reports identify the location as Bangladesh — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include motorcycle. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_18e6fd4eb903e517] [ev_3650656cdb6250ab] [ev_461de8a6f539ae5e].
+
+## Time and location
+
+- Time: 2026-07-31T05:12:00
+- Location: Bangladesh — collection-country fallback; incident place unresolved
+- Precision: country; confidence 0.12
+- Method: collection_country_fallback
+- Location caveat: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.
+
+## Incident facts
+
+- **Fatalities:** not reported (confidence 0.00)
+- **Injuries:** not reported (confidence 0.00)
+
+## Traffic impact
+
+Not reported.
+
+## Sentiment
+
+No visible traffic-related sentiment was supplied.
+
+
+## Sources and provenance
+
+- Independent source groups: 1
+- Source IDs: src_499b8806a4a246c6
+- Evidence IDs: ev_18e6fd4eb903e517, ev_3650656cdb6250ab, ev_461de8a6f539ae5e, ev_5d0f6803aeb2c9fd, ev_6a8e3e8ed5b890fa
+
+## Unresolved questions
+
+- Exact crash geometry remains unverified.
+
+## Data-quality warnings
+
+- RECORDED DEMO: this record was not fused by a live model.

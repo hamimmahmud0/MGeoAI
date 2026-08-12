@@ -81,7 +81,10 @@ Source name: Example España
     assert parsed.source.source_metadata["source_info_path"] == "html/es/SOURCE_INFO.md"
     assert not Path(parsed.source.source_metadata["source_info_path"]).is_absolute()
     assert evidence
-    assert mentions and mentions[0].locations == []
+    assert mentions and mentions[0].locations
+    assert mentions[0].locations[0].granularity == "country"
+    assert mentions[0].locations[0].hierarchy["collection_country_code"] == "ESP"
+    assert "not a reported incident location" in (mentions[0].locations[0].reason or "")
 
 
 def test_source_info_custom_multilingual_keywords_enable_detection(tmp_path: Path) -> None:

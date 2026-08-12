@@ -1,0 +1,91 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-12T09:35:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-11T09:35:00",
+    "timezone": "Europe/Dublin"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_767c08ba916edecd",
+    "ev_7bca854453421713",
+    "ev_974911c8e36a7f58",
+    "ev_b5c174e8fb58800f",
+    "ev_c88d52b4a611b516"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-08-11T09:35:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Ireland — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:IRL",
+      "collection_country": "Ireland",
+      "collection_country_code": "IRL"
+    },
+    "latitude": 53.1424,
+    "longitude": -7.6921,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Woman aged in her 80s pronounced dead following road traffic collision in Kildare. The reported date is August 11, 2026, retained at day precision. Reports identify the location as Ireland — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_767c08ba916edecd] [ev_7bca854453421713] [ev_974911c8e36a7f58].",
+  "incident_id": "inc_4b9e94fcbbe3ac86",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_646df8fc2a1458b1",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_3b347abdaaf775d3"
+  ],
+  "status": "reported",
+  "title": "Woman aged in her 80s pronounced dead following road traffic collision in Kildare",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

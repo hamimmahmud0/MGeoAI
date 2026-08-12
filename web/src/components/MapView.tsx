@@ -49,9 +49,9 @@ export function MapView({ data, selectedId, onSelect, onBounds, theme, className
       map.addLayer({ id: 'clusters', type: 'circle', source: sourceId, filter: ['has', 'point_count'], paint: { 'circle-color': '#1f5eff', 'circle-radius': ['step', ['get', 'point_count'], 17, 10, 21, 50, 26], 'circle-stroke-color': '#ffffff', 'circle-stroke-width': 2 } })
       map.addLayer({ id: 'cluster-count', type: 'symbol', source: sourceId, filter: ['has', 'point_count'], layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-size': 12 }, paint: { 'text-color': '#ffffff' } })
       map.addLayer({ id: 'unclustered', type: 'circle', source: sourceId, filter: ['!', ['has', 'point_count']], paint: {
-        'circle-color': ['case', ['==', ['get', 'incident_id'], selectedIdRef.current || ''], '#172033', '#e5484d'],
-        'circle-radius': ['case', ['==', ['get', 'granularity'], 'area'], 9, 7],
-        'circle-opacity': ['case', ['==', ['get', 'granularity'], 'area'], 0.72, 0.95],
+        'circle-color': ['case', ['==', ['get', 'incident_id'], selectedIdRef.current || ''], '#172033', ['==', ['get', 'is_incident_location'], false], '#d58a12', '#e5484d'],
+        'circle-radius': ['case', ['==', ['get', 'is_incident_location'], false], 6, ['==', ['get', 'granularity'], 'area'], 9, 7],
+        'circle-opacity': ['case', ['==', ['get', 'is_incident_location'], false], 0.72, ['==', ['get', 'granularity'], 'area'], 0.72, 0.95],
         'circle-stroke-color': '#ffffff', 'circle-stroke-width': 2,
       } })
     })
@@ -93,7 +93,7 @@ export function MapView({ data, selectedId, onSelect, onBounds, theme, className
   useEffect(() => {
     const map = mapRef.current
     if (!map?.getLayer('unclustered')) return
-    map.setPaintProperty('unclustered', 'circle-color', ['case', ['==', ['get', 'incident_id'], selectedId || ''], '#172033', '#e5484d'])
+    map.setPaintProperty('unclustered', 'circle-color', ['case', ['==', ['get', 'incident_id'], selectedId || ''], '#172033', ['==', ['get', 'is_incident_location'], false], '#d58a12', '#e5484d'])
     if (selectedId) {
       const feature = data.features.find((item) => item.properties?.incident_id === selectedId)
       if (feature) map.easeTo({ center: feature.geometry.coordinates, zoom: Math.max(map.getZoom(), 10), duration: 500 })

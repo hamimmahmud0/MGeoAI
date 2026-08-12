@@ -1,0 +1,93 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-03T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-02T07:00:00",
+    "timezone": "Europe/Rome"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_4cefad5c4602f1f1",
+    "ev_60b170442f292c0f",
+    "ev_87d372c071bfa0c1",
+    "ev_9c979032897e0106",
+    "ev_f19860da11ef60a5"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-08-02T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Italy — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:ITA",
+      "collection_country": "Italy",
+      "collection_country_code": "ITA"
+    },
+    "latitude": 41.8719,
+    "longitude": 12.5674,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Un gravissimo incidente stradale sulla Statale 79 Ternana, nel tratto che collega Rieti e Terni. Secondo le prime ricostruzioni, un camper che viaggiava in direzione Umbria avrebbe improvvisamente invaso la corsia opposta, centrando in pieno un autobus nav. The reported date is August 2, 2026, retained at day precision. Reports identify the location as Italy — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_4cefad5c4602f1f1] [ev_60b170442f292c0f] [ev_87d372c071bfa0c1].",
+  "incident_id": "inc_1786d49af70e2454",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_4778ca365948efba",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_3ef7e3c7af3247e1"
+  ],
+  "status": "reported",
+  "title": "Un gravissimo incidente stradale sulla Statale 79 Ternana, nel tratto che collega Rieti e Terni. Secondo le prime ricostruzioni, un camper che viaggiava in direzione Umbria avrebbe improvvisamente invaso la corsia opposta, centrando in pieno un autobus nav",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

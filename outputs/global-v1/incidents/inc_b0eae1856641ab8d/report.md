@@ -11,7 +11,7 @@ The fused record concerns this reported incident: Passenger-bus collision in Osm
 - Time: 2026-08-07T08:02:00
 - Location: Kashikapan, Osmaninagar, Sylhet
 - Precision: area; confidence 0.88
-- Method: local_gazetteer_centroid
+- Method: source_named_offline_gazetteer_centroid
 - Location caveat: Coordinates represent a named-area centroid, not the exact crash point.
 
 ## Incident facts

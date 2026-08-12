@@ -26,6 +26,7 @@
             "area",
             "city",
             "district",
+            "country",
             "unknown"
           ],
           "title": "Granularity",

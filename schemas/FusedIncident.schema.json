@@ -109,6 +109,7 @@
             "area",
             "city",
             "district",
+            "country",
             "unknown"
           ],
           "title": "Granularity",
@@ -199,6 +200,7 @@
             "area",
             "city",
             "district",
+            "country",
             "unknown"
           ],
           "title": "Granularity",

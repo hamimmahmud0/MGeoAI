@@ -1,0 +1,91 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-07-13T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-07-12T07:00:00",
+    "timezone": "America/Mexico_City"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_7ff2978122c02854",
+    "ev_ab8b6939fb23e3fb",
+    "ev_bae7b56b3bcbad43",
+    "ev_c97c8d24f5613b86",
+    "ev_ed4ac1e5d1dea7aa"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-07-12T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Mexico — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:MEX",
+      "collection_country": "Mexico",
+      "collection_country_code": "MEX"
+    },
+    "latitude": 23.6345,
+    "longitude": -102.5528,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Accidente de tránsito en el occidente de México deja 9 fallecidos y 10 heridos, cuatro de ellos estadounidenses. The reported date is July 12, 2026, retained at day precision. Reports identify the location as Mexico — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_7ff2978122c02854] [ev_ab8b6939fb23e3fb] [ev_bae7b56b3bcbad43].",
+  "incident_id": "inc_f4e85bd72023b0e3",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_e930e93f40c5128b",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_c5d6520968135f2f"
+  ],
+  "status": "reported",
+  "title": "Accidente de tránsito en el occidente de México deja 9 fallecidos y 10 heridos, cuatro de ellos estadounidenses",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

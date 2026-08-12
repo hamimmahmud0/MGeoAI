@@ -1,0 +1,93 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-06-02T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-06-01T07:00:00",
+    "timezone": "Europe/Brussels"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_5c82be9bd78f40d5",
+    "ev_63a6cf4b89c2c408",
+    "ev_7158f1afe17f2c3d",
+    "ev_974ec6b1ccd7756d",
+    "ev_ba779463e0eee3c0"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-06-01T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Belgium — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:BEL",
+      "collection_country": "Belgium",
+      "collection_country_code": "BEL"
+    },
+    "latitude": 50.5039,
+    "longitude": 4.4699,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Provinciebestuur vroeg al voor het dodelijk ongeval in Buggenhout om chauffeur van de rit te halen. The reported date is June 1, 2026, retained at day precision. Reports identify the location as Belgium — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_5c82be9bd78f40d5] [ev_63a6cf4b89c2c408] [ev_7158f1afe17f2c3d].",
+  "incident_id": "inc_a3dc55b133f12b67",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_aa25522b7e4ac269",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_189517d5914f55d5"
+  ],
+  "status": "reported",
+  "title": "Provinciebestuur vroeg al voor het dodelijk ongeval in Buggenhout om chauffeur van de rit te halen",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

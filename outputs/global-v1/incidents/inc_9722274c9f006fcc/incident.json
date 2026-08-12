@@ -1,0 +1,116 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-05-03T11:49:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2025-05-02T11:49:00",
+    "timezone": "Asia/Manila"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_28ce0a7192ce3bd4",
+    "ev_39e8aa0bc9dd510c",
+    "ev_418905a961e7c3fc",
+    "ev_56301223efcd0a02",
+    "ev_8894ff5d30e94e8e",
+    "ev_8adffae610895a2a",
+    "ev_94c374f30c5b985a",
+    "ev_968c25d64391b65b",
+    "ev_c1ac45fd9277d5b6",
+    "ev_e2dbe4b22ee45cd6"
+  ],
+  "facts": [
+    {
+      "confidence": 0.7100000000000001,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_28ce0a7192ce3bd4",
+        "ev_39e8aa0bc9dd510c",
+        "ev_418905a961e7c3fc",
+        "ev_56301223efcd0a02",
+        "ev_8894ff5d30e94e8e",
+        "ev_8adffae610895a2a",
+        "ev_94c374f30c5b985a",
+        "ev_968c25d64391b65b",
+        "ev_c1ac45fd9277d5b6",
+        "ev_e2dbe4b22ee45cd6"
+      ],
+      "value": 10
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_28ce0a7192ce3bd4",
+        "ev_39e8aa0bc9dd510c",
+        "ev_418905a961e7c3fc",
+        "ev_8894ff5d30e94e8e",
+        "ev_8adffae610895a2a"
+      ],
+      "value": 30
+    }
+  ],
+  "generated_at": "2025-05-02T11:49:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Philippines — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:PHL",
+      "collection_country": "Philippines",
+      "collection_country_code": "PHL"
+    },
+    "latitude": 12.8797,
+    "longitude": 121.774,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: At least 10 killed, dozens injured in Philippines road crash. The reported date is May 2, 2025, retained at day precision. Reports identify the location as Philippines — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records 10 reported fatalities and 30 reported injuries. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_28ce0a7192ce3bd4] [ev_39e8aa0bc9dd510c] [ev_418905a961e7c3fc].",
+  "incident_id": "inc_9722274c9f006fcc",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_8922c8bb027023a4",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_4345af2b1dac7517",
+    "src_7498cee2e1533346"
+  ],
+  "status": "reported",
+  "title": "At least 10 killed, dozens injured in Philippines road crash",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

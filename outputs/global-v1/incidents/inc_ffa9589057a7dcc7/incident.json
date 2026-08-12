@@ -1,0 +1,105 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-10-01T08:33:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2025-09-30T08:33:00",
+    "timezone": "Asia/Tokyo"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_1149a0bf00c5567e",
+    "ev_576177bf2220c614",
+    "ev_5b52de99b0ff9bb2",
+    "ev_6ef062230e36eae3",
+    "ev_77df7e5326a4b4da"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_1149a0bf00c5567e",
+        "ev_576177bf2220c614",
+        "ev_5b52de99b0ff9bb2",
+        "ev_6ef062230e36eae3",
+        "ev_77df7e5326a4b4da"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_1149a0bf00c5567e",
+        "ev_576177bf2220c614",
+        "ev_5b52de99b0ff9bb2",
+        "ev_6ef062230e36eae3",
+        "ev_77df7e5326a4b4da"
+      ],
+      "value": 10
+    }
+  ],
+  "generated_at": "2025-09-30T08:33:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Japan — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:JPN",
+      "collection_country": "Japan",
+      "collection_country_code": "JPN"
+    },
+    "latitude": 36.2048,
+    "longitude": 138.2529,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: 1 dead and 10 injured after kindergarten bus crashes into house in Japan. The reported date is September 30, 2025, retained at day precision. Reports identify the location as Japan — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 1 reported fatality and 10 reported injuries. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_1149a0bf00c5567e] [ev_576177bf2220c614] [ev_5b52de99b0ff9bb2].",
+  "incident_id": "inc_ffa9589057a7dcc7",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_983f864353f0179c",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_989a21d8712b8681"
+  ],
+  "status": "reported",
+  "title": "1 dead and 10 injured after kindergarten bus crashes into house in Japan",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

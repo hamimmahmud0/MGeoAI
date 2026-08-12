@@ -31,9 +31,18 @@ def score_pair(left: IncidentMention, right: IncidentMention, settings: Settings
             and left.relation_type == right.relation_type == "primary"
         ):
             hard_guard = f"event dates differ by {days:.1f} days"
-    left_locations = {item.hierarchy.get("anchor", item.normalized_name) for item in left.locations}
+    # Country fallback markers exist only to keep unresolved records visible on
+    # the map. They are not incident-location evidence and must never create a
+    # matching edge between otherwise unrelated reports from the same country.
+    left_locations = {
+        item.hierarchy.get("anchor", item.normalized_name)
+        for item in left.locations
+        if item.granularity != "country"
+    }
     right_locations = {
-        item.hierarchy.get("anchor", item.normalized_name) for item in right.locations
+        item.hierarchy.get("anchor", item.normalized_name)
+        for item in right.locations
+        if item.granularity != "country"
     }
     location_score = _jaccard(left_locations, right_locations)
     if left_locations and right_locations and not left_locations & right_locations:

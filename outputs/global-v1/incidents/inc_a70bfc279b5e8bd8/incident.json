@@ -1,0 +1,105 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-11-16T04:28:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2025-11-15T04:28:00",
+    "timezone": "Asia/Seoul"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_023370ccd2f6c603",
+    "ev_0f1577c53001c4a0",
+    "ev_2c810c8fbd15feef",
+    "ev_716349b26fb89a8f",
+    "ev_9f9a958c927d6282",
+    "ev_a0d16a859d6c1404",
+    "ev_b03574f1dceef5f7",
+    "ev_dd01775a9d9e5ef1",
+    "ev_e62338afd73ca0ae",
+    "ev_ee29b9eb22fb817f"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_023370ccd2f6c603",
+        "ev_0f1577c53001c4a0",
+        "ev_b03574f1dceef5f7",
+        "ev_dd01775a9d9e5ef1",
+        "ev_ee29b9eb22fb817f"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2025-11-15T04:28:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "South Korea — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:KOR",
+      "collection_country": "South Korea",
+      "collection_country_code": "KOR"
+    },
+    "latitude": 35.9078,
+    "longitude": 127.7669,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: South Korea’s deadly Bucheon crash prompts calls for tougher rules for older drivers. The reported date is November 15, 2025, retained at day precision. Reports identify the location as South Korea — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records 1 reported fatality and injuries not reported. Identified vehicles or road users include truck. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_023370ccd2f6c603] [ev_0f1577c53001c4a0] [ev_2c810c8fbd15feef].",
+  "incident_id": "inc_a70bfc279b5e8bd8",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_1e9c822b269fd15f",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_4f596213d1903e99",
+    "src_80cd31c098d3b58d"
+  ],
+  "status": "reported",
+  "title": "South Korea’s deadly Bucheon crash prompts calls for tougher rules for older drivers",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "truck"
+  ]
+}

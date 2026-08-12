@@ -1,0 +1,94 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2022-11-04T23:40:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2022-11-03T23:40:00",
+    "timezone": "Asia/Ho_Chi_Minh"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_19951fa4f71bb6a8",
+    "ev_425a3efccb7d2927",
+    "ev_49c174d8551fa3fe",
+    "ev_7fdcda11be9e55b8",
+    "ev_bfd531fa57ada8c6"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2022-11-03T23:40:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Vietnam — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:VNM",
+      "collection_country": "Vietnam",
+      "collection_country_code": "VNM"
+    },
+    "latitude": 14.0583,
+    "longitude": 108.2772,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: 15 foreigners injured in road crash in northern Vietnam. The reported date is November 3, 2022, retained at day precision. Reports identify the location as Vietnam — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include bus, car. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_19951fa4f71bb6a8] [ev_425a3efccb7d2927] [ev_49c174d8551fa3fe].",
+  "incident_id": "inc_7d57b630fade0ee1",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_6ea959bdea9cb1c0",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_513fca1d82db70dc"
+  ],
+  "status": "reported",
+  "title": "15 foreigners injured in road crash in northern Vietnam",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus",
+    "car"
+  ]
+}

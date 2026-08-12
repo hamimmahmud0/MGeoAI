@@ -1,0 +1,93 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-04-01T11:17:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-03-31T11:17:00",
+    "timezone": "Pacific/Auckland"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_286c3c6f17571b73",
+    "ev_5a1b90f40d8aefbe",
+    "ev_bf7ef97eb4901ece",
+    "ev_eda25a97a26f708f",
+    "ev_f89f6dbdfecf34af"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-03-31T11:17:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "New Zealand — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:NZL",
+      "collection_country": "New Zealand",
+      "collection_country_code": "NZL"
+    },
+    "latitude": -40.9006,
+    "longitude": 174.886,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Two-car crash on Auckland’s Upper Harbour Motorway triggers delays, heavy congestion. The reported date is March 31, 2026, retained at day precision. Reports identify the location as New Zealand — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include car. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_286c3c6f17571b73] [ev_5a1b90f40d8aefbe] [ev_bf7ef97eb4901ece].",
+  "incident_id": "inc_99b6f47a17d5b6bc",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_05f2b55e112717b9",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_d094190d65fc2fbe"
+  ],
+  "status": "reported",
+  "title": "Two-car crash on Auckland’s Upper Harbour Motorway triggers delays, heavy congestion",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "car"
+  ]
+}

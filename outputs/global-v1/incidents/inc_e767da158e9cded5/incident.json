@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-06-25T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-06-24T07:00:00",
+    "timezone": "Africa/Nairobi"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_0ce3c8cb55045b52",
+    "ev_20acb9c554d0f260",
+    "ev_33a3866ec45766d9",
+    "ev_5847bb9107220f12",
+    "ev_dfc8827b67e1b7fe"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_0ce3c8cb55045b52",
+        "ev_20acb9c554d0f260",
+        "ev_33a3866ec45766d9",
+        "ev_5847bb9107220f12",
+        "ev_dfc8827b67e1b7fe"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-06-24T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Kenya — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:KEN",
+      "collection_country": "Kenya",
+      "collection_country_code": "KEN"
+    },
+    "latitude": -0.0236,
+    "longitude": 37.9062,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: One Killed in Mwingi Highway Crash Involving Ambasa Coach Bus. The reported date is June 24, 2026, retained at day precision. Reports identify the location as Kenya — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 1 reported fatality and injuries not reported. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_0ce3c8cb55045b52] [ev_20acb9c554d0f260] [ev_33a3866ec45766d9].",
+  "incident_id": "inc_e767da158e9cded5",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_fbd2033be5ef9e24",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_95376bf1e53d6396"
+  ],
+  "status": "reported",
+  "title": "One Killed in Mwingi Highway Crash Involving Ambasa Coach Bus",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

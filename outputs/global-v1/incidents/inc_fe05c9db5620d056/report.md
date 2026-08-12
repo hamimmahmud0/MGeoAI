@@ -11,7 +11,7 @@ The fused record concerns this reported incident: Bus crash involving labourers 
 - Time: 2026-08-07T18:31:00
 - Location: Bogura District, Bangladesh
 - Precision: district; confidence 0.55
-- Method: local_gazetteer_centroid
+- Method: source_named_offline_gazetteer_centroid
 - Location caveat: Coordinates represent a named-area centroid, not the exact crash point.
 
 ## Incident facts

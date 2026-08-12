@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-06-16T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-06-15T07:00:00",
+    "timezone": "America/Sao_Paulo"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_157dcecd78aaf04f",
+    "ev_2986e1d859d8a024",
+    "ev_5b2d20761669ea79",
+    "ev_5ff3f71a5960731f",
+    "ev_67c33d9e7d1b0873",
+    "ev_6df357eae98e92d5",
+    "ev_806900c2ff6a4812",
+    "ev_83a6e8f9123a417f",
+    "ev_ba2277103554de4d",
+    "ev_e9b432bb6ebd7684"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-06-15T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Brazil — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:BRA",
+      "collection_country": "Brazil",
+      "collection_country_code": "BRA"
+    },
+    "latitude": -14.235,
+    "longitude": -51.9253,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Sete membros de time de basquete morrem em acidente de ônibus no Ceará; dezenas ficam feridos. The reported date is June 15, 2026, retained at day precision. Reports identify the location as Brazil — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_157dcecd78aaf04f] [ev_2986e1d859d8a024] [ev_5b2d20761669ea79].",
+  "incident_id": "inc_a6e482a35e19252c",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_2b1a8f83859a64e3",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_724ebd059af4aa0e",
+    "src_8b6283ebd3c551f2"
+  ],
+  "status": "reported",
+  "title": "Sete membros de time de basquete morrem em acidente de ônibus no Ceará; dezenas ficam feridos",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

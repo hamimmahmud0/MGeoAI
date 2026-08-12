@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-04-07T07:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-04-06T07:00:00",
+    "timezone": "Africa/Johannesburg"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_1217daa8115c498f",
+    "ev_83006a0f0246f177",
+    "ev_90751788a6a0d2fe",
+    "ev_9ffc44c9605e6020",
+    "ev_defcde0246f1fab7"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_1217daa8115c498f",
+        "ev_83006a0f0246f177",
+        "ev_90751788a6a0d2fe",
+        "ev_9ffc44c9605e6020",
+        "ev_defcde0246f1fab7"
+      ],
+      "value": 7
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-04-06T07:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "South Africa — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:ZAF",
+      "collection_country": "South Africa",
+      "collection_country_code": "ZAF"
+    },
+    "latitude": -30.5595,
+    "longitude": 22.9375,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: 7 killed in road accident in South Africa's Eastern Cape. The reported date is April 6, 2026, retained at day precision. Reports identify the location as South Africa — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 7 reported fatalities and injuries not reported. Identified vehicles or road users include truck. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_1217daa8115c498f] [ev_83006a0f0246f177] [ev_90751788a6a0d2fe].",
+  "incident_id": "inc_6137d2fdffbb7ba5",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_8b33ff72e76212fe",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_3148ff8825963de1"
+  ],
+  "status": "reported",
+  "title": "7 killed in road accident in South Africa's Eastern Cape",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "truck"
+  ]
+}

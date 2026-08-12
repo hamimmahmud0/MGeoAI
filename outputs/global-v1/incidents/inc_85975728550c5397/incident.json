@@ -1,0 +1,103 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2024-02-22T01:13:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2024-02-21T01:13:00",
+    "timezone": "Africa/Tunis"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_02e6ce6885ade0a0",
+    "ev_967aaaf80f7fdc7f",
+    "ev_a9294ae195755ee8",
+    "ev_bccc219c26ec1502",
+    "ev_db7df588c5b22972"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_02e6ce6885ade0a0",
+        "ev_967aaaf80f7fdc7f",
+        "ev_a9294ae195755ee8",
+        "ev_bccc219c26ec1502",
+        "ev_db7df588c5b22972"
+      ],
+      "value": 8
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_02e6ce6885ade0a0",
+        "ev_967aaaf80f7fdc7f",
+        "ev_a9294ae195755ee8",
+        "ev_bccc219c26ec1502",
+        "ev_db7df588c5b22972"
+      ],
+      "value": 4
+    }
+  ],
+  "generated_at": "2024-02-21T01:13:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Tunisia — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:TUN",
+      "collection_country": "Tunisia",
+      "collection_country_code": "TUN"
+    },
+    "latitude": 33.8869,
+    "longitude": 9.5375,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: 8 killed, 4 injured in traffic accident in Tunisia. The reported date is February 21, 2024, retained at day precision. Reports identify the location as Tunisia — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 8 reported fatalities and 4 reported injuries. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_02e6ce6885ade0a0] [ev_967aaaf80f7fdc7f] [ev_a9294ae195755ee8].",
+  "incident_id": "inc_85975728550c5397",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_57bc8e691d459a8f",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_7b30771d2c256495"
+  ],
+  "status": "reported",
+  "title": "8 killed, 4 injured in traffic accident in Tunisia",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

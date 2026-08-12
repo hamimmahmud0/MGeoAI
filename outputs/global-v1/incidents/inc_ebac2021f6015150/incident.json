@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2010-11-21T06:04:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2010-11-20T06:04:00",
+    "timezone": "Africa/Cairo"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_017aaf2da61178ce",
+    "ev_194a1d53250ada00",
+    "ev_4fdbd989228c1179",
+    "ev_7297e7b7a9b92700",
+    "ev_df3a88cbf154f2b9"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_017aaf2da61178ce",
+        "ev_194a1d53250ada00",
+        "ev_4fdbd989228c1179",
+        "ev_7297e7b7a9b92700",
+        "ev_df3a88cbf154f2b9"
+      ],
+      "value": 22
+    }
+  ],
+  "generated_at": "2010-11-20T06:04:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Egypt — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:EGY",
+      "collection_country": "Egypt",
+      "collection_country_code": "EGY"
+    },
+    "latitude": 26.8206,
+    "longitude": 30.8025,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Egypt bus crash kills 8 tourists. The reported date is November 20, 2010, retained at day precision. Reports identify the location as Egypt — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and 22 reported injuries. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_017aaf2da61178ce] [ev_194a1d53250ada00] [ev_4fdbd989228c1179].",
+  "incident_id": "inc_ebac2021f6015150",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_47ceb53a01f512e5",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_b89b05b878eb1d00"
+  ],
+  "status": "reported",
+  "title": "Egypt bus crash kills 8 tourists",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

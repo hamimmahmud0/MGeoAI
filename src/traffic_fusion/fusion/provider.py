@@ -423,6 +423,10 @@ class DeepSeekProvider:
             if candidate.latitude is not None and candidate.longitude is not None
         ]
         if located:
+            source_named = [
+                candidate for candidate in located if candidate.granularity != "country"
+            ]
+            eligible = source_named or located
             output_name = (incident.geolocation.display_name or "").casefold()
 
             def candidate_rank(candidate: LocationCandidate) -> tuple[int, float]:
@@ -434,7 +438,8 @@ class DeepSeekProvider:
                 overlap = sum(token in output_name for token in tokens)
                 return overlap, candidate.confidence
 
-            selected = max(located, key=candidate_rank)
+            selected = max(eligible, key=candidate_rank)
+            is_country_fallback = selected.granularity == "country"
             incident.geolocation = Geolocation.model_validate(
                 {
                     **incident.geolocation.model_dump(mode="python"),
@@ -443,7 +448,11 @@ class DeepSeekProvider:
                     "latitude": selected.latitude,
                     "longitude": selected.longitude,
                     "granularity": selected.granularity,
-                    "method": "source-named local gazetteer centroid",
+                    "method": (
+                        "collection_country_fallback"
+                        if is_country_fallback
+                        else "source_named_offline_gazetteer_centroid"
+                    ),
                     "supporting_evidence_ids": selected.evidence_ids,
                     "confidence": min(incident.geolocation.confidence, selected.confidence),
                     "ambiguity_reason": selected.reason,

@@ -1,0 +1,95 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-12-29T19:19:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2025-12-28T19:19:00",
+    "timezone": "Australia/Sydney"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_05201bda8cb023ea"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2025-12-28T19:19:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Coordinates represent a named-area centroid, not the exact crash point.",
+    "confidence": 0.75,
+    "display_name": "Lane Cove Road, North Ryde, New South Wales",
+    "granularity": "road_segment",
+    "hierarchy": {
+      "anchor": "north_ryde",
+      "city": "Sydney",
+      "country": "Australia",
+      "locality": "North Ryde",
+      "road": "Lane Cove Road",
+      "state": "New South Wales"
+    },
+    "latitude": -33.78725,
+    "longitude": 151.124922,
+    "method": "source_named_offline_gazetteer_centroid",
+    "supporting_evidence_ids": [
+      "ev_05201bda8cb023ea"
+    ],
+    "uncertainty_radius_km": 1.0
+  },
+  "human_summary": "The fused record concerns this reported incident: Nine injured in northern Sydney as public bus crashes into medical centre at Ryde. The reported date is December 28, 2025, retained at day precision. Reports identify the location as Lane Cove Road, North Ryde, New South Wales; fusion retains it at road segment precision with 75% location confidence. The reconciled casualty assessment records fatalities not reported and injuries not reported. Identified vehicles or road users include bus, car. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 1 cited evidence item(s). Important location limitation: Coordinates represent a named-area centroid, not the exact crash point, with an approximate 1 km uncertainty radius. Representative decisive evidence: [ev_05201bda8cb023ea].",
+  "incident_id": "inc_546059e288b2b4be",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_9f4b0aa05eb45374",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_fd83d7f69eb5a9b4"
+  ],
+  "status": "reported",
+  "title": "Nine injured in northern Sydney as public bus crashes into medical centre at Ryde",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus",
+    "car"
+  ]
+}

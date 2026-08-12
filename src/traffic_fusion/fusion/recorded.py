@@ -149,6 +149,15 @@ class RecordedFusionProvider:
             "unmapped": "Reported traffic incident with unresolved location",
         }
         source_by_id = {source.source_id: source for source in sources}
+        source_title = next(
+            (
+                source_by_id[source_id].title
+                for source_id in source_ids
+                if source_id in source_by_id and source_by_id[source_id].title
+            ),
+            None,
+        )
+        title = title_names.get(anchor) or source_title or title_names["unmapped"]
         independent_keys = {
             source_by_id[source_id].dependency_group or source_id
             for source_id in source_ids
@@ -177,7 +186,7 @@ class RecordedFusionProvider:
                 )
             )
         human_summary = _informative_summary(
-            title=title_names.get(anchor, title_names["unmapped"]),
+            title=title,
             event_time=event_time,
             geolocation=geo,
             casualties=casualties,
@@ -197,7 +206,7 @@ class RecordedFusionProvider:
         )
         return FusedIncident(
             incident_id=stable_id("inc", *sorted(mention.mention_id for mention in mentions)),
-            title=title_names.get(anchor, title_names["unmapped"]),
+            title=title,
             event_type="road_crash",
             event_time=event_time,
             geolocation=geo,
@@ -249,15 +258,22 @@ def _fuse_time(mentions: list[IncidentMention]) -> TimeInterval:
 def _fuse_location(candidates: list[LocationCandidate]) -> Geolocation:
     if not candidates:
         return Geolocation(ambiguity_reason="No incident-location evidence survived normalization")
-    grouped = Counter(candidate.normalized_name for candidate in candidates)
+    source_named = [candidate for candidate in candidates if candidate.granularity != "country"]
+    eligible = source_named or candidates
+    grouped = Counter(candidate.normalized_name for candidate in eligible)
     selected_name, count = grouped.most_common(1)[0]
     selected = next(
-        candidate for candidate in candidates if candidate.normalized_name == selected_name
+        candidate for candidate in eligible if candidate.normalized_name == selected_name
     )
     alternatives = [
         candidate for candidate in candidates if candidate.normalized_name != selected_name
     ]
-    confidence = min(0.9, selected.confidence + 0.05 * (count - 1))
+    is_country_fallback = selected.granularity == "country"
+    confidence = (
+        min(0.2, selected.confidence + 0.02 * (count - 1))
+        if is_country_fallback
+        else min(0.9, selected.confidence + 0.05 * (count - 1))
+    )
     radius = {"district": 35.0, "city": 12.0, "area": 3.0, "road_segment": 1.0}.get(
         selected.granularity
     )
@@ -267,15 +283,24 @@ def _fuse_location(candidates: list[LocationCandidate]) -> Geolocation:
         latitude=selected.latitude,
         longitude=selected.longitude,
         granularity=selected.granularity,
-        method="local_gazetteer_centroid",
+        method=(
+            "collection_country_fallback"
+            if is_country_fallback
+            else "source_named_offline_gazetteer_centroid"
+        ),
         alternatives=alternatives,
         supporting_evidence_ids=sorted(
             {item for candidate in candidates for item in candidate.evidence_ids}
         ),
         confidence=confidence,
-        ambiguity_reason="Coordinates represent a named-area centroid, not the exact crash point."
-        if radius
-        else None,
+        ambiguity_reason=(
+            "Incident place unresolved. This marker represents only the source's "
+            "collection-country metadata and is not a reported crash location."
+            if is_country_fallback
+            else "Coordinates represent a named-area centroid, not the exact crash point."
+            if radius
+            else selected.reason
+        ),
         uncertainty_radius_km=radius,
     )
 

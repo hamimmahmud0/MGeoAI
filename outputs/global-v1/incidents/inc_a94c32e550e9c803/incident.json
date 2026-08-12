@@ -1,0 +1,110 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-03-06T08:00:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-03-05T08:00:00",
+    "timezone": "Africa/Nairobi"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_06b9aa21fc05f205",
+    "ev_12494cb0cc3f4e2b",
+    "ev_127e7017bf3c0f8f",
+    "ev_171bf26140eeb1ec",
+    "ev_86b27801d442f281",
+    "ev_92207e3c25796f5b",
+    "ev_93a79fc8601bb35f",
+    "ev_c8b579ae36c597b2",
+    "ev_d606252660a21556",
+    "ev_eee51d86e8d4496b"
+  ],
+  "facts": [
+    {
+      "confidence": 0.7100000000000001,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_06b9aa21fc05f205",
+        "ev_12494cb0cc3f4e2b",
+        "ev_127e7017bf3c0f8f",
+        "ev_171bf26140eeb1ec",
+        "ev_86b27801d442f281",
+        "ev_92207e3c25796f5b",
+        "ev_93a79fc8601bb35f",
+        "ev_c8b579ae36c597b2",
+        "ev_d606252660a21556",
+        "ev_eee51d86e8d4496b"
+      ],
+      "value": 6
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2026-03-05T08:00:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Kenya — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:KEN",
+      "collection_country": "Kenya",
+      "collection_country_code": "KEN"
+    },
+    "latitude": -0.0236,
+    "longitude": 37.9062,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Six Dead, Several Injured in Nairobi-Mombasa Highway Crash. The reported date is March 5, 2026, retained at day precision. Reports identify the location as Kenya — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records 6 reported fatalities and injuries not reported. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_06b9aa21fc05f205] [ev_12494cb0cc3f4e2b] [ev_127e7017bf3c0f8f].",
+  "incident_id": "inc_a94c32e550e9c803",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_4a5f57c07d1a36cc",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_48c08e2d87d2d612",
+    "src_64264a80c44a269a"
+  ],
+  "status": "reported",
+  "title": "Six Dead, Several Injured in Nairobi-Mombasa Highway Crash",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2025-05-06T04:43:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2025-05-05T04:43:00",
+    "timezone": "Africa/Casablanca"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_06130917922e851d",
+    "ev_3dfc4159821d3838",
+    "ev_5c419924765cc40c",
+    "ev_f56da18263073e1d",
+    "ev_f762383a43c2d97a"
+  ],
+  "facts": [
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_06130917922e851d",
+        "ev_3dfc4159821d3838",
+        "ev_5c419924765cc40c",
+        "ev_f56da18263073e1d",
+        "ev_f762383a43c2d97a"
+      ],
+      "value": 2
+    }
+  ],
+  "generated_at": "2025-05-05T04:43:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Morocco — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:MAR",
+      "collection_country": "Morocco",
+      "collection_country_code": "MAR"
+    },
+    "latitude": 31.7917,
+    "longitude": -7.0926,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Two Brit tourists dead & two others injured after car flips in Morocco horror crash. The reported date is May 5, 2025, retained at day precision. Reports identify the location as Morocco — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records fatalities not reported and 2 reported injuries. Identified vehicles or road users include car. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_06130917922e851d] [ev_3dfc4159821d3838] [ev_5c419924765cc40c].",
+  "incident_id": "inc_f69d5249e11fc73a",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_f2a96e47f18317e1",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_124d5feb58a81b72"
+  ],
+  "status": "reported",
+  "title": "Two Brit tourists dead & two others injured after car flips in Morocco horror crash",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "car"
+  ]
+}

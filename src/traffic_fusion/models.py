@@ -127,7 +127,14 @@ class LocationCandidate(StrictModel):
     latitude: float | None = None
     longitude: float | None = None
     granularity: Literal[
-        "point", "intersection", "road_segment", "area", "city", "district", "unknown"
+        "point",
+        "intersection",
+        "road_segment",
+        "area",
+        "city",
+        "district",
+        "country",
+        "unknown",
     ] = "unknown"
     evidence_ids: list[str] = Field(default_factory=list)
     confidence: float = Field(default=0.5, ge=0, le=1)
@@ -226,7 +233,14 @@ class Geolocation(StrictModel):
     latitude: float | None = None
     longitude: float | None = None
     granularity: Literal[
-        "point", "intersection", "road_segment", "area", "city", "district", "unknown"
+        "point",
+        "intersection",
+        "road_segment",
+        "area",
+        "city",
+        "district",
+        "country",
+        "unknown",
     ] = "unknown"
     method: str = "unresolved"
     alternatives: list[LocationCandidate] = Field(default_factory=list)

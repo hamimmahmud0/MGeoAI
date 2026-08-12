@@ -1,0 +1,116 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-06-16T06:21:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-06-15T06:21:00",
+    "timezone": "Africa/Addis_Ababa"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_40a400e8a428f68f",
+    "ev_689dbbebe88154b6",
+    "ev_7c480d5acac5d06b",
+    "ev_82ebc779b29ab533",
+    "ev_d631ff248857c02f",
+    "ev_d8e4721d921342c1",
+    "ev_e183c0aaa053bd46",
+    "ev_e5819e7f5fad5ec5",
+    "ev_eaf3bfc60629ed0e",
+    "ev_f410adba56ebe243"
+  ],
+  "facts": [
+    {
+      "confidence": 0.7100000000000001,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_40a400e8a428f68f",
+        "ev_689dbbebe88154b6",
+        "ev_7c480d5acac5d06b",
+        "ev_82ebc779b29ab533",
+        "ev_d631ff248857c02f",
+        "ev_d8e4721d921342c1",
+        "ev_e183c0aaa053bd46",
+        "ev_e5819e7f5fad5ec5",
+        "ev_eaf3bfc60629ed0e",
+        "ev_f410adba56ebe243"
+      ],
+      "value": 31
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_40a400e8a428f68f",
+        "ev_82ebc779b29ab533",
+        "ev_e183c0aaa053bd46",
+        "ev_eaf3bfc60629ed0e",
+        "ev_f410adba56ebe243"
+      ],
+      "value": 33
+    }
+  ],
+  "generated_at": "2026-06-15T06:21:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.13999999999999999,
+    "display_name": "Ethiopia — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:ETH",
+      "collection_country": "Ethiopia",
+      "collection_country_code": "ETH"
+    },
+    "latitude": 9.145,
+    "longitude": 40.4897,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: At least 31 dead after bus crashes in Ethiopia. The reported date is June 15, 2026, retained at day precision. Reports identify the location as Ethiopia — collection-country fallback; incident place unresolved; fusion retains it at country precision with 14% location confidence. The reconciled casualty assessment records 31 reported fatalities and 33 reported injuries. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 2 source record(s) representing 2 independent source group(s) and 10 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_40a400e8a428f68f] [ev_689dbbebe88154b6] [ev_7c480d5acac5d06b].",
+  "incident_id": "inc_7a1aba27b4aad602",
+  "independent_source_count": 2,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_65e8edcf1b0ab0ca",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_024380068477ef85",
+    "src_db42706cc3070bb5"
+  ],
+  "status": "reported",
+  "title": "At least 31 dead after bus crashes in Ethiopia",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

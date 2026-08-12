@@ -4,8 +4,11 @@ import re
 from collections.abc import Iterable
 from dataclasses import dataclass, field
 from datetime import datetime, timedelta
+from functools import lru_cache
+from pathlib import Path
 from typing import Literal
 
+from traffic_fusion.corpus.discovery import CountryProfile, DiscoveryError, load_country_profiles
 from traffic_fusion.models import (
     AssertionType,
     EvidenceItem,
@@ -115,6 +118,24 @@ class Anchor:
 
 
 ANCHORS = [
+    Anchor(
+        "lane_cove_road_north_ryde",
+        ("lane cove road", "lane cove rd", "north ryde"),
+        "Lane Cove Road, North Ryde, New South Wales",
+        "road_segment",
+        (-33.78725, 151.124922),
+        (),
+        family="north_ryde",
+        priority=30,
+        radius_km=1.0,
+        hierarchy={
+            "country": "Australia",
+            "state": "New South Wales",
+            "city": "Sydney",
+            "locality": "North Ryde",
+            "road": "Lane Cove Road",
+        },
+    ),
     Anchor(
         "nila_market_purbachal",
         ("neela market", "nila market", "নীলা মার্কেট"),
@@ -248,6 +269,53 @@ ANCHORS = [
         ("fahim ahmed", "ফাহিম আহমেদ"),
     ),
 ]
+
+COUNTRY_FALLBACK_PREFIX = "collection_country_fallback:"
+
+
+@lru_cache(maxsize=1)
+def _country_profiles_by_code() -> dict[str, CountryProfile]:
+    """Load configured country markers without making normalization network-dependent."""
+    candidates = [
+        Path.cwd() / "configs" / "global_countries.toml",
+        Path(__file__).resolve().parents[2] / "configs" / "global_countries.toml",
+    ]
+    for path in candidates:
+        if not path.is_file():
+            continue
+        try:
+            profiles = load_country_profiles(path)
+        except (OSError, DiscoveryError):
+            continue
+        by_code: dict[str, CountryProfile] = {}
+        for profile in profiles.values():
+            by_code[profile.iso2] = profile
+            by_code[profile.iso3] = profile
+        return by_code
+    return {}
+
+
+def _country_fallback_anchor(source: SourceRecord) -> Anchor | None:
+    """Return an explicitly non-incident country marker as the final map fallback."""
+    code = (source.country_code or "").upper()
+    profile = _country_profiles_by_code().get(code)
+    if profile is None:
+        return None
+    return Anchor(
+        name=f"{COUNTRY_FALLBACK_PREFIX}{profile.iso3}",
+        location_aliases=(),
+        display=(
+            f"{profile.name} — collection-country fallback; incident place unresolved"
+        ),
+        granularity="country",
+        coordinates=(profile.coverage_latitude, profile.coverage_longitude),
+        event_aliases=("incident",),
+        priority=-100,
+        hierarchy={
+            "collection_country": profile.name,
+            "collection_country_code": profile.iso3,
+        },
+    )
 
 
 def normalize_digits(value: str) -> str:
@@ -424,7 +492,7 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
     all_text = " ".join(item.normalized_claim for item in evidence)
     found = _matching_anchors(all_text)
     if not found and "buet student" in all_text and "narayanganj" in all_text:
-        found.append(ANCHORS[0])
+        found.append(next(anchor for anchor in ANCHORS if anchor.name == "nila_market_purbachal"))
     if (
         not found
         and "gazipur" in all_text
@@ -432,6 +500,15 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
         and "student" in all_text
     ):
         found.append(next(anchor for anchor in ANCHORS if anchor.name == "tongi"))
+    country_fallback = _country_fallback_anchor(source)
+    if not found and country_fallback and (
+        any(item.evidence_kind == "traffic_incident" for item in evidence)
+        or (
+            source.source_type in {SourceType.NEWS_HTML, SourceType.FACEBOOK_HTML}
+            and _matches_source_incident(all_text, source)
+        )
+    ):
+        found = [country_fallback]
     # JSON can be terse and omit distinctive names; preserve an unanchored incident mention.
     if not found and any(item.evidence_kind == "traffic_incident" for item in evidence):
         found = [Anchor("unknown", (), "Location not resolved", "unknown", (None, None), ("incident",))]
@@ -448,8 +525,16 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
         anchor_name = anchor.name
         family = anchor.family or anchor.name
         granularity: Literal[
-            "point", "intersection", "road_segment", "area", "city", "district", "unknown"
+            "point",
+            "intersection",
+            "road_segment",
+            "area",
+            "city",
+            "district",
+            "country",
+            "unknown",
         ] = anchor.granularity  # type: ignore[assignment]
+        is_country_fallback = anchor_name.startswith(COUNTRY_FALLBACK_PREFIX)
         family_anchors = [
             candidate
             for candidate in ANCHORS
@@ -489,21 +574,27 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
                 if term in related_text:
                     vehicles.append(term)
         evidence_ids = sorted({item.evidence_id for item in related})
-        location_evidence_ids = sorted(
-            {
-                item.evidence_id
-                for item in related
-                if any(_has_alias(item.normalized_claim, alias) for alias in anchor.location_aliases)
-            }
-        ) or evidence_ids
+        location_evidence_ids = (
+            []
+            if is_country_fallback
+            else sorted(
+                {
+                    item.evidence_id
+                    for item in related
+                    if any(
+                        _has_alias(item.normalized_claim, alias)
+                        for alias in anchor.location_aliases
+                    )
+                }
+            )
+            or evidence_ids
+        )
         latitude, longitude = anchor.coordinates
         locations = []
         if anchor_name != "fahim" and anchor_name != "unknown":
-            hierarchy = {
-                "country": "Bangladesh",
-                "anchor": anchor.family or anchor_name,
-                **anchor.hierarchy,
-            }
+            hierarchy = {"anchor": anchor.family or anchor_name, **anchor.hierarchy}
+            if not is_country_fallback and "country" not in hierarchy:
+                hierarchy["country"] = "Bangladesh"
             locations.append(
                 LocationCandidate(
                     name=anchor.display,
@@ -513,12 +604,26 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
                     longitude=longitude,
                     granularity=granularity,
                     evidence_ids=location_evidence_ids,
-                    confidence=0.75 if anchor.priority >= 20 else (0.68 if granularity in {"area", "city"} else 0.55),
+                    confidence=(
+                        0.12
+                        if is_country_fallback
+                        else 0.75
+                        if anchor.priority >= 20
+                        else 0.68
+                        if granularity in {"area", "city"}
+                        else 0.55
+                    ),
                     reason=(
-                        "source-named place represented by a local gazetteer centroid; "
-                        f"approximately {anchor.radius_km:g} km uncertainty"
-                        if anchor.radius_km
-                        else "local gazetteer centroid; not a rooftop crash coordinate"
+                        "Collection-country metadata fallback only. This point is not a "
+                        "reported incident location; the place named by the source could not "
+                        "be resolved by the offline gazetteer."
+                        if is_country_fallback
+                        else (
+                            "source-named place represented by a local gazetteer centroid; "
+                            f"approximately {anchor.radius_km:g} km uncertainty"
+                            if anchor.radius_km
+                            else "local gazetteer centroid; not a rooftop crash coordinate"
+                        )
                     ),
                 )
             )
@@ -546,7 +651,7 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
                 traffic_effects=traffic_effects,
                 lexical_features=(
                     _unknown_lexical_features(source)
-                    if anchor_name == "unknown"
+                    if anchor_name == "unknown" or is_country_fallback
                     else sorted(
                         {
                             anchor_name,
@@ -560,7 +665,16 @@ def split_mentions(source: SourceRecord, evidence: list[EvidenceItem]) -> list[I
                 ),
                 uncertainty=(
                     (["Event time unresolved"] if not _date_for_anchor(related_text, source, anchor.family or anchor_name).start else [])
-                    + (["Location unresolved"] if anchor_name == "unknown" else [])
+                    + (
+                        [
+                            "Incident place unresolved; map uses a collection-country "
+                            "fallback that is not a crash coordinate"
+                        ]
+                        if is_country_fallback
+                        else ["Location unresolved"]
+                        if anchor_name == "unknown"
+                        else []
+                    )
                 ),
                 completeness=min(0.9, 0.35 + len(related) * 0.05),
                 relation_type=relation,

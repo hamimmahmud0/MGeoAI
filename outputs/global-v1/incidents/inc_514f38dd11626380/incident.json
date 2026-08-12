@@ -1,0 +1,103 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2024-07-05T04:06:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2024-07-04T04:06:00",
+    "timezone": "Asia/Colombo"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_08c1b60566063c2c",
+    "ev_153755e644df3e29",
+    "ev_1b882e58edea5323",
+    "ev_35dcf544ef45c000",
+    "ev_615344ca4b201cf0"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_08c1b60566063c2c",
+        "ev_153755e644df3e29",
+        "ev_1b882e58edea5323",
+        "ev_35dcf544ef45c000",
+        "ev_615344ca4b201cf0"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_08c1b60566063c2c",
+        "ev_153755e644df3e29",
+        "ev_1b882e58edea5323",
+        "ev_35dcf544ef45c000",
+        "ev_615344ca4b201cf0"
+      ],
+      "value": 15
+    }
+  ],
+  "generated_at": "2024-07-04T04:06:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Sri Lanka — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:LKA",
+      "collection_country": "Sri Lanka",
+      "collection_country_code": "LKA"
+    },
+    "latitude": 7.8731,
+    "longitude": 80.7718,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Fatal collision on Chilaw-Colombo road leaves one dead, 15 injured. The reported date is July 4, 2024, retained at day precision. Reports identify the location as Sri Lanka — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 1 reported fatality and 15 reported injuries. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_08c1b60566063c2c] [ev_153755e644df3e29] [ev_1b882e58edea5323].",
+  "incident_id": "inc_514f38dd11626380",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_bc1d90b33a78de22",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_323851f54733f8a2"
+  ],
+  "status": "reported",
+  "title": "Fatal collision on Chilaw-Colombo road leaves one dead, 15 injured",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": []
+}

@@ -1,0 +1,99 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2024-05-30T07:40:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2024-05-29T07:40:00",
+    "timezone": "Asia/Karachi"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_23c8bccd57bf04a5",
+    "ev_28040d0ace81c9e7",
+    "ev_612ea7067d898a85",
+    "ev_6560d097d24d0804",
+    "ev_9f38891cd9fa05f6"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_23c8bccd57bf04a5",
+        "ev_28040d0ace81c9e7",
+        "ev_612ea7067d898a85",
+        "ev_6560d097d24d0804",
+        "ev_9f38891cd9fa05f6"
+      ],
+      "value": 27
+    },
+    {
+      "confidence": 0.0,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "No explicit value was supplied in the normalized evidence.",
+      "state": "not_reported",
+      "support_evidence_ids": [],
+      "value": null
+    }
+  ],
+  "generated_at": "2024-05-29T07:40:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "Pakistan — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:PAK",
+      "collection_country": "Pakistan",
+      "collection_country_code": "PAK"
+    },
+    "latitude": 30.3753,
+    "longitude": 69.3451,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Pakistan bus crash kills 27. The reported date is May 29, 2024, retained at day precision. Reports identify the location as Pakistan — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 27 reported fatalities and injuries not reported. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_23c8bccd57bf04a5] [ev_28040d0ace81c9e7] [ev_612ea7067d898a85].",
+  "incident_id": "inc_9464c5f496367047",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_9affe54a0b7afad2",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_8c9da30bdead3bc3"
+  ],
+  "status": "reported",
+  "title": "Pakistan bus crash kills 27",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}

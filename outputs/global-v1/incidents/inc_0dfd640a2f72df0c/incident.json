@@ -64,7 +64,7 @@
     },
     "latitude": 24.7063,
     "longitude": 91.7417,
-    "method": "local_gazetteer_centroid",
+    "method": "source_named_offline_gazetteer_centroid",
     "supporting_evidence_ids": [
       "ev_38e8c0154135ed67",
       "ev_505d5723e2453605",
@@ -79,7 +79,7 @@
   "involved_parties": [],
   "later_developments": [],
   "obstruction": null,
-  "provider_run_id": "prun_46c67a135653a458",
+  "provider_run_id": "prun_7a2cd21a6a1c7dde",
   "schema_version": "1.0.0",
   "sentiment": {
     "by_aspect": {},

@@ -1,0 +1,105 @@
+{
+  "alternate_time_claims": [],
+  "collision": null,
+  "congestion_delay": null,
+  "contributing_factors": [],
+  "data_quality_warnings": [
+    "RECORDED DEMO: this record was not fused by a live model."
+  ],
+  "duplicate_groups": [],
+  "emergency_response": [],
+  "event_time": {
+    "end": "2026-08-10T22:06:00",
+    "original_expression": "publication date used as event-date fallback",
+    "precision": "day",
+    "start": "2026-08-09T22:06:00",
+    "timezone": "Asia/Kolkata"
+  },
+  "event_type": "road_crash",
+  "evidence_ids": [
+    "ev_04c627252d80341a",
+    "ev_2545db70edb156c2",
+    "ev_2d829bf3968d0ed1",
+    "ev_4a830a2a279c2b01",
+    "ev_70c6cd33ecfde3d1"
+  ],
+  "facts": [
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "fatalities",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_04c627252d80341a",
+        "ev_2545db70edb156c2",
+        "ev_2d829bf3968d0ed1",
+        "ev_4a830a2a279c2b01",
+        "ev_70c6cd33ecfde3d1"
+      ],
+      "value": 1
+    },
+    {
+      "confidence": 0.63,
+      "conflicting_values": [],
+      "contradiction": false,
+      "field": "injuries",
+      "selection_rationale": "Most frequently reported value selected; alternatives retained without averaging.",
+      "state": "known",
+      "support_evidence_ids": [
+        "ev_04c627252d80341a",
+        "ev_2545db70edb156c2",
+        "ev_2d829bf3968d0ed1",
+        "ev_4a830a2a279c2b01",
+        "ev_70c6cd33ecfde3d1"
+      ],
+      "value": 20
+    }
+  ],
+  "generated_at": "2026-08-09T22:06:00Z",
+  "geolocation": {
+    "alternatives": [],
+    "ambiguity_reason": "Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location.",
+    "confidence": 0.12,
+    "display_name": "India — collection-country fallback; incident place unresolved",
+    "granularity": "country",
+    "hierarchy": {
+      "anchor": "collection_country_fallback:IND",
+      "collection_country": "India",
+      "collection_country_code": "IND"
+    },
+    "latitude": 20.5937,
+    "longitude": 78.9629,
+    "method": "collection_country_fallback",
+    "supporting_evidence_ids": [],
+    "uncertainty_radius_km": null
+  },
+  "human_summary": "The fused record concerns this reported incident: Haveri Bus Accident Leaves One Dead, Over 20 Injured On NH-48. The reported date is August 9, 2026, retained at day precision. Reports identify the location as India — collection-country fallback; incident place unresolved; fusion retains it at country precision with 12% location confidence. The reconciled casualty assessment records 1 reported fatality and 20 reported injuries. Identified vehicles or road users include bus. No explicit traffic congestion, delay, or obstruction was reported. The record combines 1 source record(s) representing 1 independent source group(s) and 5 cited evidence item(s). Important location limitation: Incident place unresolved. This marker represents only the source's collection-country metadata and is not a reported crash location. Representative decisive evidence: [ev_04c627252d80341a] [ev_2545db70edb156c2] [ev_2d829bf3968d0ed1].",
+  "incident_id": "inc_f8e2b635d7c89065",
+  "independent_source_count": 1,
+  "involved_parties": [],
+  "later_developments": [],
+  "obstruction": null,
+  "provider_run_id": "prun_cc8037ab1a891579",
+  "schema_version": "1.0.0",
+  "sentiment": {
+    "by_aspect": {},
+    "coverage_note": "No visible traffic-related sentiment was supplied.",
+    "items": [],
+    "notable_minority_views": [],
+    "sample_size": 0,
+    "traffic_relevant_count": 0
+  },
+  "source_ids": [
+    "src_85f34e4c5a99e893"
+  ],
+  "status": "reported",
+  "title": "Haveri Bus Accident Leaves One Dead, Over 20 Injured On NH-48",
+  "unresolved_questions": [
+    "Exact crash geometry remains unverified."
+  ],
+  "vehicles": [
+    "bus"
+  ]
+}
