@@ -1,0 +1,86 @@
+[
+  {
+    "item_id": "syn-001",
+    "left": {
+      "id": "a1",
+      "title": "Bus hits truck on Highway 7",
+      "publisher": "Synthetic Daily",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] A bus collided with a truck near Mile 12 on Highway 7 at dawn; two injured."
+    },
+    "right": {
+      "id": "a2",
+      "title": "Two hurt as bus, truck collide",
+      "publisher": "Synthetic Post",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] Two people were injured when a bus and a truck collided near Mile 12, Highway 7, early morning."
+    },
+    "category": "easy_positive",
+    "selection": "synthetic"
+  },
+  {
+    "item_id": "syn-002",
+    "left": {
+      "id": "b1",
+      "title": "Motorbike crash at Central Junction",
+      "publisher": "Synthetic Daily",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] A motorbike rider died at Central Junction on Monday evening."
+    },
+    "right": {
+      "id": "b2",
+      "title": "Pedestrian hit at Central Junction",
+      "publisher": "Synthetic Post",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] A pedestrian was struck at Central Junction on Monday evening; condition unknown."
+    },
+    "category": "hard_negative_same_place_time",
+    "selection": "synthetic"
+  },
+  {
+    "item_id": "syn-003",
+    "left": {
+      "id": "c1",
+      "title": "Ferry accident reported",
+      "publisher": "Synthetic Daily",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] A ferry capsized; officials say several are missing."
+    },
+    "right": {
+      "id": "c2",
+      "title": "Capsized ferry: toll rises",
+      "publisher": "Synthetic Post",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] The death toll from the capsized ferry rose to five, authorities said."
+    },
+    "category": "hard_positive_updated_numbers",
+    "selection": "synthetic"
+  },
+  {
+    "item_id": "syn-004",
+    "left": {
+      "id": "d1",
+      "title": "Car overturns on ring road",
+      "publisher": "Synthetic Daily",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] A car overturned on the ring road on Tuesday; the driver was unhurt."
+    },
+    "right": {
+      "id": "d2",
+      "title": "Truck overturns on ring road",
+      "publisher": "Synthetic Post",
+      "url": null,
+      "published_at": "2000-01-01",
+      "text": "[SYNTHETIC TEST DATA] A truck overturned on the ring road on Thursday, blocking traffic for hours."
+    },
+    "category": "hard_negative_same_road",
+    "selection": "synthetic"
+  }
+]

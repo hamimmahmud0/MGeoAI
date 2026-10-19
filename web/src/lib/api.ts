@@ -1,4 +1,4 @@
-import type { CoverageCollection, Incident, IncidentEvidence, Page, ProviderRun, ReviewerSession, Source, SourceDetail, Submission, SubmissionInput, SubmissionStatus } from '../types'
+import type { AnnotationLabel, AnnotationQueue, CoverageCollection, Incident, IncidentEvidence, Page, ProviderRun, ReviewerSession, Source, SourceDetail, Submission, SubmissionInput, SubmissionStatus } from '../types'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, { credentials: 'same-origin', ...init })
@@ -49,5 +49,7 @@ export const api = {
   reviewerSubmissions: (status?: SubmissionStatus) => request<{ items: Submission[]; total: number }>(`/api/reviewer/submissions${status ? `?status=${status}` : ''}`),
   reviewerFileText: (submissionId: string, fileId: string) => requestText(`/api/reviewer/submissions/${encodeURIComponent(submissionId)}/files/${encodeURIComponent(fileId)}`),
   reviewerDownloadUrl: (submissionId: string) => `/api/reviewer/submissions/${encodeURIComponent(submissionId)}/download`,
+  annotationItems: () => request<AnnotationQueue>('/api/annotate/items'),
+  saveAnnotation: (itemId: string, label: AnnotationLabel, notes: string, csrfToken: string) => request<unknown>(`/api/annotate/labels/${encodeURIComponent(itemId)}`, jsonRequest('PUT', { label, notes }, csrfToken)),
   reviewSubmission: (id: string, decision: 'approve' | 'reject', note: string, csrfToken: string) => request<Submission>(`/api/reviewer/submissions/${encodeURIComponent(id)}/review`, jsonRequest('POST', { decision, note: note || undefined }, csrfToken)),
 }

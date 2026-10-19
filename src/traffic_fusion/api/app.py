@@ -15,6 +15,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 
+from traffic_fusion.api.annotation import build_router as build_annotation_router
 from traffic_fusion.api.moderation import (
     MAX_UPLOAD_BYTES,
     SESSION_COOKIE,
@@ -152,6 +153,7 @@ def create_app(
     data_dir: Path | None = None,
     settings: Settings | None = None,
     base_scraps_dir: Path | None = None,
+    annotation_dir: Path | None = None,
 ) -> FastAPI:
     configured_data_dir = (
         os.getenv("MGEOAI_DATA_DIR")
@@ -606,6 +608,12 @@ def create_app(
             "page": page,
             "page_size": page_size,
         }
+
+    app.include_router(
+        build_annotation_router(
+            annotation_dir or Path(os.getenv("MGEOAI_ANNOTATION_DIR", "annotation"))
+        )
+    )
 
     frontend = Path("web/dist")
     if frontend.exists():
