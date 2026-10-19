@@ -45,3 +45,13 @@ export type CoverageProperties = {
 }
 export type CoverageFeature = Omit<GeoJSON.Feature<GeoJSON.Point>, 'properties'> & { properties: CoverageProperties }
 export type CoverageCollection = Omit<GeoJSON.FeatureCollection<GeoJSON.Point>, 'features'> & { features: CoverageFeature[] }
+
+export type AnnotationLabel = 'same_incident' | 'related_distinct' | 'different' | 'cannot_tell'
+export interface AnnotationArticle { id: string; title: string; publisher: string | null; url: string | null; published_at: string | null; text: string }
+export interface AnnotationRow {
+  item_id: string
+  left: AnnotationArticle
+  right: AnnotationArticle
+  my_label: { label: AnnotationLabel; notes: string; submitted_at: string; revision: number } | null
+}
+export interface AnnotationQueue { annotator: string; total: number; labeled: number; items: AnnotationRow[] }

@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BenchmarkCandidateBatch",
+  "type": "object",
+  "required": ["batch_id", "searched_on", "groups", "batch_report"],
+  "additionalProperties": false,
+  "properties": {
+    "batch_id": {"type": "string", "pattern": "^b[0-9]{2}$"},
+    "searched_on": {"type": "string", "format": "date"},
+    "groups": {
+      "type": "array",
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "required": ["group_id", "kind", "region", "country", "difficulty", "articles"],
+        "additionalProperties": false,
+        "properties": {
+          "group_id": {"type": "string", "pattern": "^g[0-9]{3}$"},
+          "kind": {"enum": ["same_incident", "decoy_cluster"]},
+          "region": {"enum": ["bangladesh", "international"]},
+          "country": {"type": "string", "description": "Country where the incident occurred, English name"},
+          "difficulty": {"enum": ["easy", "hard"]},
+          "decoy_for": {"type": ["string", "null"], "description": "group_id of the same_incident group this decoy is confusable with; null for same_incident groups"},
+          "confusable_by": {"type": "array", "items": {"enum": ["same_place", "same_road", "same_day", "same_vehicle_type", "similar_casualty_count", "same_cause", "update_with_changed_numbers", "different_language", "different_headline_framing", "none"]}},
+          "agent_note": {"type": "string", "maxLength": 300},
+          "articles": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 4,
+            "items": {
+              "type": "object",
+              "required": ["url", "publisher", "title", "published_date", "language", "url_opened", "paywalled"],
+              "additionalProperties": false,
+              "properties": {
+                "url": {"type": "string", "format": "uri", "description": "Canonical URL: no tracking parameters (utm_*, fbclid, ...), no fragment"},
+                "publisher": {"type": "string"},
+                "title": {"type": "string"},
+                "published_date": {"type": ["string", "null"], "format": "date"},
+                "event_date_stated": {"type": ["string", "null"]},
+                "location_stated": {"type": ["string", "null"]},
+                "language": {"enum": ["en", "bn", "other"]},
+                "url_opened": {"type": "boolean"},
+                "paywalled": {"type": "boolean"},
+                "syndicated_copy_of": {"type": ["string", "null"], "description": "URL of the original if this is a wire or repost; otherwise null"}
+              }
+            }
+          }
+        }
+      }
+    },
+    "batch_report": {
+      "type": "object",
+      "required": ["counts", "skipped"],
+      "additionalProperties": false,
+      "properties": {
+        "counts": {
+          "type": "object",
+          "required": ["same_incident_bd", "same_incident_intl", "decoy_bd", "decoy_intl", "articles_total", "hard_groups"],
+          "additionalProperties": false,
+          "properties": {
+            "same_incident_bd": {"type": "integer"},
+            "same_incident_intl": {"type": "integer"},
+            "decoy_bd": {"type": "integer"},
+            "decoy_intl": {"type": "integer"},
+            "articles_total": {"type": "integer"},
+            "hard_groups": {"type": "integer"}
+          }
+        },
+        "skipped": {
+          "type": "array",
+          "description": "Pages you found but excluded",
+          "items": {
+            "type": "object",
+            "required": ["url", "reason"],
+            "additionalProperties": false,
+            "properties": {
+              "url": {"type": "string"},
+              "reason": {"enum": ["paywalled", "did_not_load", "duplicate_url", "duplicate_incident", "repost_only", "not_a_road_crash", "outside_date_window", "graphic_only", "other"]}
+            }
+          }
+        }
+      }
+    }
+  }
+}

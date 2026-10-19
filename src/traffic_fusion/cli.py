@@ -7,6 +7,7 @@ from pathlib import Path
 import typer
 
 from traffic_fusion import __version__
+from traffic_fusion.annotation.cli import annotate_app
 from traffic_fusion.api.moderation import hash_reviewer_password
 from traffic_fusion.config import Settings
 from traffic_fusion.corpus.build import build_corpus, load_candidates
@@ -26,6 +27,9 @@ app = typer.Typer(
     no_args_is_help=True,
     help="MGeoAI provenance-preserving traffic incident intelligence.",
 )
+
+
+app.add_typer(annotate_app, name="annotate")
 
 
 @app.command("hash-reviewer-password")
