@@ -65,7 +65,7 @@ class ControlSettings(BaseModel):
     max_images_per_article: int = Field(default=3, ge=0, le=6)
     run_cost_limit_usd: float = Field(default=5.0, ge=0, le=1000)
     daily_cost_limit_usd: float = Field(default=20.0, ge=0, le=10000)
-    concurrency: int = Field(default=2, ge=1, le=8)
+    concurrency: int = Field(default=2, ge=1, le=50)
     providers: dict[str, ProviderConfig] = Field(
         default_factory=lambda: {name: default_provider(name) for name in PROVIDERS}
     )

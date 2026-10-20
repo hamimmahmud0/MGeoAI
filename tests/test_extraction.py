@@ -494,3 +494,14 @@ def test_deepseek_thinking_switch_and_truncation_hint(
     _wait(manager, spec.config_id())
     saved = json.loads((manager.runs_dir / spec.config_id() / "a0.json").read_text())
     assert saved["status"] == "failed" and "hidden reasoning" in saved["error"]
+
+
+def test_concurrency_limit_is_fifty(env: tuple[TestClient, Path]) -> None:
+    client, _ = env
+    csrf = login(client, "boss")
+    settings = client.get("/api/x/admin/control").json()["settings"]
+    for value, expected in ((50, 200), (51, 422), (0, 422)):
+        settings["concurrency"] = value
+        response = client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf})
+        assert response.status_code == expected, value
+    assert client.get("/api/x/admin/control").json()["settings"]["concurrency"] == 50
