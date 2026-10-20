@@ -110,8 +110,10 @@ export function ControlPanel({ session }: { session: Session }) {
           <label className="flex flex-col gap-1"><span className="label">Limit articles</span>
             <input className="control w-28" inputMode="numeric" placeholder="all" value={spec.limit ?? ''} onChange={(event) => { setSpec({ ...spec, limit: numOrNull(event.target.value) }); setEstimate(null) }} /></label>
           <button className="btn" disabled={!spec.model} onClick={() => void run(async () => setEstimate(await api.estimateRun(spec, csrf)), 'Estimate ready')}>Estimate</button>
-          <button className="btn btn-primary" disabled={!spec.model || !estimate} onClick={() => void run(() => api.startRun(spec, csrf), 'Run started')}>Start run</button>
+          <button className="btn btn-primary" disabled={!spec.model || !estimate || !state.keys[spec.provider]?.configured} onClick={() => void run(() => api.startRun(spec, csrf), 'Run started')}>Start run</button>
         </div>
+        {!state.keys[spec.provider]?.configured && <p role="alert" className="mt-2 border border-warning-line bg-warning-soft p-2 text-warning">No API key is set for {PROVIDER_LABEL[spec.provider]}. Keys live in server memory and are cleared whenever the service restarts: paste it again under "Provider keys" above.</p>}
+        {error && <p role="alert" className="mt-2 border border-danger-line bg-danger-soft p-2 text-danger">{error}</p>}
         {estimate && <p className="mt-2 border border-line p-2">{estimate.articles_todo} of {estimate.articles_total} articles to do · ~{estimate.est_input_tokens.toLocaleString()} input + ~{estimate.est_output_tokens.toLocaleString()} output tokens · {estimate.images_to_send} images · cost: {estimate.est_cost_usd === null ? 'unknown (no price set)' : `$${estimate.est_cost_usd.toFixed(4)}`}{!estimate.within_token_limit && <span className="text-danger"> · exceeds the {estimate.token_limit.toLocaleString()}-token limit; the run will stop early</span>}</p>}
         <table className="mt-3 w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">Configuration</th><th>Status</th><th>Done / failed (total)</th><th>Tokens in/out</th><th>Cost</th><th /></tr></thead>
           <tbody>{runs.map((item) => (<tr key={item.config_id} className="border-t border-line"><td className="py-1 break-all">{item.config_id}</td>

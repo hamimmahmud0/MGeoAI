@@ -99,6 +99,22 @@ describe('App shell', () => {
     await waitFor(() => expect(field).toHaveValue(''))
   })
 
+  it('explains why Start run is unavailable when the provider key was lost', async () => {
+    vi.stubGlobal('fetch', vi.fn((path: string) => {
+      const open = publicRoutes(path)
+      if (open) return json(open)
+      if (path.endsWith('/me')) return json({ username: 'root', roles: ['admin'], disabled: false, csrf_token: 't' })
+      if (path.endsWith('/admin/accounts')) return json([{ username: 'root', roles: ['admin'], disabled: false }])
+      if (path.endsWith('/admin/runs')) return json([])
+      return json({ settings: { labelling_open: true, pricing: {}, run_token_limit: 1000, max_images_per_article: 3, run_cost_limit_usd: 5, daily_cost_limit_usd: 20, concurrency: 2, providers: Object.fromEntries(['openai', 'anthropic', 'openrouter', 'deepseek'].map((n) => [n, { model: 'deepseek-flash', base_url: '', input_cost_per_million_usd: null, output_cost_per_million_usd: null, timeout_seconds: 600, max_output_tokens: 393216, supports_images: false }])) }, keys: { deepseek: { configured: false, source: 'none' }, openrouter: { configured: false, source: 'none' }, openai: { configured: false, source: 'none' }, anthropic: { configured: false, source: 'none' } } })
+    }))
+    render(<App />)
+    const user = userEvent.setup()
+    await user.click(await screen.findByRole('tab', { name: 'Control panel' }))
+    expect(await screen.findByText(/No API key is set for DeepSeek/)).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: 'Start run' })).toBeDisabled()
+  })
+
   it('never renders a stored API key after it is set', async () => {
     const secret = 'sk-test-secret-value'
     const state = { settings: { labelling_open: true, pricing: {}, run_token_limit: 2000000, max_images_per_article: 3, run_cost_limit_usd: 5, daily_cost_limit_usd: 20, concurrency: 2, providers: Object.fromEntries(['openai', 'anthropic', 'openrouter', 'deepseek'].map((n) => [n, { model: '', base_url: '', input_cost_per_million_usd: null, output_cost_per_million_usd: null, timeout_seconds: 120, max_output_tokens: 4000, supports_images: false }])) }, keys: { openai: { configured: true, source: 'ui_memory' }, anthropic: { configured: false, source: 'none' }, openrouter: { configured: false, source: 'none' }, deepseek: { configured: false, source: 'none' } } }
