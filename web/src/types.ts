@@ -51,7 +51,7 @@ export type RunEstimate = {
   token_limit: number; within_token_limit: boolean; note: string
 }
 export type RunState = {
-  config_id: string; status: 'running' | 'finished' | 'stopped' | 'cancelled'; started_at: string; finished_at: string | null
+  config_id: string; status: 'running' | 'finished' | 'stopped' | 'cancelled' | 'interrupted'; started_at: string; finished_at: string | null
   done: number; failed: number; input_tokens: number; output_tokens: number; cost_usd: number | null; cost_known: boolean
   stop_reason: string | null; spec: RunSpec; attempt?: { done: number; failed: number; input_tokens: number; output_tokens: number }
 }

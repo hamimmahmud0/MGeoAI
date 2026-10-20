@@ -10,3 +10,7 @@
 
 ### 2026-10-20 — slice 3
 - `/` is the open world-map view; `/scores`, `/models` open; `/annotate`, `/control` need sign-in (signed-out visitors are sent to `/login` and back); header "Sign in" button; routes mirror the URL (pushState/popstate). Coverage layer now includes 7 countries missing from `global_countries.toml` (approximate centroids), so all 244 articles are counted.
+
+### 2026-10-20 — slice 4
+- Control panel: per-user "Set password" (12+ chars; ends that user's existing sessions via `password_changed_at`; the password is never returned). Runs: a run whose worker thread is gone (service restart) is now shown as `interrupted`, with Resume, Retry failed and Clear. Clear archives to `extraction/runs/_archived/<timestamp>__<id>/` instead of deleting, and archived runs drop out of lists and scores.
+- Incident: deploys restart the service and kill a running extraction job; its saved state stayed "running" and Cancel could not work. Resume continues the remaining articles. Do not deploy while a run is active.

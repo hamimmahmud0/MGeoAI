@@ -33,6 +33,7 @@ class Account(BaseModel):
     password_hash: str
     disabled: bool = False
     created_at: str
+    password_changed_at: str | None = None  # sessions issued before this are rejected
 
 
 class AccountStore:
@@ -106,6 +107,11 @@ class AccountStore:
                 ),
                 disabled=existing.disabled if disabled is None and existing else bool(disabled),
                 created_at=existing.created_at if existing else datetime.now(UTC).isoformat(),
+                password_changed_at=(
+                    datetime.now(UTC).isoformat()
+                    if password is not None
+                    else existing.password_changed_at if existing else None
+                ),
             )
             others = [a for a in accounts.values() if a.username != username]
             if not any("admin" in a.roles and not a.disabled for a in [*others, account]):

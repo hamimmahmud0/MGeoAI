@@ -43,6 +43,7 @@ export const api = {
   estimateRun: (spec: RunSpec, csrf: string) => request<RunEstimate>('/api/x/admin/runs/estimate', send('POST', spec, csrf)),
   startRun: (spec: RunSpec, csrf: string) => request<RunState>('/api/x/admin/runs', send('POST', spec, csrf)),
   runs: () => request<RunState[]>('/api/x/admin/runs'),
+  clearRun: (id: string, csrf: string) => request<{ cleared: string }>(`/api/x/admin/runs/${encodeURIComponent(id)}/clear`, send('POST', undefined, csrf)),
   cancelRun: (id: string, csrf: string) => request<{ cancelled: boolean }>(`/api/x/admin/runs/${encodeURIComponent(id)}/cancel`, send('POST', undefined, csrf)),
   setKey: (provider: string, key: string | null, csrf: string) => request<Pick<ControlState, 'keys'>>(`/api/x/admin/keys/${provider}`, send('PUT', { key }, csrf)),
 }

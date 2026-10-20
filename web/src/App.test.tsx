@@ -73,6 +73,32 @@ describe('App shell', () => {
     expect(screen.queryByRole('tab', { name: 'Control panel' })).toBeNull()
   })
 
+  it('lets an admin set another user\'s password without ever showing it back', async () => {
+    const seen: unknown[] = []
+    vi.stubGlobal('fetch', vi.fn((path: string, init?: RequestInit) => {
+      const open = publicRoutes(path)
+      if (open) return json(open)
+      if (path.endsWith('/me')) return json({ username: 'root', roles: ['admin'], disabled: false, csrf_token: 't' })
+      if (path.includes('/admin/accounts/') && init?.method === 'PUT') { seen.push(JSON.parse(String(init.body))); return json({ username: 'oishik', roles: ['annotator'], disabled: false }) }
+      if (path.endsWith('/admin/accounts')) return json([{ username: 'oishik', roles: ['annotator'], disabled: false }, { username: 'root', roles: ['admin'], disabled: false }])
+      if (path.endsWith('/admin/runs')) return json([])
+      return json({ settings: { labelling_open: true, pricing: {}, run_token_limit: 1000, max_images_per_article: 3, run_cost_limit_usd: 5, daily_cost_limit_usd: 20, concurrency: 2, providers: Object.fromEntries(['openai', 'anthropic', 'openrouter', 'deepseek'].map((n) => [n, { model: '', base_url: '', input_cost_per_million_usd: null, output_cost_per_million_usd: null, timeout_seconds: 120, max_output_tokens: 4000, supports_images: false }])) }, keys: {} })
+    }))
+    render(<App />)
+    const user = userEvent.setup()
+    await user.click(await screen.findByRole('tab', { name: 'Control panel' }))
+    const field = await screen.findByLabelText('New password for oishik')
+    const button = field.parentElement!.querySelector('button')!
+    expect(button).toBeDisabled()
+    await user.type(field, 'short')
+    expect(button).toBeDisabled()
+    await user.clear(field)
+    await user.type(field, 'a-much-longer-password')
+    await user.click(button)
+    await waitFor(() => expect(seen).toEqual([{ roles: ['annotator'], password: 'a-much-longer-password' }]))
+    await waitFor(() => expect(field).toHaveValue(''))
+  })
+
   it('never renders a stored API key after it is set', async () => {
     const secret = 'sk-test-secret-value'
     const state = { settings: { labelling_open: true, pricing: {}, run_token_limit: 2000000, max_images_per_article: 3, run_cost_limit_usd: 5, daily_cost_limit_usd: 20, concurrency: 2, providers: Object.fromEntries(['openai', 'anthropic', 'openrouter', 'deepseek'].map((n) => [n, { model: '', base_url: '', input_cost_per_million_usd: null, output_cost_per_million_usd: null, timeout_seconds: 120, max_output_tokens: 4000, supports_images: false }])) }, keys: { openai: { configured: true, source: 'ui_memory' }, anthropic: { configured: false, source: 'none' }, openrouter: { configured: false, source: 'none' }, deepseek: { configured: false, source: 'none' } } }

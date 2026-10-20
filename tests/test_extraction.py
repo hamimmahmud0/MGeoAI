@@ -16,6 +16,9 @@ PW = "correct-horse-battery"
 
 @pytest.fixture()
 def env(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> tuple[TestClient, Path]:
+    from traffic_fusion.api import x_auth
+
+    x_auth._FAILS.clear()  # the sign-in lockout counter is process-wide
     root = tmp_path / "extraction"
     monkeypatch.setenv("MGEOAI_EXTRACTION_DIR", str(root))
     monkeypatch.setenv("MGEOAI_SESSION_SECRET", "s" * 40)
@@ -410,3 +413,47 @@ def test_coverage_map_includes_countries_missing_from_profiles(env: tuple[TestCl
     assert feature["properties"]["country"] == "Guatemala" and feature["properties"]["articles"] == 1
     assert feature["properties"]["is_incident_location"] is False
     assert feature["geometry"]["coordinates"] == [-90.23, 15.78]  # [lon, lat]
+
+
+def test_admin_password_change_works_and_ends_old_sessions(env: tuple[TestClient, Path]) -> None:
+    client, _ = env
+    admin_csrf = login(client, "boss")
+    other = TestClient(client.app)
+    login(other, "ann_one")
+    assert other.get("/api/x/me").status_code == 200
+    short = client.put("/api/x/admin/accounts/ann_one", json={"roles": ["annotator"], "password": "short"},
+                       headers={"X-CSRF-Token": admin_csrf})
+    assert short.status_code == 422
+    time.sleep(1.1)  # session issue time has one-second resolution
+    changed = client.put("/api/x/admin/accounts/ann_one",
+                         json={"roles": ["annotator"], "password": "a-brand-new-password"},
+                         headers={"X-CSRF-Token": admin_csrf})
+    assert changed.status_code == 200 and "password" not in changed.text and "hash" not in changed.text
+    assert other.get("/api/x/me").status_code == 401  # old session rejected
+    assert TestClient(client.app).post("/api/x/login", json={"username": "ann_one", "password": PW}).status_code == 401
+    fresh = TestClient(client.app)
+    assert fresh.post("/api/x/login", json={"username": "ann_one", "password": "a-brand-new-password"}).status_code == 200
+    assert client.get("/api/x/me").status_code == 200  # the admin's own session is unaffected
+
+
+def test_orphaned_running_run_is_interrupted_and_clear_archives(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    monkeypatch.setattr(providers.httpx, "post", lambda *a, **k: _reply())
+    manager, control = _setup(tmp_path, 2)
+    spec = RunSpec(provider="deepseek", model="deepseek-flash", input_set="markdown")
+    manager.start(spec)
+    _wait(manager, spec.config_id())
+    # simulate a service restart in the middle of a run: state says running, no live thread
+    path = manager.runs_dir / spec.config_id() / "run.json"
+    state = json.loads(path.read_text())
+    state["status"] = "running"
+    path.write_text(json.dumps(state))
+    restarted = RunManager(manager.root, control)
+    assert restarted.status(spec.config_id())["status"] == "interrupted"  # type: ignore[index]
+    target = restarted.archive(spec.config_id())
+    assert restarted.list() == [] and (target / "a0.json").exists()  # moved, not deleted
+    with pytest.raises(ValueError, match="not found"):
+        restarted.archive(spec.config_id())
+    with pytest.raises(ValueError, match="invalid"):
+        restarted.archive("../x")

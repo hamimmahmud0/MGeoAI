@@ -46,7 +46,7 @@ class PublicData:
         return self.control.settings().labelling_open
 
     def _signature(self) -> tuple[Any, ...]:
-        files = [*self.store.labels_dir.glob("*.jsonl"), *self.runs.runs_dir.glob("*/*.json"),
+        files = [*self.store.labels_dir.glob("*.jsonl"), *[f for f in self.runs.runs_dir.glob("*/*.json") if not f.parent.name.startswith("_")],
                  self.geocoder.path, self.control.path]
         sig = []
         for path in sorted(files):

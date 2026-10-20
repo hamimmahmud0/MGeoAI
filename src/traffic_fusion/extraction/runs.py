@@ -168,6 +168,10 @@ class RunManager:
             state: dict[str, Any] = json.loads(path.read_text("utf-8"))
         except (OSError, json.JSONDecodeError):
             return None
+        thread = self._threads.get(config_id)
+        if state.get("status") == "running" and not (thread and thread.is_alive()):
+            # The job's thread is gone (service restart or crash): never show it as running.
+            state["status"] = "interrupted"
         state["attempt"] = {
             key: state.get(key) for key in ("done", "failed", "input_tokens", "output_tokens")
         }
@@ -196,8 +200,28 @@ class RunManager:
     def list(self) -> list[dict[str, Any]]:
         if not self.runs_dir.is_dir():
             return []
-        rows = [self.status(p.name) for p in sorted(self.runs_dir.iterdir()) if p.is_dir()]
+        rows = [
+            self.status(p.name)
+            for p in sorted(self.runs_dir.iterdir())
+            if p.is_dir() and not p.name.startswith("_")
+        ]
         return [row for row in rows if row]
+
+    def archive(self, config_id: str) -> Path:
+        """Clear a run from the list and from all scores. Results are moved, not deleted,
+        to `runs/_archived/<timestamp>__<config_id>/` so they can be restored by hand."""
+        if not re.fullmatch(r"[a-z0-9_-]+", config_id):
+            raise ValueError("invalid run id")
+        source = self.runs_dir / config_id
+        if not source.is_dir():
+            raise ValueError("run not found")
+        thread = self._threads.get(config_id)
+        if thread and thread.is_alive():
+            raise ValueError("cancel the run before clearing it")
+        target = self.runs_dir / "_archived" / f"{datetime.now(UTC):%Y%m%dT%H%M%S}__{config_id}"
+        target.parent.mkdir(parents=True, exist_ok=True)
+        source.rename(target)
+        return target
 
     def _write_status(self, config_id: str, state: dict[str, Any]) -> None:
         path = self.runs_dir / config_id / "run.json"

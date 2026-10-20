@@ -292,6 +292,16 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         user(request, "admin")
         return runs.list()
 
+    @router.post("/admin/runs/{config_id}/clear")
+    def clear_run(config_id: str, request: Request) -> dict[str, str]:
+        """Archive (not delete) a run so it leaves the list and the scores."""
+        user(request, "admin", csrf=True)
+        try:
+            runs.archive(config_id)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        return {"cleared": config_id}
+
     @router.post("/admin/runs/{config_id}/cancel")
     def cancel_run(config_id: str, request: Request) -> dict[str, bool]:
         user(request, "admin", csrf=True)

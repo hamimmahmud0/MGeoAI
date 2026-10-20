@@ -16,6 +16,7 @@ export function ControlPanel({ session }: { session: Session }) {
   const [spec, setSpec] = useState<RunSpec>({ provider: 'deepseek', model: '', input_set: 'markdown', with_images: false, limit: null })
   const [estimate, setEstimate] = useState<RunEstimate | null>(null)
   const [pricingText, setPricingText] = useState('')
+  const [passwords, setPasswords] = useState<Record<string, string>>({})
   const [message, setMessage] = useState('')
   const [error, setError] = useState('')
   const csrf = session.csrf_token
@@ -112,7 +113,9 @@ export function ControlPanel({ session }: { session: Session }) {
             <td>{item.input_tokens.toLocaleString()} / {item.output_tokens.toLocaleString()}</td><td>{item.cost_usd === null ? 'unknown' : `$${item.cost_usd}`}</td>
             <td><div className="flex gap-1">
               {item.status === 'running' && <button className="btn" onClick={() => void run(() => api.cancelRun(item.config_id, csrf), 'Cancel requested')}>Cancel</button>}
+              {item.status !== 'running' && item.status !== 'finished' && <button className="btn" onClick={() => void run(() => api.startRun({ ...item.spec, only_failed: false }, csrf), 'Resuming: remaining and failed articles')}>Resume</button>}
               {item.status !== 'running' && item.failed > 0 && <button className="btn" onClick={() => void run(() => api.startRun({ ...item.spec, only_failed: true }, csrf), `Retrying ${item.failed} failed article(s)`)}>Retry failed ({item.failed})</button>}
+              {item.status !== 'running' && <button className="btn" title="Moves the results to an archive folder; they are not deleted" onClick={() => { if (window.confirm(`Clear ${item.config_id}? Its results leave the list and the scores (archived on the server, not deleted).`)) void run(() => api.clearRun(item.config_id, csrf), 'Run cleared') }}>Clear</button>}
             </div></td></tr>))}</tbody></table>
       </section>
 
@@ -125,7 +128,7 @@ export function ControlPanel({ session }: { session: Session }) {
 
       <section className="panel p-4">
         <h2 className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-primary">Accounts</h2>
-        <table className="w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">User</th><th>Roles</th><th>Status</th><th /></tr></thead>
+        <table className="w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">User</th><th>Roles</th><th>Status</th><th>New password (12+ characters)</th><th /></tr></thead>
           <tbody>{accounts.map((account) => (
             <tr key={account.username} className="border-t border-line"><td className="py-1">{account.username}</td>
               <td><div className="flex gap-2">{ALL_ROLES.map((role) => (
@@ -134,6 +137,10 @@ export function ControlPanel({ session }: { session: Session }) {
                   if (roles.length) void run(() => api.saveAccount(account.username, roles, undefined, undefined, csrf), `${account.username} updated`)
                 }} />{role}</label>))}</div></td>
               <td>{account.disabled ? 'disabled' : 'active'}</td>
+              <td><div className="flex gap-1">
+                <input className="control w-44" type="password" autoComplete="new-password" aria-label={`New password for ${account.username}`} placeholder="new password" value={passwords[account.username] ?? ''} onChange={(event) => setPasswords({ ...passwords, [account.username]: event.target.value })} />
+                <button className="btn" disabled={(passwords[account.username] ?? '').length < 12} onClick={() => void run(async () => { await api.saveAccount(account.username, account.roles, passwords[account.username], undefined, csrf); setPasswords({ ...passwords, [account.username]: '' }) }, `Password changed for ${account.username}`)}>Set password</button>
+              </div></td>
               <td><button className="btn" onClick={() => void run(() => api.saveAccount(account.username, account.roles, undefined, !account.disabled, csrf), `${account.username} ${account.disabled ? 'enabled' : 'disabled'}`)}>{account.disabled ? 'Enable' : 'Disable'}</button></td></tr>))}</tbody></table>
         <form className="mt-3 flex flex-wrap items-end gap-2" onSubmit={(event) => { event.preventDefault(); void run(async () => { await api.saveAccount(newUser.username, newUser.roles, newUser.password, undefined, csrf); setNewUser({ username: '', password: '', roles: ['annotator'] }) }, 'Account saved') }}>
           <label className="flex flex-col gap-1"><span className="label">New / reset user</span><input className="control" placeholder="username" value={newUser.username} onChange={(event) => setNewUser({ ...newUser, username: event.target.value })} required /></label>

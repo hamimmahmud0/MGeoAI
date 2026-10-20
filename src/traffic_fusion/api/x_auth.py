@@ -10,6 +10,7 @@ from fastapi import HTTPException, Request
 
 from traffic_fusion.api.moderation import (
     SESSION_COOKIE,
+    SESSION_TTL,
     _decode,
     _encode,
     _session_secret,
@@ -58,6 +59,11 @@ def current_user(
     account = store.get(username)
     if expires_at <= int(datetime.now(UTC).timestamp()) or account is None:
         raise HTTPException(status_code=401, detail="Session expired")
+    if account.password_changed_at:
+        issued = datetime.fromtimestamp(expires_at, UTC) - SESSION_TTL
+        # whole-second resolution: the session timestamp is truncated to seconds
+        if issued.timestamp() < int(datetime.fromisoformat(account.password_changed_at).timestamp()):
+            raise HTTPException(status_code=401, detail="Password changed; sign in again")
     if csrf and not hmac.compare_digest(request.headers.get("X-CSRF-Token", ""), csrf_token):
         raise HTTPException(status_code=403, detail="Invalid request token")
     if roles and not set(roles) & set(account.roles):
