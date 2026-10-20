@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it, vi } from 'vitest'
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import { cleanup, render, screen, waitFor } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { App } from './App'
@@ -14,6 +14,7 @@ const publicRoutes = (path: string) => {
 
 const json = (body: unknown, status = 200) => Promise.resolve(new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json' } }))
 
+beforeEach(() => { window.history.pushState({}, '', '/') })
 afterEach(() => { cleanup(); vi.unstubAllGlobals() })
 
 describe('App shell', () => {
@@ -26,6 +27,33 @@ describe('App shell', () => {
     expect(screen.queryByRole('tab', { name: 'Annotate' })).toBeNull()
     expect(screen.queryByRole('tab', { name: 'Control panel' })).toBeNull()
     expect(screen.getByText(/not incident locations/i)).toBeInTheDocument()
+  })
+
+  it('sends a signed-out visitor from /annotate to the sign-in form, and / stays the map', async () => {
+    const signedOut = vi.fn((path: string) => { const body = publicRoutes(path); return body ? json(body) : json({ detail: 'Sign-in required' }, 401) })
+    vi.stubGlobal('fetch', signedOut)
+    window.history.pushState({}, '', '/annotate')
+    render(<App />)
+    expect(await screen.findByRole('heading', { name: /sign in/i })).toBeInTheDocument()
+    expect(screen.queryByTestId('map')).toBeNull()
+  })
+
+  it('opens the sign-in form from the map page and returns to the map after sign-in', async () => {
+    vi.stubGlobal('fetch', vi.fn((path: string, init?: RequestInit) => {
+      const open = publicRoutes(path)
+      if (open) return json(open)
+      if (path.endsWith('/login') && init?.method === 'POST') return json({ username: 'viewer', roles: ['reviewer'], disabled: false, csrf_token: 't' })
+      return json({ detail: 'Sign-in required' }, 401)
+    }))
+    render(<App />)
+    const user = userEvent.setup()
+    await user.click(await screen.findByRole('button', { name: 'Sign in' }))
+    expect(window.location.pathname).toBe('/login')
+    await user.type(await screen.findByLabelText('Username'), 'viewer')
+    await user.type(screen.getByLabelText('Password'), 'x')
+    await user.click(screen.getAllByRole('button', { name: /sign in/i }).at(-1)!)
+    expect(await screen.findByTestId('map')).toBeInTheDocument()
+    expect(window.location.pathname).toBe('/')
   })
 
   it('shows a lock notice on the score tabs while labelling is open', async () => {

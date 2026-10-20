@@ -22,6 +22,9 @@ const TABS: { id: Tab; label: string; roles?: Role[] }[] = [
   { id: 'control', label: 'Control panel', roles: ['admin'] },
 ]
 
+const PATHS: Record<Tab, string> = { map: '/', scores: '/scores', models: '/models', annotate: '/annotate', control: '/control', signin: '/login' }
+const tabFromPath = (path: string): Tab => (Object.entries(PATHS).find(([, value]) => value === path.replace(/\/+$/, '') || (value === '/' && path === ''))?.[0] as Tab | undefined) ?? 'map'
+
 function readTheme(): Theme {
   try {
     const value = localStorage.getItem(THEME_KEY)
@@ -52,26 +55,38 @@ export function App() {
   const [theme, setTheme, resolvedTheme] = useTheme()
   const [session, setSession] = useState<Session | null>(null)
   const [checking, setChecking] = useState(true)
-  const [tab, setTab] = useState<Tab | null>(null)
+  const [tab, setTabState] = useState<Tab>(() => tabFromPath(window.location.pathname))
+  const setTab = useCallback((next: Tab) => {
+    setTabState(next)
+    if (window.location.pathname !== PATHS[next]) window.history.pushState({}, '', PATHS[next])
+  }, [])
+  useEffect(() => {
+    const onPop = () => setTabState(tabFromPath(window.location.pathname))
+    window.addEventListener('popstate', onPop)
+    return () => window.removeEventListener('popstate', onPop)
+  }, [])
 
   useEffect(() => {
     api.me().then(setSession).catch(() => setSession(null)).finally(() => setChecking(false))
   }, [])
 
   const visible = useMemo(() => TABS.filter((item) => !item.roles || session?.roles.some((role) => item.roles?.includes(role))), [session])
-  const active: Tab | undefined = tab === 'signin' && !session ? 'signin' : tab && visible.some((item) => item.id === tab) ? tab : visible[0]?.id
+  const protectedTab = TABS.find((item) => item.id === tab)?.roles !== undefined
+  // signed-out visitors on /annotate or /control are sent to the sign-in form, then back
+  const active: Tab = tab === 'signin' ? (session ? 'map' : 'signin')
+    : visible.some((item) => item.id === tab) ? tab : protectedTab && !session ? 'signin' : 'map'
   const signOut = useCallback(async () => {
     if (session) await api.logout(session.csrf_token).catch(() => undefined)
     setSession(null)
     setTab('map')
-  }, [session])
+  }, [session, setTab])
   const nextTheme = () => setTheme(theme === 'system' ? 'light' : theme === 'light' ? 'dark' : 'system')
   const ThemeIcon = theme === 'dark' ? Moon : theme === 'light' ? Sun : Monitor
 
   return (
     <div className="flex min-h-screen flex-col">
       <header className="flex items-center gap-4 border-b border-line bg-surface px-4">
-        <div className="py-2 text-[13px] font-bold tracking-[0.2em] text-primary">MGEOAI<span className="text-muted">/</span><span className="text-ink">EXTRACT</span></div>
+        <a href="/" onClick={(event) => { event.preventDefault(); setTab('map') }} className="py-2 text-[13px] font-bold tracking-[0.2em] text-primary no-underline">MGEOAI<span className="text-muted">/</span><span className="text-ink">EXTRACT</span></a>
         <nav role="tablist" aria-label="Sections" className="flex flex-1 overflow-x-auto">
           {visible.map((item) => (
             <button key={item.id} role="tab" aria-selected={active === item.id} className="tab" onClick={() => setTab(item.id)}>{item.label}</button>
@@ -79,11 +94,15 @@ export function App() {
         </nav>
         <button className="btn" onClick={nextTheme} aria-label={`Theme: ${theme}`} title={`Theme: ${theme}`}><ThemeIcon size={14} />{theme}</button>
         {session ? <button className="btn" onClick={signOut}><LogOut size={14} />{session.username}</button>
-          : <button className="btn" onClick={() => setTab('signin')}>Sign in</button>}
+          : <button className="btn btn-primary" onClick={() => setTab('signin')}>Sign in</button>}
       </header>
       <main className="flex-1">
         {checking ? <p className="p-6 text-muted">Loading…</p>
-          : active === 'signin' ? <SignIn onSession={(next) => { setSession(next); setTab(next.roles.includes('admin') ? 'control' : next.roles.includes('annotator') ? 'annotate' : 'map') }} />
+          : active === 'signin' ? <SignIn onSession={(next) => {
+            setSession(next)
+            const wanted = TABS.find((item) => item.id === tab && item.roles?.some((role) => next.roles.includes(role)))
+            setTab(wanted ? wanted.id : 'map')
+          }} />
           : active === 'map' ? <MapTab theme={resolvedTheme} />
           : active === 'scores' ? <ScoresTab />
           : active === 'models' ? <ModelsTab />

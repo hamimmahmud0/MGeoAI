@@ -7,3 +7,6 @@
 
 ### 2026-10-20 — slice 2
 - Open shell: World map, Annotation score and LLM models tabs need no account; Annotate (annotator role) and Control panel (admin) need sign-in. Map shows collection-country counts while labelling is open, gold or model incidents after. Retry-failed button and cumulative run totals in the Control panel. Not yet tried in a real browser with real run data (none exists yet).
+
+### 2026-10-20 — slice 3
+- `/` is the open world-map view; `/scores`, `/models` open; `/annotate`, `/control` need sign-in (signed-out visitors are sent to `/login` and back); header "Sign in" button; routes mirror the URL (pushState/popstate). Coverage layer now includes 7 countries missing from `global_countries.toml` (approximate centroids), so all 244 articles are counted.

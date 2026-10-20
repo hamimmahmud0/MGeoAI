@@ -26,6 +26,14 @@ from traffic_fusion.extraction.scoring import (
     model_metrics,
 )
 
+# Collection-country centroids for countries missing from configs/global_countries.toml
+# (lon, lat, name). Approximate; used only for the "collection countries" map layer.
+EXTRA_CENTROIDS = {
+    "guatemala": (-90.23, 15.78, "Guatemala"), "bolivia": (-63.59, -16.29, "Bolivia"),
+    "cambodia": (104.99, 12.57, "Cambodia"), "afghanistan": (67.71, 33.94, "Afghanistan"),
+    "iran": (53.69, 32.43, "Iran"), "iraq": (43.68, 33.22, "Iraq"), "algeria": (1.66, 28.03, "Algeria"),
+}
+
 
 class PublicData:
     def __init__(self, root: Path, control: ControlStore, store: ArticleStore,
@@ -96,6 +104,8 @@ class PublicData:
                     profile.coverage_longitude, profile.coverage_latitude, profile.name)
         except Exception:  # noqa: BLE001 - optional config; map just stays empty
             centroids = {}
+        for key, value in EXTRA_CENTROIDS.items():
+            centroids.setdefault(key, value)
         counts: Counter[str] = Counter()
         for article_id in self.store.article_ids():
             admin = self.store.meta(article_id).get("admin") or {}

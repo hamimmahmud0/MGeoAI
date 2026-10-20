@@ -398,3 +398,15 @@ def test_unlocked_dashboard_shows_scores_and_map(env: tuple[TestClient, Path]) -
         assert geo["meta"]["verified"] is (source == "gold")
         assert "SECRET-RAW" not in json.dumps(geo)
     assert client.get("/api/x/public/incidents.geojson", params={"source": "nope"}).status_code == 404
+
+
+def test_coverage_map_includes_countries_missing_from_profiles(env: tuple[TestClient, Path]) -> None:
+    client, root = env
+    meta_path = root / "articles" / "abc123" / "meta.json"
+    meta = json.loads(meta_path.read_text())
+    meta["admin"]["country"] = "Guatemala"
+    meta_path.write_text(json.dumps(meta))
+    feature = client.get("/api/x/public/coverage.geojson").json()["features"][0]
+    assert feature["properties"]["country"] == "Guatemala" and feature["properties"]["articles"] == 1
+    assert feature["properties"]["is_incident_location"] is False
+    assert feature["geometry"]["coordinates"] == [-90.23, 15.78]  # [lon, lat]
