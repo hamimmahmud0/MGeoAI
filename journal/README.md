@@ -12,6 +12,8 @@ results, and open questions. Never record API keys or hidden reasoning.
 | T02 | Add baselines for matching comparison             | todo    | [T02-baselines.md](T02-baselines.md) |
 | T03 | Reframe the LLM-adjudication claim                | todo    | [T03-llm-claim.md](T03-llm-claim.md) |
 | T04 | Put fatality bootstrap interval in the abstract   | todo    | [T04-abstract-interval.md](T04-abstract-interval.md) |
+| T05 | LLM article extraction (schema, providers, runs, scoring) | in-progress | [T05-extraction.md](T05-extraction.md) |
+| T06 | New UI (Annotate, Control panel done; Map, scores, models todo) | in-progress | [T06-ui.md](T06-ui.md) |
 
 Status values: todo, in-progress, blocked, done.
 

@@ -17,6 +17,7 @@ from traffic_fusion.corpus.reporting import render_news_source_catalog, render_v
 from traffic_fusion.corpus.store import CorpusStore
 from traffic_fusion.corpus.validation import validate_corpus
 from traffic_fusion.evaluation import extraction_coverage, matching_metrics
+from traffic_fusion.extraction.cli import extract_app
 from traffic_fusion.ingest.discovery import write_manifest
 from traffic_fusion.models import FusedIncident, MatchDecision
 from traffic_fusion.paper_evaluation import generate_paper_evaluation
@@ -30,6 +31,7 @@ app = typer.Typer(
 
 
 app.add_typer(annotate_app, name="annotate")
+app.add_typer(extract_app, name="x")
 
 
 @app.command("hash-reviewer-password")

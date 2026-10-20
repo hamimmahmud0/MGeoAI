@@ -1,55 +1,42 @@
-import type { AnnotationLabel, AnnotationQueue, CoverageCollection, Incident, IncidentEvidence, Page, ProviderRun, ReviewerSession, Source, SourceDetail, Submission, SubmissionInput, SubmissionStatus } from '../types'
+import type { RunEstimate, RunSpec, RunState, AccountRow, ArticleDetail, ArticleQueue, ControlSettings, ControlState, ImageLabel, AccidentRecord, Role, Session } from '../types'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, { credentials: 'same-origin', ...init })
   if (!response.ok) {
-    const body = await response.json().catch(() => undefined) as { detail?: string } | undefined
-    throw new Error(body?.detail || `${response.status} ${response.statusText}`)
+    const body = await response.json().catch(() => undefined) as { detail?: unknown } | undefined
+    const raw = body?.detail
+    const detail = typeof raw === 'string' ? raw
+      : Array.isArray(raw) ? raw.map((item: { loc?: unknown[]; msg?: string }) => `${(item.loc ?? []).slice(1).join('.')}: ${(item.msg ?? '').replace(/^Value error, /, '')}`).join('; ')
+      : undefined
+    throw new Error(detail || `${response.status} ${response.statusText}`)
   }
   return response.json() as Promise<T>
 }
 
-async function requestText(path: string): Promise<string> {
-  const response = await fetch(path, { credentials: 'same-origin' })
-  if (!response.ok) {
-    const body = await response.json().catch(() => undefined) as { detail?: string } | undefined
-    throw new Error(body?.detail || `${response.status} ${response.statusText}`)
-  }
-  return response.text()
-}
-
-function jsonRequest(method: string, value?: unknown, csrfToken?: string): RequestInit {
+function send(method: string, value: unknown, csrf?: string): RequestInit {
   const headers: Record<string, string> = { 'Content-Type': 'application/json' }
-  if (csrfToken) headers['X-CSRF-Token'] = csrfToken
+  if (csrf) headers['X-CSRF-Token'] = csrf
   return { method, headers, body: value === undefined ? undefined : JSON.stringify(value) }
 }
 
-function submissionRequest(value: SubmissionInput): RequestInit {
-  const form = new FormData()
-  form.set('submission_type', value.submission_type)
-  form.set('package', value.package)
-  if (value.submitter_name) form.set('submitter_name', value.submitter_name)
-  return { method: 'POST', body: form }
-}
+export type LabelBody = { accidents: AccidentRecord[]; images: ImageLabel[]; unusable: boolean; notes: string }
 
 export const api = {
-  incidents: (query = '') => request<Page<Incident>>(`/api/incidents?${query}`),
-  incident: (id: string) => request<Incident>(`/api/incidents/${encodeURIComponent(id)}`),
-  geojson: (query = '') => request<GeoJSON.FeatureCollection<GeoJSON.Point>>(`/api/incidents.geojson?${query}`),
-  coverage: () => request<CoverageCollection>('/api/coverage.geojson'),
-  sources: () => request<Page<Source>>('/api/sources?page_size=1000'),
-  source: (id: string) => request<SourceDetail>(`/api/sources/${encodeURIComponent(id)}`),
-  evidence: (incidentId: string) => request<IncidentEvidence>(`/api/incidents/${encodeURIComponent(incidentId)}/evidence`),
-  runs: () => request<Page<ProviderRun>>('/api/runs?page_size=200'),
-  submit: (value: SubmissionInput) => request<{ submission_id: string; status: SubmissionStatus; submitted_at: string }>('/api/submissions', submissionRequest(value)),
-  submissionStatus: (id: string) => request<{ submission_id: string; status: SubmissionStatus; submitted_at: string; reviewed_at?: string }>(`/api/submissions/${encodeURIComponent(id)}/status`),
-  reviewerMe: () => request<ReviewerSession>('/api/reviewer/me'),
-  reviewerLogin: (username: string, password: string) => request<ReviewerSession>('/api/reviewer/login', jsonRequest('POST', { username, password })),
-  reviewerLogout: (csrfToken: string) => request<{ status: string }>('/api/reviewer/logout', jsonRequest('POST', undefined, csrfToken)),
-  reviewerSubmissions: (status?: SubmissionStatus) => request<{ items: Submission[]; total: number }>(`/api/reviewer/submissions${status ? `?status=${status}` : ''}`),
-  reviewerFileText: (submissionId: string, fileId: string) => requestText(`/api/reviewer/submissions/${encodeURIComponent(submissionId)}/files/${encodeURIComponent(fileId)}`),
-  reviewerDownloadUrl: (submissionId: string) => `/api/reviewer/submissions/${encodeURIComponent(submissionId)}/download`,
-  annotationItems: () => request<AnnotationQueue>('/api/annotate/items'),
-  saveAnnotation: (itemId: string, label: AnnotationLabel, notes: string, csrfToken: string) => request<unknown>(`/api/annotate/labels/${encodeURIComponent(itemId)}`, jsonRequest('PUT', { label, notes }, csrfToken)),
-  reviewSubmission: (id: string, decision: 'approve' | 'reject', note: string, csrfToken: string) => request<Submission>(`/api/reviewer/submissions/${encodeURIComponent(id)}/review`, jsonRequest('POST', { decision, note: note || undefined }, csrfToken)),
+  me: () => request<Session>('/api/x/me'),
+  login: (username: string, password: string) => request<Session>('/api/x/login', send('POST', { username, password })),
+  logout: (csrf: string) => request<{ ok: boolean }>('/api/x/logout', send('POST', undefined, csrf)),
+  articles: () => request<ArticleQueue>('/api/x/articles'),
+  article: (id: string) => request<ArticleDetail>(`/api/x/articles/${encodeURIComponent(id)}`),
+  saveLabel: (id: string, body: LabelBody, csrf: string) => request<{ revision: number }>(`/api/x/labels/${encodeURIComponent(id)}`, send('PUT', body, csrf)),
+  accounts: () => request<AccountRow[]>('/api/x/admin/accounts'),
+  saveAccount: (name: string, roles: Role[], password: string | undefined, disabled: boolean | undefined, csrf: string) =>
+    request<AccountRow>(`/api/x/admin/accounts/${encodeURIComponent(name)}`, send('PUT', { roles, password, disabled }, csrf)),
+  control: () => request<ControlState>('/api/x/admin/control'),
+  saveControl: (settings: ControlSettings, csrf: string) => request<ControlState>('/api/x/admin/control', send('PUT', settings, csrf)),
+  savePricing: (pricing: ControlSettings['pricing'], csrf: string) => request<unknown>('/api/x/admin/pricing', send('PUT', { pricing }, csrf)),
+  estimateRun: (spec: RunSpec, csrf: string) => request<RunEstimate>('/api/x/admin/runs/estimate', send('POST', spec, csrf)),
+  startRun: (spec: RunSpec, csrf: string) => request<RunState>('/api/x/admin/runs', send('POST', spec, csrf)),
+  runs: () => request<RunState[]>('/api/x/admin/runs'),
+  cancelRun: (id: string, csrf: string) => request<{ cancelled: boolean }>(`/api/x/admin/runs/${encodeURIComponent(id)}/cancel`, send('POST', undefined, csrf)),
+  setKey: (provider: string, key: string | null, csrf: string) => request<Pick<ControlState, 'keys'>>(`/api/x/admin/keys/${provider}`, send('PUT', { key }, csrf)),
 }

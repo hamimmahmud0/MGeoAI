@@ -1,35 +1,44 @@
-import { cleanup, fireEvent, render, screen } from '@testing-library/react'
-import { afterEach, expect, test, vi } from 'vitest'
+import { afterEach, describe, expect, it, vi } from 'vitest'
+import { cleanup, render, screen, waitFor } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { App } from './App'
 
-vi.mock('./components/MapView', () => ({ MapView: () => <div aria-label="Road and region map of traffic incidents" /> }))
-vi.mock('./components/CoverageMap', () => ({ CoverageMap: () => <div aria-label="Collection-country source coverage map" /> }))
-vi.stubGlobal('fetch', vi.fn(() => Promise.resolve({ ok: true, json: () => Promise.resolve({ items: [], total: 0, page: 1, page_size: 50, type: 'FeatureCollection', features: [] }) })) as unknown as typeof fetch)
+const json = (body: unknown, status = 200) => Promise.resolve(new Response(JSON.stringify(body), { status, headers: { 'Content-Type': 'application/json' } }))
 
-afterEach(cleanup)
+afterEach(() => { cleanup(); vi.unstubAllGlobals() })
 
-test('renders operational map and accessible filters', () => {
-  render(<App />)
-  expect(screen.getByText('MGeoAI')).toBeInTheDocument()
-  expect(screen.getByLabelText('Road and region map of traffic incidents')).toBeInTheDocument()
-  expect(screen.getByLabelText('Severity')).toBeInTheDocument()
-  expect(screen.getByText('Unmapped')).toBeInTheDocument()
-})
+describe('App shell', () => {
+  it('shows sign-in when there is no session', async () => {
+    vi.stubGlobal('fetch', vi.fn(() => json({ detail: 'Sign-in required' }, 401)))
+    render(<App />)
+    expect(await screen.findByRole('button', { name: /sign in/i })).toBeInTheDocument()
+  })
 
-test('defaults to system theme and allows an explicit override', () => {
-  window.localStorage.removeItem('mgeoai-theme')
-  window.localStorage.removeItem('traffic-fusion-theme')
-  render(<App />)
-  const theme = screen.getByLabelText('Theme')
-  expect(theme).toHaveValue('system')
-  fireEvent.change(theme, { target: { value: 'dark' } })
-  expect(document.documentElement.dataset.theme).toBe('dark')
-  expect(window.localStorage.getItem('mgeoai-theme')).toBe('dark')
-})
+  it('shows only the Annotate tab to annotators and the control panel to admins', async () => {
+    vi.stubGlobal('fetch', vi.fn((path: string) => path.endsWith('/me')
+      ? json({ username: 'ann', roles: ['annotator'], disabled: false, csrf_token: 't' })
+      : json({ annotator: 'ann', total: 0, labeled: 0, articles: [] })))
+    render(<App />)
+    expect(await screen.findByRole('tab', { name: 'Annotate' })).toBeInTheDocument()
+    expect(screen.queryByRole('tab', { name: 'Control panel' })).toBeNull()
+  })
 
-test('labels global coverage centroids as non-incident locations', () => {
-  render(<App />)
-  fireEvent.click(screen.getByRole('button', { name: 'Global coverage' }))
-  expect(screen.getByLabelText('Collection-country source coverage map')).toBeInTheDocument()
-  expect(screen.getByText(/not reported crash locations/i)).toBeInTheDocument()
+  it('never renders a stored API key after it is set', async () => {
+    const secret = 'sk-test-secret-value'
+    const state = { settings: { labelling_open: true, pricing: {}, run_token_limit: 2000000, max_images_per_article: 3, run_cost_limit_usd: 5, daily_cost_limit_usd: 20, concurrency: 2, providers: Object.fromEntries(['openai', 'anthropic', 'openrouter', 'deepseek'].map((n) => [n, { model: '', base_url: '', input_cost_per_million_usd: null, output_cost_per_million_usd: null, timeout_seconds: 120, max_output_tokens: 4000, supports_images: false }])) }, keys: { openai: { configured: true, source: 'ui_memory' }, anthropic: { configured: false, source: 'none' }, openrouter: { configured: false, source: 'none' }, deepseek: { configured: false, source: 'none' } } }
+    vi.stubGlobal('fetch', vi.fn((path: string, init?: RequestInit) => {
+      if (path.endsWith('/me')) return json({ username: 'root', roles: ['admin'], disabled: false, csrf_token: 't' })
+      if (path.includes('/admin/keys/')) { expect((init?.headers as Record<string, string>)['X-CSRF-Token']).toBe('t'); return json({ keys: state.keys }) }
+      if (path.endsWith('/admin/runs')) return json([])
+      if (path.endsWith('/admin/accounts')) return json([{ username: 'root', roles: ['admin'], disabled: false }])
+      return json(state)
+    }))
+    render(<App />)
+    const user = userEvent.setup()
+    const inputs = await screen.findAllByPlaceholderText('paste API key')
+    await user.type(inputs[0], secret)
+    await user.click(screen.getAllByRole('button', { name: 'Set' })[0])
+    await waitFor(() => expect(screen.getByText(/ChatGPT \(OpenAI\) · set \(ui_memory\)/)).toBeInTheDocument())
+    expect(document.body.innerHTML).not.toContain(secret)
+  })
 })

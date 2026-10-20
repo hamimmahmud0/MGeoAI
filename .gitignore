@@ -22,9 +22,11 @@ outputs/
 
 # T01 benchmark: annotation data, fetched third-party pages, generated candidates
 /annotation/
+/extraction/
 benchmark/pages/
 benchmark/items_import.json
 benchmark/dropped_articles.json
 benchmark/robots_report.json
 benchmark/fetch.log
 benchmark/scraps/
+.creds

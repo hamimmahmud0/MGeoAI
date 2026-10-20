@@ -16,6 +16,7 @@ from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse
 from fastapi.staticfiles import StaticFiles
 
 from traffic_fusion.api.annotation import build_router as build_annotation_router
+from traffic_fusion.api.extraction import build_router as build_extraction_router
 from traffic_fusion.api.moderation import (
     MAX_UPLOAD_BYTES,
     SESSION_COOKIE,
@@ -612,6 +613,13 @@ def create_app(
     app.include_router(
         build_annotation_router(
             annotation_dir or Path(os.getenv("MGEOAI_ANNOTATION_DIR", "annotation"))
+        )
+    )
+
+    app.include_router(
+        build_extraction_router(
+            Path(os.getenv("MGEOAI_EXTRACTION_DIR", "extraction")),
+            secure_cookies=os.getenv("MGEOAI_SECURE_COOKIES", "") == "1",
         )
     )
 
