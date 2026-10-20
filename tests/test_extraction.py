@@ -535,3 +535,13 @@ def test_article_pages_open_text_but_lock_annotations_and_models(env: tuple[Test
     assert detail["models"][0]["raw_text"] == "SECRET-RAW" and detail["models"][0]["spec"]["provider"] == "deepseek"
     flat = json.dumps(detail)
     assert not any(word in flat for word in ("ann_a", "ann_b", "ann_c", "SECRET-CLAIM", "g001", "agent_claim"))
+
+
+def test_output_token_cap_accepts_large_model_maximums(env: tuple[TestClient, Path]) -> None:
+    client, _ = env
+    csrf = login(client, "boss")
+    settings = client.get("/api/x/admin/control").json()["settings"]
+    for value, expected in ((524288, 200), (1048576, 200), (1048577, 422)):
+        settings["providers"]["openrouter"]["max_output_tokens"] = value
+        response = client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf})
+        assert response.status_code == expected, value

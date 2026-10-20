@@ -33,3 +33,6 @@
 
 ### 2026-10-20 — concurrency 50
 - Control-panel concurrency limit raised from 8 to 50 and set to 50 on the VPS. Caveat: the run token limit is checked before each article starts, so with 50 workers up to 49 calls already in flight can push a run past the limit (thinking calls can emit up to 393k output tokens each). 2.9 GB VPS: 50 threads are fine for memory; provider rate limits (OpenRouter free: about 20 requests/min, 50/day without credits) are the real ceiling.
+
+### 2026-10-20 — OpenRouter output cap
+- Looked up `minimax/minimax-m3.1-flash:free` in the OpenRouter models list (2026-10-20): context 1,000,000; max completion 524,288; accepts images; supports `response_format`. Set OpenRouter Max output tokens to 524,288 and timeout 600 s on the VPS; the per-provider cap validation was raised to 1,048,576. Limits are per model: change the cap when the model id changes. Prices 0.15/0.6 are still entered on this `:free` model, so cost shows as non-zero.

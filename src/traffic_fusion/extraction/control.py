@@ -32,7 +32,7 @@ class ProviderConfig(BaseModel):
     input_cost_per_million_usd: float | None = Field(default=None, ge=0, le=10000)
     output_cost_per_million_usd: float | None = Field(default=None, ge=0, le=10000)
     timeout_seconds: int = Field(default=120, ge=5, le=1800)
-    max_output_tokens: int = Field(default=4000, ge=256, le=393216)
+    max_output_tokens: int = Field(default=4000, ge=256, le=1048576)
     supports_images: bool = False
     # DeepSeek only: "default" = the model's own mode (thinking on); "disabled" turns it off.
     # Reasoning tokens count against max_output_tokens, so keep that cap high when it is on.
