@@ -106,11 +106,14 @@ export function ControlPanel({ session }: { session: Session }) {
           <button className="btn btn-primary" disabled={!spec.model || !estimate} onClick={() => void run(() => api.startRun(spec, csrf), 'Run started')}>Start run</button>
         </div>
         {estimate && <p className="mt-2 border border-line p-2">{estimate.articles_todo} of {estimate.articles_total} articles to do · ~{estimate.est_input_tokens.toLocaleString()} input + ~{estimate.est_output_tokens.toLocaleString()} output tokens · {estimate.images_to_send} images · cost: {estimate.est_cost_usd === null ? 'unknown (no price set)' : `$${estimate.est_cost_usd.toFixed(4)}`}{!estimate.within_token_limit && <span className="text-danger"> · exceeds the {estimate.token_limit.toLocaleString()}-token limit; the run will stop early</span>}</p>}
-        <table className="mt-3 w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">Configuration</th><th>Status</th><th>Done / failed</th><th>Tokens in/out</th><th>Cost</th><th /></tr></thead>
+        <table className="mt-3 w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">Configuration</th><th>Status</th><th>Done / failed (total)</th><th>Tokens in/out</th><th>Cost</th><th /></tr></thead>
           <tbody>{runs.map((item) => (<tr key={item.config_id} className="border-t border-line"><td className="py-1 break-all">{item.config_id}</td>
             <td>{item.status}{item.stop_reason ? ` (${item.stop_reason})` : ''}</td><td>{item.done} / {item.failed}</td>
             <td>{item.input_tokens.toLocaleString()} / {item.output_tokens.toLocaleString()}</td><td>{item.cost_usd === null ? 'unknown' : `$${item.cost_usd}`}</td>
-            <td>{item.status === 'running' && <button className="btn" onClick={() => void run(() => api.cancelRun(item.config_id, csrf), 'Cancel requested')}>Cancel</button>}</td></tr>))}</tbody></table>
+            <td><div className="flex gap-1">
+              {item.status === 'running' && <button className="btn" onClick={() => void run(() => api.cancelRun(item.config_id, csrf), 'Cancel requested')}>Cancel</button>}
+              {item.status !== 'running' && item.failed > 0 && <button className="btn" onClick={() => void run(() => api.startRun({ ...item.spec, only_failed: true }, csrf), `Retrying ${item.failed} failed article(s)`)}>Retry failed ({item.failed})</button>}
+            </div></td></tr>))}</tbody></table>
       </section>
 
       <section className="panel p-4">

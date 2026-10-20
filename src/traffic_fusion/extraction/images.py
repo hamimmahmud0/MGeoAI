@@ -8,6 +8,7 @@ size cap, image content types only. No circumvention; a refusal is recorded, not
 from __future__ import annotations
 
 import hashlib
+import io
 import json
 import time
 from pathlib import Path
@@ -22,6 +23,66 @@ MAX_BYTES = 5_000_000
 MIN_DELAY = 3.0
 EXT = {"image/jpeg": "jpg", "image/png": "png", "image/gif": "gif", "image/webp": "webp"}
 MAX_PER_ARTICLE = 6
+MIN_BYTES = 8_000
+MIN_SIDE, MIN_LONG = 200, 300  # pixels: shortest side, longest side
+
+
+def good_image(data: bytes) -> bool:
+    """True for real photos: big enough in bytes and pixels (drops icons, logos, ads)."""
+    if len(data) < MIN_BYTES:
+        return False
+    try:
+        from PIL import Image
+
+        with Image.open(io.BytesIO(data)) as picture:
+            width, height = picture.size
+    except Exception:  # noqa: BLE001 - any decode problem means "not usable"
+        return False
+    return min(width, height) >= MIN_SIDE and max(width, height) >= MIN_LONG
+
+
+def refresh_candidates(root: Path) -> dict[str, int]:
+    """Recompute candidate lists from raw.html with the current filters.
+
+    Existing download results are kept by URL; saved files that no longer pass the
+    quality filter are removed and marked `too_small`/`filtered`. Safe to re-run.
+    """
+    from traffic_fusion.extraction.prepare import image_candidates
+
+    counts = {"kept": 0, "new": 0, "removed": 0}
+    for folder in sorted((root / "articles").iterdir()):
+        meta_path = folder / "meta.json"
+        if not meta_path.exists():
+            continue
+        meta: dict[str, Any] = json.loads(meta_path.read_text("utf-8"))
+        old = {item["url"]: item for item in meta.get("images", [])}
+        fresh = image_candidates((folder / "raw.html").read_bytes(), meta.get("url"))
+        merged: list[dict[str, Any]] = []
+        for item in fresh:
+            previous = old.pop(item["url"], None)
+            if previous is None:
+                counts["new"] += 1
+            merged.append({**item, **{k: v for k, v in (previous or {}).items()
+                                      if k not in {"alt", "source"}}})
+        for item in merged:
+            file = item.get("file")
+            if file and not good_image((folder / "images" / file).read_bytes()):
+                (folder / "images" / file).unlink(missing_ok=True)
+                for key in ("file", "sha256", "content_type", "bytes"):
+                    item.pop(key, None)
+                item["status"] = "too_small"
+                counts["removed"] += 1
+            elif file:
+                counts["kept"] += 1
+            elif item.get("status") == "over_limit":
+                item.pop("status")  # give it another chance under the new filters
+        for leftover in old.values():  # candidates dropped by the new filters
+            if leftover.get("file"):
+                (folder / "images" / leftover["file"]).unlink(missing_ok=True)
+                counts["removed"] += 1
+        meta["images"] = merged
+        meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2) + "\n", "utf-8")
+    return counts
 
 
 class RobotsCache:
@@ -68,7 +129,9 @@ def fetch_article_images(root: Path, article_ids: list[str] | None = None) -> di
             images: list[dict[str, Any]] = meta.get("images", [])
             kept = 0
             for index, image in enumerate(images, start=1):
-                if image.get("file") or image.get("status") in {"robots", "failed", "not_image"}:
+                if image.get("file") or image.get("status") in {
+                    "robots", "failed", "not_image", "too_small"
+                }:
                     kept += 1 if image.get("file") else 0
                     counts["skipped"] += 1
                     continue
@@ -97,6 +160,10 @@ def fetch_article_images(root: Path, article_ids: list[str] | None = None) -> di
                 except httpx.HTTPError as exc:
                     image["status"] = "failed"
                     image["error"] = type(exc).__name__
+                    counts["failed"] += 1
+                    continue
+                if not good_image(body):
+                    image["status"] = "too_small"
                     counts["failed"] += 1
                     continue
                 target = folder / "images"

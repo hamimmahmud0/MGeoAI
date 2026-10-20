@@ -40,6 +40,7 @@ class RunSpec(BaseModel):
     input_set: str = Field(pattern="^(raw|markdown)$")
     with_images: bool = False
     limit: int | None = Field(default=None, ge=1, le=100000)
+    only_failed: bool = False  # retry just the articles whose stored result is a failure
     article_ids: list[str] | None = None
 
     def config_id(self) -> str:
@@ -97,6 +98,23 @@ class RunManager:
             ids = [i for i in ids if i in set(spec.article_ids)]
         return ids[: spec.limit] if spec.limit else ids
 
+    def _status_of(self, config_id: str, article_id: str) -> str | None:
+        path = self.runs_dir / config_id / f"{article_id}.json"
+        try:
+            return str(json.loads(path.read_text("utf-8")).get("status"))
+        except (OSError, json.JSONDecodeError):
+            return None
+
+    def _pending(self, spec: RunSpec) -> list[str]:
+        """Articles still to do: no result yet, or a failed one. only_failed skips unseen."""
+        config_id = spec.config_id()
+        todo = []
+        for article_id in self._articles(spec):
+            status = self._status_of(config_id, article_id)
+            if status == "failed" or (status is None and not spec.only_failed):
+                todo.append(article_id)
+        return todo
+
     def _source(self, article_id: str, input_set: str) -> str:
         folder = self.root / "articles" / article_id
         name = "model_raw.html" if input_set == "raw" else "article.md"
@@ -117,8 +135,7 @@ class RunManager:
     def estimate(self, spec: RunSpec) -> dict[str, Any]:
         settings = self.control.settings()
         ids = self._articles(spec)
-        done = {p.stem for p in (self.runs_dir / spec.config_id()).glob("*.json") if p.name != "run.json"}
-        todo = [i for i in ids if i not in done]
+        todo = self._pending(spec)
         prompt_chars = len(PROMPT_PATH.read_text("utf-8"))
         chars = sum(len(self._source(i, spec.input_set)) + prompt_chars for i in todo)
         images = (
@@ -142,11 +159,39 @@ class RunManager:
         }
 
     def status(self, config_id: str) -> dict[str, Any] | None:
+        """Run state with cumulative totals derived from the per-article results.
+
+        `attempt` keeps the counters of the latest start (a retry resets those only).
+        """
         path = self.runs_dir / config_id / "run.json"
         try:
-            return json.loads(path.read_text("utf-8"))  # type: ignore[no-any-return]
+            state: dict[str, Any] = json.loads(path.read_text("utf-8"))
         except (OSError, json.JSONDecodeError):
             return None
+        state["attempt"] = {
+            key: state.get(key) for key in ("done", "failed", "input_tokens", "output_tokens")
+        }
+        done = failed = tokens_in = tokens_out = 0
+        for result in path.parent.glob("*.json"):
+            if result.name == "run.json":
+                continue
+            try:
+                row = json.loads(result.read_text("utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            done += row.get("status") == "ok"
+            failed += row.get("status") == "failed"
+            tokens_in += row.get("input_tokens") or 0
+            tokens_out += row.get("output_tokens") or 0
+        spec = state.get("spec") or {}
+        price = self.control.price(str(spec.get("provider")), str(spec.get("model")))
+        state.update(done=done, failed=failed, input_tokens=tokens_in, output_tokens=tokens_out)
+        state["cost_usd"] = (
+            round((tokens_in * price.input_per_million_usd
+                   + tokens_out * price.output_per_million_usd) / 1e6, 6)
+            if price else None
+        )
+        return state
 
     def list(self) -> list[dict[str, Any]]:
         if not self.runs_dir.is_dir():
@@ -202,8 +247,7 @@ class RunManager:
         prompt_hash = stable_hash(system, 16)
         config_dir = self.runs_dir / state["config_id"]
         lock = threading.Lock()
-        ids = [i for i in self._articles(spec) if not (config_dir / f"{i}.json").exists()
-               or json.loads((config_dir / f"{i}.json").read_text("utf-8")).get("status") != "ok"]
+        ids = self._pending(spec)
 
         def one(article_id: str) -> None:
             if cancel.is_set() or state["stop_reason"]:

@@ -264,3 +264,137 @@ def test_unimplemented_provider_and_missing_key(tmp_path: Path) -> None:
     control.set_key("deepseek", None)
     with pytest.raises(ValueError, match="no API key"):
         manager.start(RunSpec(provider="deepseek", model="x", input_set="raw"))
+
+
+def test_image_filters_and_refresh(tmp_path: Path) -> None:
+    import io
+
+    from PIL import Image
+
+    from traffic_fusion.extraction.images import good_image, refresh_candidates
+
+    def png(size: tuple[int, int]) -> bytes:
+        buffer = io.BytesIO()
+        Image.effect_noise(size, 80).convert("RGB").save(buffer, "PNG")
+        return buffer.getvalue()
+
+    assert good_image(png((400, 300))) and not good_image(png((40, 40))) and not good_image(b"<html>")
+    html = (
+        b"<html><head><meta property='og:image' content='https://x.test/hero.jpg'></head><body><article>"
+        b"<img src='/img/logo.png'><img src='data:image/gif;base64,AAAA' data-src='/p/photo.jpg'>"
+        b"<img srcset='/s/a-320.jpg 320w, /s/a-1200.jpg 1200w' src='/s/a-320.jpg'>"
+        b"<img src='page_files/x.jpg'><img src='/i/icon.svg'></article></body></html>"
+    )
+    folder = tmp_path / "articles" / "a1"
+    (folder / "images").mkdir(parents=True)
+    (folder / "raw.html").write_bytes(html)
+    (folder / "images" / "1.png").write_bytes(png((30, 30)))  # saved earlier, now too small
+    (folder / "meta.json").write_text(json.dumps({"url": "https://x.test/a", "images": [
+        {"url": "https://x.test/hero.jpg", "source": "og:image", "alt": "", "file": "1.png",
+         "content_type": "image/png", "bytes": 9000}]}))
+    counts = refresh_candidates(tmp_path)
+    meta = json.loads((folder / "meta.json").read_text())
+    urls = [item["url"] for item in meta["images"]]
+    assert urls == ["https://x.test/hero.jpg", "https://x.test/p/photo.jpg", "https://x.test/s/a-1200.jpg"]
+    assert counts["removed"] == 1 and meta["images"][0]["status"] == "too_small"
+    assert not (folder / "images" / "1.png").exists()
+
+
+def test_retry_failed_only_and_estimate_counts_failed(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    replies = iter([_reply(), _reply(401), _reply()])
+    monkeypatch.setattr(providers.httpx, "post", lambda *a, **k: next(replies))
+    manager, control = _setup(tmp_path, 3)
+    settings = control.settings()
+    settings.concurrency = 1
+    control.save(settings)
+    spec = RunSpec(provider="deepseek", model="deepseek-flash", input_set="markdown")
+    manager.start(spec)
+    state = _wait(manager, spec.config_id())
+    assert (state["done"], state["failed"]) == (2, 1)
+    assert manager.estimate(spec)["articles_todo"] == 1  # the failed one is still to do
+    retry = spec.model_copy(update={"only_failed": True})
+    monkeypatch.setattr(providers.httpx, "post", lambda *a, **k: _reply())
+    manager.start(retry)
+    state = _wait(manager, spec.config_id())
+    assert state["attempt"]["done"] == 1  # only the failed article was re-run
+    assert state["done"] == 3 and state["failed"] == 0  # cumulative totals
+    assert manager.estimate(retry)["articles_todo"] == 0
+
+
+# --- open dashboard: lock + scoring -------------------------------------------------------
+def _seed_scored(root: Path) -> None:
+    """3 annotators label a1 (accident, 6 dead); a model run got it right; a2 unlabelled."""
+    from traffic_fusion.extraction.annotation_store import ArticleStore
+    from traffic_fusion.extraction.schema import AccidentRecord
+
+    store = ArticleStore(root)
+    for name in ("ann_a", "ann_b", "ann_c"):
+        deaths = 7 if name == "ann_c" else 6  # one dissent: majority still 6
+        store.append(name, "abc123", [AccidentRecord.model_validate({
+            "accident": True, "fatalities": deaths, "casualities": deaths, "vehicles": ["truck"],
+            "date": "2025-11-04", "country": "Bangladesh", "location": "Kabirhat, Noakhali",
+            "longitude and latitude": "22.88,91.1"})], [], False, "")
+    run = root / "runs" / "deepseek__deepseek-flash__markdown__txt"
+    run.mkdir(parents=True)
+    (run / "run.json").write_text(json.dumps({
+        "config_id": run.name, "spec": {"provider": "deepseek", "model": "deepseek-flash",
+        "input_set": "markdown", "with_images": False}, "status": "finished",
+        "started_at": "x", "finished_at": "y", "done": 1, "failed": 0, "input_tokens": 10,
+        "output_tokens": 5, "cost_usd": None, "cost_known": False, "stop_reason": None}))
+    (run / "abc123.json").write_text(json.dumps({
+        "article_id": "abc123", "status": "ok", "input_tokens": 10, "output_tokens": 5,
+        "latency_ms": 100, "quality": {"quotes": 2, "verbatim": 2},
+        "raw_text": "SECRET-RAW", "accidents": [{
+            "accident": True, "fatalities": 6, "casualities": 6, "vehicles": ["truck"],
+            "date": "2025-11-04T14:15:00+06:00", "country": "bangladesh",
+            "location": "Kabirhat, Noakhali", "longitude and latitude": "22.88,91.1", "evidences": []}]}))
+
+
+PRIVATE = ("fatalities", "SECRET-RAW", "SECRET-CLAIM", "g001", "ann_a", "initial_passwords")
+
+
+def test_open_dashboard_is_locked_while_labelling_is_open(env: tuple[TestClient, Path]) -> None:
+    client, root = env
+    _seed_scored(root)
+    for path in ("/api/x/public/sources", "/api/x/public/incidents.geojson",
+                 "/api/x/public/scores/annotation", "/api/x/public/scores/models"):
+        body = client.get(path)  # no login at all
+        assert body.status_code == 200 and body.json()["locked"] is True, path
+        assert not any(word in body.text for word in PRIVATE), path
+    overview = client.get("/api/x/public/overview").json()
+    assert overview["articles"] == 1 and overview["labelling_open"] is True
+    assert overview["labelling"]["articles_with_3plus_labels"] == 1  # counts only
+    assert not any(word in json.dumps(overview) for word in PRIVATE)
+    assert "abc123" not in client.get("/api/x/public/coverage.geojson").text
+    # article text, images and admin data stay behind login even when unlocked
+    assert client.get("/api/x/articles/abc123").status_code == 401
+    assert client.get("/api/x/articles/abc123/images/1").status_code == 401
+
+
+def test_unlocked_dashboard_shows_scores_and_map(env: tuple[TestClient, Path]) -> None:
+    client, root = env
+    _seed_scored(root)
+    csrf = login(client, "boss")
+    settings = client.get("/api/x/admin/control").json()["settings"]
+    settings["labelling_open"] = False
+    assert client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf}).status_code == 200
+    client.cookies.clear()  # anonymous visitor from here on
+    scores = client.get("/api/x/public/scores/annotation").json()
+    assert scores["locked"] is False and scores["articles_with_3plus_labels"] == 1
+    assert scores["gold_articles"] == 1
+    models = client.get("/api/x/public/scores/models").json()["models"][0]["metrics"]
+    assert models["accident_flag"]["tp"] == 1 and models["scored_articles"] == 1
+    assert models["fields_exact"]["fatalities"]["value"] == 1.0  # gold 6 (3-of-3 majority 2-of-3)
+    assert models["fields_exact"]["date"]["value"] == 1.0  # day-level match
+    assert models["evidence_quotes_verbatim"]["rate"] == 1.0
+    sources = client.get("/api/x/public/sources").json()["sources"]
+    assert sources[0] == "gold" and len(sources) == 2
+    for source in sources:
+        geo = client.get("/api/x/public/incidents.geojson", params={"source": source}).json()
+        feature = geo["features"][0]
+        assert feature["geometry"]["coordinates"] == [91.1, 22.88]  # [lon, lat]
+        assert geo["meta"]["verified"] is (source == "gold")
+        assert "SECRET-RAW" not in json.dumps(geo)
+    assert client.get("/api/x/public/incidents.geojson", params={"source": "nope"}).status_code == 404

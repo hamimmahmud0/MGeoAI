@@ -41,9 +41,11 @@ def intake_command(
 @extract_app.command("fetch-images")
 def fetch_images_command(root: Path | None = typer.Option(None)) -> None:
     """Download article images politely (robots.txt, 3 s/host delay, 5 MB cap)."""
-    from traffic_fusion.extraction.images import fetch_article_images
+    from traffic_fusion.extraction.images import fetch_article_images, refresh_candidates
 
-    typer.echo(json.dumps(fetch_article_images(_root(root)), indent=2))
+    base = _root(root)
+    typer.echo("refresh " + json.dumps(refresh_candidates(base)))
+    typer.echo(json.dumps(fetch_article_images(base), indent=2))
 
 
 @extract_app.command("init-accounts")

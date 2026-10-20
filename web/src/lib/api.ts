@@ -1,4 +1,4 @@
-import type { RunEstimate, RunSpec, RunState, AccountRow, ArticleDetail, ArticleQueue, ControlSettings, ControlState, ImageLabel, AccidentRecord, Role, Session } from '../types'
+import type { AnnotationScores, Locked, MapData, ModelRow, Overview, RunEstimate, RunSpec, RunState, AccountRow, ArticleDetail, ArticleQueue, ControlSettings, ControlState, ImageLabel, AccidentRecord, Role, Session } from '../types'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, { credentials: 'same-origin', ...init })
@@ -22,6 +22,12 @@ function send(method: string, value: unknown, csrf?: string): RequestInit {
 export type LabelBody = { accidents: AccidentRecord[]; images: ImageLabel[]; unusable: boolean; notes: string }
 
 export const api = {
+  overview: () => request<Overview>('/api/x/public/overview'),
+  coverage: () => request<GeoJSON.FeatureCollection<GeoJSON.Point>>('/api/x/public/coverage.geojson'),
+  sources: () => request<{ locked: boolean; sources?: string[] }>('/api/x/public/sources'),
+  incidents: (source: string) => request<MapData | Locked>(`/api/x/public/incidents.geojson?source=${encodeURIComponent(source)}`),
+  annotationScores: () => request<AnnotationScores | Locked>('/api/x/public/scores/annotation'),
+  modelScores: () => request<{ locked: false; models: ModelRow[] } | Locked>('/api/x/public/scores/models'),
   me: () => request<Session>('/api/x/me'),
   login: (username: string, password: string) => request<Session>('/api/x/login', send('POST', { username, password })),
   logout: (csrf: string) => request<{ ok: boolean }>('/api/x/logout', send('POST', undefined, csrf)),

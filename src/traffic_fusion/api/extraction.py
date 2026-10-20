@@ -18,6 +18,8 @@ from traffic_fusion.api.x_auth import (
 from traffic_fusion.extraction.accounts import Account, AccountStore, Role
 from traffic_fusion.extraction.annotation_store import ArticleLabel, ArticleStore
 from traffic_fusion.extraction.control import ControlSettings, ControlStore, ModelPrice
+from traffic_fusion.extraction.geocode import GeocodeStore
+from traffic_fusion.extraction.public import PublicData
 from traffic_fusion.extraction.runs import RunManager, RunSpec
 from traffic_fusion.extraction.schema import AccidentRecord, ImageLabel
 from traffic_fusion.utils import stable_hash
@@ -83,8 +85,10 @@ def _view(store: ArticleStore, article_id: str, mine: ArticleLabel | None) -> di
 def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
     accounts = AccountStore(root)
     control = ControlStore(root)
-    runs = RunManager(root, control)
     articles = ArticleStore(root)
+    runs = RunManager(root, control)
+    geocoder = GeocodeStore(root)
+    public = PublicData(root, control, articles, runs, geocoder)
     router = APIRouter(prefix="/api/x", tags=["extraction"])
 
     def user(request: Request, *roles: str, csrf: bool = False) -> Account:
@@ -181,6 +185,38 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         return FileResponse(path, media_type=str(image.get("content_type")),
                             headers={"X-Content-Type-Options": "nosniff"})
 
+    # open dashboard (no login). Everything beyond corpus facts is gated by labelling_open.
+    locked = {"locked": True,
+              "message": "Hidden while labelling is open, to keep annotation independent."}
+
+    @router.get("/public/overview")
+    def public_overview() -> dict[str, Any]:
+        return public.overview()
+
+    @router.get("/public/coverage.geojson")
+    def public_coverage() -> dict[str, Any]:
+        return public.coverage_geojson()
+
+    @router.get("/public/sources")
+    def public_sources() -> dict[str, Any]:
+        return locked if public.locked() else {"locked": False, "sources": public.sources()}
+
+    @router.get("/public/incidents.geojson")
+    def public_incidents(source: str = "gold") -> dict[str, Any]:
+        if public.locked():
+            return locked
+        if source not in public.sources():
+            raise HTTPException(status_code=404, detail="Unknown source")
+        return {"locked": False, **public.incidents_geojson(source)}
+
+    @router.get("/public/scores/annotation")
+    def public_annotation_scores() -> dict[str, Any]:
+        return locked if public.locked() else {"locked": False, **public.annotation_scores()}
+
+    @router.get("/public/scores/models")
+    def public_model_scores() -> dict[str, Any]:
+        return locked if public.locked() else {"locked": False, "models": public.model_scores()}
+
     # admin / control panel ---------------------------------------------------
     @router.get("/admin/accounts")
     def list_accounts(request: Request) -> list[dict[str, Any]]:
@@ -225,6 +261,18 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         settings.pricing = body.pricing
         control.save(settings)
         return {"pricing": {k: v.model_dump() for k, v in body.pricing.items()}}
+
+    @router.post("/admin/geocode")
+    def start_geocode(request: Request) -> dict[str, Any]:
+        """Geocode place names for the map (Nominatim, 1 req/s, cached, admin-triggered)."""
+        user(request, "admin", csrf=True)
+        started = geocoder.start(public.geocode_queries())
+        return {"started": started, "progress": geocoder.progress}
+
+    @router.get("/admin/geocode")
+    def geocode_status(request: Request) -> dict[str, Any]:
+        user(request, "admin")
+        return geocoder.progress
 
     @router.post("/admin/runs/estimate")
     def estimate_run(spec: RunSpec, request: Request) -> dict[str, Any]:
