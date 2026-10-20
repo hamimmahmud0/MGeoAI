@@ -1,57 +1,57 @@
-export type Fact = { field: string; value: unknown; state: string; confidence: number; conflicting_values: unknown[]; support_evidence_ids: string[]; contradiction: boolean; selection_rationale: string }
-export type SentimentItem = { sentiment_id: string; holder: string; target: string; aspect: string; polarity: string; emotion?: string; evidence_id: string; confidence: number }
-export type TimeInterval = { start?: string; end?: string; original_expression?: string; timezone?: string; precision: string }
-export type LocationAlternative = { name: string; normalized_name: string; granularity: string; confidence: number; reason?: string }
-export type Incident = {
-  incident_id: string; title: string; event_type: string; status: string; severity: string; mapped: boolean;
-  event_time: TimeInterval; alternate_time_claims: TimeInterval[];
-  geolocation: { display_name?: string; latitude?: number; longitude?: number; granularity: string; confidence: number; ambiguity_reason?: string; uncertainty_radius_km?: number; alternatives: LocationAlternative[]; hierarchy: Record<string, string>; method: string; supporting_evidence_ids: string[] };
-  facts: Fact[]; involved_parties: string[]; vehicles: string[]; collision?: string; obstruction?: string; congestion_delay?: string; emergency_response: string[]; contributing_factors: string[]; later_developments: string[]; source_ids: string[]; evidence_ids: string[];
-  independent_source_count: number; duplicate_groups: string[][];
-  sentiment: { items: SentimentItem[]; by_aspect: Record<string, Record<string, number>>; sample_size: number; traffic_relevant_count: number; coverage_note: string; notable_minority_views: string[] };
-  unresolved_questions: string[]; data_quality_warnings: string[]; human_summary: string; generated_at: string; provider_run_id?: string;
-}
-export type Source = { source_id: string; source_type: string; publisher?: string; platform?: string; title?: string; country?: string; country_code?: string; local_path: string; independence: string; dependency_group?: string; ingest_warnings: string[]; linked_incident_ids: string[] }
-export type Provenance = { source_path: string; locator_type: string; locator: string; block_id?: string; original_text?: string }
-export type SourceBlock = { block_id: string; source_id: string; kind: string; text: string; author?: string; url?: string; reactions?: number; locator: Provenance }
-export type SourceDetail = Source & { source_uri?: string; author?: string; published_at?: string; languages: string[]; content: string; blocks: SourceBlock[]; evidence: Evidence[] }
-export type Evidence = {
-  evidence_id: string; source_id: string; modality: string; evidence_kind: string; assertion_type: string;
-  claim_text: string; claimant?: string; claimant_role?: string; extraction_confidence: number;
-  location_mentions: string[]; time_mentions: string[]; traffic_effects: string[]; warnings: string[];
-  source_support?: string; provenance: Provenance;
-}
-export type IncidentEvidence = { items: Evidence[]; sources: Record<string, Source> }
-export type ProviderRun = { run_id: string; cluster_id: string; operation: string; provider: string; model: string; finish_status: string; latency_ms: number; input_tokens?: number; output_tokens?: number; retries: number; validation_status: string; prompt_hash: string; error?: string }
-export type Page<T> = { items: T[]; total: number; page: number; page_size: number }
-export type SubmissionStatus = 'pending' | 'processing' | 'approved' | 'rejected' | 'ingest_failed'
-export type SubmissionAudit = { action: string; actor: string; at: string; detail?: string }
-export type SubmissionType = 'html_bundle' | 'video_json'
-export type SubmissionFile = { file_id: string; path: string; kind: string; size_bytes: number; sha256: string; preview_kind: 'text' }
-export type Submission = {
-  submission_id: string; status: SubmissionStatus; submission_type?: SubmissionType;
-  title: string; original_filename?: string; content_type?: string; size_bytes?: number; sha256?: string;
-  files?: SubmissionFile[]; submitter_name?: string; content?: string;
-  submitted_at: string; reviewed_by?: string; reviewed_at?: string; review_note?: string;
-  pipeline_run_id?: string; loaded_source_ids: string[]; loaded_incident_ids: string[];
-  ingest_error?: string; audit: SubmissionAudit[];
-}
-export type SubmissionInput = { submission_type: SubmissionType; package: File; submitter_name?: string }
-export type ReviewerSession = { username: string; csrf_token: string }
-export type CoverageProperties = {
-  iso2: string; iso3: string; country_name: string; primary_timezone: string;
-  geometry_role: 'collection_country_coverage_centroid'; is_incident_location: false;
-  accepted_sources: number; reviewed_multi_source_incidents: number;
-}
-export type CoverageFeature = Omit<GeoJSON.Feature<GeoJSON.Point>, 'properties'> & { properties: CoverageProperties }
-export type CoverageCollection = Omit<GeoJSON.FeatureCollection<GeoJSON.Point>, 'features'> & { features: CoverageFeature[] }
+export type Role = 'admin' | 'reviewer' | 'annotator'
+export type Session = { username: string; roles: Role[]; disabled: boolean; csrf_token: string }
 
-export type AnnotationLabel = 'same_incident' | 'related_distinct' | 'different' | 'cannot_tell'
-export interface AnnotationArticle { id: string; title: string; publisher: string | null; url: string | null; published_at: string | null; text: string }
-export interface AnnotationRow {
-  item_id: string
-  left: AnnotationArticle
-  right: AnnotationArticle
-  my_label: { label: AnnotationLabel; notes: string; submitted_at: string; revision: number } | null
+export const VEHICLES = [
+  'car', 'bus', 'truck', 'covered_van', 'pickup', 'microbus', 'motorcycle', 'cng_autorickshaw',
+  'battery_autorickshaw', 'rickshaw', 'human_hauler', 'bicycle', 'tractor', 'train', 'ambulance', 'van',
+] as const
+
+export type AccidentRecord = {
+  accident: boolean
+  casualities: number | null
+  fatalities: number | null
+  vehicles: string[] | null
+  date: string | null
+  country: string | null
+  location: string | null
+  'longitude and latitude': string | null
+  evidences: { field: string; quote: string; note?: string | null }[]
 }
-export interface AnnotationQueue { annotator: string; total: number; labeled: number; items: AnnotationRow[] }
+export type ImageLabel = { image_id: string; description: string; shows_accident: boolean | null; vehicles_visible: string[]; notes: string }
+export type ArticleImage = { image_id: string; url: string; alt: string }
+export type ArticleRow = { id: string; title: string | null; publisher: string | null; done: boolean }
+export type ArticleQueue = { annotator: string; total: number; labeled: number; articles: ArticleRow[] }
+export type MyLabel = { accidents: AccidentRecord[]; images: ImageLabel[]; unusable: boolean; notes: string; revision: number }
+export type ArticleDetail = {
+  id: string; url: string | null; publisher: string | null; title: string | null; published_at: string | null; language: string | null
+  markdown: string; images: ArticleImage[]; my_label: MyLabel | null
+}
+export type AccountRow = { username: string; roles: Role[]; disabled: boolean }
+export type ProviderConfig = {
+  model: string; base_url: string; input_cost_per_million_usd: number | null; output_cost_per_million_usd: number | null
+  timeout_seconds: number; max_output_tokens: number; supports_images: boolean
+}
+export type ControlSettings = {
+  labelling_open: boolean; pricing: Record<string, { input_per_million_usd: number; output_per_million_usd: number }>
+  run_token_limit: number; max_images_per_article: number; run_cost_limit_usd: number; daily_cost_limit_usd: number; concurrency: number
+  providers: Record<string, ProviderConfig>
+}
+export type KeyStatus = Record<string, { configured: boolean; source: 'ui_memory' | 'environment' | 'none' }>
+export type ControlState = { settings: ControlSettings; keys: KeyStatus }
+
+export const emptyAccident = (): AccidentRecord => ({
+  accident: true, casualities: null, fatalities: null, vehicles: [], date: null, country: null,
+  location: null, 'longitude and latitude': null, evidences: [],
+})
+
+export type RunSpec = { provider: string; model: string; input_set: 'raw' | 'markdown'; with_images: boolean; limit?: number | null }
+export type RunEstimate = {
+  config_id: string; articles_total: number; articles_todo: number; images_to_send: number
+  est_input_tokens: number; est_output_tokens: number; est_cost_usd: number | null; cost_known: boolean
+  token_limit: number; within_token_limit: boolean; note: string
+}
+export type RunState = {
+  config_id: string; status: 'running' | 'finished' | 'stopped' | 'cancelled'; started_at: string; finished_at: string | null
+  done: number; failed: number; input_tokens: number; output_tokens: number; cost_usd: number | null; cost_known: boolean
+  stop_reason: string | null; spec: RunSpec
+}

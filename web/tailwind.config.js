@@ -13,11 +13,12 @@ export default {
       danger: 'rgb(var(--danger) / <alpha-value>)',
       'danger-line': 'rgb(var(--danger-line) / <alpha-value>)',
       'danger-soft': 'rgb(var(--danger-soft) / <alpha-value>)',
+      accent: 'rgb(var(--accent) / <alpha-value>)',
       warning: 'rgb(var(--warning) / <alpha-value>)',
       'warning-line': 'rgb(var(--warning-line) / <alpha-value>)',
       'warning-soft': 'rgb(var(--warning-soft) / <alpha-value>)',
     },
-    fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'] },
+    fontFamily: { sans: ['"JetBrains Mono"', 'ui-monospace', 'monospace'], mono: ['"JetBrains Mono"', 'ui-monospace', 'monospace'] },
   } },
   plugins: [],
 }

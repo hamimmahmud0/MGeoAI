@@ -5,13 +5,14 @@
 
 @layer base {
   :root {
-    --ink: 23 32 51;
-    --muted: 102 112 133;
-    --line: 229 233 240;
-    --canvas: 245 247 250;
-    --surface: 255 255 255;
-    --primary: 31 94 255;
-    --primary-soft: 238 244 255;
+    --ink: 15 23 42;
+    --muted: 84 100 122;
+    --line: 195 206 220;
+    --canvas: 236 241 247;
+    --surface: 249 251 253;
+    --primary: 3 105 161;
+    --primary-soft: 224 238 248;
+    --accent: 4 120 87;
     --danger: 153 27 27;
     --danger-line: 252 165 165;
     --danger-soft: 254 242 242;
@@ -20,13 +21,14 @@
     --warning-soft: 255 251 235;
   }
   :root[data-theme='dark'] {
-    --ink: 235 239 247;
-    --muted: 161 171 190;
-    --line: 55 65 81;
-    --canvas: 15 23 42;
-    --surface: 22 31 49;
-    --primary: 122 162 255;
-    --primary-soft: 28 48 82;
+    --ink: 214 225 235;
+    --muted: 125 142 160;
+    --line: 32 44 58;
+    --canvas: 8 11 15;
+    --surface: 13 18 25;
+    --primary: 34 211 238;
+    --primary-soft: 10 38 48;
+    --accent: 74 222 128;
     --danger: 254 202 202;
     --danger-line: 127 29 29;
     --danger-soft: 69 24 31;
@@ -35,14 +37,21 @@
     --warning-soft: 66 39 16;
   }
   * { box-sizing: border-box; }
-  body { @apply m-0 bg-canvas font-sans text-ink antialiased; }
-  button, input, select { @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2; }
+  body { @apply m-0 bg-canvas font-sans text-[13px] text-ink antialiased; }
+  button, input, select, textarea { @apply font-sans focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-primary; }
+  ::selection { background: rgb(var(--primary) / 0.3); }
 }
 
 @layer components {
-  .badge { @apply inline-flex items-center rounded border border-line bg-surface px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-muted; }
-  .control { @apply h-9 rounded-md border border-line bg-surface px-3 text-sm text-ink; }
+  .badge { @apply inline-flex items-center border border-line px-1.5 py-0.5 text-[10px] font-medium uppercase tracking-[0.12em] text-muted; }
+  .control { @apply h-8 border border-line bg-surface px-2 text-[13px] text-ink placeholder:text-muted/70; }
+  textarea.control { @apply h-auto py-1.5; }
   .panel { @apply border border-line bg-surface; }
+  .label { @apply text-[10px] font-medium uppercase tracking-[0.14em] text-muted; }
+  .btn { @apply inline-flex h-8 items-center gap-1.5 border border-line bg-surface px-3 text-[12px] font-medium uppercase tracking-wider text-ink hover:border-primary hover:text-primary disabled:cursor-not-allowed disabled:opacity-40; }
+  .btn-primary { @apply border-primary bg-primary text-canvas hover:bg-primary/85 hover:text-canvas; }
+  .tab { @apply -mb-px border-b-2 border-transparent px-3 py-2 text-[12px] font-medium uppercase tracking-[0.12em] text-muted hover:text-ink; }
+  .tab[aria-selected='true'] { @apply border-primary text-primary; }
 }
 
 .maplibregl-map { font: inherit; }
