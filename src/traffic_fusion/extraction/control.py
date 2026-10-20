@@ -11,7 +11,7 @@ import json
 import os
 import threading
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -34,6 +34,9 @@ class ProviderConfig(BaseModel):
     timeout_seconds: int = Field(default=120, ge=5, le=900)
     max_output_tokens: int = Field(default=4000, ge=256, le=64000)
     supports_images: bool = False
+    # DeepSeek only: reasoning tokens count against max_output_tokens, and extraction does
+    # not need them, so thinking is off unless an admin turns it back on.
+    thinking: Literal["disabled", "default"] = "disabled"
 
 
 class ModelPrice(BaseModel):

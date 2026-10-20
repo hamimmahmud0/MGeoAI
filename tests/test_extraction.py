@@ -457,3 +457,34 @@ def test_orphaned_running_run_is_interrupted_and_clear_archives(
         restarted.archive(spec.config_id())
     with pytest.raises(ValueError, match="invalid"):
         restarted.archive("../x")
+
+
+def test_deepseek_thinking_switch_and_truncation_hint(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    bodies: list[dict[str, object]] = []
+
+    def fake_post(url: str, **kwargs: object) -> httpx.Response:
+        bodies.append(kwargs["json"])  # type: ignore[arg-type]
+        return _reply()
+
+    monkeypatch.setattr(providers.httpx, "post", fake_post)
+    providers.call_chat("deepseek", api_key="k", model="m", system="s", user_parts=[],
+                        thinking="disabled")
+    providers.call_chat("deepseek", api_key="k", model="m", system="s", user_parts=[])
+    providers.call_chat("openrouter", api_key="k", model="m", system="s", user_parts=[],
+                        thinking="disabled")
+    assert bodies[0]["thinking"] == {"type": "disabled"}
+    assert "thinking" not in bodies[1] and "thinking" not in bodies[2]
+    # default config disables thinking for DeepSeek, and an empty truncated answer says why
+    manager, control = _setup(tmp_path, 1)
+    assert control.settings().providers["deepseek"].thinking == "disabled"
+    monkeypatch.setattr(providers.httpx, "post", lambda *a, **k: httpx.Response(
+        200, json={"choices": [{"message": {"content": ""}, "finish_reason": "length"}],
+                   "usage": {"prompt_tokens": 5, "completion_tokens": 4000}},
+        request=httpx.Request("POST", "https://x")))
+    spec = RunSpec(provider="deepseek", model="deepseek-flash", input_set="markdown")
+    manager.start(spec)
+    _wait(manager, spec.config_id())
+    saved = json.loads((manager.runs_dir / spec.config_id() / "a0.json").read_text())
+    assert saved["status"] == "failed" and "hidden reasoning" in saved["error"]

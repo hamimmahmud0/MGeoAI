@@ -60,6 +60,7 @@ def call_chat(
     max_output_tokens: int = 4000,
     max_retries: int = 2,
     json_mode: bool = True,
+    thinking: str = "default",
 ) -> CallResult:
     if provider not in DEFAULT_BASE:
         raise ProviderError(f"provider {provider!r} is not implemented yet", retryable=False)
@@ -76,6 +77,8 @@ def call_chat(
         "max_tokens": max_output_tokens,
         "stream": False,
     }
+    if provider == "deepseek" and thinking == "disabled":
+        body["thinking"] = {"type": "disabled"}  # documented DeepSeek chat-completions switch
     if json_mode:
         body["response_format"] = {"type": "json_object"}
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}

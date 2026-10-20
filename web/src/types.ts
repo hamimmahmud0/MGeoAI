@@ -29,7 +29,7 @@ export type ArticleDetail = {
 export type AccountRow = { username: string; roles: Role[]; disabled: boolean }
 export type ProviderConfig = {
   model: string; base_url: string; input_cost_per_million_usd: number | null; output_cost_per_million_usd: number | null
-  timeout_seconds: number; max_output_tokens: number; supports_images: boolean
+  timeout_seconds: number; max_output_tokens: number; supports_images: boolean; thinking?: 'disabled' | 'default'
 }
 export type ControlSettings = {
   labelling_open: boolean; pricing: Record<string, { input_per_million_usd: number; output_per_million_usd: number }>

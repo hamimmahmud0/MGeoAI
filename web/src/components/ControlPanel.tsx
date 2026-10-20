@@ -75,6 +75,12 @@ export function ControlPanel({ session }: { session: Session }) {
                 <input className="control" inputMode="decimal" placeholder="$ / 1M input tokens" value={config.input_cost_per_million_usd ?? ''} onChange={(event) => patchProvider(name, { input_cost_per_million_usd: numOrNull(event.target.value) })} />
                 <input className="control" inputMode="decimal" placeholder="$ / 1M output tokens" value={config.output_cost_per_million_usd ?? ''} onChange={(event) => patchProvider(name, { output_cost_per_million_usd: numOrNull(event.target.value) })} />
               </div>
+              <div className="grid grid-cols-2 gap-1">
+                <label className="flex flex-col gap-1"><span className="label">Max output tokens</span>
+                  <input className="control" inputMode="numeric" value={config.max_output_tokens} onChange={(event) => patchProvider(name, { max_output_tokens: Math.max(256, Math.floor(Number(event.target.value)) || 256) })} /></label>
+                {name === 'deepseek' && <label className="flex flex-col gap-1"><span className="label">Thinking (reasoning)</span>
+                  <select className="control" value={config.thinking ?? 'disabled'} onChange={(event) => patchProvider(name, { thinking: event.target.value as 'disabled' | 'default' })}><option value="disabled">off (recommended)</option><option value="default">on (needs a high token cap)</option></select></label>}
+              </div>
               <label className="flex items-center gap-2"><input type="checkbox" checked={config.supports_images} onChange={(event) => patchProvider(name, { supports_images: event.target.checked })} />model accepts images</label>
             </fieldset>)
         })}</div>

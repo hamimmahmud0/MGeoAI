@@ -301,13 +301,18 @@ class RunManager:
                     spec.provider, api_key=self.control.get_key(spec.provider) or "", model=spec.model,
                     system=system, user_parts=parts, base_url=config.base_url,
                     timeout=config.timeout_seconds, max_output_tokens=config.max_output_tokens,
+                    thinking=config.thinking,
                 )
                 record.update(raw_text=result.text, input_tokens=result.input_tokens,
                               output_tokens=result.output_tokens, latency_ms=result.latency_ms,
                               finish_reason=result.finish_reason, model_returned=result.model_returned,
                               retries=result.retries, notes=result.notes)
                 if result.finish_reason == "length":
-                    raise ValueError("response truncated (finish_reason=length)")
+                    hint = ("no answer text: the output budget was likely used up by hidden reasoning"
+                            if not result.text.strip() else "answer cut off")
+                    raise ValueError(
+                        f"response truncated (finish_reason=length, {result.output_tokens} output "
+                        f"tokens, {hint}); raise 'max output tokens' or turn thinking off")
                 accidents, images = parse_output(result.text)
                 visible_text = source if spec.input_set == "markdown" else self._plain(article_id)
                 record.update(status="ok", accidents=[a.wire() for a in accidents],

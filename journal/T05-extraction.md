@@ -22,3 +22,7 @@
 - Gold rule: a field is gold only when a strict majority (> half, at least 3 annotators) gave the same normalised value, else unresolved. Per-field model metrics only on articles whose gold has exactly one accident; multi-accident articles are scored on the accident flag and accident count only. Bootstrap 95% CI by article (1,000 resamples, seed 7). Endpoint results are cached on file mtimes.
 - Geocoding: Nominatim (1 req/s, cache `extraction/geocode_cache.json`, admin-triggered via `POST /api/x/admin/geocode`); points are place centroids with granularity and bbox-derived radius. No admin button yet.
 - Result: 109 pytest pass, ruff and mypy clean, frontend 4 tests + lint + build pass.
+
+### 2026-10-20 — DeepSeek truncation failures
+- Symptom: 32 of 244 articles failed with `finish_reason=length`, empty answer text, 4,000 output tokens. Cause: `deepseek-flash` runs in thinking mode by default and reasoning tokens count against `max_tokens` (successful calls: median 2,084 output tokens for a ~500-token answer, max 3,965). Docs: `thinking: {type: disabled}` switches it off (Context7, 2026-10-20).
+- Fix: provider setting `thinking` (default `disabled`, DeepSeek only) sent as `thinking={"type":"disabled"}`; Max output tokens and Thinking are now editable in the control panel; the truncation error now says why. Retry failed to finish the 32. Cost note: thinking-off answers are shorter, so the retry should be cheaper than the first pass; quality difference between thinking on/off is untested.
