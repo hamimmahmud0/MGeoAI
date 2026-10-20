@@ -475,10 +475,16 @@ def test_deepseek_thinking_switch_and_truncation_hint(
     providers.call_chat("openrouter", api_key="k", model="m", system="s", user_parts=[],
                         thinking="disabled")
     assert bodies[0]["thinking"] == {"type": "disabled"}
-    assert "thinking" not in bodies[1] and "thinking" not in bodies[2]
-    # default config disables thinking for DeepSeek, and an empty truncated answer says why
+    assert "thinking" not in bodies[1] and "thinking" not in bodies[2]  # default = model's own mode
+    # an empty truncated answer explains itself
     manager, control = _setup(tmp_path, 1)
-    assert control.settings().providers["deepseek"].thinking == "disabled"
+    deepseek = control.settings().providers["deepseek"]
+    assert deepseek.thinking == "default" and deepseek.max_output_tokens == 393216  # on, documented max
+    assert control.settings().providers["openrouter"].max_output_tokens == 4000
+    settings = control.settings()
+    settings.providers["deepseek"].max_output_tokens = 4000
+    settings.providers["deepseek"].thinking = "disabled"
+    control.save(settings)  # pin the old behaviour for the truncation scenario below
     monkeypatch.setattr(providers.httpx, "post", lambda *a, **k: httpx.Response(
         200, json={"choices": [{"message": {"content": ""}, "finish_reason": "length"}],
                    "usage": {"prompt_tokens": 5, "completion_tokens": 4000}},

@@ -284,7 +284,9 @@ class RunManager:
                         and state["cost_usd"] >= settings.run_cost_limit_usd):
                     state["stop_reason"] = "cost_limit"
                     return
-            record: dict[str, Any] = {"article_id": article_id, "spec": spec.model_dump(exclude={"article_ids", "limit"}),
+            record: dict[str, Any] = {"article_id": article_id,
+                                      "call_settings": {"thinking": config.thinking if spec.provider == "deepseek" else None,
+                                                        "max_output_tokens": config.max_output_tokens}, "spec": spec.model_dump(exclude={"article_ids", "limit"}),
                                       "prompt_hash": prompt_hash, "started_at": _now()}
             try:
                 source = self._source(article_id, spec.input_set)

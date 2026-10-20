@@ -31,12 +31,20 @@ class ProviderConfig(BaseModel):
     base_url: str = Field(default="", max_length=300)
     input_cost_per_million_usd: float | None = Field(default=None, ge=0, le=10000)
     output_cost_per_million_usd: float | None = Field(default=None, ge=0, le=10000)
-    timeout_seconds: int = Field(default=120, ge=5, le=900)
-    max_output_tokens: int = Field(default=4000, ge=256, le=64000)
+    timeout_seconds: int = Field(default=120, ge=5, le=1800)
+    max_output_tokens: int = Field(default=4000, ge=256, le=393216)
     supports_images: bool = False
-    # DeepSeek only: reasoning tokens count against max_output_tokens, and extraction does
-    # not need them, so thinking is off unless an admin turns it back on.
-    thinking: Literal["disabled", "default"] = "disabled"
+    # DeepSeek only: "default" = the model's own mode (thinking on); "disabled" turns it off.
+    # Reasoning tokens count against max_output_tokens, so keep that cap high when it is on.
+    thinking: Literal["disabled", "default"] = "default"
+
+
+def default_provider(name: str) -> ProviderConfig:
+    """DeepSeek defaults to its documented maximum output (393,216 tokens, thinking on),
+    with a long timeout because a non-streaming thinking call can take minutes."""
+    if name == "deepseek":
+        return ProviderConfig(max_output_tokens=393216, timeout_seconds=600)
+    return ProviderConfig()
 
 
 class ModelPrice(BaseModel):
@@ -59,7 +67,7 @@ class ControlSettings(BaseModel):
     daily_cost_limit_usd: float = Field(default=20.0, ge=0, le=10000)
     concurrency: int = Field(default=2, ge=1, le=8)
     providers: dict[str, ProviderConfig] = Field(
-        default_factory=lambda: {name: ProviderConfig() for name in PROVIDERS}
+        default_factory=lambda: {name: default_provider(name) for name in PROVIDERS}
     )
 
 
@@ -75,7 +83,7 @@ class ControlStore:
         except (OSError, json.JSONDecodeError, ValueError):
             value = ControlSettings()
         for name in PROVIDERS:
-            value.providers.setdefault(name, ProviderConfig())
+            value.providers.setdefault(name, default_provider(name))
         return value
 
     def price(self, provider: str, model: str) -> ModelPrice | None:

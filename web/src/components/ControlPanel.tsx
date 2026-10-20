@@ -79,7 +79,7 @@ export function ControlPanel({ session }: { session: Session }) {
                 <label className="flex flex-col gap-1"><span className="label">Max output tokens</span>
                   <input className="control" inputMode="numeric" value={config.max_output_tokens} onChange={(event) => patchProvider(name, { max_output_tokens: Math.max(256, Math.floor(Number(event.target.value)) || 256) })} /></label>
                 {name === 'deepseek' && <label className="flex flex-col gap-1"><span className="label">Thinking (reasoning)</span>
-                  <select className="control" value={config.thinking ?? 'disabled'} onChange={(event) => patchProvider(name, { thinking: event.target.value as 'disabled' | 'default' })}><option value="disabled">off (recommended)</option><option value="default">on (needs a high token cap)</option></select></label>}
+                  <select className="control" value={config.thinking ?? 'default'} onChange={(event) => patchProvider(name, { thinking: event.target.value as 'disabled' | 'default' })}><option value="default">on (default; needs a high token cap)</option><option value="disabled">off</option></select></label>}
               </div>
               <label className="flex items-center gap-2"><input type="checkbox" checked={config.supports_images} onChange={(event) => patchProvider(name, { supports_images: event.target.checked })} />model accepts images</label>
             </fieldset>)
