@@ -412,6 +412,7 @@ def test_coverage_map_includes_countries_missing_from_profiles(env: tuple[TestCl
     feature = client.get("/api/x/public/coverage.geojson").json()["features"][0]
     assert feature["properties"]["country"] == "Guatemala" and feature["properties"]["articles"] == 1
     assert feature["properties"]["is_incident_location"] is False
+    assert feature["properties"]["items"][0]["id"] == "abc123"
     assert feature["geometry"]["coordinates"] == [-90.23, 15.78]  # [lon, lat]
 
 

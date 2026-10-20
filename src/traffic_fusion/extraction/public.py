@@ -107,13 +107,18 @@ class PublicData:
         for key, value in EXTRA_CENTROIDS.items():
             centroids.setdefault(key, value)
         counts: Counter[str] = Counter()
+        listed: dict[str, list[dict[str, str | None]]] = {}
         for article_id in self.store.article_ids():
-            admin = self.store.meta(article_id).get("admin") or {}
-            counts[str(admin.get("country") or "").casefold()] += 1  # type: ignore[attr-defined]
+            meta = self.store.meta(article_id)
+            admin = meta.get("admin") or {}
+            key = str(admin.get("country") or "").casefold()  # type: ignore[attr-defined]
+            counts[key] += 1
+            listed.setdefault(key, []).append({"id": article_id, "title": str(meta.get("title")),
+                                               "publisher": str(meta.get("publisher"))})
         features = [
             {"type": "Feature",
              "geometry": {"type": "Point", "coordinates": [centroids[k][0], centroids[k][1]]},
-             "properties": {"country": centroids[k][2], "articles": n,
+             "properties": {"country": centroids[k][2], "articles": n, "items": listed[k][:12],
                             "is_incident_location": False,
                             "note": "Collection-country centroid; not an incident location."}}
             for k, n in counts.items() if k in centroids

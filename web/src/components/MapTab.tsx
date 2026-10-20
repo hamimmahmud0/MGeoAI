@@ -41,7 +41,7 @@ export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOp
   return (
     <div className="grid min-h-[calc(100vh-49px)] grid-cols-1 lg:grid-cols-[minmax(0,1fr)_340px]">
       <div className="relative min-h-[420px]">
-        <MapView data={(data ?? empty) as GeoJSON.FeatureCollection<GeoJSON.Point>} selectedId={selected} onSelect={setSelected} onBounds={() => undefined} theme={theme} className="absolute inset-0" />
+        <MapView data={(data ?? empty) as GeoJSON.FeatureCollection<GeoJSON.Point>} selectedId={selected} onSelect={setSelected} onBounds={() => undefined} onOpenArticle={onOpenArticle} theme={theme} className="absolute inset-0" />
       </div>
       <aside className="flex flex-col gap-3 overflow-auto border-t border-line p-4 lg:border-l lg:border-t-0">
         {error && <p role="alert" className="border border-danger-line bg-danger-soft p-2 text-danger">{error}</p>}

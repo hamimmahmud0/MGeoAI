@@ -59,3 +59,11 @@
 :root[data-theme='dark'] .maplibregl-ctrl-group,
 :root[data-theme='dark'] .maplibregl-ctrl-attrib { background: rgb(var(--surface) / 0.92); color: rgb(var(--ink)); }
 :root[data-theme='dark'] .maplibregl-ctrl button .maplibregl-ctrl-icon { filter: invert(1); }
+
+.mg-popup-box .maplibregl-popup-content { background: rgb(var(--surface)); color: rgb(var(--ink)); border: 1px solid rgb(var(--line)); border-radius: 0; padding: 10px 12px; font-size: 12px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.25); }
+.mg-popup-box .maplibregl-popup-tip { border-top-color: rgb(var(--surface)); border-bottom-color: rgb(var(--surface)); }
+.mg-popup { display: flex; flex-direction: column; gap: 3px; max-width: 320px; }
+.mg-muted { color: rgb(var(--muted)); }
+.mg-badge { align-self: flex-start; border: 1px solid rgb(var(--line)); padding: 0 6px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: rgb(var(--muted)); }
+.mg-popup-link { align-self: flex-start; background: none; border: 0; padding: 0; color: rgb(var(--primary)); text-decoration: underline; cursor: pointer; text-align: left; font: inherit; }
+.mg-row { display: block; }

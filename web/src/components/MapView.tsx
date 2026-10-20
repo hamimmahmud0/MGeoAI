@@ -1,12 +1,14 @@
 import { useEffect, useRef } from 'react'
 import maplibregl, { type GeoJSONSource, type Map } from 'maplibre-gl'
 import { regionData } from '../lib/mapRegions'
+import { buildPopup } from '../lib/popup'
 
 type Props = {
   data: GeoJSON.FeatureCollection<GeoJSON.Point>
   selectedId?: string
   onSelect: (id: string) => void
   onBounds: (bbox: string) => void
+  onOpenArticle?: (id: string) => void
   theme: 'light' | 'dark'
   className?: string
 }
@@ -16,7 +18,7 @@ const regionSourceId = 'incident-regions'
 const lightStyle = import.meta.env.VITE_MAP_STYLE_LIGHT_URL || import.meta.env.VITE_MAP_STYLE_URL || 'https://tiles.openfreemap.org/styles/liberty'
 const darkStyle = import.meta.env.VITE_MAP_STYLE_DARK_URL || 'https://tiles.openfreemap.org/styles/dark'
 
-export function MapView({ data, selectedId, onSelect, onBounds, theme, className = '' }: Props) {
+export function MapView({ data, selectedId, onSelect, onBounds, onOpenArticle, theme, className = '' }: Props) {
   const container = useRef<HTMLDivElement>(null)
   const mapRef = useRef<Map>()
   const dataRef = useRef(data)
@@ -25,6 +27,8 @@ export function MapView({ data, selectedId, onSelect, onBounds, theme, className
   const appliedThemeRef = useRef(theme)
   const onSelectRef = useRef(onSelect)
   const onBoundsRef = useRef(onBounds)
+  const onOpenRef = useRef(onOpenArticle)
+  onOpenRef.current = onOpenArticle
   dataRef.current = data
   selectedIdRef.current = selectedId
   onSelectRef.current = onSelect
@@ -68,6 +72,23 @@ export function MapView({ data, selectedId, onSelect, onBounds, theme, className
         const id = String(event.features?.[0]?.properties?.incident_id || '')
         if (id) onSelectRef.current(id)
       })
+      // Hover card: stays open while the pointer is on the point or on the card itself.
+      let popup: maplibregl.Popup | undefined
+      let closeTimer: number | undefined
+      const hold = () => window.clearTimeout(closeTimer)
+      const release = () => { closeTimer = window.setTimeout(() => { popup?.remove(); popup = undefined }, 350) }
+      map.on('mouseenter', 'unclustered', (event) => {
+        const feature = event.features?.[0]
+        if (!feature) return
+        hold()
+        popup?.remove()
+        const content = buildPopup(feature.properties as never, (id) => { popup?.remove(); onOpenRef.current?.(id) })
+        content.addEventListener('mouseenter', hold)
+        content.addEventListener('mouseleave', release)
+        popup = new maplibregl.Popup({ closeButton: false, offset: 10, maxWidth: '340px', className: 'mg-popup-box' })
+          .setLngLat((feature.geometry as GeoJSON.Point).coordinates as [number, number]).setDOMContent(content).addTo(map)
+      })
+      map.on('mouseleave', 'unclustered', release)
       for (const layer of ['clusters', 'unclustered']) {
         map.on('mouseenter', layer, () => { map.getCanvas().style.cursor = 'pointer' })
         map.on('mouseleave', layer, () => { map.getCanvas().style.cursor = '' })
