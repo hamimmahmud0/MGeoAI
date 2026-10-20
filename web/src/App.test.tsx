@@ -8,6 +8,11 @@ vi.mock('./components/MapView', () => ({ MapView: () => <div data-testid="map" /
 const publicRoutes = (path: string) => {
   if (path.endsWith('/public/overview')) return { labelling_open: true, articles: 244, images: 600, articles_with_images: 236, top_publishers: [['The Daily Star', 20]], languages: [['en', 200]], labelling: { annotators: 4, articles_with_1plus_labels: 0, articles_with_3plus_labels: 0, labels_submitted: 0 } }
   if (path.endsWith('/public/sources')) return { locked: true, message: 'locked' }
+  if (path.endsWith('/public/articles')) return { locked: false, articles: [{ id: 'abc123', title: 'Six killed near Kabirhat', publisher: 'BSS', language: 'en', published_at: '2025-11-04', gold_accident: true, models_with_result: 1 }] }
+  if (path.endsWith('/public/articles/abc123')) return { id: 'abc123', url: 'https://x.test/a', title: 'Six killed near Kabirhat', publisher: 'BSS', published_at: '2025-11-04', language: 'en', markdown: 'Six people were killed.', images: [], locked: false,
+    gold: { usable: true, annotators: 3, accident: true, accident_count: 1, fields: { fatalities: 6, date: '2025-11-04' } },
+    annotators: [{ annotator: 'Annotator A', unusable: false, notes: '', revision: 1, images: [], accidents: [{ accident: true, fatalities: 6, casualities: 6, vehicles: ['truck'], date: '2025-11-04', country: 'Bangladesh', location: 'Kabirhat', 'longitude and latitude': null, evidences: [] }] }],
+    models: [{ config_id: 'deepseek__deepseek-flash__markdown__txt', spec: { provider: 'deepseek', model: 'deepseek-flash', input_set: 'markdown', with_images: false }, status: 'ok', accidents: [{ accident: true, fatalities: 5, casualities: 6, vehicles: ['truck'], date: '2025-11-04', country: 'Bangladesh', location: 'Kabirhat', 'longitude and latitude': null, evidences: [] }], raw_text: '{"accidents": []}', quality: { quotes: 2, verbatim: 2 } }] }
   if (path.endsWith('/public/coverage.geojson')) return { type: 'FeatureCollection', features: [] }
   return undefined
 }
@@ -54,6 +59,18 @@ describe('App shell', () => {
     await user.click(screen.getAllByRole('button', { name: /sign in/i }).at(-1)!)
     expect(await screen.findByTestId('map')).toBeInTheDocument()
     expect(window.location.pathname).toBe('/')
+  })
+
+  it('shows an article with its link, text, annotator and model outputs side by side', async () => {
+    vi.stubGlobal('fetch', vi.fn((path: string) => path.endsWith('/me') ? json({ detail: 'Sign-in required' }, 401) : json(publicRoutes(path) ?? { detail: 'no' }, publicRoutes(path) ? 200 : 404)))
+    window.history.pushState({}, '', '/articles/abc123')
+    render(<App />)
+    expect(await screen.findByRole('link', { name: 'original article' })).toHaveAttribute('href', 'https://x.test/a')
+    expect(await screen.findByText('Six people were killed.')).toBeInTheDocument()
+    expect(screen.getByText('Gold (majority)')).toBeInTheDocument()
+    expect(screen.getAllByText('Annotator A').length).toBeGreaterThan(0)
+    expect(screen.getAllByText(/deepseek-flash/).length).toBeGreaterThan(0)
+    expect(screen.queryByRole('tab', { name: 'Annotate' })).toBeNull()
   })
 
   it('shows a lock notice on the score tabs while labelling is open', async () => {

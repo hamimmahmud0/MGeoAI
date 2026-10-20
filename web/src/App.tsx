@@ -4,26 +4,29 @@ import { api } from './lib/api'
 import type { Role, Session } from './types'
 import { Annotate } from './components/Annotate'
 import { ControlPanel } from './components/ControlPanel'
+import { ArticlesTab } from './components/ArticlesTab'
 import { MapTab } from './components/MapTab'
 import { ModelsTab } from './components/ModelsTab'
 import { ScoresTab } from './components/ScoresTab'
 import { SignIn } from './components/SignIn'
 
 type Theme = 'system' | 'light' | 'dark'
-type Tab = 'map' | 'scores' | 'models' | 'annotate' | 'control' | 'signin'
+type Tab = 'map' | 'articles' | 'scores' | 'models' | 'annotate' | 'control' | 'signin'
 const THEME_KEY = 'mgeoai-theme'
 
 // roles: undefined = open to everyone (no account needed)
 const TABS: { id: Tab; label: string; roles?: Role[] }[] = [
   { id: 'map', label: 'World map' },
+  { id: 'articles', label: 'Articles' },
   { id: 'scores', label: 'Annotation score' },
   { id: 'models', label: 'LLM models' },
   { id: 'annotate', label: 'Annotate', roles: ['annotator'] },
   { id: 'control', label: 'Control panel', roles: ['admin'] },
 ]
 
-const PATHS: Record<Tab, string> = { map: '/', scores: '/scores', models: '/models', annotate: '/annotate', control: '/control', signin: '/login' }
-const tabFromPath = (path: string): Tab => (Object.entries(PATHS).find(([, value]) => value === path.replace(/\/+$/, '') || (value === '/' && path === ''))?.[0] as Tab | undefined) ?? 'map'
+const PATHS: Record<Tab, string> = { map: '/', articles: '/articles', scores: '/scores', models: '/models', annotate: '/annotate', control: '/control', signin: '/login' }
+const articleFromPath = (path: string): string | null => path.match(/^\/articles\/([A-Za-z0-9]+)\/?$/)?.[1] ?? null
+const tabFromPath = (path: string): Tab => articleFromPath(path) ? 'articles' : (Object.entries(PATHS).find(([, value]) => value === path.replace(/\/+$/, '') || (value === '/' && path === ''))?.[0] as Tab | undefined) ?? 'map'
 
 function readTheme(): Theme {
   try {
@@ -56,12 +59,19 @@ export function App() {
   const [session, setSession] = useState<Session | null>(null)
   const [checking, setChecking] = useState(true)
   const [tab, setTabState] = useState<Tab>(() => tabFromPath(window.location.pathname))
+  const [articleId, setArticleId] = useState<string | null>(() => articleFromPath(window.location.pathname))
   const setTab = useCallback((next: Tab) => {
     setTabState(next)
+    if (next !== 'articles') setArticleId(null)
     if (window.location.pathname !== PATHS[next]) window.history.pushState({}, '', PATHS[next])
   }, [])
+  const openArticle = useCallback((id: string | null) => {
+    setTabState('articles')
+    setArticleId(id)
+    window.history.pushState({}, '', id ? `/articles/${id}` : '/articles')
+  }, [])
   useEffect(() => {
-    const onPop = () => setTabState(tabFromPath(window.location.pathname))
+    const onPop = () => { setTabState(tabFromPath(window.location.pathname)); setArticleId(articleFromPath(window.location.pathname)) }
     window.addEventListener('popstate', onPop)
     return () => window.removeEventListener('popstate', onPop)
   }, [])
@@ -103,7 +113,8 @@ export function App() {
             const wanted = TABS.find((item) => item.id === tab && item.roles?.some((role) => next.roles.includes(role)))
             setTab(wanted ? wanted.id : 'map')
           }} />
-          : active === 'map' ? <MapTab theme={resolvedTheme} />
+          : active === 'map' ? <MapTab theme={resolvedTheme} onOpenArticle={openArticle} />
+          : active === 'articles' ? <ArticlesTab articleId={articleId} onSelect={openArticle} />
           : active === 'scores' ? <ScoresTab />
           : active === 'models' ? <ModelsTab />
           : active === 'annotate' && session ? <Annotate session={session} />

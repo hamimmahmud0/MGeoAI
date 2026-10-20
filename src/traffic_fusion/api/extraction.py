@@ -209,6 +209,25 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
             raise HTTPException(status_code=404, detail="Unknown source")
         return {"locked": False, **public.incidents_geojson(source)}
 
+    @router.get("/public/articles")
+    def public_articles() -> dict[str, Any]:
+        return {"locked": public.locked(), "articles": public.article_list()}
+
+    @router.get("/public/articles/{article_id}")
+    def public_article(article_id: str) -> dict[str, Any]:
+        detail = public.article_detail(article_id)
+        if detail is None:
+            raise HTTPException(status_code=404, detail="Article not found")
+        return detail
+
+    @router.get("/public/articles/{article_id}/images/{index}")
+    def public_article_image(article_id: str, index: int) -> FileResponse:
+        found = public.public_image(article_id, index)
+        if found is None:
+            raise HTTPException(status_code=404, detail="Not found")
+        return FileResponse(found[0], media_type=found[1],
+                            headers={"X-Content-Type-Options": "nosniff"})
+
     @router.get("/public/scores/annotation")
     def public_annotation_scores() -> dict[str, Any]:
         return locked if public.locked() else {"locked": False, **public.annotation_scores()}

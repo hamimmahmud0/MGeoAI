@@ -505,3 +505,32 @@ def test_concurrency_limit_is_fifty(env: tuple[TestClient, Path]) -> None:
         response = client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf})
         assert response.status_code == expected, value
     assert client.get("/api/x/admin/control").json()["settings"]["concurrency"] == 50
+
+
+def test_article_pages_open_text_but_lock_annotations_and_models(env: tuple[TestClient, Path]) -> None:
+    client, root = env
+    _seed_scored(root)
+    listing = client.get("/api/x/public/articles").json()
+    assert listing["locked"] is True and listing["articles"][0]["id"] == "abc123"
+    assert "models_with_result" not in listing["articles"][0]
+    detail = client.get("/api/x/public/articles/abc123").json()
+    assert detail["locked"] is True and detail["url"] == "https://x.test/a"
+    assert "Six killed near Kabirhat" in detail["markdown"]
+    assert "annotators" not in detail and "models" not in detail and "gold" not in detail
+    assert not any(word in json.dumps(detail) for word in ("SECRET-RAW", "ann_a", "SECRET-CLAIM", "g001"))
+    assert client.get("/api/x/public/articles/nope").status_code == 404
+
+    csrf = login(client, "boss")
+    settings = client.get("/api/x/admin/control").json()["settings"]
+    settings["labelling_open"] = False
+    client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf})
+    client.cookies.clear()
+    listing = client.get("/api/x/public/articles").json()
+    assert listing["locked"] is False and listing["articles"][0]["gold_accident"] is True
+    assert listing["articles"][0]["models_with_result"] == 1
+    detail = client.get("/api/x/public/articles/abc123").json()
+    assert [a["annotator"] for a in detail["annotators"]] == ["Annotator A", "Annotator B", "Annotator C"]
+    assert detail["gold"]["accident"] is True and detail["gold"]["fields"]["fatalities"] == 6
+    assert detail["models"][0]["raw_text"] == "SECRET-RAW" and detail["models"][0]["spec"]["provider"] == "deepseek"
+    flat = json.dumps(detail)
+    assert not any(word in flat for word in ("ann_a", "ann_b", "ann_c", "SECRET-CLAIM", "g001", "agent_claim"))

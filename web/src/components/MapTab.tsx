@@ -4,7 +4,7 @@ import type { MapCollection, MapData, MapProps, Overview } from '../types'
 import { MapView } from './MapView'
 import { LockNotice, Stat } from './Lock'
 
-export function MapTab({ theme }: { theme: 'light' | 'dark' }) {
+export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOpenArticle: (id: string) => void }) {
   const [overview, setOverview] = useState<Overview | null>(null)
   const [sources, setSources] = useState<string[]>([])
   const [source, setSource] = useState('gold')
@@ -60,7 +60,8 @@ export function MapTab({ theme }: { theme: 'light' | 'dark' }) {
             <span>Killed: {picked.fatalities ?? 'unknown'} · Killed+injured: {picked.casualities ?? 'unknown'}</span>
             <span>Date: {picked.date ?? 'unknown'}</span><span>Place: {picked.location ?? 'unknown'}{picked.country ? `, ${picked.country}` : ''}</span>
             <span className="text-muted">{picked.location_method} · ±{picked.uncertainty_radius_km} km · {picked.granularity}</span>
-            {picked.source_url && <a className="text-primary underline" href={picked.source_url} target="_blank" rel="noreferrer noopener">Open source article</a>}
+            {picked.source_url && <a className="text-primary underline" href={picked.source_url} target="_blank" rel="noreferrer noopener">Open original article</a>}
+            {picked.incident_id && <button className="btn mt-1 self-start" onClick={() => onOpenArticle(String(picked.incident_id))}>Full details: text, annotators, models</button>}
           </div>)}
         {overview && <div className="panel p-3"><span className="label">Top publishers</span><ul className="mt-1">{overview.top_publishers.map(([name, count]) => <li key={name} className="flex justify-between"><span>{name}</span><span className="text-muted">{count}</span></li>)}</ul></div>}
       </aside>

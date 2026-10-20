@@ -167,6 +167,80 @@ class PublicData:
                 queries.append((rec["location"], rec.get("country")))
         return queries
 
+    # article pages (text and images are always open; annotations and model output unlock) ----
+    def article_list(self) -> list[dict[str, Any]]:
+        unlocked = not self.locked()
+        gold = build_gold(self.store.all_latest()) if unlocked else {}
+        runs = [r["config_id"] for r in self.runs.list()] if unlocked else []
+        rows = []
+        for article_id in self.store.article_ids():
+            meta = self.store.meta(article_id)
+            row: dict[str, Any] = {"id": article_id, "title": meta.get("title"),
+                                   "publisher": meta.get("publisher"), "language": meta.get("language"),
+                                   "published_at": meta.get("published_at")}
+            if unlocked:
+                g = gold.get(article_id) or {}
+                flag = g.get("accident")
+                row["gold_accident"] = None if flag in (None, UNRESOLVED) else flag
+                row["models_with_result"] = sum(
+                    1 for c in runs if (self.runs.runs_dir / c / f"{article_id}.json").exists())
+            rows.append(row)
+        return rows
+
+    def article_detail(self, article_id: str) -> dict[str, Any] | None:
+        if article_id not in set(self.store.article_ids()):
+            return None
+        meta = self.store.meta(article_id)
+        image_list: list[dict[str, Any]] = list(meta.get("images") or [])  # type: ignore[call-overload]
+        detail: dict[str, Any] = {
+            "id": article_id, "url": meta.get("url"), "title": meta.get("title"),
+            "publisher": meta.get("publisher"), "published_at": meta.get("published_at"),
+            "language": meta.get("language"), "markdown": self.store.markdown(article_id),
+            "images": [{"image_id": f"{article_id}-{i + 1}", "alt": img.get("alt", ""),
+                        "url": f"/api/x/public/articles/{article_id}/images/{i + 1}"}
+                       for i, img in enumerate(image_list) if img.get("file")],
+            "locked": self.locked(),
+        }
+        if detail["locked"]:
+            return detail
+        labels = self.store.all_latest()
+        names = sorted(labels)
+        # public pseudonyms: usernames are never exposed
+        detail["annotators"] = [
+            {"annotator": f"Annotator {chr(65 + i)}", "unusable": rec.unusable, "notes": rec.notes,
+             "accidents": [a.wire() for a in rec.accidents],
+             "images": [x.model_dump() for x in rec.images], "revision": rec.revision}
+            for i, name in enumerate(names) if (rec := labels[name].get(article_id))
+        ]
+        gold = build_gold(labels).get(article_id)
+        detail["gold"] = gold and {k: v for k, v in gold.items() if k != "raw"}
+        models = []
+        for state in self.runs.list():
+            path = self.runs.runs_dir / state["config_id"] / f"{article_id}.json"
+            if not path.exists():
+                continue
+            row = json.loads(path.read_text("utf-8"))
+            models.append({"config_id": state["config_id"], "spec": state["spec"],
+                           **{k: row.get(k) for k in (
+                               "status", "error", "accidents", "images", "quality", "input_tokens",
+                               "output_tokens", "latency_ms", "finish_reason", "model_returned",
+                               "images_sent", "call_settings", "raw_text", "retries")}})
+        detail["models"] = models
+        return detail
+
+    def public_image(self, article_id: str, index: int) -> tuple[Path, str] | None:
+        if article_id not in set(self.store.article_ids()):
+            return None
+        images = list(self.store.meta(article_id).get("images") or [])  # type: ignore[call-overload]
+        if not 1 <= index <= len(images):
+            return None
+        image = images[index - 1]
+        name = str(image.get("file") or "")
+        path = self.root / "articles" / article_id / "images" / name
+        if not name or "/" in name or not path.is_file():
+            return None
+        return path, str(image.get("content_type"))
+
     # internals -------------------------------------------------------------------------
     def _article_props(self, article_id: str) -> dict[str, Any]:
         meta = self.store.meta(article_id)

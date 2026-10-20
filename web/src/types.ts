@@ -89,3 +89,17 @@ export type ModelRow = {
     mean_latency_ms: number | null; note: string
   }
 }
+
+export type ArticleListRow = { id: string; title: string | null; publisher: string | null; language: string | null; published_at: string | null; gold_accident?: boolean | null; models_with_result?: number }
+export type ModelResult = {
+  config_id: string; spec: RunSpec; status: 'ok' | 'failed'; error?: string | null; accidents?: AccidentRecord[]
+  images?: { image_id: string; what_is_visible: string; shows_accident: boolean | null; vehicles_visible: string[]; people_or_casualty_cues?: string | null; text_in_image?: string | null; location_cues?: string | null; confidence?: number | null }[]
+  quality?: { quotes: number; verbatim: number }; input_tokens?: number; output_tokens?: number; latency_ms?: number; finish_reason?: string
+  model_returned?: string; images_sent?: string[]; call_settings?: { thinking: string | null; max_output_tokens: number }; raw_text?: string; retries?: number
+}
+export type AnnotatorResult = { annotator: string; unusable: boolean; notes: string; accidents: AccidentRecord[]; images: ImageLabel[]; revision: number }
+export type PublicArticle = {
+  id: string; url: string | null; title: string | null; publisher: string | null; published_at: string | null; language: string | null
+  markdown: string; images: ArticleImage[]; locked: boolean
+  annotators?: AnnotatorResult[]; gold?: { usable: boolean; annotators: number; accident?: unknown; accident_count?: unknown; fields?: Record<string, unknown> } | null; models?: ModelResult[]
+}

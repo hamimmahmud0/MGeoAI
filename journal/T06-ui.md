@@ -14,3 +14,8 @@
 ### 2026-10-20 — slice 4
 - Control panel: per-user "Set password" (12+ chars; ends that user's existing sessions via `password_changed_at`; the password is never returned). Runs: a run whose worker thread is gone (service restart) is now shown as `interrupted`, with Resume, Retry failed and Clear. Clear archives to `extraction/runs/_archived/<timestamp>__<id>/` instead of deleting, and archived runs drop out of lists and scores.
 - Incident: deploys restart the service and kill a running extraction job; its saved state stayed "running" and Cancel could not work. Resume continues the remaining articles. Do not deploy while a run is active.
+
+### 2026-10-20 — slice 5: article pages
+- New open Articles tab (`/articles`, `/articles/<id>`) and "Full details" from a map point: original link, markdown text, images, plus (when labelling is closed) a side-by-side table of gold, each annotator (shown as Annotator A, B, C: usernames are never exposed) and each model run, with all accident records, evidence quotes, image analyses, token/latency/thinking settings and the raw model response. While labelling is open the link, text and images are visible but annotator and model output stay locked (blind annotation). `meta.admin` (group ids, agent claims) is never served.
+- State when built: DeepSeek run complete (244 ok, 0 failed, thinking on); only 1 label exists (one annotator). Unticking "Labelling is open" now would show model output to annotators for the other ~243 articles.
+- Open question for the paper: public republication of full article text and images has copyright implications; the original link is always shown.
