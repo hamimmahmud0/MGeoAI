@@ -36,3 +36,7 @@
 
 ### 2026-10-20 — OpenRouter output cap
 - Looked up `minimax/minimax-m3.1-flash:free` in the OpenRouter models list (2026-10-20): context 1,000,000; max completion 524,288; accepts images; supports `response_format`. Set OpenRouter Max output tokens to 524,288 and timeout 600 s on the VPS; the per-provider cap validation was raised to 1,048,576. Limits are per model: change the cap when the model id changes. Prices 0.15/0.6 are still entered on this `:free` model, so cost shows as non-zero.
+
+### 2026-11-08 — backup, bucket README, comparison report
+- Added `extraction/backup.py` (`mgeoai x backup`), `extraction/report.py` (`mgeoai x report`), `docs/BUCKET_README.md`. First backup: 2,631 files, 239 MB. Verified live on the VPS: the worker's first run found 1 changed label file (mubasshir 155 -> 156 lines) and wrote a history entry.
+- Report findings (agreement, not accuracy; no gold exists): oishik vs mubasshir on 45 shared articles: fatalities 97.7%, date 88.6%, country 93.2%, location overlap 20.5%, vehicles 22.7%. DeepSeek vs oishik (122): fatalities 99.1%, country 100%, date 61.4%; vs mubasshir (89): fatalities 97.6%, date 59.0%. All 44 date disagreements with oishik are the model returning no date: the markdown input has no publication date while annotators see it in the header. Candidate fix: add `published_at` to the markdown input (a new run folder). OpenRouter MiniMax run: 72 ok, 143 failed.

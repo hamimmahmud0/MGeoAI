@@ -48,6 +48,33 @@ def fetch_images_command(root: Path | None = typer.Option(None)) -> None:
     typer.echo(json.dumps(fetch_article_images(base), indent=2))
 
 
+@extract_app.command("backup")
+def backup_command(
+    root: Path | None = typer.Option(None),
+    bucket: str = typer.Option("hamimmahmud0/mgeoai-backup", help="Hugging Face bucket id"),
+    state_dir: Path | None = typer.Option(None, help="Where the last-backup manifest is kept"),
+) -> None:
+    """Back up labels, model runs and news sources to the bucket (needs HF_TOKEN)."""
+    from traffic_fusion.extraction.backup import run_backup
+
+    if not os.getenv("HF_TOKEN"):
+        raise typer.BadParameter("set HF_TOKEN in the environment")
+    status = run_backup(_root(root), bucket, state_dir)
+    typer.echo(json.dumps({k: status[k] for k in ("last_backup_utc", "history_entry", "files", "changed")}))
+
+
+@extract_app.command("report")
+def report_command(
+    root: Path | None = typer.Option(None),
+    output: Path = typer.Option(Path("model_vs_annotators.html")),
+) -> None:
+    """Write the model-vs-annotators comparison report (self-contained HTML)."""
+    from traffic_fusion.extraction.report import build_report
+
+    output.write_text(build_report(_root(root)), encoding="utf-8")
+    typer.echo(f"wrote {output}")
+
+
 @extract_app.command("init-accounts")
 def init_accounts_command(root: Path | None = typer.Option(None)) -> None:
     """Create missing accounts. Passwords go to a private file; they are never printed."""

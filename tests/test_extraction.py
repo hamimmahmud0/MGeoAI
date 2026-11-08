@@ -545,3 +545,68 @@ def test_output_token_cap_accepts_large_model_maximums(env: tuple[TestClient, Pa
         settings["providers"]["openrouter"]["max_output_tokens"] = value
         response = client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf})
         assert response.status_code == expected, value
+
+
+# --- bucket backup (offline: tests/fake_hf.py mirrors the bucket into a directory) -------------
+def test_backup_mirrors_keeps_history_and_never_copies_credentials(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from traffic_fusion.extraction.backup import run_backup
+
+    root = tmp_path / "extraction"
+    art = root / "articles" / "a1"
+    (art / "images").mkdir(parents=True)
+    (art / "meta.json").write_text(json.dumps({"id": "a1", "publisher": "P", "title": "T",
+                                               "url": "https://x.test", "images": [{"file": "1.jpg"}]}))
+    (art / "article.md").write_text("text")
+    (art / "images" / "1.jpg").write_bytes(b"jpg")
+    (root / "labels").mkdir()
+    label = {"article_id": "a1", "annotator": "u"}
+    (root / "labels" / "oishik.jsonl").write_text(json.dumps(label) + "\n")
+    (root / "runs" / "cfg").mkdir(parents=True)
+    (root / "runs" / "cfg" / "a1.json").write_text('{"status":"ok"}')
+    (root / "accounts.json").write_text('{"secret":"hash"}')
+    (root / "initial_passwords.txt").write_text("admin\tpw")
+    bucket = tmp_path / "bucket"
+    monkeypatch.setenv("FAKE_BUCKET_DIR", str(bucket))
+    fake = str(Path(__file__).parent / "fake_hf.py")
+    state = tmp_path / "state"
+
+    def backup(minute: int) -> dict[str, object]:
+        from datetime import UTC, datetime
+        return run_backup(root, "u/b", state, fake, now=datetime(2026, 11, 8, 12, minute, tzinfo=UTC))
+
+    first = backup(0)
+    assert first["history_entry"] == "history/20261108T120000Z"
+    assert (bucket / "latest" / "labels" / "oishik.jsonl").exists()
+    assert (bucket / "latest" / "articles" / "a1" / "images" / "1.jpg").read_bytes() == b"jpg"
+    assert (bucket / "latest" / "sources.csv").read_text().count("a1") == 1
+    assert (bucket / "history" / "20261108T120000Z" / "CHANGES.json").exists()
+    assert (bucket / "manifest" / "status.json").exists()
+    leaked = [p.name for p in bucket.rglob("*") if p.is_file() and p.name in ("accounts.json", "initial_passwords.txt")]
+    assert leaked == []
+
+    quiet = backup(10)  # nothing changed: no new history entry
+    assert quiet["history_entry"] is None and quiet["changed"] == {"added": 0, "modified": 0, "removed": 0}
+
+    with (root / "labels" / "oishik.jsonl").open("a") as handle:
+        handle.write(json.dumps({"article_id": "a2", "annotator": "u"}) + "\n")
+    changed = backup(20)  # a new label: history entry with before/after counts
+    assert changed["history_entry"] == "history/20261108T122000Z"
+    changes = json.loads((bucket / "history" / "20261108T122000Z" / "CHANGES.json").read_text())
+    assert changes["label_stats"]["oishik"]["label_lines"] == 2
+    assert changes["label_stats_before"]["oishik"]["label_lines"] == 1
+    assert changes["changed_live_files"] == ["labels/oishik.jsonl"]
+    old = (bucket / "history" / "20261108T120000Z" / "labels" / "oishik.jsonl").read_text()
+    assert old.count("\n") == 1  # the earlier snapshot is preserved
+
+    (root / "labels" / "oishik.jsonl").write_text("")  # a label file that lost its content
+    (root / "labels" / "oishik.jsonl").write_text(json.dumps(label) + "\n")
+    shrunk = backup(30)
+    warned = json.loads((bucket / str(shrunk["history_entry"]) / "CHANGES.json").read_text())
+    assert warned["warnings"] == ["label file shrank for oishik"]
+
+    empty = tmp_path / "empty"
+    (empty / "articles").mkdir(parents=True)
+    with pytest.raises(RuntimeError, match="empty tree"):
+        run_backup(empty, "u/b", tmp_path / "s2", fake)

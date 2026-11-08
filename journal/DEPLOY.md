@@ -9,3 +9,9 @@
 
 ### 2026-10-20 (later)
 - Deployed the open dashboard build (public Map/score/model tabs, retry failed, scoring). Public routes are locked while `labelling_open` is true (default).
+
+### 2026-11-08 — backup worker
+- Private Hugging Face bucket `hamimmahmud0/mgeoai-backup` (README.md inside is `docs/BUCKET_README.md`). Independent systemd user timer `mgeoai-backup.timer` (00/06/12/18:00 UTC, persistent) runs `mgeoai x backup` on the VPS; token in `~/.config/mgeoai/hf.env` (mode 600), state in `~/MGeoAI/backup_state/`. `latest/` is a non-deleting mirror; a `history/<UTC>/` entry is written only when labels, runs or settings changed; `manifest/status.json` shows `last_backup_utc` (stale > 7 h = worker down). Accounts, password files and API keys are never backed up.
+- Manual run: `systemctl --user start mgeoai-backup.service`; logs: `journalctl --user -u mgeoai-backup`.
+- Restore: `hf buckets sync hf://buckets/hamimmahmud0/mgeoai-backup/latest ./extraction` (see the bucket README).
+- Laptop copies: `~/mgeoai-backups/` (snapshots, state, report). The HF token on the VPS can write to every repo of the account; replace it with a fine-grained token limited to this bucket.
