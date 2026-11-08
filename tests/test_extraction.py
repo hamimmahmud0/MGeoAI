@@ -650,3 +650,14 @@ def test_publication_date_is_sent_only_with_meta_and_has_its_own_run_name(
     state["pid"] = 2**22 + 12345
     path.write_text(json.dumps(state))
     assert RunManager(manager.root, control).status(meta.config_id())["status"] == "interrupted"  # type: ignore[index]
+
+
+def test_extra_keys_from_the_model_are_dropped_and_reported_but_bad_values_still_fail() -> None:
+    ignored: list[dict[str, object]] = []
+    text = json.dumps({"accidents": [{"accident": True, "fatalities": 2, "date": None,
+                                      "date_note": "only 'on Friday'", "evidences": []}], "images": []})
+    accidents, _ = parse_output(text, ignored)
+    assert accidents[0].fatalities == 2 and ignored == [{"date_note": "only 'on Friday'"}]
+    bad = json.dumps({"accidents": [{"accident": True, "vehicles": ["battery_autorrickshaw"]}]})
+    with pytest.raises(ValueError):
+        parse_output(bad)

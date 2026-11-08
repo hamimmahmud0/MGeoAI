@@ -87,15 +87,32 @@ def _norm(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip().casefold()
 
 
-def parse_output(text: str) -> tuple[list[AccidentRecord], list[ImageAnalysis]]:
-    """Accept the envelope, a bare list, or a single accident object."""
+KNOWN_KEYS = {"accident", "casualities", "fatalities", "vehicles", "date", "country", "location",
+              "longitude and latitude", "evidences"}
+
+
+def parse_output(text: str, ignored: list[dict[str, Any]] | None = None
+                 ) -> tuple[list[AccidentRecord], list[ImageAnalysis]]:
+    """Accept the envelope, a bare list, or a single accident object.
+
+    Unknown extra keys on an accident object (models sometimes add a `note` or `date_note`)
+    are dropped and reported through `ignored`; wrong values still fail validation.
+    """
     payload: Any = json.loads(re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip()))
     images_raw: list[Any] = []
     if isinstance(payload, dict) and "accidents" in payload:
         images_raw = payload.get("images") or []
         payload = payload["accidents"]
     items = payload if isinstance(payload, list) else [payload]
-    accidents = [AccidentRecord.model_validate(item) for item in items]
+    cleaned = []
+    for item in items:
+        if isinstance(item, dict):
+            extra = {k: v for k, v in item.items() if k not in KNOWN_KEYS}
+            if extra and ignored is not None:
+                ignored.append(extra)
+            item = {k: v for k, v in item.items() if k in KNOWN_KEYS}
+        cleaned.append(item)
+    accidents = [AccidentRecord.model_validate(item) for item in cleaned]
     images = [ImageAnalysis.model_validate(item) for item in images_raw]
     if not accidents:
         raise ValueError("no accident objects")
@@ -354,7 +371,10 @@ class RunManager:
                     raise ValueError(
                         f"response truncated (finish_reason=length, {result.output_tokens} output "
                         f"tokens, {hint}); raise 'max output tokens' or turn thinking off")
-                accidents, images = parse_output(result.text)
+                ignored: list[dict[str, Any]] = []
+                accidents, images = parse_output(result.text, ignored)
+                if ignored:
+                    record["ignored_extra_keys"] = ignored
                 visible_text = source if spec.input_set == "markdown" else self._plain(article_id)
                 record.update(status="ok", accidents=[a.wire() for a in accidents],
                               images=[i.model_dump() for i in images],
