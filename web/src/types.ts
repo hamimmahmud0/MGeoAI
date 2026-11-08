@@ -44,7 +44,7 @@ export const emptyAccident = (): AccidentRecord => ({
   location: null, 'longitude and latitude': null, evidences: [],
 })
 
-export type RunSpec = { provider: string; model: string; input_set: 'raw' | 'markdown'; with_images: boolean; limit?: number | null; only_failed?: boolean }
+export type RunSpec = { provider: string; model: string; input_set: 'raw' | 'markdown'; with_images: boolean; with_meta?: boolean; limit?: number | null; only_failed?: boolean }
 export type RunEstimate = {
   config_id: string; articles_total: number; articles_todo: number; images_to_send: number
   est_input_tokens: number; est_output_tokens: number; est_cost_usd: number | null; cost_known: boolean

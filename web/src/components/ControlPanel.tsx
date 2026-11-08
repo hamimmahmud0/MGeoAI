@@ -13,7 +13,7 @@ export function ControlPanel({ session }: { session: Session }) {
   const [keys, setKeys] = useState<Record<string, string>>({})
   const [newUser, setNewUser] = useState({ username: '', password: '', roles: ['annotator'] as Role[] })
   const [runs, setRuns] = useState<RunState[]>([])
-  const [spec, setSpec] = useState<RunSpec>({ provider: 'deepseek', model: '', input_set: 'markdown', with_images: false, limit: null })
+  const [spec, setSpec] = useState<RunSpec>({ provider: 'deepseek', model: '', input_set: 'markdown', with_images: false, with_meta: true, limit: null })
   const [estimate, setEstimate] = useState<RunEstimate | null>(null)
   const [pricingText, setPricingText] = useState('')
   const [passwords, setPasswords] = useState<Record<string, string>>({})
@@ -107,6 +107,7 @@ export function ControlPanel({ session }: { session: Session }) {
         </div>
         <div className="mt-2 flex flex-wrap items-end gap-3">
           <label className="flex items-center gap-2"><input type="checkbox" checked={spec.with_images} onChange={(event) => { setSpec({ ...spec, with_images: event.target.checked }); setEstimate(null) }} />include images (provider must be marked as image-capable above)</label>
+          <label className="flex items-center gap-2"><input type="checkbox" checked={spec.with_meta ?? false} onChange={(event) => { setSpec({ ...spec, with_meta: event.target.checked }); setEstimate(null) }} />send the page's publication date (separate run name)</label>
           <label className="flex flex-col gap-1"><span className="label">Limit articles</span>
             <input className="control w-28" inputMode="numeric" placeholder="all" value={spec.limit ?? ''} onChange={(event) => { setSpec({ ...spec, limit: numOrNull(event.target.value) }); setEstimate(null) }} /></label>
           <button className="btn" disabled={!spec.model} onClick={() => void run(async () => setEstimate(await api.estimateRun(spec, csrf)), 'Estimate ready')}>Estimate</button>

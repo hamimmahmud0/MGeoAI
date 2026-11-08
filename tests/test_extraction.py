@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import pytest
@@ -610,3 +611,42 @@ def test_backup_mirrors_keeps_history_and_never_copies_credentials(
     (empty / "articles").mkdir(parents=True)
     with pytest.raises(RuntimeError, match="empty tree"):
         run_backup(empty, "u/b", tmp_path / "s2", fake)
+
+
+def test_publication_date_is_sent_only_with_meta_and_has_its_own_run_name(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    sent: list[str] = []
+
+    def fake_post(url: str, **kwargs: object) -> httpx.Response:
+        body = kwargs["json"]
+        sent.append(body["messages"][1]["content"][0]["text"])  # type: ignore[index]
+        return _reply()
+
+    monkeypatch.setattr(providers.httpx, "post", fake_post)
+    manager, control = _setup(tmp_path, 2)
+    meta_path = manager.root / "articles" / "a0" / "meta.json"
+    meta_path.write_text(json.dumps({"id": "a0", "images": [], "published_at": "2025-09-06"}))
+    plain = RunSpec(provider="deepseek", model="deepseek-flash", input_set="markdown")
+    meta = plain.model_copy(update={"with_meta": True})
+    assert plain.config_id() != meta.config_id() and meta.config_id().endswith("__meta")
+    manager.start(plain)
+    _wait(manager, plain.config_id())
+    assert not any("PAGE_METADATA" in text for text in sent)
+    sent.clear()
+    manager.start(meta)
+    _wait(manager, meta.config_id())
+    with_date = [t for t in sent if "published: 2025-09-06" in t]
+    assert len(with_date) == 1 and with_date[0].index("PAGE_METADATA") < with_date[0].index("<ARTICLE_SOURCE>")
+    assert "not the accident date" in with_date[0]
+    assert sum("PAGE_METADATA" in t for t in sent) == 1  # a1 has no date: no block at all
+    assert sorted(p.name for p in manager.runs_dir.iterdir()) == sorted([plain.config_id(), meta.config_id()])
+    # a CLI-started run (another process) is not shown as interrupted while its pid lives
+    path = manager.runs_dir / meta.config_id() / "run.json"
+    state = json.loads(path.read_text())
+    state.update(status="running", pid=os.getppid())
+    path.write_text(json.dumps(state))
+    assert RunManager(manager.root, control).status(meta.config_id())["status"] == "running"  # type: ignore[index]
+    state["pid"] = 2**22 + 12345
+    path.write_text(json.dumps(state))
+    assert RunManager(manager.root, control).status(meta.config_id())["status"] == "interrupted"  # type: ignore[index]

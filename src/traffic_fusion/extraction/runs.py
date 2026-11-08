@@ -8,6 +8,7 @@ with a stored successful result are skipped. Results are never served to annotat
 from __future__ import annotations
 
 import json
+import os
 import re
 import threading
 from concurrent.futures import ThreadPoolExecutor
@@ -40,12 +41,42 @@ class RunSpec(BaseModel):
     input_set: str = Field(pattern="^(raw|markdown)$")
     with_images: bool = False
     limit: int | None = Field(default=None, ge=1, le=100000)
+    # Give the model the page's publication date (meta.json) on its own labelled line, outside
+    # the article text. Part of the run name so runs with and without it never mix.
+    with_meta: bool = False
     only_failed: bool = False  # retry just the articles whose stored result is a failure
     article_ids: list[str] | None = None
 
     def config_id(self) -> str:
         slug = re.sub(r"[^a-z0-9]+", "-", self.model.lower()).strip("-")[:60]
-        return f"{self.provider}__{slug}__{self.input_set}__{'img' if self.with_images else 'txt'}"
+        base = f"{self.provider}__{slug}__{self.input_set}__{'img' if self.with_images else 'txt'}"
+        return f"{base}__meta" if self.with_meta else base
+
+
+def _pid_alive(pid: Any) -> bool:
+    """True if a process with this pid exists (a run started from the CLI has no thread here)."""
+    if not isinstance(pid, int) or pid == os.getpid():
+        return False
+    try:
+        os.kill(pid, 0)
+    except OSError:
+        return False
+    return True
+
+
+def page_metadata_block(published_at: object) -> str:
+    """The labelled metadata line. Empty when the page has no known publication date."""
+    if not published_at:
+        return ""
+    return (
+        "<PAGE_METADATA>\n"
+        f"published: {published_at}\n"
+        "</PAGE_METADATA>\n"
+        "PAGE_METADATA is the publication time of the page, taken from the page or the search "
+        "record. It may be missing or wrong and is not part of the article. Use it only as the "
+        "reference point for relative dates such as \"on Friday\" or \"last night\". It is not "
+        "the accident date unless the article says so.\n"
+    )
 
 
 def _now() -> str:
@@ -115,6 +146,10 @@ class RunManager:
                 todo.append(article_id)
         return todo
 
+    def _published_at(self, article_id: str) -> object:
+        meta = json.loads((self.root / "articles" / article_id / "meta.json").read_text("utf-8"))
+        return meta.get("published_at")
+
     def _source(self, article_id: str, input_set: str) -> str:
         folder = self.root / "articles" / article_id
         name = "model_raw.html" if input_set == "raw" else "article.md"
@@ -169,8 +204,9 @@ class RunManager:
         except (OSError, json.JSONDecodeError):
             return None
         thread = self._threads.get(config_id)
-        if state.get("status") == "running" and not (thread and thread.is_alive()):
-            # The job's thread is gone (service restart or crash): never show it as running.
+        if state.get("status") == "running" and not (thread and thread.is_alive()) \
+                and not _pid_alive(state.get("pid")):
+            # No live worker (service restart or crash): never show it as running.
             state["status"] = "interrupted"
         state["attempt"] = {
             key: state.get(key) for key in ("done", "failed", "input_tokens", "output_tokens")
@@ -229,7 +265,7 @@ class RunManager:
         path.write_text(json.dumps(state, indent=2) + "\n", "utf-8")
 
     # control -----------------------------------------------------------------
-    def start(self, spec: RunSpec) -> dict[str, Any]:
+    def start(self, spec: RunSpec, concurrency: int | None = None) -> dict[str, Any]:
         if spec.provider not in IMPLEMENTED:
             raise ValueError(f"provider {spec.provider!r} is not implemented yet")
         if not self.control.get_key(spec.provider):
@@ -249,10 +285,10 @@ class RunManager:
                 "started_at": _now(), "finished_at": None, "done": 0, "failed": 0,
                 "input_tokens": 0, "output_tokens": 0, "cost_usd": None,
                 "cost_known": self.control.price(spec.provider, spec.model) is not None,
-                "stop_reason": None,
+                "stop_reason": None, "pid": os.getpid(),
             }
             self._write_status(config_id, state)
-            thread = threading.Thread(target=self._run, args=(spec, state, cancel), daemon=True)
+            thread = threading.Thread(target=self._run, args=(spec, state, cancel, concurrency), daemon=True)
             self._threads[config_id] = thread
             thread.start()
         return state
@@ -263,7 +299,8 @@ class RunManager:
             event.set()
         return event is not None
 
-    def _run(self, spec: RunSpec, state: dict[str, Any], cancel: threading.Event) -> None:
+    def _run(self, spec: RunSpec, state: dict[str, Any], cancel: threading.Event,
+             concurrency: int | None = None) -> None:
         settings = self.control.settings()
         config = settings.providers[spec.provider]
         price = self.control.price(spec.provider, spec.model)
@@ -290,8 +327,10 @@ class RunManager:
                                       "prompt_hash": prompt_hash, "started_at": _now()}
             try:
                 source = self._source(article_id, spec.input_set)
+                meta_block = (page_metadata_block(self._published_at(article_id))
+                              if spec.with_meta else "")
                 parts: list[dict[str, Any]] = [{"type": "text", "text": (
-                    "<ARTICLE_SOURCE>\n" + source + "\n</ARTICLE_SOURCE>\n"
+                    meta_block + "<ARTICLE_SOURCE>\n" + source + "\n</ARTICLE_SOURCE>\n"
                     "Extract the road accident(s) as specified.")}]
                 sent = []
                 if spec.with_images:
@@ -336,7 +375,7 @@ class RunManager:
                 self._write_status(state["config_id"], state)
 
         try:
-            with ThreadPoolExecutor(max_workers=settings.concurrency) as pool:
+            with ThreadPoolExecutor(max_workers=concurrency or settings.concurrency) as pool:
                 list(pool.map(one, ids))
         finally:
             state["status"] = "cancelled" if cancel.is_set() else "stopped" if state["stop_reason"] else "finished"

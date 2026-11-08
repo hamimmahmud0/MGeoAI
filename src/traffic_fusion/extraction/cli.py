@@ -63,6 +63,43 @@ def backup_command(
     typer.echo(json.dumps({k: status[k] for k in ("last_backup_utc", "history_entry", "files", "changed")}))
 
 
+@extract_app.command("run")
+def run_command(
+    provider: str = typer.Option("deepseek"),
+    model: str = typer.Option(..., help="Model id, e.g. deepseek-flash"),
+    input_set: str = typer.Option("markdown", help="markdown or raw"),
+    with_images: bool = typer.Option(False),
+    with_meta: bool = typer.Option(False, help="Send the page's publication date to the model"),
+    limit: int | None = typer.Option(None),
+    only_failed: bool = typer.Option(False),
+    concurrency: int | None = typer.Option(None, help="Override the control-panel concurrency"),
+    root: Path | None = typer.Option(None),
+) -> None:
+    """Run extraction from the command line. The API key comes from the environment
+    (DEEPSEEK_API_KEY, OPENROUTER_API_KEY...), never from an argument."""
+    import time
+
+    from traffic_fusion.extraction.control import ControlStore
+    from traffic_fusion.extraction.runs import RunManager, RunSpec
+
+    base = _root(root)
+    manager = RunManager(base, ControlStore(base))
+    spec = RunSpec(provider=provider, model=model, input_set=input_set, with_images=with_images,
+                   with_meta=with_meta, limit=limit, only_failed=only_failed)
+    try:
+        manager.start(spec, concurrency)
+    except ValueError as exc:
+        raise typer.BadParameter(str(exc)) from exc
+    typer.echo(f"started {spec.config_id()}")
+    while True:
+        time.sleep(15)
+        state = manager.status(spec.config_id()) or {}
+        typer.echo(f"{state.get('status')} done={state.get('done')} failed={state.get('failed')} "
+                   f"tokens={state.get('input_tokens')}/{state.get('output_tokens')} cost={state.get('cost_usd')}")
+        if state.get("status") != "running":
+            break
+
+
 @extract_app.command("report")
 def report_command(
     root: Path | None = typer.Option(None),
