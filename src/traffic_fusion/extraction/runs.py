@@ -98,6 +98,7 @@ def parse_output(text: str, ignored: list[dict[str, Any]] | None = None
     Unknown extra keys on an accident object (models sometimes add a `note` or `date_note`)
     are dropped and reported through `ignored`; wrong values still fail validation.
     """
+    text = re.sub(r"<think>.*?</think>", "", text, flags=re.S)  # reasoning leaked into the reply
     payload: Any = json.loads(re.sub(r"^```(?:json)?\s*|\s*```$", "", text.strip()))
     images_raw: list[Any] = []
     if isinstance(payload, dict) and "accidents" in payload:
@@ -352,14 +353,17 @@ class RunManager:
                 sent = []
                 if spec.with_images:
                     for image_id, media_type, data in self._image_files(article_id, settings.max_images_per_article):
-                        parts += [{"type": "text", "text": f"IMAGE {image_id}"}, image_part(media_type, data)]
+                        parts += [{"type": "text", "text": f"IMAGE {image_id}"},
+                                  image_part(media_type, data, config.max_image_side)]
                         sent.append(image_id)
                 record["images_sent"] = sent
                 result: CallResult = call_chat(
                     spec.provider, api_key=self.control.get_key(spec.provider) or "", model=spec.model,
-                    system=system, user_parts=parts, base_url=config.base_url,
+                    system=system, user_parts=parts,
+                    base_url=config.base_url or (os.getenv("CUSTOM_BASE_URL", "")
+                                                 if spec.provider == "custom" else ""),
                     timeout=config.timeout_seconds, max_output_tokens=config.max_output_tokens,
-                    thinking=config.thinking,
+                    thinking=config.thinking, extra_body=config.extra_body or None,
                 )
                 record.update(raw_text=result.text, input_tokens=result.input_tokens,
                               output_tokens=result.output_tokens, latency_ms=result.latency_ms,

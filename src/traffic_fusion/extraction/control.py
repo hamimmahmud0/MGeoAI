@@ -15,12 +15,13 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-PROVIDERS: tuple[str, ...] = ("openai", "anthropic", "openrouter", "deepseek")
+PROVIDERS: tuple[str, ...] = ("openai", "anthropic", "openrouter", "deepseek", "custom")
 KEY_ENV = {
     "openai": "OPENAI_API_KEY",
     "anthropic": "ANTHROPIC_API_KEY",
     "openrouter": "OPENROUTER_API_KEY",
     "deepseek": "DEEPSEEK_API_KEY",
+    "custom": "CUSTOM_API_KEY",
 }
 
 
@@ -37,6 +38,10 @@ class ProviderConfig(BaseModel):
     # DeepSeek only: "default" = the model's own mode (thinking on); "disabled" turns it off.
     # Reasoning tokens count against max_output_tokens, so keep that cap high when it is on.
     thinking: Literal["disabled", "default"] = "default"
+    # Merged into the request body as-is (for example a llama.cpp/vLLM `chat_template_kwargs`).
+    extra_body: dict[str, Any] = Field(default_factory=dict)
+    # Downscale images so their longest side is at most this many pixels (None = send as saved).
+    max_image_side: int | None = Field(default=None, ge=128, le=4096)
 
 
 def default_provider(name: str) -> ProviderConfig:
@@ -44,6 +49,13 @@ def default_provider(name: str) -> ProviderConfig:
     with a long timeout because a non-streaming thinking call can take minutes."""
     if name == "deepseek":
         return ProviderConfig(max_output_tokens=393216, timeout_seconds=600)
+    if name == "custom":
+        # A self-hosted OpenAI-compatible server (llama.cpp / vLLM). Defaults suit a small
+        # 27B vision model: 8k output cap, no hidden reasoning, small images, long timeout.
+        return ProviderConfig(
+            max_output_tokens=8192, timeout_seconds=900, supports_images=True, max_image_side=1024,
+            extra_body={"chat_template_kwargs": {"enable_thinking": False}},
+        )
     return ProviderConfig()
 
 

@@ -661,3 +661,47 @@ def test_extra_keys_from_the_model_are_dropped_and_reported_but_bad_values_still
     bad = json.dumps({"accidents": [{"accident": True, "vehicles": ["battery_autorrickshaw"]}]})
     with pytest.raises(ValueError):
         parse_output(bad)
+
+
+def test_custom_openai_compatible_provider_url_extra_body_and_image_shrinking(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    import io
+
+    from PIL import Image
+
+    sent: list[tuple[str, dict[str, object]]] = []
+
+    def fake_post(url: str, **kwargs: object) -> httpx.Response:
+        sent.append((url, kwargs["json"]))  # type: ignore[arg-type]
+        return _reply(content="<think>maybe</think>" + GOOD)
+
+    monkeypatch.setattr(providers.httpx, "post", fake_post)
+    with pytest.raises(providers.ProviderError, match="needs a base URL"):
+        providers.call_chat("custom", api_key="k", model="m", system="s", user_parts=[])
+    providers.call_chat("custom", api_key="k", model="m", system="s", user_parts=[],
+                        base_url="https://host.example/v1/", extra_body={"chat_template_kwargs": {"enable_thinking": False}})
+    url, body = sent[-1]
+    assert url == "https://host.example/v1/chat/completions"
+    assert body["chat_template_kwargs"] == {"enable_thinking": False} and "thinking" not in body
+    buffer = io.BytesIO()
+    Image.effect_noise((2400, 1200), 80).convert("RGB").save(buffer, "PNG")
+    kind, data = providers.shrink_image("image/png", buffer.getvalue(), 1024)
+    assert kind == "image/jpeg" and max(Image.open(io.BytesIO(data)).size) == 1024
+    assert providers.shrink_image("image/png", b"not an image", 1024) == ("image/png", b"not an image")
+    assert providers.shrink_image("image/png", buffer.getvalue(), None)[1] == buffer.getvalue()
+    accidents, _ = parse_output("<think>reasoning…</think>" + GOOD)
+    assert accidents[0].fatalities == 6
+
+    manager, control = _setup(tmp_path, 1)
+    config = control.settings().providers["custom"]
+    assert config.supports_images and config.max_image_side == 1024
+    assert config.extra_body == {"chat_template_kwargs": {"enable_thinking": False}}
+    assert (config.max_output_tokens, config.timeout_seconds) == (8192, 900)
+    control.set_key("custom", "k-test")
+    monkeypatch.setenv("CUSTOM_BASE_URL", "https://host.example/v1")
+    spec = RunSpec(provider="custom", model="Qwen3.8-27B", input_set="markdown", with_meta=True)
+    manager.start(spec)
+    _wait(manager, spec.config_id())
+    assert sent[-1][0] == "https://host.example/v1/chat/completions"
+    assert spec.config_id() == "custom__qwen3-8-27b__markdown__txt__meta"
