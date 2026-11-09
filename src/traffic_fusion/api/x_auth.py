@@ -8,13 +8,7 @@ from datetime import UTC, datetime
 
 from fastapi import HTTPException, Request
 
-from traffic_fusion.api.moderation import (
-    SESSION_COOKIE,
-    SESSION_TTL,
-    _decode,
-    _encode,
-    _session_secret,
-)
+from traffic_fusion.api.session import SESSION_COOKIE, SESSION_TTL, decode, encode, session_secret
 from traffic_fusion.extraction.accounts import Account, AccountStore
 
 _FAILS: dict[str, list[float]] = {}
@@ -48,10 +42,10 @@ def current_user(
     token = request.cookies.get(SESSION_COOKIE, "")
     try:
         encoded, supplied = token.split(".", 1)
-        expected = _encode(hmac.new(_session_secret(), encoded.encode(), hashlib.sha256).digest())
+        expected = encode(hmac.new(session_secret(), encoded.encode(), hashlib.sha256).digest())
         if not hmac.compare_digest(supplied, expected):
             raise ValueError("bad signature")
-        payload = json.loads(_decode(encoded))
+        payload = json.loads(decode(encoded))
         username, csrf_token = str(payload["username"]), str(payload["csrf"])
         expires_at = int(payload["expires_at"])
     except (KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:

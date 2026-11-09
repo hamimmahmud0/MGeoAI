@@ -17,7 +17,7 @@ from typing import IO, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-from traffic_fusion.api.moderation import hash_reviewer_password, verify_password
+from traffic_fusion.api.session import hash_password, verify_password
 
 Role = Literal["admin", "reviewer", "annotator"]
 ROLES: tuple[str, ...] = ("admin", "reviewer", "annotator")
@@ -74,7 +74,7 @@ class AccountStore:
     def authenticate(self, username: str, password: str) -> Account | None:
         account = self.get(username)
         if account is None:
-            verify_password(password, hash_reviewer_password("x"))  # equalise timing
+            verify_password(password, hash_password("x"))  # equalise timing
             return None
         return account if verify_password(password, account.password_hash) else None
 
@@ -101,7 +101,7 @@ class AccountStore:
                 username=username,
                 roles=roles,
                 password_hash=(
-                    hash_reviewer_password(password)
+                    hash_password(password)
                     if password is not None
                     else existing.password_hash  # type: ignore[union-attr]
                 ),

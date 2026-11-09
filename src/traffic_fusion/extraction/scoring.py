@@ -15,7 +15,7 @@ import re
 from pathlib import Path
 from typing import Any
 
-from traffic_fusion.annotation.stats import cohen_kappa, krippendorff_alpha_nominal
+from traffic_fusion.extraction.agreement import cohen_kappa, krippendorff_alpha_nominal
 from traffic_fusion.extraction.annotation_store import ArticleLabel, ArticleStore
 
 FIELDS = ("fatalities", "casualities", "vehicles", "date", "country", "location")

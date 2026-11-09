@@ -9,11 +9,11 @@ Map, agreement and model scores unlock when an admin ends labelling.
 from __future__ import annotations
 
 import json
+import tomllib
 from collections import Counter
 from pathlib import Path
 from typing import Any
 
-from traffic_fusion.corpus.discovery import load_country_profiles
 from traffic_fusion.extraction.annotation_store import ArticleStore
 from traffic_fusion.extraction.control import ControlStore
 from traffic_fusion.extraction.geocode import GeocodeStore
@@ -118,12 +118,12 @@ class PublicData:
     def coverage_geojson(self) -> dict[str, Any]:
         """Per-country article counts at collection-country centroids (not incidents)."""
         path = Path(__file__).resolve().parents[3] / "configs" / "global_countries.toml"
-        centroids = {}
+        centroids: dict[str, tuple[float, float, str]] = {}
         try:
-            for profile in load_country_profiles(path).values():
-                centroids[profile.name.casefold()] = (
-                    profile.coverage_longitude, profile.coverage_latitude, profile.name)
-        except Exception:  # noqa: BLE001 - optional config; map just stays empty
+            for row in tomllib.loads(path.read_text("utf-8")).get("countries", []):
+                point = row["coverage_centroid"]
+                centroids[str(row["name"]).casefold()] = (point["longitude"], point["latitude"], str(row["name"]))
+        except (OSError, KeyError, tomllib.TOMLDecodeError):  # optional file: the map just shows fewer countries
             centroids = {}
         for key, value in EXTRA_CENTROIDS.items():
             centroids.setdefault(key, value)

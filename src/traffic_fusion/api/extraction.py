@@ -8,7 +8,7 @@ from fastapi import APIRouter, HTTPException, Request, Response
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, ConfigDict, Field
 
-from traffic_fusion.api.moderation import SESSION_COOKIE, create_session
+from traffic_fusion.api.session import SESSION_COOKIE, create_session
 from traffic_fusion.api.x_auth import (
     check_lockout,
     clear_failures,
