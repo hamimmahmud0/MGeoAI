@@ -37,6 +37,7 @@ latest/                         mirror of the source, updated every backup. NEVE
   control.json                  provider settings (models, limits, prices). No secrets.
   geocode_cache.json            place -> coordinates cache (only if geocoding was run)
   sources.csv                   one row per article: id, publisher, title, url, dates, language, images saved
+  matching/                     same-accident grouping benchmark (see below)
   schemas/                      JSON Schemas for a label and an accident record
 history/<UTC timestamp>/        created ONLY when labels, runs or settings changed since the previous backup
   CHANGES.json                  per-annotator label counts before/after, changed files, warnings
@@ -88,6 +89,21 @@ Folder name `config_id` = `<provider>__<model slug>__<markdown|raw>__<img|txt>`.
 setting or the output cap: check `call_settings` inside each result before comparing runs. Only the latest
 attempt per article is kept (a retry overwrites a failed record).
 Prompt: `assets/mllm_prompts/accident_extraction_prompt.md` in the GitHub repo (hash in `prompt_hash`).
+
+## Same-accident grouping benchmark (`latest/matching/`)
+Question: can an LLM tell which news articles report the same accident? Gold = the 100 groups assembled by a browser
+agent (`meta.json:admin.group_id`; **unverified**, so results are agreement with those groups, not accuracy).
+Files: `pairs.json` (973 sampled article pairs + stratum + label, **frozen**; `pairs.sha256`; the decision rule is inside),
+`meta.json` (hash, label counts and which annotator supplied each human record), `pair-full/` (LLM reads both articles),
+`pair-fields-both|human|model/` (LLM sees only extracted fields: annotator record and/or model extraction),
+`cluster-cards/`, `cluster-full/` (LLM groups all 244 articles; 3 shuffled runs each), `results.json`, `report.html`.
+Pair calls are `<pair_id>__AB.json` and `__BA.json` (the two article orders) with the raw reply, token counts and prompt hash.
+A pair is predicted SAME only if both orders answer `same_incident`. Strata: positive (232 within-group pairs),
+`hard_decoy` (163, agent-chosen similar-but-different crash vs main group), `hard_near` (128, same country, publish date within
+4 days), `hard_similar` (350, TF-IDF nearest neighbours), `easy` (28,773, 150 sampled). Negatives are sampled, so the report
+re-weights to the full population and bootstraps over incident groups. Model: DeepSeek `deepseek-flash` (thinking on).
+Caveat: the agent also chose the hard negatives, and an LLM judged them, so errors may be correlated: the benchmark is
+near saturation for LLM methods and does not separate them (see `report.html`).
 
 ## How to work with this bucket
 ```bash

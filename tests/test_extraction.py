@@ -705,3 +705,89 @@ def test_custom_openai_compatible_provider_url_extra_body_and_image_shrinking(
     _wait(manager, spec.config_id())
     assert sent[-1][0] == "https://host.example/v1/chat/completions"
     assert spec.config_id() == "custom__qwen3-8-27b__markdown__txt__meta"
+
+
+# --- same-accident grouping benchmark ---------------------------------------------------------------
+def _grouping_root(tmp_path: Path) -> Path:
+    root = tmp_path / "g"
+    spec = [("a1", "g1", "Bangladesh", "2025-05-01"), ("a2", "g1", "Bangladesh", "2025-05-01"),
+            ("a3", "g2", "Bangladesh", "2025-05-02"), ("a4", "g2", "Bangladesh", "2025-05-02"),
+            ("a5", "g3", "Kenya", "2025-07-09"), ("a6", "g4", "Peru", "2025-08-01")]
+    for aid, grp, country, day in spec:
+        folder = root / "articles" / aid
+        folder.mkdir(parents=True)
+        (folder / "article.md").write_text(f"Bus crash {grp} killed people near {country} town {grp}.")
+        (folder / "meta.json").write_text(json.dumps({"id": aid, "publisher": "P" + aid, "title": f"Crash {grp}", "language": "en",
+            "published_at": day, "images": [], "admin": {"group_id": grp, "country": country}}))
+    (root / "labels").mkdir()
+    return root
+
+
+def test_grouping_metrics_and_cluster_bootstrap(tmp_path: Path) -> None:
+    import numpy as np
+
+    from traffic_fusion.extraction import grouping_eval as ge
+    from traffic_fusion.extraction.grouping import Corpus
+
+    corpus = Corpus(_grouping_root(tmp_path))
+    assert corpus.ids == ["a1", "a2", "a3", "a4", "a5", "a6"]
+    perfect = {a: corpus.group[a] for a in corpus.ids}
+    m = ge.cluster_metrics(corpus, perfect)
+    assert m["pairwise_all"]["f1"] == 1.0 and m["ari"] == pytest.approx(1.0) and m["groups_recovered_exactly"] == 4
+    merged = {**perfect, "a3": "g1", "a4": "g1"}  # groups g1 and g2 wrongly merged
+    mm = ge.cluster_metrics(corpus, merged)
+    assert mm["predicted_clusters_merging_groups"] == 1 and mm["true_groups_split"] == 0 and mm["pairwise_all"]["precision"] < 1
+    # consensus: together in 2 of 3 runs -> together
+    runs = [{"a1": "x", "a2": "x", "a3": "y"}, {"a1": "x", "a2": "x", "a3": "z"}, {"a1": "p", "a2": "q", "a3": "z"}]
+    cons = ge.consensus(runs, ["a1", "a2", "a3"])
+    assert cons["a1"] == cons["a2"] and cons["a3"] != cons["a1"]
+    # re-weighted estimates: one positive found, one missed, 1 of 2 sampled easy negatives wrongly called SAME
+    pairs = [{"pair_id": "p1", "label": "same", "stratum": "positive", "group_a": "g1", "group_b": "g1", "cross_language": False, "toll_differs": False, "same_publisher": False},
+             {"pair_id": "p2", "label": "same", "stratum": "positive", "group_a": "g2", "group_b": "g2", "cross_language": True, "toll_differs": False, "same_publisher": False},
+             {"pair_id": "n1", "label": "different", "stratum": "easy", "group_a": "g1", "group_b": "g3", "cross_language": False, "toll_differs": False, "same_publisher": False},
+             {"pair_id": "n2", "label": "different", "stratum": "easy", "group_a": "g2", "group_b": "g4", "cross_language": False, "toll_differs": False, "same_publisher": False}]
+    w = ge.weights(pairs, {"positive": 2, "easy": 100})
+    assert list(w) == [1.0, 1.0, 50.0, 50.0]
+    boot = ge.cluster_bootstrap_weights(pairs)
+    assert boot.shape == (ge.RESAMPLES, 4)
+    score = ge.score_method(pairs, {"p1": True, "p2": False, "n1": True, "n2": False}, w, boot)
+    assert score["estimated"]["recall"] == pytest.approx(0.5)
+    assert score["estimated"]["precision"] == pytest.approx(1 / 51)  # 1 TP vs 50 estimated false positives
+    assert score["by_stratum"]["easy"]["rate"] == 0.5 and score["positive_subsets"]["cross_language"]["recall"] == 0.0
+    missing = ge.score_method(pairs, {"p1": True, "p2": None, "n1": False, "n2": False}, w, boot)
+    assert missing["pairs_missing"] == 1 and missing["pairs_scored"] == 3
+    assert not np.isnan(score["ci95"]["f1"]).any()
+
+
+def test_grouping_pair_set_is_frozen_and_judge_rule_needs_both_orders(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from traffic_fusion.extraction import grouping
+    from traffic_fusion.extraction import grouping_eval as ge
+
+    root = _grouping_root(tmp_path)
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "benchmark" / "scraps").mkdir(parents=True)
+    (tmp_path / "benchmark" / "scraps" / "candidates_b01.json").write_text(json.dumps({"groups": [
+        {"group_id": "g1", "kind": "same_incident"}, {"group_id": "g2", "kind": "decoy_cluster", "decoy_for": "g1", "agent_note": "x"},
+        {"group_id": "g3", "kind": "same_incident"}, {"group_id": "g4", "kind": "same_incident"}]}))
+    meta = grouping.prepare(root)
+    doc = json.loads((root / "matching" / "pairs.json").read_text())
+    assert meta["pairs_sha256"] == (root / "matching" / "pairs.sha256").read_text().strip()
+    assert meta["positive_pairs"] == 2 and sum(doc["population"].values()) == 15
+    strata = {p["pair_id"]: p["stratum"] for p in doc["pairs"]}
+    decoy = [p for p in doc["pairs"] if p["stratum"] == "hard_decoy"]
+    assert len(decoy) == 4 and all({p["group_a"], p["group_b"]} == {"g1", "g2"} for p in decoy)
+    assert grouping.prepare(root)["pairs_sha256"] == meta["pairs_sha256"]  # deterministic
+    assert strata and "SAME only if" in doc["decision_rule"]
+    # judge rule: both orders must say same_incident
+    folder = root / "matching" / "pair-full"
+    folder.mkdir(parents=True)
+    pid = doc["pairs"][0]["pair_id"]
+    for order, decision in (("AB", "same_incident"), ("BA", "different_incident")):
+        (folder / f"{pid}__{order}.json").write_text(json.dumps({"status": "ok", "decision": decision, "confidence": 0.9, "input_tokens": 1, "output_tokens": 1}))
+    result = ge.pair_predictions(root, "pair-full", doc["pairs"])
+    assert result[pid]["pred"] is False and result[pid]["consistent"] is False
+    assert result[doc["pairs"][1]["pair_id"]]["pred"] is None  # no call made: reported as missing, not as "different"
+    ids, text = grouping.parse_clusters('{"clusters": [{"ids": ["A001", "A002", "A002", "Z9"]}]}', {"A001", "A002", "A003"})
+    assert ids == [["A001", "A002"], ["A003"]] and text == {"missing": 1, "duplicates": 1, "unknown_ids": 1}

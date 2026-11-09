@@ -100,6 +100,53 @@ def run_command(
             break
 
 
+@extract_app.command("group-prepare")
+def group_prepare_command(root: Path | None = typer.Option(None)) -> None:
+    """Freeze the benchmark pair set (writes matching/pairs.json + sha256 + meta.json)."""
+    from traffic_fusion.extraction.grouping import prepare
+
+    typer.echo(json.dumps(prepare(_root(root)), indent=1))
+
+
+@extract_app.command("group-run")
+def group_run_command(
+    method: str = typer.Option(..., help="pair-full | pair-fields | cluster-cards | cluster-full"),
+    root: Path | None = typer.Option(None),
+    limit: int | None = typer.Option(None, help="pilot: number of pairs (spread over strata)"),
+    concurrency: int = typer.Option(20),
+    token_limit: int = typer.Option(3_000_000, help="hard stop on total tokens for this call"),
+    thinking: str = typer.Option("default", help="default | disabled"),
+    variant: str = typer.Option("both", help="pair-fields only: both | human | model"),
+    repeats: int = typer.Option(3, help="cluster methods: independent runs"),
+) -> None:
+    """Run one grouping method with DeepSeek (DEEPSEEK_API_KEY from the environment)."""
+    from traffic_fusion.extraction import grouping
+
+    base = _root(root)
+    if method.startswith("pair-"):
+        out = grouping.run_pair_jobs(base, method, limit, concurrency, token_limit, thinking, variant=variant)
+    elif method in ("cluster-cards", "cluster-full"):
+        out = grouping.run_cluster_jobs(base, method.split("-", 1)[1], repeats, token_limit, thinking)
+    else:
+        raise typer.BadParameter("unknown method")
+    typer.echo(json.dumps(out))
+
+
+@extract_app.command("group-eval")
+def group_eval_command(
+    root: Path | None = typer.Option(None),
+    output: Path = typer.Option(Path("grouping_report.html")),
+) -> None:
+    """Score all grouping methods and write the HTML report (+ results.json next to it)."""
+    from traffic_fusion.extraction.grouping_eval import evaluate, render
+
+    base = _root(root)
+    result = evaluate(base)
+    (base / "matching" / "results.json").write_text(json.dumps(result, ensure_ascii=False, indent=1, default=float) + "\n", "utf-8")
+    output.write_text(render(base, result), encoding="utf-8")
+    typer.echo(f"wrote {output} and {base / 'matching' / 'results.json'}")
+
+
 @extract_app.command("report")
 def report_command(
     root: Path | None = typer.Option(None),
