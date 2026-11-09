@@ -53,7 +53,7 @@ Live site: <https://mgeoai.cartmind.xyz>.
 |---|---|---|
 | `articles.jsonl` | 244 | One row per article: URL, publisher, title, date, language, collection country and region, and the **reference group** (`reference_group_id`) the article belongs to. |
 | `annotations.jsonl` | 328 | Human annotations (3 pseudonymous annotators). At least one per article. |
-| `model_extractions.jsonl` | 947 | What each language model extracted from each article, across 4 runs. |
+| `model_extractions.jsonl` | 1,435 | What each language model extracted from each article, across 6 runs (DeepSeek with reasoning on, with and without the publication timestamp, and with reasoning off; Qwen3.8-27B; LFM3-1.7B; and a partial free-model run). |
 | `grouping_pairs.jsonl` | 973 | The frozen sample of article pairs used to test same-accident methods, with the reference label. |
 | `grouping_pair_predictions.jsonl` | 7,784 | Every answer of every pair-judging method (both presentation orders). |
 | `grouping_clusters.jsonl` | 6 | Each "cluster everything at once" run: the groups the model returned. |
@@ -130,8 +130,11 @@ Annotations, model extractions, grouping labels/predictions and incident summari
 Titles, URLs and publishers are factual metadata about third-party articles and stay with their owners.
 Place coordinates in `incidents.jsonl` come from **OpenStreetMap Nominatim**: © OpenStreetMap contributors, data
 under the **ODbL**; they are place centres (with an uncertainty radius), never crash coordinates.
-Model extractions were produced with DeepSeek (`deepseek-flash`), a Qwen 27B model and a MiniMax free model through
-OpenRouter; check each provider's terms if you reuse their outputs commercially.
+Model extractions were produced with DeepSeek (`deepseek-flash`), a Qwen 27B model (4-bit), the edge model LFM3-1.7B
+and a MiniMax free model through OpenRouter; check each provider's terms if you reuse their outputs commercially.
+In `model_extractions.jsonl`, `error_kind` separates why an answer failed: `vocabulary` (a vehicle outside the fixed
+list), `schema`, `no_accident_object`, `malformed_json`, `truncated`, and `transport` (a network timeout, not a model
+failure).
 
 ## Ethics
 
