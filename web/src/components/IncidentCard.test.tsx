@@ -6,7 +6,7 @@ import { IncidentCard } from './IncidentCard'
 const rec = (fatalities: number, extra = {}) => ({ accident: true, fatalities, casualities: fatalities + 1, vehicles: ['bus'], date: '2026-03-25', country: 'Bangladesh', location: 'Daulatdia', 'longitude and latitude': null, evidences: [], ...extra })
 const detail = (id: string, human: number, model: number) => ({
   id, url: null, title: id, publisher: id, published_at: null, language: 'en', markdown: '', images: [], locked: false,
-  annotators: [{ annotator: 'Annotator A', unusable: false, notes: '', revision: 1, images: [], accidents: [rec(human)] }],
+  annotators: [{ annotator: 'Annotator A', reference: true, unusable: false, notes: '', revision: 1, images: [], accidents: [rec(human)] }],
   models: [{ config_id: 'm1', spec: { provider: 'deepseek', model: 'deepseek-flash', input_set: 'markdown', with_images: false }, status: 'ok', accidents: [rec(model)] }],
 })
 const props = {
@@ -23,7 +23,7 @@ describe('IncidentCard', () => {
     for (const name of ['Summary', 'Extracted fields', 'Sources']) expect(screen.getByRole('region', { name })).toBeInTheDocument()
     const fields = screen.getByRole('region', { name: 'Extracted fields' })
     const select = await within(fields).findByRole('combobox', { name: 'Source of extracted fields' })
-    expect(within(select).getAllByRole('option').map((o) => o.textContent)).toEqual(['Annotation · Annotator A', 'Model output · deepseek-flash'])
+    expect(within(select).getAllByRole('option').map((o) => o.textContent)).toEqual(['Annotation · reference (one per article)', 'Annotation · Annotator A', 'Model output · deepseek-flash'])
     // annotation view: the Alo article says 2 killed, the odd one out
     expect(within(fields).getByRole('cell', { name: '2' })).toHaveClass('bg-warning-soft')
     await userEvent.selectOptions(select, 'm:m1')

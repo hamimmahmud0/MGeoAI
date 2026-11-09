@@ -25,8 +25,10 @@ function pick(detail: PublicArticle | undefined, choice: string): { record?: Acc
   if (!detail) return { state: 'loading' }
   if (detail.locked) return { state: 'hidden while labelling is open' }
   if (choice.startsWith('a:')) {
-    const item = detail.annotators?.find((a) => a.annotator === choice.slice(2))
-    if (!item) return { state: 'not annotated' }
+    const wanted = choice.slice(2)
+    // "reference" = the annotation scoring uses for each article, whoever wrote it
+    const item = wanted === 'reference' ? detail.annotators?.find((a) => a.reference) : detail.annotators?.find((a) => a.annotator === wanted)
+    if (!item) return { state: wanted === 'reference' ? 'not annotated' : `not annotated by ${wanted}` }
     if (item.unusable) return { state: 'marked unusable' }
     const record = item.accidents.find((a) => a.accident)
     return record ? { record } : { state: 'no accident' }
@@ -60,9 +62,10 @@ export function IncidentCard({ props, onOpen, onClose }: { props: MapProps; onOp
   const options = useMemo(() => {
     const out: { value: string; label: string }[] = []
     const seen = new Set<string>()
+    if (loaded.some((d) => d.annotators?.length)) out.push({ value: 'a:reference', label: 'Annotation · reference (one per article)' })
     for (const d of loaded) for (const a of d.annotators ?? []) if (!seen.has(`a:${a.annotator}`)) { seen.add(`a:${a.annotator}`); out.push({ value: `a:${a.annotator}`, label: `Annotation · ${a.annotator}` }) }
     for (const d of loaded) for (const m of d.models ?? []) if (!seen.has(`m:${m.config_id}`)) { seen.add(`m:${m.config_id}`); out.push({ value: `m:${m.config_id}`, label: `Model output · ${modelName(m)}` }) }
-    return out.sort((x, y) => x.value.localeCompare(y.value))
+    return [out[0], ...out.slice(1).sort((x, y) => x.value.localeCompare(y.value))].filter(Boolean)
   }, [loaded])
   const active = options.some((o) => o.value === choice) ? choice : options[0]?.value ?? ''
 

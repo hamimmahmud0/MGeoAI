@@ -266,9 +266,12 @@ class PublicData:
             return detail
         labels = self.store.all_latest()
         names = sorted(labels)
+        # the reference annotation is the one scoring uses: the annotator with most labels who labelled this article
+        by_volume = sorted(labels, key=lambda user: (-len(labels[user]), user))
+        reference = next((user for user in by_volume if article_id in labels[user]), None)
         # public pseudonyms: usernames are never exposed
         detail["annotators"] = [
-            {"annotator": f"Annotator {chr(65 + i)}", "unusable": rec.unusable, "notes": rec.notes,
+            {"annotator": f"Annotator {chr(65 + i)}", "reference": name == reference, "unusable": rec.unusable, "notes": rec.notes,
              "accidents": [a.wire() for a in rec.accidents],
              "images": [x.model_dump() for x in rec.images], "revision": rec.revision}
             for i, name in enumerate(names) if (rec := labels[name].get(article_id))
