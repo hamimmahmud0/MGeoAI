@@ -5,6 +5,7 @@ import { buildPopup } from '../lib/popup'
 import type { MapCollection, MapData, MapProps } from '../types'
 import { SEVERITY_STEPS, VEHICLE_COLORS, YEAR_COLORS, type ColorBy } from '../lib/mapStyle'
 import { MapView } from './MapView'
+import { IncidentCard } from './IncidentCard'
 
 function PinnedCard({ props, onOpen, onClose }: { props: MapProps; onOpen: (id: string) => void; onClose: () => void }) {
   const holder = useRef<HTMLDivElement>(null)
@@ -96,7 +97,9 @@ export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOp
           </div>
         </div>)}
 
-      {picked && !locked && <PinnedCard props={picked} onOpen={onOpenArticle} onClose={() => setSelected(undefined)} />}
+      {picked && !locked && (picked.kind === 'incident'
+        ? <IncidentCard props={picked} onOpen={onOpenArticle} onClose={() => setSelected(undefined)} />
+        : <PinnedCard props={picked} onOpen={onOpenArticle} onClose={() => setSelected(undefined)} />)}
     </div>
   )
 }
