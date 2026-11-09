@@ -31,7 +31,7 @@ from traffic_fusion.utils import stable_hash
 
 PROMPT_PATH = Path("assets/mllm_prompts/accident_extraction_prompt.md")
 MAX_RAW_CHARS = 400_000
-REASONING_OUTPUT_TOKENS = 16_384
+REASONING_OUTPUT_TOKENS = 262_144  # no practical cap: the model's whole context window
 
 
 class RunSpec(BaseModel):

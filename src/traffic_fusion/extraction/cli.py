@@ -74,6 +74,7 @@ def run_command(
     limit: int | None = typer.Option(None),
     only_failed: bool = typer.Option(False),
     concurrency: int | None = typer.Option(None, help="Override the control-panel concurrency"),
+    shard: str | None = typer.Option(None, help="i/n: only every n-th article starting at i, to split a run over machines"),
     root: Path | None = typer.Option(None),
 ) -> None:
     """Run extraction from the command line. The API key comes from the environment
@@ -85,8 +86,14 @@ def run_command(
 
     base = _root(root)
     manager = RunManager(base, ControlStore(base))
+    ids = None
+    if shard:
+        index, count = (int(x) for x in shard.split("/"))
+        from traffic_fusion.extraction.annotation_store import ArticleStore
+
+        ids = ArticleStore(base).article_ids()[index::count]
     spec = RunSpec(provider=provider, model=model, input_set=input_set, with_images=with_images,
-                   with_meta=with_meta, reasoning=reasoning, limit=limit, only_failed=only_failed)
+                   with_meta=with_meta, reasoning=reasoning, limit=limit, only_failed=only_failed, article_ids=ids)
     try:
         manager.start(spec, concurrency)
     except ValueError as exc:
@@ -122,6 +129,7 @@ def group_run_command(
     provider: str = typer.Option("deepseek", help="deepseek | openrouter (key from the environment)"),
     model: str = typer.Option("deepseek-flash", help="model id at that provider"),
     reasoning: bool = typer.Option(False, help="custom endpoints: switch the model's own thinking on"),
+    shard: str | None = typer.Option(None, help="i/n: only every n-th pair starting at i (clustering runs on shard 0 only)"),
 ) -> None:
     """Run one grouping method (DEEPSEEK_API_KEY / OPENROUTER_API_KEY from the environment).
 
@@ -131,10 +139,12 @@ def group_run_command(
 
     base = _root(root)
     engine = grouping.Engine(provider, model, reasoning)
+    part = tuple(int(x) for x in shard.split("/")) if shard else None
+    sh = (part[0], part[1]) if part else None
     if method.startswith("pair-"):
-        out = grouping.run_pair_jobs(base, method, limit, concurrency, token_limit, thinking, variant=variant, engine=engine)
+        out = grouping.run_pair_jobs(base, method, limit, concurrency, token_limit, thinking, variant=variant, engine=engine, shard=sh)
     elif method in ("cluster-cards", "cluster-full"):
-        out = grouping.run_cluster_jobs(base, method.split("-", 1)[1], repeats, token_limit, thinking, engine=engine)
+        out = grouping.run_cluster_jobs(base, method.split("-", 1)[1], repeats, token_limit, thinking, engine=engine, shard=sh)
     else:
         raise typer.BadParameter("unknown method")
     typer.echo(json.dumps(out))

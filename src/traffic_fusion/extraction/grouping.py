@@ -317,16 +317,20 @@ def _llm(control: ControlStore, system: str, user: str, thinking: str, max_out: 
         raise ProviderError(f"no API key for {engine.provider} (set it in the environment)", retryable=False)
     return call_chat(engine.provider, api_key=key, model=engine.model, system=system,
                      user_parts=[{"type": "text", "text": user}], base_url=config.base_url,
-                     timeout=max(config.timeout_seconds, int(os.getenv("MGEOAI_GROUP_TIMEOUT", "600"))), max_output_tokens=max_out, thinking=thinking,
+                     timeout=max(config.timeout_seconds, int(os.getenv("MGEOAI_GROUP_TIMEOUT", "600"))), max_output_tokens=max(max_out, 262_144) if engine.reasoning else max_out, thinking=thinking,
                      extra_body=({"chat_template_kwargs": {"enable_thinking": True}} if engine.reasoning else config.extra_body) or None)
 
 
 def run_pair_jobs(root: Path, method: str, limit: int | None, concurrency: int, token_limit: int,
                   thinking: str = "default", max_out: int = 16_000, variant: str = "both",
-                  progress: Any = None, engine: Engine | None = None) -> dict[str, Any]:
-    """method: pair-full | pair-fields. Both orders per pair; resumable (ok results are kept)."""
+                  progress: Any = None, engine: Engine | None = None, shard: tuple[int, int] | None = None) -> dict[str, Any]:
+    """method: pair-full | pair-fields. Both orders per pair; resumable (ok results are kept).
+
+    shard = (i, n) runs every n-th pair starting at i, so several machines can split one method."""
     corpus = Corpus(root)
     pairs = json.loads((root / "matching" / "pairs.json").read_text("utf-8"))["pairs"]
+    if shard:
+        pairs = pairs[shard[0]::shard[1]]
     if limit:  # spread the pilot sample over all strata instead of taking the first rows
         pairs = pairs[:: max(1, len(pairs) // limit)][:limit]
     engine = engine or Engine()
@@ -432,7 +436,10 @@ def parse_clusters(text: str, valid: set[str]) -> tuple[list[list[str]], dict[st
 
 
 def run_cluster_jobs(root: Path, variant: str, repeats: int, token_limit: int, thinking: str = "default",
-                     max_out: int = 32_000, progress: Any = None, engine: Engine | None = None) -> dict[str, Any]:
+                     max_out: int = 32_000, progress: Any = None, engine: Engine | None = None,
+                     shard: tuple[int, int] | None = None) -> dict[str, Any]:
+    if shard and shard[0] != 0:  # one clustering request covers every article: only the first shard runs it
+        return {"method": f"cluster-{variant}", "runs": 0, "ok": 0, "tokens_in": 0, "tokens_out": 0}
     corpus = Corpus(root)
     engine = engine or Engine()
     out = root / "matching" / f"cluster-{variant}{engine.suffix}"
