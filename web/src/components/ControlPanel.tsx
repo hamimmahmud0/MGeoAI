@@ -13,9 +13,10 @@ export function ControlPanel({ session }: { session: Session }) {
   const [keys, setKeys] = useState<Record<string, string>>({})
   const [newUser, setNewUser] = useState({ username: '', password: '', roles: ['annotator'] as Role[] })
   const [runs, setRuns] = useState<RunState[]>([])
-  const [spec, setSpec] = useState<RunSpec>({ provider: 'deepseek', model: '', input_set: 'markdown', with_images: false, limit: null })
+  const [spec, setSpec] = useState<RunSpec>({ provider: 'deepseek', model: '', input_set: 'markdown', with_images: false, with_meta: true, limit: null })
   const [estimate, setEstimate] = useState<RunEstimate | null>(null)
   const [pricingText, setPricingText] = useState('')
+  const [passwords, setPasswords] = useState<Record<string, string>>({})
   const [message, setMessage] = useState('')
   const [error, setError] = useState('')
   const csrf = session.csrf_token
@@ -74,6 +75,12 @@ export function ControlPanel({ session }: { session: Session }) {
                 <input className="control" inputMode="decimal" placeholder="$ / 1M input tokens" value={config.input_cost_per_million_usd ?? ''} onChange={(event) => patchProvider(name, { input_cost_per_million_usd: numOrNull(event.target.value) })} />
                 <input className="control" inputMode="decimal" placeholder="$ / 1M output tokens" value={config.output_cost_per_million_usd ?? ''} onChange={(event) => patchProvider(name, { output_cost_per_million_usd: numOrNull(event.target.value) })} />
               </div>
+              <div className="grid grid-cols-2 gap-1">
+                <label className="flex flex-col gap-1"><span className="label">Max output tokens</span>
+                  <input className="control" inputMode="numeric" value={config.max_output_tokens} onChange={(event) => patchProvider(name, { max_output_tokens: Math.max(256, Math.floor(Number(event.target.value)) || 256) })} /></label>
+                {name === 'deepseek' && <label className="flex flex-col gap-1"><span className="label">Thinking (reasoning)</span>
+                  <select className="control" value={config.thinking ?? 'default'} onChange={(event) => patchProvider(name, { thinking: event.target.value as 'disabled' | 'default' })}><option value="default">on (default; needs a high token cap)</option><option value="disabled">off</option></select></label>}
+              </div>
               <label className="flex items-center gap-2"><input type="checkbox" checked={config.supports_images} onChange={(event) => patchProvider(name, { supports_images: event.target.checked })} />model accepts images</label>
             </fieldset>)
         })}</div>
@@ -100,17 +107,25 @@ export function ControlPanel({ session }: { session: Session }) {
         </div>
         <div className="mt-2 flex flex-wrap items-end gap-3">
           <label className="flex items-center gap-2"><input type="checkbox" checked={spec.with_images} onChange={(event) => { setSpec({ ...spec, with_images: event.target.checked }); setEstimate(null) }} />include images (provider must be marked as image-capable above)</label>
+          <label className="flex items-center gap-2"><input type="checkbox" checked={spec.with_meta ?? false} onChange={(event) => { setSpec({ ...spec, with_meta: event.target.checked }); setEstimate(null) }} />send the page's publication date (separate run name)</label>
           <label className="flex flex-col gap-1"><span className="label">Limit articles</span>
             <input className="control w-28" inputMode="numeric" placeholder="all" value={spec.limit ?? ''} onChange={(event) => { setSpec({ ...spec, limit: numOrNull(event.target.value) }); setEstimate(null) }} /></label>
           <button className="btn" disabled={!spec.model} onClick={() => void run(async () => setEstimate(await api.estimateRun(spec, csrf)), 'Estimate ready')}>Estimate</button>
-          <button className="btn btn-primary" disabled={!spec.model || !estimate} onClick={() => void run(() => api.startRun(spec, csrf), 'Run started')}>Start run</button>
+          <button className="btn btn-primary" disabled={!spec.model || !estimate || !state.keys[spec.provider]?.configured} onClick={() => void run(() => api.startRun(spec, csrf), 'Run started')}>Start run</button>
         </div>
+        {!state.keys[spec.provider]?.configured && <p role="alert" className="mt-2 border border-warning-line bg-warning-soft p-2 text-warning">No API key is set for {PROVIDER_LABEL[spec.provider]}. Keys live in server memory and are cleared whenever the service restarts: paste it again under "Provider keys" above.</p>}
+        {error && <p role="alert" className="mt-2 border border-danger-line bg-danger-soft p-2 text-danger">{error}</p>}
         {estimate && <p className="mt-2 border border-line p-2">{estimate.articles_todo} of {estimate.articles_total} articles to do · ~{estimate.est_input_tokens.toLocaleString()} input + ~{estimate.est_output_tokens.toLocaleString()} output tokens · {estimate.images_to_send} images · cost: {estimate.est_cost_usd === null ? 'unknown (no price set)' : `$${estimate.est_cost_usd.toFixed(4)}`}{!estimate.within_token_limit && <span className="text-danger"> · exceeds the {estimate.token_limit.toLocaleString()}-token limit; the run will stop early</span>}</p>}
-        <table className="mt-3 w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">Configuration</th><th>Status</th><th>Done / failed</th><th>Tokens in/out</th><th>Cost</th><th /></tr></thead>
+        <table className="mt-3 w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">Configuration</th><th>Status</th><th>Done / failed (total)</th><th>Tokens in/out</th><th>Cost</th><th /></tr></thead>
           <tbody>{runs.map((item) => (<tr key={item.config_id} className="border-t border-line"><td className="py-1 break-all">{item.config_id}</td>
             <td>{item.status}{item.stop_reason ? ` (${item.stop_reason})` : ''}</td><td>{item.done} / {item.failed}</td>
             <td>{item.input_tokens.toLocaleString()} / {item.output_tokens.toLocaleString()}</td><td>{item.cost_usd === null ? 'unknown' : `$${item.cost_usd}`}</td>
-            <td>{item.status === 'running' && <button className="btn" onClick={() => void run(() => api.cancelRun(item.config_id, csrf), 'Cancel requested')}>Cancel</button>}</td></tr>))}</tbody></table>
+            <td><div className="flex gap-1">
+              {item.status === 'running' && <button className="btn" onClick={() => void run(() => api.cancelRun(item.config_id, csrf), 'Cancel requested')}>Cancel</button>}
+              {item.status !== 'running' && item.status !== 'finished' && <button className="btn" onClick={() => void run(() => api.startRun({ ...item.spec, only_failed: false }, csrf), 'Resuming: remaining and failed articles')}>Resume</button>}
+              {item.status !== 'running' && item.failed > 0 && <button className="btn" onClick={() => void run(() => api.startRun({ ...item.spec, only_failed: true }, csrf), `Retrying ${item.failed} failed article(s)`)}>Retry failed ({item.failed})</button>}
+              {item.status !== 'running' && <button className="btn" title="Moves the results to an archive folder; they are not deleted" onClick={() => { if (window.confirm(`Clear ${item.config_id}? Its results leave the list and the scores (archived on the server, not deleted).`)) void run(() => api.clearRun(item.config_id, csrf), 'Run cleared') }}>Clear</button>}
+            </div></td></tr>))}</tbody></table>
       </section>
 
       <section className="panel p-4">
@@ -122,7 +137,7 @@ export function ControlPanel({ session }: { session: Session }) {
 
       <section className="panel p-4">
         <h2 className="mb-2 text-sm font-bold uppercase tracking-[0.18em] text-primary">Accounts</h2>
-        <table className="w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">User</th><th>Roles</th><th>Status</th><th /></tr></thead>
+        <table className="w-full border-collapse text-left"><thead><tr className="label"><th className="py-1">User</th><th>Roles</th><th>Status</th><th>New password (12+ characters)</th><th /></tr></thead>
           <tbody>{accounts.map((account) => (
             <tr key={account.username} className="border-t border-line"><td className="py-1">{account.username}</td>
               <td><div className="flex gap-2">{ALL_ROLES.map((role) => (
@@ -131,6 +146,10 @@ export function ControlPanel({ session }: { session: Session }) {
                   if (roles.length) void run(() => api.saveAccount(account.username, roles, undefined, undefined, csrf), `${account.username} updated`)
                 }} />{role}</label>))}</div></td>
               <td>{account.disabled ? 'disabled' : 'active'}</td>
+              <td><div className="flex gap-1">
+                <input className="control w-44" type="password" autoComplete="new-password" aria-label={`New password for ${account.username}`} placeholder="new password" value={passwords[account.username] ?? ''} onChange={(event) => setPasswords({ ...passwords, [account.username]: event.target.value })} />
+                <button className="btn" disabled={(passwords[account.username] ?? '').length < 12} onClick={() => void run(async () => { await api.saveAccount(account.username, account.roles, passwords[account.username], undefined, csrf); setPasswords({ ...passwords, [account.username]: '' }) }, `Password changed for ${account.username}`)}>Set password</button>
+              </div></td>
               <td><button className="btn" onClick={() => void run(() => api.saveAccount(account.username, account.roles, undefined, !account.disabled, csrf), `${account.username} ${account.disabled ? 'enabled' : 'disabled'}`)}>{account.disabled ? 'Enable' : 'Disable'}</button></td></tr>))}</tbody></table>
         <form className="mt-3 flex flex-wrap items-end gap-2" onSubmit={(event) => { event.preventDefault(); void run(async () => { await api.saveAccount(newUser.username, newUser.roles, newUser.password, undefined, csrf); setNewUser({ username: '', password: '', roles: ['annotator'] }) }, 'Account saved') }}>
           <label className="flex flex-col gap-1"><span className="label">New / reset user</span><input className="control" placeholder="username" value={newUser.username} onChange={(event) => setNewUser({ ...newUser, username: event.target.value })} required /></label>

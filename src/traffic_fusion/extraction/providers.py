@@ -22,7 +22,7 @@ DEFAULT_BASE = {
     "deepseek": "https://api.deepseek.com",
     "openrouter": "https://openrouter.ai/api/v1",
 }
-IMPLEMENTED = tuple(DEFAULT_BASE)
+IMPLEMENTED = (*DEFAULT_BASE, "custom")  # "custom" has no default base URL: it must be given
 
 
 class ProviderError(RuntimeError):
@@ -43,7 +43,29 @@ class CallResult:
     notes: list[str] = field(default_factory=list)
 
 
-def image_part(media_type: str, data: bytes) -> dict[str, Any]:
+def shrink_image(media_type: str, data: bytes, max_side: int | None) -> tuple[str, bytes]:
+    """Downscale so the longest side is at most `max_side` (re-encoded as JPEG)."""
+    if not max_side:
+        return media_type, data
+    import io
+
+    from PIL import Image
+
+    try:
+        with Image.open(io.BytesIO(data)) as picture:
+            if max(picture.size) <= max_side:
+                return media_type, data
+            small = picture.convert("RGB")
+            small.thumbnail((max_side, max_side))
+            buffer = io.BytesIO()
+            small.save(buffer, "JPEG", quality=85)
+            return "image/jpeg", buffer.getvalue()
+    except Exception:  # noqa: BLE001 - an undecodable image is sent as it was saved
+        return media_type, data
+
+
+def image_part(media_type: str, data: bytes, max_side: int | None = None) -> dict[str, Any]:
+    media_type, data = shrink_image(media_type, data, max_side)
     encoded = base64.b64encode(data).decode()
     return {"type": "image_url", "image_url": {"url": f"data:{media_type};base64,{encoded}"}}
 
@@ -60,12 +82,17 @@ def call_chat(
     max_output_tokens: int = 4000,
     max_retries: int = 2,
     json_mode: bool = True,
+    thinking: str = "default",
+    extra_body: dict[str, Any] | None = None,
 ) -> CallResult:
-    if provider not in DEFAULT_BASE:
+    if provider not in IMPLEMENTED:
         raise ProviderError(f"provider {provider!r} is not implemented yet", retryable=False)
     if not model:
         raise ProviderError("no model configured", retryable=False)
-    url = (base_url or DEFAULT_BASE[provider]).rstrip("/") + "/chat/completions"
+    root = base_url or DEFAULT_BASE.get(provider, "")
+    if not root:
+        raise ProviderError(f"provider {provider!r} needs a base URL", retryable=False)
+    url = root.rstrip("/") + "/chat/completions"
     body: dict[str, Any] = {
         "model": model,
         "messages": [
@@ -76,6 +103,10 @@ def call_chat(
         "max_tokens": max_output_tokens,
         "stream": False,
     }
+    if provider == "deepseek" and thinking == "disabled":
+        body["thinking"] = {"type": "disabled"}  # documented DeepSeek chat-completions switch
+    if extra_body:
+        body.update(extra_body)
     if json_mode:
         body["response_format"] = {"type": "json_object"}
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}

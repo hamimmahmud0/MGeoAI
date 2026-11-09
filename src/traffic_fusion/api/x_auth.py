@@ -8,12 +8,7 @@ from datetime import UTC, datetime
 
 from fastapi import HTTPException, Request
 
-from traffic_fusion.api.moderation import (
-    SESSION_COOKIE,
-    _decode,
-    _encode,
-    _session_secret,
-)
+from traffic_fusion.api.session import SESSION_COOKIE, SESSION_TTL, decode, encode, session_secret
 from traffic_fusion.extraction.accounts import Account, AccountStore
 
 _FAILS: dict[str, list[float]] = {}
@@ -47,10 +42,10 @@ def current_user(
     token = request.cookies.get(SESSION_COOKIE, "")
     try:
         encoded, supplied = token.split(".", 1)
-        expected = _encode(hmac.new(_session_secret(), encoded.encode(), hashlib.sha256).digest())
+        expected = encode(hmac.new(session_secret(), encoded.encode(), hashlib.sha256).digest())
         if not hmac.compare_digest(supplied, expected):
             raise ValueError("bad signature")
-        payload = json.loads(_decode(encoded))
+        payload = json.loads(decode(encoded))
         username, csrf_token = str(payload["username"]), str(payload["csrf"])
         expires_at = int(payload["expires_at"])
     except (KeyError, TypeError, ValueError, json.JSONDecodeError) as exc:
@@ -58,6 +53,11 @@ def current_user(
     account = store.get(username)
     if expires_at <= int(datetime.now(UTC).timestamp()) or account is None:
         raise HTTPException(status_code=401, detail="Session expired")
+    if account.password_changed_at:
+        issued = datetime.fromtimestamp(expires_at, UTC) - SESSION_TTL
+        # whole-second resolution: the session timestamp is truncated to seconds
+        if issued.timestamp() < int(datetime.fromisoformat(account.password_changed_at).timestamp()):
+            raise HTTPException(status_code=401, detail="Password changed; sign in again")
     if csrf and not hmac.compare_digest(request.headers.get("X-CSRF-Token", ""), csrf_token):
         raise HTTPException(status_code=403, detail="Invalid request token")
     if roles and not set(roles) & set(account.roles):

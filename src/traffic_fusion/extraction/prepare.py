@@ -16,7 +16,29 @@ from bs4.element import NavigableString, PageElement
 _DROP = ["script", "style", "svg", "noscript", "template", "iframe", "form", "button"]
 _CHROME = ["nav", "header", "footer", "aside"]
 _BLOCK = {"p", "div", "section", "article", "main", "li", "blockquote", "figure", "figcaption"}
-_MAX_IMAGES = 12
+_MAX_IMAGES = 16
+_JUNK = re.compile(
+    r"logo|icon|sprite|avatar|favicon|placeholder|blank|pixel|spacer|tracking|badge|"
+    r"google[_-]?news|whatsapp|facebook|twitter|youtube|share|banner|advert|/ads?/|"
+    r"\.svg(\?|$)|_files/|emoji|loader|spinner|play[_-]?button|/themes?/|/templates?/",
+    re.I,
+)
+
+
+def _best_src(img: Tag) -> str:
+    """Prefer lazy-load attributes and the widest srcset entry over a placeholder src."""
+    for key in ("data-src", "data-lazy-src", "data-original"):
+        if img.get(key):
+            return str(img[key])
+    srcset = str(img.get("srcset") or img.get("data-srcset") or "")
+    best, best_w = "", -1
+    for part in srcset.split(","):
+        bits = part.strip().split()
+        if bits:
+            width = int(bits[1][:-1]) if len(bits) > 1 and bits[1][:-1].isdigit() else 0
+            if width > best_w:
+                best, best_w = bits[0], width
+    return best or str(img.get("src") or "")
 
 
 def _soup(raw: bytes) -> BeautifulSoup:
@@ -143,7 +165,7 @@ def image_candidates(raw: bytes, base_url: str | None) -> list[dict[str, str]]:
     seen: set[str] = set()
 
     def add(src: str | None, source: str, alt: str = "") -> None:
-        if not src or src.startswith("data:"):
+        if not src or src.startswith("data:") or (_JUNK.search(src) and source != "og:image"):
             return
         url = urljoin(base_url or "", src.strip())
         if urlparse(url).scheme not in {"http", "https"} or url in seen:
@@ -160,5 +182,5 @@ def image_candidates(raw: bytes, base_url: str | None) -> list[dict[str, str]]:
         width = str(img.get("width") or "")
         if width.isdigit() and int(width) < 80:
             continue
-        add(str(img.get("src") or img.get("data-src") or ""), "article", str(img.get("alt") or ""))
+        add(_best_src(img), "article", str(img.get("alt") or ""))
     return found[:_MAX_IMAGES]

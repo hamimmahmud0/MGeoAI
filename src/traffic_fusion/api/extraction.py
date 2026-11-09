@@ -8,7 +8,7 @@ from fastapi import APIRouter, HTTPException, Request, Response
 from fastapi.responses import FileResponse
 from pydantic import BaseModel, ConfigDict, Field
 
-from traffic_fusion.api.moderation import SESSION_COOKIE, create_session
+from traffic_fusion.api.session import SESSION_COOKIE, create_session
 from traffic_fusion.api.x_auth import (
     check_lockout,
     clear_failures,
@@ -18,6 +18,8 @@ from traffic_fusion.api.x_auth import (
 from traffic_fusion.extraction.accounts import Account, AccountStore, Role
 from traffic_fusion.extraction.annotation_store import ArticleLabel, ArticleStore
 from traffic_fusion.extraction.control import ControlSettings, ControlStore, ModelPrice
+from traffic_fusion.extraction.geocode import GeocodeStore
+from traffic_fusion.extraction.public import PublicData
 from traffic_fusion.extraction.runs import RunManager, RunSpec
 from traffic_fusion.extraction.schema import AccidentRecord, ImageLabel
 from traffic_fusion.utils import stable_hash
@@ -83,8 +85,10 @@ def _view(store: ArticleStore, article_id: str, mine: ArticleLabel | None) -> di
 def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
     accounts = AccountStore(root)
     control = ControlStore(root)
-    runs = RunManager(root, control)
     articles = ArticleStore(root)
+    runs = RunManager(root, control)
+    geocoder = GeocodeStore(root)
+    public = PublicData(root, control, articles, runs, geocoder)
     router = APIRouter(prefix="/api/x", tags=["extraction"])
 
     def user(request: Request, *roles: str, csrf: bool = False) -> Account:
@@ -181,6 +185,72 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         return FileResponse(path, media_type=str(image.get("content_type")),
                             headers={"X-Content-Type-Options": "nosniff"})
 
+    def staff_view(request: Request) -> bool:
+        """A signed-in admin or reviewer who is not an annotator may see model-derived data while
+        labelling is open (annotators and anonymous visitors may not, which keeps annotation blind)."""
+        try:
+            account = current_user(request, accounts)[0]
+        except HTTPException:
+            return False
+        return bool({"admin", "reviewer"} & set(account.roles)) and "annotator" not in account.roles
+
+    # open dashboard (no login). Everything beyond corpus facts is gated by labelling_open.
+    locked = {"locked": True,
+              "message": "Hidden while labelling is open, to keep annotation independent."}
+
+    @router.get("/public/overview")
+    def public_overview() -> dict[str, Any]:
+        return public.overview()
+
+    @router.get("/public/coverage.geojson")
+    def public_coverage() -> dict[str, Any]:
+        return public.coverage_geojson()
+
+    @router.get("/public/sources")
+    def public_sources(request: Request) -> dict[str, Any]:
+        if public.locked() and not staff_view(request):
+            return locked
+        return {"locked": False, "sources": public.sources()}
+
+    @router.get("/public/incidents.geojson")
+    def public_incidents(request: Request, source: str = "grouped") -> dict[str, Any]:
+        if public.locked() and not staff_view(request):
+            return locked
+        if source not in public.sources():
+            raise HTTPException(status_code=404, detail="Unknown source")
+        return {"locked": False, **public.incidents_geojson(source)}
+
+    @router.get("/public/grouping")
+    def public_grouping() -> dict[str, Any]:
+        return public.grouping_summary()
+
+    @router.get("/public/articles")
+    def public_articles() -> dict[str, Any]:
+        return {"locked": public.locked(), "articles": public.article_list()}
+
+    @router.get("/public/articles/{article_id}")
+    def public_article(article_id: str) -> dict[str, Any]:
+        detail = public.article_detail(article_id)
+        if detail is None:
+            raise HTTPException(status_code=404, detail="Article not found")
+        return detail
+
+    @router.get("/public/articles/{article_id}/images/{index}")
+    def public_article_image(article_id: str, index: int) -> FileResponse:
+        found = public.public_image(article_id, index)
+        if found is None:
+            raise HTTPException(status_code=404, detail="Not found")
+        return FileResponse(found[0], media_type=found[1],
+                            headers={"X-Content-Type-Options": "nosniff"})
+
+    @router.get("/public/scores/annotation")
+    def public_annotation_scores() -> dict[str, Any]:
+        return locked if public.locked() else {"locked": False, **public.annotation_scores()}
+
+    @router.get("/public/scores/models")
+    def public_model_scores() -> dict[str, Any]:
+        return locked if public.locked() else {"locked": False, "models": public.model_scores()}
+
     # admin / control panel ---------------------------------------------------
     @router.get("/admin/accounts")
     def list_accounts(request: Request) -> list[dict[str, Any]]:
@@ -226,6 +296,18 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         control.save(settings)
         return {"pricing": {k: v.model_dump() for k, v in body.pricing.items()}}
 
+    @router.post("/admin/geocode")
+    def start_geocode(request: Request) -> dict[str, Any]:
+        """Geocode place names for the map (Nominatim, 1 req/s, cached, admin-triggered)."""
+        user(request, "admin", csrf=True)
+        started = geocoder.start(public.geocode_queries())
+        return {"started": started, "progress": geocoder.progress}
+
+    @router.get("/admin/geocode")
+    def geocode_status(request: Request) -> dict[str, Any]:
+        user(request, "admin")
+        return geocoder.progress
+
     @router.post("/admin/runs/estimate")
     def estimate_run(spec: RunSpec, request: Request) -> dict[str, Any]:
         user(request, "admin", csrf=True)
@@ -243,6 +325,16 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
     def list_runs(request: Request) -> list[dict[str, Any]]:
         user(request, "admin")
         return runs.list()
+
+    @router.post("/admin/runs/{config_id}/clear")
+    def clear_run(config_id: str, request: Request) -> dict[str, str]:
+        """Archive (not delete) a run so it leaves the list and the scores."""
+        user(request, "admin", csrf=True)
+        try:
+            runs.archive(config_id)
+        except ValueError as exc:
+            raise HTTPException(status_code=422, detail=str(exc)) from exc
+        return {"cleared": config_id}
 
     @router.post("/admin/runs/{config_id}/cancel")
     def cancel_run(config_id: str, request: Request) -> dict[str, bool]:

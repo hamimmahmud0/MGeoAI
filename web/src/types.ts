@@ -29,7 +29,7 @@ export type ArticleDetail = {
 export type AccountRow = { username: string; roles: Role[]; disabled: boolean }
 export type ProviderConfig = {
   model: string; base_url: string; input_cost_per_million_usd: number | null; output_cost_per_million_usd: number | null
-  timeout_seconds: number; max_output_tokens: number; supports_images: boolean
+  timeout_seconds: number; max_output_tokens: number; supports_images: boolean; thinking?: 'disabled' | 'default'
 }
 export type ControlSettings = {
   labelling_open: boolean; pricing: Record<string, { input_per_million_usd: number; output_per_million_usd: number }>
@@ -44,14 +44,78 @@ export const emptyAccident = (): AccidentRecord => ({
   location: null, 'longitude and latitude': null, evidences: [],
 })
 
-export type RunSpec = { provider: string; model: string; input_set: 'raw' | 'markdown'; with_images: boolean; limit?: number | null }
+export type RunSpec = { provider: string; model: string; input_set: 'raw' | 'markdown'; with_images: boolean; with_meta?: boolean; limit?: number | null; only_failed?: boolean }
 export type RunEstimate = {
   config_id: string; articles_total: number; articles_todo: number; images_to_send: number
   est_input_tokens: number; est_output_tokens: number; est_cost_usd: number | null; cost_known: boolean
   token_limit: number; within_token_limit: boolean; note: string
 }
 export type RunState = {
-  config_id: string; status: 'running' | 'finished' | 'stopped' | 'cancelled'; started_at: string; finished_at: string | null
+  config_id: string; status: 'running' | 'finished' | 'stopped' | 'cancelled' | 'interrupted'; started_at: string; finished_at: string | null
   done: number; failed: number; input_tokens: number; output_tokens: number; cost_usd: number | null; cost_known: boolean
-  stop_reason: string | null; spec: RunSpec
+  stop_reason: string | null; spec: RunSpec; attempt?: { done: number; failed: number; input_tokens: number; output_tokens: number }
+}
+
+export type Overview = {
+  labelling_open: boolean; articles: number; images: number; articles_with_images: number
+  top_publishers: [string, number][]; languages: [string, number][]
+  labelling: { annotators: number; articles_with_1plus_labels: number; articles_with_3plus_labels: number; labels_submitted: number }
+}
+export type Locked = { locked: true; message: string }
+export type MapProps = {
+  incident_id?: string; title?: string; publisher?: string; source_url?: string; origin?: string; verified?: boolean
+  fatalities?: number | null; casualities?: number | null; date?: string | null; location?: string | null; country?: string | null
+  granularity?: string; uncertainty_radius_km?: number; is_incident_location?: boolean; location_method?: string
+  articles?: number | { id: string; title: string | null; publisher: string | null; url: string | null; published_at: string | null; language: string | null }[]; note?: string; location_name?: string
+  killed_n?: number; injured_n?: number; vehicle_main?: string; year?: number | null
+  kind?: 'incident'; headline?: string; summary?: string; when?: string | null; place?: string | null; killed?: number | null; injured?: number | null
+  vehicles?: string[] | string | null; casualty_note?: string | null; disagreements?: string[] | string | null; n_articles?: number; fused_by?: string
+}
+export type MapFeature = Omit<GeoJSON.Feature<GeoJSON.Point>, 'properties'> & { properties: MapProps }
+export type MapCollection = { type: 'FeatureCollection'; features: MapFeature[] }
+export type MapData = MapCollection & { locked?: false; meta?: { source: string; records: number; mapped: number; verified: boolean } }
+export type AnnotationScores = {
+  locked: false; articles_total: number; annotators: Record<string, number>; articles_with_1plus_labels: number
+  articles_with_2plus_labels: number; articles_with_3plus_labels: number; accident_flag_alpha: number | null
+  accident_flag_cohen_kappa: Record<string, { kappa: number | null; articles: number }>
+  field_exact_agreement: Record<string, { agree: number; pairs: number; rate: number | null }>
+}
+type Rate = { n: number; value: number | null; ci95: number[] | null }
+export type ModelRow = {
+  config_id: string; spec: RunSpec; tokens: { input: number; output: number }; cost_usd: number | null; cost_known: boolean
+  metrics: {
+    articles_ok: number; articles_failed: number; scored_articles: number
+    accident_flag: { precision: number | null; recall: number | null; f1: number | null; tp: number; fp: number; fn: number; tn: number }
+    accident_count_correct: Rate; fields_exact: Record<string, Rate>; fatalities_mae: number | null; vehicles_jaccard: number | null
+    location_token_overlap: number | null; evidence_quotes_verbatim: { quotes: number; verbatim: number; rate: number | null }
+    mean_latency_ms: number | null; note: string
+  }
+}
+
+export type ArticleListRow = { id: string; title: string | null; publisher: string | null; language: string | null; published_at: string | null; annotations?: number; models_with_result?: number }
+export type ModelResult = {
+  config_id: string; spec: RunSpec; status: 'ok' | 'failed'; error?: string | null; accidents?: AccidentRecord[]
+  images?: { image_id: string; what_is_visible: string; shows_accident: boolean | null; vehicles_visible: string[]; people_or_casualty_cues?: string | null; text_in_image?: string | null; location_cues?: string | null; confidence?: number | null }[]
+  quality?: { quotes: number; verbatim: number }; input_tokens?: number; output_tokens?: number; latency_ms?: number; finish_reason?: string
+  model_returned?: string; images_sent?: string[]; call_settings?: { thinking: string | null; max_output_tokens: number }; raw_text?: string; retries?: number
+}
+export type AnnotatorResult = { annotator: string; unusable: boolean; notes: string; accidents: AccidentRecord[]; images: ImageLabel[]; revision: number }
+export type PublicArticle = {
+  id: string; url: string | null; title: string | null; publisher: string | null; published_at: string | null; language: string | null
+  markdown: string; images: ArticleImage[]; locked: boolean
+  annotators?: AnnotatorResult[]; models?: ModelResult[]
+}
+
+export type GroupingMethod = {
+  method: string; precision: number | null; recall: number | null; f1: number | null
+  ci95: { precision: number[]; recall: number[]; f1: number[] }
+  false_same_rate: Record<string, number | null>; recall_cross_language: number | null; recall_toll_differs: number | null
+  order_inconsistent: number | null; uncertain_rate: number | null; pairs_missing: number
+  cluster?: { pair_f1_all: number; bcubed_f1: number; ari: number; clusters: number; true_groups: number; groups_recovered_exactly: number; clusters_merging_groups: number; groups_split: number }
+}
+export type GroupingSummary = {
+  available?: false; generated_utc: string; title: string; reading_note: string
+  design: { articles: number; sampled_pairs: number; positive_pairs: number; negative_pairs: number; population_by_stratum: Record<string, number>; pairs_sha256: string; decision_rule: string; human_records_from?: Record<string, number> }
+  model: { provider: string; model: string; thinking: string }; tokens?: Record<string, { in: number; out: number }>
+  methods: GroupingMethod[]; limitations: string[]; reproduce: string
 }

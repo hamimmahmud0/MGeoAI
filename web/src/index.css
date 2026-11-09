@@ -59,3 +59,23 @@
 :root[data-theme='dark'] .maplibregl-ctrl-group,
 :root[data-theme='dark'] .maplibregl-ctrl-attrib { background: rgb(var(--surface) / 0.92); color: rgb(var(--ink)); }
 :root[data-theme='dark'] .maplibregl-ctrl button .maplibregl-ctrl-icon { filter: invert(1); }
+
+.mg-popup-box .maplibregl-popup-content { background: rgb(var(--surface)); color: rgb(var(--ink)); border: 1px solid rgb(var(--line)); border-radius: 0; padding: 10px 12px; font-size: 12px; box-shadow: 0 4px 16px rgb(0 0 0 / 0.25); }
+.mg-popup-box .maplibregl-popup-tip { border-top-color: rgb(var(--surface)); border-bottom-color: rgb(var(--surface)); }
+.mg-popup { display: flex; flex-direction: column; gap: 3px; max-width: 320px; }
+.mg-muted { color: rgb(var(--muted)); }
+.mg-badge { align-self: flex-start; border: 1px solid rgb(var(--line)); padding: 0 6px; font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: rgb(var(--muted)); }
+.mg-popup-link { align-self: flex-start; background: none; border: 0; padding: 0; color: rgb(var(--primary)); text-decoration: underline; cursor: pointer; text-align: left; font: inherit; }
+.mg-row { display: block; }
+
+/* Scroll bars follow the theme (Firefox: scrollbar-*; Chromium/Safari: ::-webkit-scrollbar) */
+* { scrollbar-width: thin; scrollbar-color: rgb(var(--muted) / 0.55) rgb(var(--canvas)); }
+*::-webkit-scrollbar { width: 10px; height: 10px; }
+*::-webkit-scrollbar-track { background: rgb(var(--canvas)); border-left: 1px solid rgb(var(--line)); }
+*::-webkit-scrollbar-thumb { background: rgb(var(--muted) / 0.45); border: 2px solid rgb(var(--canvas)); }
+*::-webkit-scrollbar-thumb:hover { background: rgb(var(--primary)); }
+*::-webkit-scrollbar-corner { background: rgb(var(--canvas)); }
+
+/* The tab bar scrolls sideways on narrow screens but never shows a scroll bar (the 1 px tab underline used to trigger a vertical one) */
+.nav-scroll { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; }
+.nav-scroll::-webkit-scrollbar { display: none; }

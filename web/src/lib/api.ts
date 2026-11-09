@@ -1,4 +1,4 @@
-import type { RunEstimate, RunSpec, RunState, AccountRow, ArticleDetail, ArticleQueue, ControlSettings, ControlState, ImageLabel, AccidentRecord, Role, Session } from '../types'
+import type { GroupingSummary, AnnotationScores, ArticleListRow, PublicArticle, Locked, MapData, ModelRow, Overview, RunEstimate, RunSpec, RunState, AccountRow, ArticleDetail, ArticleQueue, ControlSettings, ControlState, ImageLabel, AccidentRecord, Role, Session } from '../types'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(path, { credentials: 'same-origin', ...init })
@@ -22,6 +22,15 @@ function send(method: string, value: unknown, csrf?: string): RequestInit {
 export type LabelBody = { accidents: AccidentRecord[]; images: ImageLabel[]; unusable: boolean; notes: string }
 
 export const api = {
+  overview: () => request<Overview>('/api/x/public/overview'),
+  coverage: () => request<GeoJSON.FeatureCollection<GeoJSON.Point>>('/api/x/public/coverage.geojson'),
+  sources: () => request<{ locked: boolean; sources?: string[] }>('/api/x/public/sources'),
+  incidents: (source: string) => request<MapData | Locked>(`/api/x/public/incidents.geojson?source=${encodeURIComponent(source)}`),
+  annotationScores: () => request<AnnotationScores | Locked>('/api/x/public/scores/annotation'),
+  modelScores: () => request<{ locked: false; models: ModelRow[] } | Locked>('/api/x/public/scores/models'),
+  publicArticles: () => request<{ locked: boolean; articles: ArticleListRow[] }>('/api/x/public/articles'),
+  publicArticle: (id: string) => request<PublicArticle>(`/api/x/public/articles/${encodeURIComponent(id)}`),
+  grouping: () => request<GroupingSummary | { available: false }>('/api/x/public/grouping'),
   me: () => request<Session>('/api/x/me'),
   login: (username: string, password: string) => request<Session>('/api/x/login', send('POST', { username, password })),
   logout: (csrf: string) => request<{ ok: boolean }>('/api/x/logout', send('POST', undefined, csrf)),
@@ -37,6 +46,7 @@ export const api = {
   estimateRun: (spec: RunSpec, csrf: string) => request<RunEstimate>('/api/x/admin/runs/estimate', send('POST', spec, csrf)),
   startRun: (spec: RunSpec, csrf: string) => request<RunState>('/api/x/admin/runs', send('POST', spec, csrf)),
   runs: () => request<RunState[]>('/api/x/admin/runs'),
+  clearRun: (id: string, csrf: string) => request<{ cleared: string }>(`/api/x/admin/runs/${encodeURIComponent(id)}/clear`, send('POST', undefined, csrf)),
   cancelRun: (id: string, csrf: string) => request<{ cancelled: boolean }>(`/api/x/admin/runs/${encodeURIComponent(id)}/cancel`, send('POST', undefined, csrf)),
   setKey: (provider: string, key: string | null, csrf: string) => request<Pick<ControlState, 'keys'>>(`/api/x/admin/keys/${provider}`, send('PUT', { key }, csrf)),
 }

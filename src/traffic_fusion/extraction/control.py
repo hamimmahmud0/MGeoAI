@@ -11,16 +11,17 @@ import json
 import os
 import threading
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict, Field
 
-PROVIDERS: tuple[str, ...] = ("openai", "anthropic", "openrouter", "deepseek")
+PROVIDERS: tuple[str, ...] = ("openai", "anthropic", "openrouter", "deepseek", "custom")
 KEY_ENV = {
     "openai": "OPENAI_API_KEY",
     "anthropic": "ANTHROPIC_API_KEY",
     "openrouter": "OPENROUTER_API_KEY",
     "deepseek": "DEEPSEEK_API_KEY",
+    "custom": "CUSTOM_API_KEY",
 }
 
 
@@ -31,9 +32,31 @@ class ProviderConfig(BaseModel):
     base_url: str = Field(default="", max_length=300)
     input_cost_per_million_usd: float | None = Field(default=None, ge=0, le=10000)
     output_cost_per_million_usd: float | None = Field(default=None, ge=0, le=10000)
-    timeout_seconds: int = Field(default=120, ge=5, le=900)
-    max_output_tokens: int = Field(default=4000, ge=256, le=64000)
+    timeout_seconds: int = Field(default=120, ge=5, le=1800)
+    max_output_tokens: int = Field(default=4000, ge=256, le=1048576)
     supports_images: bool = False
+    # DeepSeek only: "default" = the model's own mode (thinking on); "disabled" turns it off.
+    # Reasoning tokens count against max_output_tokens, so keep that cap high when it is on.
+    thinking: Literal["disabled", "default"] = "default"
+    # Merged into the request body as-is (for example a llama.cpp/vLLM `chat_template_kwargs`).
+    extra_body: dict[str, Any] = Field(default_factory=dict)
+    # Downscale images so their longest side is at most this many pixels (None = send as saved).
+    max_image_side: int | None = Field(default=None, ge=128, le=4096)
+
+
+def default_provider(name: str) -> ProviderConfig:
+    """DeepSeek defaults to its documented maximum output (393,216 tokens, thinking on),
+    with a long timeout because a non-streaming thinking call can take minutes."""
+    if name == "deepseek":
+        return ProviderConfig(max_output_tokens=393216, timeout_seconds=600)
+    if name == "custom":
+        # A self-hosted OpenAI-compatible server (llama.cpp / vLLM). Defaults suit a small
+        # 27B vision model: 8k output cap, no hidden reasoning, small images, long timeout.
+        return ProviderConfig(
+            max_output_tokens=8192, timeout_seconds=900, supports_images=True, max_image_side=1024,
+            extra_body={"chat_template_kwargs": {"enable_thinking": False}},
+        )
+    return ProviderConfig()
 
 
 class ModelPrice(BaseModel):
@@ -54,9 +77,9 @@ class ControlSettings(BaseModel):
     max_images_per_article: int = Field(default=3, ge=0, le=6)
     run_cost_limit_usd: float = Field(default=5.0, ge=0, le=1000)
     daily_cost_limit_usd: float = Field(default=20.0, ge=0, le=10000)
-    concurrency: int = Field(default=2, ge=1, le=8)
+    concurrency: int = Field(default=2, ge=1, le=50)
     providers: dict[str, ProviderConfig] = Field(
-        default_factory=lambda: {name: ProviderConfig() for name in PROVIDERS}
+        default_factory=lambda: {name: default_provider(name) for name in PROVIDERS}
     )
 
 
@@ -72,7 +95,7 @@ class ControlStore:
         except (OSError, json.JSONDecodeError, ValueError):
             value = ControlSettings()
         for name in PROVIDERS:
-            value.providers.setdefault(name, ProviderConfig())
+            value.providers.setdefault(name, default_provider(name))
         return value
 
     def price(self, provider: str, model: str) -> ModelPrice | None:

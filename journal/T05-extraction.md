@@ -14,3 +14,69 @@
 - Result: 105 pytest pass, ruff and mypy clean. No live call made (no key set yet).
 - Images: `mgeoai x fetch-images` started in the background (robots.txt, 3 s per host, 5 MB cap); annotators see only the saved local copies.
 - AGENTS.md updated: raw-HTML rule and pricing rule.
+
+### 2026-10-20 — slice 3 (retry, open dashboard, scoring)
+- Images: candidate filter (no svg/logo/icon/ads/`_files/`, lazy-load and srcset aware) and a quality gate (>= 8 KB, >= 200 px short side, >= 300 px long side); `mgeoai x fetch-images` refreshes candidates first. 631 good images, 236 of 244 articles have >= 1; the other 8 are robots-disallowed (sabcnews, iol, manobkantha) or return errors (ndtv). Not worked around.
+- Retries: 2 retries inside a call for 408/409/429/5xx/timeouts (2 s, 4 s, Retry-After up to 30 s); parse/schema/truncation failures are not retried. "Retry failed" button per run row re-runs only failed articles (`only_failed`). Estimate now counts failed articles as still to do. Run totals shown are cumulative, derived from the per-article results; `attempt` keeps the latest start's counters. Daily cost limit is still not enforced (token limit and run cost limit are).
+- Open dashboard (no login): everything beyond corpus facts is gated by `labelling_open` (Control panel switch). While open, anonymous visitors see only article/image counts, publisher/language counts, labelling counts and per-country article counts at collection-country centroids (explicitly not incident locations). Map, annotation agreement and model scores unlock when an admin unticks "Labelling is open". Reason: annotators are web users too; a public model-output view would defeat blind annotation.
+- Gold rule: a field is gold only when a strict majority (> half, at least 3 annotators) gave the same normalised value, else unresolved. Per-field model metrics only on articles whose gold has exactly one accident; multi-accident articles are scored on the accident flag and accident count only. Bootstrap 95% CI by article (1,000 resamples, seed 7). Endpoint results are cached on file mtimes.
+- Geocoding: Nominatim (1 req/s, cache `extraction/geocode_cache.json`, admin-triggered via `POST /api/x/admin/geocode`); points are place centroids with granularity and bbox-derived radius. No admin button yet.
+- Result: 109 pytest pass, ruff and mypy clean, frontend 4 tests + lint + build pass.
+
+### 2026-10-20 — DeepSeek truncation failures
+- Symptom: 32 of 244 articles failed with `finish_reason=length`, empty answer text, 4,000 output tokens. Cause: `deepseek-flash` runs in thinking mode by default and reasoning tokens count against `max_tokens` (successful calls: median 2,084 output tokens for a ~500-token answer, max 3,965). Docs: `thinking: {type: disabled}` switches it off (Context7, 2026-10-20).
+- Fix: provider setting `thinking` (default `disabled`, DeepSeek only) sent as `thinking={"type":"disabled"}`; Max output tokens and Thinking are now editable in the control panel; the truncation error now says why. Retry failed to finish the 32. Cost note: thinking-off answers are shorter, so the retry should be cheaper than the first pass; quality difference between thinking on/off is untested.
+
+### 2026-10-20 — thinking on by default, max output
+- DeepSeek defaults changed on request: thinking on (`thinking: default`, the model's own mode) and Max output tokens 393,216 (the documented API maximum for `max_tokens`), timeout 600 s (non-streaming thinking calls can take minutes). The input context window is the model's own and is not a setting; 393,216 is the output cap. Other providers keep 4,000 until set (their maximums differ per model; OpenRouter free models are unknown). Each stored result now records `call_settings` (thinking, max output) for provenance. Run folders are still named without the thinking flag, so do not mix thinking-on and thinking-off results in one run (clear/archive first).
+- The earlier DeepSeek run was archived by the admin: `extraction/runs/_archived/20261020T142135__deepseek__deepseek-flash__markdown__txt` (244 results, 211 ok, 33 failed, thinking on, 4,000 cap).
+
+### 2026-10-20 — concurrency 50
+- Control-panel concurrency limit raised from 8 to 50 and set to 50 on the VPS. Caveat: the run token limit is checked before each article starts, so with 50 workers up to 49 calls already in flight can push a run past the limit (thinking calls can emit up to 393k output tokens each). 2.9 GB VPS: 50 threads are fine for memory; provider rate limits (OpenRouter free: about 20 requests/min, 50/day without credits) are the real ceiling.
+
+### 2026-10-20 — OpenRouter output cap
+- Looked up `minimax/minimax-m3.1-flash:free` in the OpenRouter models list (2026-10-20): context 1,000,000; max completion 524,288; accepts images; supports `response_format`. Set OpenRouter Max output tokens to 524,288 and timeout 600 s on the VPS; the per-provider cap validation was raised to 1,048,576. Limits are per model: change the cap when the model id changes. Prices 0.15/0.6 are still entered on this `:free` model, so cost shows as non-zero.
+
+### 2026-11-08 — backup, bucket README, comparison report
+- Added `extraction/backup.py` (`mgeoai x backup`), `extraction/report.py` (`mgeoai x report`), `docs/BUCKET_README.md`. First backup: 2,631 files, 239 MB. Verified live on the VPS: the worker's first run found 1 changed label file (mubasshir 155 -> 156 lines) and wrote a history entry.
+- Report findings (agreement, not accuracy; no gold exists): oishik vs mubasshir on 45 shared articles: fatalities 97.7%, date 88.6%, country 93.2%, location overlap 20.5%, vehicles 22.7%. DeepSeek vs oishik (122): fatalities 99.1%, country 100%, date 61.4%; vs mubasshir (89): fatalities 97.6%, date 59.0%. All 44 date disagreements with oishik are the model returning no date: the markdown input has no publication date while annotators see it in the header. Candidate fix: add `published_at` to the markdown input (a new run folder). OpenRouter MiniMax run: 72 ok, 143 failed.
+
+### 2026-11-08 — publication date in the model input
+- Cause of the date mismatches: the model never received the page publication date (`meta.json:published_at`), only the article markdown; annotators see it in the header. Fix: `with_meta` run option sends a labelled `<PAGE_METADATA>published: …</PAGE_METADATA>` line before the article, with an instruction to use it only as the reference for relative dates. The system prompt is unchanged (same prompt_hash). New run name suffix `__meta`, so runs with and without it never mix. 235 of 244 articles have a date; the other 9 get no block. Caveat: `published_at` comes from page metadata or the browser agent's search record, so it can be wrong; the model may copy it as the accident date (the instruction forbids this, to be measured).
+- `mgeoai x run` runs extraction from the command line with the key in the environment (no argument, no file); run.json now records the pid so the web panel shows a CLI run as running, not interrupted.
+
+### 2026-11-08 — DeepSeek run with the publication date
+- Run `deepseek__deepseek-flash__markdown__txt__meta` (deepseek-flash, markdown, no images, thinking on, 393,216 output cap, concurrency 10, started from the CLI with the key in the process environment only): first pass 239 ok / 5 failed (4 schema errors from extra keys `note`/`date_note`, 1 vocabulary typo); after dropping unknown extra keys and retrying failed articles: 244 ok / 0 failed. About 712k input and 647k output tokens (about $0.50 at the entered 0.15/0.6 prices, unreliable).
+- Date agreement at day level: vs oishik 61.4% -> 81.9%, vs mubasshir 57.4% -> 75.8%. Fatalities and country unchanged (oishik 99.1% / 99.1%, mubasshir 96.8% / 91.6%). Remaining date gaps: model still returns no date for 21 (oishik) and 14 (mubasshir) articles; mubasshir wrote the publication date as the accident date in 9 articles where the model did not (annotation-guideline question: the accident date, not the publish date). Not gold; agreement only.
+
+### 2026-11-09 — Qwen3.8-27B (Kaggle, vision) run
+- New provider `custom`: any OpenAI-compatible endpoint (here llama.cpp on Kaggle behind a temporary trycloudflare URL; key `CUSTOM_API_KEY`, URL `CUSTOM_BASE_URL`, both read from `.creds/kaggle_lfm_*`, git-ignored). Defaults: 8,192 output cap, thinking off through `chat_template_kwargs.enable_thinking=false` (a default-thinking call took 78 s for a trivial prompt), images shrunk to 1024 px, timeout 900 s. A test call confirmed llama.cpp accepts `response_format`.
+- Run `custom__qwen3-8-27b__markdown__img__meta`: markdown + up to 3 images + publication date, concurrency 2, executed on the laptop (the VPS was not used for inference). About 100 s per article (up to 230 s), about 3.5 h in total. Result: 238 ok, 6 failed (2 HTTP 524 from the tunnel's ~100 s limit, 1 empty accident list, 3 malformed evidence entries); 941k input / 181k output tokens. Quote check was weak on the first articles (5/7 and 1/7 verbatim). Retrying failed articles recovered only 1.
+- Uploaded the run folder to the VPS runs/ directory (data only) and backed up to the bucket (history/20261108T213603Z). Labels untouched (backup taken first; mubasshir was labelling during the run).
+- The web service still runs older code: the `custom` provider will appear in the control panel after the next restart/deploy.
+
+### 2026-11-09 — same-accident grouping benchmark (DeepSeek)
+- Preconditions: all 244 articles have >= 1 annotation (re-pulled labels 07:22 UTC: hamim 14, mubasshir 264, oishik 175 lines). Reference = the agent groups (later confirmed: checked by people): consistency check earlier found 57/60 same-incident groups consistent, 0 suspicious cross-group pairs. All 12 two-article decoy groups were read by hand and are positives (one event each).
+- Frozen before any call: `matching/pairs.json` sha256 `bc70f312…44ed` (232 positive, 741 negative of 29,646 possible; strata decoy 163, near 128, similar 300 of 350, easy 150 of 28,773) and the decision rule (SAME only if both orders say same_incident). Texts capped at 12,000 chars; thinking on, 16k output cap, hard token stop per run.
+- Methods: pair-full, pair-fields (both | human | model), cluster-cards (title + lead + fields), cluster-full (full text, 4,000 chars), 3 shuffled runs each; baselines tf-idf (oracle threshold) and a fields rule.
+- Results (re-weighted estimates, agreement with unverified groups): pair-full P 100 / R 99.1 / F1 99.6; pair-fields-both F1 98.9; human-only 97.6; model-only 95.8 (3.1% false-SAME on decoys, caused by roundup articles that mention several crashes); cluster-cards 100 on all 3 runs (100/100 groups recovered exactly); cluster-full 99.6 (99/100); tf-idf (oracle) F1 29.3; fields rule P 99.1 / R 49.6. 0 "possible gold errors" (no pair contradicted by all LLM methods).
+- Misses: pair-full lost 2 positives because the BA order answered "uncertain"; fields methods lose pairs whose reports differ in place, time or vehicles (revised details), articles with no model fields, and one date typo in the extraction (2025 vs 2026).
+- Saturated: LLM methods are within each other's intervals, so the benchmark proves "LLM >> lexical and rule baselines" but cannot rank LLM variants. Harder items needed (same-day same-city crashes, follow-ups days later, more groups, human-verified gold).
+- Cost: about 8.3M tokens in and 2.3M out in total (about $2.6-5.3 at the listed flash prices).
+- Results live in `<root>/matching/` (laptop `~/mgeoai-backups/root-latest/matching`), uploaded to the VPS `extraction/matching/` and the bucket (`latest/matching/`, `reports/`). Code was not copied to the VPS.
+
+### 2026-11-09 — grouping benchmark: repeatability + website
+- `mgeoai x group-benchmark` / `scripts/run_grouping_benchmark.sh` reproduce the benchmark end to end (coverage check, frozen-pair verification, projection, all methods with second pass on failures, scoring, report, `public_summary.json`, `run_manifest.json`). Re-run on the existing data resumed from disk in 3 seconds with no API calls; offline test covers coverage gate, resume, tamper check and the no-identifier rule for the public summary. Docs: `docs/GROUPING_BENCHMARK.md`.
+- Website: public `/api/x/public/grouping` and a "Same-accident grouping" tab (`/grouping`) show aggregates only (no article/pair/group identifiers). Needs the new web build and backend route on the server plus `matching/public_summary.json`.
+
+### 2026-11-09 — Main-branch cleanup, public dataset, reproduce script, methodology
+- Did: removed the previous-version pipeline, tests, data and docs (commit 50c9ba2e); added `extraction/dataset.py`
+  (export, with a leak scan), `extraction/reproduce.py` (rebuild every report from the dataset, no article text),
+  CLI `mgeoai x export-dataset` / `mgeoai x reproduce`, `scripts/reproduce_reports.sh`, `docs/DATASET_CARD.md`,
+  plain-language `METHODOLOGY.md`, new README and AGENTS. Made model scoring order deterministic (sorted file list) so
+  confidence intervals are identical wherever it runs.
+- Result: public CC BY 4.0 dataset `hamimmahmud0/mgeoai-road-accident-news` (10 files, article text/images excluded).
+  `mgeoai x reproduce` from the HF slug matches the published grouping numbers and the original annotation and
+  model scores exactly. Tests pass.
+- Next / open questions: re-export and upload (`hf upload`) when new annotations or runs arrive; the grouping
+  reference was found by an agent and checked by people; the agent also chose the hard negatives.
