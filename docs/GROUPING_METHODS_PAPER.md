@@ -84,7 +84,7 @@ and groups that are split. One call per run: 82k input and 17k output tokens (ca
 **Working case.** Four reports of a 23 Jul 2025 crash in Natore, in two languages with four different death tolls: Prothom Alo
 (English, "6 killed in truck-microbus head-on collision"), BSS (Bangla, toll "rises to 8"), Amar Barta (Bangla, "rises to 7")
 and New Age ("Eight killed in Natore road accident"). All four were put in a single cluster in every run of both variants,
-while the 28 nearby same-country, same-week crashes stayed separate.
+despite the different tolls and languages.
 
 **Failure case (`cluster-full`).** The New Age roundup "Five national-minority men among seven killed in road accidents" was left
 as a singleton in runs 1 and 2, while the two Bangla articles about the Naogaon dump-truck crash were clustered together (run 0

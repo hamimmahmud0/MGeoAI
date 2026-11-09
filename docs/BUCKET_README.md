@@ -102,6 +102,10 @@ A pair is predicted SAME only if both orders answer `same_incident`. Strata: pos
 `hard_decoy` (163, agent-chosen similar-but-different crash vs main group), `hard_near` (128, same country, publish date within
 4 days), `hard_similar` (350, TF-IDF nearest neighbours), `easy` (28,773, 150 sampled). Negatives are sampled, so the report
 re-weights to the full population and bootstraps over incident groups. Model: DeepSeek `deepseek-flash` (thinking on).
+Also in `matching/`: `incidents.json` and `fusion/` (one fused DeepSeek summary per LLM-clustered incident: headline, summary,
+place query, killed/injured, source disagreements; the map data), `PAPER_METHODS.md` (descriptive method write-ups with worked
+and failure examples), `REPRODUCE.md`. Place lookups (OpenStreetMap Nominatim, with fallback that drops the most specific
+components and a radius floor that grows with every component dropped) are cached in `latest/geocode_cache.json`.
 Caveat: the agent also chose the hard negatives, and an LLM judged them, so errors may be correlated: the benchmark is
 near saturation for LLM methods and does not separate them (see `report.html`).
 
