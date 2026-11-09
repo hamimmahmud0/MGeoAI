@@ -16,11 +16,13 @@ from __future__ import annotations
 import hashlib
 import itertools
 import json
+import os
 import random
 import re
 import threading
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
+from dataclasses import dataclass
 from datetime import UTC, date, datetime
 from pathlib import Path
 from typing import Any, Literal
@@ -287,25 +289,43 @@ def parse_json(text: str) -> Any:
     return json.loads(text)
 
 
-def _llm(control: ControlStore, system: str, user: str, thinking: str, max_out: int) -> Any:
-    config = control.settings().providers["deepseek"]
-    key = control.get_key("deepseek")
+@dataclass(frozen=True)
+class Engine:
+    """Which model answers. DeepSeek is the default and keeps the original folder names;
+    any other model writes next to it in folders suffixed `@<provider>-<model>`."""
+
+    provider: str = "deepseek"
+    model: str = "deepseek-flash"
+
+    @property
+    def suffix(self) -> str:
+        if (self.provider, self.model) == ("deepseek", "deepseek-flash"):
+            return ""
+        return "@" + re.sub(r"[^a-z0-9.]+", "-", f"{self.provider}-{self.model}".lower()).strip("-")
+
+
+def _llm(control: ControlStore, system: str, user: str, thinking: str, max_out: int,
+         engine: Engine | None = None) -> Any:
+    engine = engine or Engine()
+    config = control.settings().providers[engine.provider]
+    key = control.get_key(engine.provider)
     if not key:
-        raise ProviderError("DEEPSEEK_API_KEY is not set", retryable=False)
-    return call_chat("deepseek", api_key=key, model="deepseek-flash", system=system,
+        raise ProviderError(f"no API key for {engine.provider} (set it in the environment)", retryable=False)
+    return call_chat(engine.provider, api_key=key, model=engine.model, system=system,
                      user_parts=[{"type": "text", "text": user}], base_url=config.base_url,
-                     timeout=config.timeout_seconds, max_output_tokens=max_out, thinking=thinking)
+                     timeout=max(config.timeout_seconds, int(os.getenv("MGEOAI_GROUP_TIMEOUT", "600"))), max_output_tokens=max_out, thinking=thinking)
 
 
 def run_pair_jobs(root: Path, method: str, limit: int | None, concurrency: int, token_limit: int,
                   thinking: str = "default", max_out: int = 16_000, variant: str = "both",
-                  progress: Any = None) -> dict[str, Any]:
+                  progress: Any = None, engine: Engine | None = None) -> dict[str, Any]:
     """method: pair-full | pair-fields. Both orders per pair; resumable (ok results are kept)."""
     corpus = Corpus(root)
     pairs = json.loads((root / "matching" / "pairs.json").read_text("utf-8"))["pairs"]
     if limit:  # spread the pilot sample over all strata instead of taking the first rows
         pairs = pairs[:: max(1, len(pairs) // limit)][:limit]
-    name = method if method == "pair-full" else f"pair-fields-{variant}"
+    engine = engine or Engine()
+    name = (method if method == "pair-full" else f"pair-fields-{variant}") + engine.suffix
     out = root / "matching" / name
     out.mkdir(parents=True, exist_ok=True)
     control = ControlStore(root)
@@ -332,10 +352,10 @@ def run_pair_jobs(root: Path, method: str, limit: int | None, concurrency: int, 
                     f"<ARTICLE_B>\n{fields_block(corpus, second, parts)}\n</ARTICLE_B>\n"
                     "Decide whether A and B report the same incident.")
         row: dict[str, Any] = {"pair_id": p["pair_id"], "order": order, "method": name, "prompt_hash": prompt_hash,
-                               "call_settings": {"thinking": thinking, "max_output_tokens": max_out, "model": "deepseek-flash"},
+                               "call_settings": {"thinking": thinking, "max_output_tokens": max_out, "model": engine.model, "provider": engine.provider},
                                "started_at": datetime.now(UTC).isoformat(timespec="seconds")}
         try:
-            result = _llm(control, system, user, thinking, max_out)
+            result = _llm(control, system, user, thinking, max_out, engine)
             row.update(raw_text=result.text, input_tokens=result.input_tokens, output_tokens=result.output_tokens,
                        latency_ms=result.latency_ms, finish_reason=result.finish_reason, retries=result.retries)
             budget.add((result.input_tokens or 0) + (result.output_tokens or 0))
@@ -407,9 +427,10 @@ def parse_clusters(text: str, valid: set[str]) -> tuple[list[list[str]], dict[st
 
 
 def run_cluster_jobs(root: Path, variant: str, repeats: int, token_limit: int, thinking: str = "default",
-                     max_out: int = 32_000, progress: Any = None) -> dict[str, Any]:
+                     max_out: int = 32_000, progress: Any = None, engine: Engine | None = None) -> dict[str, Any]:
     corpus = Corpus(root)
-    out = root / "matching" / f"cluster-{variant}"
+    engine = engine or Engine()
+    out = root / "matching" / f"cluster-{variant}{engine.suffix}"
     out.mkdir(parents=True, exist_ok=True)
     control = ControlStore(root)
     prompt_hash = hashlib.sha256(SYSTEM_CLUSTER.encode()).hexdigest()[:12]
@@ -426,9 +447,9 @@ def run_cluster_jobs(root: Path, variant: str, repeats: int, token_limit: int, t
         body, short = cards(corpus, variant, order)
         back = {v: k2 for k2, v in short.items()}
         row: dict[str, Any] = {"run": k, "variant": variant, "prompt_hash": prompt_hash, "order_seed": SEED + k,
-                               "call_settings": {"thinking": thinking, "max_output_tokens": max_out, "model": "deepseek-flash"}}
+                               "call_settings": {"thinking": thinking, "max_output_tokens": max_out, "model": engine.model, "provider": engine.provider}}
         try:
-            result = _llm(control, SYSTEM_CLUSTER, f"<ARTICLES>\n{body}\n</ARTICLES>\nGroup these {len(order)} articles by incident.", thinking, max_out)
+            result = _llm(control, SYSTEM_CLUSTER, f"<ARTICLES>\n{body}\n</ARTICLES>\nGroup these {len(order)} articles by incident.", thinking, max_out, engine)
             used += (result.input_tokens or 0) + (result.output_tokens or 0)
             row.update(raw_text=result.text, input_tokens=result.input_tokens, output_tokens=result.output_tokens,
                        latency_ms=result.latency_ms, finish_reason=result.finish_reason)
@@ -443,7 +464,7 @@ def run_cluster_jobs(root: Path, variant: str, repeats: int, token_limit: int, t
         if progress:
             progress(row)
     files = [json.loads(f.read_text("utf-8")) for f in sorted(out.glob("run*.json"))]
-    return {"method": f"cluster-{variant}", "runs": len(files), "ok": sum(r["status"] == "ok" for r in files),
+    return {"method": f"cluster-{variant}{engine.suffix}", "runs": len(files), "ok": sum(r["status"] == "ok" for r in files),
             "tokens_in": sum(r.get("input_tokens") or 0 for r in files),
             "tokens_out": sum(r.get("output_tokens") or 0 for r in files)}
 

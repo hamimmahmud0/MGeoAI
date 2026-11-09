@@ -29,6 +29,8 @@ configs:
   data_files: data/grouping_pair_predictions.jsonl
 - config_name: grouping_clusters
   data_files: data/grouping_clusters.jsonl
+- config_name: grouping_embedding_baseline
+  data_files: data/grouping_embedding_baseline.jsonl
 - config_name: incidents
   data_files: data/incidents.jsonl
 ---
@@ -55,6 +57,7 @@ Live site: <https://mgeoai.cartmind.xyz>.
 | `grouping_pairs.jsonl` | 973 | The frozen sample of article pairs used to test same-accident methods, with the reference label. |
 | `grouping_pair_predictions.jsonl` | 7,784 | Every answer of every pair-judging method (both presentation orders). |
 | `grouping_clusters.jsonl` | 6 | Each "cluster everything at once" run: the groups the model returned. |
+| `grouping_embedding_baseline.jsonl` | 1,946 | Cosine similarity of every sampled pair under two multilingual embedding models (LaBSE, multilingual E5), the scores behind the embedding baselines. |
 | `incidents.jsonl` | 100 | One fused summary per group of articles, with a place lookup (97 placed on the map). |
 | `grouping_meta.json` | 1 | Sampling seed, decision rule, population sizes, model settings, prompt hashes, token totals. |
 | `expected_results.json` | 1 | Headline numbers, used by the reproduction script to check itself. |
@@ -80,7 +83,10 @@ pairs, stratified so that the hard cases (look-alike accidents, same-day same-co
 (word-overlap similarity), `same_publisher`, `cross_language`, `toll_differs`.
 Methods in `grouping_pair_predictions.jsonl`: `pair-full`, `pair-fields-both`, `pair-fields-human`,
 `pair-fields-model`. Methods in `grouping_clusters.jsonl`: `cluster-cards`, `cluster-full` (3 runs each, different
-article orders). `expected_results.json` holds the headline scores.
+article orders). A method name with a suffix (`pair-full@openrouter-...`) marks a second model that answered the same
+questions; `grouping_meta.json` lists these under `extra_models` with call and token counts. The embedding baselines
+are computed from `grouping_embedding_baseline.jsonl` (two variants each: threshold tuned on the whole sample, or
+learned on held-out folds of accident groups). `expected_results.json` holds the headline scores.
 
 ## Reproduce every report
 

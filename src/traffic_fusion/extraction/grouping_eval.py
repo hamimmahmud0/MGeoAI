@@ -163,6 +163,45 @@ def tfidf_baseline(corpus: Corpus, pairs: list[dict[str, Any]], w: np.ndarray) -
     return {p["pair_id"]: bool(p["tfidf"] >= thr) for p in pairs} | {"__threshold__": thr}
 
 
+def embedding_baselines(root: Path, pairs: list[dict[str, Any]], w: np.ndarray) -> dict[str, dict[str, bool]]:
+    """Cosine of multilingual sentence embeddings (scores stored by scripts/embedding_baseline.py).
+
+    Two variants per model: the threshold that maximises weighted F1 on this same sample (optimistic, like
+    TF-IDF), and a threshold learned on the other folds (accident groups split into 5 folds), which is the
+    honest estimate of what a threshold chosen in advance would do.
+    """
+    path = root / "matching" / "embedding_baseline.json"
+    if not path.exists():
+        return {}
+    y = np.array([p["label"] == "same" for p in pairs])
+
+    def best(scores: np.ndarray, rows: np.ndarray) -> float:
+        top, thr = -1.0, 0.0
+        for t in np.unique(scores[rows]):
+            yh = scores >= t
+            f = prf(float((w * (y & yh))[rows].sum()), float((w * (~y & yh))[rows].sum()), float((w * (y & ~yh))[rows].sum()))["f1"] or 0
+            if f > top:
+                top, thr = f, float(t)
+        return thr
+
+    groups = sorted({p["group_a"] for p in pairs})
+    fold = {g: i % 5 for i, g in enumerate(groups)}
+    fold_of = np.array([fold[p["group_a"]] for p in pairs])
+    out: dict[str, dict[str, bool]] = {}
+    for name, entry in json.loads(path.read_text("utf-8"))["models"].items():
+        scores = np.array([entry["cosine"][p["pair_id"]] for p in pairs])
+        thr = best(scores, np.ones(len(pairs), dtype=bool))
+        out[f"baseline embeddings {name} (oracle threshold)"] = {p["pair_id"]: bool(scores[i] >= thr) for i, p in enumerate(pairs)}
+        cv: dict[str, bool] = {}
+        for k in range(5):
+            t = best(scores, fold_of != k)
+            for i, p in enumerate(pairs):
+                if fold_of[i] == k:
+                    cv[p["pair_id"]] = bool(scores[i] >= t)
+        out[f"baseline embeddings {name} (threshold learned on other folds)"] = cv
+    return out
+
+
 def fields_rule(corpus: Corpus, pairs: list[dict[str, Any]]) -> dict[str, bool]:
     """Rule fixed in advance on the model extraction: same country, dates within 1 day, location word overlap >= 0.3."""
     out = {}
@@ -237,32 +276,40 @@ def evaluate(root: Path) -> dict[str, Any]:
     methods: dict[str, Any] = {}
     preds: dict[str, Any] = {}
     details: dict[str, Any] = {}
-    for name in ("pair-full", "pair-fields-both", "pair-fields-human", "pair-fields-model"):
-        if (root / "matching" / name).is_dir():
-            res = pair_predictions(root, name, pairs)
-            details[name] = res
-            preds[name] = {k: v["pred"] for k, v in res.items()}
-            m = score_method(pairs, preds[name], w, boot)
-            ok = [v for v in res.values() if not v.get("missing")]
-            m["order_inconsistent"] = sum(1 for v in ok if not v["consistent"]) / len(ok) if ok else None
-            m["uncertain_rate"] = sum(1 for v in ok if v["uncertain"]) / len(ok) if ok else None
-            m["tokens"] = sum(v["tokens"] for v in ok)
-            methods[name] = m
-    for variant in ("cards", "full"):
-        runs = cluster_runs(root, variant, corpus)
-        if not runs:
-            continue
-        cons = consensus(runs, corpus.ids) if len(runs) >= 3 else None
-        for label, assign in [*(( f"cluster-{variant} run{k}", r) for k, r in enumerate(runs)), *([(f"cluster-{variant} consensus", cons)] if cons else [])]:
-            pred = {p["pair_id"]: assign[p["a"]] == assign[p["b"]] for p in pairs}
-            preds[label] = pred
-            m = score_method(pairs, pred, w, boot)
-            m["cluster"] = cluster_metrics(corpus, assign)
-            methods[label] = m
+    matching = root / "matching"
+    suffixes = ["", *sorted({p.name[p.name.index("@"):] for p in matching.iterdir() if p.is_dir() and "@" in p.name})] if matching.is_dir() else [""]
+    for suffix in suffixes:
+        tag = f" [{suffix[1:]}]" if suffix else ""
+        for base in ("pair-full", "pair-fields-both", "pair-fields-human", "pair-fields-model"):
+            name, label = base + suffix, base + tag
+            if (matching / name).is_dir():
+                res = pair_predictions(root, name, pairs)
+                details[label] = res
+                preds[label] = {k: v["pred"] for k, v in res.items()}
+                m = score_method(pairs, preds[label], w, boot)
+                ok = [v for v in res.values() if not v.get("missing")]
+                m["order_inconsistent"] = sum(1 for v in ok if not v["consistent"]) / len(ok) if ok else None
+                m["uncertain_rate"] = sum(1 for v in ok if v["uncertain"]) / len(ok) if ok else None
+                m["tokens"] = sum(v["tokens"] for v in ok)
+                methods[label] = m
+        for variant in ("cards", "full"):
+            runs = cluster_runs(root, variant + suffix, corpus)
+            if not runs:
+                continue
+            cons = consensus(runs, corpus.ids) if len(runs) >= 3 else None
+            for label, assign in [*((f"cluster-{variant}{tag} run{k}", r) for k, r in enumerate(runs)), *([(f"cluster-{variant}{tag} consensus", cons)] if cons else [])]:
+                pred = {p["pair_id"]: assign[p["a"]] == assign[p["b"]] for p in pairs}
+                preds[label] = pred
+                m = score_method(pairs, pred, w, boot)
+                m["cluster"] = cluster_metrics(corpus, assign)
+                methods[label] = m
     t = tfidf_baseline(corpus, pairs, w)
     thr = t.pop("__threshold__")
     methods["baseline tf-idf (oracle threshold)"] = score_method(pairs, t, w, boot) | {"threshold": thr}
     preds["baseline tf-idf (oracle threshold)"] = t
+    for label, pred in embedding_baselines(root, pairs, w).items():
+        preds[label] = pred
+        methods[label] = score_method(pairs, pred, w, boot)
     fr = fields_rule(corpus, pairs)
     methods["baseline fields rule"] = score_method(pairs, fr, w, boot)
     preds["baseline fields rule"] = fr
@@ -275,7 +322,7 @@ def evaluate(root: Path) -> dict[str, Any]:
                 m["f1_minus_pair_full_ci95"] = [float(np.nanpercentile(d, 2.5)), float(np.nanpercentile(d, 97.5))]
     # candidate gold errors: every LLM method disagrees with the label
     llm = [n for n in ("pair-full", "pair-fields-both") if n in preds]
-    cons_names = [n for n in preds if n.endswith("consensus")]
+    cons_names = [n for n in preds if n.endswith("consensus") and "[" not in n]
     suspects = []
     for p in pairs:
         votes = [bool(preds[n].get(p["pair_id"])) for n in llm + cons_names if preds[n].get(p["pair_id"]) is not None]

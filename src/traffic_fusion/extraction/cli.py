@@ -118,15 +118,21 @@ def group_run_command(
     thinking: str = typer.Option("default", help="default | disabled"),
     variant: str = typer.Option("both", help="pair-fields only: both | human | model"),
     repeats: int = typer.Option(3, help="cluster methods: independent runs"),
+    provider: str = typer.Option("deepseek", help="deepseek | openrouter (key from the environment)"),
+    model: str = typer.Option("deepseek-flash", help="model id at that provider"),
 ) -> None:
-    """Run one grouping method with DeepSeek (DEEPSEEK_API_KEY from the environment)."""
+    """Run one grouping method (DEEPSEEK_API_KEY / OPENROUTER_API_KEY from the environment).
+
+    A model other than the default writes to its own folders, e.g. matching/pair-full@openrouter-...
+    """
     from traffic_fusion.extraction import grouping
 
     base = _root(root)
+    engine = grouping.Engine(provider, model)
     if method.startswith("pair-"):
-        out = grouping.run_pair_jobs(base, method, limit, concurrency, token_limit, thinking, variant=variant)
+        out = grouping.run_pair_jobs(base, method, limit, concurrency, token_limit, thinking, variant=variant, engine=engine)
     elif method in ("cluster-cards", "cluster-full"):
-        out = grouping.run_cluster_jobs(base, method.split("-", 1)[1], repeats, token_limit, thinking)
+        out = grouping.run_cluster_jobs(base, method.split("-", 1)[1], repeats, token_limit, thinking, engine=engine)
     else:
         raise typer.BadParameter("unknown method")
     typer.echo(json.dumps(out))

@@ -259,6 +259,8 @@ recall 63.4 %, **F1 29.3 %**. Advantages: free, instant, language-independent in
 article and a Bengali article about the same crash share no words (similarity 0.00), while two different crashes from the
 same site can score 0.96 because of repeated page boilerplate.
 
+**Embedding similarity (multilingual E5 and LaBSE).** An *embedding* turns a text into a list of numbers so that similar texts get similar numbers; two articles are compared by the cosine of their lists, and are "same" above a threshold. The text is the title plus the first 1,500 characters. The threshold is either tuned on the whole sample (optimistic) or learned on the other four fifths of the accident groups. F1 is 58.3 % (E5) and 38.9 % (LaBSE) with the tuned threshold, 54.1 % and 26.1 % with the held-out one. Advantages: works across languages without a prompt, free to run. Disadvantages: embeddings capture what an article is about, so two different road accidents look alike; English and Bengali reports of the *same* accident were no closer than random pairs (E5 matched none of the 54 English-Bengali pairs).
+
 **Fields rule.** Using the model's extracted records: same if both articles have exactly one accident, the same country,
 dates at most one day apart, and location words overlapping (at least 30 %). Fixed in advance. Precision 99.1 %, recall
 49.6 %, **F1 66.1 %**. Advantages: transparent and cheap; almost never wrong when it says "same". Disadvantages: misses

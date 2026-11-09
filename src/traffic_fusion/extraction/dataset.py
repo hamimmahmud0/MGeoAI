@@ -125,6 +125,12 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
                     clusters.append({"method": folder.name, "run": r["run"], "clusters": r["clusters"], "validity": r.get("validity"),
                                      "input_tokens": r.get("input_tokens"), "output_tokens": r.get("output_tokens")})
     _write_jsonl(data / "grouping_pair_predictions.jsonl", predictions)
+    embedding_file = matching / "embedding_baseline.json"
+    if embedding_file.exists():
+        emb = _read(embedding_file)
+        _write_jsonl(data / "grouping_embedding_baseline.jsonl", [
+            {"pair_id": pid, "model": name, "repo": entry["repo"], "cosine": value}
+            for name, entry in emb["models"].items() for pid, value in sorted(entry["cosine"].items())])
     _write_jsonl(data / "grouping_clusters.jsonl", clusters)
     meta, manifest = _read(matching / "meta.json"), _read(matching / "run_manifest.json")
     human_from = {alias.get(u, u): n for u, n in (meta.get("human_record_from") or {}).items()}
@@ -134,7 +140,7 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
         "positive_pairs": meta["positive_pairs"], "negative_pairs": meta["negative_pairs"],
         "extraction_run_used_for_model_fields": meta["extraction_run_used_for_model_fields"],
         "human_record_from": human_from, "human_order": [alias[u] for u in corpus.human_order if u in alias], "model": manifest["model"], "seeds": manifest["seeds"],
-        "prompt_sha256": manifest["prompt_sha256"], "tokens": manifest["tokens"]}
+        "prompt_sha256": manifest["prompt_sha256"], "tokens": manifest["tokens"], "extra_models": _extra_models(matching)}
     (data / "grouping_meta.json").write_text(json.dumps(grouping_meta, indent=1) + "\n", "utf-8")
 
     incidents = []
@@ -169,6 +175,20 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
     if leak:
         raise RuntimeError(f"export refused: {leak}")
     return summary
+
+
+def _extra_models(matching: Path) -> dict[str, Any]:
+    """Models other than the default that also answered same-accident questions (folders `<method>@<model>`)."""
+    found: dict[str, Any] = {}
+    for folder in sorted(p for p in matching.iterdir() if p.is_dir() and "@" in p.name):
+        tag = folder.name[folder.name.index("@") + 1:]
+        files = [_read(f) for f in folder.glob("*.json")]
+        settings: dict[str, Any] = next((f["call_settings"] for f in files if f.get("call_settings")), {})
+        entry = found.setdefault(tag, {"provider": settings.get("provider"), "model": settings.get("model"), "methods": {}})
+        entry["methods"][folder.name.split("@")[0]] = {
+            "calls": len(files), "ok": sum(1 for f in files if f.get("status") == "ok"),
+            "tokens_in": sum(f.get("input_tokens") or 0 for f in files), "tokens_out": sum(f.get("output_tokens") or 0 for f in files)}
+    return found
 
 
 def _scan_for_leaks(out: Path, usernames: list[str]) -> str | None:
