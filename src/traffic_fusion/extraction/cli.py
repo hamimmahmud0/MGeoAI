@@ -132,6 +132,42 @@ def group_run_command(
     typer.echo(json.dumps(out))
 
 
+@extract_app.command("group-benchmark")
+def group_benchmark_command(
+    root: Path | None = typer.Option(None),
+    methods: str = typer.Option("all", help="comma list or 'all': pair-full,pair-fields-both,pair-fields-human,pair-fields-model,cluster-cards,cluster-full"),
+    refresh_pairs: bool = typer.Option(False, help="rebuild (and re-freeze) the pair set; invalidates earlier results"),
+    concurrency: int = typer.Option(25),
+    repeats: int = typer.Option(3),
+    token_limit: int = typer.Option(8_000_000, help="hard token stop per method"),
+    skip_annotation_check: bool = typer.Option(False),
+    yes: bool = typer.Option(False, help="spend tokens; without it only the projection is printed"),
+) -> None:
+    """Reproduce the whole same-accident grouping benchmark (needs DEEPSEEK_API_KEY)."""
+    from traffic_fusion.extraction.grouping_pipeline import (
+        METHODS,
+        annotation_coverage,
+        projection,
+        run_benchmark,
+    )
+
+    base = _root(root)
+    chosen = METHODS if methods == "all" else tuple(m.strip() for m in methods.split(","))
+    unknown = [m for m in chosen if m not in METHODS]
+    if unknown:
+        raise typer.BadParameter(f"unknown method(s): {unknown}")
+    pairs_file = base / "matching" / "pairs.json"
+    n_pairs = len(json.loads(pairs_file.read_text("utf-8"))["pairs"]) if pairs_file.exists() else 973
+    if not yes:
+        done, total = annotation_coverage(base)
+        typer.echo(f"annotation coverage {done}/{total}; projection: {json.dumps(projection(n_pairs, chosen, repeats))}")
+        typer.echo("dry run only: add --yes to run")
+        return
+    if not os.getenv("DEEPSEEK_API_KEY"):
+        raise typer.BadParameter("set DEEPSEEK_API_KEY in the environment")
+    run_benchmark(base, chosen, refresh_pairs, concurrency, repeats, token_limit, skip_annotation_check, typer.echo)
+
+
 @extract_app.command("group-eval")
 def group_eval_command(
     root: Path | None = typer.Option(None),

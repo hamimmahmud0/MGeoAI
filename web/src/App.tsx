@@ -5,26 +5,28 @@ import type { Role, Session } from './types'
 import { Annotate } from './components/Annotate'
 import { ControlPanel } from './components/ControlPanel'
 import { ArticlesTab } from './components/ArticlesTab'
+import { GroupingTab } from './components/GroupingTab'
 import { MapTab } from './components/MapTab'
 import { ModelsTab } from './components/ModelsTab'
 import { ScoresTab } from './components/ScoresTab'
 import { SignIn } from './components/SignIn'
 
 type Theme = 'system' | 'light' | 'dark'
-type Tab = 'map' | 'articles' | 'scores' | 'models' | 'annotate' | 'control' | 'signin'
+type Tab = 'map' | 'articles' | 'grouping' | 'scores' | 'models' | 'annotate' | 'control' | 'signin'
 const THEME_KEY = 'mgeoai-theme'
 
 // roles: undefined = open to everyone (no account needed)
 const TABS: { id: Tab; label: string; roles?: Role[] }[] = [
   { id: 'map', label: 'World map' },
   { id: 'articles', label: 'Articles' },
+  { id: 'grouping', label: 'Same-accident grouping' },
   { id: 'scores', label: 'Annotation score' },
   { id: 'models', label: 'LLM models' },
   { id: 'annotate', label: 'Annotate', roles: ['annotator'] },
   { id: 'control', label: 'Control panel', roles: ['admin'] },
 ]
 
-const PATHS: Record<Tab, string> = { map: '/', articles: '/articles', scores: '/scores', models: '/models', annotate: '/annotate', control: '/control', signin: '/login' }
+const PATHS: Record<Tab, string> = { map: '/', articles: '/articles', grouping: '/grouping', scores: '/scores', models: '/models', annotate: '/annotate', control: '/control', signin: '/login' }
 const articleFromPath = (path: string): string | null => path.match(/^\/articles\/([A-Za-z0-9]+)\/?$/)?.[1] ?? null
 const tabFromPath = (path: string): Tab => articleFromPath(path) ? 'articles' : (Object.entries(PATHS).find(([, value]) => value === path.replace(/\/+$/, '') || (value === '/' && path === ''))?.[0] as Tab | undefined) ?? 'map'
 
@@ -115,6 +117,7 @@ export function App() {
           }} />
           : active === 'map' ? <MapTab theme={resolvedTheme} onOpenArticle={openArticle} />
           : active === 'articles' ? <ArticlesTab articleId={articleId} onSelect={openArticle} />
+          : active === 'grouping' ? <GroupingTab />
           : active === 'scores' ? <ScoresTab />
           : active === 'models' ? <ModelsTab />
           : active === 'annotate' && session ? <Annotate session={session} />

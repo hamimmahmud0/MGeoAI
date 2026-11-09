@@ -791,3 +791,71 @@ def test_grouping_pair_set_is_frozen_and_judge_rule_needs_both_orders(
     assert result[doc["pairs"][1]["pair_id"]]["pred"] is None  # no call made: reported as missing, not as "different"
     ids, text = grouping.parse_clusters('{"clusters": [{"ids": ["A001", "A002", "A002", "Z9"]}]}', {"A001", "A002", "A003"})
     assert ids == [["A001", "A002"], ["A003"]] and text == {"missing": 1, "duplicates": 1, "unknown_ids": 1}
+
+
+def test_group_benchmark_pipeline_is_repeatable_and_public_summary_has_no_identifiers(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from traffic_fusion.extraction.grouping_pipeline import projection, run_benchmark
+
+    root = _grouping_root(tmp_path)
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "benchmark" / "scraps").mkdir(parents=True)
+    (tmp_path / "benchmark" / "scraps" / "candidates_b01.json").write_text(json.dumps({"groups": [
+        {"group_id": g, "kind": "same_incident"} for g in ("g1", "g2", "g3", "g4")]}))
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "k-test")
+    calls: list[str] = []
+
+    def fake_post(url: str, **kwargs: object) -> httpx.Response:
+        user = kwargs["json"]["messages"][1]["content"][0]["text"]  # type: ignore[index]
+        calls.append(user[:20])
+        if "<ARTICLES>" in user:  # clustering: group the cards by the tag in their titles
+            by: dict[str, list[str]] = {}
+            for card_id, tag in re.findall(r"\[(A\d+)\].*?title: Crash (g\d)", user):
+                by.setdefault(tag, []).append(card_id)
+            payload: dict[str, object] = {"clusters": [{"ids": ids} for ids in by.values()]}
+        else:
+            tags = re.findall(r"Bus crash (g\d)", user)
+            same = len(tags) == 2 and tags[0] == tags[1]
+            payload = {"decision": "same_incident" if same else "different_incident", "confidence": 0.9,
+                       "evidence": [], "rationale": "tags"}
+        return _reply(content=json.dumps(payload))
+
+    import re
+
+    monkeypatch.setattr(providers.httpx, "post", fake_post)
+    # coverage gate: unlabelled articles stop the run before any call
+    with pytest.raises(RuntimeError, match="no annotation"):
+        run_benchmark(root, log=lambda *_: None)
+    assert calls == []
+    (root / "labels" / "u.jsonl").write_text("".join(json.dumps({"article_id": f"a{i}"}) + "\n" for i in range(1, 7)))
+    out = run_benchmark(root, repeats=3, concurrency=2, log=lambda *_: None)
+    matching = root / "matching"
+    for name in ("pairs.json", "pairs.sha256", "meta.json", "results.json", "report.html", "public_summary.json", "run_manifest.json"):
+        assert (matching / name).exists(), name
+    summary = json.loads((matching / "public_summary.json").read_text())
+    by_method = {m["method"]: m for m in summary["methods"]}
+    assert by_method["pair-full"]["f1"] == pytest.approx(1.0) and by_method["cluster-cards consensus"]["f1"] == pytest.approx(1.0)
+    assert summary["design"]["articles"] == 6 and "not human-verified" in summary["reading_note"]
+    flat = json.dumps(summary)
+    for forbidden in ("Crash g", "publisher", "pair_id", "group_id", "article_id"):
+        assert forbidden not in flat, forbidden
+    manifest = out["manifest"]
+    assert manifest["pairs_sha256"] == (matching / "pairs.sha256").read_text().strip() and manifest["seeds"]["pairs"] == 20261109
+    first_calls = len(calls)
+    run_benchmark(root, repeats=3, concurrency=2, log=lambda *_: None)  # rerun: everything resumes from disk
+    assert len(calls) == first_calls
+    (matching / "pairs.json").write_text((matching / "pairs.json").read_text().replace('"label": "same"', '"label": "SAME"', 1))
+    with pytest.raises(RuntimeError, match="frozen pair set was modified"):
+        run_benchmark(root, log=lambda *_: None)
+    assert projection(973, ("pair-full",), 3)["usd_high"] > projection(973, ("pair-full",), 3)["usd_low"] > 0
+
+
+def test_public_grouping_summary_route(env: tuple[TestClient, Path]) -> None:
+    client, root = env
+    assert client.get("/api/x/public/grouping").json() == {"available": False}
+    (root / "matching").mkdir()
+    (root / "matching" / "public_summary.json").write_text(json.dumps({"title": "T", "methods": []}))
+    (root / "matching" / "pairs.json").write_text('{"pairs": [{"pair_id": "SECRET"}]}')
+    body = client.get("/api/x/public/grouping")  # anonymous
+    assert body.status_code == 200 and body.json() == {"title": "T", "methods": []} and "SECRET" not in body.text

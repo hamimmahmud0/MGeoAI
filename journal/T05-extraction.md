@@ -64,3 +64,7 @@
 - Saturated: LLM methods are within each other's intervals, so the benchmark proves "LLM >> lexical and rule baselines" but cannot rank LLM variants. Harder items needed (same-day same-city crashes, follow-ups days later, more groups, human-verified gold).
 - Cost: about 8.3M tokens in and 2.3M out in total (about $2.6-5.3 at the listed flash prices).
 - Results live in `<root>/matching/` (laptop `~/mgeoai-backups/root-latest/matching`), uploaded to the VPS `extraction/matching/` and the bucket (`latest/matching/`, `reports/`). Code was not copied to the VPS.
+
+### 2026-11-09 — grouping benchmark: repeatability + website
+- `mgeoai x group-benchmark` / `scripts/run_grouping_benchmark.sh` reproduce the benchmark end to end (coverage check, frozen-pair verification, projection, all methods with second pass on failures, scoring, report, `public_summary.json`, `run_manifest.json`). Re-run on the existing data resumed from disk in 3 seconds with no API calls; offline test covers coverage gate, resume, tamper check and the no-identifier rule for the public summary. Docs: `docs/GROUPING_BENCHMARK.md`.
+- Website: public `/api/x/public/grouping` and a "Same-accident grouping" tab (`/grouping`) show aggregates only (no article/pair/group identifiers). Needs the new web build and backend route on the server plus `matching/public_summary.json`.

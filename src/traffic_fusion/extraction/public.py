@@ -66,6 +66,13 @@ class PublicData:
         self._cache[key] = (signature, value)
         return value
 
+    def grouping_summary(self) -> dict[str, Any]:
+        """Aggregate results of the same-accident grouping benchmark (no article or pair identifiers)."""
+        try:
+            return json.loads((self.root / "matching" / "public_summary.json").read_text("utf-8"))  # type: ignore[no-any-return]
+        except (OSError, json.JSONDecodeError):
+            return {"available": False}
+
     # always available ----------------------------------------------------------------
     def overview(self) -> dict[str, Any]:
         ids = self.store.article_ids()

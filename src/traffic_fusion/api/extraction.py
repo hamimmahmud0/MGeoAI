@@ -209,6 +209,10 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
             raise HTTPException(status_code=404, detail="Unknown source")
         return {"locked": False, **public.incidents_geojson(source)}
 
+    @router.get("/public/grouping")
+    def public_grouping() -> dict[str, Any]:
+        return public.grouping_summary()
+
     @router.get("/public/articles")
     def public_articles() -> dict[str, Any]:
         return {"locked": public.locked(), "articles": public.article_list()}

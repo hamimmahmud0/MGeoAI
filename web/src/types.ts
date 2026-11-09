@@ -103,3 +103,17 @@ export type PublicArticle = {
   markdown: string; images: ArticleImage[]; locked: boolean
   annotators?: AnnotatorResult[]; gold?: { usable: boolean; annotators: number; accident?: unknown; accident_count?: unknown; fields?: Record<string, unknown> } | null; models?: ModelResult[]
 }
+
+export type GroupingMethod = {
+  method: string; precision: number | null; recall: number | null; f1: number | null
+  ci95: { precision: number[]; recall: number[]; f1: number[] }
+  false_same_rate: Record<string, number | null>; recall_cross_language: number | null; recall_toll_differs: number | null
+  order_inconsistent: number | null; uncertain_rate: number | null; pairs_missing: number
+  cluster?: { pair_f1_all: number; bcubed_f1: number; ari: number; clusters: number; true_groups: number; groups_recovered_exactly: number; clusters_merging_groups: number; groups_split: number }
+}
+export type GroupingSummary = {
+  available?: false; generated_utc: string; title: string; reading_note: string
+  design: { articles: number; sampled_pairs: number; positive_pairs: number; negative_pairs: number; population_by_stratum: Record<string, number>; pairs_sha256: string; decision_rule: string; human_records_from?: Record<string, number> }
+  model: { provider: string; model: string; thinking: string }; tokens?: Record<string, { in: number; out: number }>
+  methods: GroupingMethod[]; limitations: string[]; reproduce: string
+}
