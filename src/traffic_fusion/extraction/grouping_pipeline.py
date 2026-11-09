@@ -83,15 +83,15 @@ def public_summary(result: dict[str, Any], meta: dict[str, Any], manifest: dict[
         methods.append(row)
     return {
         "generated_utc": result["generated_utc"], "title": "Same-accident grouping benchmark",
-        "reading_note": "The reference groups were assembled by a browser agent and are not human-verified. All numbers are agreement with "
-                        "those groups, not accuracy. Prompts, the pair set and the decision rule were frozen before any model call.",
+        "reading_note": "The reference groups were assembled by a browser agent and then checked by people. All numbers are agreement with "
+                        "those groups. Prompts, the pair set and the decision rule were frozen before any model call.",
         "design": {"articles": None, "sampled_pairs": result["pairs"],
                    "positive_pairs": meta["positive_pairs"], "negative_pairs": meta["negative_pairs"], "population_by_stratum": meta["population"],
                    "pairs_sha256": meta["pairs_sha256"], "decision_rule": meta["decision_rule"],
                    "human_records_from": meta.get("human_record_from")},
         "model": manifest["model"], "tokens": manifest.get("tokens"), "methods": methods,
         "limitations": [
-            "The reference groups come from an LLM browser agent, which also chose the hard negatives; LLM errors and the labels may be correlated.",
+            "The reference groups were found by an LLM browser agent (which also chose the hard negatives) and then checked by people; a shared blind spot between the agent and the LLM methods is still possible.",
             "LLM methods are within each other's confidence intervals, so the benchmark does not rank them.",
             "Negatives are sampled; precision, recall and F1 are re-weighted to the full pair population and bootstrapped over incident groups.",
             "tf-idf uses a threshold tuned on this same sample (optimistic).",

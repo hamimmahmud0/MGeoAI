@@ -100,9 +100,10 @@ the grouping numbers against `expected_results.json`. No API key and no article 
   free-text location (0 % exact) do not, which says more about wording than about mistakes.
 - **The accident flag has no variance.** Every one of the 244 articles was selected because it reports an accident,
   so agreement statistics for that flag (kappa, alpha) are undefined. Do not use this set to test "is this an accident?".
-- **The grouping reference is unverified.** The same-accident groups were produced by a browser agent searching for
-  coverage of the same event; they were not checked article by article. Scores near 1.0 for the best methods mean
-  they agree with that reference, not that they are perfect. Some "errors" may be reference errors.
+- **The grouping reference was human-checked, but is still a reference.** A browser agent collected the articles and
+  proposed the same-accident groups; people then checked them. The agent also chose the hard negatives, so a blind
+  spot shared by the agent and the models is possible. Scores near 1.0 mean agreement with this reference, not
+  proof of perfection.
 - **Selection bias.** Articles were collected on purpose (hand-picked searches, decoys for hard cases). Rates here
   do not describe news coverage in general.
 - **The 244 articles are small.** Per-field confidence intervals are in `model_performance.json`.

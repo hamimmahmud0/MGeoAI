@@ -1,8 +1,7 @@
 # Same-accident grouping benchmark: how to reproduce it
 
 Question: can an LLM tell which news articles report the **same** road accident? Reference ("gold") = the browser
-agent's 100 groups (`meta.json:admin.group_id`). They are **not human-verified**, so every result is *agreement with those
-groups*, not accuracy.
+agent's 100 groups (`meta.json:admin.group_id`). They were then **checked by people**; every result is *agreement with those groups*.
 
 ## One command
 

@@ -1,4 +1,4 @@
-"""Scoring and report for the grouping benchmark (agreement with the UNVERIFIED agent groups)."""
+"""Scoring and report for the grouping benchmark (agreement with the human-checked reference groups)."""
 
 from __future__ import annotations
 
@@ -325,8 +325,8 @@ body{{font:13px/1.45 ui-monospace,Menlo,Consolas,monospace;margin:24px;max-width
 table{{border-collapse:collapse;width:100%;margin:.5em 0 1.2em;background:#fff}}th,td{{border:1px solid #cfd8e3;padding:4px 7px;text-align:left;vertical-align:top}}
 th{{background:#e9eff6}}.note{{border-left:4px solid #d58a12;background:#fff9ec;padding:8px 12px;margin:10px 0}}small{{color:#66758a}}a{{color:#0369a1}}</style></head><body>
 <h1>Same-accident grouping benchmark</h1><p>Generated {result['generated_utc']} UTC · model: deepseek-flash · pair set sha256 <code>{meta['pairs_sha256'][:16]}…</code></p>
-<div class="note"><b>Read this first.</b> The reference groups were assembled by a browser agent and are <b>not human-verified</b>. Every number is
-<b>agreement with those groups</b>, not accuracy. Pairs where all LLM methods contradict a group label are listed at the bottom as
+<div class="note"><b>Read this first.</b> The reference groups were assembled by a browser agent and then <b>checked by people</b>. Every number is
+<b>agreement with those groups</b>. Pairs where all LLM methods contradict a group label are listed at the bottom as
 <b>possible gold errors</b> for a human to review; they are still counted as mistakes in the tables. Prompts, the pair set and the decision rule were frozen before any
 model call: {esc(meta['decision_rule'])}</div>
 <h2>Design</h2><p>{result['pairs']} sampled pairs ({meta['positive_pairs']} positive, {meta['negative_pairs']} negative) out of {sum(pop.values())} possible.

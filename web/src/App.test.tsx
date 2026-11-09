@@ -16,7 +16,7 @@ const publicRoutes = (path: string) => {
   if (path.endsWith('/public/articles/abc123')) return { id: 'abc123', url: 'https://x.test/a', title: 'Six killed near Kabirhat', publisher: 'BSS', published_at: '2025-11-04', language: 'en', markdown: 'Six people were killed.', images: [], locked: false,
     annotators: [{ annotator: 'Annotator A', unusable: false, notes: '', revision: 1, images: [], accidents: [{ accident: true, fatalities: 6, casualities: 6, vehicles: ['truck'], date: '2025-11-04', country: 'Bangladesh', location: 'Kabirhat', 'longitude and latitude': null, evidences: [] }] }],
     models: [{ config_id: 'deepseek__deepseek-flash__markdown__txt', spec: { provider: 'deepseek', model: 'deepseek-flash', input_set: 'markdown', with_images: false }, status: 'ok', accidents: [{ accident: true, fatalities: 5, casualities: 6, vehicles: ['truck'], date: '2025-11-04', country: 'Bangladesh', location: 'Kabirhat', 'longitude and latitude': null, evidences: [] }], raw_text: '{"accidents": []}', quality: { quotes: 2, verbatim: 2 } }] }
-  if (path.endsWith('/public/grouping')) return { generated_utc: '2026-11-09T07:51:00+00:00', title: 'Same-accident grouping benchmark', reading_note: 'The reference groups are not human-verified; all numbers are agreement.',
+  if (path.endsWith('/public/grouping')) return { generated_utc: '2026-11-09T07:51:00+00:00', title: 'Same-accident grouping benchmark', reading_note: 'The reference groups are checked by people; all numbers are agreement.',
     design: { articles: 244, sampled_pairs: 973, positive_pairs: 232, negative_pairs: 741, population_by_stratum: { positive: 232, easy: 28773 }, pairs_sha256: 'bc70f31248f3a2d0', decision_rule: 'SAME only if both orders say same_incident.' },
     model: { provider: 'deepseek', model: 'deepseek-flash', thinking: 'default' }, limitations: ['The reference groups come from an LLM browser agent.'], reproduce: 'mgeoai x group-benchmark --root <dir> --yes',
     methods: [{ method: 'pair-full', precision: 1, recall: 0.991, f1: 0.996, ci95: { precision: [1, 1], recall: [0.98, 1], f1: [0.99, 1] }, false_same_rate: { hard_decoy: 0, hard_near: 0, hard_similar: 0, easy: 0 }, recall_cross_language: 0.981, recall_toll_differs: 0.968, order_inconsistent: 0.004, uncertain_rate: 0.005, pairs_missing: 0 },
@@ -85,7 +85,7 @@ describe('App shell', () => {
     vi.stubGlobal('fetch', vi.fn((path: string) => path.endsWith('/me') ? json({ detail: 'Sign-in required' }, 401) : json(publicRoutes(path) ?? { detail: 'no' })))
     window.history.pushState({}, '', '/grouping')
     render(<App />)
-    expect(await screen.findByText(/not human-verified/)).toBeInTheDocument()
+    expect(await screen.findByText(/checked by people/)).toBeInTheDocument()
     expect(screen.getByText('pair-full')).toBeInTheDocument()
     expect(screen.getAllByText('cluster-cards run0')).toHaveLength(2)  // one row in each table
     expect(screen.getByText(/mgeoai x group-benchmark/)).toBeInTheDocument()

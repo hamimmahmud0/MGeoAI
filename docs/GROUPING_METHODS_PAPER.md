@@ -1,6 +1,6 @@
 # Same-accident grouping: method descriptions with worked examples
 
-Draft text for the paper. All numbers are agreement with the browser agent's 100 incident groups (not human-verified), on a
+Draft text for the paper. All numbers are agreement with the 100 incident groups (found by a browser agent, then checked by people), on a
 frozen sample of 973 article pairs (232 same-incident, 741 different) re-weighted to the 29,646 possible pairs; intervals are 95%
 bootstrap intervals over incident groups. Model: DeepSeek `deepseek-flash`, temperature 0, thinking on. Examples are real items
 from the benchmark (article titles shortened).
@@ -112,6 +112,6 @@ Gazipur policeman crash of 1 Apr 2025 share generic words ("area", "highway", "u
 
 ## What the comparison supports
 The LLM methods clearly outperform the lexical and rule baselines, especially for Bangla-English pairs and revised tolls. They
-are within each other's confidence intervals, so this benchmark cannot rank them: the groups were built by an LLM agent, the hard
-negatives were chosen by the same agent, and no method found a pair that every method contradicted. Harder, human-verified items
+are within each other's confidence intervals, so this benchmark cannot rank them: the groups were proposed by an LLM agent (then human-checked), the hard
+negatives were chosen by the same agent, and no method found a pair that every method contradicted. Harder items
 (same-day same-city crashes, follow-up articles, roundups) are needed to separate them.

@@ -1,6 +1,6 @@
 """Benchmark for "which articles report the same accident".
 
-Gold = the browser agent's groups (UNVERIFIED; two articles in one group are positives, all other
+Reference = the browser agent's groups, checked by people ( two articles in one group are positives, all other
 pairs negatives). Everything is therefore reported as agreement with those groups, not accuracy.
 
 Pair set: all within-group pairs plus stratified negatives (hard: decoy-vs-main group, same
@@ -459,7 +459,7 @@ def prepare(root: Path, overrides: dict[str, str] | None = None) -> dict[str, An
     (out / "pairs.sha256").write_text(digest + "\n", "utf-8")
     meta = {"prepared_utc": datetime.now(UTC).isoformat(timespec="seconds"), "pairs_sha256": digest,
             "extraction_run_used_for_model_fields": EXTRACTION_RUN, **corpus.label_summary(),
-            "gold_note": "groups come from a browser agent and are unverified",
+            "gold_note": "groups were found by a browser agent and then checked by people",
             "positive_pairs": sum(p["label"] == "same" for p in doc["pairs"]),
             "negative_pairs": sum(p["label"] == "different" for p in doc["pairs"]),
             "population": doc["population"], "decision_rule": DECISION_RULE}

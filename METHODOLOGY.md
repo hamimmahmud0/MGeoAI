@@ -46,7 +46,7 @@ who is at fault.**
 - **244 articles**, 102 publishers, 208 in English and 36 in Bengali; 124 about Bangladesh, 120 about other countries.
 - They were collected by hand and with a browser agent, saved as web pages, and grouped into **100 incidents** (1 to 4
   articles each; 192 articles belong to a real shared incident, 52 are look-alike "decoys" added on purpose to make the
-  grouping test harder). The grouping was produced by the browser agent and **was not checked article by article**.
+  grouping test harder). The browser agent proposed the groups and **people then checked them**.
 - The saved pages are the source material. They are not redistributed (they belong to the publishers).
 
 ## 3. (a) How an article is prepared for the model
@@ -280,9 +280,9 @@ half of true matches because different outlets name different landmarks for the 
 
 **What this supports, and what it does not.** All LLM methods are far better than the word-counting and rule baselines,
 particularly across languages and for revised tolls. The LLM methods are **within each other's error bars**, so this
-benchmark cannot rank them: the reference groups were built by an AI agent, the hard negatives were chosen by the same
+benchmark cannot rank them: the reference groups were proposed by an AI agent (then human-checked), the hard negatives were chosen by the same
 agent, and no pair was found that every method contradicted. A perfect score means "agrees with the reference", not
-"correct". Harder, human-verified items (same-day same-city crashes, follow-up articles, roundups) are needed to
+"correct". Harder items (same-day same-city crashes, follow-up articles, roundups) are needed to
 separate the methods. Per-pair answers and explanations are public, so anyone can inspect the disagreements.
 
 ## 8. Reproducing everything
@@ -301,7 +301,8 @@ you must fetch from the publishers using the URLs in `articles.jsonl`.
 ## 9. Limits you should know about
 
 - **Small, hand-collected set.** 244 articles chosen on purpose; rates do not describe the news in general.
-- **Unverified grouping reference.** Produced by a browser agent; human checking is the main missing step.
+- **The reference is human-checked but not independent of the agent.** The agent found the groups and chose the hard
+  negatives; people checked them. A blind spot shared by the agent and the models could remain.
 - **Mostly one annotator per article.** Reference quality is limited by that; 82 articles have two or more annotations,
   which is how agreement is measured.
 - **No negative examples for the accident flag** (see section 6).

@@ -836,7 +836,7 @@ def test_group_benchmark_pipeline_is_repeatable_and_public_summary_has_no_identi
     summary = json.loads((matching / "public_summary.json").read_text())
     by_method = {m["method"]: m for m in summary["methods"]}
     assert by_method["pair-full"]["f1"] == pytest.approx(1.0) and by_method["cluster-cards consensus"]["f1"] == pytest.approx(1.0)
-    assert summary["design"]["articles"] == 6 and "not human-verified" in summary["reading_note"]
+    assert summary["design"]["articles"] == 6 and "checked by people" in summary["reading_note"]
     flat = json.dumps(summary)
     for forbidden in ("Crash g", "publisher", "pair_id", "group_id", "article_id"):
         assert forbidden not in flat, forbidden

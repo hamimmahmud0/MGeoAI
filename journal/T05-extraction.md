@@ -56,7 +56,7 @@
 - The web service still runs older code: the `custom` provider will appear in the control panel after the next restart/deploy.
 
 ### 2026-11-09 — same-accident grouping benchmark (DeepSeek)
-- Preconditions: all 244 articles have >= 1 annotation (re-pulled labels 07:22 UTC: hamim 14, mubasshir 264, oishik 175 lines). Gold = the agent groups (unverified): consistency check earlier found 57/60 same-incident groups consistent, 0 suspicious cross-group pairs. All 12 two-article decoy groups were read by hand and are positives (one event each).
+- Preconditions: all 244 articles have >= 1 annotation (re-pulled labels 07:22 UTC: hamim 14, mubasshir 264, oishik 175 lines). Reference = the agent groups (later confirmed: checked by people): consistency check earlier found 57/60 same-incident groups consistent, 0 suspicious cross-group pairs. All 12 two-article decoy groups were read by hand and are positives (one event each).
 - Frozen before any call: `matching/pairs.json` sha256 `bc70f312…44ed` (232 positive, 741 negative of 29,646 possible; strata decoy 163, near 128, similar 300 of 350, easy 150 of 28,773) and the decision rule (SAME only if both orders say same_incident). Texts capped at 12,000 chars; thinking on, 16k output cap, hard token stop per run.
 - Methods: pair-full, pair-fields (both | human | model), cluster-cards (title + lead + fields), cluster-full (full text, 4,000 chars), 3 shuffled runs each; baselines tf-idf (oracle threshold) and a fields rule.
 - Results (re-weighted estimates, agreement with unverified groups): pair-full P 100 / R 99.1 / F1 99.6; pair-fields-both F1 98.9; human-only 97.6; model-only 95.8 (3.1% false-SAME on decoys, caused by roundup articles that mention several crashes); cluster-cards 100 on all 3 runs (100/100 groups recovered exactly); cluster-full 99.6 (99/100); tf-idf (oracle) F1 29.3; fields rule P 99.1 / R 49.6. 0 "possible gold errors" (no pair contradicted by all LLM methods).
@@ -79,4 +79,4 @@
   `mgeoai x reproduce` from the HF slug matches the published grouping numbers and the original annotation and
   model scores exactly. Tests pass.
 - Next / open questions: re-export and upload (`hf upload`) when new annotations or runs arrive; the grouping
-  reference is still an unverified agent grouping.
+  reference was found by an agent and checked by people; the agent also chose the hard negatives.

@@ -93,7 +93,7 @@ Prompt: `assets/mllm_prompts/accident_extraction_prompt.md` in the GitHub repo (
 
 ## Same-accident grouping benchmark (`latest/matching/`)
 Question: can an LLM tell which news articles report the same accident? Reference = the 100 groups assembled by a browser
-agent (`meta.json:admin.group_id`; **unverified**, so results are agreement with those groups, not accuracy).
+agent (`meta.json:admin.group_id`; then checked by people; results are agreement with those groups).
 Files: `pairs.json` (973 sampled article pairs + stratum + label, **frozen**; `pairs.sha256`; the decision rule is inside),
 `meta.json` (hash, label counts and which annotator supplied each human record), `pair-full/` (LLM reads both articles),
 `pair-fields-both|human|model/` (LLM sees only extracted fields: annotator record and/or model extraction),
