@@ -859,3 +859,45 @@ def test_public_grouping_summary_route(env: tuple[TestClient, Path]) -> None:
     (root / "matching" / "pairs.json").write_text('{"pairs": [{"pair_id": "SECRET"}]}')
     body = client.get("/api/x/public/grouping")  # anonymous
     assert body.status_code == 200 and body.json() == {"title": "T", "methods": []} and "SECRET" not in body.text
+
+
+def test_grouped_incident_map_is_staff_visible_while_labelling_is_open_and_hides_admin_data(
+    env: tuple[TestClient, Path]
+) -> None:
+    client, root = env
+    (root / "matching").mkdir()
+    (root / "matching" / "incidents.json").write_text(json.dumps({"source": "cluster-cards consensus", "model": "deepseek-flash", "incidents": [
+        {"incident_id": "i1", "articles": ["abc123"], "tokens": {"in": 1, "out": 1},
+         "fusion": {"headline": "Six killed near Kabirhat", "summary": "A truck hit an autorickshaw.", "when": "2025-11-04", "place_query": "Kabirhat, Noakhali, Bangladesh",
+                    "killed": 6, "injured": None, "casualty_note": None, "vehicles": ["truck"], "source_disagreements": ["Tolls differ"]},
+         "geo": {"latitude": 22.88, "longitude": 91.1, "granularity": "area", "uncertainty_radius_km": 5.0, "bbox_radius_km": 1.0, "display_name": "x", "query_used": "q", "fallback_level": 1, "method": "nominatim"}},
+        {"incident_id": "i2", "articles": ["abc123"], "tokens": {"in": 1, "out": 1}, "fusion": {"headline": "No place", "summary": "s"}, "geo": None}]}))
+    anon = client.get("/api/x/public/incidents.geojson", params={"source": "grouped"}).json()
+    assert anon["locked"] is True and "Kabirhat" not in json.dumps(anon)
+    csrf_admin = login(client, "boss")  # admin + reviewer, not an annotator: allowed while labelling is open
+    staff = client.get("/api/x/public/incidents.geojson", params={"source": "grouped"}).json()
+    assert staff["locked"] is False and staff["meta"] == {"source": "grouped", "records": 2, "mapped": 1, "verified": False}
+    feature = staff["features"][0]
+    assert feature["geometry"]["coordinates"] == [91.1, 22.88]  # [lon, lat]
+    props = feature["properties"]
+    assert props["headline"] == "Six killed near Kabirhat" and props["n_articles"] == 1 and props["articles"][0]["url"] == "https://x.test/a"
+    assert props["uncertainty_radius_km"] == 5.0 and "not a crash coordinate" in props["location_method"] and props["verified"] is False
+    assert "SECRET-CLAIM" not in json.dumps(staff) and "g001" not in json.dumps(staff)
+    assert "grouped" in client.get("/api/x/public/sources").json()["sources"]
+    client.cookies.clear()
+    from traffic_fusion.extraction.accounts import AccountStore
+
+    AccountStore(root).upsert("both", ["admin", "annotator"], PW)  # an annotator-admin stays locked out
+    login(client, "both")
+    assert client.get("/api/x/public/incidents.geojson", params={"source": "grouped"}).json()["locked"] is True
+    client.cookies.clear()
+    login(client, "ann_one")
+    assert client.get("/api/x/public/incidents.geojson", params={"source": "grouped"}).json()["locked"] is True
+    client.cookies.clear()
+    csrf = login(client, "boss")
+    settings = client.get("/api/x/admin/control").json()["settings"]
+    settings["labelling_open"] = False
+    client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf})
+    client.cookies.clear()
+    assert client.get("/api/x/public/incidents.geojson", params={"source": "grouped"}).json()["locked"] is False
+    assert csrf_admin

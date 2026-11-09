@@ -168,6 +168,20 @@ def group_benchmark_command(
     run_benchmark(base, chosen, refresh_pairs, concurrency, repeats, token_limit, skip_annotation_check, typer.echo)
 
 
+@extract_app.command("build-incidents")
+def build_incidents_command(
+    root: Path | None = typer.Option(None),
+    concurrency: int = typer.Option(20),
+    geocode: bool = typer.Option(True, help="look up places on OpenStreetMap (about 1 request per second)"),
+) -> None:
+    """Fuse each article group into one incident (DeepSeek) and place it on the map data (needs DEEPSEEK_API_KEY)."""
+    from traffic_fusion.extraction.incidents import build_incidents
+
+    if not os.getenv("DEEPSEEK_API_KEY"):
+        raise typer.BadParameter("set DEEPSEEK_API_KEY in the environment")
+    build_incidents(_root(root), concurrency, geocode=geocode, log=typer.echo)
+
+
 @extract_app.command("group-eval")
 def group_eval_command(
     root: Path | None = typer.Option(None),

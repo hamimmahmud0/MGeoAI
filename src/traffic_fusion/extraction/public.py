@@ -46,7 +46,7 @@ class PublicData:
         return self.control.settings().labelling_open
 
     def _signature(self) -> tuple[Any, ...]:
-        files = [*self.store.labels_dir.glob("*.jsonl"), *[f for f in self.runs.runs_dir.glob("*/*.json") if not f.parent.name.startswith("_")],
+        files = [*self.store.labels_dir.glob("*.jsonl"), self.root / "matching" / "incidents.json", *[f for f in self.runs.runs_dir.glob("*/*.json") if not f.parent.name.startswith("_")],
                  self.geocoder.path, self.control.path]
         sig = []
         for path in sorted(files):
@@ -154,9 +154,42 @@ class PublicData:
         return self._cached("models", build)  # type: ignore[no-any-return]
 
     def sources(self) -> list[str]:
-        return ["gold", *[row["config_id"] for row in self.runs.list()]]
+        grouped = ["grouped"] if (self.root / "matching" / "incidents.json").exists() else []
+        return [*grouped, "gold", *[row["config_id"] for row in self.runs.list()]]
+
+    def grouped_geojson(self) -> dict[str, Any]:
+        """One marker per incident (an LLM-clustered group of articles) with a fused DeepSeek summary."""
+        try:
+            doc = json.loads((self.root / "matching" / "incidents.json").read_text("utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return {"type": "FeatureCollection", "features": [], "meta": {"source": "grouped", "records": 0, "mapped": 0, "verified": False}}
+        features = []
+        for inc in doc["incidents"]:
+            geo, f = inc.get("geo"), inc["fusion"]
+            if not geo:
+                continue
+            articles = []
+            for a in inc["articles"]:
+                m = self.store.meta(a)
+                articles.append({"id": a, "title": m.get("title"), "publisher": m.get("publisher"), "url": m.get("url"),
+                                 "published_at": m.get("published_at"), "language": m.get("language")})
+            features.append({
+                "type": "Feature", "geometry": {"type": "Point", "coordinates": [geo["longitude"], geo["latitude"]]},
+                "properties": {
+                    "kind": "incident", "incident_id": inc["incident_id"], "headline": f["headline"], "summary": f["summary"],
+                    "when": f.get("when"), "place": f.get("place_query"), "killed": f.get("killed"), "injured": f.get("injured"),
+                    "vehicles": f.get("vehicles"), "casualty_note": f.get("casualty_note"), "disagreements": f.get("source_disagreements"),
+                    "n_articles": len(articles), "articles": articles, "granularity": geo["granularity"],
+                    "uncertainty_radius_km": geo["uncertainty_radius_km"], "is_incident_location": True, "verified": False,
+                    "location_method": f"OpenStreetMap place centroid ({geo['granularity']}, query level {geo.get('fallback_level')}); not a crash coordinate",
+                    "fused_by": doc.get("model"), "grouping": doc.get("source")}})
+        return {"type": "FeatureCollection", "features": features,
+                "meta": {"source": "grouped", "records": len(doc["incidents"]), "mapped": len(features), "verified": False}}
 
     def incidents_geojson(self, source: str) -> dict[str, Any]:
+        if source == "grouped":
+            return self._cached("geo:grouped", self.grouped_geojson)  # type: ignore[no-any-return]
+
         def build() -> dict[str, Any]:
             records = self._gold_records() if source == "gold" else self._run_records(source)
             features = []

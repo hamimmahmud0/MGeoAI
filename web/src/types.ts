@@ -66,7 +66,9 @@ export type MapProps = {
   incident_id?: string; title?: string; publisher?: string; source_url?: string; origin?: string; verified?: boolean
   fatalities?: number | null; casualities?: number | null; date?: string | null; location?: string | null; country?: string | null
   granularity?: string; uncertainty_radius_km?: number; is_incident_location?: boolean; location_method?: string
-  articles?: number; note?: string; location_name?: string
+  articles?: number | { id: string; title: string | null; publisher: string | null; url: string | null; published_at: string | null; language: string | null }[]; note?: string; location_name?: string
+  kind?: 'incident'; headline?: string; summary?: string; when?: string | null; place?: string | null; killed?: number | null; injured?: number | null
+  vehicles?: string[] | string | null; casualty_note?: string | null; disagreements?: string[] | string | null; n_articles?: number; fused_by?: string
 }
 export type MapFeature = Omit<GeoJSON.Feature<GeoJSON.Point>, 'properties'> & { properties: MapProps }
 export type MapCollection = { type: 'FeatureCollection'; features: MapFeature[] }

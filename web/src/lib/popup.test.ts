@@ -23,4 +23,24 @@ describe('buildPopup', () => {
     box.querySelectorAll('button')[1].click()
     expect(open).toHaveBeenCalledWith('a2')
   })
+
+  it('renders a fused incident card from MapLibre-flattened properties, with sources and disagreements', () => {
+    const open = vi.fn()
+    const props = {
+      kind: 'incident', headline: 'Bus plunges into Padma', summary: 'A bus fell into the river. <b>bold</b>', killed: 26, injured: 3, when: '2026-03-25',
+      place: 'Daulatdia ferry terminal, Rajbari, Bangladesh', n_articles: 2, uncertainty_radius_km: 2, location_method: 'OpenStreetMap place centroid', fused_by: 'deepseek-flash',
+      vehicles: JSON.stringify(['bus']), disagreements: JSON.stringify(['Tolls differ: 2 vs 18 vs 26']),
+      articles: JSON.stringify([{ id: 'a1', title: 'At least 18 killed', publisher: 'The Daily Star', url: 'https://x.test/1' }, { id: 'a2', title: 'পদ্মায় বাস', publisher: 'Prothom Alo', url: null }]),
+    }
+    const box = buildPopup(props as never, open)
+    expect(box.textContent).toContain('2 source article(s) grouped by an LLM')
+    expect(box.textContent).toContain('A bus fell into the river. <b>bold</b>')
+    expect(box.querySelectorAll('b')).toHaveLength(1)  // only the headline: summary text cannot inject markup
+    expect(box.textContent).toContain('Killed: 26 · Injured: 3 · bus')
+    expect(box.textContent).toContain('Tolls differ: 2 vs 18 vs 26')
+    const buttons = box.querySelectorAll('button')
+    expect(buttons).toHaveLength(2)
+    buttons[1].click()
+    expect(open).toHaveBeenCalledWith('a2')
+  })
 })

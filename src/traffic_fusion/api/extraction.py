@@ -185,6 +185,15 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         return FileResponse(path, media_type=str(image.get("content_type")),
                             headers={"X-Content-Type-Options": "nosniff"})
 
+    def staff_view(request: Request) -> bool:
+        """A signed-in admin or reviewer who is not an annotator may see model-derived data while
+        labelling is open (annotators and anonymous visitors may not, which keeps annotation blind)."""
+        try:
+            account = current_user(request, accounts)[0]
+        except HTTPException:
+            return False
+        return bool({"admin", "reviewer"} & set(account.roles)) and "annotator" not in account.roles
+
     # open dashboard (no login). Everything beyond corpus facts is gated by labelling_open.
     locked = {"locked": True,
               "message": "Hidden while labelling is open, to keep annotation independent."}
@@ -198,12 +207,14 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         return public.coverage_geojson()
 
     @router.get("/public/sources")
-    def public_sources() -> dict[str, Any]:
-        return locked if public.locked() else {"locked": False, "sources": public.sources()}
+    def public_sources(request: Request) -> dict[str, Any]:
+        if public.locked() and not staff_view(request):
+            return locked
+        return {"locked": False, "sources": public.sources()}
 
     @router.get("/public/incidents.geojson")
-    def public_incidents(source: str = "gold") -> dict[str, Any]:
-        if public.locked():
+    def public_incidents(request: Request, source: str = "gold") -> dict[str, Any]:
+        if public.locked() and not staff_view(request):
             return locked
         if source not in public.sources():
             raise HTTPException(status_code=404, detail="Unknown source")

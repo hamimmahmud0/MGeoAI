@@ -7,7 +7,7 @@ import { LockNotice, Stat } from './Lock'
 export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOpenArticle: (id: string) => void }) {
   const [overview, setOverview] = useState<Overview | null>(null)
   const [sources, setSources] = useState<string[]>([])
-  const [source, setSource] = useState('gold')
+  const [source, setSource] = useState('')
   const [data, setData] = useState<MapCollection | null>(null)
   const [meta, setMeta] = useState<MapData['meta']>()
   const [locked, setLocked] = useState(true)
@@ -16,10 +16,11 @@ export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOp
 
   useEffect(() => { api.overview().then(setOverview).catch((cause: Error) => setError(cause.message)) }, [])
   useEffect(() => {
-    api.sources().then((res) => { setLocked(res.locked); setSources(res.sources ?? []) }).catch((cause: Error) => setError(cause.message))
+    api.sources().then((res) => { setLocked(res.locked); setSources(res.sources ?? []); setSource((current) => current || (res.sources?.includes('grouped') ? 'grouped' : 'gold')) }).catch((cause: Error) => setError(cause.message))
   }, [])
   useEffect(() => {
     const load = async () => {
+      if (!locked && !source) return
       try {
         if (locked) {
           const coverage = await api.coverage()
@@ -48,13 +49,20 @@ export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOp
         {locked ? <div className="panel p-3"><span className="label">World map · collection countries</span><p className="mt-1">Amber points are <b>collection-country centroids with article counts</b>, not incident locations. Incident locations are published once labelling ends.</p></div> : (
           <div className="panel flex flex-col gap-2 p-3">
             <label className="flex flex-col gap-1"><span className="label">Data source</span>
-              <select className="control" value={source} onChange={(event) => { setSource(event.target.value); setSelected(undefined) }}>{sources.map((name) => <option key={name} value={name}>{name === 'gold' ? 'Human gold (verified)' : `Model: ${name}`}</option>)}</select></label>
-            {meta && <p className="text-muted">{meta.mapped} of {meta.records} accidents have a map position. {meta.verified ? 'Human-annotated consensus.' : 'Unverified model output.'} Positions are place centroids, not crash coordinates.</p>}
+              <select className="control" value={source} onChange={(event) => { setSource(event.target.value); setSelected(undefined) }}>{sources.map((name) => <option key={name} value={name}>{name === 'grouped' ? 'Grouped incidents (LLM clustering + fused summary)' : name === 'gold' ? 'Human gold (verified)' : `Model: ${name}`}</option>)}</select></label>
+            {meta && <p className="text-muted">{meta.mapped} of {meta.records} accidents have a map position. {meta.verified ? 'Human-annotated consensus.' : 'Unverified model output.'} {source === 'grouped' ? 'One marker per incident: articles grouped by an LLM, summary fused by DeepSeek, place looked up on OpenStreetMap (the circle is the uncertainty radius).' : ''} Positions are place centroids, not crash coordinates.</p>}
           </div>)}
         {locked && <LockNotice what="Incident map and statistics" />}
         {overview && <div className="grid grid-cols-2 gap-2"><Stat label="Articles" value={overview.articles} /><Stat label="With images" value={overview.articles_with_images} hint={`${overview.images} images`} />
           <Stat label="Annotators" value={overview.labelling.annotators} /><Stat label="3+ labels" value={overview.labelling.articles_with_3plus_labels} hint={`of ${overview.articles}`} /></div>}
-        {picked && !locked && (
+        {picked && !locked && picked.kind === 'incident' && (
+          <div className="panel flex flex-col gap-1 p-3"><span className="label">Incident · {picked.n_articles} source article(s) · unverified</span>
+            <b>{picked.headline}</b><span>{picked.summary}</span>
+            <span>Killed: {picked.killed ?? 'unknown'} · Injured: {picked.injured ?? 'unknown'} · When: {picked.when ?? 'unknown'}</span>
+            <span className="text-muted">{picked.location_method} · ±{picked.uncertainty_radius_km} km</span>
+            {(() => { const sources = typeof picked.articles === 'string' ? JSON.parse(picked.articles) as { id: string; title: string; publisher: string }[] : Array.isArray(picked.articles) ? picked.articles : []; return sources.map((item) => <button key={item.id} className="btn self-start" onClick={() => onOpenArticle(item.id)}>{item.publisher}: {item.title}</button>) })()}
+          </div>)}
+        {picked && !locked && picked.kind !== 'incident' && (
           <div className="panel flex flex-col gap-1 p-3"><span className="label">{picked.verified ? 'Human gold' : 'Model output · unverified'}</span>
             <b>{picked.title}</b><span className="text-muted">{picked.publisher}</span>
             <span>Killed: {picked.fatalities ?? 'unknown'} · Killed+injured: {picked.casualities ?? 'unknown'}</span>

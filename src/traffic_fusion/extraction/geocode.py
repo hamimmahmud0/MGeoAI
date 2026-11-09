@@ -54,10 +54,14 @@ class GeocodeStore:
             return {}
 
     def lookup(self, location: str | None, country: str | None) -> dict[str, Any] | None:
+        """A usable place: found, and more specific than a whole country (a country centroid is
+        not a location for a crash)."""
         if not location:
             return None
-        entry = self.load().get(cache_key(location, country))
-        return entry if entry and entry.get("status") == "found" else None
+        entry: dict[str, Any] | None = self.load().get(cache_key(location, country))
+        if entry and entry.get("status") == "found" and entry.get("granularity") != "country":
+            return entry
+        return None
 
     def start(self, queries: list[tuple[str, str | None]]) -> bool:
         with self._lock:
@@ -73,7 +77,7 @@ class GeocodeStore:
         try:
             with httpx.Client(timeout=20, headers={"User-Agent": UA}) as client:
                 for location, country in todo:
-                    entry = self._ask(client, location, country)
+                    entry = self._resolve(client, location, country)
                     cache = self.load()
                     cache[cache_key(location, country)] = entry
                     self.path.parent.mkdir(parents=True, exist_ok=True)
@@ -85,8 +89,33 @@ class GeocodeStore:
             self.progress["running"] = False
 
     @staticmethod
-    def _ask(client: httpx.Client, location: str, country: str | None) -> dict[str, Any]:
-        query = f"{location}, {country}" if country else location
+    def variants(location: str, country: str | None) -> list[str]:
+        """Queries from most to least specific: the full location, then with the leading (most
+        specific) component dropped one at a time. A country-only query is never used (not useful)."""
+        parts = [p.strip() for p in location.split(",") if p.strip()]
+        out = []
+        for i in range(len(parts)):
+            rest = ", ".join(parts[i:])
+            out.append(f"{rest}, {country}" if country and country.casefold() not in rest.casefold() else rest)
+        return list(dict.fromkeys(out))
+
+    def _resolve(self, client: httpx.Client, location: str, country: str | None) -> dict[str, Any]:
+        last: dict[str, Any] = {"status": "not_found"}
+        for level, query in enumerate(self.variants(location, country)):
+            entry = self._ask(client, query)
+            if entry["status"] == "found":
+                # Dropping the most specific components makes the place less precise than the bounding
+                # box says, so the radius gets a floor that grows with every component dropped.
+                floor = (0.3, 2.0, 5.0, 15.0)[min(level, 3)]
+                entry.update(query_used=query, fallback_level=level, bbox_radius_km=entry["uncertainty_radius_km"],
+                             uncertainty_radius_km=max(entry["uncertainty_radius_km"], floor))
+                return entry
+            last = entry
+            time.sleep(1.1)
+        return last
+
+    @staticmethod
+    def _ask(client: httpx.Client, query: str) -> dict[str, Any]:
         try:
             response = client.get(URL, params={"q": query, "format": "jsonv2", "limit": 1})
             if response.status_code == 429:
