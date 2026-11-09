@@ -75,3 +75,7 @@
 *::-webkit-scrollbar-thumb { background: rgb(var(--muted) / 0.45); border: 2px solid rgb(var(--canvas)); }
 *::-webkit-scrollbar-thumb:hover { background: rgb(var(--primary)); }
 *::-webkit-scrollbar-corner { background: rgb(var(--canvas)); }
+
+/* The tab bar scrolls sideways on narrow screens but never shows a scroll bar (the 1 px tab underline used to trigger a vertical one) */
+.nav-scroll { overflow-x: auto; overflow-y: hidden; scrollbar-width: none; }
+.nav-scroll::-webkit-scrollbar { display: none; }

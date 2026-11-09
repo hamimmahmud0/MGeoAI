@@ -35,3 +35,6 @@
 - "Labelling is open" was already unticked on the server when checked (16:50 UTC), so the accident map is public; the public view shows incidents, not the 124-article country circle seen while it was locked.
 - Map: below zoom 6 nearby incidents merge into numbered circles; from zoom 6 every accident is its own circle (one per incident, not per article). Circles that overlap or share a place (for example several accidents with the same district centroid) are pushed apart on screen only as far as needed (iterative collision resolution, deterministic), with a thin line back to the true place when moved more than 5 px. Unit tests: 7 incidents on one point end up non-overlapping within an 80 px cloud; incidents with room stay put. Tried in Chromium at Bangladesh zoom: 40+ incidents separate, no overlaps.
 - Scroll bars (Firefox and Chromium/Safari) now use the theme tokens in both light and dark.
+
+### 2026-11-09 — tab bar scroll bar fix
+- The tab bar (`overflow-x: auto`) showed a small vertical scroll bar because the 1 px active-tab underline made it a pixel taller than its box. It now uses `.nav-scroll` (`overflow-y: hidden`, no scroll bar visible); on narrow screens it still scrolls sideways. Checked in Chromium at 1500 px (no overflow) and 700 px (scrolls sideways, no bar).

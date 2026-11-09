@@ -99,7 +99,7 @@ export function App() {
     <div className="flex min-h-screen flex-col">
       <header className="flex items-center gap-4 border-b border-line bg-surface px-4">
         <a href="/" onClick={(event) => { event.preventDefault(); setTab('map') }} className="py-2 text-[13px] font-bold tracking-[0.2em] text-primary no-underline">MGEOAI<span className="text-muted">/</span><span className="text-ink">EXTRACT</span></a>
-        <nav role="tablist" aria-label="Sections" className="flex flex-1 overflow-x-auto">
+        <nav role="tablist" aria-label="Sections" className="nav-scroll flex flex-1">
           {visible.map((item) => (
             <button key={item.id} role="tab" aria-selected={active === item.id} className="tab" onClick={() => setTab(item.id)}>{item.label}</button>
           ))}
