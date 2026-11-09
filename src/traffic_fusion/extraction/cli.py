@@ -209,6 +209,29 @@ def report_command(
     typer.echo(f"wrote {output}")
 
 
+@extract_app.command("export-dataset")
+def export_dataset_command(
+    root: Path | None = typer.Option(None),
+    out: Path = typer.Option(..., help="Folder to write the dataset into (data/*.jsonl)."),
+    repo_id: str = typer.Option("hamimmahmud0/mgeoai-road-accident-news"),
+) -> None:
+    """Write the public, text-free dataset (annotators pseudonymised, no article text or quotes)."""
+    from traffic_fusion.extraction.dataset import export_dataset
+
+    typer.echo(json.dumps(export_dataset(_root(root), out, repo_id), indent=1))
+
+
+@extract_app.command("reproduce")
+def reproduce_command(
+    dataset: str = typer.Option(..., help="Hugging Face dataset slug (owner/name) or a local export folder."),
+    output: Path = typer.Option(Path("reproduced"), help="Folder for the regenerated reports."),
+) -> None:
+    """Recreate the annotation, model, grouping, comparison and incident-map reports from the dataset alone."""
+    from traffic_fusion.extraction.reproduce import reproduce
+
+    typer.echo(json.dumps(reproduce(dataset, output), indent=1))
+
+
 @extract_app.command("init-accounts")
 def init_accounts_command(root: Path | None = typer.Option(None)) -> None:
     """Create missing accounts. Passwords go to a private file; they are never printed."""

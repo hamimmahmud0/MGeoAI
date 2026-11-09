@@ -126,7 +126,7 @@ def _prf(tp: int, fp: int, fn: int) -> dict[str, float | None]:
 def model_metrics(config_dir: Path, reference: dict[str, dict[str, Any]], store: ArticleStore,
                   labels: dict[str, dict[str, ArticleLabel]]) -> dict[str, Any]:
     results = {p.stem: json.loads(p.read_text("utf-8"))
-               for p in config_dir.glob("*.json") if p.name != "run.json"}
+               for p in sorted(config_dir.glob("*.json")) if p.name != "run.json"}
     ok = {k: v for k, v in results.items() if v.get("status") == "ok"}
     flag_rows: list[tuple[bool, bool]] = []
     count_hits: list[float] = []

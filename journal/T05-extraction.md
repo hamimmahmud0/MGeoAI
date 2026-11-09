@@ -68,3 +68,15 @@
 ### 2026-11-09 — grouping benchmark: repeatability + website
 - `mgeoai x group-benchmark` / `scripts/run_grouping_benchmark.sh` reproduce the benchmark end to end (coverage check, frozen-pair verification, projection, all methods with second pass on failures, scoring, report, `public_summary.json`, `run_manifest.json`). Re-run on the existing data resumed from disk in 3 seconds with no API calls; offline test covers coverage gate, resume, tamper check and the no-identifier rule for the public summary. Docs: `docs/GROUPING_BENCHMARK.md`.
 - Website: public `/api/x/public/grouping` and a "Same-accident grouping" tab (`/grouping`) show aggregates only (no article/pair/group identifiers). Needs the new web build and backend route on the server plus `matching/public_summary.json`.
+
+### 2026-11-09 — Main-branch cleanup, public dataset, reproduce script, methodology
+- Did: removed the previous-version pipeline, tests, data and docs (commit 50c9ba2e); added `extraction/dataset.py`
+  (export, with a leak scan), `extraction/reproduce.py` (rebuild every report from the dataset, no article text),
+  CLI `mgeoai x export-dataset` / `mgeoai x reproduce`, `scripts/reproduce_reports.sh`, `docs/DATASET_CARD.md`,
+  plain-language `METHODOLOGY.md`, new README and AGENTS. Made model scoring order deterministic (sorted file list) so
+  confidence intervals are identical wherever it runs.
+- Result: public CC BY 4.0 dataset `hamimmahmud0/mgeoai-road-accident-news` (10 files, article text/images excluded).
+  `mgeoai x reproduce` from the HF slug matches the published grouping numbers and the original annotation and
+  model scores exactly. Tests pass.
+- Next / open questions: re-export and upload (`hf upload`) when new annotations or runs arrive; the grouping
+  reference is still an unverified agent grouping.

@@ -100,6 +100,9 @@ class Corpus:
     def __init__(self, root: Path, candidates_glob: str = "benchmark/scraps/candidates_b0[1-5].json",
                  human_order: tuple[str, ...] = ("oishik", "mubasshir", "hamim")) -> None:
         self.root = root
+        order_file = root / "human_order.json"  # written when a root is rebuilt from the public dataset
+        if order_file.exists():
+            human_order = tuple(json.loads(order_file.read_text("utf-8")))
         self.ids = sorted(p.name for p in (root / "articles").iterdir() if (p / "meta.json").exists())
         self.meta = {a: json.loads((root / "articles" / a / "meta.json").read_text("utf-8")) for a in self.ids}
         self.group = {a: self.meta[a]["admin"]["group_id"] for a in self.ids}
