@@ -8,6 +8,10 @@ vi.mock('./components/MapView', () => ({ MapView: () => <div data-testid="map" /
 const publicRoutes = (path: string) => {
   if (path.endsWith('/public/overview')) return { labelling_open: true, articles: 244, images: 600, articles_with_images: 236, top_publishers: [['The Daily Star', 20]], languages: [['en', 200]], labelling: { annotators: 4, articles_with_1plus_labels: 0, articles_with_3plus_labels: 0, labels_submitted: 0 } }
   if (path.endsWith('/public/sources')) return { locked: true, message: 'locked' }
+  if (path.includes('/public/incidents.geojson')) return { locked: false, type: 'FeatureCollection', meta: { source: 'grouped', records: 3, mapped: 3, verified: false }, features: [
+    { type: 'Feature', geometry: { type: 'Point', coordinates: [90.4, 23.8] }, properties: { kind: 'incident', incident_id: 'i1', headline: 'Bus crash', summary: 's', killed_n: 12, year: 2025, vehicle_main: 'bus', n_articles: 2, articles: [] } },
+    { type: 'Feature', geometry: { type: 'Point', coordinates: [91.1, 22.9] }, properties: { kind: 'incident', incident_id: 'i2', headline: 'Truck crash', summary: 's', killed_n: 3, year: 2026, vehicle_main: 'truck', n_articles: 1, articles: [] } },
+    { type: 'Feature', geometry: { type: 'Point', coordinates: [36.8, -1.3] }, properties: { kind: 'incident', incident_id: 'i3', headline: 'Matatu crash', summary: 's', killed_n: 15, year: 2026, vehicle_main: 'car', n_articles: 1, articles: [] } }] }
   if (path.endsWith('/public/articles')) return { locked: false, articles: [{ id: 'abc123', title: 'Six killed near Kabirhat', publisher: 'BSS', language: 'en', published_at: '2025-11-04', gold_accident: true, models_with_result: 1 }] }
   if (path.endsWith('/public/articles/abc123')) return { id: 'abc123', url: 'https://x.test/a', title: 'Six killed near Kabirhat', publisher: 'BSS', published_at: '2025-11-04', language: 'en', markdown: 'Six people were killed.', images: [], locked: false,
     gold: { usable: true, annotators: 3, accident: true, accident_count: 1, fields: { fatalities: 6, date: '2025-11-04' } },
@@ -32,7 +36,6 @@ describe('App shell', () => {
     vi.stubGlobal('fetch', vi.fn((path: string) => { const body = publicRoutes(path); return body ? json(body) : json({ detail: 'Sign-in required' }, 401) }))
     render(<App />)
     expect(await screen.findByTestId('map')).toBeInTheDocument()
-    expect(await screen.findByText('244')).toBeInTheDocument()
     expect(screen.getByRole('button', { name: 'Sign in' })).toBeInTheDocument()
     expect(screen.queryByRole('tab', { name: 'Annotate' })).toBeNull()
     expect(screen.queryByRole('tab', { name: 'Control panel' })).toBeNull()
@@ -87,6 +90,28 @@ describe('App shell', () => {
     expect(screen.getAllByText('cluster-cards run0')).toHaveLength(2)  // one row in each table
     expect(screen.getByText(/mgeoai x group-benchmark/)).toBeInTheDocument()
     expect(screen.getByText('bc70f31248')).toBeInTheDocument()
+  })
+
+  it('shows a full-screen incident map with filters and a legend, and no side menu', async () => {
+    vi.stubGlobal('fetch', vi.fn((path: string) => {
+      if (path.endsWith('/me')) return json({ detail: 'Sign-in required' }, 401)
+      if (path.endsWith('/public/sources')) return json({ locked: false, sources: ['grouped', 'gold'] })
+      return json(publicRoutes(path) ?? { detail: 'no' })
+    }))
+    render(<App />)
+    const user = userEvent.setup()
+    expect(await screen.findByTestId('map')).toBeInTheDocument()
+    expect(await screen.findByText(/incidents shown/)).toHaveTextContent('3 incidents shown')
+    expect(screen.getByText(/30/)).toBeInTheDocument()  // 12 + 3 + 15 people killed
+    expect(screen.queryByText('Top publishers')).toBeNull()  // the old side menu is gone
+    expect(document.querySelector('aside')).toBeNull()
+    await user.click(screen.getByRole('button', { name: '2026' }))
+    await waitFor(() => expect(screen.getByText(/incidents shown/)).toHaveTextContent(/^2 incidents shown/))
+    await user.selectOptions(screen.getByLabelText('Killed at least'), '5')
+    await waitFor(() => expect(screen.getByText(/incidents shown/)).toHaveTextContent(/^1 incidents shown/))
+    await user.selectOptions(screen.getByLabelText('Colour by'), 'vehicle')
+    expect(screen.getByText(/truck \/ pickup/)).toBeInTheDocument()
+    expect(screen.getByLabelText('Legend')).toHaveTextContent('Circle size = people killed')
   })
 
   it('shows a lock notice on the score tabs while labelling is open', async () => {

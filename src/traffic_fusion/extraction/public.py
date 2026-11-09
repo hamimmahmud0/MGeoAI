@@ -35,6 +35,21 @@ EXTRA_CENTROIDS = {
 }
 
 
+_VEHICLE_GROUP = {
+    "bus": "bus", "truck": "truck", "covered_van": "truck", "pickup": "truck", "tractor": "truck",
+    "car": "car", "microbus": "car", "van": "car", "ambulance": "car", "human_hauler": "car",
+    "motorcycle": "two_wheeler", "rickshaw": "two_wheeler", "cng_autorickshaw": "two_wheeler",
+    "battery_autorickshaw": "two_wheeler", "bicycle": "two_wheeler", "train": "train",
+}
+
+
+def vehicle_group(vehicles: list[str] | None) -> str:
+    """Map style group of the first listed vehicle (the one described first or at fault comes first)."""
+    if not vehicles:
+        return "unknown"
+    return _VEHICLE_GROUP.get(vehicles[0], "other")
+
+
 class PublicData:
     def __init__(self, root: Path, control: ControlStore, store: ArticleStore,
                  runs: RunManager, geocoder: GeocodeStore) -> None:
@@ -179,6 +194,9 @@ class PublicData:
                     "kind": "incident", "incident_id": inc["incident_id"], "headline": f["headline"], "summary": f["summary"],
                     "when": f.get("when"), "place": f.get("place_query"), "killed": f.get("killed"), "injured": f.get("injured"),
                     "vehicles": f.get("vehicles"), "casualty_note": f.get("casualty_note"), "disagreements": f.get("source_disagreements"),
+                    "killed_n": f.get("killed") or 0, "injured_n": f.get("injured") or 0,
+                    "vehicle_main": vehicle_group(f.get("vehicles")),
+                    "year": int(str(f["when"])[:4]) if f.get("when") and str(f["when"])[:4].isdigit() else None,
                     "n_articles": len(articles), "articles": articles, "granularity": geo["granularity"],
                     "uncertainty_radius_km": geo["uncertainty_radius_km"], "is_incident_location": True, "verified": False,
                     "location_method": f"OpenStreetMap place centroid ({geo['granularity']}, query level {geo.get('fallback_level')}); not a crash coordinate",
@@ -198,7 +216,8 @@ class PublicData:
                 if point is None:
                     continue
                 features.append({"type": "Feature", "geometry": {"type": "Point", "coordinates": list(point["lonlat"])},
-                                 "properties": {**{k: rec[k] for k in rec if k != "coords"}, **point["props"]}})
+                                 "properties": {**{k: rec[k] for k in rec if k != "coords"}, **point["props"],
+                                                "killed_n": rec.get("fatalities") or 0}})
             return {"type": "FeatureCollection", "features": features,
                     "meta": {"source": source, "records": len(records), "mapped": len(features),
                              "verified": source == "gold"}}
