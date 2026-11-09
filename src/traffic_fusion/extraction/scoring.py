@@ -1,8 +1,8 @@
 """Annotator agreement and model scoring for article extraction.
 
 Reference rule: every article needs one annotation, and one is enough. When several people labelled an
-article, the reference is the annotation of the person who labelled the most articles overall (ties by
-name). Model metrics are agreement with that single annotation, not accuracy against a consensus. Per-field
+article, the reference is the annotation of the first annotator in ANNOTATOR_PRIORITY who labelled it
+(annotators not on the list follow, ordered by name). Model metrics are agreement with that single annotation, not accuracy against a consensus. Per-field
 metrics are computed only on articles whose reference has exactly one accident. For multi-accident articles
 only the accident flag and the accident count are scored.
 """
@@ -19,6 +19,13 @@ from traffic_fusion.extraction.agreement import cohen_kappa, krippendorff_alpha_
 from traffic_fusion.extraction.annotation_store import ArticleLabel, ArticleStore
 
 FIELDS = ("fatalities", "casualities", "vehicles", "date", "country", "location")
+ANNOTATOR_PRIORITY = ("oishik", "mubasshir", "hamim", "rubayet")
+
+
+def annotator_order(names: Any) -> list[str]:
+    """Reference order: the fixed priority list first, then anyone else by name."""
+    rank = {name: i for i, name in enumerate(ANNOTATOR_PRIORITY)}
+    return sorted(names, key=lambda user: (rank.get(user, len(rank)), user))
 
 
 def _tokens(text: str | None) -> frozenset[str]:
@@ -46,7 +53,7 @@ def _accidents(label: ArticleLabel) -> list[dict[str, Any]]:
 
 def build_reference(labels: dict[str, dict[str, ArticleLabel]]) -> dict[str, dict[str, Any]]:
     """{article_id: reference row} using one annotation per article (the primary annotator's)."""
-    order = sorted(labels, key=lambda user: (-len(labels[user]), user))
+    order = annotator_order(labels)
     articles = {a for per_user in labels.values() for a in per_user}
     reference: dict[str, dict[str, Any]] = {}
     for article_id in articles:

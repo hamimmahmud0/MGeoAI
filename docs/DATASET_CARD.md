@@ -52,7 +52,7 @@ Live site: <https://mgeoai.cartmind.xyz>.
 | File (`data/`) | Rows | What it holds |
 |---|---|---|
 | `articles.jsonl` | 244 | One row per article: URL, publisher, title, date, language, collection country and region, and the **reference group** (`reference_group_id`) the article belongs to. |
-| `annotations.jsonl` | 328 | Human annotations (3 pseudonymous annotators). At least one per article, two or more for 82 articles. |
+| `annotations.jsonl` | 328 | Human annotations (3 pseudonymous annotators). At least one per article. |
 | `model_extractions.jsonl` | 947 | What each language model extracted from each article, across 4 runs. |
 | `grouping_pairs.jsonl` | 973 | The frozen sample of article pairs used to test same-accident methods, with the reference label. |
 | `grouping_pair_predictions.jsonl` | 7,784 | Every answer of every pair-judging method (both presentation orders). |
@@ -101,9 +101,10 @@ the grouping numbers against `expected_results.json`. No API key and no article 
 
 ## Read this before using the numbers
 
-- **One annotation per article is the reference.** 82 articles have two or more annotations; agreement on those is
-  reported on the website. Fatalities (97.7 % exact) and country (91.8 %) agree well, vehicles (35 %) and
-  free-text location (0 % exact) do not, which says more about wording than about mistakes.
+- **One annotation per article is the reference.** It is the annotation of the first annotator in the fixed order
+  oishik, mubasshir, hamim, rubayet who labeled the article. In this file the annotators are numbered in that order
+  (`annotator_1` is the first), so the reference of an article is the lowest-numbered annotator who labeled it. 82
+  articles have two or more annotations; the model scores in the paper use only the reference annotation.
 - **The accident flag has no variance.** Every one of the 244 articles was selected because it reports an accident,
   so agreement statistics for that flag (kappa, alpha) are undefined. Do not use this set to test "is this an accident?".
 - **The grouping reference was human-checked, but is still a reference.** A browser agent collected the articles and

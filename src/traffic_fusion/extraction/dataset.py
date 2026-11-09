@@ -17,6 +17,7 @@ from typing import Any
 
 from traffic_fusion.extraction.annotation_store import ArticleStore
 from traffic_fusion.extraction.grouping import Corpus
+from traffic_fusion.extraction.scoring import annotator_order
 
 DATA = "data"
 
@@ -55,7 +56,7 @@ def _error_kind(message: str | None) -> str | None:
 def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "benchmark/scraps/candidates_b0[1-5].json") -> dict[str, Any]:
     store = ArticleStore(root)
     labels = store.all_latest()
-    order = sorted(labels, key=lambda u: (-len(labels[u]), u))
+    order = annotator_order(labels)  # annotator_1 is the reference annotator, then annotator_2, ...
     alias = {user: f"annotator_{i + 1}" for i, user in enumerate(order)}
     corpus = Corpus(root, candidates_glob=candidates_glob)
     data = out / DATA

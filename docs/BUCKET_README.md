@@ -16,7 +16,7 @@ If you are an agent: read this file fully, then `manifest/status.json`, before t
 2. **human annotators** read the same article and fill the same fields **blind** (they never see model output
    or each other's labels);
 3. a report compares model vs humans vs each other. One annotation per article is enough (decision of 2026-11-09): the
-   reference is the annotation of the person who labelled the most articles; there is no 3-annotator consensus.
+   reference is the annotation of the first annotator in the priority list oishik, mubasshir, hamim, rubayet who labelled the article; there is no multi-annotator consensus.
 The research question is whether LLM extraction is accurate and whether it needs human checking.
 
 ## Layout
