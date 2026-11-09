@@ -43,13 +43,24 @@ def _accident(record: dict[str, Any], keep_evidence_notes: bool = False) -> dict
 
 
 def _error_kind(message: str | None) -> str | None:
+    """Why a call failed, from its error text. Transport problems are kept apart from model failures."""
     if not message:
         return None
     low = message.lower()
-    for key, kind in (("truncated", "truncated"), ("validation", "invalid_output"), ("json", "invalid_output"),
-                      ("http", "http_error"), ("timeout", "timeout"), ("no accident", "empty_answer")):
-        if key in low:
-            return kind
+    if "truncated" in low or "finish_reason=length" in low:
+        return "truncated"
+    if low.startswith("http 5") or "timeout" in low[:40] or "malformed provider response" in low:
+        return "transport"
+    if low.startswith("http"):
+        return "http_error"
+    if "not in the vocabulary" in low:
+        return "vocabulary"
+    if "no accident objects" in low:
+        return "no_accident_object"
+    if "validation error" in low:
+        return "schema"
+    if "extra data" in low or "expecting" in low or "json" in low:
+        return "malformed_json"
     return "other"
 
 
@@ -140,7 +151,7 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
         "total_articles": pairs_doc["total_articles"], "pairs_sha256": meta["pairs_sha256"],
         "positive_pairs": meta["positive_pairs"], "negative_pairs": meta["negative_pairs"],
         "extraction_run_used_for_model_fields": meta["extraction_run_used_for_model_fields"],
-        "human_record_from": human_from, "human_order": [alias[u] for u in corpus.human_order if u in alias], "model": manifest["model"], "seeds": manifest["seeds"],
+        "human_record_from": human_from, "human_order": [alias[u] for u in order], "model": manifest["model"], "seeds": manifest["seeds"],
         "prompt_sha256": manifest["prompt_sha256"], "tokens": manifest["tokens"], "extra_models": _extra_models(matching)}
     (data / "grouping_meta.json").write_text(json.dumps(grouping_meta, indent=1) + "\n", "utf-8")
 

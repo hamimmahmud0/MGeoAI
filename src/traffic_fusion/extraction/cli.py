@@ -70,6 +70,7 @@ def run_command(
     input_set: str = typer.Option("markdown", help="markdown or raw"),
     with_images: bool = typer.Option(False),
     with_meta: bool = typer.Option(False, help="Send the page's publication date to the model"),
+    reasoning: bool | None = typer.Option(None, "--reasoning/--no-reasoning", help="switch the model's own thinking on or off (deepseek, custom); default: the provider's own"),
     limit: int | None = typer.Option(None),
     only_failed: bool = typer.Option(False),
     concurrency: int | None = typer.Option(None, help="Override the control-panel concurrency"),
@@ -85,7 +86,7 @@ def run_command(
     base = _root(root)
     manager = RunManager(base, ControlStore(base))
     spec = RunSpec(provider=provider, model=model, input_set=input_set, with_images=with_images,
-                   with_meta=with_meta, limit=limit, only_failed=only_failed)
+                   with_meta=with_meta, reasoning=reasoning, limit=limit, only_failed=only_failed)
     try:
         manager.start(spec, concurrency)
     except ValueError as exc:
@@ -120,6 +121,7 @@ def group_run_command(
     repeats: int = typer.Option(3, help="cluster methods: independent runs"),
     provider: str = typer.Option("deepseek", help="deepseek | openrouter (key from the environment)"),
     model: str = typer.Option("deepseek-flash", help="model id at that provider"),
+    reasoning: bool = typer.Option(False, help="custom endpoints: switch the model's own thinking on"),
 ) -> None:
     """Run one grouping method (DEEPSEEK_API_KEY / OPENROUTER_API_KEY from the environment).
 
@@ -128,7 +130,7 @@ def group_run_command(
     from traffic_fusion.extraction import grouping
 
     base = _root(root)
-    engine = grouping.Engine(provider, model)
+    engine = grouping.Engine(provider, model, reasoning)
     if method.startswith("pair-"):
         out = grouping.run_pair_jobs(base, method, limit, concurrency, token_limit, thinking, variant=variant, engine=engine)
     elif method in ("cluster-cards", "cluster-full"):

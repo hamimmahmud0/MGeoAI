@@ -101,10 +101,10 @@ the grouping numbers against `expected_results.json`. No API key and no article 
 
 ## Read this before using the numbers
 
-- **One annotation per article is the reference.** It is the annotation of the first annotator in the fixed order
-  oishik, mubasshir, hamim, rubayet who labeled the article. In this file the annotators are numbered in that order
-  (`annotator_1` is the first), so the reference of an article is the lowest-numbered annotator who labeled it. 82
-  articles have two or more annotations; the model scores in the paper use only the reference annotation.
+- **One annotation per article is the reference.** It is the annotation of the first annotator, in a fixed order, who
+  labeled the article. In this file the annotators are numbered in that order (`annotator_1` first), so the reference
+  of an article is the lowest-numbered annotator who labeled it. Some articles have two or more annotations; the model
+  scores in the paper use only the reference annotation.
 - **The accident flag has no variance.** Every one of the 244 articles was selected because it reports an accident,
   so agreement statistics for that flag (kappa, alpha) are undefined. Do not use this set to test "is this an accident?".
 - **The grouping reference was human-checked, but is still a reference.** A browser agent collected the articles and

@@ -134,8 +134,8 @@ discarded; 97 of 100 incidents were placed.
 ## 6. How the answers are checked against people
 
 People filled the same fields from scratch, blind to any model output (3 annotators; 328 annotations; every one of the
-244 articles has at least one, 82 have two or more). For scoring, one annotation per article is the reference: the first annotator in the fixed order oishik, mubasshir,
-hamim, rubayet who labelled that article.
+244 articles has at least one, 82 have two or more). For scoring, one annotation per article is the reference: the first annotator, in a fixed order, who labelled that
+article.
 
 - **How much people agree** (82 doubly-annotated articles; exact match): fatalities 97.7 %, country 91.8 %, date 87.1 %,
   casualties 78.8 %, vehicles 35.3 %, location 0 %. Exact free-text match is almost impossible ("Kabirhat Road" vs

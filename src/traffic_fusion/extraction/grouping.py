@@ -32,6 +32,7 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from traffic_fusion.extraction.control import ControlStore
 from traffic_fusion.extraction.providers import ProviderError, call_chat
+from traffic_fusion.extraction.scoring import annotator_order
 
 SEED = 20261109
 NEAR_DAYS = 4
@@ -100,7 +101,7 @@ def _day(value: object) -> date | None:
 # ---- corpus ------------------------------------------------------------------------------------
 class Corpus:
     def __init__(self, root: Path, candidates_glob: str = "benchmark/scraps/candidates_b0[1-5].json",
-                 human_order: tuple[str, ...] = ("oishik", "mubasshir", "hamim")) -> None:
+                 human_order: tuple[str, ...] | None = None) -> None:
         self.root = root
         order_file = root / "human_order.json"  # written when a root is rebuilt from the public dataset
         if order_file.exists():
@@ -131,10 +132,11 @@ class Corpus:
                     row = json.loads(line)
                     latest[row["article_id"]] = row
             by_user[path.stem] = latest
+        order = self.human_order or tuple(annotator_order(by_user))
         for a in self.ids:
-            for user in self.human_order:
+            for user in order:
                 row = by_user.get(user, {}).get(a)
-                if row and not row["unusable"]:
+                if row and row.get("accidents") and not row.get("unusable"):
                     self.human[a] = (user, [x for x in row["accidents"] if x["accident"]])
                     break
         run = self.root / "runs" / EXTRACTION_RUN
@@ -296,12 +298,14 @@ class Engine:
 
     provider: str = "deepseek"
     model: str = "deepseek-flash"
+    reasoning: bool = False  # custom endpoints: switch the model's own thinking on
 
     @property
     def suffix(self) -> str:
-        if (self.provider, self.model) == ("deepseek", "deepseek-flash"):
+        if (self.provider, self.model, self.reasoning) == ("deepseek", "deepseek-flash", False):
             return ""
-        return "@" + re.sub(r"[^a-z0-9.]+", "-", f"{self.provider}-{self.model}".lower()).strip("-")
+        slug = "@" + re.sub(r"[^a-z0-9.]+", "-", f"{self.provider}-{self.model}".lower()).strip("-")
+        return f"{slug}-thinking" if self.reasoning else slug
 
 
 def _llm(control: ControlStore, system: str, user: str, thinking: str, max_out: int,
@@ -313,7 +317,8 @@ def _llm(control: ControlStore, system: str, user: str, thinking: str, max_out: 
         raise ProviderError(f"no API key for {engine.provider} (set it in the environment)", retryable=False)
     return call_chat(engine.provider, api_key=key, model=engine.model, system=system,
                      user_parts=[{"type": "text", "text": user}], base_url=config.base_url,
-                     timeout=max(config.timeout_seconds, int(os.getenv("MGEOAI_GROUP_TIMEOUT", "600"))), max_output_tokens=max_out, thinking=thinking)
+                     timeout=max(config.timeout_seconds, int(os.getenv("MGEOAI_GROUP_TIMEOUT", "600"))), max_output_tokens=max_out, thinking=thinking,
+                     extra_body=({"chat_template_kwargs": {"enable_thinking": True}} if engine.reasoning else config.extra_body) or None)
 
 
 def run_pair_jobs(root: Path, method: str, limit: int | None, concurrency: int, token_limit: int,

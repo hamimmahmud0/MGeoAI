@@ -1,7 +1,7 @@
 """Annotator agreement and model scoring for article extraction.
 
 Reference rule: every article needs one annotation, and one is enough. When several people labelled an
-article, the reference is the annotation of the first annotator in ANNOTATOR_PRIORITY who labelled it
+article, the reference is the annotation of the first annotator in the priority list (MGEOAI_ANNOTATOR_PRIORITY) who labelled it
 (annotators not on the list follow, ordered by name). Model metrics are agreement with that single annotation, not accuracy against a consensus. Per-field
 metrics are computed only on articles whose reference has exactly one accident. For multi-accident articles
 only the accident flag and the accident count are scored.
@@ -10,6 +10,7 @@ only the accident flag and the accident count are scored.
 from __future__ import annotations
 
 import json
+import os
 import random
 import re
 from pathlib import Path
@@ -19,12 +20,18 @@ from traffic_fusion.extraction.agreement import cohen_kappa, krippendorff_alpha_
 from traffic_fusion.extraction.annotation_store import ArticleLabel, ArticleStore
 
 FIELDS = ("fatalities", "casualities", "vehicles", "date", "country", "location")
-ANNOTATOR_PRIORITY = ("oishik", "mubasshir", "hamim", "rubayet")
+def annotator_priority() -> tuple[str, ...]:
+    """The fixed order in which annotators supply the reference (comma list in MGEOAI_ANNOTATOR_PRIORITY).
+
+    Kept out of the code on purpose: account names are not published, and the public dataset numbers the
+    annotators in this same order.
+    """
+    return tuple(name.strip() for name in os.getenv("MGEOAI_ANNOTATOR_PRIORITY", "").split(",") if name.strip())
 
 
 def annotator_order(names: Any) -> list[str]:
     """Reference order: the fixed priority list first, then anyone else by name."""
-    rank = {name: i for i, name in enumerate(ANNOTATOR_PRIORITY)}
+    rank = {name: i for i, name in enumerate(annotator_priority())}
     return sorted(names, key=lambda user: (rank.get(user, len(rank)), user))
 
 
