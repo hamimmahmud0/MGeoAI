@@ -38,3 +38,7 @@
 
 ### 2026-11-09 — tab bar scroll bar fix
 - The tab bar (`overflow-x: auto`) showed a small vertical scroll bar because the 1 px active-tab underline made it a pixel taller than its box. It now uses `.nav-scroll` (`overflow-y: hidden`, no scroll bar visible); on narrow screens it still scrolls sideways. Checked in Chromium at 1500 px (no overflow) and 700 px (scrolls sideways, no bar).
+
+### 2026-11-09 — "gold" removed; one annotation per article is the reference
+- Decision (user): one annotation per article is enough. Removed every gold concept from the UI and API: no "Human gold" map source, no gold column or "gold: ..." flag on the Articles page, no "Gold articles"/"3+ labels" on the Annotation score page, no "scored against gold" on the Models page; the grouping page now says "reference groups". Backend: `build_gold` (strict majority of >= 3 annotators) replaced by `build_reference` (the annotation of the person who labelled the most articles; ties by name); model scores are agreement with that single annotation. Annotation score keeps agreement (alpha, kappa, per-field agreement) on the articles labelled by 2+ people, since that is the only inter-annotator evidence we have.
+- Flaky test: one full pytest run failed once right after the grouping run; it passed in 9 consecutive reruns and I could not identify the test. Watch for it.

@@ -1,10 +1,10 @@
-"""Gold construction, annotator agreement, and model scoring for article extraction.
+"""Annotator agreement and model scoring for article extraction.
 
-Gold rule (documented in the journal and guidelines): a field is gold only if a strict
-majority of the annotators who labelled the article (at least `MIN_LABELS`, default 3)
-gave the same normalised value; otherwise it is unresolved and never guessed. Per-field
-metrics are computed only on articles whose gold has exactly one accident. For
-multi-accident articles only the accident flag and the accident count are scored.
+Reference rule: every article needs one annotation, and one is enough. When several people labelled an
+article, the reference is the annotation of the person who labelled the most articles overall (ties by
+name). Model metrics are agreement with that single annotation, not accuracy against a consensus. Per-field
+metrics are computed only on articles whose reference has exactly one accident. For multi-accident articles
+only the accident flag and the accident count are scored.
 """
 
 from __future__ import annotations
@@ -12,16 +12,13 @@ from __future__ import annotations
 import json
 import random
 import re
-from collections import Counter
 from pathlib import Path
 from typing import Any
 
 from traffic_fusion.annotation.stats import cohen_kappa, krippendorff_alpha_nominal
 from traffic_fusion.extraction.annotation_store import ArticleLabel, ArticleStore
 
-MIN_LABELS = 3
 FIELDS = ("fatalities", "casualities", "vehicles", "date", "country", "location")
-UNRESOLVED = "__unresolved__"
 
 
 def _tokens(text: str | None) -> frozenset[str]:
@@ -47,41 +44,23 @@ def _accidents(label: ArticleLabel) -> list[dict[str, Any]]:
     return [a.wire() for a in label.accidents if a.accident]
 
 
-def majority(values: list[Any]) -> Any:
-    """Strict majority (> half of all votes, None counts as a vote) or UNRESOLVED."""
-    counts = Counter(values)
-    top, votes = counts.most_common(1)[0]
-    return top if votes * 2 > len(values) else UNRESOLVED
-
-
-def build_gold(labels: dict[str, dict[str, ArticleLabel]], min_labels: int = MIN_LABELS
-               ) -> dict[str, dict[str, Any]]:
-    """{article_id: {...}} for articles with enough labels. Unresolved parts are marked."""
-    by_article: dict[str, list[ArticleLabel]] = {}
-    for per_user in labels.values():
-        for article_id, label in per_user.items():
-            by_article.setdefault(article_id, []).append(label)
-    gold: dict[str, dict[str, Any]] = {}
-    for article_id, group in by_article.items():
-        if len(group) < min_labels:
+def build_reference(labels: dict[str, dict[str, ArticleLabel]]) -> dict[str, dict[str, Any]]:
+    """{article_id: reference row} using one annotation per article (the primary annotator's)."""
+    order = sorted(labels, key=lambda user: (-len(labels[user]), user))
+    articles = {a for per_user in labels.values() for a in per_user}
+    reference: dict[str, dict[str, Any]] = {}
+    for article_id in articles:
+        label = next(labels[user][article_id] for user in order if article_id in labels[user])
+        if label.unusable:
+            reference[article_id] = {"usable": False, "annotators": 1}
             continue
-        unusable = majority([g.unusable for g in group])
-        if unusable is True:
-            gold[article_id] = {"usable": False, "annotators": len(group)}
-            continue
-        flag = majority([bool(_accidents(g)) for g in group])
-        count = majority([len(_accidents(g)) for g in group])
-        row: dict[str, Any] = {"usable": unusable is not UNRESOLVED, "annotators": len(group),
-                               "accident": flag, "accident_count": count, "fields": {}}
-        if flag is True and count == 1:
-            singles = [_accidents(g)[0] for g in group if len(_accidents(g)) == 1]
-            for field in FIELDS:
-                values = [norm(field, s[field]) for s in singles]
-                row["fields"][field] = majority(values) if len(values) * 2 > len(group) else UNRESOLVED
-            row["raw"] = {f: Counter(json.dumps(s[f]) for s in singles).most_common(1)[0][0]
-                          for f in ("location", "country", "date", "longitude and latitude")}
-        gold[article_id] = row
-    return gold
+        accidents = _accidents(label)
+        row: dict[str, Any] = {"usable": True, "annotators": 1, "accident": bool(accidents),
+                               "accident_count": len(accidents), "fields": {}}
+        if len(accidents) == 1:
+            row["fields"] = {f: norm(f, accidents[0][f]) for f in FIELDS}
+        reference[article_id] = row
+    return reference
 
 
 def annotation_stats(store: ArticleStore) -> dict[str, Any]:
@@ -109,7 +88,6 @@ def annotation_stats(store: ArticleStore) -> dict[str, Any]:
                 for f in FIELDS:
                     agree[f][1] += 1
                     agree[f][0] += norm(f, left[f]) == norm(f, right[f])
-    gold = build_gold(labels)
     return {
         "articles_total": total,
         "annotators": {u: len(r) for u, r in labels.items()},
@@ -121,9 +99,6 @@ def annotation_stats(store: ArticleStore) -> dict[str, Any]:
         "field_exact_agreement": {f: {"agree": v[0], "pairs": v[1],
                                       "rate": round(v[0] / v[1], 4) if v[1] else None}
                                   for f, v in agree.items()},
-        "gold_articles": len(gold),
-        "gold_unresolved_flag": sum(1 for g in gold.values() if g.get("accident") is UNRESOLVED),
-        "min_labels_for_gold": MIN_LABELS,
     }
 
 
@@ -148,7 +123,7 @@ def _prf(tp: int, fp: int, fn: int) -> dict[str, float | None]:
     return {"precision": p, "recall": r, "f1": f}
 
 
-def model_metrics(config_dir: Path, gold: dict[str, dict[str, Any]], store: ArticleStore,
+def model_metrics(config_dir: Path, reference: dict[str, dict[str, Any]], store: ArticleStore,
                   labels: dict[str, dict[str, ArticleLabel]]) -> dict[str, Any]:
     results = {p.stem: json.loads(p.read_text("utf-8"))
                for p in config_dir.glob("*.json") if p.name != "run.json"}
@@ -160,18 +135,18 @@ def model_metrics(config_dir: Path, gold: dict[str, dict[str, Any]], store: Arti
     jacc: list[float] = []
     loc_overlap: list[float] = []
     for aid, result in ok.items():
-        g = gold.get(aid)
-        if not g or not g.get("usable") or g.get("accident") is UNRESOLVED:
+        g = reference.get(aid)
+        if not g or not g.get("usable"):
             continue
         model = [a for a in result["accidents"] if a["accident"]]
         flag_rows.append((bool(g["accident"]), bool(model)))
-        if g["accident"] is True and g.get("accident_count") not in (UNRESOLVED, None):
+        if g["accident"] is True:
             count_hits.append(float(len(model) == g["accident_count"]))
         if g["accident"] is True and g.get("accident_count") == 1 and len(model) == 1:
             for f in FIELDS:
-                want = g["fields"].get(f, UNRESOLVED)
-                if want is UNRESOLVED:
+                if f not in g["fields"]:
                     continue
+                want = g["fields"][f]
                 got = norm(f, model[0][f])
                 fields[f].append(float(got == want))
                 if f == "fatalities" and want is not None and got is not None:
@@ -200,6 +175,6 @@ def model_metrics(config_dir: Path, gold: dict[str, dict[str, Any]], store: Arti
         "evidence_quotes_verbatim": {"quotes": quotes, "verbatim": verbatim,
                                      "rate": round(verbatim / quotes, 4) if quotes else None},
         "mean_latency_ms": round(sum(v.get("latency_ms") or 0 for v in ok.values()) / len(ok)) if ok else None,
-        "note": "Per-field metrics use only articles whose gold has exactly one accident and where "
-                "the gold field is resolved (strict majority of >= 3 annotators).",
+        "note": "Agreement with one annotation per article. Per-field metrics use only articles whose annotation "
+                "has exactly one accident.",
     }

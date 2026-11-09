@@ -16,9 +16,9 @@ export function ScoresTab() {
   if (!scores) return <p className="p-4 text-muted">Loading…</p>
   return (
     <div className="mx-auto flex max-w-5xl flex-col gap-4 p-4">
-      <div className="grid grid-cols-2 gap-2 md:grid-cols-5">
-        <Stat label="Articles" value={scores.articles_total} /><Stat label="2+ labels" value={scores.articles_with_2plus_labels} />
-        <Stat label="3+ labels" value={scores.articles_with_3plus_labels} /><Stat label="Gold articles" value={scores.gold_articles} hint={`${scores.gold_unresolved_flag} unresolved`} />
+      <div className="grid grid-cols-2 gap-2 md:grid-cols-4">
+        <Stat label="Articles" value={scores.articles_total} /><Stat label="Annotated" value={scores.articles_with_1plus_labels} hint="one annotation per article is enough" />
+        <Stat label="Labelled by 2+ people" value={scores.articles_with_2plus_labels} hint="used for the agreement figures" />
         <Stat label="Accident flag α" value={scores.accident_flag_alpha === null ? '—' : scores.accident_flag_alpha.toFixed(3)} hint="≥0.80 good · 0.667–0.80 tentative" />
       </div>
       <section className="panel p-4"><h2 className="label mb-2">Exact agreement between annotator pairs (single-accident articles)</h2>
@@ -27,7 +27,7 @@ export function ScoresTab() {
       <section className="panel p-4"><h2 className="label mb-2">Cohen κ for the accident flag</h2>
         <table className="w-full text-left"><thead><tr className="label"><th>Pair</th><th>κ</th><th>Articles</th></tr></thead><tbody>
           {Object.entries(scores.accident_flag_cohen_kappa).map(([pair, row]) => <tr key={pair} className="border-t border-line"><td className="py-1">{pair.replace('|', ' ↔ ')}</td><td>{row.kappa === null ? '—' : row.kappa.toFixed(3)}</td><td>{row.articles}</td></tr>)}</tbody></table></section>
-      <p className="text-muted">Gold = a strict majority of at least {scores.min_labels_for_gold} annotators per field; otherwise unresolved, never guessed.</p>
+      <p className="text-muted">Agreement is measured only on the articles that two or more people labelled; every article needs just one annotation.</p>
     </div>
   )
 }

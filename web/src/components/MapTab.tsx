@@ -32,7 +32,7 @@ export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOp
   const [error, setError] = useState('')
 
   useEffect(() => {
-    api.sources().then((res) => { setLocked(res.locked); setSources(res.sources ?? []); setSource((current) => current || (res.sources?.includes('grouped') ? 'grouped' : 'gold')) }).catch((cause: Error) => setError(cause.message))
+    api.sources().then((res) => { setLocked(res.locked); setSources(res.sources ?? []); setSource((current) => current || (res.sources?.includes('grouped') ? 'grouped' : res.sources?.[0] ?? '')) }).catch((cause: Error) => setError(cause.message))
   }, [])
   useEffect(() => {
     const load = async () => {
@@ -72,7 +72,7 @@ export function MapTab({ theme, onOpenArticle }: { theme: 'light' | 'dark'; onOp
         ) : (<>
           <div className="flex flex-wrap items-end gap-2">
             {sources.length > 1 && <label className="flex flex-col gap-1"><span className="label">Data</span>
-              <select className="control" value={source} onChange={(event) => { setSource(event.target.value); setSelected(undefined) }}>{sources.map((name) => <option key={name} value={name}>{name === 'grouped' ? 'Grouped incidents' : name === 'gold' ? 'Human gold' : `Model: ${name}`}</option>)}</select></label>}
+              <select className="control" value={source} onChange={(event) => { setSource(event.target.value); setSelected(undefined) }}>{sources.map((name) => <option key={name} value={name}>{name === 'grouped' ? 'Grouped incidents' : `Model: ${name}`}</option>)}</select></label>}
             <label className="flex flex-col gap-1"><span className="label">Colour by</span>
               <select className="control" value={colorBy} onChange={(event) => setColorBy(event.target.value as ColorBy)}><option value="severity">people killed</option><option value="vehicle">vehicle</option><option value="year">year</option></select></label>
             <label className="flex flex-col gap-1"><span className="label">Killed at least</span>

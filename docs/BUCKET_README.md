@@ -15,7 +15,8 @@ If you are an agent: read this file fully, then `manifest/status.json`, before t
 1. an **LLM** (DeepSeek / OpenRouter models) reads the article and returns a JSON record of the accident(s);
 2. **human annotators** read the same article and fill the same fields **blind** (they never see model output
    or each other's labels);
-3. a report compares model vs humans vs each other. Gold = strict majority of >= 3 annotators per field.
+3. a report compares model vs humans vs each other. One annotation per article is enough (decision of 2026-11-09): the
+   reference is the annotation of the person who labelled the most articles; there is no 3-annotator consensus.
 The research question is whether LLM extraction is accurate and whether it needs human checking.
 
 ## Layout
@@ -91,7 +92,7 @@ attempt per article is kept (a retry overwrites a failed record).
 Prompt: `assets/mllm_prompts/accident_extraction_prompt.md` in the GitHub repo (hash in `prompt_hash`).
 
 ## Same-accident grouping benchmark (`latest/matching/`)
-Question: can an LLM tell which news articles report the same accident? Gold = the 100 groups assembled by a browser
+Question: can an LLM tell which news articles report the same accident? Reference = the 100 groups assembled by a browser
 agent (`meta.json:admin.group_id`; **unverified**, so results are agreement with those groups, not accuracy).
 Files: `pairs.json` (973 sampled article pairs + stratum + label, **frozen**; `pairs.sha256`; the decision rule is inside),
 `meta.json` (hash, label counts and which annotator supplied each human record), `pair-full/` (LLM reads both articles),
@@ -119,12 +120,12 @@ hf buckets list hamimmahmud0/mgeoai-backup --recursive --format json            
 To restore the live app: put `labels/` and `runs/` back under the server's `extraction/` directory
 (`MGEOAI_EXTRACTION_DIR`) and restart the service; accounts must be recreated (`mgeoai x init-accounts`).
 Latest answer per (annotator, article): read each JSONL, keep the last line per `article_id`.
-Gold and scoring rules live in `src/traffic_fusion/extraction/scoring.py`; the comparison report in
+Reference and scoring rules live in `src/traffic_fusion/extraction/scoring.py`; the comparison report in
 `.../report.py` (`mgeoai x report --root <dir> --output out.html`).
 
 ## State and caveats (as of the first backup, 2026-11-08)
 - Labelling is **still open**: annotators oishik (~122 articles) and mubasshir (~89) are mid-way; hamim has 1
-  test label; rubayet none. **No article has the 3 labels needed for gold yet.** Do not call anything "accuracy".
+  test label; rubayet none. Every article now has at least one annotation, which is the project's standard; model results are *agreement with that annotation*, not accuracy.
 - Every human label so far says "accident". Nobody has used "no accident" or "unusable".
 - Model runs: DeepSeek `deepseek-flash` (markdown, no images, thinking on, max output 393,216) covers all 244
   articles; an OpenRouter `minimax/minimax-m3.1-flash:free` run with images is partial (many requests failed:
@@ -138,5 +139,5 @@ Gold and scoring rules live in `src/traffic_fusion/extraction/scoring.py`; the c
 1. Treat the bucket as append-only history: do not delete or overwrite `history/` or `latest/` by hand.
 2. Never commit or upload tokens, accounts, or password files here.
 3. Do not show annotators anything from `runs/`, other annotators' labels, or `meta.json:admin`.
-4. Say "agreement", not "accuracy", until gold exists.
+4. Say "agreement", not "accuracy": the single annotation is itself human work that has not been double-checked.
 5. Add new analyses under `reports/<UTC timestamp>/` with a short note on what produced them.

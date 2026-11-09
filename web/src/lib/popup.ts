@@ -45,7 +45,7 @@ export function buildPopup(props: Raw, open: (articleId: string) => void): HTMLE
   }
   if (props.incident_id && props.title) {
     box.append(el('b', props.title), el('div', props.publisher ?? '', 'mg-muted'))
-    box.append(el('div', `${props.verified ? 'Human gold' : 'Model output, unverified'}`, 'mg-badge'))
+    box.append(el('div', `${props.verified ? 'Human annotation' : 'Model output, unverified'}`, 'mg-badge'))
     box.append(el('div', `Killed: ${props.fatalities ?? 'unknown'} · Killed+injured: ${props.casualities ?? 'unknown'}`))
     box.append(el('div', `Date: ${props.date ?? 'unknown'}`))
     box.append(el('div', `Place: ${props.location ?? 'unknown'}${props.country ? `, ${props.country}` : ''}`))

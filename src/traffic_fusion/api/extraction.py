@@ -213,7 +213,7 @@ def build_router(root: Path, secure_cookies: bool = False) -> APIRouter:
         return {"locked": False, "sources": public.sources()}
 
     @router.get("/public/incidents.geojson")
-    def public_incidents(request: Request, source: str = "gold") -> dict[str, Any]:
+    def public_incidents(request: Request, source: str = "grouped") -> dict[str, Any]:
         if public.locked() and not staff_view(request):
             return locked
         if source not in public.sources():

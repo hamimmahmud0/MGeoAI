@@ -387,19 +387,19 @@ def test_unlocked_dashboard_shows_scores_and_map(env: tuple[TestClient, Path]) -
     client.cookies.clear()  # anonymous visitor from here on
     scores = client.get("/api/x/public/scores/annotation").json()
     assert scores["locked"] is False and scores["articles_with_3plus_labels"] == 1
-    assert scores["gold_articles"] == 1
+    assert "gold_articles" not in scores and "min_labels_for_gold" not in scores  # one annotation per article is enough
     models = client.get("/api/x/public/scores/models").json()["models"][0]["metrics"]
     assert models["accident_flag"]["tp"] == 1 and models["scored_articles"] == 1
-    assert models["fields_exact"]["fatalities"]["value"] == 1.0  # gold 6 (3-of-3 majority 2-of-3)
+    assert models["fields_exact"]["fatalities"]["value"] == 1.0  # reference = ann_a (ties by name): 6 dead
     assert models["fields_exact"]["date"]["value"] == 1.0  # day-level match
     assert models["evidence_quotes_verbatim"]["rate"] == 1.0
     sources = client.get("/api/x/public/sources").json()["sources"]
-    assert sources[0] == "gold" and len(sources) == 2
+    assert sources == ["deepseek__deepseek-flash__markdown__txt"]  # no "gold" source any more
     for source in sources:
         geo = client.get("/api/x/public/incidents.geojson", params={"source": source}).json()
         feature = geo["features"][0]
         assert feature["geometry"]["coordinates"] == [91.1, 22.88]  # [lon, lat]
-        assert geo["meta"]["verified"] is (source == "gold")
+        assert geo["meta"]["verified"] is False
         assert "SECRET-RAW" not in json.dumps(geo)
     assert client.get("/api/x/public/incidents.geojson", params={"source": "nope"}).status_code == 404
 
@@ -518,7 +518,7 @@ def test_article_pages_open_text_but_lock_annotations_and_models(env: tuple[Test
     detail = client.get("/api/x/public/articles/abc123").json()
     assert detail["locked"] is True and detail["url"] == "https://x.test/a"
     assert "Six killed near Kabirhat" in detail["markdown"]
-    assert "annotators" not in detail and "models" not in detail and "gold" not in detail
+    assert "annotators" not in detail and "models" not in detail and "gold" not in json.dumps(detail).lower()
     assert not any(word in json.dumps(detail) for word in ("SECRET-RAW", "ann_a", "SECRET-CLAIM", "g001"))
     assert client.get("/api/x/public/articles/nope").status_code == 404
 
@@ -528,11 +528,11 @@ def test_article_pages_open_text_but_lock_annotations_and_models(env: tuple[Test
     client.put("/api/x/admin/control", json=settings, headers={"X-CSRF-Token": csrf})
     client.cookies.clear()
     listing = client.get("/api/x/public/articles").json()
-    assert listing["locked"] is False and listing["articles"][0]["gold_accident"] is True
+    assert listing["locked"] is False and listing["articles"][0]["annotations"] == 3 and "gold_accident" not in listing["articles"][0]
     assert listing["articles"][0]["models_with_result"] == 1
     detail = client.get("/api/x/public/articles/abc123").json()
     assert [a["annotator"] for a in detail["annotators"]] == ["Annotator A", "Annotator B", "Annotator C"]
-    assert detail["gold"]["accident"] is True and detail["gold"]["fields"]["fatalities"] == 6
+    assert "gold" not in detail
     assert detail["models"][0]["raw_text"] == "SECRET-RAW" and detail["models"][0]["spec"]["provider"] == "deepseek"
     flat = json.dumps(detail)
     assert not any(word in flat for word in ("ann_a", "ann_b", "ann_c", "SECRET-CLAIM", "g001", "agent_claim"))
@@ -901,3 +901,27 @@ def test_grouped_incident_map_is_staff_visible_while_labelling_is_open_and_hides
     client.cookies.clear()
     assert client.get("/api/x/public/incidents.geojson", params={"source": "grouped"}).json()["locked"] is False
     assert csrf_admin
+
+
+def test_reference_is_one_annotation_per_article_from_the_primary_annotator(tmp_path: Path) -> None:
+    from traffic_fusion.extraction.annotation_store import ArticleStore
+    from traffic_fusion.extraction.schema import AccidentRecord
+    from traffic_fusion.extraction.scoring import build_reference
+
+    store = ArticleStore(tmp_path)
+
+    def acc(deaths: int | None, flag: bool = True) -> AccidentRecord:
+        return AccidentRecord.model_validate({"accident": flag, "fatalities": deaths, "date": "2025-01-02", "country": "Peru"})
+
+    # busy labels 3 articles, light labels 2: busy is primary wherever both labelled
+    for a, deaths in (("a1", 5), ("a2", 6), ("a3", 7)):
+        store.append("busy", a, [acc(deaths)], [], False, "")
+    store.append("light", "a1", [acc(9)], [], False, "")
+    store.append("light", "a4", [acc(2), acc(3)], [], False, "")  # two accidents: counted, fields not scored
+    store.append("light", "a5", [acc(None, False)], [], True, "")  # marked not a usable article
+    reference = build_reference(store.all_latest())
+    assert set(reference) == {"a1", "a2", "a3", "a4", "a5"}
+    assert reference["a1"]["fields"]["fatalities"] == 5 and reference["a1"]["annotators"] == 1  # busy wins over light
+    assert reference["a4"]["accident_count"] == 2 and reference["a4"]["fields"] == {}
+    assert reference["a5"] == {"usable": False, "annotators": 1}
+    assert all("gold" not in json.dumps(row).lower() for row in reference.values())

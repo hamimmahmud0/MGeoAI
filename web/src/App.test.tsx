@@ -12,14 +12,13 @@ const publicRoutes = (path: string) => {
     { type: 'Feature', geometry: { type: 'Point', coordinates: [90.4, 23.8] }, properties: { kind: 'incident', incident_id: 'i1', headline: 'Bus crash', summary: 's', killed_n: 12, year: 2025, vehicle_main: 'bus', n_articles: 2, articles: [] } },
     { type: 'Feature', geometry: { type: 'Point', coordinates: [91.1, 22.9] }, properties: { kind: 'incident', incident_id: 'i2', headline: 'Truck crash', summary: 's', killed_n: 3, year: 2026, vehicle_main: 'truck', n_articles: 1, articles: [] } },
     { type: 'Feature', geometry: { type: 'Point', coordinates: [36.8, -1.3] }, properties: { kind: 'incident', incident_id: 'i3', headline: 'Matatu crash', summary: 's', killed_n: 15, year: 2026, vehicle_main: 'car', n_articles: 1, articles: [] } }] }
-  if (path.endsWith('/public/articles')) return { locked: false, articles: [{ id: 'abc123', title: 'Six killed near Kabirhat', publisher: 'BSS', language: 'en', published_at: '2025-11-04', gold_accident: true, models_with_result: 1 }] }
+  if (path.endsWith('/public/articles')) return { locked: false, articles: [{ id: 'abc123', title: 'Six killed near Kabirhat', publisher: 'BSS', language: 'en', published_at: '2025-11-04', annotations: 1, models_with_result: 1 }] }
   if (path.endsWith('/public/articles/abc123')) return { id: 'abc123', url: 'https://x.test/a', title: 'Six killed near Kabirhat', publisher: 'BSS', published_at: '2025-11-04', language: 'en', markdown: 'Six people were killed.', images: [], locked: false,
-    gold: { usable: true, annotators: 3, accident: true, accident_count: 1, fields: { fatalities: 6, date: '2025-11-04' } },
     annotators: [{ annotator: 'Annotator A', unusable: false, notes: '', revision: 1, images: [], accidents: [{ accident: true, fatalities: 6, casualities: 6, vehicles: ['truck'], date: '2025-11-04', country: 'Bangladesh', location: 'Kabirhat', 'longitude and latitude': null, evidences: [] }] }],
     models: [{ config_id: 'deepseek__deepseek-flash__markdown__txt', spec: { provider: 'deepseek', model: 'deepseek-flash', input_set: 'markdown', with_images: false }, status: 'ok', accidents: [{ accident: true, fatalities: 5, casualities: 6, vehicles: ['truck'], date: '2025-11-04', country: 'Bangladesh', location: 'Kabirhat', 'longitude and latitude': null, evidences: [] }], raw_text: '{"accidents": []}', quality: { quotes: 2, verbatim: 2 } }] }
   if (path.endsWith('/public/grouping')) return { generated_utc: '2026-11-09T07:51:00+00:00', title: 'Same-accident grouping benchmark', reading_note: 'The reference groups are not human-verified; all numbers are agreement.',
     design: { articles: 244, sampled_pairs: 973, positive_pairs: 232, negative_pairs: 741, population_by_stratum: { positive: 232, easy: 28773 }, pairs_sha256: 'bc70f31248f3a2d0', decision_rule: 'SAME only if both orders say same_incident.' },
-    model: { provider: 'deepseek', model: 'deepseek-flash', thinking: 'default' }, limitations: ['Gold groups come from an LLM browser agent.'], reproduce: 'mgeoai x group-benchmark --root <dir> --yes',
+    model: { provider: 'deepseek', model: 'deepseek-flash', thinking: 'default' }, limitations: ['The reference groups come from an LLM browser agent.'], reproduce: 'mgeoai x group-benchmark --root <dir> --yes',
     methods: [{ method: 'pair-full', precision: 1, recall: 0.991, f1: 0.996, ci95: { precision: [1, 1], recall: [0.98, 1], f1: [0.99, 1] }, false_same_rate: { hard_decoy: 0, hard_near: 0, hard_similar: 0, easy: 0 }, recall_cross_language: 0.981, recall_toll_differs: 0.968, order_inconsistent: 0.004, uncertain_rate: 0.005, pairs_missing: 0 },
       { method: 'cluster-cards run0', precision: 1, recall: 1, f1: 1, ci95: { precision: [1, 1], recall: [1, 1], f1: [1, 1] }, false_same_rate: { hard_decoy: 0, hard_near: 0, hard_similar: 0, easy: 0 }, recall_cross_language: 1, recall_toll_differs: 1, order_inconsistent: null, uncertain_rate: null, pairs_missing: 0, cluster: { pair_f1_all: 1, bcubed_f1: 1, ari: 1, clusters: 100, true_groups: 100, groups_recovered_exactly: 100, clusters_merging_groups: 0, groups_split: 0 } }] }
   if (path.endsWith('/public/coverage.geojson')) return { type: 'FeatureCollection', features: [] }
@@ -75,7 +74,8 @@ describe('App shell', () => {
     render(<App />)
     expect(await screen.findByRole('link', { name: 'original article' })).toHaveAttribute('href', 'https://x.test/a')
     expect(await screen.findByText('Six people were killed.')).toBeInTheDocument()
-    expect(screen.getByText('Gold (majority)')).toBeInTheDocument()
+    expect(screen.queryByText(/gold/i)).toBeNull()  // no gold concept anywhere in the article view
+    expect(screen.getByText(/1 annotation\(s\)/)).toBeInTheDocument()
     expect(screen.getAllByText('Annotator A').length).toBeGreaterThan(0)
     expect(screen.getAllByText(/deepseek-flash/).length).toBeGreaterThan(0)
     expect(screen.queryByRole('tab', { name: 'Annotate' })).toBeNull()
@@ -95,7 +95,7 @@ describe('App shell', () => {
   it('shows a full-screen incident map with filters and a legend, and no side menu', async () => {
     vi.stubGlobal('fetch', vi.fn((path: string) => {
       if (path.endsWith('/me')) return json({ detail: 'Sign-in required' }, 401)
-      if (path.endsWith('/public/sources')) return json({ locked: false, sources: ['grouped', 'gold'] })
+      if (path.endsWith('/public/sources')) return json({ locked: false, sources: ['grouped', 'deepseek__deepseek-flash__markdown__txt'] })
       return json(publicRoutes(path) ?? { detail: 'no' })
     }))
     render(<App />)

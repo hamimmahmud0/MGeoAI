@@ -20,9 +20,8 @@ from traffic_fusion.extraction.geocode import GeocodeStore
 from traffic_fusion.extraction.runs import RunManager
 from traffic_fusion.extraction.schema import lonlat_from_string
 from traffic_fusion.extraction.scoring import (
-    UNRESOLVED,
     annotation_stats,
-    build_gold,
+    build_reference,
     model_metrics,
 )
 
@@ -154,7 +153,7 @@ class PublicData:
     def model_scores(self) -> list[dict[str, Any]]:
         def build() -> list[dict[str, Any]]:
             labels = self.store.all_latest()
-            gold = build_gold(labels)
+            reference = build_reference(labels)
             rows = []
             for state in self.runs.list():
                 config_dir = self.runs.runs_dir / state["config_id"]
@@ -162,7 +161,7 @@ class PublicData:
                     "config_id": state["config_id"], "spec": state["spec"],
                     "tokens": {"input": state["input_tokens"], "output": state["output_tokens"]},
                     "cost_usd": state["cost_usd"], "cost_known": state["cost_known"],
-                    "metrics": model_metrics(config_dir, gold, self.store, labels),
+                    "metrics": model_metrics(config_dir, reference, self.store, labels),
                 })
             return rows
 
@@ -170,7 +169,7 @@ class PublicData:
 
     def sources(self) -> list[str]:
         grouped = ["grouped"] if (self.root / "matching" / "incidents.json").exists() else []
-        return [*grouped, "gold", *[row["config_id"] for row in self.runs.list()]]
+        return [*grouped, *[row["config_id"] for row in self.runs.list()]]
 
     def grouped_geojson(self) -> dict[str, Any]:
         """One marker per incident (an LLM-clustered group of articles) with a fused DeepSeek summary."""
@@ -209,7 +208,7 @@ class PublicData:
             return self._cached("geo:grouped", self.grouped_geojson)  # type: ignore[no-any-return]
 
         def build() -> dict[str, Any]:
-            records = self._gold_records() if source == "gold" else self._run_records(source)
+            records = self._run_records(source)
             features = []
             for rec in records:
                 point = self._locate(rec)
@@ -220,13 +219,13 @@ class PublicData:
                                                 "killed_n": rec.get("fatalities") or 0}})
             return {"type": "FeatureCollection", "features": features,
                     "meta": {"source": source, "records": len(records), "mapped": len(features),
-                             "verified": source == "gold"}}
+                             "verified": False}}
 
         return self._cached(f"geo:{source}", build)  # type: ignore[no-any-return]
 
     def geocode_queries(self) -> list[tuple[str, str | None]]:
         queries = []
-        for rec in [*self._gold_records(), *[r for s in self.sources()[1:] for r in self._run_records(s)]]:
+        for rec in [r for s in self.sources() if s != "grouped" for r in self._run_records(s)]:
             if rec.get("location") and not rec.get("coords"):
                 queries.append((rec["location"], rec.get("country")))
         return queries
@@ -234,7 +233,7 @@ class PublicData:
     # article pages (text and images are always open; annotations and model output unlock) ----
     def article_list(self) -> list[dict[str, Any]]:
         unlocked = not self.locked()
-        gold = build_gold(self.store.all_latest()) if unlocked else {}
+        labels = self.store.all_latest() if unlocked else {}
         runs = [r["config_id"] for r in self.runs.list()] if unlocked else []
         rows = []
         for article_id in self.store.article_ids():
@@ -243,9 +242,7 @@ class PublicData:
                                    "publisher": meta.get("publisher"), "language": meta.get("language"),
                                    "published_at": meta.get("published_at")}
             if unlocked:
-                g = gold.get(article_id) or {}
-                flag = g.get("accident")
-                row["gold_accident"] = None if flag in (None, UNRESOLVED) else flag
+                row["annotations"] = sum(1 for per_user in labels.values() if article_id in per_user)
                 row["models_with_result"] = sum(
                     1 for c in runs if (self.runs.runs_dir / c / f"{article_id}.json").exists())
             rows.append(row)
@@ -276,8 +273,6 @@ class PublicData:
              "images": [x.model_dump() for x in rec.images], "revision": rec.revision}
             for i, name in enumerate(names) if (rec := labels[name].get(article_id))
         ]
-        gold = build_gold(labels).get(article_id)
-        detail["gold"] = gold and {k: v for k, v in gold.items() if k != "raw"}
         models = []
         for state in self.runs.list():
             path = self.runs.runs_dir / state["config_id"] / f"{article_id}.json"
@@ -310,20 +305,6 @@ class PublicData:
         meta = self.store.meta(article_id)
         return {"incident_id": article_id, "title": meta.get("title"),
                 "publisher": meta.get("publisher"), "source_url": meta.get("url")}
-
-    def _gold_records(self) -> list[dict[str, Any]]:
-        out = []
-        for article_id, g in build_gold(self.store.all_latest()).items():
-            if not (g.get("usable") and g.get("accident") is True and g.get("accident_count") == 1):
-                continue
-            raw = {k: json.loads(v) for k, v in (g.get("raw") or {}).items()}
-            fields = g["fields"]
-            out.append({**self._article_props(article_id), "origin": "human_gold", "verified": True,
-                        "fatalities": None if fields.get("fatalities") in (UNRESOLVED, None) else fields["fatalities"],
-                        "casualities": None if fields.get("casualities") in (UNRESOLVED, None) else fields["casualities"],
-                        "date": raw.get("date"), "location": raw.get("location"),
-                        "country": raw.get("country"), "coords": raw.get("longitude and latitude")})
-        return out
 
     def _run_records(self, config_id: str) -> list[dict[str, Any]]:
         out = []

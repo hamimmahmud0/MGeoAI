@@ -23,7 +23,7 @@ export function ModelsTab() {
       {rows.map((row) => (
         <section key={row.config_id} className="panel p-4">
           <h2 className="font-bold text-primary">{row.spec.provider} · {row.spec.model} <span className="badge">{row.spec.input_set}</span> <span className="badge">{row.spec.with_images ? 'with images' : 'text only'}</span></h2>
-          <p className="text-muted">{row.metrics.articles_ok} ok · {row.metrics.articles_failed} failed · {row.metrics.scored_articles} scored against gold · tokens {row.tokens.input.toLocaleString()} in / {row.tokens.output.toLocaleString()} out · cost {row.cost_usd === null ? 'unknown' : `$${row.cost_usd}`} · {row.metrics.mean_latency_ms ?? '—'} ms mean</p>
+          <p className="text-muted">{row.metrics.articles_ok} ok · {row.metrics.articles_failed} failed · {row.metrics.scored_articles} compared with the annotation · tokens {row.tokens.input.toLocaleString()} in / {row.tokens.output.toLocaleString()} out · cost {row.cost_usd === null ? 'unknown' : `$${row.cost_usd}`} · {row.metrics.mean_latency_ms ?? '—'} ms mean</p>
           <div className="mt-2 grid gap-4 md:grid-cols-2">
             <table className="text-left"><tbody>
               <tr><td className="label pr-4">Accident flag P / R / F1</td><td>{pct(row.metrics.accident_flag.precision)} / {pct(row.metrics.accident_flag.recall)} / {pct(row.metrics.accident_flag.f1)}</td></tr>

@@ -79,7 +79,6 @@ export type AnnotationScores = {
   articles_with_2plus_labels: number; articles_with_3plus_labels: number; accident_flag_alpha: number | null
   accident_flag_cohen_kappa: Record<string, { kappa: number | null; articles: number }>
   field_exact_agreement: Record<string, { agree: number; pairs: number; rate: number | null }>
-  gold_articles: number; gold_unresolved_flag: number; min_labels_for_gold: number
 }
 type Rate = { n: number; value: number | null; ci95: number[] | null }
 export type ModelRow = {
@@ -93,7 +92,7 @@ export type ModelRow = {
   }
 }
 
-export type ArticleListRow = { id: string; title: string | null; publisher: string | null; language: string | null; published_at: string | null; gold_accident?: boolean | null; models_with_result?: number }
+export type ArticleListRow = { id: string; title: string | null; publisher: string | null; language: string | null; published_at: string | null; annotations?: number; models_with_result?: number }
 export type ModelResult = {
   config_id: string; spec: RunSpec; status: 'ok' | 'failed'; error?: string | null; accidents?: AccidentRecord[]
   images?: { image_id: string; what_is_visible: string; shows_accident: boolean | null; vehicles_visible: string[]; people_or_casualty_cues?: string | null; text_in_image?: string | null; location_cues?: string | null; confidence?: number | null }[]
@@ -104,7 +103,7 @@ export type AnnotatorResult = { annotator: string; unusable: boolean; notes: str
 export type PublicArticle = {
   id: string; url: string | null; title: string | null; publisher: string | null; published_at: string | null; language: string | null
   markdown: string; images: ArticleImage[]; locked: boolean
-  annotators?: AnnotatorResult[]; gold?: { usable: boolean; annotators: number; accident?: unknown; accident_count?: unknown; fields?: Record<string, unknown> } | null; models?: ModelResult[]
+  annotators?: AnnotatorResult[]; models?: ModelResult[]
 }
 
 export type GroupingMethod = {

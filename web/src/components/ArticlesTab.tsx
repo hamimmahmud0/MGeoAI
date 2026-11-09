@@ -12,24 +12,23 @@ const FIELDS: [keyof AccidentRecord, string][] = [
   ['fatalities', 'Fatalities'], ['casualities', 'Killed + injured'], ['vehicles', 'Vehicles'], ['date', 'Date'],
   ['country', 'Country'], ['location', 'Location'], ['longitude and latitude', 'Coordinates'],
 ]
-type Column = { name: string; kind: 'gold' | 'human' | 'model'; accidents?: AccidentRecord[]; gold?: Record<string, unknown>; failed?: string }
+type Column = { name: string; kind: 'human' | 'model'; accidents?: AccidentRecord[]; failed?: string }
 
 function Comparison({ detail }: { detail: PublicArticle }) {
   const columns: Column[] = []
-  if (detail.gold?.fields) columns.push({ name: 'Gold (majority)', kind: 'gold', gold: detail.gold.fields })
   for (const item of detail.annotators ?? []) columns.push({ name: item.annotator, kind: 'human', accidents: item.unusable ? [] : item.accidents })
   for (const item of detail.models ?? []) columns.push({ name: `${item.spec.model}${item.spec.with_images ? ' +img' : ''}`, kind: 'model', accidents: item.accidents, failed: item.status === 'failed' ? item.error ?? 'failed' : undefined })
   const first = (column: Column) => column.accidents?.find((item) => item.accident)
-  const flag = (column: Column) => column.kind === 'gold' ? show(detail.gold?.accident) : column.failed ? 'failed' : column.accidents ? String(column.accidents.some((item) => item.accident)) : '—'
+  const flag = (column: Column) => column.failed ? 'failed' : column.accidents ? String(column.accidents.some((item) => item.accident)) : '—'
   return (
     <div className="overflow-x-auto"><table className="w-full border-collapse text-left"><thead><tr className="label"><th className="py-1 pr-3">Field</th>{columns.map((column) => <th key={column.name + column.kind} className="px-2">{column.name}<span className="badge ml-1">{column.kind}</span></th>)}</tr></thead>
       <tbody>
         <tr className="border-t border-line"><td className="py-1 pr-3">Accident reported</td>{columns.map((column) => <td key={column.name + column.kind} className="px-2">{flag(column)}</td>)}</tr>
-        <tr className="border-t border-line"><td className="py-1 pr-3">Accidents</td>{columns.map((column) => <td key={column.name + column.kind} className="px-2">{column.kind === 'gold' ? show(detail.gold?.accident_count) : column.accidents ? column.accidents.filter((item) => item.accident).length : '—'}</td>)}</tr>
+        <tr className="border-t border-line"><td className="py-1 pr-3">Accidents</td>{columns.map((column) => <td key={column.name + column.kind} className="px-2">{column.accidents ? column.accidents.filter((item) => item.accident).length : '—'}</td>)}</tr>
         {FIELDS.map(([field, label]) => (
-          <tr key={field} className="border-t border-line"><td className="py-1 pr-3">{label}</td>{columns.map((column) => <td key={column.name + column.kind} className="px-2 align-top">{column.kind === 'gold' ? show((column.gold ?? {})[field === 'longitude and latitude' ? 'coordinates' : field]) : show(first(column)?.[field])}</td>)}</tr>))}
+          <tr key={field} className="border-t border-line"><td className="py-1 pr-3">{label}</td>{columns.map((column) => <td key={column.name + column.kind} className="px-2 align-top">{show(first(column)?.[field])}</td>)}</tr>))}
       </tbody></table>
-      <p className="mt-1 text-muted">Showing the first accident of each source; open the sections below for all records, evidence quotes and image analyses. Gold shows normalised values (dates to the day, locations as word lists).</p></div>
+      <p className="mt-1 text-muted">Showing the first accident of each source; open the sections below for all records, evidence quotes and image analyses.</p></div>
   )
 }
 
@@ -88,7 +87,7 @@ export function ArticlesTab({ articleId, onSelect }: { articleId: string | null;
           <span className="text-muted">{filtered.length} of {rows?.length ?? 0} articles{locked ? ' · annotations and model output locked' : ''}</span></div>
         <ul className="max-h-60 overflow-auto lg:max-h-[calc(100vh-130px)]">{filtered.map((row) => (
           <li key={row.id}><button className={`block w-full border-b border-line px-3 py-2 text-left hover:bg-primary-soft ${row.id === articleId ? 'bg-primary-soft' : ''}`} onClick={() => onSelect(row.id)}>
-            <span className="line-clamp-2">{row.title || row.id}</span><span className="text-muted">{row.publisher}{!locked && row.gold_accident !== undefined ? ` · gold: ${row.gold_accident === null ? 'unresolved' : row.gold_accident ? 'accident' : 'no accident'} · ${row.models_with_result ?? 0} model(s)` : ''}</span></button></li>))}</ul>
+            <span className="line-clamp-2">{row.title || row.id}</span><span className="text-muted">{row.publisher}{!locked && row.annotations !== undefined ? ` · ${row.annotations} annotation(s) · ${row.models_with_result ?? 0} model(s)` : ''}</span></button></li>))}</ul>
       </aside>
       <section className="min-w-0 p-4">
         {error && <p role="alert" className="mb-2 border border-danger-line bg-danger-soft p-2 text-danger">{error}</p>}

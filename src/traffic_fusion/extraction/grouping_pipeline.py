@@ -91,7 +91,7 @@ def public_summary(result: dict[str, Any], meta: dict[str, Any], manifest: dict[
                    "human_records_from": meta.get("human_record_from")},
         "model": manifest["model"], "tokens": manifest.get("tokens"), "methods": methods,
         "limitations": [
-            "Gold groups come from an LLM browser agent, which also chose the hard negatives; LLM errors and the labels may be correlated.",
+            "The reference groups come from an LLM browser agent, which also chose the hard negatives; LLM errors and the labels may be correlated.",
             "LLM methods are within each other's confidence intervals, so the benchmark does not rank them.",
             "Negatives are sampled; precision, recall and F1 are re-weighted to the full pair population and bootstrapped over incident groups.",
             "tf-idf uses a threshold tuned on this same sample (optimistic).",
