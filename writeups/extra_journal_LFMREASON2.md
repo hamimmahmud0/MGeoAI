@@ -1,0 +1,1 @@
+The same comparison could not be made for the edge model, whose reasoning-on answers did not fit within the tunnel's 100-second limit (Section 3.4); whether reasoning helps a model of this size remains open and requires a connection without that limit.

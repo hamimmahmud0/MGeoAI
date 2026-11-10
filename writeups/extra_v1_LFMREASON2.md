@@ -1,0 +1,1 @@
+For the edge model we could not make this comparison, because its reasoning-on answers did not fit within the tunnel's 100-second limit (Section 3.6). Whether reasoning helps a 1.7-billion-parameter model is therefore left open; it needs a connection without that limit.
