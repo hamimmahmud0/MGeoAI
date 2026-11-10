@@ -12,6 +12,8 @@ Road-accident news, read by language models and by people, compared, grouped int
 
 It fuses evidence; it does not verify truth or decide fault.
 
+![The MGeoAI web app: world map of grouped incidents with a fused summary and extracted-fields table](assets/webapp_screenshot.png)
+
 Live site: <https://mgeoai.cartmind.xyz> · Dataset: <https://huggingface.co/datasets/hamimmahmud0/mgeoai-road-accident-news> (CC BY 4.0)
 · **How it works, in plain language: [METHODOLOGY.md](METHODOLOGY.md)**
 
