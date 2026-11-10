@@ -1,0 +1,74 @@
+{
+ "seed": 20261109,
+ "decision_rule": "A pair is predicted SAME only if the judge answers same_incident in BOTH orders (A,B) and (B,A). Any other combination counts as NOT same; disagreement between orders is reported as order inconsistency. Fixed before any model call.",
+ "population": {
+  "easy": 28773,
+  "hard_similar": 350,
+  "positive": 232,
+  "hard_near": 128,
+  "hard_decoy": 163
+ },
+ "total_articles": 244,
+ "pairs_sha256": "bc70f31248f3a2d03f98864993231f94ca2b564e105154dcda2270f4192d44ed",
+ "positive_pairs": 232,
+ "negative_pairs": 741,
+ "extraction_run_used_for_model_fields": "deepseek__deepseek-flash__markdown__txt__meta",
+ "human_record_from": {
+  "annotator_2": 76,
+  "annotator_1": 166,
+  "annotator_3": 2
+ },
+ "human_order": [
+  "annotator_1",
+  "annotator_2",
+  "annotator_3"
+ ],
+ "model": {
+  "provider": "deepseek",
+  "model": "deepseek-flash",
+  "temperature": 0,
+  "thinking": "default",
+  "max_output_tokens_pair": 16000,
+  "max_output_tokens_cluster": 32000
+ },
+ "seeds": {
+  "pairs": 20261109,
+  "cluster_orders": [
+   20261109,
+   20261110,
+   20261111
+  ]
+ },
+ "prompt_sha256": {
+  "pair": "55ea3266ab73",
+  "pair_fields": "09095441a08e",
+  "cluster": "1bf34c1e8fe1"
+ },
+ "tokens": {
+  "pair-full": {
+   "in": 3784742,
+   "out": 764346
+  },
+  "pair-fields-both": {
+   "in": 1485482,
+   "out": 457758
+  },
+  "pair-fields-human": {
+   "in": 1136760,
+   "out": 453453
+  },
+  "pair-fields-model": {
+   "in": 1133076,
+   "out": 497125
+  },
+  "cluster-cards": {
+   "in": 247053,
+   "out": 52620
+  },
+  "cluster-full": {
+   "in": 506270,
+   "out": 67623
+  }
+ },
+ "extra_models": {}
+}

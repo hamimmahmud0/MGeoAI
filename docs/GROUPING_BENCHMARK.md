@@ -19,7 +19,7 @@ method), `--refresh-pairs` (rebuild and re-freeze the pair set, which invalidate
 ## Inputs the extraction root must contain
 - `articles/<id>/{meta.json, article.md, ...}`: the 244 saved articles (`meta.json:admin.group_id` and `.country` are used).
 - `labels/*.jsonl`: annotations. **Every article needs at least one** (the run refuses to start otherwise). The human record
-  for each article comes from the first of oishik, mubasshir, hamim who labelled it.
+  for each article comes from the first annotator in the fixed priority order who labelled it.
 - `runs/deepseek__deepseek-flash__markdown__txt__meta/`: the model extraction used for the "model fields" inputs.
 - `benchmark/scraps/candidates_b0[1-5].json` in the repo checkout (group kinds and `decoy_for`).
 All of these are in the Hugging Face bucket `hamimmahmud0/mgeoai-backup` under `latest/` (see its README).

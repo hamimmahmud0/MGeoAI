@@ -1,0 +1,455 @@
+{
+ "reference_single_accident": 240,
+ "failures": {
+  "deepseek_T": {
+   "articles": 244,
+   "ok": 244,
+   "by_cause": {}
+  },
+  "deepseek_TP": {
+   "articles": 244,
+   "ok": 244,
+   "by_cause": {}
+  },
+  "deepseek_TP_off": {
+   "articles": 244,
+   "ok": 224,
+   "by_cause": {
+    "no_accident_object": 9,
+    "vocabulary": 7,
+    "malformed_json": 1,
+    "schema": 3
+   }
+  },
+  "qwen_TPI": {
+   "articles": 244,
+   "ok": 239,
+   "by_cause": {
+    "transport": 1,
+    "schema": 4
+   }
+  },
+  "lfm_TP": {
+   "articles": 78,
+   "ok": 43,
+   "by_cause": {
+    "schema": 12,
+    "vocabulary": 23
+   }
+  }
+ },
+ "end_to_end": {
+  "deepseek_T": {
+   "reference_articles": 240,
+   "answered_with_one_accident": 229,
+   "fatalities": 0.9333,
+   "casualities": 0.7208,
+   "vehicles": 0.575,
+   "date": 0.6042,
+   "country": 0.9333
+  },
+  "deepseek_TP": {
+   "reference_articles": 240,
+   "answered_with_one_accident": 231,
+   "fatalities": 0.9417,
+   "casualities": 0.7208,
+   "vehicles": 0.575,
+   "date": 0.7792,
+   "country": 0.9375
+  },
+  "deepseek_TP_off": {
+   "reference_articles": 240,
+   "answered_with_one_accident": 217,
+   "fatalities": 0.8833,
+   "casualities": 0.7375,
+   "vehicles": 0.5667,
+   "date": 0.7292,
+   "country": 0.8792
+  },
+  "qwen_TPI": {
+   "reference_articles": 240,
+   "answered_with_one_accident": 231,
+   "fatalities": 0.9292,
+   "casualities": 0.5792,
+   "vehicles": 0.5917,
+   "date": 0.8,
+   "country": 0.9333
+  },
+  "lfm_TP": {
+   "reference_articles": 240,
+   "answered_with_one_accident": 42,
+   "fatalities": 0.1625,
+   "casualities": 0.0708,
+   "vehicles": 0.1125,
+   "date": 0.1375,
+   "country": 0.1708
+  }
+ },
+ "killed_plus_injured_errors": {
+  "deepseek_T": {
+   "scored": 229,
+   "errors": 56,
+   "by_type": {
+    "reference gave no total": 16,
+    "model total lower": 16,
+    "total equals the model's killed count (injured not added)": 18,
+    "model total higher": 6
+   }
+  },
+  "deepseek_TP": {
+   "scored": 231,
+   "errors": 58,
+   "by_type": {
+    "reference gave no total": 16,
+    "total equals the model's killed count (injured not added)": 20,
+    "model total lower": 14,
+    "model total higher": 8
+   }
+  },
+  "deepseek_TP_off": {
+   "scored": 217,
+   "errors": 40,
+   "by_type": {
+    "reference gave no total": 15,
+    "model total higher": 5,
+    "total equals the model's killed count (injured not added)": 12,
+    "model gave no total": 2,
+    "model total lower": 6
+   }
+  },
+  "qwen_TPI": {
+   "scored": 231,
+   "errors": 92,
+   "by_type": {
+    "model gave no total": 63,
+    "reference gave no total": 7,
+    "model total higher": 13,
+    "total equals the model's killed count (injured not added)": 6,
+    "model total lower": 3
+   }
+  },
+  "lfm_TP": {
+   "scored": 42,
+   "errors": 25,
+   "by_type": {
+    "total equals the model's killed count (injured not added)": 9,
+    "model total lower": 9,
+    "reference gave no total": 5,
+    "model total higher": 2
+   }
+  }
+ },
+ "reference_total_equals_killed": 40,
+ "reference_total_missing": 17,
+ "date_errors": {
+  "deepseek_T": {
+   "scored": 229,
+   "errors": 84,
+   "by_type": {
+    "model gave no date": 80,
+    "reference gave no date": 1,
+    "off by one day": 2,
+    "off by more than one day": 1
+   }
+  },
+  "deepseek_TP": {
+   "scored": 231,
+   "errors": 44,
+   "by_type": {
+    "model gave no date": 37,
+    "off by more than one day": 2,
+    "reference gave no date": 1,
+    "off by one day": 4
+   }
+  },
+  "deepseek_TP_off": {
+   "scored": 217,
+   "errors": 42,
+   "by_type": {
+    "model gave no date": 34,
+    "off by one day": 4,
+    "off by more than one day": 2,
+    "reference gave no date": 2
+   }
+  },
+  "qwen_TPI": {
+   "scored": 231,
+   "errors": 39,
+   "by_type": {
+    "model gave no date": 17,
+    "off by one day": 10,
+    "model returned the publication day": 2,
+    "off by more than one day": 9,
+    "reference gave no date": 1
+   }
+  },
+  "lfm_TP": {
+   "scored": 42,
+   "errors": 9,
+   "by_type": {
+    "off by more than one day": 5,
+    "model returned the publication day": 3,
+    "off by one day": 1
+   }
+  }
+ },
+ "vehicle_errors": {
+  "deepseek_T": {
+   "scored": 229,
+   "errors": 90,
+   "by_type": {
+    "different vehicles": 24,
+    "model list is a subset (vehicles left out)": 19,
+    "model list is a superset (extra vehicles)": 47
+   },
+   "most_often_missing": {
+    "microbus": 10,
+    "truck": 8,
+    "rickshaw": 5,
+    "battery_autorickshaw": 2,
+    "other:Petrol tanker": 2
+   },
+   "most_often_extra": {
+    "truck": 19,
+    "bus": 13,
+    "car": 6,
+    "van": 4,
+    "other:minibus taxi": 4
+   },
+   "articles_using_other": 23
+  },
+  "deepseek_TP": {
+   "scored": 231,
+   "errors": 92,
+   "by_type": {
+    "different vehicles": 26,
+    "model list is a subset (vehicles left out)": 20,
+    "model list is a superset (extra vehicles)": 46
+   },
+   "most_often_missing": {
+    "microbus": 13,
+    "truck": 9,
+    "rickshaw": 5,
+    "battery_autorickshaw": 2,
+    "other:Petrol tanker": 2
+   },
+   "most_often_extra": {
+    "truck": 19,
+    "bus": 14,
+    "battery_autorickshaw": 6,
+    "other:minibus taxi": 5,
+    "car": 5
+   },
+   "articles_using_other": 22
+  },
+  "deepseek_TP_off": {
+   "scored": 217,
+   "errors": 81,
+   "by_type": {
+    "different vehicles": 20,
+    "model list is a subset (vehicles left out)": 14,
+    "model list is a superset (extra vehicles)": 47
+   },
+   "most_often_missing": {
+    "rickshaw": 4,
+    "microbus": 4,
+    "truck": 4,
+    "other:SUV": 3,
+    "battery_autorickshaw": 2
+   },
+   "most_often_extra": {
+    "truck": 19,
+    "bus": 12,
+    "cng_autorickshaw": 9,
+    "car": 9,
+    "battery_autorickshaw": 8
+   },
+   "articles_using_other": 1
+  },
+  "qwen_TPI": {
+   "scored": 231,
+   "errors": 89,
+   "by_type": {
+    "different vehicles": 18,
+    "model list is a subset (vehicles left out)": 23,
+    "model list is a superset (extra vehicles)": 48
+   },
+   "most_often_missing": {
+    "truck": 8,
+    "rickshaw": 5,
+    "microbus": 5,
+    "battery_autorickshaw": 2,
+    "other:Petrol tanker": 2
+   },
+   "most_often_extra": {
+    "truck": 19,
+    "bus": 12,
+    "cng_autorickshaw": 8,
+    "microbus": 8,
+    "car": 6
+   },
+   "articles_using_other": 9
+  },
+  "lfm_TP": {
+   "scored": 42,
+   "errors": 15,
+   "by_type": {
+    "different vehicles": 5,
+    "model list is a subset (vehicles left out)": 3,
+    "model list is a superset (extra vehicles)": 7
+   },
+   "most_often_missing": {
+    "battery_autorickshaw": 1,
+    "other:Hasna Hena ferry": 1,
+    "microbus": 1,
+    "other:Cement-laden truck": 1,
+    "truck": 1
+   },
+   "most_often_extra": {
+    "cng_autorickshaw": 5,
+    "truck": 3,
+    "battery_autorickshaw": 3,
+    "motorcycle": 2,
+    "bus": 1
+   },
+   "articles_using_other": 0
+  }
+ },
+ "killed_misses_reference_vs_model": {
+  "deepseek_T": [
+   [
+    0,
+    null
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    15,
+    null
+   ],
+   [
+    31,
+    30
+   ],
+   [
+    79,
+    51
+   ]
+  ],
+  "deepseek_TP": [
+   [
+    0,
+    null
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    15,
+    null
+   ],
+   [
+    31,
+    30
+   ],
+   [
+    79,
+    51
+   ]
+  ],
+  "deepseek_TP_off": [
+   [
+    0,
+    null
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    20,
+    19
+   ],
+   [
+    31,
+    30
+   ],
+   [
+    79,
+    50
+   ]
+  ],
+  "qwen_TPI": [
+   [
+    0,
+    null
+   ],
+   [
+    14,
+    4
+   ],
+   [
+    15,
+    null
+   ],
+   [
+    20,
+    21
+   ],
+   [
+    25,
+    26
+   ],
+   [
+    31,
+    30
+   ],
+   [
+    79,
+    81
+   ],
+   [
+    79,
+    null
+   ]
+  ],
+  "lfm_TP": [
+   [
+    20,
+    19
+   ],
+   [
+    25,
+    21
+   ],
+   [
+    8,
+    2
+   ]
+  ]
+ },
+ "accident_count_errors": {
+  "deepseek_T": {
+   "model found fewer accidents": 5,
+   "model found more accidents": 8
+  },
+  "deepseek_TP": {
+   "model found fewer accidents": 3,
+   "model found more accidents": 8
+  },
+  "deepseek_TP_off": {
+   "model found more accidents": 4,
+   "model found fewer accidents": 1
+  },
+  "qwen_TPI": {
+   "model found more accidents": 4,
+   "model found fewer accidents": 2
+  },
+  "lfm_TP": {
+   "model found fewer accidents": 1
+  }
+ }
+}

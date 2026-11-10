@@ -17,6 +17,7 @@ from typing import Any
 
 from traffic_fusion.extraction.annotation_store import ArticleStore
 from traffic_fusion.extraction.grouping import Corpus
+from traffic_fusion.extraction.scoring import annotator_order
 
 DATA = "data"
 
@@ -42,20 +43,31 @@ def _accident(record: dict[str, Any], keep_evidence_notes: bool = False) -> dict
 
 
 def _error_kind(message: str | None) -> str | None:
+    """Why a call failed, from its error text. Transport problems are kept apart from model failures."""
     if not message:
         return None
     low = message.lower()
-    for key, kind in (("truncated", "truncated"), ("validation", "invalid_output"), ("json", "invalid_output"),
-                      ("http", "http_error"), ("timeout", "timeout"), ("no accident", "empty_answer")):
-        if key in low:
-            return kind
+    if "truncated" in low or "finish_reason=length" in low:
+        return "truncated"
+    if low.startswith("http 5") or "timeout" in low[:40] or "malformed provider response" in low:
+        return "transport"
+    if low.startswith("http"):
+        return "http_error"
+    if "not in the vocabulary" in low:
+        return "vocabulary"
+    if "no accident objects" in low:
+        return "no_accident_object"
+    if "validation error" in low:
+        return "schema"
+    if "extra data" in low or "expecting" in low or "json" in low:
+        return "malformed_json"
     return "other"
 
 
 def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "benchmark/scraps/candidates_b0[1-5].json") -> dict[str, Any]:
     store = ArticleStore(root)
     labels = store.all_latest()
-    order = sorted(labels, key=lambda u: (-len(labels[u]), u))
+    order = annotator_order(labels)  # annotator_1 is the reference annotator, then annotator_2, ...
     alias = {user: f"annotator_{i + 1}" for i, user in enumerate(order)}
     corpus = Corpus(root, candidates_glob=candidates_glob)
     data = out / DATA
@@ -109,7 +121,10 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
     pairs_doc = _read(matching / "pairs.json")
     _write_jsonl(data / "grouping_pairs.jsonl", pairs_doc["pairs"])
     predictions, clusters = [], []
+    n_pairs = len(pairs_doc["pairs"])
     for folder in sorted(p for p in matching.iterdir() if p.is_dir()) if matching.is_dir() else []:
+        if "@" in folder.name and not _complete(folder, n_pairs):
+            continue  # another model's run that did not finish: not published
         if folder.name.startswith("pair-"):
             for path in sorted(folder.glob("*__*.json")):
                 r = _read(path)
@@ -125,6 +140,12 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
                     clusters.append({"method": folder.name, "run": r["run"], "clusters": r["clusters"], "validity": r.get("validity"),
                                      "input_tokens": r.get("input_tokens"), "output_tokens": r.get("output_tokens")})
     _write_jsonl(data / "grouping_pair_predictions.jsonl", predictions)
+    embedding_file = matching / "embedding_baseline.json"
+    if embedding_file.exists():
+        emb = _read(embedding_file)
+        _write_jsonl(data / "grouping_embedding_baseline.jsonl", [
+            {"pair_id": pid, "model": name, "repo": entry["repo"], "cosine": value}
+            for name, entry in emb["models"].items() for pid, value in sorted(entry["cosine"].items())])
     _write_jsonl(data / "grouping_clusters.jsonl", clusters)
     meta, manifest = _read(matching / "meta.json"), _read(matching / "run_manifest.json")
     human_from = {alias.get(u, u): n for u, n in (meta.get("human_record_from") or {}).items()}
@@ -133,8 +154,8 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
         "total_articles": pairs_doc["total_articles"], "pairs_sha256": meta["pairs_sha256"],
         "positive_pairs": meta["positive_pairs"], "negative_pairs": meta["negative_pairs"],
         "extraction_run_used_for_model_fields": meta["extraction_run_used_for_model_fields"],
-        "human_record_from": human_from, "human_order": [alias[u] for u in corpus.human_order if u in alias], "model": manifest["model"], "seeds": manifest["seeds"],
-        "prompt_sha256": manifest["prompt_sha256"], "tokens": manifest["tokens"]}
+        "human_record_from": human_from, "human_order": [alias[u] for u in order], "model": manifest["model"], "seeds": manifest["seeds"],
+        "prompt_sha256": manifest["prompt_sha256"], "tokens": manifest["tokens"], "extra_models": _extra_models(matching)}
     (data / "grouping_meta.json").write_text(json.dumps(grouping_meta, indent=1) + "\n", "utf-8")
 
     incidents = []
@@ -169,6 +190,28 @@ def export_dataset(root: Path, out: Path, repo_id: str, candidates_glob: str = "
     if leak:
         raise RuntimeError(f"export refused: {leak}")
     return summary
+
+
+def _complete(folder: Path, n_pairs: int) -> bool:
+    """A pair method needs both orders of every sampled pair; a cluster method needs its three runs."""
+    if folder.name.startswith("pair-"):
+        return sum(1 for f in folder.glob("*__*.json") if _read(f).get("status") == "ok") >= 2 * n_pairs * 0.99
+    return sum(1 for f in folder.glob("run*.json") if _read(f).get("status") == "ok") >= 3
+
+
+def _extra_models(matching: Path) -> dict[str, Any]:
+    """Models other than the default that also answered same-accident questions (folders `<method>@<model>`)."""
+    found: dict[str, Any] = {}
+    n_pairs = len(_read(matching / "pairs.json")["pairs"])
+    for folder in sorted(p for p in matching.iterdir() if p.is_dir() and "@" in p.name and _complete(p, n_pairs)):
+        tag = folder.name[folder.name.index("@") + 1:]
+        files = [_read(f) for f in folder.glob("*.json")]
+        settings: dict[str, Any] = next((f["call_settings"] for f in files if f.get("call_settings")), {})
+        entry = found.setdefault(tag, {"provider": settings.get("provider"), "model": settings.get("model"), "methods": {}})
+        entry["methods"][folder.name.split("@")[0]] = {
+            "calls": len(files), "ok": sum(1 for f in files if f.get("status") == "ok"),
+            "tokens_in": sum(f.get("input_tokens") or 0 for f in files), "tokens_out": sum(f.get("output_tokens") or 0 for f in files)}
+    return found
 
 
 def _scan_for_leaks(out: Path, usernames: list[str]) -> str | None:

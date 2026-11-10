@@ -1,0 +1,724 @@
+{
+ "data": {
+  "articles": 244,
+  "languages": {
+   "en": 208,
+   "bn": 36
+  },
+  "regions": {
+   "bangladesh": 124,
+   "international": 120
+  },
+  "publishers": 102,
+  "groups": 100,
+  "articles_per_group_mean": 2.44,
+  "group_size_counts": {
+   "1": 28,
+   "2": 16,
+   "3": 40,
+   "4": 16
+  },
+  "real_incident_groups": 60,
+  "decoy_groups": 40,
+  "annotators": 3,
+  "annotation_rows": 328,
+  "articles_with_2plus": 82,
+  "reference_accident_counts": {
+   "1": 240,
+   "2": 3,
+   "5": 1
+  },
+  "reference_unusable": 0,
+  "reference_single_accident": 240,
+  "reference_with_coordinates": 0,
+  "articles_with_images": 236,
+  "images_total": 631
+ },
+ "common_articles": 224,
+ "extraction": {
+  "deepseek": {
+   "n": 229,
+   "fatalities": {
+    "value": 0.9782,
+    "ci95": [
+     0.9559,
+     0.9956
+    ]
+   },
+   "casualties": {
+    "value": 0.7555,
+    "ci95": [
+     0.6971,
+     0.8102
+    ]
+   },
+   "vehicles": {
+    "value": 0.6026,
+    "ci95": [
+     0.5274,
+     0.6724
+    ]
+   },
+   "date": {
+    "value": 0.6332,
+    "ci95": [
+     0.5636,
+     0.7052
+    ]
+   },
+   "country": {
+    "value": 0.9782,
+    "ci95": [
+     0.9531,
+     0.9957
+    ]
+   },
+   "location": {
+    "value": 0.0306,
+    "ci95": [
+     0.0123,
+     0.0553
+    ]
+   },
+   "fatalities_mae": 0.172,
+   "vehicles_jaccard": 0.746,
+   "location_word_overlap": 0.4926
+  },
+  "deepseek_date": {
+   "n": 231,
+   "fatalities": {
+    "value": 0.9784,
+    "ci95": [
+     0.9585,
+     0.9957
+    ]
+   },
+   "casualties": {
+    "value": 0.7489,
+    "ci95": [
+     0.6872,
+     0.806
+    ]
+   },
+   "vehicles": {
+    "value": 0.5974,
+    "ci95": [
+     0.5234,
+     0.6696
+    ]
+   },
+   "date": {
+    "value": 0.8095,
+    "ci95": [
+     0.75,
+     0.8631
+    ]
+   },
+   "country": {
+    "value": 0.974,
+    "ci95": [
+     0.9463,
+     0.9955
+    ]
+   },
+   "location": {
+    "value": 0.026,
+    "ci95": [
+     0.0084,
+     0.0485
+    ]
+   },
+   "fatalities_mae": 0.17,
+   "vehicles_jaccard": 0.7357,
+   "location_word_overlap": 0.4725
+  },
+  "qwen": {
+   "n": 231,
+   "fatalities": {
+    "value": 0.9654,
+    "ci95": [
+     0.9309,
+     0.9909
+    ]
+   },
+   "casualties": {
+    "value": 0.6017,
+    "ci95": [
+     0.5297,
+     0.6754
+    ]
+   },
+   "vehicles": {
+    "value": 0.6147,
+    "ci95": [
+     0.5395,
+     0.6872
+    ]
+   },
+   "date": {
+    "value": 0.8312,
+    "ci95": [
+     0.781,
+     0.8793
+    ]
+   },
+   "country": {
+    "value": 0.9697,
+    "ci95": [
+     0.9421,
+     0.9914
+    ]
+   },
+   "location": {
+    "value": 0.0303,
+    "ci95": [
+     0.0092,
+     0.0528
+    ]
+   },
+   "fatalities_mae": 0.066,
+   "vehicles_jaccard": 0.7525,
+   "location_word_overlap": 0.4673
+  },
+  "lfm": {
+   "n": 142,
+   "fatalities": {
+    "value": 0.9155,
+    "ci95": [
+     0.8712,
+     0.9549
+    ]
+   },
+   "casualties": {
+    "value": 0.3239,
+    "ci95": [
+     0.2378,
+     0.411
+    ]
+   },
+   "vehicles": {
+    "value": 0.669,
+    "ci95": [
+     0.5833,
+     0.7422
+    ]
+   },
+   "date": {
+    "value": 0.7113,
+    "ci95": [
+     0.6378,
+     0.7862
+    ]
+   },
+   "country": {
+    "value": 0.9507,
+    "ci95": [
+     0.9084,
+     0.9805
+    ]
+   },
+   "location": {
+    "value": 0.0,
+    "ci95": [
+     0.0,
+     0.0
+    ]
+   },
+   "fatalities_mae": 0.493,
+   "vehicles_jaccard": 0.7863,
+   "location_word_overlap": 0.3309
+  },
+  "deepseek_off": {
+   "n": 217,
+   "fatalities": {
+    "value": 0.977,
+    "ci95": [
+     0.9565,
+     0.9953
+    ]
+   },
+   "casualties": {
+    "value": 0.8157,
+    "ci95": [
+     0.758,
+     0.8704
+    ]
+   },
+   "vehicles": {
+    "value": 0.6267,
+    "ci95": [
+     0.5576,
+     0.7014
+    ]
+   },
+   "date": {
+    "value": 0.8065,
+    "ci95": [
+     0.7463,
+     0.8626
+    ]
+   },
+   "country": {
+    "value": 0.9724,
+    "ci95": [
+     0.945,
+     0.9952
+    ]
+   },
+   "location": {
+    "value": 0.0184,
+    "ci95": [
+     0.0043,
+     0.0372
+    ]
+   },
+   "fatalities_mae": 0.19,
+   "vehicles_jaccard": 0.7674,
+   "location_word_overlap": 0.4633
+  }
+ },
+ "paired_differences": {
+  "qwen-deepseek_date:fatalities": {
+   "diff": -0.0134,
+   "ci95": [
+    -0.035,
+    0.0
+   ]
+  },
+  "qwen-deepseek_date:casualties": {
+   "diff": -0.1473,
+   "ci95": [
+    -0.2255,
+    -0.0679
+   ]
+  },
+  "qwen-deepseek_date:vehicles": {
+   "diff": 0.0223,
+   "ci95": [
+    -0.0089,
+    0.0619
+   ]
+  },
+  "qwen-deepseek_date:date": {
+   "diff": 0.0223,
+   "ci95": [
+    -0.0226,
+    0.072
+   ]
+  },
+  "qwen-deepseek_date:country": {
+   "diff": -0.0045,
+   "ci95": [
+    -0.0145,
+    0.0
+   ]
+  },
+  "qwen-deepseek_date:location": {
+   "diff": 0.0045,
+   "ci95": [
+    -0.0141,
+    0.0229
+   ]
+  },
+  "deepseek_date-deepseek:fatalities": {
+   "diff": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "deepseek_date-deepseek:casualties": {
+   "diff": -0.0045,
+   "ci95": [
+    -0.0274,
+    0.0179
+   ]
+  },
+  "deepseek_date-deepseek:vehicles": {
+   "diff": 0.0,
+   "ci95": [
+    -0.0132,
+    0.0131
+   ]
+  },
+  "deepseek_date-deepseek:date": {
+   "diff": 0.192,
+   "ci95": [
+    0.1343,
+    0.2511
+   ]
+  },
+  "deepseek_date-deepseek:country": {
+   "diff": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ]
+  },
+  "deepseek_date-deepseek:location": {
+   "diff": -0.0089,
+   "ci95": [
+    -0.0234,
+    0.0
+   ]
+  },
+  "deepseek_off-deepseek_date:fatalities": {
+   "diff": -0.0047,
+   "ci95": [
+    -0.0149,
+    0.0
+   ],
+   "articles": 214
+  },
+  "deepseek_off-deepseek_date:casualties": {
+   "diff": 0.0421,
+   "ci95": [
+    0.0047,
+    0.0833
+   ],
+   "articles": 214
+  },
+  "deepseek_off-deepseek_date:vehicles": {
+   "diff": 0.0047,
+   "ci95": [
+    -0.0258,
+    0.0346
+   ],
+   "articles": 214
+  },
+  "deepseek_off-deepseek_date:date": {
+   "diff": -0.0467,
+   "ci95": [
+    -0.0833,
+    -0.0133
+   ],
+   "articles": 214
+  },
+  "deepseek_off-deepseek_date:country": {
+   "diff": 0.0,
+   "ci95": [
+    0.0,
+    0.0
+   ],
+   "articles": 214
+  },
+  "deepseek_off-deepseek_date:location": {
+   "diff": 0.0,
+   "ci95": [
+    -0.0193,
+    0.0183
+   ],
+   "articles": 214
+  },
+  "lfm-deepseek_date:fatalities": {
+   "diff": -0.0511,
+   "ci95": [
+    -0.087,
+    -0.02
+   ],
+   "articles": 137
+  },
+  "lfm-deepseek_date:casualties": {
+   "diff": -0.4015,
+   "ci95": [
+    -0.4859,
+    -0.3103
+   ],
+   "articles": 137
+  },
+  "lfm-deepseek_date:vehicles": {
+   "diff": -0.0438,
+   "ci95": [
+    -0.0916,
+    0.0073
+   ],
+   "articles": 137
+  },
+  "lfm-deepseek_date:date": {
+   "diff": -0.1168,
+   "ci95": [
+    -0.2095,
+    -0.0284
+   ],
+   "articles": 137
+  },
+  "lfm-deepseek_date:country": {
+   "diff": -0.0438,
+   "ci95": [
+    -0.0827,
+    -0.0139
+   ],
+   "articles": 137
+  },
+  "lfm-deepseek_date:location": {
+   "diff": -0.0219,
+   "ci95": [
+    -0.0507,
+    0.0
+   ],
+   "articles": 137
+  }
+ },
+ "kappa": {
+  "fatalities": {
+   "deepseek": 0.977,
+   "deepseek_date": 0.977,
+   "qwen": 0.963,
+   "lfm": 0.91,
+   "deepseek_off": 0.975
+  },
+  "casualties": {
+   "deepseek": 0.749,
+   "deepseek_date": 0.743,
+   "qwen": 0.586,
+   "lfm": 0.309,
+   "deepseek_off": 0.811
+  },
+  "country": {
+   "deepseek": 0.97,
+   "deepseek_date": 0.964,
+   "qwen": 0.959,
+   "lfm": 0.925,
+   "deepseek_off": 0.962
+  },
+  "vehicle_types": {
+   "bus": {
+    "deepseek": 0.863,
+    "deepseek_date": 0.846,
+    "qwen": 0.875,
+    "lfm": 0.829,
+    "deepseek_off": 0.869
+   },
+   "truck": {
+    "deepseek": 0.753,
+    "deepseek_date": 0.746,
+    "qwen": 0.754,
+    "lfm": 0.783,
+    "deepseek_off": 0.774
+   },
+   "microbus": {
+    "deepseek": 0.697,
+    "deepseek_date": 0.643,
+    "qwen": 0.755,
+    "lfm": 0.877,
+    "deepseek_off": 0.793
+   },
+   "car": {
+    "deepseek": 0.732,
+    "deepseek_date": 0.758,
+    "qwen": 0.715,
+    "lfm": 0.699,
+    "deepseek_off": 0.707
+   },
+   "cng_autorickshaw": {
+    "deepseek": 0.794,
+    "deepseek_date": 0.794,
+    "qwen": 0.585,
+    "lfm": 0.327,
+    "deepseek_off": 0.554
+   }
+  },
+  "vehicle_types_mean": {
+   "deepseek": 0.768,
+   "deepseek_date": 0.757,
+   "qwen": 0.737,
+   "lfm": 0.703,
+   "deepseek_off": 0.739
+  }
+ },
+ "extraction_by_subset": {
+  "region=bangladesh": {
+   "deepseek_date": {
+    "articles": 120,
+    "fatalities": 0.992,
+    "casualties": 0.8,
+    "vehicles": 0.642,
+    "date": 0.9,
+    "country": 0.992
+   },
+   "qwen": {
+    "articles": 118,
+    "fatalities": 0.992,
+    "casualties": 0.602,
+    "vehicles": 0.636,
+    "date": 0.864,
+    "country": 0.983
+   }
+  },
+  "region=international": {
+   "deepseek_date": {
+    "articles": 111,
+    "fatalities": 0.964,
+    "casualties": 0.694,
+    "vehicles": 0.55,
+    "date": 0.712,
+    "country": 0.955
+   },
+   "qwen": {
+    "articles": 113,
+    "fatalities": 0.938,
+    "casualties": 0.602,
+    "vehicles": 0.593,
+    "date": 0.796,
+    "country": 0.956
+   }
+  },
+  "language=bn": {
+   "deepseek_date": {
+    "articles": 36,
+    "fatalities": 1.0,
+    "casualties": 0.806,
+    "vehicles": 0.722,
+    "date": 0.917,
+    "country": 0.972
+   },
+   "qwen": {
+    "articles": 35,
+    "fatalities": 1.0,
+    "casualties": 0.6,
+    "vehicles": 0.714,
+    "date": 0.886,
+    "country": 0.971
+   }
+  },
+  "language=en": {
+   "deepseek_date": {
+    "articles": 195,
+    "fatalities": 0.974,
+    "casualties": 0.738,
+    "vehicles": 0.574,
+    "date": 0.79,
+    "country": 0.974
+   },
+   "qwen": {
+    "articles": 196,
+    "fatalities": 0.959,
+    "casualties": 0.602,
+    "vehicles": 0.597,
+    "date": 0.821,
+    "country": 0.969
+   }
+  }
+ },
+ "runs": {
+  "deepseek": {
+   "articles": 244,
+   "ok": 244,
+   "failed": 0,
+   "failure_kinds": {},
+   "flagged_accident": 241,
+   "multi_accident": 10,
+   "median_latency_s": 11.2,
+   "input_tokens": 688722,
+   "output_tokens": 706712,
+   "quotes": 2334,
+   "verbatim": 2286
+  },
+  "deepseek_date": {
+   "articles": 244,
+   "ok": 244,
+   "failed": 0,
+   "failure_kinds": {},
+   "flagged_accident": 243,
+   "multi_accident": 10,
+   "median_latency_s": 11.8,
+   "input_tokens": 711864,
+   "output_tokens": 647433,
+   "quotes": 2323,
+   "verbatim": 2223
+  },
+  "qwen": {
+   "articles": 244,
+   "ok": 239,
+   "failed": 5,
+   "failure_kinds": {
+    "transport": 1,
+    "schema": 4
+   },
+   "flagged_accident": 238,
+   "multi_accident": 6,
+   "median_latency_s": 75.3,
+   "input_tokens": 927172,
+   "output_tokens": 177863,
+   "quotes": 1751,
+   "verbatim": 1621
+  },
+  "lfm": {
+   "articles": 244,
+   "ok": 145,
+   "failed": 99,
+   "failure_kinds": {
+    "schema": 37,
+    "vocabulary": 62
+   },
+   "flagged_accident": 145,
+   "multi_accident": 0,
+   "median_latency_s": 10.5,
+   "input_tokens": 426283,
+   "output_tokens": 66147,
+   "quotes": 947,
+   "verbatim": 595
+  },
+  "deepseek_off": {
+   "articles": 244,
+   "ok": 224,
+   "failed": 20,
+   "failure_kinds": {
+    "no_accident_object": 9,
+    "vocabulary": 7,
+    "malformed_json": 1,
+    "schema": 3
+   },
+   "flagged_accident": 223,
+   "multi_accident": 6,
+   "median_latency_s": 2.4,
+   "input_tokens": 658625,
+   "output_tokens": 101150,
+   "quotes": 1851,
+   "verbatim": 1782
+  }
+ },
+ "accident_count_agreement": {
+  "deepseek": {
+   "articles": 244,
+   "same_count": 231
+  },
+  "deepseek_date": {
+   "articles": 244,
+   "same_count": 233
+  },
+  "qwen": {
+   "articles": 239,
+   "same_count": 233
+  },
+  "lfm": {
+   "articles": 145,
+   "same_count": 142
+  },
+  "deepseek_off": {
+   "articles": 224,
+   "same_count": 219
+  }
+ },
+ "reference_multi_accident_articles": 4,
+ "images": {
+  "images_saved": 631,
+  "articles_with_images": 236,
+  "images_analysed_by_qwen": 480,
+  "images_labelled_by_reference_annotator": 383,
+  "compared": 352,
+  "agree": 340,
+  "agreement": 0.9659,
+  "tp": 297,
+  "fp": 3,
+  "fn": 9,
+  "human_says_accident": 306
+ },
+ "grouping_population": {
+  "easy": 28773,
+  "hard_similar": 350,
+  "positive": 232,
+  "hard_near": 128,
+  "hard_decoy": 163
+ }
+}

@@ -21,6 +21,7 @@ from traffic_fusion.extraction.runs import RunManager
 from traffic_fusion.extraction.schema import lonlat_from_string
 from traffic_fusion.extraction.scoring import (
     annotation_stats,
+    annotator_order,
     build_reference,
     model_metrics,
 )
@@ -266,9 +267,11 @@ class PublicData:
             return detail
         labels = self.store.all_latest()
         names = sorted(labels)
+        # the reference annotation is the one scoring uses: the first annotator in the priority list who labelled it
+        reference = next((user for user in annotator_order(labels) if article_id in labels[user]), None)
         # public pseudonyms: usernames are never exposed
         detail["annotators"] = [
-            {"annotator": f"Annotator {chr(65 + i)}", "unusable": rec.unusable, "notes": rec.notes,
+            {"annotator": f"Annotator {chr(65 + i)}", "reference": name == reference, "unusable": rec.unusable, "notes": rec.notes,
              "accidents": [a.wire() for a in rec.accidents],
              "images": [x.model_dump() for x in rec.images], "revision": rec.revision}
             for i, name in enumerate(names) if (rec := labels[name].get(article_id))

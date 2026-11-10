@@ -1,0 +1,1 @@
+The edge model was also tried with reasoning on (output limit 16,384 tokens). Because reasoning answers exceed the 100-second limit of the tunnel, five of six test requests were cut off by the tunnel and the sixth violated the format; no valid reasoning-on run was obtained, and the effect of reasoning is therefore reported for DeepSeek only.

@@ -36,6 +36,7 @@ addopts = "-q"
 [tool.ruff]
 line-length = 100
 target-version = "py311"
+extend-exclude = ["scripts/kaggle_lfm/kernel.py"]  # a template: push.sh fills in the placeholders
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]

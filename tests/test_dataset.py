@@ -76,3 +76,19 @@ def test_leak_scan_catches_account_names_and_article_text(tmp_path: Path) -> Non
     assert "account name" in (_scan_for_leaks(tmp_path, ["oishik"]) or "")
     (tmp_path / "data" / "a.jsonl").write_text('{"markdown": "body"}\n', "utf-8")
     assert "article text" in (_scan_for_leaks(tmp_path, ["oishik"]) or "")
+
+
+def test_embedding_baseline_gives_oracle_and_held_out_variants(tmp_path: Path) -> None:
+    import numpy as np
+
+    from traffic_fusion.extraction.grouping_eval import embedding_baselines
+
+    pairs = [{"pair_id": f"p{i}", "a": "x", "b": "y", "group_a": f"g{i % 6}", "group_b": f"g{i % 6}" if i % 2 else f"g{(i + 1) % 6}",
+              "stratum": "positive" if i % 2 else "easy", "label": "same" if i % 2 else "different"} for i in range(12)]
+    (tmp_path / "matching").mkdir()
+    cosine = {p["pair_id"]: 0.9 if p["label"] == "same" else 0.2 for p in pairs}
+    (tmp_path / "matching" / "embedding_baseline.json").write_text(json.dumps({"models": {"toy": {"repo": "x/y", "cosine": cosine}}}), "utf-8")
+    out = embedding_baselines(tmp_path, pairs, np.ones(len(pairs)))
+    assert set(out) == {"baseline embeddings toy (oracle threshold)", "baseline embeddings toy (threshold learned on other folds)"}
+    assert all(out["baseline embeddings toy (oracle threshold)"][p["pair_id"]] == (p["label"] == "same") for p in pairs)
+    assert embedding_baselines(tmp_path / "missing", pairs, np.ones(len(pairs))) == {}

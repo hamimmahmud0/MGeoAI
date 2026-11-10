@@ -31,6 +31,7 @@ from traffic_fusion.utils import stable_hash
 
 PROMPT_PATH = Path("assets/mllm_prompts/accident_extraction_prompt.md")
 MAX_RAW_CHARS = 400_000
+REASONING_OUTPUT_TOKENS = 262_144  # no practical cap: the model's whole context window
 
 
 class RunSpec(BaseModel):
@@ -45,12 +46,20 @@ class RunSpec(BaseModel):
     # the article text. Part of the run name so runs with and without it never mix.
     with_meta: bool = False
     only_failed: bool = False  # retry just the articles whose stored result is a failure
+    # None = the provider's own default (run names unchanged). True / False = switch the model's reasoning
+    # ("thinking") on / off explicitly, for deepseek and custom endpoints. Part of the run name, so the two
+    # modes never overwrite each other. Reasoning tokens count against the output cap, so for custom endpoints
+    # the cap is raised to REASONING_OUTPUT_TOKENS when it is on.
+    reasoning: bool | None = None
     article_ids: list[str] | None = None
 
     def config_id(self) -> str:
         slug = re.sub(r"[^a-z0-9]+", "-", self.model.lower()).strip("-")[:60]
         base = f"{self.provider}__{slug}__{self.input_set}__{'img' if self.with_images else 'txt'}"
-        return f"{base}__meta" if self.with_meta else base
+        base = f"{base}__meta" if self.with_meta else base
+        if self.reasoning is None:
+            return base
+        return f"{base}__think" if self.reasoning else f"{base}__nothink"
 
 
 def _pid_alive(pid: Any) -> bool:
@@ -322,6 +331,15 @@ class RunManager:
         settings = self.control.settings()
         config = settings.providers[spec.provider]
         price = self.control.price(spec.provider, spec.model)
+        extra_body = dict(config.extra_body)
+        max_output = config.max_output_tokens
+        thinking = config.thinking
+        if spec.reasoning is not None:
+            thinking = "default" if spec.reasoning else "disabled"
+            if spec.provider == "custom":
+                extra_body = {"chat_template_kwargs": {"enable_thinking": spec.reasoning}}
+                if spec.reasoning:
+                    max_output = max(max_output, REASONING_OUTPUT_TOKENS)
         system = PROMPT_PATH.read_text("utf-8")
         prompt_hash = stable_hash(system, 16)
         config_dir = self.runs_dir / state["config_id"]
@@ -340,8 +358,9 @@ class RunManager:
                     state["stop_reason"] = "cost_limit"
                     return
             record: dict[str, Any] = {"article_id": article_id,
-                                      "call_settings": {"thinking": config.thinking if spec.provider == "deepseek" else None,
-                                                        "max_output_tokens": config.max_output_tokens}, "spec": spec.model_dump(exclude={"article_ids", "limit"}),
+                                      "call_settings": {"thinking": thinking if spec.provider == "deepseek" else
+                                                                   ("on" if spec.reasoning else "off") if spec.provider == "custom" and spec.reasoning is not None else None,
+                                                        "max_output_tokens": max_output}, "spec": spec.model_dump(exclude={"article_ids", "limit"}),
                                       "prompt_hash": prompt_hash, "started_at": _now()}
             try:
                 source = self._source(article_id, spec.input_set)
@@ -362,8 +381,8 @@ class RunManager:
                     system=system, user_parts=parts,
                     base_url=config.base_url or (os.getenv("CUSTOM_BASE_URL", "")
                                                  if spec.provider == "custom" else ""),
-                    timeout=config.timeout_seconds, max_output_tokens=config.max_output_tokens,
-                    thinking=config.thinking, extra_body=config.extra_body or None,
+                    timeout=config.timeout_seconds, max_output_tokens=max_output,
+                    thinking=thinking, extra_body=extra_body or None,
                 )
                 record.update(raw_text=result.text, input_tokens=result.input_tokens,
                               output_tokens=result.output_tokens, latency_ms=result.latency_ms,

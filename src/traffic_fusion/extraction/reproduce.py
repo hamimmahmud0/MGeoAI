@@ -87,6 +87,12 @@ def materialise(dataset: Path, root: Path) -> dict[str, Any]:
                                                           "extraction_run_used_for_model_fields", "human_record_from")})
     for r in _rows(data / "grouping_pair_predictions.jsonl"):
         _dump(matching / r["method"] / f"{r['pair_id']}__{r['order']}.json", r)
+    embeddings = data / "grouping_embedding_baseline.jsonl"
+    if embeddings.exists():
+        models: dict[str, Any] = {}
+        for row in _rows(embeddings):
+            models.setdefault(row["model"], {"repo": row["repo"], "cosine": {}})["cosine"][row["pair_id"]] = row["cosine"]
+        _dump(matching / "embedding_baseline.json", {"models": models})
     counters: dict[str, int] = {}
     for c in _rows(data / "grouping_clusters.jsonl"):
         k = counters[c["method"]] = counters.get(c["method"], 0) + 1
