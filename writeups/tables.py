@@ -49,8 +49,8 @@ def table_configs(n: dict[str, Any]) -> str:
         ["DeepSeek [T]", "DeepSeek API, model identifier `deepseek-flash` as returned by the API", "Article text", "On (provider default)", "Provider maximum", "20 Oct 2026"],
         ["DeepSeek [TP]", "same", "Text + publication timestamp", "On (provider default)", "Provider maximum", "8 Nov 2026"],
         ["DeepSeek [TP], reasoning off", "same", "Text + publication timestamp", "Off", "Provider maximum", "10 Nov 2026"],
-        ["Qwen [TPI]", "Qwen3.8-27B, 4-bit (Q4) quantization; hosted by the authors behind an OpenAI-compatible endpoint", "Text + timestamp + up to 3 images", "Off", "8,192 tokens", "8--9 Nov 2026"],
-        ["LFM [TP]", "LFM3-1.7B (1.7 billion parameters); hosted by the authors on two NVIDIA T4 GPUs behind an OpenAI-compatible endpoint", "Text + publication timestamp", "Off", "2,048 tokens", "10 Nov 2026"],
+        ["Qwen [TPI]", "Qwen3.8-27B, 4-bit (Q4) quantization; self-hosted behind an OpenAI-compatible endpoint", "Text + timestamp + up to 3 images", "Off", "8,192 tokens", "8--9 Nov 2026"],
+        ["LFM [TP]", "LFM3-1.7B (1.7 billion parameters); self-hosted on two NVIDIA T4 GPUs behind an OpenAI-compatible endpoint", "Text + publication timestamp", "Off", "2,048 tokens", "10 Nov 2026"],
     ]
     if "lfm_think" in n["extraction"]:
         rows.append(["LFM [TP], reasoning on", "same", "Text + publication timestamp", "On", "16,384 tokens", "10 Nov 2026"])

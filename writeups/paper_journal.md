@@ -55,7 +55,7 @@ Figure 1 summarizes the design. Each article is processed along two independent 
 
 ## 3.1 Corpus
 
-One hundred road accidents were selected, 50 from Bangladesh and 50 from other countries. Candidate articles for each accident were located by web search, assisted by a browser-based AI agent, and each group of articles was then verified by the three annotating authors. For each article, the publisher and URL, the publication date and time, a markdown rendering of the article portion of the HTML page, and all article images were saved. The corpus comprises 244 articles from 102 publishers (208 English, 36 Bengali; 124 Bangladeshi, 120 international). In each region, 30 accidents form the main set (typically three or four articles each, 192 articles in total) and 20 are look-alike accidents (one or two articles each, 52 in total) selected to be confusable with the main set; 236 articles carry at least one image, and 631 images were saved (@@T1@@).
+One hundred road accidents were selected, 50 from Bangladesh and 50 from other countries. Candidate articles for each accident were located by web search, assisted by a browser-based AI agent, and each group of articles was then verified by three of us (the annotating authors). For each article, the publisher and URL, the publication date and time, a markdown rendering of the article portion of the HTML page, and all article images were saved. The corpus comprises 244 articles from 102 publishers (208 English, 36 Bengali; 124 Bangladeshi, 120 international). In each region, 30 accidents form the main set (typically three or four articles each, 192 articles in total) and 20 are look-alike accidents (one or two articles each, 52 in total) selected to be confusable with the main set; 236 articles carry at least one image, and 631 images were saved (@@T1@@).
 
 @@T1@@
 
@@ -69,7 +69,7 @@ For each article, the model and each annotator judged whether the article was us
 
 @@T2@@
 
-Three of the authors annotated the articles from the original web pages without access to model output. Every article has at least one annotation. The reference is one annotation per article: that of the first annotator, in the fixed order A, B, C, who labeled the article (Annotator A wrote 166 of the 244 reference annotations, Annotator B 76, and Annotator C 2). All 244 reference annotations were judged usable: 240 describe one accident, three describe two, and one describes five. No annotation contains coordinates, so coordinates are not scored.
+Three of us annotated the articles from the original web pages without access to model output. Every article has at least one annotation. The reference is one annotation per article: that of the first annotator, in the fixed order A, B, C, who labeled the article (Annotator A wrote 166 of the 244 reference annotations, Annotator B 76, and Annotator C 2). All 244 reference annotations were judged usable: 240 describe one accident, three describe two, and one describes five. No annotation contains coordinates, so coordinates are not scored.
 
 ## 3.4 Model Runs
 
@@ -77,7 +77,7 @@ Each article was submitted in a single request containing the prompt (isolate th
 
 @@T3@@
 
-The models span a range of cost. DeepSeek was accessed through the provider's API. Qwen3.8-27B was hosted by the authors in 4-bit (Q4) quantized form, and LFM3-1.7B, a 1.7-billion-parameter model intended for edge deployment, was hosted by the authors on two NVIDIA T4 GPUs; the latter two were served behind OpenAI-compatible endpoints and processed two requests at a time. The DeepSeek output limit was set to the provider maximum so that reasoning could not truncate an answer; observed use was about 2,900 output tokens per article with reasoning on and about 450 with reasoning off. A free MiniMax model accessed through OpenRouter completed only 72 articles because of service limits and is not reported.
+The models span a range of cost. We accessed DeepSeek through the provider's API. We hosted Qwen3.8-27B ourselves in 4-bit (Q4) quantized form, and likewise LFM3-1.7B, a 1.7-billion-parameter model intended for edge deployment, on two NVIDIA T4 GPUs; we served both behind OpenAI-compatible endpoints, each processing two requests at a time. The DeepSeek output limit was set to the provider maximum so that reasoning could not truncate an answer; observed use was about 2,900 output tokens per article with reasoning on and about 450 with reasoning off. A free MiniMax model accessed through OpenRouter completed only 72 articles because of service limits and is not reported.
 
 @@LFMREASON@@
 
@@ -213,7 +213,7 @@ The findings apply to extraction and same-accident identification on this corpus
 
 # 6. LIMITATIONS
 
-The corpus is small and was assembled deliberately, so rates do not describe news coverage in general. A single annotation per article is the reference (chosen by a fixed annotator order), the annotators and group verifiers are authors, and all articles report an accident, so false alarms were not measured. The same-accident reference groups were assembled with an AI agent and verified by the authors, and several methods score near the ceiling, which limits fine ranking. Same-accident methods were run with DeepSeek, apart from the partial runs of the edge model. Qwen was quantized to 4 bits and differs from DeepSeek in several respects, so the effect of images alone was not isolated. The edge model was tested through a tunnel that limits each request to 100 seconds, with a small output limit and without repair of format violations, so its scores describe that setting. Map points were not evaluated against true coordinates. Provider models change over time, and article text is not shared because it belongs to the publishers.
+The corpus is small and was assembled deliberately, so rates do not describe news coverage in general. A single annotation per article is the reference (chosen by a fixed annotator order), the annotators and group verifiers are among the authors, and all articles report an accident, so false alarms were not measured. The same-accident reference groups were assembled with an AI agent and verified by us, and several methods score near the ceiling, which limits fine ranking. Same-accident methods were run with DeepSeek, apart from the partial runs of the edge model. We ran Qwen quantized to 4 bits and differs from DeepSeek in several respects, so the effect of images alone was not isolated. We tested the edge model through a tunnel that limits each request to 100 seconds, with a small output limit and without repair of format violations, so its scores describe that setting. Map points were not evaluated against true coordinates. Provider models change over time, and article text is not shared because it belongs to the publishers.
 
 # 7. CONCLUSION
 

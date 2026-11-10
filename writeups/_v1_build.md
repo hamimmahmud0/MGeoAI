@@ -81,7 +81,7 @@ We explain each technical term here, and again where it first matters.
 
 ## 3.2 Data Collection
 
-We chose 100 road accidents: 50 from Bangladesh and 50 from the rest of the world. For each accident we searched the web for news articles that report it, with the help of a browser-based AI agent for finding candidates. Every group of articles was then checked by the three annotating authors. For every article we saved:
+We chose 100 road accidents: 50 from Bangladesh and 50 from the rest of the world. For each accident we searched the web for news articles that report it, with the help of a browser-based AI agent for finding candidates. Every group of articles was then checked by three of us (the annotating authors). For every article we saved:
 
 - the publishing website and URL;
 - the publication date and time;
@@ -137,7 +137,7 @@ For every article the model, and each annotator, decides whether the article is 
 
 ## 3.5 Human Annotation and the Reference
 
-Three of the authors annotated the articles. They filled in the same fields as the model, from the original web page, without seeing any model output. Every one of the 244 articles has at least one annotation. The reference is one annotation per article: the annotation of the first annotator, in the fixed order A, B, C, who labeled that article (Annotator A wrote 166 of the 244 reference annotations, Annotator B 76, and Annotator C 2).
+Three of us annotated the articles. They filled in the same fields as the model, from the original web page, without seeing any model output. Every one of the 244 articles has at least one annotation. The reference is one annotation per article: the annotation of the first annotator, in the fixed order A, B, C, who labeled that article (Annotator A wrote 166 of the 244 reference annotations, Annotator B 76, and Annotator C 2).
 
 All 244 reference annotations were judged usable. Of these, 240 describe exactly one accident, three describe two, and one describes five. The annotators entered no coordinates, so coordinates are not scored.
 
@@ -154,10 +154,10 @@ We name each configuration by the model, followed in square brackets by what the
 | DeepSeek [T] | DeepSeek API, model identifier `deepseek-flash` as returned by the API | Article text | On (provider default) | Provider maximum | 20 Oct 2026 |
 | DeepSeek [TP] | same | Text + publication timestamp | On (provider default) | Provider maximum | 8 Nov 2026 |
 | DeepSeek [TP], reasoning off | same | Text + publication timestamp | Off | Provider maximum | 10 Nov 2026 |
-| Qwen [TPI] | Qwen3.8-27B, 4-bit (Q4) quantization; hosted by the authors behind an OpenAI-compatible endpoint | Text + timestamp + up to 3 images | Off | 8,192 tokens | 8--9 Nov 2026 |
-| LFM [TP] | LFM3-1.7B (1.7 billion parameters); hosted by the authors on two NVIDIA T4 GPUs behind an OpenAI-compatible endpoint | Text + publication timestamp | Off | 2,048 tokens | 10 Nov 2026 |
+| Qwen [TPI] | Qwen3.8-27B, 4-bit (Q4) quantization; self-hosted behind an OpenAI-compatible endpoint | Text + timestamp + up to 3 images | Off | 8,192 tokens | 8--9 Nov 2026 |
+| LFM [TP] | LFM3-1.7B (1.7 billion parameters); self-hosted on two NVIDIA T4 GPUs behind an OpenAI-compatible endpoint | Text + publication timestamp | Off | 2,048 tokens | 10 Nov 2026 |
 
-The three models cover a range of size and cost. DeepSeek is a large model reached through a paid web interface. Qwen3.8-27B is a mid-size model that we host ourselves in compressed 4-bit form, so its scores describe the compressed model. LFM3-1.7B is an edge model: at 1.7 billion parameters it is small enough to run on a consumer device, which is what makes it attractive for cheap, large-scale use. We hosted it on two NVIDIA T4 graphics cards. It handles two requests at a time, so articles were sent two at a time. The output limit for DeepSeek was set to the maximum the provider allows so that reasoning could not cut an answer short; in practice DeepSeek wrote about 2,900 tokens per article with reasoning on and about 450 with it off. A free MiniMax model reached through OpenRouter was also tried, but the free service refused most requests and only 72 articles finished, so it is not reported.
+The three models cover a range of size and cost. DeepSeek is a large model that we reach through the provider's paid API. Qwen3.8-27B is a mid-size model that we host ourselves in compressed 4-bit form, so its scores describe the compressed model. LFM3-1.7B is an edge model: at 1.7 billion parameters it is small enough to run on a consumer device, which is what makes it attractive for cheap, large-scale use. We hosted it on two NVIDIA T4 graphics cards. It handles two requests at a time, so articles were sent two at a time. The output limit for DeepSeek was set to the maximum the provider allows so that reasoning could not cut an answer short; in practice DeepSeek wrote about 2,900 tokens per article with reasoning on and about 450 with it off. A free MiniMax model reached through OpenRouter was also tried, but the free service refused most requests and only 72 articles finished, so it is not reported.
 
 We also tried the edge model with reasoning on (output limit 16,384 tokens). Answers with reasoning take longer than the 100 seconds that the tunnel in front of our server allows, so five of six test requests were cut off by the tunnel and the sixth failed the format check. No valid reasoning-on run could be obtained for the edge model, so the effect of reasoning is reported only for DeepSeek.
 
@@ -460,7 +460,7 @@ This paper makes claims about extraction and same-accident identification on thi
 
 # 7. LIMITATIONS
 
-The study set is small and was selected on purpose, so rates do not describe news coverage in general. One annotation per article is the reference (chosen by a fixed annotator order), the annotators and group checkers are authors, and every article reports an accident, so false alarms were not measured. The same-accident reference groups were found with an AI agent and checked by the authors, and several methods score near the ceiling, which limits how finely they can be ranked. Same-accident methods were run with DeepSeek only, apart from the partial runs of the edge model. Qwen is a 4-bit compressed model, and it differs from DeepSeek in several respects at once, so the effect of images alone was not isolated. The edge model was tested through a tunnel that limits each request to 100 seconds, with a small output limit, and without any repair of format errors, so its scores describe this setting. Map points were not scored against true coordinates. Providers update their models, so re-runs may differ. Article text is not shared, because it belongs to the publishers.
+The study set is small and was selected on purpose, so rates do not describe news coverage in general. One annotation per article is the reference (chosen by a fixed annotator order), the annotators and group checkers are among the authors, and every article reports an accident, so false alarms were not measured. The same-accident reference groups were found with an AI agent and checked by us, and several methods score near the ceiling, which limits how finely they can be ranked. Same-accident methods were run with DeepSeek only, apart from the partial runs of the edge model. Qwen is a 4-bit compressed model, and it differs from DeepSeek in several respects at once, so the effect of images alone was not isolated. We tested the edge model through a tunnel that limits each request to 100 seconds, with a small output limit, and without any repair of format errors, so its scores describe this setting. Map points were not scored against true coordinates. Providers update their models, so re-runs may differ. Article text is not shared, because it belongs to the publishers.
 
 # 8. CONCLUSION
 
